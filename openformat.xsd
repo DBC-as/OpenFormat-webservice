@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:docbook="http://docbook.org/ns/docbook" xmlns:oso="http://oss.dbc.dk/ns/opensearchobjects" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput" targetNamespace="http://oss.dbc.dk/ns/openformat" elementFormDefault="qualified">
+	<xs:annotation>
+		<xs:documentation xml:lang="en">Opensearch Service</xs:documentation>
+		<xs:documentation xml:lang="en">This XML Schema describes the data and structure of data of the Opensearch search service.</xs:documentation>
+		<xs:documentation xml:lang="en">This file is part of Open Library System.
+Copyright © 2011, Dansk Bibliotekscenter a/s,  Tempovej 7-11, DK-2750 Ballerup, Denmark. CVR: 15149043
+
+Open Library System is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+Open Library System is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License along with Open Library System.  If not, see http://www.gnu.org/licenses/</xs:documentation>
+	</xs:annotation>
+	<xs:import namespace="http://purl.org/dc/elements/1.1/" schemaLocation="dc.xsd"/>
+	<xs:import namespace="http://biblstandard.dk/abm/namespace/dkabm/" schemaLocation="dkabm.xsd"/>
+	<xs:import namespace="info:lc/xmlns/marcxchange-v1" schemaLocation="marcxchange-1-1.xsd"/>
+	<xs:import namespace="http://docbook.org/ns/docbook" schemaLocation="docbook.xsd"/>
+	<xs:import namespace="http://oss.dbc.dk/ns/openformatoutput" schemaLocation="openformatoutput.xsd"/>
+	<xs:import namespace="http://oss.dbc.dk/ns/opensearchobjects" schemaLocation="opensearchobjects.xsd"/>
+	<xs:element name="formatSingleManifestationRequest">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Request for formatting a single manifestation.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="of:agency" minOccurs="0"/>
+				<xs:element ref="of:authentication" minOccurs="0"/>
+				<xs:element ref="of:callback" minOccurs="0"/>
+				<xs:element ref="of:originalData"/>
+				<xs:element ref="of:outputFormat"/>
+				<xs:element ref="of:outputType" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="formatSingleManifestationResponse">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">The service response.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:choice>
+				<xs:element ref="ofo:bibliotekdkFullDisplay"/>
+				<xs:element ref="ofo:briefDisplayInformation"/>
+				<xs:element ref="ofo:fullDisplayInformation"/>
+				<xs:element ref="of:error"/>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="agency" type="xs:string">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Identifier of the agency using this service</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="authentication">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Parameters used for authentication purposes</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="of:groupIdAut"/>
+				<xs:element ref="of:passwordAut"/>
+				<xs:element ref="of:userIdAut"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="bibliographicData">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="dkabm:record"/>
+				<xs:element ref="marcx:record" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="callback" type="xs:string">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">If outputType=json.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="error" type="xs:string">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Message returned by the service, if an error occurs.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="groupIdAut">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Identifier of the group (most often a library number) the user belongs to (for authentication purposes)</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="originalData">
+		<xs:complexType>
+			<xs:choice>
+				<xs:element ref="of:bibliographicData"/>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="outputFormat" type="of:outputFormatType">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">E.g. bibliotek.dk full display format.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="outputType" type="of:outputTypeType">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">E.g. xml, json or php.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="passwordAut">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Password (for authentication purposes)</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="userIdAut">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">User identifier (for authentication purposes)</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:simpleType name="outputFormatType">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">The types of output that can be returned by the service.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="bibliotekdkFullDisplay"/>
+			<xs:enumeration value="briefDisplay"/>
+			<xs:enumeration value="fullDisplay"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="outputTypeType">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">The types of output that can be returned by the service.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="xml"/>
+			<xs:enumeration value="json"/>
+			<xs:enumeration value="php"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>
