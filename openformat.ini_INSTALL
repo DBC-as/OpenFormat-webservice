@@ -1,0 +1,128 @@
+; Inifile for openformat
+
+[setup]
+; To close a service, set service_http_error
+; service status - values:
+;service_http_error = HTTP/1.0 404 Not Found
+;service_http_error = HTTP/1.1 410 Gone
+;service_http_error = HTTP/1.0 503 Service Unavailable
+
+version = 0.1
+
+; wsdl for service
+wsdl = openformat.wsdl
+
+; in_house_domain may use ?ShowInfo and use create_sample form
+;in_house_domain = .dbc.dk
+
+; set to TRUE to expose the create_sample form
+;show_samples = 1
+;show_samples_ip_list = 127.0.0.1-127.0.0.2
+
+; validate
+;validate[soap_request] = soap.xsd
+;validate[request] = openformat.xsd
+;validate[response] = openformat.xsd
+
+; soapActions and their corresponding request structure
+; Can be found in the wsdl but is stated here for convenience
+soapAction[formatSingleManifestation] = formatSingleManifestationRequest
+
+; prefixes and namespaces
+xmlns[] = http://oss.dbc.dk/ns/openformat
+xmlns[xs] = http://www.w3.org/2001/XMLSchema
+xmlns[xsi] = http://www.w3.org/2001/XMLSchema-instance
+xmlns[oss] = http://oss.dbc.dk/ns/osstypes
+xmlns[dc] = http://purl.org/dc/elements/1.1/
+xmlns[dkabm] = http://biblstandard.dk/abm/namespace/dkabm/
+xmlns[ISO639-2] = http://lcweb.loc.gov/standards/iso639-2/
+xmlns[dcmitype] = http://purl.org/dc/dcmitype/
+xmlns[dcterms] = http://purl.org/dc/terms/
+xmlns[ac] = http://biblstandard.dk/ac/namespace/
+xmlns[dkdcplus] = http://biblstandard.dk/abm/namespace/dkdcplus/
+xmlns[marcx] = info:lc/xmlns/marcxchange-v1
+xmlns[docbook] = http://docbook.org/ns/docbook
+xmlns[oso] = http://oss.dbc.dk/ns/opensearchobjects
+xmlns[ofo] = http://oss.dbc.dk/ns/openformatoutput
+
+; path to xml-examples
+xmldir = ./xml
+
+; memcache
+;cache_host = localhost
+;cache_port = 11211
+;cache_expire = 600
+
+; logfile for verbose output
+logfile = /tmp/netpunkt_fvs/openformat.log
+
+; set verboselevel
+;   WARNING - simple warnings
+;   ERROR   - errors in response
+;   FATAL   - major errors
+;   STAT    - Statístical logging
+;   TIMER   - timer logging
+;   TRACE   - program trace
+;   DEBUG   - debugging info
+;   Z3959   - calls to z3950 services
+;   OCI     - oracle
+verbose = WARNING+ERROR+FATAL+STAT+TIMER+TRACE+DEBUG+Z3950+OCI
+
+; format for automatic timer dump %s is the soap-action used
+dump_timer = openformat(%s)
+
+[aaa]
+; aaa Authentication, Access control and Accounting
+;
+; if aaa_credentials is set, the rights-object is created from
+; aaa_ip_rights below if ip-match otherwise it is set from 
+; the FORS-server if aaa_credentials contains a valid fors-login
+;
+; oci credentials for FORS server
+aaa_credentials = some_ora_user/some_pwd@some_ora_server.dk
+; memcache server - use localhost in one-webserver environment
+;aaa_cache_address = localhost:11211
+; number of seconds to cache authentication and access rights info
+;aaa_cache_seconds = 3600
+;
+; As an alternative to FORS rights, rights can be set here for selected ip-addresses
+; aaa_ip_rights[group-identifier][ip_list] = list of ip's
+; aaa_ip_rights[group-identifier][ressource][<named ressource>] = right to <named ressource>
+; aaa_ip_rights[group-identifier][ressource][<named ressource 2>] = right to <named ressource 2>
+;
+aaa_ip_rights[dbc][ip_list] = 172.16.0.0-172.31.255.255;193.111.162.0-193.111.162.255
+aaa_ip_rights[dbc][ressource][opensearch] = 500
+
+
+[rest]
+; REST parameters for SOAPAction
+;
+; use xml.path.to.par notation to solve name-conflicts
+; action[thisSoapAction][foo][] = some.number
+; action[thisSoapAction][bar][] = another.number
+; to build 
+; <thisSoapAction>
+;   <foo>
+;     <number>nn</number>
+;   </foo>
+;   <bar>
+;     <number>mm</number>
+;   </bar>
+; </thisSoapAction>
+; from url: action=thisSoapAction&some.number=nn&another.number=mm
+;
+; If xml-tags must be in the same order as the xsd in order to validate
+; use the same order below as in the xsd used for validating
+;
+
+action[formatSingleManifestation][] = agency
+action[formatSingleManifestation][] = callback
+action[formatSingleManifestation][] = originalData
+action[formatSingleManifestation][] = outputFormat
+action[formatSingleManifestation][] = outputType
+
+
+[howru]
+;test[] = 
+;preg_match[] = 
+;error[] = 
