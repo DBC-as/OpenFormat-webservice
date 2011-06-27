@@ -31,9 +31,11 @@
 				<xs:element ref="ofo:description" minOccurs="0"/>
 				<xs:element ref="ofo:details" minOccurs="0"/>
 				<xs:element ref="ofo:publicationDetails" minOccurs="0"/>
+				<xs:element ref="content" minOccurs="0"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
+	<xs:element name="content" type="xs:string"/>
 	<xs:element name="creator" type="xs:string"/>
 	<xs:element name="description" type="xs:string"/>
 	<xs:element name="details" type="xs:string"/>
