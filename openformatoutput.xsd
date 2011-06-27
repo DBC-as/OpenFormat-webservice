@@ -31,7 +31,7 @@
 				<xs:element ref="ofo:description" minOccurs="0"/>
 				<xs:element ref="ofo:details" minOccurs="0"/>
 				<xs:element ref="ofo:publicationDetails" minOccurs="0"/>
-				<xs:element ref="content" minOccurs="0"/>
+				<xs:element ref="ofo:content" minOccurs="0"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
