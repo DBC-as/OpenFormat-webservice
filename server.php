@@ -99,19 +99,24 @@ class openFormat extends webServiceServer {
                 htmlspecialchars ('<div class="publication"><div class="edition">1. udgave, 3. oplag</div>. <div class="publisher">Aschehoug</div>, <div class="year">1997</div></div>') . 
                 '</ofo:publicationDetails>';
         $xml .= '</xml>';
-        $this->curl->set_post_xml($xml);
+        $this->curl->set_post_xml($this->objconvert->obj2xmlNs($rec));
         $js_result = $this->curl->get($this->config->get_value('js_server', 'setup'));
+
+        //print_r($js_result);
 
         $dom = new DomDocument();
         $dom->preserveWhiteSpace = false;
-        if (@ $dom->loadXML($js_result))
+        if ( $dom->loadXML($js_result) ) {
             $js_obj = $this->xmlconvert->xml2obj($dom);
-        else {
+            return $js_obj->bibliotekdkFullDisplay->_value;
+        } else {
             $js_obj->xml->_value->description->_value = 'Error formatting record - no valid response';
             $js_obj->xml->_value->description->_namespace = $this->xmlns['ofo'];
+            return $js_obj->xml->_value;
         }
-
-        return $js_obj->xml->_value;
+        // print_r($js_obj);
+        // mbd: Actually never called at this point... sorry about that.
+        return $js_obj->bibliotekdkFullDisplay->_value;
     }
 
     private function strip_oci_pwd($cred) {
