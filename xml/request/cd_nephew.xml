@@ -1,257 +1,257 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<SOAP-ENV:Body>
-		<ns1:formatSingleManifestationRequest>
-			<ns1:originalData>
-				<ns1:bibliographicData>
-					<dkabm:record>
-						<ac:identifier>25294424|870970</ac:identifier>
-						<ac:source>Bibliotekets materialer</ac:source>
-						<dc:title>USADSB</dc:title>
-						<dc:title xsi:type="dkdcplus:full">USADSB</dc:title>
-						<dc:creator>Nephew</dc:creator>
-						<dc:creator xsi:type="dkdcplus:sort">Nephew</dc:creator>
-						<dc:subject xsi:type="dkdcplus:DK5">78.794:5</dc:subject>
-						<dc:subject xsi:type="dkdcplus:DK5-Text">Rock (Beat). Moderne folkemusik (Folk)</dc:subject>
-						<dc:subject xsi:type="dkdcplus:DBCM">rock</dc:subject>
-						<dc:subject xsi:type="dkdcplus:genre">rock</dc:subject>
-						<dc:subject xsi:type="dkdcplus:DBCM">vokal</dc:subject>
-						<dc:description>Indspillet i Århus</dc:description>
-						<dcterms:audience>børnematerialer</dcterms:audience>
-						<dcterms:audience>voksenmaterialer</dcterms:audience>
-						<dc:publisher>Copenhagen</dc:publisher>
-						<dc:contributor>Søren Arnholt</dc:contributor>
-						<dc:contributor>Tore Dencker</dc:contributor>
-						<dc:contributor>Hans Christian Ilskov Erbs</dc:contributor>
-						<dc:contributor>Simon Kvamm</dc:contributor>
-						<dc:contributor>Kristian Riis</dc:contributor>
-						<dc:contributor>Henriette Sennenvaldt</dc:contributor>
-						<dc:contributor>René Munk Thalund</dc:contributor>
-						<dc:contributor>Kasper Toustrup</dc:contributor>
-						<dc:date>2004</dc:date>
-						<dc:type xsi:type="dkdcplus:BibDK-Type">Cd</dc:type>
-						<dc:format>1 cd</dc:format>
-						<dc:identifier>Copenhagen CPHREC 0004</dc:identifier>
-						<dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
-						<dc:language>Dansk</dc:language>
-						<dcterms:hasPart xsi:type="dkdcplus:track">Movie klip</dcterms:hasPart>
-						<dcterms:hasPart xsi:type="dkdcplus:track">Superliga</dcterms:hasPart>
-						<dcterms:hasPart xsi:type="dkdcplus:track">Blå &amp; black</dcterms:hasPart>
-						<dcterms:hasPart xsi:type="dkdcplus:track">Milk &amp; wine</dcterms:hasPart>
-						<dcterms:hasPart xsi:type="dkdcplus:track">Dårlig træning</dcterms:hasPart>
-						<dcterms:hasPart xsi:type="dkdcplus:track">En wannabe Darth Vader</dcterms:hasPart>
-						<dcterms:hasPart xsi:type="dkdcplus:track">Worst/best case scenario</dcterms:hasPart>
-						<dcterms:hasPart xsi:type="dkdcplus:track">Ordenspoliti</dcterms:hasPart>
-						<dcterms:hasPart xsi:type="dkdcplus:track">USA DSB</dcterms:hasPart>
-						<dcterms:hasPart xsi:type="dkdcplus:track">Bazooka</dcterms:hasPart>
-						<dcterms:spatial xsi:type="dkdcplus:DBCM">Danmark</dcterms:spatial>
-						<dcterms:temporal xsi:type="dkdcplus:DBCM">2000-2009</dcterms:temporal>
-					</dkabm:record>
-					<marcx:collection xmlns:marcx="http://www.bs.dk/standards/MarcXchange">
-						<record format="danMARC2" type="Bibliographic">
-							<leader>000000000000000000000000</leader>
-							<datafield tag="001" ind1="0" ind2="0">
-								<subfield code="a">25294424</subfield>
-								<subfield code="b">870970</subfield>
-								<subfield code="c">20110329135312</subfield>
-								<subfield code="d">20040628</subfield>
-								<subfield code="f">a</subfield>
-								<subfield code="t">FAUST</subfield>
-							</datafield>
-							<datafield tag="004" ind1="0" ind2="0">
-								<subfield code="r">n</subfield>
-								<subfield code="a">e</subfield>
-							</datafield>
-							<datafield tag="008" ind1="0" ind2="0">
-								<subfield code="t">s</subfield>
-								<subfield code="u">f</subfield>
-								<subfield code="a">2004</subfield>
-								<subfield code="b">dk</subfield>
-								<subfield code="l">dan</subfield>
-								<subfield code="v">0</subfield>
-							</datafield>
-							<datafield tag="009" ind1="0" ind2="0">
-								<subfield code="a">s</subfield>
-								<subfield code="g">xc</subfield>
-							</datafield>
-							<datafield tag="020" ind1="0" ind2="0">
-								<subfield code="a">dk</subfield>
-							</datafield>
-							<datafield tag="021" ind1="0" ind2="0">
-								<subfield code="d">kr. 159,00</subfield>
-							</datafield>
-							<datafield tag="023" ind1="0" ind2="0">
-								<subfield code="a">5700771100040</subfield>
-							</datafield>
-							<datafield tag="032" ind1="0" ind2="0">
-								<subfield code="a">DMO200428</subfield>
-								<subfield code="x">SFG200428</subfield>
-								<subfield code="x">DAT201114</subfield>
-							</datafield>
-							<datafield tag="039" ind1="0" ind2="0">
-								<subfield code="a">bef</subfield>
-							</datafield>
-							<datafield tag="110" ind1="0" ind2="0">
-								<subfield code="0"/>
-								<subfield code="a">Nephew</subfield>
-							</datafield>
-							<datafield tag="245" ind1="0" ind2="0">
-								<subfield code="a">USADSB</subfield>
-								<subfield code="i">musik: Nephew</subfield>
-								<subfield code="i">ord: Simon Kvamm</subfield>
-								<subfield code="j">Nephew (Simon Kvamm, Kristian Riis, Kasper Toustrup, Søren Arnholt) ... [et al.]</subfield>
-								<subfield code="i">Nephew (Simon Kvamm, vokal, tangenter ; Kristian Riis, guitar, kor ; Kasper Toustrup, bas, kor ; Søren Arnholt, trommer, kor)</subfield>
-								<subfield code="i">produktion, mix: Carsten Heller</subfield>
-								<subfield code="i">teknik: Carsten Nielsen</subfield>
-							</datafield>
-							<datafield tag="260" ind1="0" ind2="0">
-								<subfield code="a">[S.l.]</subfield>
-								<subfield code="b">Copenhagen</subfield>
-								<subfield code="c">p 2004</subfield>
-							</datafield>
-							<datafield tag="300" ind1="0" ind2="0">
-								<subfield code="n">1 cd</subfield>
-							</datafield>
-							<datafield tag="512" ind1="0" ind2="0">
-								<subfield code="a">Indspillet i Århus</subfield>
-							</datafield>
-							<datafield tag="531" ind1="0" ind2="0">
-								<subfield code="a">Indhold:</subfield>
-							</datafield>
-							<datafield tag="538" ind1="0" ind2="0">
-								<subfield code="f">Copenhagen</subfield>
-								<subfield code="g">CPHREC 0004</subfield>
-							</datafield>
-							<datafield tag="652" ind1="0" ind2="0">
-								<subfield code="m">78.794</subfield>
-								<subfield code="v">5</subfield>
-							</datafield>
-							<datafield tag="666" ind1="0" ind2="0">
-								<subfield code="m">rock</subfield>
-								<subfield code="n">vokal</subfield>
-								<subfield code="p">2000-2009</subfield>
-								<subfield code="l">Danmark</subfield>
-							</datafield>
-							<datafield tag="700" ind1="0" ind2="0">
-								<subfield code="0"/>
-								<subfield code="a">Arnholt</subfield>
-								<subfield code="h">Søren</subfield>
-							</datafield>
-							<datafield tag="700" ind1="0" ind2="0">
-								<subfield code="0"/>
-								<subfield code="å">22</subfield>
-								<subfield code="a">Dencker</subfield>
-								<subfield code="h">Tore</subfield>
-							</datafield>
-							<datafield tag="700" ind1="0" ind2="0">
-								<subfield code="0"/>
-								<subfield code="å">4</subfield>
-								<subfield code="a">Erbs</subfield>
-								<subfield code="h">Hans Christian Ilskov</subfield>
-							</datafield>
-							<datafield tag="700" ind1="0" ind2="0">
-								<subfield code="0"/>
-								<subfield code="a">Kvamm</subfield>
-								<subfield code="h">Simon</subfield>
-							</datafield>
-							<datafield tag="700" ind1="0" ind2="0">
-								<subfield code="0"/>
-								<subfield code="a">Riis</subfield>
-								<subfield code="h">Kristian</subfield>
-							</datafield>
-							<datafield tag="700" ind1="0" ind2="0">
-								<subfield code="0"/>
-								<subfield code="a">Sennenvaldt</subfield>
-								<subfield code="h">Henriette</subfield>
-							</datafield>
-							<datafield tag="700" ind1="0" ind2="0">
-								<subfield code="0"/>
-								<subfield code="å">1</subfield>
-								<subfield code="a">Thalund</subfield>
-								<subfield code="h">René Munk</subfield>
-							</datafield>
-							<datafield tag="700" ind1="0" ind2="0">
-								<subfield code="0"/>
-								<subfield code="a">Toustrup</subfield>
-								<subfield code="h">Kasper</subfield>
-							</datafield>
-							<datafield tag="795" ind1="0" ind2="0">
-								<subfield code="å">11</subfield>
-								<subfield code="0"/>
-								<subfield code="a">Movie klip</subfield>
-								<subfield code="a">Superliga</subfield>
-								<subfield code="a">Blå &amp; black</subfield>
-								<subfield code="i">Henriette Sennenvaldt, supplerende vokal</subfield>
-								<subfield code="a">Milk &amp; wine</subfield>
-								<subfield code="a">Dårlig træning</subfield>
-								<subfield code="i">Stefan Kvamm, violin</subfield>
-								<subfield code="a">En ¤wannabe Darth Vader</subfield>
-								<subfield code="a">Worst/best case scenario</subfield>
-								<subfield code="i">René Munk Thalund, supplerende tangenter</subfield>
-								<subfield code="a">Ordenspoliti</subfield>
-								<subfield code="i">Tore Hougaard Dencker, basun</subfield>
-								<subfield code="i">Hans Christian Erbs, trompet</subfield>
-								<subfield code="a">USA DSB</subfield>
-								<subfield code="a">Bazooka</subfield>
-							</datafield>
-							<datafield tag="900" ind1="0" ind2="0">
-								<subfield code="0"/>
-								<subfield code="a">Hougaard Dencker</subfield>
-								<subfield code="h">Tore</subfield>
-								<subfield code="x">se</subfield>
-								<subfield code="w">Dencker, Tore</subfield>
-								<subfield code="z">700/22</subfield>
-							</datafield>
-							<datafield tag="900" ind1="0" ind2="0">
-								<subfield code="0"/>
-								<subfield code="a">Dencker</subfield>
-								<subfield code="h">Tore Hougaard</subfield>
-								<subfield code="x">se</subfield>
-								<subfield code="w">Dencker, Tore</subfield>
-								<subfield code="z">700/22</subfield>
-							</datafield>
-							<datafield tag="900" ind1="0" ind2="0">
-								<subfield code="0"/>
-								<subfield code="a">Munk Thalund</subfield>
-								<subfield code="h">René</subfield>
-								<subfield code="x">se</subfield>
-								<subfield code="w">Thalund, René Munk</subfield>
-								<subfield code="z">700/1</subfield>
-							</datafield>
-							<datafield tag="900" ind1="0" ind2="0">
-								<subfield code="0"/>
-								<subfield code="a">Erbs</subfield>
-								<subfield code="h">Hans Christian</subfield>
-								<subfield code="x">se</subfield>
-								<subfield code="w">Erbs, Hans Christian Ilskov</subfield>
-								<subfield code="z">700/4</subfield>
-							</datafield>
-							<datafield tag="900" ind1="0" ind2="0">
-								<subfield code="0"/>
-								<subfield code="a">Ilskov Erbs</subfield>
-								<subfield code="h">Hans Christian</subfield>
-								<subfield code="x">se</subfield>
-								<subfield code="w">Erbs, Hans Christian Ilskov</subfield>
-								<subfield code="z">700/4</subfield>
-							</datafield>
-							<datafield tag="s10" ind1="0" ind2="0">
-								<subfield code="a">DBC</subfield>
-							</datafield>
-							<datafield tag="990" ind1="0" ind2="0">
-								<subfield code="a">SFG</subfield>
-								<subfield code="o">200428</subfield>
-								<subfield code="b">B</subfield>
-								<subfield code="c">C</subfield>
-								<subfield code="t">30.07.04</subfield>
-							</datafield>
-							<datafield tag="991" ind1="0" ind2="0">
-								<subfield code="o">\(Diskodiagnoser 200428)\</subfield>
-							</datafield>
-						</record>
-					</marcx:collection>
-				</ns1:bibliographicData>
-			</ns1:originalData>
-			<ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
-		</ns1:formatSingleManifestationRequest>
-	</SOAP-ENV:Body>
+  <SOAP-ENV:Body>
+    <ns1:formatSingleManifestationRequest>
+      <ns1:originalData>
+        <ns1:bibliographicData>
+          <dkabm:record>
+            <ac:identifier>25294424|870970</ac:identifier>
+            <ac:source>Bibliotekets materialer</ac:source>
+            <dc:title>USADSB</dc:title>
+            <dc:title xsi:type="dkdcplus:full">USADSB</dc:title>
+            <dc:creator>Nephew</dc:creator>
+            <dc:creator xsi:type="dkdcplus:sort">Nephew</dc:creator>
+            <dc:subject xsi:type="dkdcplus:DK5">78.794:5</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DK5-Text">Rock (Beat). Moderne folkemusik (Folk)</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCM">rock</dc:subject>
+            <dc:subject xsi:type="dkdcplus:genre">rock</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCM">vokal</dc:subject>
+            <dc:description>Indspillet i Århus</dc:description>
+            <dcterms:audience>børnematerialer</dcterms:audience>
+            <dcterms:audience>voksenmaterialer</dcterms:audience>
+            <dc:publisher>Copenhagen</dc:publisher>
+            <dc:contributor>Søren Arnholt</dc:contributor>
+            <dc:contributor>Tore Dencker</dc:contributor>
+            <dc:contributor>Hans Christian Ilskov Erbs</dc:contributor>
+            <dc:contributor>Simon Kvamm</dc:contributor>
+            <dc:contributor>Kristian Riis</dc:contributor>
+            <dc:contributor>Henriette Sennenvaldt</dc:contributor>
+            <dc:contributor>René Munk Thalund</dc:contributor>
+            <dc:contributor>Kasper Toustrup</dc:contributor>
+            <dc:date>2004</dc:date>
+            <dc:type xsi:type="dkdcplus:BibDK-Type">Cd</dc:type>
+            <dc:format>1 cd</dc:format>
+            <dc:identifier>Copenhagen CPHREC 0004</dc:identifier>
+            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+            <dc:language>Dansk</dc:language>
+            <dcterms:hasPart xsi:type="dkdcplus:track">Movie klip</dcterms:hasPart>
+            <dcterms:hasPart xsi:type="dkdcplus:track">Superliga</dcterms:hasPart>
+            <dcterms:hasPart xsi:type="dkdcplus:track">Blå &amp; black</dcterms:hasPart>
+            <dcterms:hasPart xsi:type="dkdcplus:track">Milk &amp; wine</dcterms:hasPart>
+            <dcterms:hasPart xsi:type="dkdcplus:track">Dårlig træning</dcterms:hasPart>
+            <dcterms:hasPart xsi:type="dkdcplus:track">En wannabe Darth Vader</dcterms:hasPart>
+            <dcterms:hasPart xsi:type="dkdcplus:track">Worst/best case scenario</dcterms:hasPart>
+            <dcterms:hasPart xsi:type="dkdcplus:track">Ordenspoliti</dcterms:hasPart>
+            <dcterms:hasPart xsi:type="dkdcplus:track">USA DSB</dcterms:hasPart>
+            <dcterms:hasPart xsi:type="dkdcplus:track">Bazooka</dcterms:hasPart>
+            <dcterms:spatial xsi:type="dkdcplus:DBCM">Danmark</dcterms:spatial>
+            <dcterms:temporal xsi:type="dkdcplus:DBCM">2000-2009</dcterms:temporal>
+          </dkabm:record>
+          <marcx:collection xmlns:marcx="http://www.bs.dk/standards/MarcXchange">
+            <record format="danMARC2" type="Bibliographic">
+              <leader>000000000000000000000000</leader>
+              <datafield tag="001" ind1="0" ind2="0">
+                <subfield code="a">25294424</subfield>
+                <subfield code="b">870970</subfield>
+                <subfield code="c">20110329135312</subfield>
+                <subfield code="d">20040628</subfield>
+                <subfield code="f">a</subfield>
+                <subfield code="t">FAUST</subfield>
+              </datafield>
+              <datafield tag="004" ind1="0" ind2="0">
+                <subfield code="r">n</subfield>
+                <subfield code="a">e</subfield>
+              </datafield>
+              <datafield tag="008" ind1="0" ind2="0">
+                <subfield code="t">s</subfield>
+                <subfield code="u">f</subfield>
+                <subfield code="a">2004</subfield>
+                <subfield code="b">dk</subfield>
+                <subfield code="l">dan</subfield>
+                <subfield code="v">0</subfield>
+              </datafield>
+              <datafield tag="009" ind1="0" ind2="0">
+                <subfield code="a">s</subfield>
+                <subfield code="g">xc</subfield>
+              </datafield>
+              <datafield tag="020" ind1="0" ind2="0">
+                <subfield code="a">dk</subfield>
+              </datafield>
+              <datafield tag="021" ind1="0" ind2="0">
+                <subfield code="d">kr. 159,00</subfield>
+              </datafield>
+              <datafield tag="023" ind1="0" ind2="0">
+                <subfield code="a">5700771100040</subfield>
+              </datafield>
+              <datafield tag="032" ind1="0" ind2="0">
+                <subfield code="a">DMO200428</subfield>
+                <subfield code="x">SFG200428</subfield>
+                <subfield code="x">DAT201114</subfield>
+              </datafield>
+              <datafield tag="039" ind1="0" ind2="0">
+                <subfield code="a">bef</subfield>
+              </datafield>
+              <datafield tag="110" ind1="0" ind2="0">
+                <subfield code="0"/>
+                <subfield code="a">Nephew</subfield>
+              </datafield>
+              <datafield tag="245" ind1="0" ind2="0">
+                <subfield code="a">USADSB</subfield>
+                <subfield code="i">musik: Nephew</subfield>
+                <subfield code="i">ord: Simon Kvamm</subfield>
+                <subfield code="j">Nephew (Simon Kvamm, Kristian Riis, Kasper Toustrup, Søren Arnholt) ... [et al.]</subfield>
+                <subfield code="i">Nephew (Simon Kvamm, vokal, tangenter ; Kristian Riis, guitar, kor ; Kasper Toustrup, bas, kor ; Søren Arnholt, trommer, kor)</subfield>
+                <subfield code="i">produktion, mix: Carsten Heller</subfield>
+                <subfield code="i">teknik: Carsten Nielsen</subfield>
+              </datafield>
+              <datafield tag="260" ind1="0" ind2="0">
+                <subfield code="a">[S.l.]</subfield>
+                <subfield code="b">Copenhagen</subfield>
+                <subfield code="c">p 2004</subfield>
+              </datafield>
+              <datafield tag="300" ind1="0" ind2="0">
+                <subfield code="n">1 cd</subfield>
+              </datafield>
+              <datafield tag="512" ind1="0" ind2="0">
+                <subfield code="a">Indspillet i Århus</subfield>
+              </datafield>
+              <datafield tag="531" ind1="0" ind2="0">
+                <subfield code="a">Indhold:</subfield>
+              </datafield>
+              <datafield tag="538" ind1="0" ind2="0">
+                <subfield code="f">Copenhagen</subfield>
+                <subfield code="g">CPHREC 0004</subfield>
+              </datafield>
+              <datafield tag="652" ind1="0" ind2="0">
+                <subfield code="m">78.794</subfield>
+                <subfield code="v">5</subfield>
+              </datafield>
+              <datafield tag="666" ind1="0" ind2="0">
+                <subfield code="m">rock</subfield>
+                <subfield code="n">vokal</subfield>
+                <subfield code="p">2000-2009</subfield>
+                <subfield code="l">Danmark</subfield>
+              </datafield>
+              <datafield tag="700" ind1="0" ind2="0">
+                <subfield code="0"/>
+                <subfield code="a">Arnholt</subfield>
+                <subfield code="h">Søren</subfield>
+              </datafield>
+              <datafield tag="700" ind1="0" ind2="0">
+                <subfield code="0"/>
+                <subfield code="å">22</subfield>
+                <subfield code="a">Dencker</subfield>
+                <subfield code="h">Tore</subfield>
+              </datafield>
+              <datafield tag="700" ind1="0" ind2="0">
+                <subfield code="0"/>
+                <subfield code="å">4</subfield>
+                <subfield code="a">Erbs</subfield>
+                <subfield code="h">Hans Christian Ilskov</subfield>
+              </datafield>
+              <datafield tag="700" ind1="0" ind2="0">
+                <subfield code="0"/>
+                <subfield code="a">Kvamm</subfield>
+                <subfield code="h">Simon</subfield>
+              </datafield>
+              <datafield tag="700" ind1="0" ind2="0">
+                <subfield code="0"/>
+                <subfield code="a">Riis</subfield>
+                <subfield code="h">Kristian</subfield>
+              </datafield>
+              <datafield tag="700" ind1="0" ind2="0">
+                <subfield code="0"/>
+                <subfield code="a">Sennenvaldt</subfield>
+                <subfield code="h">Henriette</subfield>
+              </datafield>
+              <datafield tag="700" ind1="0" ind2="0">
+                <subfield code="0"/>
+                <subfield code="å">1</subfield>
+                <subfield code="a">Thalund</subfield>
+                <subfield code="h">René Munk</subfield>
+              </datafield>
+              <datafield tag="700" ind1="0" ind2="0">
+                <subfield code="0"/>
+                <subfield code="a">Toustrup</subfield>
+                <subfield code="h">Kasper</subfield>
+              </datafield>
+              <datafield tag="795" ind1="0" ind2="0">
+                <subfield code="å">11</subfield>
+                <subfield code="0"/>
+                <subfield code="a">Movie klip</subfield>
+                <subfield code="a">Superliga</subfield>
+                <subfield code="a">Blå &amp; black</subfield>
+                <subfield code="i">Henriette Sennenvaldt, supplerende vokal</subfield>
+                <subfield code="a">Milk &amp; wine</subfield>
+                <subfield code="a">Dårlig træning</subfield>
+                <subfield code="i">Stefan Kvamm, violin</subfield>
+                <subfield code="a">En ¤wannabe Darth Vader</subfield>
+                <subfield code="a">Worst/best case scenario</subfield>
+                <subfield code="i">René Munk Thalund, supplerende tangenter</subfield>
+                <subfield code="a">Ordenspoliti</subfield>
+                <subfield code="i">Tore Hougaard Dencker, basun</subfield>
+                <subfield code="i">Hans Christian Erbs, trompet</subfield>
+                <subfield code="a">USA DSB</subfield>
+                <subfield code="a">Bazooka</subfield>
+              </datafield>
+              <datafield tag="900" ind1="0" ind2="0">
+                <subfield code="0"/>
+                <subfield code="a">Hougaard Dencker</subfield>
+                <subfield code="h">Tore</subfield>
+                <subfield code="x">se</subfield>
+                <subfield code="w">Dencker, Tore</subfield>
+                <subfield code="z">700/22</subfield>
+              </datafield>
+              <datafield tag="900" ind1="0" ind2="0">
+                <subfield code="0"/>
+                <subfield code="a">Dencker</subfield>
+                <subfield code="h">Tore Hougaard</subfield>
+                <subfield code="x">se</subfield>
+                <subfield code="w">Dencker, Tore</subfield>
+                <subfield code="z">700/22</subfield>
+              </datafield>
+              <datafield tag="900" ind1="0" ind2="0">
+                <subfield code="0"/>
+                <subfield code="a">Munk Thalund</subfield>
+                <subfield code="h">René</subfield>
+                <subfield code="x">se</subfield>
+                <subfield code="w">Thalund, René Munk</subfield>
+                <subfield code="z">700/1</subfield>
+              </datafield>
+              <datafield tag="900" ind1="0" ind2="0">
+                <subfield code="0"/>
+                <subfield code="a">Erbs</subfield>
+                <subfield code="h">Hans Christian</subfield>
+                <subfield code="x">se</subfield>
+                <subfield code="w">Erbs, Hans Christian Ilskov</subfield>
+                <subfield code="z">700/4</subfield>
+              </datafield>
+              <datafield tag="900" ind1="0" ind2="0">
+                <subfield code="0"/>
+                <subfield code="a">Ilskov Erbs</subfield>
+                <subfield code="h">Hans Christian</subfield>
+                <subfield code="x">se</subfield>
+                <subfield code="w">Erbs, Hans Christian Ilskov</subfield>
+                <subfield code="z">700/4</subfield>
+              </datafield>
+              <datafield tag="s10" ind1="0" ind2="0">
+                <subfield code="a">DBC</subfield>
+              </datafield>
+              <datafield tag="990" ind1="0" ind2="0">
+                <subfield code="a">SFG</subfield>
+                <subfield code="o">200428</subfield>
+                <subfield code="b">B</subfield>
+                <subfield code="c">C</subfield>
+                <subfield code="t">30.07.04</subfield>
+              </datafield>
+              <datafield tag="991" ind1="0" ind2="0">
+                <subfield code="o">\(Diskodiagnoser 200428)\</subfield>
+              </datafield>
+            </record>
+          </marcx:collection>
+        </ns1:bibliographicData>
+      </ns1:originalData>
+      <ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
+    </ns1:formatSingleManifestationRequest>
+  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
