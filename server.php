@@ -30,6 +30,7 @@ define(DEBUG_ON, FALSE);
 //-----------------------------------------------------------------------------
 class openFormat extends webServiceServer {
     protected $curl;
+    protected $transaction_id;
 
     public function __construct(){
         webServiceServer::__construct('openformat.ini');
@@ -38,6 +39,7 @@ class openFormat extends webServiceServer {
             $timeout = 20;
         $this->curl = new curl();
         $this->curl->set_option(CURLOPT_TIMEOUT, $timeout);
+        $this->curl->set_option(CURLOPT_HTTPHEADER, array('Content-Type: text/xml; charset=UTF-8'));
 /*
 */
     }
@@ -50,10 +52,14 @@ class openFormat extends webServiceServer {
         if (!$this->aaa->has_right('openformat', 500))
             $res->error->_value = 'authentication_error';
         else {
+            if (!($this->transaction_id = $param->transactionId->_value))
+                $this->transaction_id = (string) mt_rand();
+            $form_req->formatSingleManifestationRequest->_value = $param;
             $res->bibliotekdkFullDisplay->_namespace = $this->xmlns['ofo'];
             $res->bibliotekdkFullDisplay->_value->displayInformation->_namespace = $this->xmlns['ofo'];
             $res->bibliotekdkFullDisplay->_value->displayInformation->_value = 
-               $this->format_rec($param->originalData->_value, $param->outputFormat->_value);
+               $this->format_rec($form_req, $param->outputFormat->_value);
+               //$this->format_rec($param->originalData->_value, $param->outputFormat->_value);
         }
         //var_dump($res); var_dump($param); die();
         $ret->formatSingleManifestationResponse->_value = $res;
@@ -78,31 +84,15 @@ class openFormat extends webServiceServer {
      *
      */
     private function format_rec(&$rec, $format) {
-    // fake output
-        $xml = '<xml xmlns:ofo="' . $this->xmlns['ofo'] . '">';
-        $xml .= '<ofo:creator>' . 
-                htmlspecialchars ('<div class="creator">Hans Engell</div>') . 
-                '</ofo:creator>';
-        $xml .= '<ofo:title>' .
-                htmlspecialchars ('<div class="title">P Slotsholmen</div>') . 
-                '</ofo:title>';
-        $xml .= '<ofo:type>' .
-                htmlspecialchars ('<div class="type">Bog</div>') . 
-                '</ofo:type>';
-        $xml .= '<ofo:description>' .
-                htmlspecialchars ('<div class="description"><div class="subjects"><span class="subjectHeader">Emne:</span><span class="subject">1945-1999</span><span class="punctuation">;</span><span class="subject">96.72</span><span class="punctuation">;</span><span class="subject">Det Konservative Folkeparti</span><span class="punctuation">;</span><span class="subject">Hans Engell</span><span class="punctuation">;</span><span class="subject">Engell, Hans</span><span class="punctuation">;</span><span class="subject">erindringer</span><span class="punctuation">;</span><span class="subject">historie</span><span class="punctuation">;</span><span class="subject">politik</span><span class="punctuation">;</span><span class="subject">politikere</span><span class="punctuation">;</span><span class="subject">politiske forhold</span><span class="punctuation">;</span><span class="subject">politiske partier</span></div><div class="abstract">Hans Engell (f. 1948), der i 1997 gik af som konservativ partileder, beskriver det politiske liv p Slotsholmen fra han i 1978 startede som pressechef til han i 1993 sluttede som justitsminister, da Tamilsagen tvang Schlter-regeringen til at g</div></div>') . 
-                '</ofo:description>';
-        $xml .= '<ofo:details>' .
-                htmlspecialchars ('<div class="details"><div class="format">455 sider, illustreret</div><div class="formHeader">Form: </div><div class="form">erindringer</div><div class="shelfHeader">Opstilling i folkebiblioteker: <div class="shelf">96.72</div><div class="note"><div class="noteHeader">Samhrende: </div><div class="noteLink">P Slotsholmen</div> ; <div class="noteLink">Farvel til Slotsholmen</div></div><div class="isbn">ISBN: 87-11-15086-6</div><div class="price">Pris ved udgivelsen: kr. 149,00</div></div>') . 
-                '</ofo:details>';
-        $xml .= '<ofo:publicationDetails>' .
-                htmlspecialchars ('<div class="publication"><div class="edition">1. udgave, 3. oplag</div>. <div class="publisher">Aschehoug</div>, <div class="year">1997</div></div>') . 
-                '</ofo:publicationDetails>';
-        $xml .= '</xml>';
+        // return $this->fake_output();
+        //verbose::log(TRACE, 'help ' . $rec->bibliographicData->_value->record->_value->description->_value);
+        //$help = $this->objconvert->obj2xmlNs($rec);
+        //verbose::log(TRACE, 'help ' . $help);
         $this->curl->set_post_xml($this->objconvert->obj2xmlNs($rec));
+        $this->watch->start('Tomcat');
         $js_result = $this->curl->get($this->config->get_value('js_server', 'setup'));
-
-        //print_r($js_result);
+        $this->watch->stop('Tomcat');
+        //verbose::log(TRACE, 'js_result ' . $js_result);
 
         $dom = new DomDocument();
         $dom->preserveWhiteSpace = false;
@@ -114,9 +104,6 @@ class openFormat extends webServiceServer {
             $js_obj->xml->_value->description->_namespace = $this->xmlns['ofo'];
             return $js_obj->xml->_value;
         }
-        // print_r($js_obj);
-        // mbd: Actually never called at this point... sorry about that.
-        return $js_obj->bibliotekdkFullDisplay->_value;
     }
 
     private function strip_oci_pwd($cred) {
@@ -142,6 +129,32 @@ class openFormat extends webServiceServer {
      */
     private function strip_agency($id) {
         return preg_replace('/\D/', '', $id);
+    }
+
+    /** \brief
+     *  return test output
+     */
+    private function fake_output() {
+        return '<xml xmlns:ofo="' . $this->xmlns['ofo'] . '">' .
+               '  <ofo:creator>' . 
+               htmlspecialchars ('<div class="creator">Hans Engell</div>') . 
+               '  </ofo:creator>' .
+               '  <ofo:title>' .
+               htmlspecialchars ('<div class="title">P Slotsholmen</div>') . 
+               '  </ofo:title>' .
+               '  <ofo:type>' .
+               htmlspecialchars ('<div class="type">Bog</div>') . 
+               '  </ofo:type>' .
+               '  <ofo:description>' .
+               htmlspecialchars ('<div class="description"><div class="subjects"><span class="subjectHeader">Emne:</span><span class="subject">1945-1999</span><span class="punctuation">;</span><span class="subject">96.72</span><span class="punctuation">;</span><span class="subject">Det Konservative Folkeparti</span><span class="punctuation">;</span><span class="subject">Hans Engell</span><span class="punctuation">;</span><span class="subject">Engell, Hans</span><span class="punctuation">;</span><span class="subject">erindringer</span><span class="punctuation">;</span><span class="subject">historie</span><span class="punctuation">;</span><span class="subject">politik</span><span class="punctuation">;</span><span class="subject">politikere</span><span class="punctuation">;</span><span class="subject">politiske forhold</span><span class="punctuation">;</span><span class="subject">politiske partier</span></div><div class="abstract">Hans Engell (f. 1948), der i 1997 gik af som konservativ partileder, beskriver det politiske liv p Slotsholmen fra han i 1978 startede som pressechef til han i 1993 sluttede som justitsminister, da Tamilsagen tvang Schlter-regeringen til at g</div></div>') . 
+               '  </ofo:description>' .
+               '  <ofo:details>' .
+               htmlspecialchars ('<div class="details"><div class="format">455 sider, illustreret</div><div class="formHeader">Form: </div><div class="form">erindringer</div><div class="shelfHeader">Opstilling i folkebiblioteker: <div class="shelf">96.72</div><div class="note"><div class="noteHeader">Samhrende: </div><div class="noteLink">P Slotsholmen</div> ; <div class="noteLink">Farvel til Slotsholmen</div></div><div class="isbn">ISBN: 87-11-15086-6</div><div class="price">Pris ved udgivelsen: kr. 149,00</div></div>') . 
+               '  </ofo:details>' .
+               '  <ofo:publicationDetails>' .
+               htmlspecialchars ('<div class="publication"><div class="edition">1. udgave, 3. oplag</div>. <div class="publisher">Aschehoug</div>, <div class="year">1997</div></div>') . 
+               '  </ofo:publicationDetails>' .
+               '</xml>';
     }
 
 
