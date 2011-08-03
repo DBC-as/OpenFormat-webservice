@@ -83,6 +83,7 @@ class openFormat extends webServiceServer {
         echo 'version             ' . $this->config->get_value('version', 'setup') . '<br/>';
         echo 'logfile             ' . $this->config->get_value('logfile', 'setup') . '<br/>';
         echo 'verbose             ' . $this->config->get_value('verbose', 'setup') . '<br/>';
+        echo 'js_server           ' . $this->config->get_value('js_server', 'setup') . '<br/>';
         echo 'aaa_credentials     ' . $this->strip_oci_pwd($this->config->get_value('aaa_credentials', 'aaa')) . '<br/>';
         echo '</pre>';
         die();
