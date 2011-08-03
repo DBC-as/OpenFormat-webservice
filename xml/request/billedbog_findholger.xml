@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatSingleManifestationRequest>
+      <ns1:originalData>
+        <ns1:bibliographicData>
+          <dkabm:record>
+            <ac:identifier>06920330|870970</ac:identifier>
+            <ac:source>undefined</ac:source>
+            <dc:title>Find Holger på den eventyrlige rejse</dc:title>
+            <dc:title xsi:type="dkdcplus:full">Find Holger på den eventyrlige rejse</dc:title>
+            <dc:creator xsi:type="dkdcplus:aut">Martin Handford</dc:creator>
+            <dc:creator xsi:type="oss:sort">Handford, Martin</dc:creator>
+            <dc:subject xsi:type="dkdcplus:DK5-Text">Skønlitteratur</dc:subject>
+            <dc:subject xsi:type="dkdcplus:genre">fiktion</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCS">gå på opdagelse</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DK5">sk</dc:subject>
+            <dcterms:abstract>Billedbog om Holger der er på en eventyrlig rejse sammen med Troldmand Hvidskæg. På hvert af de 12 opslag gælder det om at finde Holger, Troldmand Hvidskæg og en skriftrulle</dcterms:abstract>
+            <dc:description>Øverst på titelsiden: Holgers herligste eventyr!</dc:description>
+            <dc:description>På omslaget: 3</dc:description>
+            <dcterms:audience>børnematerialer</dcterms:audience>
+            <dkdcplus:version>11. oplag</dkdcplus:version>
+            <dc:publisher>Apostrof</dc:publisher>
+            <dc:date>1996</dc:date>
+            <dc:type xsi:type="dkdcplus:BibDK-Type">Billedbog</dc:type>
+            <dc:format>alle illustreret i farver</dc:format>
+            <dcterms:extent>28 sider</dcterms:extent>
+            <dc:identifier xsi:type="dkdcplus:ISBN">87-591-0177-6</dc:identifier>
+            <dc:source>Where's Wally? - the fantastic journey</dc:source>
+            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+            <dc:language>Dansk</dc:language>
+          </dkabm:record>
+          <marcx:collection xmlns:marcx="http://www.bs.dk/standards/MarcXchange">
+            <record format="danMARC2" type="Bibliographic">
+              <leader>000000000000000000000000</leader>
+              <datafield tag="001" ind1="0" ind2="0">
+                <subfield code="a">06920330</subfield>
+                <subfield code="b">870970</subfield>
+                <subfield code="c">20010128224732</subfield>
+                <subfield code="d">19890829</subfield>
+                <subfield code="f">a</subfield>
+                <subfield code="o">c</subfield>
+                <subfield code="t">FAUST</subfield>
+              </datafield>
+              <datafield tag="004" ind1="0" ind2="0">
+                <subfield code="r">n</subfield>
+                <subfield code="a">e</subfield>
+              </datafield>
+              <datafield tag="008" ind1="0" ind2="0">
+                <subfield code="t">m</subfield>
+                <subfield code="u">r</subfield>
+                <subfield code="a">1989</subfield>
+                <subfield code="z">1996</subfield>
+                <subfield code="b">dk</subfield>
+                <subfield code="d">z</subfield>
+                <subfield code="l">dan</subfield>
+                <subfield code="o">b</subfield>
+                <subfield code="v">0</subfield>
+              </datafield>
+              <datafield tag="009" ind1="0" ind2="0">
+                <subfield code="a">a</subfield>
+                <subfield code="g">xx</subfield>
+              </datafield>
+              <datafield tag="021" ind1="0" ind2="0">
+                <subfield code="a">87-591-0177-6</subfield>
+                <subfield code="c">ib.</subfield>
+                <subfield code="d">kr. 125,00</subfield>
+              </datafield>
+              <datafield tag="032" ind1="0" ind2="0">
+                <subfield code="a">DBF199609</subfield>
+                <subfield code="x">SFD199609</subfield>
+              </datafield>
+              <datafield tag="038" ind1="0" ind2="0">
+                <subfield code="a">bi</subfield>
+              </datafield>
+              <datafield tag="041" ind1="0" ind2="0">
+                <subfield code="a">dan</subfield>
+                <subfield code="c">eng</subfield>
+              </datafield>
+              <datafield tag="100" ind1="0" ind2="0">
+                <subfield code="0"/>
+                <subfield code="a">Handford</subfield>
+                <subfield code="h">Martin</subfield>
+              </datafield>
+              <datafield tag="241" ind1="0" ind2="0">
+                <subfield code="a">Where's Wally? - the fantastic journey</subfield>
+              </datafield>
+              <datafield tag="245" ind1="0" ind2="0">
+                <subfield code="a">Find Holger på den eventyrlige rejse</subfield>
+                <subfield code="e">[tekst og illustrationer] Martin Handford</subfield>
+                <subfield code="f">[oversat fra engelsk af Ole Thestrup]</subfield>
+              </datafield>
+              <datafield tag="250" ind1="0" ind2="0">
+                <subfield code="x">11. oplag</subfield>
+                <subfield code="b">÷</subfield>
+              </datafield>
+              <datafield tag="260" ind1="0" ind2="0">
+                <subfield code="a">Kbh.</subfield>
+                <subfield code="b">Apostrof</subfield>
+                <subfield code="k">trykt i udl.</subfield>
+                <subfield code="c">1996</subfield>
+              </datafield>
+              <datafield tag="300" ind1="0" ind2="0">
+                <subfield code="a">[28] sider</subfield>
+                <subfield code="b">alle ill. i farver</subfield>
+                <subfield code="c">33 cm</subfield>
+              </datafield>
+              <datafield tag="504" ind1="0" ind2="0">
+                <subfield code="a">Billedbog om Holger der er på en eventyrlig rejse sammen med Troldmand Hvidskæg. På hvert af de 12 opslag gælder det om at finde Holger, Troldmand Hvidskæg og en skriftrulle</subfield>
+              </datafield>
+              <datafield tag="512" ind1="0" ind2="0">
+                <subfield code="a">Øverst på titelsiden: Holgers herligste eventyr!</subfield>
+              </datafield>
+              <datafield tag="512" ind1="0" ind2="0">
+                <subfield code="a">På omslaget: 3</subfield>
+              </datafield>
+              <datafield tag="520" ind1="0" ind2="0">
+                <subfield code="a">Tidligere: 1. udgave. 1989</subfield>
+              </datafield>
+              <datafield tag="652" ind1="0" ind2="0">
+                <subfield code="n">83</subfield>
+                <subfield code="z">296</subfield>
+              </datafield>
+              <datafield tag="652" ind1="0" ind2="0">
+                <subfield code="o">sk</subfield>
+              </datafield>
+              <datafield tag="666" ind1="0" ind2="0">
+                <subfield code="s">gå på opdagelse</subfield>
+              </datafield>
+              <datafield tag="s10" ind1="0" ind2="0">
+                <subfield code="a">DBC</subfield>
+              </datafield>
+            </record>
+          </marcx:collection>
+        </ns1:bibliographicData>
+      </ns1:originalData>
+      <ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
+    </ns1:formatSingleManifestationRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

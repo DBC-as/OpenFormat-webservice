@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatSingleManifestationRequest>
+      <ns1:originalData>
+        <ns1:bibliographicData>
+          <dkabm:record>
+            <ac:identifier>23317605|870970</ac:identifier>
+            <ac:source>undefined</ac:source>
+            <dc:title>Soap</dc:title>
+            <dc:title xsi:type="dkdcplus:full">Soap</dc:title>
+            <dc:title xsi:type="dkdcplus:series">Letlæst for voksne (Århus)</dc:title>
+            <dc:creator>Hanne Marie Svendsen (f. 1933)</dc:creator>
+            <dc:creator xsi:type="oss:sort">Svendsen, Hanne Marie (f. 1933)</dc:creator>
+            <dc:subject xsi:type="dkdcplus:DK5-Text">Skønlitteratur</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCS">film</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCN">for læsesvage voksne</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DK5">sk</dc:subject>
+            <dcterms:abstract>Molly får tilbudt en stor rolle i en soap-tvserie, men hun lader sig ikke imponere af det groteske og forlorne filmmiljø og træffer sit eget personlige valg</dcterms:abstract>
+            <dc:description>Kassettebånd Indlæst af: Dianna Vangsꜳ . Læsehastighed: Tilpasset</dc:description>
+            <dc:description>Bog: 2000</dc:description>
+            <dcterms:audience>voksenmaterialer</dcterms:audience>
+            <dkdcplus:version>Nyt oplag</dkdcplus:version>
+            <dc:publisher>Modtryk</dc:publisher>
+            <dc:date>2004</dc:date>
+            <dc:type xsi:type="dkdcplus:BibDK-Type">Lydbog (bånd)</dc:type>
+            <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+            <dc:type xsi:type="dkdcplus:BibDK-Type">Sammensat materiale</dc:type>
+            <dc:format>2 kassettebånd, 1 bog</dc:format>
+            <dcterms:extent>2 t., 56 min., 101 sider</dcterms:extent>
+            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+            <dc:language>Dansk</dc:language>
+          </dkabm:record>
+          <marcx:collection xmlns:marcx="http://www.bs.dk/standards/MarcXchange">
+            <record format="danMARC2" type="Bibliographic">
+              <leader>000000000000000000000000</leader>
+              <datafield tag="001" ind1="0" ind2="0">
+                <subfield code="a">23317605</subfield>
+                <subfield code="b">870970</subfield>
+                <subfield code="c">20050707001935</subfield>
+                <subfield code="d">20010112</subfield>
+                <subfield code="f">a</subfield>
+                <subfield code="t">FAUST</subfield>
+              </datafield>
+              <datafield tag="004" ind1="0" ind2="0">
+                <subfield code="r">n</subfield>
+                <subfield code="a">e</subfield>
+              </datafield>
+              <datafield tag="008" ind1="0" ind2="0">
+                <subfield code="t">m</subfield>
+                <subfield code="u">r</subfield>
+                <subfield code="a">2001</subfield>
+                <subfield code="z">2004</subfield>
+                <subfield code="b">dk</subfield>
+                <subfield code="j">f</subfield>
+                <subfield code="l">dan</subfield>
+                <subfield code="v">0</subfield>
+              </datafield>
+              <datafield tag="009" ind1="0" ind2="0">
+                <subfield code="a">r</subfield>
+                <subfield code="g">xh</subfield>
+                <subfield code="a">a</subfield>
+                <subfield code="g">xx</subfield>
+                <subfield code="a">v</subfield>
+              </datafield>
+              <datafield tag="021" ind1="0" ind2="0">
+                <subfield code="n">7431</subfield>
+                <subfield code="d">kr. 645,00</subfield>
+              </datafield>
+              <datafield tag="032" ind1="0" ind2="0">
+                <subfield code="a">DLF200439</subfield>
+                <subfield code="x">SFA200439</subfield>
+                <subfield code="x">DAT200527</subfield>
+              </datafield>
+              <datafield tag="100" ind1="0" ind2="0">
+                <subfield code="0"/>
+                <subfield code="a">Svendsen</subfield>
+                <subfield code="h">Hanne Marie</subfield>
+                <subfield code="c">f. 1933</subfield>
+              </datafield>
+              <datafield tag="245" ind1="0" ind2="0">
+                <subfield code="a">Soap</subfield>
+                <subfield code="e">Hanne Marie Svendsen</subfield>
+              </datafield>
+              <datafield tag="250" ind1="0" ind2="0">
+                <subfield code="x">[Nyt oplag]</subfield>
+              </datafield>
+              <datafield tag="260" ind1="0" ind2="0">
+                <subfield code="a">Århus</subfield>
+                <subfield code="b">Modtryk</subfield>
+                <subfield code="c">2004</subfield>
+              </datafield>
+              <datafield tag="300" ind1="0" ind2="0">
+                <subfield code="n">2 kassettebånd</subfield>
+                <subfield code="l">2 t., 56 min.</subfield>
+                <subfield code="n">1 bog</subfield>
+                <subfield code="a">101 sider</subfield>
+              </datafield>
+              <datafield tag="440" ind1="0" ind2="0">
+                <subfield code="0"/>
+                <subfield code="a">Letlæst for voksne</subfield>
+                <subfield code="ø">Århus</subfield>
+              </datafield>
+              <datafield tag="504" ind1="0" ind2="0">
+                <subfield code="a">Molly får tilbudt en stor rolle i en soap-tvserie, men hun lader sig ikke imponere af det groteske og forlorne filmmiljø og træffer sit eget personlige valg</subfield>
+              </datafield>
+              <datafield tag="512" ind1="0" ind2="0">
+                <subfield code="i">Kassettebånd</subfield>
+                <subfield code="e">Indlæst af: Dianna Vangsꜳ</subfield>
+                <subfield code="b">. Læsehastighed: Tilpasset</subfield>
+              </datafield>
+              <datafield tag="512" ind1="0" ind2="0">
+                <subfield code="a">Bog: 2000</subfield>
+              </datafield>
+              <datafield tag="520" ind1="0" ind2="0">
+                <subfield code="a">Kassettebåndene er en gengivelse af bogen</subfield>
+              </datafield>
+              <datafield tag="520" ind1="0" ind2="0">
+                <subfield code="a">Tidligere: 1. udgave. 2001. (1. oplag: Århus : Modtryk AV Bog+bånd)</subfield>
+              </datafield>
+              <datafield tag="520" ind1="0" ind2="0">
+                <subfield code="a">Bogens originaludgave: 2000</subfield>
+              </datafield>
+              <datafield tag="521" ind1="0" ind2="0">
+                <subfield code="a">[1. oplag]</subfield>
+                <subfield code="c">2001</subfield>
+              </datafield>
+              <datafield tag="521" ind1="0" ind2="0">
+                <subfield code="b">[Nyt oplag]</subfield>
+                <subfield code="c">2004</subfield>
+              </datafield>
+              <datafield tag="652" ind1="0" ind2="0">
+                <subfield code="n">86</subfield>
+                <subfield code="z">06</subfield>
+              </datafield>
+              <datafield tag="652" ind1="0" ind2="0">
+                <subfield code="o">sk</subfield>
+              </datafield>
+              <datafield tag="666" ind1="0" ind2="0">
+                <subfield code="u">for læsesvage voksne</subfield>
+              </datafield>
+              <datafield tag="666" ind1="0" ind2="0">
+                <subfield code="s">film</subfield>
+              </datafield>
+              <datafield tag="945" ind1="0" ind2="0">
+                <subfield code="a">Letlæst for voksne</subfield>
+                <subfield code="ø">Modtryk</subfield>
+                <subfield code="x">se</subfield>
+                <subfield code="w">Letlæst for voksne (Århus)</subfield>
+                <subfield code="z">440</subfield>
+              </datafield>
+              <datafield tag="s10" ind1="0" ind2="0">
+                <subfield code="a">DBC</subfield>
+              </datafield>
+              <datafield tag="990" ind1="0" ind2="0">
+                <subfield code="a">SFA</subfield>
+                <subfield code="o">200439</subfield>
+                <subfield code="b">F</subfield>
+              </datafield>
+              <datafield tag="991" ind1="0" ind2="0">
+                <subfield code="o">Tidligere optaget i Av-fortegnelse 200106</subfield>
+              </datafield>
+              <datafield tag="991" ind1="0" ind2="0">
+                <subfield code="o">Bogen optaget i A-fortegnelse 200043 (2 314 290 2)</subfield>
+              </datafield>
+            </record>
+          </marcx:collection>
+        </ns1:bibliographicData>
+      </ns1:originalData>
+      <ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
+    </ns1:formatSingleManifestationRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

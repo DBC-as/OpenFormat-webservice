@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatSingleManifestationRequest>
+      <ns1:originalData>
+        <ns1:bibliographicData>
+          <dkabm:record>
+            <ac:identifier>06196470|870970</ac:identifier>
+            <ac:source>undefined</ac:source>
+            <dc:title>Tone</dc:title>
+            <dc:title xsi:type="dkdcplus:full">Tone : epos</dc:title>
+            <dc:title xsi:type="dkdcplus:series">MagnaPrintserien ; nr. 226</dc:title>
+            <dc:creator xsi:type="dkdcplus:aut">Suzanne Brøgger</dc:creator>
+            <dc:creator xsi:type="oss:sort">Brøgger, Suzanne</dc:creator>
+            <dc:subject xsi:type="dkdcplus:DK5-Text">Skønlitteratur</dc:subject>
+            <dc:subject xsi:type="dkdcplus:genre">fiktion</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DK5">sk</dc:subject>
+            <dcterms:abstract>Prosadigt om hattesyersken og kostumieren fru Tone</dcterms:abstract>
+            <dcterms:audience>voksenmaterialer</dcterms:audience>
+            <dkdcplus:version>MagnaPrintudgave</dkdcplus:version>
+            <dc:publisher>Borgen</dc:publisher>
+            <dc:publisher>Nyt Dansk Litteraturselskab</dc:publisher>
+            <dc:date>1985</dc:date>
+            <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+            <dcterms:extent>146 sider</dcterms:extent>
+            <dc:identifier xsi:type="dkdcplus:ISBN">87-418-7023-9</dc:identifier>
+            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+            <dc:language>Dansk</dc:language>
+          </dkabm:record>
+          <marcx:collection xmlns:marcx="http://www.bs.dk/standards/MarcXchange">
+            <record format="danMARC2" type="Bibliographic">
+              <leader>000000000000000000000000</leader>
+              <datafield tag="001" ind1="0" ind2="0">
+                <subfield code="a">06196470</subfield>
+                <subfield code="b">870970</subfield>
+                <subfield code="c">20010128224732</subfield>
+                <subfield code="d">19850315</subfield>
+                <subfield code="f">a</subfield>
+                <subfield code="o">c</subfield>
+                <subfield code="t">FAUST</subfield>
+              </datafield>
+              <datafield tag="004" ind1="0" ind2="0">
+                <subfield code="r">n</subfield>
+                <subfield code="a">e</subfield>
+              </datafield>
+              <datafield tag="008" ind1="0" ind2="0">
+                <subfield code="t">s</subfield>
+                <subfield code="u">f</subfield>
+                <subfield code="a">1985</subfield>
+                <subfield code="b">dk</subfield>
+                <subfield code="j">p</subfield>
+                <subfield code="l">dan</subfield>
+                <subfield code="m">1</subfield>
+                <subfield code="v">0</subfield>
+              </datafield>
+              <datafield tag="009" ind1="0" ind2="0">
+                <subfield code="a">a</subfield>
+                <subfield code="g">xx</subfield>
+              </datafield>
+              <datafield tag="021" ind1="0" ind2="0">
+                <subfield code="a">87-418-7023-9</subfield>
+                <subfield code="c">hf.</subfield>
+                <subfield code="d">kr. 98.00</subfield>
+              </datafield>
+              <datafield tag="032" ind1="0" ind2="0">
+                <subfield code="a">DBF198514</subfield>
+                <subfield code="x">SFD198514</subfield>
+              </datafield>
+              <datafield tag="100" ind1="0" ind2="0">
+                <subfield code="0"/>
+                <subfield code="a">Brøgger</subfield>
+                <subfield code="h">Suzanne</subfield>
+              </datafield>
+              <datafield tag="245" ind1="0" ind2="0">
+                <subfield code="a">Tone</subfield>
+                <subfield code="c">epos</subfield>
+                <subfield code="e">[af] Suzanne Brøgger</subfield>
+                <subfield code="ø">MagnaPrintserien</subfield>
+              </datafield>
+              <datafield tag="250" ind1="0" ind2="0">
+                <subfield code="a">MagnaPrintudgave</subfield>
+                <subfield code="b">÷</subfield>
+              </datafield>
+              <datafield tag="260" ind1="0" ind2="0">
+                <subfield code="a">[Valby]</subfield>
+                <subfield code="b">Borgen</subfield>
+                <subfield code="a">[Ballerup]</subfield>
+                <subfield code="b">i samarbejde med Nyt Dansk Litteraturselskab</subfield>
+                <subfield code="k">Reproset</subfield>
+                <subfield code="c">1985</subfield>
+              </datafield>
+              <datafield tag="300" ind1="0" ind2="0">
+                <subfield code="a">146 sider</subfield>
+                <subfield code="c">23 cm</subfield>
+              </datafield>
+              <datafield tag="440" ind1="0" ind2="0">
+                <subfield code="0"/>
+                <subfield code="a">\MagnaPrintserien\</subfield>
+                <subfield code="V">226</subfield>
+                <subfield code="v">nr. 226</subfield>
+              </datafield>
+              <datafield tag="504" ind1="0" ind2="0">
+                <subfield code="a">Prosadigt om hattesyersken og kostumieren fru Tone</subfield>
+              </datafield>
+              <datafield tag="520" ind1="0" ind2="0">
+                <subfield code="a">Originaludgave 1981</subfield>
+              </datafield>
+              <datafield tag="652" ind1="0" ind2="0">
+                <subfield code="n">86</subfield>
+                <subfield code="z">06</subfield>
+              </datafield>
+              <datafield tag="652" ind1="0" ind2="0">
+                <subfield code="o">sk</subfield>
+              </datafield>
+              <datafield tag="s10" ind1="0" ind2="0">
+                <subfield code="a">DBC</subfield>
+              </datafield>
+            </record>
+          </marcx:collection>
+        </ns1:bibliographicData>
+      </ns1:originalData>
+      <ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
+    </ns1:formatSingleManifestationRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

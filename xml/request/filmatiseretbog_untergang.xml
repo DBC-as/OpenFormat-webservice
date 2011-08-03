@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatSingleManifestationRequest>
+      <ns1:originalData>
+        <ns1:bibliographicData>
+          <dkabm:record>
+            <ac:identifier>25797140|870970</ac:identifier>
+            <ac:source>undefined</ac:source>
+            <dc:title>Til den bitre ende</dc:title>
+            <dc:title xsi:type="dkdcplus:full">Til den bitre ende : Hitlers sekretær fortæller om sit liv</dc:title>
+            <dcterms:alternative>Der untergang</dcterms:alternative>
+            <dc:creator xsi:type="dkdcplus:aut">Traudl Junge</dc:creator>
+            <dc:creator xsi:type="oss:sort">Junge, Traudl</dc:creator>
+            <dc:subject xsi:type="dkdcplus:DK5">94.41</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCF">Adolf Hitler</dc:subject>
+            <dc:subject xsi:type="oss:sort">Hitler, Adolf</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCF">Traudl Junge</dc:subject>
+            <dc:subject xsi:type="oss:sort">Junge, Traudl</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCF">den 2. verdenskrig</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCO">erindringer</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCF">historie</dc:subject>
+            <dc:subject xsi:type="dkdcplus:genre">nonfiktion</dc:subject>
+            <dcterms:abstract>Traudl Junge (1920-2002) var sekretær for Adolf Hitler fra 1942 frem til hans død. Hun skrev hans taler, breve og hans private og politiske testamente og tilbragte de sidste timer med ham i bunkeren i Berlin</dcterms:abstract>
+            <dcterms:audience>voksenmaterialer</dcterms:audience>
+            <dkdcplus:version>3. udgave, 1. oplag</dkdcplus:version>
+            <dc:publisher>Satellit</dc:publisher>
+            <dc:contributor>Melissa Müller</dc:contributor>
+            <dc:date>2005</dc:date>
+            <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+            <dcterms:extent>255 sider, tavler</dcterms:extent>
+            <dc:identifier xsi:type="dkdcplus:ISBN">87-7984-100-7</dc:identifier>
+            <dc:identifier xsi:type="dkdcplus:ISBN">9788779841000</dc:identifier>
+            <dc:source>Bis zur letzten Stunde</dc:source>
+            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+            <dc:language>Dansk</dc:language>
+            <dcterms:spatial xsi:type="dkdcplus:DBCF">Tyskland</dcterms:spatial>
+            <dcterms:temporal xsi:type="dkdcplus:DBCP">1940-1949</dcterms:temporal>
+          </dkabm:record>
+          <marcx:collection xmlns:marcx="http://www.bs.dk/standards/MarcXchange">
+            <record format="danMARC2" type="Bibliographic">
+              <leader>000000000000000000000000</leader>
+              <datafield tag="001" ind1="0" ind2="0">
+                <subfield code="a">25797140</subfield>
+                <subfield code="b">870970</subfield>
+                <subfield code="c">20100406155605</subfield>
+                <subfield code="d">20050615</subfield>
+                <subfield code="f">a</subfield>
+                <subfield code="t">FAUST</subfield>
+              </datafield>
+              <datafield tag="004" ind1="0" ind2="0">
+                <subfield code="r">n</subfield>
+                <subfield code="a">e</subfield>
+              </datafield>
+              <datafield tag="008" ind1="0" ind2="0">
+                <subfield code="t">m</subfield>
+                <subfield code="u">u</subfield>
+                <subfield code="a">2005</subfield>
+                <subfield code="b">dk</subfield>
+                <subfield code="d">y</subfield>
+                <subfield code="k">a</subfield>
+                <subfield code="l">dan</subfield>
+                <subfield code="v">0</subfield>
+              </datafield>
+              <datafield tag="009" ind1="0" ind2="0">
+                <subfield code="a">a</subfield>
+                <subfield code="g">xx</subfield>
+              </datafield>
+              <datafield tag="017" ind1="0" ind2="0">
+                <subfield code="a">2 492 342 8</subfield>
+              </datafield>
+              <datafield tag="021" ind1="0" ind2="0">
+                <subfield code="e">9788779841000</subfield>
+                <subfield code="c">hf.</subfield>
+                <subfield code="d">kr. 59,95</subfield>
+              </datafield>
+              <datafield tag="021" ind1="0" ind2="0">
+                <subfield code="a">87-7984-100-7</subfield>
+              </datafield>
+              <datafield tag="032" ind1="0" ind2="0">
+                <subfield code="a">DBF200531</subfield>
+                <subfield code="x">SFD200531</subfield>
+                <subfield code="x">DAT201016</subfield>
+              </datafield>
+              <datafield tag="041" ind1="0" ind2="0">
+                <subfield code="a">dan</subfield>
+                <subfield code="c">ger</subfield>
+              </datafield>
+              <datafield tag="100" ind1="0" ind2="0">
+                <subfield code="0"/>
+                <subfield code="a">Junge</subfield>
+                <subfield code="h">Traudl</subfield>
+              </datafield>
+              <datafield tag="241" ind1="0" ind2="0">
+                <subfield code="a">Bis zur letzten Stunde</subfield>
+              </datafield>
+              <datafield tag="245" ind1="0" ind2="0">
+                <subfield code="a">Til den bitre ende</subfield>
+                <subfield code="c">Hitlers sekretær fortæller om sit liv</subfield>
+                <subfield code="e">Traudl Junge</subfield>
+                <subfield code="e">i samarbejde med Melissa Müller</subfield>
+                <subfield code="f">på dansk ved Adam Paulsen</subfield>
+              </datafield>
+              <datafield tag="250" ind1="0" ind2="0">
+                <subfield code="a">3. udgave</subfield>
+                <subfield code="x">1. oplag</subfield>
+              </datafield>
+              <datafield tag="260" ind1="0" ind2="0">
+                <subfield code="a">[Kbh.]</subfield>
+                <subfield code="b">Satellit</subfield>
+                <subfield code="k">Nørhaven Paperback</subfield>
+                <subfield code="c">2005</subfield>
+              </datafield>
+              <datafield tag="300" ind1="0" ind2="0">
+                <subfield code="a">255 sider, tavler</subfield>
+              </datafield>
+              <datafield tag="504" ind1="0" ind2="0">
+                <subfield code="a">Traudl Junge (1920-2002) var sekretær for Adolf Hitler fra 1942 frem til hans død. Hun skrev hans taler, breve og hans private og politiske testamente og tilbragte de sidste timer med ham i bunkeren i Berlin</subfield>
+              </datafield>
+              <datafield tag="512" ind1="0" ind2="0">
+                <subfield code="i">Film med titel</subfield>
+                <subfield code="t">Der ¤untergang</subfield>
+              </datafield>
+              <datafield tag="520" ind1="0" ind2="0">
+                <subfield code="a">Tidligere: 2. udgave. Kbh. : Lindhardt og Ringhof, 2004</subfield>
+              </datafield>
+              <datafield tag="521" ind1="0" ind2="0">
+                <subfield code="b">1. oplag</subfield>
+                <subfield code="c">2005</subfield>
+              </datafield>
+              <datafield tag="600" ind1="0" ind2="0">
+                <subfield code="0"/>
+                <subfield code="a">Junge</subfield>
+                <subfield code="h">Traudl</subfield>
+                <subfield code="2">DBC</subfield>
+              </datafield>
+              <datafield tag="600" ind1="0" ind2="0">
+                <subfield code="0"/>
+                <subfield code="a">Hitler</subfield>
+                <subfield code="h">Adolf</subfield>
+                <subfield code="2">DBC</subfield>
+              </datafield>
+              <datafield tag="652" ind1="0" ind2="0">
+                <subfield code="m">94.41</subfield>
+              </datafield>
+              <datafield tag="652" ind1="0" ind2="0">
+                <subfield code="0"/>
+                <subfield code="p">99.4</subfield>
+                <subfield code="a">Hitler</subfield>
+                <subfield code="h">Adolf</subfield>
+              </datafield>
+              <datafield tag="652" ind1="0" ind2="0">
+                <subfield code="0"/>
+                <subfield code="p">99.4</subfield>
+                <subfield code="a">Junge</subfield>
+                <subfield code="h">Traudl</subfield>
+              </datafield>
+              <datafield tag="666" ind1="0" ind2="0">
+                <subfield code="f">den ¤2. verdenskrig</subfield>
+              </datafield>
+              <datafield tag="666" ind1="0" ind2="0">
+                <subfield code="f">historie</subfield>
+              </datafield>
+              <datafield tag="666" ind1="0" ind2="0">
+                <subfield code="i">1940-1949</subfield>
+              </datafield>
+              <datafield tag="666" ind1="0" ind2="0">
+                <subfield code="e">Tyskland</subfield>
+              </datafield>
+              <datafield tag="666" ind1="0" ind2="0">
+                <subfield code="o">erindringer</subfield>
+              </datafield>
+              <datafield tag="700" ind1="0" ind2="0">
+                <subfield code="0"/>
+                <subfield code="a">Müller</subfield>
+                <subfield code="h">Melissa</subfield>
+              </datafield>
+              <datafield tag="s10" ind1="0" ind2="0">
+                <subfield code="a">DBC</subfield>
+              </datafield>
+              <datafield tag="990" ind1="0" ind2="0">
+                <subfield code="a">SFD</subfield>
+                <subfield code="o">200531</subfield>
+                <subfield code="c">A</subfield>
+              </datafield>
+            </record>
+          </marcx:collection>
+        </ns1:bibliographicData>
+      </ns1:originalData>
+      <ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
+    </ns1:formatSingleManifestationRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
