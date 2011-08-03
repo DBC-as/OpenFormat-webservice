@@ -5,51 +5,47 @@
       <ns1:originalData>
         <ns1:bibliographicData>
           <dkabm:record>
-            <ac:identifier>28655746|870970</ac:identifier>
+            <ac:identifier>27982603|870970</ac:identifier>
             <ac:source>Bibliotekets materialer</ac:source>
-            <dc:title>Asterix og vikingerne</dc:title>
-            <dc:title xsi:type="dkdcplus:full">Asterix og vikingerne</dc:title>
-            <dcterms:alternative>Asterix ja viikingit</dcterms:alternative>
-            <dcterms:alternative>Asterix and the vikings</dcterms:alternative>
-            <dc:creator xsi:type="dkdcplus:drt">Stefan Fjeldmark</dc:creator>
-            <dc:creator xsi:type="oss:sort">Fjeldmark, Stefan</dc:creator>
-            <dc:creator xsi:type="dkdcplus:drt">Jesper Møller filminstruktør</dc:creator>
-            <dc:creator xsi:type="oss:sort">Møller, Jesper</dc:creator>
-            <dc:subject xsi:type="dkdcplus:DK5">77.74</dc:subject>
-            <dc:subject xsi:type="dkdcplus:DK5-Text">Børnefilm</dc:subject>
-            <dc:subject xsi:type="dkdcplus:genre">børnefilm</dc:subject>
+            <dc:title>Asterix' og Obelix' fødselsdag</dc:title>
+            <dc:title xsi:type="dkdcplus:full">Asterix' og Obelix' fødselsdag : den gyldne gæstebog</dc:title>
+            <dc:title xsi:type="dkdcplus:series">Asterix ; nr. 34</dc:title>
+            <dcterms:alternative>Asterix' &amp; Obelix' fødselsdag</dcterms:alternative>
+            <dc:creator xsi:type="dkdcplus:aut">René Goscinny</dc:creator>
+            <dc:creator xsi:type="dkdcplus:sort">Goscinny, René</dc:creator>
+            <dc:subject xsi:type="dkdcplus:DK5-Text">Skønlitteratur</dc:subject>
             <dc:subject xsi:type="dkdcplus:genre">fiktion</dc:subject>
-            <dc:subject xsi:type="dkdcplus:genre">tegnefilm</dc:subject>
-            <dc:subject xsi:type="dkdcplus:DBCS">vikinger</dc:subject>
-            <dcterms:abstract>Vikingerne mod nord, der ikke kender til frygt, planlægger et togt til Gallien for at kidnappe en galler, der kan vise dem hvad frygt er. De gæve gallere må drage mod nord for at befri ham</dcterms:abstract>
-            <dc:description>Titlen hentet fra Filmstribens indgangsside</dc:description>
-            <dc:description>Stemmer Jesper Asholt, Dejan Cukic, David Owe, Helle Fagralid, Peter Aude, Martin Brygmann, Søs Egelind, Mads M. Nielsen, Søren Spanning ... et al.</dc:description>
-            <dc:description>Originalfilmen: Frankrig : M6 Studio : Mandarin SAS : 2d3D Animation ; Kbh. : in association with A.Film ... et al., 2006</dc:description>
-            <dcterms:audience xsi:type="dkdcplus:medieraad">Mærkning: Tilladt for alle men frarådes børn under 7 år</dcterms:audience>
-            <dcterms:audience xsi:type="dkdcplus:age">Fra 7 år</dcterms:audience>
+            <dc:subject xsi:type="dkdcplus:DBCS">humor</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DK5">sk</dc:subject>
+            <dcterms:abstract>Tegneserie. I den lille galliske landsby ved Atlanterhavets kyst gør indbyggerne klar til at fejre Asterix ́og Obelix ́runde fødselsdage. Det giver anledning til en række tilbageblik på seriens 50-årige historie</dcterms:abstract>
+            <dc:description>Udgivet i forbindelse med tegneseriefigurernes 50-års jubilæum</dc:description>
+            <dc:description>I materialet: Goscinny og Uderzo præsenterer ...</dc:description>
             <dcterms:audience>børnematerialer</dcterms:audience>
             <dcterms:audience>voksenmaterialer</dcterms:audience>
-            <dc:publisher>SF Film</dc:publisher>
-            <dc:contributor>René Goscinny</dc:contributor>
-            <dc:contributor>Albert Uderzo</dc:contributor>
-            <dc:contributor>Stefan Fjeldmark</dc:contributor>
-            <dc:contributor>Jesper Møller filminstruktør</dc:contributor>
-            <dc:contributor>Jean-Luc Goossens</dc:contributor>
-            <dc:date>2010</dc:date>
-            <dc:type xsi:type="dkdcplus:BibDK-Type">Film (net)</dc:type>
-            <dcterms:extent>75 min.</dcterms:extent>
-            <dc:identifier xsi:type="dcterms:URI">http://www.filmstriben.dk/?showfilm=2668960000</dc:identifier>
+            <dc:publisher>Egmont Serieforlaget</dc:publisher>
+            <dc:contributor xsi:type="dkdcplus:aut">Albert Uderzo</dc:contributor>
+            <dc:contributor xsi:type="dkdcplus:drm">Albert Uderzo</dc:contributor>
+            <dc:contributor xsi:type="dkdcplus:trl">François-Eric Grodin</dc:contributor>
+            <dc:contributor xsi:type="dkdcplus:edt">Michael G. Nielsen</dc:contributor>
+            <dc:date>2009</dc:date>
+            <dc:type xsi:type="dkdcplus:BibDK-Type">Tegneserie</dc:type>
+            <dc:format>alle illustreret i farver</dc:format>
+            <dcterms:extent>53 sider</dcterms:extent>
+            <dc:identifier xsi:type="dkdcplus:ISBN">9788776795214</dc:identifier>
+            <dc:source>L'anniversaire d'Astérix et Obélix</dc:source>
             <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
             <dc:language>Dansk</dc:language>
+            <dcterms:spatial xsi:type="dkdcplus:DBCS">Romerriget</dcterms:spatial>
+            <dcterms:spatial xsi:type="dkdcplus:DBCS">Gallien</dcterms:spatial>
           </dkabm:record>
           <marcx:collection xmlns:marcx="http://www.bs.dk/standards/MarcXchange">
             <record format="danMARC2" type="Bibliographic">
               <leader>000000000000000000000000</leader>
               <datafield tag="001" ind1="0" ind2="0">
-                <subfield code="a">28655746</subfield>
+                <subfield code="a">27982603</subfield>
                 <subfield code="b">870970</subfield>
-                <subfield code="c">20110228181554</subfield>
-                <subfield code="d">20110216</subfield>
+                <subfield code="c">20091123180707</subfield>
+                <subfield code="d">20091027</subfield>
                 <subfield code="f">a</subfield>
                 <subfield code="t">FAUST</subfield>
               </datafield>
@@ -57,127 +53,124 @@
                 <subfield code="r">n</subfield>
                 <subfield code="a">e</subfield>
               </datafield>
-              <datafield tag="006" ind1="0" ind2="0">
-                <subfield code="d">7</subfield>
-                <subfield code="2">b</subfield>
-              </datafield>
-              <datafield tag="006" ind1="0" ind2="0">
-                <subfield code="e">7</subfield>
-                <subfield code="2">d</subfield>
-              </datafield>
               <datafield tag="008" ind1="0" ind2="0">
                 <subfield code="t">m</subfield>
                 <subfield code="u">f</subfield>
-                <subfield code="a">2010</subfield>
+                <subfield code="a">2009</subfield>
                 <subfield code="b">dk</subfield>
+                <subfield code="d">x</subfield>
                 <subfield code="l">dan</subfield>
-                <subfield code="n">b</subfield>
+                <subfield code="o">b</subfield>
                 <subfield code="v">0</subfield>
               </datafield>
               <datafield tag="009" ind1="0" ind2="0">
-                <subfield code="a">m</subfield>
-                <subfield code="g">xe</subfield>
+                <subfield code="a">a</subfield>
+                <subfield code="g">xx</subfield>
               </datafield>
               <datafield tag="021" ind1="0" ind2="0">
-                <subfield code="d">Adgang til streaming for biblioteksbrugere i kommuner med abonnement på Filmstriben</subfield>
+                <subfield code="e">9788776795214</subfield>
+                <subfield code="c">hf.</subfield>
+                <subfield code="d">kr. 99,95</subfield>
               </datafield>
               <datafield tag="032" ind1="0" ind2="0">
-                <subfield code="a">DBI201109</subfield>
-                <subfield code="x">NET201109</subfield>
-                <subfield code="x">FSF201109</subfield>
+                <subfield code="a">DBF200948</subfield>
+                <subfield code="x">BKM200948</subfield>
               </datafield>
-              <datafield tag="245" ind1="0" ind2="0">
-                <subfield code="a">Asterix og vikingerne</subfield>
-                <subfield code="e">based on the work of René Goscinny and Albert Uderzo</subfield>
-                <subfield code="e">script and dialogue Jean-Luc Goossens</subfield>
-                <subfield code="e">with the collaboration of Stefan Fjeldmark</subfield>
-                <subfield code="f">produced by Natalie Altmann, Thomas Valentin</subfield>
-                <subfield code="e">directed by Stefan Fjeldmark and Jesper Møller</subfield>
-                <subfield code="f">lead animation Rune Bennicke ... [et al.]</subfield>
-                <subfield code="f">[dansk] instruktør Sonny Lahey</subfield>
-                <subfield code="f">oversætter Trine Dansgꜳrd</subfield>
-                <subfield code="f">[dansk] producer Svend Christensen</subfield>
+              <datafield tag="038" ind1="0" ind2="0">
+                <subfield code="a">te</subfield>
               </datafield>
-              <datafield tag="260" ind1="0" ind2="0">
-                <subfield code="b">SF Film</subfield>
-                <subfield code="c">[2011]</subfield>
+              <datafield tag="041" ind1="0" ind2="0">
+                <subfield code="a">dan</subfield>
+                <subfield code="c">fre</subfield>
               </datafield>
-              <datafield tag="504" ind1="0" ind2="0">
-                <subfield code="a">Vikingerne mod nord, der ikke kender til frygt, planlægger et togt til Gallien for at kidnappe en galler, der kan vise dem hvad frygt er. De gæve gallere må drage mod nord for at befri ham</subfield>
-              </datafield>
-              <datafield tag="505" ind1="0" ind2="0">
-                <subfield code="a">Tegnefilm</subfield>
-              </datafield>
-              <datafield tag="512" ind1="0" ind2="0">
-                <subfield code="a">Titlen hentet fra Filmstribens indgangsside</subfield>
-              </datafield>
-              <datafield tag="512" ind1="0" ind2="0">
-                <subfield code="a">Spilletid: 75 min.</subfield>
-              </datafield>
-              <datafield tag="512" ind1="0" ind2="0">
-                <subfield code="a">Filmtitel</subfield>
-                <subfield code="t">Asterix ja viikingit</subfield>
-              </datafield>
-              <datafield tag="512" ind1="0" ind2="0">
-                <subfield code="i">Alternativ titel</subfield>
-                <subfield code="t">Asterix and the vikings</subfield>
-              </datafield>
-              <datafield tag="512" ind1="0" ind2="0">
-                <subfield code="i">Stemmer</subfield>
-                <subfield code="e">Jesper Asholt, Dejan Cukic, David Owe, Helle Fagralid, Peter Aude, Martin Brygmann, Søs Egelind, Mads M. Nielsen, Søren Spanning ... et al.</subfield>
-              </datafield>
-              <datafield tag="512" ind1="0" ind2="0">
-                <subfield code="a">Originalfilmen: Frankrig : M6 Studio : Mandarin SAS : 2d3D Animation ; Kbh. : in association with A.Film ... et al., 2006</subfield>
-              </datafield>
-              <datafield tag="517" ind1="0" ind2="0">
-                <subfield code="a">Mærkning: Tilladt for alle men frarådes børn under 7 år</subfield>
-              </datafield>
-              <datafield tag="517" ind1="0" ind2="0">
-                <subfield code="a">Fra 7 år</subfield>
-              </datafield>
-              <datafield tag="652" ind1="0" ind2="0">
-                <subfield code="m">77.74</subfield>
-              </datafield>
-              <datafield tag="666" ind1="0" ind2="0">
-                <subfield code="s">vikinger</subfield>
-              </datafield>
-              <datafield tag="700" ind1="0" ind2="0">
+              <datafield tag="100" ind1="0" ind2="0">
                 <subfield code="0"/>
                 <subfield code="a">Goscinny</subfield>
                 <subfield code="h">René</subfield>
+                <subfield code="4">aut</subfield>
+              </datafield>
+              <datafield tag="241" ind1="0" ind2="0">
+                <subfield code="a">L'¤anniversaire d'Astérix et Obélix</subfield>
+              </datafield>
+              <datafield tag="245" ind1="0" ind2="0">
+                <subfield code="a">Asterix' og Obelix' fødselsdag</subfield>
+                <subfield code="c">den gyldne gæstebog</subfield>
+              </datafield>
+              <datafield tag="260" ind1="0" ind2="0">
+                <subfield code="a">[Kbh.]</subfield>
+                <subfield code="b">Egmont Serieforlaget</subfield>
+                <subfield code="k">tr. i udl.</subfield>
+                <subfield code="c">2009</subfield>
+              </datafield>
+              <datafield tag="300" ind1="0" ind2="0">
+                <subfield code="a">53 sider</subfield>
+                <subfield code="b">alle ill. i farver</subfield>
+                <subfield code="c">29 cm</subfield>
+              </datafield>
+              <datafield tag="440" ind1="0" ind2="0">
+                <subfield code="0"/>
+                <subfield code="a">Asterix</subfield>
+                <subfield code="V">34</subfield>
+                <subfield code="v">nr. 34</subfield>
+              </datafield>
+              <datafield tag="504" ind1="0" ind2="0">
+                <subfield code="a">Tegneserie. I den lille galliske landsby ved Atlanterhavets kyst gør indbyggerne klar til at fejre Asterix ́og Obelix ́runde fødselsdage. Det giver anledning til en række tilbageblik på seriens 50-årige historie</subfield>
+              </datafield>
+              <datafield tag="507" ind1="0" ind2="0">
+                <subfield code="a">Udgivet i forbindelse med tegneseriefigurernes 50-års jubilæum</subfield>
+              </datafield>
+              <datafield tag="512" ind1="0" ind2="0">
+                <subfield code="a">I materialet: Goscinny og Uderzo præsenterer ...</subfield>
+              </datafield>
+              <datafield tag="512" ind1="0" ind2="0">
+                <subfield code="i">Omslagstitel</subfield>
+                <subfield code="t">Asterix' &amp; Obelix' fødselsdag</subfield>
+              </datafield>
+              <datafield tag="521" ind1="0" ind2="0">
+                <subfield code="b">[1. oplag]</subfield>
+                <subfield code="c">2009</subfield>
+              </datafield>
+              <datafield tag="652" ind1="0" ind2="0">
+                <subfield code="n">82</subfield>
+                <subfield code="z">298</subfield>
+              </datafield>
+              <datafield tag="652" ind1="0" ind2="0">
+                <subfield code="o">sk</subfield>
+              </datafield>
+              <datafield tag="666" ind1="0" ind2="0">
+                <subfield code="s">humor</subfield>
+              </datafield>
+              <datafield tag="666" ind1="0" ind2="0">
+                <subfield code="q">Romerriget</subfield>
+              </datafield>
+              <datafield tag="666" ind1="0" ind2="0">
+                <subfield code="q">Gallien</subfield>
               </datafield>
               <datafield tag="700" ind1="0" ind2="0">
                 <subfield code="0"/>
                 <subfield code="a">Uderzo</subfield>
                 <subfield code="h">Albert</subfield>
+                <subfield code="4">aut</subfield>
+                <subfield code="4">drm</subfield>
               </datafield>
-              <datafield tag="700" ind1="0" ind2="0">
-                <subfield code="0"/>
-                <subfield code="a">Fjeldmark</subfield>
-                <subfield code="h">Stefan</subfield>
+              <datafield tag="720" ind1="0" ind2="0">
+                <subfield code="o">François-Eric Grodin</subfield>
+                <subfield code="4">trl</subfield>
               </datafield>
-              <datafield tag="700" ind1="0" ind2="0">
-                <subfield code="0"/>
-                <subfield code="a">Møller</subfield>
-                <subfield code="h">Jesper</subfield>
-                <subfield code="f">filminstruktør</subfield>
-              </datafield>
-              <datafield tag="700" ind1="0" ind2="0">
-                <subfield code="0"/>
-                <subfield code="a">Goossens</subfield>
-                <subfield code="h">Jean-Luc</subfield>
-              </datafield>
-              <datafield tag="856" ind1="0" ind2="0">
-                <subfield code="z">Adgangsmåde: Internet</subfield>
-                <subfield code="u">http://www.filmstriben.dk/?showfilm=2668960000</subfield>
-                <subfield code="z">Adgang til streaming</subfield>
+              <datafield tag="720" ind1="0" ind2="0">
+                <subfield code="o">Michael G. Nielsen</subfield>
+                <subfield code="4">edt</subfield>
               </datafield>
               <datafield tag="s10" ind1="0" ind2="0">
                 <subfield code="a">DBC</subfield>
               </datafield>
               <datafield tag="990" ind1="0" ind2="0">
-                <subfield code="o">201109</subfield>
+                <subfield code="o">200948</subfield>
+                <subfield code="b">l</subfield>
                 <subfield code="b">v</subfield>
+                <subfield code="b">b</subfield>
+                <subfield code="b">s</subfield>
+                <subfield code="c">a</subfield>
                 <subfield code="u">nt</subfield>
               </datafield>
             </record>
