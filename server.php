@@ -31,15 +31,23 @@ define(DEBUG_ON, FALSE);
 class openFormat extends webServiceServer {
     protected $curl;
     protected $transaction_id;
+    protected $fake_multi;
+    protected $js_server_url;
 
     public function __construct(){
         webServiceServer::__construct('openformat.ini');
 
-        if (!$timeout = $this->config->get_value('curl_timeout', 'setup'))
+        if (!$timeout = (integer) $this->config->get_value('curl_timeout', 'setup'))
             $timeout = 20;
         $this->curl = new curl();
-        $this->curl->set_option(CURLOPT_TIMEOUT, $timeout);
-        $this->curl->set_option(CURLOPT_HTTPHEADER, array('Content-Type: text/xml; charset=UTF-8'));
+        if (!($this->fake_multi = (integer) $this->config->get_value('fake_multi', 'setup')))
+            $this->fake_multi = 1;
+        $this->js_server_url = $this->config->get_value('js_server', 'setup');
+        for ($i = 0; $i < $this->fake_multi; $i++) {
+            $this->curl->set_option(CURLOPT_TIMEOUT, $timeout, $i);
+            $this->curl->set_option(CURLOPT_HTTPHEADER, array('Content-Type: text/xml; charset=UTF-8'), $i);
+            $this->curl->set_url($this->js_server_url, $i);
+        }
 /*
 */
     }
@@ -86,12 +94,15 @@ class openFormat extends webServiceServer {
     private function format_rec(&$rec, $format) {
         // return $this->fake_output();
         //verbose::log(TRACE, 'help ' . $rec->bibliographicData->_value->record->_value->description->_value);
-        //$help = $this->objconvert->obj2xmlNs($rec);
-        //verbose::log(TRACE, 'help ' . $help);
-        $this->curl->set_post_xml($this->objconvert->obj2xmlNs($rec));
-        $this->watch->start('Tomcat');
-        $js_result = $this->curl->get($this->config->get_value('js_server', 'setup'));
-        $this->watch->stop('Tomcat');
+        $xml_rec = $this->objconvert->obj2xmlNs($rec);
+        //verbose::log(TRACE, 'help ' . $xml_rec);
+        for ($i = 0; $i < $this->fake_multi; $i++) {
+            $this->curl->set_post_xml($xml_rec, $i);
+        }
+        $this->watch->start('js_server');
+        $js_result = $this->curl->get();
+        $this->watch->stop('js_server');
+        if (is_array($js_result)) $js_result = $js_result[0];
         //verbose::log(TRACE, 'js_result ' . $js_result);
 
         $dom = new DomDocument();
