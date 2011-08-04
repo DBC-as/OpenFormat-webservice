@@ -19,10 +19,16 @@ wsdl = openformat.wsdl
 ;show_samples = 1
 ;show_samples_ip_list = 127.0.0.1-127.0.0.2
 
+; header for sample form - defaults to Content-type: text/html; charset=utf-8
+;sample_header = Content-type: text/html; charset=utf-8
+
 ; validate
 ;validate[soap_request] = soap.xsd
 ;validate[request] = openformat.xsd
 ;validate[response] = openformat.xsd
+
+; for performance testing, send each rec to fake_multi number of js_servers
+;fake_multi = 2
 
 ; soapActions and their corresponding request structure
 ; Can be found in the wsdl but is stated here for convenience
