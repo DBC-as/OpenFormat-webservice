@@ -30,9 +30,9 @@ define(DEBUG_ON, FALSE);
 //-----------------------------------------------------------------------------
 class openFormat extends webServiceServer {
     protected $curl;
-    protected $transaction_id;
     protected $fake_multi;
-    protected $js_server_url;
+    protected $js_server_url = array ();  // if more than one, the formatting requests will be split amongst them
+    protected $rec_status = array();     // curl_status for each rec formattet
 
     public function __construct(){
         webServiceServer::__construct('openformat.ini');
@@ -42,11 +42,12 @@ class openFormat extends webServiceServer {
         $this->curl = new curl();
         if (!($this->fake_multi = (integer) $this->config->get_value('fake_multi', 'setup')))
             $this->fake_multi = 1;
-        $this->js_server_url = $this->config->get_value('js_server', 'setup');
+        foreach ($this->config->get_value('js_server', 'setup') as $url)
+            $this->js_server_url[] = $url;
         for ($i = 0; $i < $this->fake_multi; $i++) {
             $this->curl->set_option(CURLOPT_TIMEOUT, $timeout, $i);
             $this->curl->set_option(CURLOPT_HTTPHEADER, array('Content-Type: text/xml; charset=UTF-8'), $i);
-            $this->curl->set_url($this->js_server_url, $i);
+            $this->curl->set_url($this->js_server_url[0], $i);
         }
 /*
 */
@@ -60,8 +61,7 @@ class openFormat extends webServiceServer {
         if (!$this->aaa->has_right('openformat', 500))
             $res->error->_value = 'authentication_error';
         else {
-            if (!($this->transaction_id = $param->transactionId->_value))
-                $this->transaction_id = (string) mt_rand();
+            $param->transactionId->_value = 'of:' . date('Y-m-d\TH:i:s:') . substr((string)microtime(), 2, 6) . ':' . getmypid() . ($param->transactionId->_value ? '::' . $param->transactionId->_value : '');
             $form_req->formatSingleManifestationRequest->_value = $param;
             $res->bibliotekdkFullDisplay->_namespace = $this->xmlns['ofo'];
             $res->bibliotekdkFullDisplay->_value->displayInformation->_namespace = $this->xmlns['ofo'];
@@ -71,6 +71,21 @@ class openFormat extends webServiceServer {
         }
         //var_dump($res); var_dump($param); die();
         $ret->formatSingleManifestationResponse->_value = $res;
+        if (!($dump_format = $this->dump_timer)) $dmp_format = '%s';
+        foreach ($this->rec_status as $r_c) {
+            $size_upload = $r_c['size_upload'];
+            $size_download = $r_c['size_download'];
+        }
+        verbose::log(STAT, sprintf($dump_format.'::', 'formatSingleManifestation') . 
+                           ' Ip:' . $_SERVER['REMOTE_ADDR'] . 
+                           ' Format:' . $param->outputFormat->_value . 
+                           ' NoRec:' . '1' .
+                           ($this->fake_multi > 1 ? ' multi: ' . $this->fake_multi . 
+                                                    ' avg: ' . ( $this->watch->splittime('js_server') / $this->fake_multi) : '') .
+                           ' bytesIn: ' . $size_upload .
+                           ' bytesOut: ' . $size_download .
+                           ' js_server:' . sprintf('%01.3f', $this->watch->splittime('js_server')) .
+                           ' Total:' . sprintf('%01.3f', $this->watch->splittime('Total')));
         return $ret;
 
     }
@@ -102,7 +117,24 @@ class openFormat extends webServiceServer {
         }
         $this->watch->start('js_server');
         $js_result = $this->curl->get();
+        $curl_status = $this->curl->get_status();
         $this->watch->stop('js_server');
+        //verbose::log(DEBUG, print_r($curl_status, TRUE));
+        if (is_array($curl_status[0])) {
+            $this->rec_status[] = $curl_status[0];
+            foreach ($curl_status as $n => $status) {
+                if ($status['http_code'] <> 200)
+                    $curl_status_text .= 'error ' . $status['http_code'] . ' for connection #' . $n . ' ';
+                if ($n && $js_result[0] <> $js_result[$n])
+                    $curl_status_text .= 'result for connection #' . $n . ' differs from the first result ';
+            }
+            if (empty($curl_status_text))
+                verbose::log(DEBUG, 'All ' . $this->fake_multi . ' connections ok');
+            else
+                verbose::log(DEBUG, 'Some of ' . $this->fake_multi . ' connections failed. ' . $curl_status_text);
+        } else {
+            $this->rec_status[] = $curl_status;
+        }
         if (is_array($js_result)) $js_result = $js_result[0];
         //verbose::log(TRACE, 'js_result ' . $js_result);
 
