@@ -54,10 +54,16 @@ xmlns[ofo] = http://oss.dbc.dk/ns/openformatoutput
 ; path to xml-examples
 xmldir = ./xml
 
-; memcache
-;cache_host = localhost
-;cache_port = 11211
-;cache_expire = 600
+; javascript server url
+; Adding more than 1 js_server will parallelize formating over these servers
+; - if the js_server has more than 1 cpu, parallelizing can be done by adding the same server several times
+;
+js_server[] = some_server.dk:8018/openformat
+;js_server[] = some_server.dk:8018/openformat
+;js_server[] = some_server.dk:8018/openformat
+;js_server[] = some_server.dk:8018/openformat
+;js_server[] = some_other_server.dk:8018/openformat
+;js_server[] = some_other_server.dk:8018/openformat
 
 ; logfile for verbose output
 logfile = /tmp/netpunkt_fvs/openformat.log
