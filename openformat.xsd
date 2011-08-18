@@ -42,7 +42,33 @@ You should have received a copy of the GNU Affero General Public License along w
 			<xs:choice>
 				<xs:element ref="ofo:bibliotekdkFullDisplay"/>
 				<xs:element ref="ofo:briefDisplayInformation"/>
-				<xs:element ref="ofo:fullDisplayInformation"/>
+				<xs:element ref="of:error"/>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="formatWorkRequest">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Request for formatting a single manifestation.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="of:agency" minOccurs="0"/>
+				<xs:element ref="of:authentication" minOccurs="0"/>
+				<xs:element ref="of:callback" minOccurs="0"/>
+				<xs:element ref="of:collection"/>
+				<xs:element ref="of:workOutputFormat"/>
+				<xs:element ref="of:outputType" minOccurs="0"/>
+				<xs:element ref="of:transactionId" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="formatWorkResponse">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">The service response.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:choice>
+				<xs:element ref="ofo:bibliotekdkWorkDisplay"/>
 				<xs:element ref="of:error"/>
 			</xs:choice>
 		</xs:complexType>
@@ -76,6 +102,16 @@ You should have received a copy of the GNU Affero General Public License along w
 		<xs:annotation>
 			<xs:documentation xml:lang="en">If outputType=json.</xs:documentation>
 		</xs:annotation>
+	</xs:element>
+	<xs:element name="collection">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Container of e.g. a collection of manifestations in a work.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="of:originalData" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
 	</xs:element>
 	<xs:element name="error" type="xs:string">
 		<xs:annotation>
@@ -114,14 +150,19 @@ You should have received a copy of the GNU Affero General Public License along w
 			<xs:documentation xml:lang="en">User identifier (for authentication purposes)</xs:documentation>
 		</xs:annotation>
 	</xs:element>
+	<xs:element name="workOutputFormat" type="of:workOutputFormatType">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">E.g. bibliotek.dk full display format.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
 	<xs:simpleType name="outputFormatType">
 		<xs:annotation>
 			<xs:documentation xml:lang="en">The types of output that can be returned by the service.</xs:documentation>
 		</xs:annotation>
 		<xs:restriction base="xs:string">
 			<xs:enumeration value="bibliotekdkFullDisplay"/>
+			<xs:enumeration value="bibliotekdkWorkDisplay"/>
 			<xs:enumeration value="briefDisplay"/>
-			<xs:enumeration value="fullDisplay"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<xs:simpleType name="outputTypeType">
@@ -139,4 +180,12 @@ You should have received a copy of the GNU Affero General Public License along w
 			<xs:documentation xml:lang="en">Unique id to identify this request</xs:documentation>
 		</xs:annotation>
 	</xs:element>
+	<xs:simpleType name="workOutputFormatType">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">The types of output that can be returned by the service.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="bibliotekdkWorkDisplay"/>
+		</xs:restriction>
+	</xs:simpleType>
 </xs:schema>

@@ -7,12 +7,19 @@
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
+	<xs:element name="bibliotekdkWorkDisplay">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ofo:workDisplayInformation"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
 	<xs:element name="briefDisplayInformation">
 		<xs:annotation>
 			<xs:documentation xml:lang="en">HTML formatted display information</xs:documentation>
 		</xs:annotation>
 		<xs:complexType>
-			<xs:sequence>			
+			<xs:sequence>
 				<xs:element ref="ofo:creator" minOccurs="0"/>
 				<xs:element ref="ofo:title" minOccurs="0"/>
 				<xs:element ref="ofo:type"/>
@@ -24,7 +31,7 @@
 			<xs:documentation xml:lang="en">HTML formatted display information</xs:documentation>
 		</xs:annotation>
 		<xs:complexType>
-			<xs:sequence>			
+			<xs:sequence>
 				<xs:element ref="ofo:creator" minOccurs="0"/>
 				<xs:element ref="ofo:title" minOccurs="0"/>
 				<xs:element ref="ofo:type"/>
@@ -32,6 +39,42 @@
 				<xs:element ref="ofo:details" minOccurs="0"/>
 				<xs:element ref="ofo:publicationDetails" minOccurs="0"/>
 				<xs:element ref="ofo:content" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="workDisplayInformation">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">HTML formatted work display information</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ofo:work" minOccurs="0"/>
+				<xs:element ref="ofo:manifestation" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="manifestation">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Remaining information about the manifestation in a work display</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ofo:type"/>
+				<xs:element ref="ofo:details" minOccurs="0"/>
+				<xs:element ref="ofo:publicationDetails" minOccurs="0"/>
+				<xs:element ref="ofo:content" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="work">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Common information about the work (taken from the first manifestation in the request)</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ofo:creator" minOccurs="0"/>
+				<xs:element ref="ofo:title" minOccurs="0"/>
+				<xs:element ref="ofo:description" minOccurs="0"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>

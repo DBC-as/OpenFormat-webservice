@@ -19,10 +19,22 @@ You should have received a copy of the GNU Affero General Public License along w
 	<wsdl:message name="formatSingleManifestationResponse">
 		<wsdl:part name="parameters" element="types:formatSingleManifestationResponse"/>
 	</wsdl:message>
+	<wsdl:message name="formatWorkRequest">
+		<wsdl:part name="parameters" element="types:formatWorkRequest"/>
+	</wsdl:message>
+	<wsdl:message name="formatWorkResponse">
+		<wsdl:part name="parameters" element="types:formatWorkResponse"/>
+	</wsdl:message>
 	<wsdl:portType name="formatSingleManifestationServicePortType">
 		<wsdl:operation name="formatSingleManifestation">
 			<wsdl:input message="ofw:formatSingleManifestationRequest"/>
 			<wsdl:output message="ofw:formatSingleManifestationResponse"/>
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:portType name="formatWorkServicePortType">
+		<wsdl:operation name="formatWork">
+			<wsdl:input message="ofw:formatWorkRequest"/>
+			<wsdl:output message="ofw:formatWorkResponse"/>
 		</wsdl:operation>
 	</wsdl:portType>
 	<wsdl:binding name="formatSingleManifestationServiceSoapBinding" type="ofw:formatSingleManifestationServicePortType">
@@ -37,8 +49,23 @@ You should have received a copy of the GNU Affero General Public License along w
 			</wsdl:output>
 		</wsdl:operation>
 	</wsdl:binding>
-	<wsdl:service name="formatSingleManifestationService">
+	<wsdl:binding name="formatWorkServiceSoapBinding" type="ofw:formatWorkServicePortType">
+		<soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+		<wsdl:operation name="formatWork">
+			<soap:operation soapAction="http://openformat.addi.dk/"/>
+			<wsdl:input name="formatWorkRequest">
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output name="formatWorkResponse">
+				<soap:body use="literal"/>
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:service name="formatService">
 		<wsdl:port name="formatSingleManifestationService" binding="ofw:formatSingleManifestationServiceSoapBinding">
+			<soap:address location="http://openformat.addi.dk/"/>
+		</wsdl:port>
+		<wsdl:port name="formatWorkService" binding="ofw:formatWorkServiceSoapBinding">
 			<soap:address location="http://openformat.addi.dk/"/>
 		</wsdl:port>
 	</wsdl:service>
