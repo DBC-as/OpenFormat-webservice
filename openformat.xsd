@@ -55,7 +55,7 @@ You should have received a copy of the GNU Affero General Public License along w
 				<xs:element ref="of:agency" minOccurs="0"/>
 				<xs:element ref="of:authentication" minOccurs="0"/>
 				<xs:element ref="of:callback" minOccurs="0"/>
-				<xs:element ref="of:collection"/>
+				<xs:element ref="of:originalData"/>
 				<xs:element ref="of:workOutputFormat"/>
 				<xs:element ref="of:outputType" minOccurs="0"/>
 				<xs:element ref="of:transactionId" minOccurs="0"/>
@@ -102,16 +102,6 @@ You should have received a copy of the GNU Affero General Public License along w
 		<xs:annotation>
 			<xs:documentation xml:lang="en">If outputType=json.</xs:documentation>
 		</xs:annotation>
-	</xs:element>
-	<xs:element name="collection">
-		<xs:annotation>
-			<xs:documentation xml:lang="en">Container of e.g. a collection of manifestations in a work.</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element ref="of:originalData" maxOccurs="unbounded"/>
-			</xs:sequence>
-		</xs:complexType>
 	</xs:element>
 	<xs:element name="error" type="xs:string">
 		<xs:annotation>
