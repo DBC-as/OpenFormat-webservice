@@ -94,7 +94,7 @@ You should have received a copy of the GNU Affero General Public License along w
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element ref="dkabm:record"/>
-				<xs:element ref="marcx:record" minOccurs="0"/>
+				<xs:element ref="marcx:collection" minOccurs="0"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
