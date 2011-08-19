@@ -29,28 +29,27 @@ define(DEBUG_ON, FALSE);
 
 //-----------------------------------------------------------------------------
 class openFormat extends webServiceServer {
-    protected $curl;
-    protected $fake_multi;
+    protected $curl;                      // the curl connection
+    protected $timeout;                 
+    protected $fake_multi;                // for performance testing purposes
     protected $js_server_url = array ();  // if more than one, the formatting requests will be split amongst them
-    protected $rec_status = array();     // curl_status for each rec formattet
+    protected $current_js_server;         // js_server to use next
+    protected $rec_status = array();      // curl_status for each rec formattet
 
     public function __construct(){
         webServiceServer::__construct('openformat.ini');
 
-        if (!$timeout = (integer) $this->config->get_value('curl_timeout', 'setup'))
-            $timeout = 20;
+        if (!($this->timeout = (integer) $this->config->get_value('curl_timeout', 'setup')))
+            $this->timeout = 20;
         $this->curl = new curl();
         if (!($this->fake_multi = (integer) $this->config->get_value('fake_multi', 'setup')))
             $this->fake_multi = 1;
         foreach ($this->config->get_value('js_server', 'setup') as $url)
             $this->js_server_url[] = $url;
+        $this->current_js_server = rand(0, count($this->js_server_url) - 1);
         for ($i = 0; $i < $this->fake_multi; $i++) {
-            $this->curl->set_option(CURLOPT_TIMEOUT, $timeout, $i);
-            $this->curl->set_option(CURLOPT_HTTPHEADER, array('Content-Type: text/xml; charset=UTF-8'), $i);
-            $this->curl->set_url($this->js_server_url[0], $i);
+            $this->curl->set_url($this->js_server_url[$this->current_js_server], $i);
         }
-/*
-*/
     }
 
     /**
@@ -61,7 +60,7 @@ class openFormat extends webServiceServer {
         if (!$this->aaa->has_right('openformat', 500))
             $res->error->_value = 'authentication_error';
         else {
-            $param->transactionId->_value = 'of:' . date('Y-m-d\TH:i:s:') . substr((string)microtime(), 2, 6) . ':' . getmypid() . ($param->transactionId->_value ? '::' . $param->transactionId->_value : '');
+            $param->trackingId->_value = 'of:' . date('Y-m-d\TH:i:s:') . substr((string)microtime(), 2, 6) . ':' . getmypid() . ($param->trackingId->_value ? '::' . $param->trackingId->_value : '');
             $form_req->formatSingleManifestationRequest->_value = $param;
             $res->bibliotekdkFullDisplay->_namespace = $this->xmlns['ofo'];
             $res->bibliotekdkFullDisplay->_value->displayInformation->_namespace = $this->xmlns['ofo'];
@@ -98,7 +97,11 @@ class openFormat extends webServiceServer {
         echo 'version             ' . $this->config->get_value('version', 'setup') . '<br/>';
         echo 'logfile             ' . $this->config->get_value('logfile', 'setup') . '<br/>';
         echo 'verbose             ' . $this->config->get_value('verbose', 'setup') . '<br/>';
-        echo 'js_server           ' . $this->config->get_value('js_server', 'setup') . '<br/>';
+        $txt = 'js_server           ';
+        foreach ($this->config->get_value('js_server', 'setup') as $js) {
+            echo $txt . $js . '<br/>';
+            $txt = ' -                  ';
+        }
         echo 'aaa_credentials     ' . $this->strip_oci_pwd($this->config->get_value('aaa_credentials', 'aaa')) . '<br/>';
         echo '</pre>';
         die();
@@ -113,6 +116,8 @@ class openFormat extends webServiceServer {
         $xml_rec = $this->objconvert->obj2xmlNs($rec);
         //verbose::log(TRACE, 'help ' . $xml_rec);
         for ($i = 0; $i < $this->fake_multi; $i++) {
+            $this->curl->set_option(CURLOPT_TIMEOUT, $this->timeout, $i);
+            $this->curl->set_option(CURLOPT_HTTPHEADER, array('Content-Type: text/xml; charset=UTF-8'), $i);
             $this->curl->set_post_xml($xml_rec, $i);
         }
         $this->watch->start('js_server');
