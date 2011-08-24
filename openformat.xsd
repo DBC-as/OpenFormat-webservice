@@ -27,6 +27,7 @@ You should have received a copy of the GNU Affero General Public License along w
 				<xs:element ref="of:agency" minOccurs="0"/>
 				<xs:element ref="of:authentication" minOccurs="0"/>
 				<xs:element ref="of:callback" minOccurs="0"/>
+				<xs:element ref="of:language" minOccurs="0"/>
 				<xs:element ref="of:originalData"/>
 				<xs:element ref="of:outputFormat"/>
 				<xs:element ref="of:outputType" minOccurs="0"/>
@@ -55,6 +56,7 @@ You should have received a copy of the GNU Affero General Public License along w
 				<xs:element ref="of:agency" minOccurs="0"/>
 				<xs:element ref="of:authentication" minOccurs="0"/>
 				<xs:element ref="of:callback" minOccurs="0"/>
+				<xs:element ref="of:language" minOccurs="0"/>
 				<xs:element ref="of:originalData"/>
 				<xs:element ref="of:workOutputFormat"/>
 				<xs:element ref="of:outputType" minOccurs="0"/>
@@ -113,6 +115,11 @@ You should have received a copy of the GNU Affero General Public License along w
 			<xs:documentation xml:lang="en">Identifier of the group (most often a library number) the user belongs to (for authentication purposes)</xs:documentation>
 		</xs:annotation>
 	</xs:element>
+	<xs:element name="language" type="of:languageType">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Language of output. Danish is the default output language.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
 	<xs:element name="originalData">
 		<xs:complexType>
 			<xs:choice>
@@ -145,6 +152,15 @@ You should have received a copy of the GNU Affero General Public License along w
 			<xs:documentation xml:lang="en">E.g. bibliotek.dk full display format.</xs:documentation>
 		</xs:annotation>
 	</xs:element>
+	<xs:simpleType name="languageType">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">The output languages that can be used with this service.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="dan"/>
+			<xs:enumeration value="eng"/>
+		</xs:restriction>
+	</xs:simpleType>
 	<xs:simpleType name="outputFormatType">
 		<xs:annotation>
 			<xs:documentation xml:lang="en">The types of output that can be returned by the service.</xs:documentation>
