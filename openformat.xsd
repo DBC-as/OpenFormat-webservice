@@ -28,7 +28,7 @@ You should have received a copy of the GNU Affero General Public License along w
 				<xs:element ref="of:authentication" minOccurs="0"/>
 				<xs:element ref="of:callback" minOccurs="0"/>
 				<xs:element ref="of:language" minOccurs="0"/>
-				<xs:element ref="of:originalData"/>
+				<xs:element ref="of:originalData" maxOccurs="unbounded"/>
 				<xs:element ref="of:outputFormat"/>
 				<xs:element ref="of:outputType" minOccurs="0"/>
 				<xs:element ref="of:trackingId" minOccurs="0"/>
@@ -57,10 +57,10 @@ You should have received a copy of the GNU Affero General Public License along w
 				<xs:element ref="of:authentication" minOccurs="0"/>
 				<xs:element ref="of:callback" minOccurs="0"/>
 				<xs:element ref="of:language" minOccurs="0"/>
-				<xs:element ref="of:originalData"/>
+				<xs:element ref="of:originalData" maxOccurs="unbounded"/>
 				<xs:element ref="of:workOutputFormat"/>
 				<xs:element ref="of:outputType" minOccurs="0"/>
-				<xs:element ref="of:transactionId" minOccurs="0"/>
+				<xs:element ref="of:trackingId" minOccurs="0"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
@@ -123,7 +123,7 @@ You should have received a copy of the GNU Affero General Public License along w
 	<xs:element name="originalData">
 		<xs:complexType>
 			<xs:choice>
-				<xs:element ref="of:bibliographicData"/>
+				<xs:element ref="of:bibliographicData" maxOccurs="unbounded"/>
 			</xs:choice>
 		</xs:complexType>
 	</xs:element>
