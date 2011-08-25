@@ -13,59 +13,32 @@ You should have received a copy of the GNU Affero General Public License along w
 			<xs:import namespace="http://oss.dbc.dk/ns/openformat" schemaLocation="openformat.xsd"/>
 		</xs:schema>
 	</wsdl:types>
-	<wsdl:message name="formatSingleManifestationRequest">
-		<wsdl:part name="parameters" element="types:formatSingleManifestationRequest"/>
+	<wsdl:message name="formatRequest">
+		<wsdl:part name="parameters" element="types:formatRequest"/>
 	</wsdl:message>
-	<wsdl:message name="formatSingleManifestationResponse">
-		<wsdl:part name="parameters" element="types:formatSingleManifestationResponse"/>
+	<wsdl:message name="formatResponse">
+		<wsdl:part name="parameters" element="types:formatResponse"/>
 	</wsdl:message>
-	<wsdl:message name="formatWorkRequest">
-		<wsdl:part name="parameters" element="types:formatWorkRequest"/>
-	</wsdl:message>
-	<wsdl:message name="formatWorkResponse">
-		<wsdl:part name="parameters" element="types:formatWorkResponse"/>
-	</wsdl:message>
-	<wsdl:portType name="formatSingleManifestationServicePortType">
-		<wsdl:operation name="formatSingleManifestation">
-			<wsdl:input message="ofw:formatSingleManifestationRequest"/>
-			<wsdl:output message="ofw:formatSingleManifestationResponse"/>
+	<wsdl:portType name="formatServicePortType">
+		<wsdl:operation name="format">
+			<wsdl:input message="ofw:formatRequest"/>
+			<wsdl:output message="ofw:formatSResponse"/>
 		</wsdl:operation>
 	</wsdl:portType>
-	<wsdl:portType name="formatWorkServicePortType">
-		<wsdl:operation name="formatWork">
-			<wsdl:input message="ofw:formatWorkRequest"/>
-			<wsdl:output message="ofw:formatWorkResponse"/>
-		</wsdl:operation>
-	</wsdl:portType>
-	<wsdl:binding name="formatSingleManifestationServiceSoapBinding" type="ofw:formatSingleManifestationServicePortType">
+	<wsdl:binding name="formatServiceSoapBinding" type="ofw:formatServicePortType">
 		<soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
-		<wsdl:operation name="formatSingleManifestation">
+		<wsdl:operation name="format">
 			<soap:operation soapAction="http://openformat.addi.dk/"/>
-			<wsdl:input name="formatSingleManifestationRequest">
+			<wsdl:input name="formatRequest">
 				<soap:body use="literal"/>
 			</wsdl:input>
-			<wsdl:output name="formatSingleManifestationResponse">
-				<soap:body use="literal"/>
-			</wsdl:output>
-		</wsdl:operation>
-	</wsdl:binding>
-	<wsdl:binding name="formatWorkServiceSoapBinding" type="ofw:formatWorkServicePortType">
-		<soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
-		<wsdl:operation name="formatWork">
-			<soap:operation soapAction="http://openformat.addi.dk/"/>
-			<wsdl:input name="formatWorkRequest">
-				<soap:body use="literal"/>
-			</wsdl:input>
-			<wsdl:output name="formatWorkResponse">
+			<wsdl:output name="formatResponse">
 				<soap:body use="literal"/>
 			</wsdl:output>
 		</wsdl:operation>
 	</wsdl:binding>
 	<wsdl:service name="formatService">
-		<wsdl:port name="formatSingleManifestationService" binding="ofw:formatSingleManifestationServiceSoapBinding">
-			<soap:address location="http://openformat.addi.dk/"/>
-		</wsdl:port>
-		<wsdl:port name="formatWorkService" binding="ofw:formatWorkServiceSoapBinding">
+		<wsdl:port name="formatService" binding="ofw:formatServiceSoapBinding">
 			<soap:address location="http://openformat.addi.dk/"/>
 		</wsdl:port>
 	</wsdl:service>

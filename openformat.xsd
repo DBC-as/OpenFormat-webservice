@@ -18,7 +18,7 @@ You should have received a copy of the GNU Affero General Public License along w
 	<xs:import namespace="http://docbook.org/ns/docbook" schemaLocation="docbook.xsd"/>
 	<xs:import namespace="http://oss.dbc.dk/ns/openformatoutput" schemaLocation="openformatoutput.xsd"/>
 	<xs:import namespace="http://oss.dbc.dk/ns/opensearchobjects" schemaLocation="opensearchobjects.xsd"/>
-	<xs:element name="formatSingleManifestationRequest">
+	<xs:element name="formatRequest">
 		<xs:annotation>
 			<xs:documentation xml:lang="en">Request for formatting a single manifestation.</xs:documentation>
 		</xs:annotation>
@@ -35,41 +35,14 @@ You should have received a copy of the GNU Affero General Public License along w
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
-	<xs:element name="formatSingleManifestationResponse">
+	<xs:element name="formatResponse">
 		<xs:annotation>
 			<xs:documentation xml:lang="en">The service response.</xs:documentation>
 		</xs:annotation>
 		<xs:complexType>
 			<xs:choice>
+				<xs:element ref="ofo:bibliotekdkBriefDisplay"/>
 				<xs:element ref="ofo:bibliotekdkFullDisplay"/>
-				<xs:element ref="ofo:briefDisplayInformation"/>
-				<xs:element ref="of:error"/>
-			</xs:choice>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="formatWorkRequest">
-		<xs:annotation>
-			<xs:documentation xml:lang="en">Request for formatting a single manifestation.</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element ref="of:agency" minOccurs="0"/>
-				<xs:element ref="of:authentication" minOccurs="0"/>
-				<xs:element ref="of:callback" minOccurs="0"/>
-				<xs:element ref="of:language" minOccurs="0"/>
-				<xs:element ref="of:originalData" maxOccurs="unbounded"/>
-				<xs:element ref="of:workOutputFormat"/>
-				<xs:element ref="of:outputType" minOccurs="0"/>
-				<xs:element ref="of:trackingId" minOccurs="0"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="formatWorkResponse">
-		<xs:annotation>
-			<xs:documentation xml:lang="en">The service response.</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:choice>
 				<xs:element ref="ofo:bibliotekdkWorkDisplay"/>
 				<xs:element ref="of:error"/>
 			</xs:choice>
@@ -166,6 +139,7 @@ You should have received a copy of the GNU Affero General Public License along w
 			<xs:documentation xml:lang="en">The types of output that can be returned by the service.</xs:documentation>
 		</xs:annotation>
 		<xs:restriction base="xs:string">
+			<xs:enumeration value="bibliotekdkBriefDisplay"/>
 			<xs:enumeration value="bibliotekdkFullDisplay"/>
 			<xs:enumeration value="bibliotekdkWorkDisplay"/>
 			<xs:enumeration value="briefDisplay"/>
@@ -186,12 +160,4 @@ You should have received a copy of the GNU Affero General Public License along w
 			<xs:documentation xml:lang="en">Unique id to track this request</xs:documentation>
 		</xs:annotation>
 	</xs:element>
-	<xs:simpleType name="workOutputFormatType">
-		<xs:annotation>
-			<xs:documentation xml:lang="en">The types of output that can be returned by the service.</xs:documentation>
-		</xs:annotation>
-		<xs:restriction base="xs:string">
-			<xs:enumeration value="bibliotekdkWorkDisplay"/>
-		</xs:restriction>
-	</xs:simpleType>
 </xs:schema>
