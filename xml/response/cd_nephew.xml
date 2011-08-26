@@ -75,8 +75,7 @@
 &lt;/div&gt;</div>
     </ofo:content>
   </ofo:fullDisplayInformation>
-<ofo:displayInformation>
-<ofo:bibliotekdkFullDisplay>
-    <formatSingleManifestationResponse>
+</ofo:displayInformation></ofo:bibliotekdkFullDisplay>
+    </formatSingleManifestationResponse>
   </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
