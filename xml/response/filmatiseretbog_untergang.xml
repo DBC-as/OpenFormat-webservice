@@ -59,6 +59,6 @@
   </ofo:fullDisplayInformation>
 <ofo:displayInformation>
 <ofo:bibliotekdkFullDisplay>
-    <formatSingleManifestationRequest>
+    <formatSingleManifestationResponse>
   </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
