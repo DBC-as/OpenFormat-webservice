@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatSingleManifestationRequest>
+      <ns1:originalData>
+        <ns1:bibliographicData>
+  <ofo:fullDisplayInformation>
+    <ofo:creator>&lt;div class="creators"/&gt;</ofo:creator>
+    <ofo:title>&lt;div class="title"&gt;Bolivia, Paraguay&lt;/div&gt;</ofo:title>
+    <ofo:type>&lt;div class="type"&gt;Kort&lt;/div&gt;</ofo:type>
+    <ofo:description>&lt;div class="subjects"&gt;
+  &lt;span class="subjectHeader"&gt;Emne:&lt;/span&gt;
+  &lt;span class="subject phraseLink"&gt;Bolivia&lt;/span&gt;
+   ; 
+  &lt;span class="subject phraseLink"&gt;Paraguay&lt;/span&gt;
+   ; 
+  &lt;span class="subject phraseLink"&gt;kort&lt;/span&gt;
+   ; 
+  &lt;span class="subject phraseLink"&gt;vejatlas&lt;/span&gt;
+&lt;/div&gt;&lt;div class="abstract"&gt;På omslaget: Special maps: Cusco/Machu Picchu, Iguacu, Tiahuanaco, Cusco, La Paz, Santa Cruz, Potosi, Central Asunción, Sucre&lt;/div&gt;</ofo:description>
+    <ofo:details>&amp;lt;div class="format"&amp;gt;1 falset kort, i farver&amp;lt;/div&amp;gt;&amp;lt;div class="series"&amp;gt;
+  &amp;lt;span class="seriesHeader"&amp;gt;Serie:&amp;lt;/span&amp;gt;
+  &amp;lt;span class="series phraseLink"&amp;gt;Nelles map&amp;lt;/span&amp;gt;
+&amp;lt;/div&amp;gt;&amp;lt;div class="shelf"&amp;gt;
+  &amp;lt;span class="shelfHeader"&amp;gt;Opstilling i folkebiblioteker:&amp;lt;/span&amp;gt;
+  &amp;lt;span class="classification phraseLink"&amp;gt;40.1884&amp;lt;/span&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;div class="usedLanguages"/&gt;&lt;div class="note"&gt;
+  &lt;div class="descriptionNote"&gt;På omslaget: Special maps: Cusco/Machu Picchu, Iguacu, Tiahuanaco, Cusco, La Paz, Santa Cruz, Potosi, Central Asunción, Sucre&lt;/div&gt;
+  &lt;div class="descriptionNote"&gt;På omslaget: Physical rilief mapping, Places of interest&lt;/div&gt;
+&lt;/div&gt;&lt;div class="identifiers"&gt;
+  &lt;span class="identifierHeader"&gt;ISBN&lt;/span&gt;
+  &lt;span class="identifier"&gt;9783865742056&lt;/span&gt;
+&lt;/div&gt;&lt;div class="languageInformation"/&gt;
+&lt;span class="languageHeader"&gt;Sprog:&lt;/span&gt;
+&lt;span class="language"&gt;Engelsk&lt;/span&gt;</ofo:details>
+    <ofo:publicationDetails>&lt;div class="publication"&gt;
+  &lt;span class="edition"&gt;Edition 2011&lt;/span&gt;
+  . 
+  &lt;span class="publisher"&gt;Nelles&lt;/span&gt;
+  , 
+  &lt;span class="year"&gt;2011&lt;/span&gt;
+&lt;/div&gt;</ofo:publicationDetails>
+    <ofo:content/>
+  </ofo:fullDisplayInformation>
+</ofo:bibliotekdkFullDisplay>
+        </ns1:bibliographicData>
+      </ns1:originalData>
+      <ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
+    </ns1:formatSingleManifestationRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
