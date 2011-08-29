@@ -32,7 +32,7 @@ wsdl = openformat.wsdl
 
 ; soapActions and their corresponding request structure
 ; Can be found in the wsdl but is stated here for convenience
-soapAction[formatSingleManifestation] = formatSingleManifestationRequest
+soapAction[format] = formatRequest
 
 ; prefixes and namespaces
 xmlns[] = http://oss.dbc.dk/ns/openformat
@@ -127,11 +127,22 @@ aaa_ip_rights[dbc][ressource][openformat] = 500
 ; use the same order below as in the xsd used for validating
 ;
 
-action[formatSingleManifestation][] = agency
-action[formatSingleManifestation][] = callback
-action[formatSingleManifestation][] = originalData
-action[formatSingleManifestation][] = outputFormat
-action[formatSingleManifestation][] = outputType
+; REST not supported for this service
+;
+;action[format][] = agency
+;action[format][authentication][] = authentication.groupIdAut
+;action[format][authentication][] = groupIdAut
+;action[format][authentication][] = authentication.passwordAut
+;action[format][authentication][] = passwordAut
+;action[format][authentication][] = authentication.userIdAut
+;action[format][authentication][] = userIdAut
+;action[format][] = callback
+;action[format][] = language
+;action[format][] = originalData
+;action[format][] = outputFormat
+;action[format][] = outputType
+;action[format][] = trackingId
+
 
 
 [howru]
