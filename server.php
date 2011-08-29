@@ -30,8 +30,8 @@ define(DEBUG_ON, FALSE);
 //-----------------------------------------------------------------------------
 class openFormat extends webServiceServer {
     protected $curl;                      // the curl connection
-    protected $timeout;                 
     protected $fake_multi;                // for performance testing purposes
+    protected $record_blocking;           // block factor: number of recs in each request to js_server
     protected $js_server_url = array ();  // if more than one, the formatting requests will be split amongst them
     protected $current_js_server;         // js_server to use next
     protected $rec_status = array();      // curl_status for each rec formattet
@@ -39,50 +39,49 @@ class openFormat extends webServiceServer {
     public function __construct(){
         webServiceServer::__construct('openformat.ini');
 
-        if (!($this->timeout = (integer) $this->config->get_value('curl_timeout', 'setup')))
-            $this->timeout = 20;
         $this->curl = new curl();
-        if (!($this->fake_multi = (integer) $this->config->get_value('fake_multi', 'setup')))
-            $this->fake_multi = 1;
         foreach ($this->config->get_value('js_server', 'setup') as $url)
             $this->js_server_url[] = $url;
-        $this->current_js_server = rand(0, count($this->js_server_url) - 1);
-        for ($i = 0; $i < $this->fake_multi; $i++) {
-            $this->curl->set_url($this->js_server_url[$this->current_js_server], $i);
-        }
+        if (!($this->record_blocking = (integer) $this->config->get_value('record_blocking', 'setup')))
+            $this->record_blocking = 1;
     }
 
     /**
         \brief Handles the request and set up the response
     */
 
-    public function formatSingleManifestation($param) {
+    public function format($param) {
         if (!$this->aaa->has_right('openformat', 500))
             $res->error->_value = 'authentication_error';
         else {
-            $param->trackingId->_value = 'of:' . date('Y-m-d\TH:i:s:') . substr((string)microtime(), 2, 6) . ':' . getmypid() . ($param->trackingId->_value ? '::' . $param->trackingId->_value : '');
-            $form_req->formatSingleManifestationRequest->_value = $param;
-            $res->bibliotekdkFullDisplay->_namespace = $this->xmlns['ofo'];
-            $res->bibliotekdkFullDisplay->_value->displayInformation->_namespace = $this->xmlns['ofo'];
-            $res->bibliotekdkFullDisplay->_value->displayInformation->_value = 
-               $this->format_rec($form_req, $param->outputFormat->_value);
-               //$this->format_rec($param->originalData->_value, $param->outputFormat->_value);
+            $param->trackingId->_value = verbose::make_tracking_id('of', $param->trackingId->_value);
+            if (is_array($param->originalData))
+                foreach ($param->originalData as $key => $od)
+                    $form_req[] = &$param->originalData[$key];
+            else
+                $form_req[] = &$param->originalData;
+            $formatted = $this->format_recs($form_req, $param);
+
         }
-        //var_dump($res); var_dump($param); die();
-        $ret->formatSingleManifestationResponse->_value = $res;
+        for ($i = 0; $i < count($formatted); $i++) {
+            $fkey = key($formatted[$i]);
+            $res->{$fkey}[] = &$formatted[$i]->$fkey;
+        }
+        $ret->formatResponse->_value = &$res;
+        $ret->formatResponse->_namespace = $this->xmlns['ofo'];
+        //var_dump($ret); var_dump($param); die();
         if (!($dump_format = $this->dump_timer)) $dmp_format = '%s';
         foreach ($this->rec_status as $r_c) {
             $size_upload = $r_c['size_upload'];
             $size_download = $r_c['size_download'];
         }
-        verbose::log(STAT, sprintf($dump_format.'::', 'formatSingleManifestation') . 
+        verbose::log(STAT, sprintf($dump_format.'::', 'format') . 
                            ' Ip:' . $_SERVER['REMOTE_ADDR'] . 
                            ' Format:' . $param->outputFormat->_value . 
-                           ' NoRec:' . '1' .
-                           ($this->fake_multi > 1 ? ' multi: ' . $this->fake_multi . 
-                                                    ' avg: ' . ( $this->watch->splittime('js_server') / $this->fake_multi) : '') .
+                           ' NoRec:' . count($form_req) .
                            ' bytesIn: ' . $size_upload .
                            ' bytesOut: ' . $size_download .
+                           ' no_of_js_server:' . count($this->js_server_url) . 
                            ' js_server:' . sprintf('%01.3f', $this->watch->splittime('js_server')) .
                            ' Total:' . sprintf('%01.3f', $this->watch->splittime('Total')));
         return $ret;
@@ -103,56 +102,75 @@ class openFormat extends webServiceServer {
             $txt = ' -                  ';
         }
         echo 'aaa_credentials     ' . $this->strip_oci_pwd($this->config->get_value('aaa_credentials', 'aaa')) . '<br/>';
+        echo 'pwd                 ' . $_SERVER['HTTP_HOST'] . dirname($_SERVER['PHP_SELF']);
         echo '</pre>';
         die();
     }
 
-    /** \brief Format the record according to format
+    /** \brief Format recs sending them to js_server(s)
      *
      */
-    private function format_rec(&$rec, $format) {
-        // return $this->fake_output();
-        //verbose::log(TRACE, 'help ' . $rec->bibliographicData->_value->record->_value->description->_value);
-        $xml_rec = $this->objconvert->obj2xmlNs($rec);
-        //verbose::log(TRACE, 'help ' . $xml_rec);
-        for ($i = 0; $i < $this->fake_multi; $i++) {
-            $this->curl->set_option(CURLOPT_TIMEOUT, $this->timeout, $i);
-            $this->curl->set_option(CURLOPT_HTTPHEADER, array('Content-Type: text/xml; charset=UTF-8'), $i);
-            $this->curl->set_post_xml($xml_rec, $i);
-        }
-        $this->watch->start('js_server');
-        $js_result = $this->curl->get();
-        $curl_status = $this->curl->get_status();
-        $this->watch->stop('js_server');
-        //verbose::log(DEBUG, print_r($curl_status, TRUE));
-        if (is_array($curl_status[0])) {
-            $this->rec_status[] = $curl_status[0];
-            foreach ($curl_status as $n => $status) {
-                if ($status['http_code'] <> 200)
-                    $curl_status_text .= 'error ' . $status['http_code'] . ' for connection #' . $n . ' ';
-                if ($n && $js_result[0] <> $js_result[$n])
-                    $curl_status_text .= 'result for connection #' . $n . ' differs from the first result ';
-            }
-            if (empty($curl_status_text))
-                verbose::log(DEBUG, 'All ' . $this->fake_multi . ' connections ok');
-            else
-                verbose::log(DEBUG, 'Some of ' . $this->fake_multi . ' connections failed. ' . $curl_status_text);
-        } else {
-            $this->rec_status[] = $curl_status;
-        }
-        if (is_array($js_result)) $js_result = $js_result[0];
-        //verbose::log(TRACE, 'js_result ' . $js_result);
+    private function format_recs(&$recs, &$param) {
+        // Since the api for record_blocking is not defined, it will be set to 1
+        if (!($timeout = (integer) $this->config->get_value('curl_timeout', 'setup')))
+            $timeout = 20;
 
         $dom = new DomDocument();
         $dom->preserveWhiteSpace = false;
-        if ( $dom->loadXML($js_result) ) {
-            $js_obj = $this->xmlconvert->xml2obj($dom);
-            return $js_obj->bibliotekdkFullDisplay->_value;
-        } else {
-            $js_obj->xml->_value->description->_value = 'Error formatting record - no valid response';
-            $js_obj->xml->_value->description->_namespace = $this->xmlns['ofo'];
-            return $js_obj->xml->_value;
+        $output_format = $param->outputFormat->_value;
+        $form_req->formatSingleManifestationRequest->_value->language = $param->language;
+        $form_req->formatSingleManifestationRequest->_value->outputFormat = $param->outputFormat;
+        $form_req->formatSingleManifestationRequest->_value->trackingId = $param->trackingId;
+        $this->record_blocking = 1;
+        $ret = array();
+        $curls = 0;
+        $tot_curls = 0;
+        $next_js_server = rand(0, count($this->js_server_url) - 1);
+        for ($no = 0; $no < count($recs); $no = $no + $this->record_blocking) {
+            $form_req->formatSingleManifestationRequest->_value->originalData = &$recs[$tot_curls];
+            $this->curl->set_option(CURLOPT_TIMEOUT, $timeout, $curls);
+            $this->curl->set_option(CURLOPT_HTTPHEADER, array('Content-Type: text/xml; charset=UTF-8'), $curls);
+            $this->curl->set_url($this->js_server_url[$next_js_server], $curls);
+            $rec = $this->objconvert->obj2xmlNs($form_req);
+            $this->curl->set_post_xml($rec, $curls);
+            verbose::log(DEBUG, 'Using js_server no: ' . $next_js_server);
+            $curls++;
+            $tot_curls++;
+            if ($curls == count($this->js_server_url) || $tot_curls == count($recs)) {
+                verbose::log(DEBUG, "Do curl");
+                $this->watch->start('js_server');
+                $js_result = $this->curl->get();
+                $curl_status = $this->curl->get_status();
+                $this->watch->stop('js_server');
+                if ($curl_status['url']) $curl_status = array($curl_status);
+                if (!is_array($js_result)) $js_result = array($js_result);
+                for ($i = 0; $i < $curls; $i++) {
+                    $this->rec_status[] = $curl_status[$i];
+                    if ($curl_status[$i]['http_code'] == 200) {
+                        if (@ $dom->loadXML($js_result[$i]))
+                            $js_obj = $this->xmlconvert->xml2obj($dom);
+                        else
+                            $error = 'Error formatting record - no valid response';
+                    } else {
+                        verbose::log(ERROR, 'http code: ' . $curl_status[$i]['http_code'] . 
+                                            ' error: "' . $curl_status[$i]['error'] .
+                                            '" for: ' . $curl_status[$i]['url'] .
+                                            ' TId: ' . $param->trackingId->_value);
+                        $error = 'HTTP error ' . $curl_status[$i]['http_code'] . ' . formatting record';
+                    }
+                    if ($error) {
+                        $js_obj->{$output_format}->_namespace = $this->xmlns['ofo'];
+                        $js_obj->{$output_format}->_value->error->_value = $error;
+                        $js_obj->{$output_format}->_value->error->_namespace = $this->xmlns['ofo'];
+                        unset($error);
+                    }
+                    $ret[] = $js_obj;
+                }
+                $curls = 0;
+            }
+            $next_js_server = ++$next_js_server % count($this->js_server_url);
         }
+        return $ret;
     }
 
     private function strip_oci_pwd($cred) {
@@ -178,32 +196,6 @@ class openFormat extends webServiceServer {
      */
     private function strip_agency($id) {
         return preg_replace('/\D/', '', $id);
-    }
-
-    /** \brief
-     *  return test output
-     */
-    private function fake_output() {
-        return '<xml xmlns:ofo="' . $this->xmlns['ofo'] . '">' .
-               '  <ofo:creator>' . 
-               htmlspecialchars ('<div class="creator">Hans Engell</div>') . 
-               '  </ofo:creator>' .
-               '  <ofo:title>' .
-               htmlspecialchars ('<div class="title">P Slotsholmen</div>') . 
-               '  </ofo:title>' .
-               '  <ofo:type>' .
-               htmlspecialchars ('<div class="type">Bog</div>') . 
-               '  </ofo:type>' .
-               '  <ofo:description>' .
-               htmlspecialchars ('<div class="description"><div class="subjects"><span class="subjectHeader">Emne:</span><span class="subject">1945-1999</span><span class="punctuation">;</span><span class="subject">96.72</span><span class="punctuation">;</span><span class="subject">Det Konservative Folkeparti</span><span class="punctuation">;</span><span class="subject">Hans Engell</span><span class="punctuation">;</span><span class="subject">Engell, Hans</span><span class="punctuation">;</span><span class="subject">erindringer</span><span class="punctuation">;</span><span class="subject">historie</span><span class="punctuation">;</span><span class="subject">politik</span><span class="punctuation">;</span><span class="subject">politikere</span><span class="punctuation">;</span><span class="subject">politiske forhold</span><span class="punctuation">;</span><span class="subject">politiske partier</span></div><div class="abstract">Hans Engell (f. 1948), der i 1997 gik af som konservativ partileder, beskriver det politiske liv p Slotsholmen fra han i 1978 startede som pressechef til han i 1993 sluttede som justitsminister, da Tamilsagen tvang Schlter-regeringen til at g</div></div>') . 
-               '  </ofo:description>' .
-               '  <ofo:details>' .
-               htmlspecialchars ('<div class="details"><div class="format">455 sider, illustreret</div><div class="formHeader">Form: </div><div class="form">erindringer</div><div class="shelfHeader">Opstilling i folkebiblioteker: <div class="shelf">96.72</div><div class="note"><div class="noteHeader">Samhrende: </div><div class="noteLink">P Slotsholmen</div> ; <div class="noteLink">Farvel til Slotsholmen</div></div><div class="isbn">ISBN: 87-11-15086-6</div><div class="price">Pris ved udgivelsen: kr. 149,00</div></div>') . 
-               '  </ofo:details>' .
-               '  <ofo:publicationDetails>' .
-               htmlspecialchars ('<div class="publication"><div class="edition">1. udgave, 3. oplag</div>. <div class="publisher">Aschehoug</div>, <div class="year">1997</div></div>') . 
-               '  </ofo:publicationDetails>' .
-               '</xml>';
     }
 
 
