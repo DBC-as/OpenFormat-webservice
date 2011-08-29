@@ -7,8 +7,8 @@
           <dkabm:record>
             <ac:identifier>45056171|870970</ac:identifier>
             <ac:source>undefined</ac:source>
-            <dc:title>Bolivia, Paraguay</dc:title>
-            <dc:title xsi:type="dkdcplus:full">Bolivia, Paraguay</dc:title>
+            <dc:title>Bolivia, Paraguay 1</dc:title>
+            <dc:title xsi:type="dkdcplus:full">Bolivia, Paraguay 1</dc:title>
             <dc:title xsi:type="dkdcplus:series">Nelles map</dc:title>
             <dc:subject xsi:type="dkdcplus:DK5">40.1884</dc:subject>
             <dc:subject xsi:type="dkdcplus:genre">nonfiktion</dc:subject>
@@ -66,7 +66,122 @@
                 <subfield code="e">9783865742056</subfield>
               </datafield>
               <datafield tag="245" ind1="0" ind2="0">
-                <subfield code="a">Bolivia, Paraguay</subfield>
+                <subfield code="a">Bolivia, Paraguay 1</subfield>
+              </datafield>
+              <datafield tag="250" ind1="0" ind2="0">
+                <subfield code="a">Edition 2011</subfield>
+              </datafield>
+              <datafield tag="256" ind1="0" ind2="0">
+                <subfield code="a">1:2 500 000</subfield>
+              </datafield>
+              <datafield tag="260" ind1="0" ind2="0">
+                <subfield code="a">München</subfield>
+                <subfield code="b">Nelles</subfield>
+                <subfield code="c">2011</subfield>
+              </datafield>
+              <datafield tag="300" ind1="0" ind2="0">
+                <subfield code="a">1 falset kort</subfield>
+                <subfield code="b">i farver</subfield>
+              </datafield>
+              <datafield tag="440" ind1="0" ind2="0">
+                <subfield code="a">Nelles map</subfield>
+              </datafield>
+              <datafield tag="512" ind1="0" ind2="0">
+                <subfield code="a">På omslaget: Special maps: Cusco/Machu Picchu, Iguacu, Tiahuanaco, Cusco, La Paz, Santa Cruz, Potosi, Central Asunción, Sucre</subfield>
+              </datafield>
+              <datafield tag="512" ind1="0" ind2="0">
+                <subfield code="a">På omslaget: Physical rilief mapping, Places of interest</subfield>
+              </datafield>
+              <datafield tag="652" ind1="0" ind2="0">
+                <subfield code="m">40.1884</subfield>
+              </datafield>
+              <datafield tag="652" ind1="0" ind2="0">
+                <subfield code="p">40.1887</subfield>
+              </datafield>
+              <datafield tag="666" ind1="0" ind2="0">
+                <subfield code="e">Bolivia</subfield>
+              </datafield>
+              <datafield tag="666" ind1="0" ind2="0">
+                <subfield code="e">Paraguay</subfield>
+              </datafield>
+              <datafield tag="666" ind1="0" ind2="0">
+                <subfield code="e">kort</subfield>
+              </datafield>
+              <datafield tag="666" ind1="0" ind2="0">
+                <subfield code="e">vejatlas</subfield>
+              </datafield>
+              <datafield tag="s10" ind1="0" ind2="0">
+                <subfield code="a">731600</subfield>
+              </datafield>
+            </record>
+          </marcx:collection>
+        </ns1:bibliographicData>
+      </ns1:originalData>
+      <ns1:originalData>
+        <ns1:bibliographicData>
+          <dkabm:record>
+            <ac:identifier>45056171|870970</ac:identifier>
+            <ac:source>undefined</ac:source>
+            <dc:title>Bolivia, Paraguay 2</dc:title>
+            <dc:title xsi:type="dkdcplus:full">Bolivia, Paraguay 2</dc:title>
+            <dc:title xsi:type="dkdcplus:series">Nelles map</dc:title>
+            <dc:subject xsi:type="dkdcplus:DK5">40.1884</dc:subject>
+            <dc:subject xsi:type="dkdcplus:genre">nonfiktion</dc:subject>
+            <dc:description>På omslaget: Special maps: Cusco/Machu Picchu, Iguacu, Tiahuanaco, Cusco, La Paz, Santa Cruz, Potosi, Central Asunción, Sucre</dc:description>
+            <dc:description>På omslaget: Physical rilief mapping, Places of interest</dc:description>
+            <dcterms:audience>voksenmaterialer</dcterms:audience>
+            <dkdcplus:version>Edition 2011</dkdcplus:version>
+            <dc:publisher>Nelles</dc:publisher>
+            <dc:date>2011</dc:date>
+            <dc:type xsi:type="dkdcplus:BibDK-Type">Kort</dc:type>
+            <dc:format>i farver</dc:format>
+            <dcterms:extent>1 falset kort</dcterms:extent>
+            <dc:identifier xsi:type="dkdcplus:ISBN">9783865742056</dc:identifier>
+            <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+            <dc:language>Engelsk</dc:language>
+            <dcterms:spatial xsi:type="dkdcplus:DBCF">Bolivia</dcterms:spatial>
+            <dcterms:spatial xsi:type="dkdcplus:DBCF">Paraguay</dcterms:spatial>
+            <dcterms:spatial xsi:type="dkdcplus:DBCF">kort</dcterms:spatial>
+            <dcterms:spatial xsi:type="dkdcplus:DBCF">vejatlas</dcterms:spatial>
+          </dkabm:record>
+          <marcx:collection xmlns:marcx="http://www.bs.dk/standards/MarcXchange">
+            <record format="danMARC2" type="Bibliographic">
+              <leader>000000000000000000000000</leader>
+              <datafield tag="001" ind1="0" ind2="0">
+                <subfield code="a">45056171</subfield>
+                <subfield code="b">870970</subfield>
+                <subfield code="c">20110526170209</subfield>
+                <subfield code="d">20110526</subfield>
+                <subfield code="f">a</subfield>
+                <subfield code="t">FAUST</subfield>
+              </datafield>
+              <datafield tag="002" ind1="0" ind2="0">
+                <subfield code="b">731600</subfield>
+                <subfield code="c">9 033 022 5</subfield>
+                <subfield code="x">73160090330225</subfield>
+              </datafield>
+              <datafield tag="004" ind1="0" ind2="0">
+                <subfield code="r">n</subfield>
+                <subfield code="a">e</subfield>
+              </datafield>
+              <datafield tag="008" ind1="0" ind2="0">
+                <subfield code="t">m</subfield>
+                <subfield code="a">2011</subfield>
+                <subfield code="u">u</subfield>
+                <subfield code="b">de</subfield>
+                <subfield code="l">eng</subfield>
+                <subfield code="d">y</subfield>
+                <subfield code="v">0</subfield>
+              </datafield>
+              <datafield tag="009" ind1="0" ind2="0">
+                <subfield code="a">e</subfield>
+                <subfield code="g">xx</subfield>
+              </datafield>
+              <datafield tag="021" ind1="0" ind2="0">
+                <subfield code="e">9783865742056</subfield>
+              </datafield>
+              <datafield tag="245" ind1="0" ind2="0">
+                <subfield code="a">Bolivia, Paraguay 2</subfield>
               </datafield>
               <datafield tag="250" ind1="0" ind2="0">
                 <subfield code="a">Edition 2011</subfield>

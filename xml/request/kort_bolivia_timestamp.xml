@@ -118,6 +118,7 @@
         </ns1:bibliographicData>
       </ns1:originalData>
       <ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
+      <ns1:trackingId>2011-08-11T15:53:28:012345</ns1:trackingId>
     </ns1:formatRequest>
   </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
