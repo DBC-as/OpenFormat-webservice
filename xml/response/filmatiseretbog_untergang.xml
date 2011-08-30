@@ -1,63 +1,57 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput">
-  <SOAP-ENV:Body>
-    <formatSingleManifestationResponse>
-<ofo:bibliotekdkFullDisplay><ofo:displayInformation>
-  <ofo:fullDisplayInformation>
-    <ofo:creator>&lt;div class="creators"&gt;
-  &lt;span class="creator phraseLink"&gt;Traudl Junge&lt;/span&gt;
-&lt;/div&gt;</ofo:creator>
-    <ofo:title>&lt;div class="title"&gt;Til den bitre ende&lt;/div&gt;</ofo:title>
-    <ofo:type>&lt;div class="type"&gt;Bog&lt;/div&gt;</ofo:type>
-    <ofo:description>&lt;div class="subjects"&gt;
-  &lt;span class="subjectHeader"&gt;Emne:&lt;/span&gt;
-  &lt;span class="subject phraseLink"&gt;Adolf Hitler&lt;/span&gt;
+<?xml version="1.0" encoding="UTF-8"?><SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><ofo:formatResponse><ofo:bibliotekdkFullDisplay><ofo:fullDisplayInformation><ofo:creator>&lt;div class=&quot;creators&quot;&gt;
+  &lt;span class=&quot;creator phraseLink&quot;&gt;Traudl Junge&lt;/span&gt;
+&lt;/div&gt;</ofo:creator><ofo:title>&lt;div class=&quot;title&quot;&gt;Til den bitre ende&lt;/div&gt;</ofo:title><ofo:type>&lt;div class=&quot;type&quot;&gt;Bog&lt;/div&gt;</ofo:type><ofo:description>&lt;div class=&quot;subjects&quot;&gt;
+
+  &lt;span class=&quot;subjectHeader&quot;&gt;Emne:&lt;/span&gt;
+  &lt;span class=&quot;subject phraseLink&quot;&gt;Adolf Hitler&lt;/span&gt;
    ; 
-  &lt;span class="subject phraseLink"&gt;Traudl Junge&lt;/span&gt;
+  &lt;span class=&quot;subject phraseLink&quot;&gt;Traudl Junge&lt;/span&gt;
+
    ; 
-  &lt;span class="subject phraseLink"&gt;den 2. verdenskrig&lt;/span&gt;
+  &lt;span class=&quot;subject phraseLink&quot;&gt;den 2. verdenskrig&lt;/span&gt;
    ; 
-  &lt;span class="subject phraseLink"&gt;historie&lt;/span&gt;
+  &lt;span class=&quot;subject phraseLink&quot;&gt;historie&lt;/span&gt;
    ; 
-  &lt;span class="subject phraseLink"&gt;Tyskland&lt;/span&gt;
+  &lt;span class=&quot;subject phraseLink&quot;&gt;Tyskland&lt;/span&gt;
+
    ; 
-  &lt;span class="subject phraseLink"&gt;1940-1949&lt;/span&gt;
-&lt;/div&gt;&lt;div class="abstract"&gt;Traudl Junge (1920-2002) var sekretær for Adolf Hitler fra 1942 frem til hans død. Hun skrev hans taler, breve og hans private og politiske testamente og tilbragte de sidste timer med ham i bunkeren i Berlin&lt;/div&gt;</ofo:description>
-    <ofo:details>&amp;lt;div class="originalTitle"&amp;gt;
-  &amp;lt;span class="originalTitleHeader"&amp;gt;Originaltitel:&amp;lt;/span&amp;gt;
-  &amp;lt;span class="originalTitle"&amp;gt;Bis zur letzten Stunde&amp;lt;/span&amp;gt;
-&amp;lt;/div&amp;gt;&amp;lt;div class="alternativeTitle"&amp;gt;
-  &amp;lt;span class="alternativeTitle"&amp;gt;Alternativ titel: Der untergang&amp;lt;/span&amp;gt;
-&amp;lt;/div&amp;gt;&amp;lt;div class="contributors"&amp;gt;
-  &amp;lt;span class="contributor"&amp;gt;tekst: Traudl Junge&amp;lt;/span&amp;gt;
-&amp;lt;/div&amp;gt;&amp;lt;div class="format"&amp;gt;255 sider, tavler&amp;lt;/div&amp;gt;&amp;lt;div class="forms"&amp;gt;
-  &amp;lt;span class="formHeader"&amp;gt;Form:&amp;lt;/span&amp;gt;
-  &amp;lt;span class="subject phraseLink"&amp;gt;erindringer&amp;lt;/span&amp;gt;
-&amp;lt;/div&amp;gt;&amp;lt;div class="shelf"&amp;gt;
-  &amp;lt;span class="shelfHeader"&amp;gt;Opstilling i folkebiblioteker:&amp;lt;/span&amp;gt;
-  &amp;lt;span class="classification phraseLink"&amp;gt;94.41&amp;lt;/span&amp;gt;
+  &lt;span class=&quot;subject phraseLink&quot;&gt;1940-1949&lt;/span&gt;
+&lt;/div&gt;&lt;div class=&quot;abstract&quot;&gt;Traudl Junge (1920-2002) var sekretæfor Adolf Hitler fra 1942 frem til hans døun skrev hans taler, breve og hans private og politiske testamente og tilbragte de sidste timer med ham i bunkeren i Berlin&lt;/div&gt;</ofo:description><ofo:details>&amp;lt;div class=&quot;originalTitle&quot;&amp;gt;
+  &amp;lt;span class=&quot;originalTitleHeader&quot;&amp;gt;Originaltitel:&amp;lt;/span&amp;gt;
+  &amp;lt;span class=&quot;originalTitle&quot;&amp;gt;Bis zur letzten Stunde&amp;lt;/span&amp;gt;
+
+&amp;lt;/div&amp;gt;&amp;lt;div class=&quot;alternativeTitle&quot;&amp;gt;
+  &amp;lt;span class=&quot;alternativeTitle&quot;&amp;gt;Alternativ titel: Der untergang&amp;lt;/span&amp;gt;
+&amp;lt;/div&amp;gt;&amp;lt;div class=&quot;contributors&quot;&amp;gt;
+  &amp;lt;span class=&quot;contributor&quot;&amp;gt;tekst: Traudl Junge&amp;lt;/span&amp;gt;
+
+&amp;lt;/div&amp;gt;&amp;lt;div class=&quot;format&quot;&amp;gt;255 sider, tavler&amp;lt;/div&amp;gt;&amp;lt;div class=&quot;forms&quot;&amp;gt;
+  &amp;lt;span class=&quot;formHeader&quot;&amp;gt;Form:&amp;lt;/span&amp;gt;
+  &amp;lt;span class=&quot;subject phraseLink&quot;&amp;gt;erindringer&amp;lt;/span&amp;gt;
+
+&amp;lt;/div&amp;gt;&amp;lt;div class=&quot;shelf&quot;&amp;gt;
+  &amp;lt;span class=&quot;shelfHeader&quot;&amp;gt;Opstilling i folkebiblioteker:&amp;lt;/span&amp;gt;
+  &amp;lt;span class=&quot;classification phraseLink&quot;&amp;gt;94.41&amp;lt;/span&amp;gt;
 &amp;lt;/div&amp;gt;
-&lt;div class="usedLanguages"/&gt;&lt;div class="identifiers"&gt;
-  &lt;span class="identifierHeader"&gt;ISBN&lt;/span&gt;
-  &lt;span class="identifier"&gt;87-7984-100-7&lt;/span&gt;
-  &lt;span class="identifierHeader"&gt;ISBN&lt;/span&gt;
-  &lt;span class="identifier"&gt;9788779841000&lt;/span&gt;
-&lt;/div&gt;&lt;div class="priceInformation"&gt;
-  &lt;span class="priceHeader"&gt;Pris ved udgivelsen:&lt;/span&gt;
-  &lt;span class="price"&gt;kr. 59,95&lt;/span&gt;
-&lt;/div&gt;&lt;div class="languageInformation"/&gt;
-&lt;span class="languageHeader"&gt;Sprog:&lt;/span&gt;
-&lt;span class="language"&gt;Dansk&lt;/span&gt;</ofo:details>
-    <ofo:publicationDetails>&lt;div class="publication"&gt;
-  &lt;span class="edition"&gt;3. udgave, 1. oplag&lt;/span&gt;
+
+&lt;div class=&quot;usedLanguages&quot;/&gt;&lt;div class=&quot;identifiers&quot;&gt;
+  &lt;span class=&quot;identifierHeader&quot;&gt;ISBN&lt;/span&gt;
+  &lt;span class=&quot;identifier&quot;&gt;87-7984-100-7&lt;/span&gt;
+
+  &lt;span class=&quot;identifierHeader&quot;&gt;ISBN&lt;/span&gt;
+  &lt;span class=&quot;identifier&quot;&gt;9788779841000&lt;/span&gt;
+&lt;/div&gt;&lt;div class=&quot;priceInformation&quot;&gt;
+  &lt;span class=&quot;priceHeader&quot;&gt;Pris ved udgivelsen:&lt;/span&gt;
+
+  &lt;span class=&quot;price&quot;&gt;kr. 59,95&lt;/span&gt;
+&lt;/div&gt;&lt;div class=&quot;languageInformation&quot;/&gt;
+&lt;span class=&quot;languageHeader&quot;&gt;Sprog:&lt;/span&gt;
+&lt;span class=&quot;language&quot;&gt;Dansk&lt;/span&gt;</ofo:details><ofo:publicationDetails>&lt;div class=&quot;publication&quot;&gt;
+
+  &lt;span class=&quot;edition&quot;&gt;3. udgave, 1. oplag&lt;/span&gt;
   . 
-  &lt;span class="publisher"&gt;Satellit&lt;/span&gt;
+  &lt;span class=&quot;publisher&quot;&gt;Satellit&lt;/span&gt;
   , 
-  &lt;span class="year"&gt;2005&lt;/span&gt;
-&lt;/div&gt;</ofo:publicationDetails>
-    <ofo:content/>
-  </ofo:fullDisplayInformation>
-</ofo:displayInformation></ofo:bibliotekdkFullDisplay>
-    </formatSingleManifestationResponse>
-  </SOAP-ENV:Body>
-</SOAP-ENV:Envelope>
+  &lt;span class=&quot;year&quot;&gt;2005&lt;/span&gt;
+
+&lt;/div&gt;</ofo:publicationDetails><ofo:content></ofo:content></ofo:fullDisplayInformation></ofo:bibliotekdkFullDisplay></ofo:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,60 +1,53 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput">
-  <SOAP-ENV:Body>
-    <formatSingleManifestationResponse>
-<ofo:bibliotekdkFullDisplay><ofo:displayInformation>
-  <ofo:fullDisplayInformation>
-    <ofo:creator>&lt;div class="creators"&gt;
-  &lt;span class="creator phraseLink"&gt;Robyn Young&lt;/span&gt;
-&lt;/div&gt;</ofo:creator>
-    <ofo:title>&lt;div class="title"&gt;Korstog&lt;/div&gt;</ofo:title>
-    <ofo:type>&lt;div class="type"&gt;Bog&lt;/div&gt;</ofo:type>
-    <ofo:description>&lt;div class="subjects"&gt;
-  &lt;span class="subjectHeader"&gt;Emne:&lt;/span&gt;
-  &lt;span class="subject phraseLink"&gt;historie&lt;/span&gt;
+<?xml version="1.0" encoding="UTF-8"?><SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><ofo:formatResponse><ofo:bibliotekdkFullDisplay><ofo:fullDisplayInformation><ofo:creator>&lt;div class=&quot;creators&quot;&gt;
+  &lt;span class=&quot;creator phraseLink&quot;&gt;Robyn Young&lt;/span&gt;
+&lt;/div&gt;</ofo:creator><ofo:title>&lt;div class=&quot;title&quot;&gt;Korstog&lt;/div&gt;</ofo:title><ofo:type>&lt;div class=&quot;type&quot;&gt;Bog&lt;/div&gt;</ofo:type><ofo:description>&lt;div class=&quot;subjects&quot;&gt;
+
+  &lt;span class=&quot;subjectHeader&quot;&gt;Emne:&lt;/span&gt;
+  &lt;span class=&quot;subject phraseLink&quot;&gt;historie&lt;/span&gt;
    ; 
-  &lt;span class="subject phraseLink"&gt;korstogene&lt;/span&gt;
+  &lt;span class=&quot;subject phraseLink&quot;&gt;korstogene&lt;/span&gt;
+
    ; 
-  &lt;span class="subject phraseLink"&gt;middelalderen&lt;/span&gt;
+  &lt;span class=&quot;subject phraseLink&quot;&gt;middelalderen&lt;/span&gt;
    ; 
-  &lt;span class="subject phraseLink"&gt;tempelriddere&lt;/span&gt;
+  &lt;span class=&quot;subject phraseLink&quot;&gt;tempelriddere&lt;/span&gt;
    ; 
-  &lt;span class="subject phraseLink"&gt;Akko&lt;/span&gt;
+  &lt;span class=&quot;subject phraseLink&quot;&gt;Akko&lt;/span&gt;
+
    ; 
-  &lt;span class="subject phraseLink"&gt;Palæstina&lt;/span&gt;
+  &lt;span class=&quot;subject phraseLink&quot;&gt;Palæina&lt;/span&gt;
    ; 
-  &lt;span class="subject phraseLink"&gt;1270-1279&lt;/span&gt;
+  &lt;span class=&quot;subject phraseLink&quot;&gt;1270-1279&lt;/span&gt;
    ; 
-  &lt;span class="subject phraseLink"&gt;1280-1289&lt;/span&gt;
-&lt;/div&gt;&lt;div class="abstract"&gt;Tempelridderen Will Campbell opholder sig i 1274 i Akko, det hellige Land. Korstogene er midlertidigt indstillede, der er sluttet fred mellem muslimer og kristne, men freden er skrøbelig. Will sendes på en mission for at nye blodige kampe kan indgås&lt;/div&gt;</ofo:description>
-    <ofo:details>&amp;lt;div class="originalTitle"&amp;gt;
-  &amp;lt;span class="originalTitleHeader"&amp;gt;Originaltitel:&amp;lt;/span&amp;gt;
-  &amp;lt;span class="originalTitle"&amp;gt;Crusade&amp;lt;/span&amp;gt;
-&amp;lt;/div&amp;gt;&amp;lt;div class="contributors"&amp;gt;
-  &amp;lt;span class="contributor"&amp;gt;tekst: Robyn Young, oversætter: Svend Ranild&amp;lt;/span&amp;gt;
-&amp;lt;/div&amp;gt;&amp;lt;div class="format"&amp;gt;595 sider&amp;lt;/div&amp;gt;&amp;lt;div class="shelf"&amp;gt;
-  &amp;lt;span class="shelfHeader"&amp;gt;Opstilling i folkebiblioteker:&amp;lt;/span&amp;gt;
-  &amp;lt;span class="classification phraseLink"&amp;gt;skønlitteratur&amp;lt;/span&amp;gt;
+  &lt;span class=&quot;subject phraseLink&quot;&gt;1280-1289&lt;/span&gt;
+
+&lt;/div&gt;&lt;div class=&quot;abstract&quot;&gt;Tempelridderen Will Campbell opholder sig i 1274 i Akko, det hellige Land. Korstogene er midlertidigt indstillede, der er sluttet fred mellem muslimer og kristne, men freden er skrøg. Will sendes pån mission for at nye blodige kampe kan indgålt;/div&gt;</ofo:description><ofo:details>&amp;lt;div class=&quot;originalTitle&quot;&amp;gt;
+  &amp;lt;span class=&quot;originalTitleHeader&quot;&amp;gt;Originaltitel:&amp;lt;/span&amp;gt;
+  &amp;lt;span class=&quot;originalTitle&quot;&amp;gt;Crusade&amp;lt;/span&amp;gt;
+
+&amp;lt;/div&amp;gt;&amp;lt;div class=&quot;contributors&quot;&amp;gt;
+  &amp;lt;span class=&quot;contributor&quot;&amp;gt;tekst: Robyn Young, oversæer: Svend Ranild&amp;lt;/span&amp;gt;
+&amp;lt;/div&amp;gt;&amp;lt;div class=&quot;format&quot;&amp;gt;595 sider&amp;lt;/div&amp;gt;&amp;lt;div class=&quot;shelf&quot;&amp;gt;
+  &amp;lt;span class=&quot;shelfHeader&quot;&amp;gt;Opstilling i folkebiblioteker:&amp;lt;/span&amp;gt;
+  &amp;lt;span class=&quot;classification phraseLink&quot;&amp;gt;skøteratur&amp;lt;/span&amp;gt;
+
 &amp;lt;/div&amp;gt;
-&lt;div class="usedLanguages"/&gt;&lt;div class="note"&gt;
-  &lt;span class="noteHeader"&gt;2. del af:&lt;/span&gt;
-  &lt;span class="title phraseLink"&gt;Broderskabet&lt;/span&gt;
-&lt;/div&gt;&lt;div class="references"&gt;Med litteraturhenvisninger&lt;/div&gt;&lt;div class="identifiers"&gt;
-  &lt;span class="identifierHeader"&gt;ISBN&lt;/span&gt;
-  &lt;span class="identifier"&gt;9788771082326&lt;/span&gt;
-&lt;/div&gt;&lt;div class="languageInformation"/&gt;
-&lt;span class="languageHeader"&gt;Sprog:&lt;/span&gt;
-&lt;span class="language"&gt;Dansk&lt;/span&gt;</ofo:details>
-    <ofo:publicationDetails>&lt;div class="publication"&gt;
-  &lt;span class="edition"&gt;1. udgave&lt;/span&gt;
+&lt;div class=&quot;usedLanguages&quot;/&gt;&lt;div class=&quot;note&quot;&gt;
+  &lt;span class=&quot;noteHeader&quot;&gt;2. del af:&lt;/span&gt;
+  &lt;span class=&quot;title phraseLink&quot;&gt;Broderskabet&lt;/span&gt;
+
+&lt;/div&gt;&lt;div class=&quot;references&quot;&gt;Med litteraturhenvisninger&lt;/div&gt;&lt;div class=&quot;identifiers&quot;&gt;
+  &lt;span class=&quot;identifierHeader&quot;&gt;ISBN&lt;/span&gt;
+  &lt;span class=&quot;identifier&quot;&gt;9788771082326&lt;/span&gt;
+
+&lt;/div&gt;&lt;div class=&quot;languageInformation&quot;/&gt;
+&lt;span class=&quot;languageHeader&quot;&gt;Sprog:&lt;/span&gt;
+&lt;span class=&quot;language&quot;&gt;Dansk&lt;/span&gt;</ofo:details><ofo:publicationDetails>&lt;div class=&quot;publication&quot;&gt;
+
+  &lt;span class=&quot;edition&quot;&gt;1. udgave&lt;/span&gt;
   . 
-  &lt;span class="publisher"&gt;People's Press&lt;/span&gt;
+  &lt;span class=&quot;publisher&quot;&gt;People's Press&lt;/span&gt;
   , 
-  &lt;span class="year"&gt;2011&lt;/span&gt;
-&lt;/div&gt;</ofo:publicationDetails>
-    <ofo:content/>
-  </ofo:fullDisplayInformation>
-</ofo:displayInformation></ofo:bibliotekdkFullDisplay>
-    </formatSingleManifestationResponse>
-  </SOAP-ENV:Body>
-</SOAP-ENV:Envelope>
+  &lt;span class=&quot;year&quot;&gt;2011&lt;/span&gt;
+
+&lt;/div&gt;</ofo:publicationDetails><ofo:content></ofo:content></ofo:fullDisplayInformation></ofo:bibliotekdkFullDisplay></ofo:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

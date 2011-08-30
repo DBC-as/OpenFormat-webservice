@@ -1,48 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput">
-  <SOAP-ENV:Body>
-    <formatSingleManifestationResponse>
-<ofo:bibliotekdkFullDisplay><ofo:displayInformation>
-  <ofo:fullDisplayInformation>
-    <ofo:creator>&lt;div class="creators"&gt;
-  &lt;span class="creator phraseLink"&gt;Herman Bang&lt;/span&gt;
-&lt;/div&gt;</ofo:creator>
-    <ofo:title>&lt;div class="title"&gt;Ludvigsbakke&lt;/div&gt;</ofo:title>
-    <ofo:type>&lt;div class="type"&gt;Netdokument&lt;/div&gt;</ofo:type>
-    <ofo:description>&lt;div class="subjects"&gt;
-  &lt;span class="subjectHeader"&gt;Emne:&lt;/span&gt;
-  &lt;span class="subject phraseLink"&gt;forelskelse&lt;/span&gt;
+<?xml version="1.0" encoding="UTF-8"?><SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><ofo:formatResponse><ofo:bibliotekdkFullDisplay><ofo:fullDisplayInformation><ofo:creator>&lt;div class=&quot;creators&quot;&gt;
+  &lt;span class=&quot;creator phraseLink&quot;&gt;Herman Bang&lt;/span&gt;
+&lt;/div&gt;</ofo:creator><ofo:title>&lt;div class=&quot;title&quot;&gt;Ludvigsbakke&lt;/div&gt;</ofo:title><ofo:type>&lt;div class=&quot;type&quot;&gt;Netdokument&lt;/div&gt;</ofo:type><ofo:description>&lt;div class=&quot;subjects&quot;&gt;
+
+  &lt;span class=&quot;subjectHeader&quot;&gt;Emne:&lt;/span&gt;
+  &lt;span class=&quot;subject phraseLink&quot;&gt;forelskelse&lt;/span&gt;
    ; 
-  &lt;span class="subject phraseLink"&gt;kærlighed&lt;/span&gt;
-&lt;/div&gt;&lt;div class="abstract"&gt;En ung sygeplejerske, datter af godsforvalteren på Ludvigsbakke, møder barndomsvennen, arvingen til herregården og ofrer alt for sin forelskelse i ham&lt;/div&gt;</ofo:description>
-    <ofo:details>&amp;lt;div class="contributors"&amp;gt;
-  &amp;lt;span class="contributor"&amp;gt;tekst: Herman Bang&amp;lt;/span&amp;gt;
-&amp;lt;/div&amp;gt;&amp;lt;div class="series"&amp;gt;
-  &amp;lt;span class="seriesHeader"&amp;gt;Serie:&amp;lt;/span&amp;gt;
-  &amp;lt;span class="series phraseLink"&amp;gt;Gyldendals e-bøger&amp;lt;/span&amp;gt;
+  &lt;span class=&quot;subject phraseLink&quot;&gt;kæighed&lt;/span&gt;
+
+&lt;/div&gt;&lt;div class=&quot;abstract&quot;&gt;En ung sygeplejerske, datter af godsforvalteren påudvigsbakke, møbarndomsvennen, arvingen til herregåen og ofrer alt for sin forelskelse i ham&lt;/div&gt;</ofo:description><ofo:details>&amp;lt;div class=&quot;contributors&quot;&amp;gt;
+  &amp;lt;span class=&quot;contributor&quot;&amp;gt;tekst: Herman Bang&amp;lt;/span&amp;gt;
+&amp;lt;/div&amp;gt;&amp;lt;div class=&quot;series&quot;&amp;gt;
+  &amp;lt;span class=&quot;seriesHeader&quot;&amp;gt;Serie:&amp;lt;/span&amp;gt;
+  &amp;lt;span class=&quot;series phraseLink&quot;&amp;gt;Gyldendals e-bøamp;lt;/span&amp;gt;
+
 &amp;lt;/div&amp;gt;
-&lt;div class="usedLanguages"/&gt;&lt;div class="note"&gt;
-  &lt;div class="descriptionNote"&gt;Downloades i PDF-format (2 MB)&lt;/div&gt;
-&lt;/div&gt;&lt;div class="identifiers"&gt;
-  &lt;span class="identifierHeader"&gt;ISBN&lt;/span&gt;
-  &lt;span class="identifier"&gt;9788702087314&lt;/span&gt;
-&lt;/div&gt;&lt;div class="priceInformation"&gt;
-  &lt;span class="price"&gt;kr. 99,00&lt;/span&gt;
-&lt;/div&gt;&lt;div class="languageInformation"/&gt;
-&lt;span class="languageHeader"&gt;Sprog:&lt;/span&gt;
-&lt;span class="language"&gt;Dansk&lt;/span&gt;&lt;div class="accessInformation"&gt;
-  &lt;span class="accessUrl"&gt;http://ebog.dk/apc/direct.php?ISBN="9788702087314"&lt;/span&gt;
-&lt;/div&gt;</ofo:details>
-    <ofo:publicationDetails>&lt;div class="publication"&gt;
-  &lt;span class="edition"&gt;1. e-bogsudgave&lt;/span&gt;
+&lt;div class=&quot;usedLanguages&quot;/&gt;&lt;div class=&quot;note&quot;&gt;
+  &lt;div class=&quot;descriptionNote&quot;&gt;Downloades i PDF-format (2 MB)&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&quot;identifiers&quot;&gt;
+
+  &lt;span class=&quot;identifierHeader&quot;&gt;ISBN&lt;/span&gt;
+  &lt;span class=&quot;identifier&quot;&gt;9788702087314&lt;/span&gt;
+&lt;/div&gt;&lt;div class=&quot;priceInformation&quot;&gt;
+  &lt;span class=&quot;price&quot;&gt;kr. 99,00&lt;/span&gt;
+
+&lt;/div&gt;&lt;div class=&quot;languageInformation&quot;/&gt;
+&lt;span class=&quot;languageHeader&quot;&gt;Sprog:&lt;/span&gt;
+&lt;span class=&quot;language&quot;&gt;Dansk&lt;/span&gt;&lt;div class=&quot;accessInformation&quot;&gt;
+
+  &lt;span class=&quot;accessUrl&quot;&gt;http://ebog.dk/apc/direct.php?ISBN=&quot;9788702087314&quot;&lt;/span&gt;
+&lt;/div&gt;</ofo:details><ofo:publicationDetails>&lt;div class=&quot;publication&quot;&gt;
+  &lt;span class=&quot;edition&quot;&gt;1. e-bogsudgave&lt;/span&gt;
+
   . 
-  &lt;span class="publisher"&gt;Gyldendal&lt;/span&gt;
+  &lt;span class=&quot;publisher&quot;&gt;Gyldendal&lt;/span&gt;
   , 
-  &lt;span class="year"&gt;2009&lt;/span&gt;
-&lt;/div&gt;</ofo:publicationDetails>
-    <ofo:content/>
-  </ofo:fullDisplayInformation>
-</ofo:displayInformation></ofo:bibliotekdkFullDisplay>
-    </formatSingleManifestationResponse>
-  </SOAP-ENV:Body>
-</SOAP-ENV:Envelope>
+  &lt;span class=&quot;year&quot;&gt;2009&lt;/span&gt;
+&lt;/div&gt;</ofo:publicationDetails><ofo:content></ofo:content></ofo:fullDisplayInformation></ofo:bibliotekdkFullDisplay></ofo:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
