@@ -1,77 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?><SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><ofo:formatResponse><ofo:bibliotekdkFullDisplay><ofo:fullDisplayInformation><ofo:creator>&lt;div class=&quot;creators&quot;&gt;
   &lt;span class=&quot;creator phraseLink&quot;&gt;Nephew&lt;/span&gt;
 &lt;/div&gt;</ofo:creator><ofo:title>&lt;div class=&quot;title&quot;&gt;USADSB&lt;/div&gt;</ofo:title><ofo:type>&lt;div class=&quot;type&quot;&gt;Cd&lt;/div&gt;</ofo:type><ofo:description>&lt;div class=&quot;subjects&quot;&gt;
-
   &lt;span class=&quot;subjectHeader&quot;&gt;Emne:&lt;/span&gt;
   &lt;span class=&quot;subject phraseLink&quot;&gt;rock&lt;/span&gt;
    ; 
   &lt;span class=&quot;subject phraseLink&quot;&gt;vokal&lt;/span&gt;
-
    ; 
   &lt;span class=&quot;subject phraseLink&quot;&gt;Danmark&lt;/span&gt;
    ; 
   &lt;span class=&quot;subject phraseLink&quot;&gt;2000-2009&lt;/span&gt;
 &lt;/div&gt;&lt;div class=&quot;abstract&quot;&gt;Indspillet i Århus&lt;/div&gt;</ofo:description><ofo:details>&amp;lt;div class=&quot;contributors&quot;&amp;gt;
   &amp;lt;span class=&quot;contributor&quot;&amp;gt;Nephew (Simon Kvamm, Kristian Riis, Kasper Toustrup, Søren Arnholt) m. fl.&amp;lt;/span&amp;gt;
-
 &amp;lt;/div&amp;gt;&amp;lt;div class=&quot;format&quot;&amp;gt;1 cd&amp;lt;/div&amp;gt;&amp;lt;div class=&quot;shelf&quot;&amp;gt;
   &amp;lt;span class=&quot;shelfHeader&quot;&amp;gt;Opstilling i folkebiblioteker:&amp;lt;/span&amp;gt;
   &amp;lt;span class=&quot;shelfMusic&quot;&amp;gt;Rock&amp;lt;/span&amp;gt;
-
 &amp;lt;/div&amp;gt;
 &lt;div class=&quot;usedLanguages&quot;/&gt;&lt;div class=&quot;note&quot;&gt;
   &lt;div class=&quot;descriptionNote&quot;&gt;Indspillet i Århus&lt;/div&gt;
 &lt;/div&gt;&lt;div class=&quot;identifiers&quot;&gt;
-
   &lt;div class=&quot;identifier&quot;&gt;Copenhagen CPHREC 0004&lt;/div&gt;
 &lt;/div&gt;&lt;div class=&quot;priceInformation&quot;&gt;
   &lt;span class=&quot;priceHeader&quot;&gt;Pris ved udgivelsen:&lt;/span&gt;
   &lt;span class=&quot;price&quot;&gt;kr. 159,00&lt;/span&gt;
-
 &lt;/div&gt;&lt;div class=&quot;languageInformation&quot;/&gt;
 &lt;span class=&quot;languageHeader&quot;&gt;Sprog:&lt;/span&gt;
 &lt;span class=&quot;language&quot;&gt;Dansk&lt;/span&gt;</ofo:details><ofo:publicationDetails>&lt;div class=&quot;publication&quot;&gt;
-
   &lt;span class=&quot;publisher&quot;&gt;Copenhagen&lt;/span&gt;
   , 
   &lt;span class=&quot;year&quot;&gt;2004&lt;/span&gt;
 &lt;/div&gt;</ofo:publicationDetails><ofo:content><div class="content">Indhold:&lt;div class=&quot;analyticContent&quot;&gt;
-
   &lt;div class=&quot;title&quot;&gt;
     &lt;span class=&quot;title phraseLink&quot;&gt;Movie klip&lt;/span&gt;
   &lt;/div&gt;
   &lt;div class=&quot;title&quot;&gt;
-
     &lt;span class=&quot;title phraseLink&quot;&gt;Superliga&lt;/span&gt;
   &lt;/div&gt;
   &lt;div class=&quot;title&quot;&gt;
     &lt;span class=&quot;title phraseLink&quot;&gt;Blå &amp;amp; black&lt;/span&gt;
-
   &lt;/div&gt;
   &lt;div class=&quot;title&quot;&gt;
     &lt;span class=&quot;title phraseLink&quot;&gt;Milk &amp;amp; wine&lt;/span&gt;
   &lt;/div&gt;
-
   &lt;div class=&quot;title&quot;&gt;
     &lt;span class=&quot;title phraseLink&quot;&gt;Dårlig træning&lt;/span&gt;
   &lt;/div&gt;
   &lt;div class=&quot;title&quot;&gt;
-
     &lt;span class=&quot;title phraseLink&quot;&gt;En wannabe Darth Vader&lt;/span&gt;
   &lt;/div&gt;
   &lt;div class=&quot;title&quot;&gt;
     &lt;span class=&quot;title phraseLink&quot;&gt;Worst/best case scenario&lt;/span&gt;
-
   &lt;/div&gt;
   &lt;div class=&quot;title&quot;&gt;
     &lt;span class=&quot;title phraseLink&quot;&gt;Ordenspoliti&lt;/span&gt;
   &lt;/div&gt;
   &lt;div class=&quot;title&quot;&gt;
-
     &lt;span class=&quot;title phraseLink&quot;&gt;USA DSB&lt;/span&gt;
   &lt;/div&gt;
   &lt;div class=&quot;title&quot;&gt;
     &lt;span class=&quot;title phraseLink&quot;&gt;Bazooka&lt;/span&gt;
-
   &lt;/div&gt;
 &lt;/div&gt;</div></ofo:content></ofo:fullDisplayInformation></ofo:bibliotekdkFullDisplay></ofo:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

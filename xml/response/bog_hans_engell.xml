@@ -1,64 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?><SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><ofo:formatResponse><ofo:bibliotekdkFullDisplay><ofo:fullDisplayInformation><ofo:creator>&lt;div class=&quot;creators&quot;&gt;
   &lt;span class=&quot;creator phraseLink&quot;&gt;Hans Engell&lt;/span&gt;
 &lt;/div&gt;</ofo:creator><ofo:title>&lt;div class=&quot;title&quot;&gt;På Slotsholmen&lt;/div&gt;</ofo:title><ofo:type>&lt;div class=&quot;type&quot;&gt;Bog&lt;/div&gt;</ofo:type><ofo:description>&lt;div class=&quot;subjects&quot;&gt;
-
   &lt;span class=&quot;subjectHeader&quot;&gt;Emne:&lt;/span&gt;
   &lt;span class=&quot;subject phraseLink&quot;&gt;Det Konservative Folkeparti&lt;/span&gt;
    ; 
   &lt;span class=&quot;subject phraseLink&quot;&gt;Hans Engell&lt;/span&gt;
-
    ; 
   &lt;span class=&quot;subject phraseLink&quot;&gt;historie&lt;/span&gt;
    ; 
   &lt;span class=&quot;subject phraseLink&quot;&gt;politik&lt;/span&gt;
    ; 
   &lt;span class=&quot;subject phraseLink&quot;&gt;politikere&lt;/span&gt;
-
    ; 
   &lt;span class=&quot;subject phraseLink&quot;&gt;politiske forhold&lt;/span&gt;
    ; 
   &lt;span class=&quot;subject phraseLink&quot;&gt;politiske partier&lt;/span&gt;
    ; 
   &lt;span class=&quot;subject phraseLink&quot;&gt;Danmark&lt;/span&gt;
-
    ; 
   &lt;span class=&quot;subject phraseLink&quot;&gt;1980-1989&lt;/span&gt;
    ; 
   &lt;span class=&quot;subject phraseLink&quot;&gt;1990-1999&lt;/span&gt;
 &lt;/div&gt;&lt;div class=&quot;abstract&quot;&gt;Hans Engell (f. 1948), der i 1997 gik af som konservativ partileder, beskriver det politiske liv på Slotsholmen fra han i 1978 startede som pressechef til han i 1993 sluttede som justitsminister, da Tamilsagen tvang Schlüter-regeringen til at gå&lt;/div&gt;</ofo:description><ofo:details>&amp;lt;div class=&quot;contributors&quot;&amp;gt;
   &amp;lt;span class=&quot;contributor&quot;&amp;gt;tekst: Hans Engell&amp;lt;/span&amp;gt;
-
 &amp;lt;/div&amp;gt;&amp;lt;div class=&quot;format&quot;&amp;gt;455 sider, illustreret&amp;lt;/div&amp;gt;&amp;lt;div class=&quot;forms&quot;&amp;gt;
   &amp;lt;span class=&quot;formHeader&quot;&amp;gt;Form:&amp;lt;/span&amp;gt;
   &amp;lt;span class=&quot;subject phraseLink&quot;&amp;gt;erindringer&amp;lt;/span&amp;gt;
-
 &amp;lt;/div&amp;gt;&amp;lt;div class=&quot;shelf&quot;&amp;gt;
   &amp;lt;span class=&quot;shelfHeader&quot;&amp;gt;Opstilling i folkebiblioteker:&amp;lt;/span&amp;gt;
   &amp;lt;span class=&quot;classification phraseLink&quot;&amp;gt;96.72&amp;lt;/span&amp;gt;
 &amp;lt;/div&amp;gt;
-
 &lt;div class=&quot;usedLanguages&quot;/&gt;&lt;div class=&quot;note&quot;&gt;
   &lt;span class=&quot;noteHeader&quot;&gt;Samhørende:&lt;/span&gt;
   &lt;span class=&quot;title phraseLink&quot;&gt;På Slotsholmen&lt;/span&gt;
-
    ; 
   &lt;span class=&quot;title phraseLink&quot;&gt;Farvel til Slotsholmen&lt;/span&gt;
 &lt;/div&gt;&lt;div class=&quot;identifiers&quot;&gt;
   &lt;span class=&quot;identifierHeader&quot;&gt;ISBN&lt;/span&gt;
-
   &lt;span class=&quot;identifier&quot;&gt;87-11-15065-3&lt;/span&gt;
 &lt;/div&gt;&lt;div class=&quot;priceInformation&quot;&gt;
   &lt;span class=&quot;priceHeader&quot;&gt;Pris ved udgivelsen:&lt;/span&gt;
   &lt;span class=&quot;price&quot;&gt;kr. 248,00&lt;/span&gt;
-
 &lt;/div&gt;&lt;div class=&quot;languageInformation&quot;/&gt;
 &lt;span class=&quot;languageHeader&quot;&gt;Sprog:&lt;/span&gt;
 &lt;span class=&quot;language&quot;&gt;Dansk&lt;/span&gt;</ofo:details><ofo:publicationDetails>&lt;div class=&quot;publication&quot;&gt;
-
   &lt;span class=&quot;edition&quot;&gt;1. udgave, 3. oplag&lt;/span&gt;
   . 
   &lt;span class=&quot;publisher&quot;&gt;Aschehoug&lt;/span&gt;
   , 
   &lt;span class=&quot;year&quot;&gt;1997&lt;/span&gt;
-
 &lt;/div&gt;</ofo:publicationDetails><ofo:content></ofo:content></ofo:fullDisplayInformation></ofo:bibliotekdkFullDisplay></ofo:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

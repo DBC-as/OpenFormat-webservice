@@ -1,36 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?><SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><ofo:formatResponse><ofo:bibliotekdkFullDisplay><ofo:fullDisplayInformation><ofo:creator>&lt;div class=&quot;creators&quot;/&gt;</ofo:creator><ofo:title>&lt;div class=&quot;title&quot;&gt;Bolivia, Paraguay&lt;/div&gt;</ofo:title><ofo:type>&lt;div class=&quot;type&quot;&gt;Kort&lt;/div&gt;</ofo:type><ofo:description>&lt;div class=&quot;subjects&quot;&gt;
   &lt;span class=&quot;subjectHeader&quot;&gt;Emne:&lt;/span&gt;
-
   &lt;span class=&quot;subject phraseLink&quot;&gt;Bolivia&lt;/span&gt;
    ; 
   &lt;span class=&quot;subject phraseLink&quot;&gt;Paraguay&lt;/span&gt;
    ; 
   &lt;span class=&quot;subject phraseLink&quot;&gt;kort&lt;/span&gt;
-
    ; 
   &lt;span class=&quot;subject phraseLink&quot;&gt;vejatlas&lt;/span&gt;
 &lt;/div&gt;&lt;div class=&quot;abstract&quot;&gt;På omslaget: Special maps: Cusco/Machu Picchu, Iguacu, Tiahuanaco, Cusco, La Paz, Santa Cruz, Potosi, Central Asunción, Sucre&lt;/div&gt;</ofo:description><ofo:details>&amp;lt;div class=&quot;format&quot;&amp;gt;1 falset kort, i farver&amp;lt;/div&amp;gt;&amp;lt;div class=&quot;series&quot;&amp;gt;
   &amp;lt;span class=&quot;seriesHeader&quot;&amp;gt;Serie:&amp;lt;/span&amp;gt;
   &amp;lt;span class=&quot;series phraseLink&quot;&amp;gt;Nelles map&amp;lt;/span&amp;gt;
-
 &amp;lt;/div&amp;gt;&amp;lt;div class=&quot;shelf&quot;&amp;gt;
   &amp;lt;span class=&quot;shelfHeader&quot;&amp;gt;Opstilling i folkebiblioteker:&amp;lt;/span&amp;gt;
   &amp;lt;span class=&quot;classification phraseLink&quot;&amp;gt;40.1884&amp;lt;/span&amp;gt;
 &amp;lt;/div&amp;gt;
-
 &lt;div class=&quot;usedLanguages&quot;/&gt;&lt;div class=&quot;note&quot;&gt;
   &lt;div class=&quot;descriptionNote&quot;&gt;På omslaget: Special maps: Cusco/Machu Picchu, Iguacu, Tiahuanaco, Cusco, La Paz, Santa Cruz, Potosi, Central Asunción, Sucre&lt;/div&gt;
   &lt;div class=&quot;descriptionNote&quot;&gt;På omslaget: Physical rilief mapping, Places of interest&lt;/div&gt;
-
 &lt;/div&gt;&lt;div class=&quot;identifiers&quot;&gt;
   &lt;span class=&quot;identifierHeader&quot;&gt;ISBN&lt;/span&gt;
   &lt;span class=&quot;identifier&quot;&gt;9783865742056&lt;/span&gt;
 &lt;/div&gt;&lt;div class=&quot;languageInformation&quot;/&gt;
-
 &lt;span class=&quot;languageHeader&quot;&gt;Sprog:&lt;/span&gt;
 &lt;span class=&quot;language&quot;&gt;Engelsk&lt;/span&gt;</ofo:details><ofo:publicationDetails>&lt;div class=&quot;publication&quot;&gt;
   &lt;span class=&quot;edition&quot;&gt;Edition 2011&lt;/span&gt;
-
   . 
   &lt;span class=&quot;publisher&quot;&gt;Nelles&lt;/span&gt;
   , 
