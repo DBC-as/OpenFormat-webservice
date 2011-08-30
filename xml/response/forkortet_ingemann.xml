@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><ofo:formatResponse><ofo:bibliotekdkFullDisplay><ofo:fullDisplayInformation><ofo:creator>&lt;div class=&quot;creators&quot;&gt;
   &lt;span class=&quot;creator phraseLink&quot;&gt;B. S. Ingemann&lt;/span&gt;
-&lt;/div&gt;</ofo:creator><ofo:title>&lt;div class=&quot;title&quot;&gt;Erik Menveds Barndom&lt;/div&gt;</ofo:title><ofo:type>&lt;div class=&quot;type&quot;&gt;Bog&lt;/div&gt;</ofo:type><ofo:description>&lt;div class=&quot;abstract&quot;&gt;Historisk fortæing fra 1200-tallets Danmark. Efter mordet i Finnerup Lade kæer Peter Hessel og andre kongetro mod truslen fra oprøn Marsk Stig for at sikre den unge Erik Menved tronen&lt;/div&gt;</ofo:description><ofo:details>&amp;lt;div class=&quot;contributors&quot;&amp;gt;
+&lt;/div&gt;</ofo:creator><ofo:title>&lt;div class=&quot;title&quot;&gt;Erik Menveds Barndom&lt;/div&gt;</ofo:title><ofo:type>&lt;div class=&quot;type&quot;&gt;Bog&lt;/div&gt;</ofo:type><ofo:description>&lt;div class=&quot;abstract&quot;&gt;Historisk fortælling fra 1200-tallets Danmark. Efter mordet i Finnerup Lade kæmper Peter Hessel og andre kongetro mod truslen fra oprøreren Marsk Stig for at sikre den unge Erik Menved tronen&lt;/div&gt;</ofo:description><ofo:details>&amp;lt;div class=&quot;contributors&quot;&amp;gt;
   &amp;lt;span class=&quot;contributor&quot;&amp;gt;tekst: B. S. Ingemann&amp;lt;/span&amp;gt;
 
 &amp;lt;/div&amp;gt;&amp;lt;div class=&quot;format&quot;&amp;gt;340 sider, illustreret&amp;lt;/div&amp;gt;&amp;lt;div class=&quot;shelf&quot;&amp;gt;
   &amp;lt;span class=&quot;shelfHeader&quot;&amp;gt;Opstilling i folkebiblioteker:&amp;lt;/span&amp;gt;
-  &amp;lt;span class=&quot;classification phraseLink&quot;&amp;gt;skøteratur&amp;lt;/span&amp;gt;
+  &amp;lt;span class=&quot;classification phraseLink&quot;&amp;gt;skønlitteratur&amp;lt;/span&amp;gt;
 
 &amp;lt;/div&amp;gt;
 &lt;div class=&quot;usedLanguages&quot;/&gt;&lt;div class=&quot;note&quot;&gt;
-  &lt;span class=&quot;noteHeader&quot;&gt;Samhøe:&lt;/span&gt;
-  &lt;span class=&quot;title phraseLink&quot;&gt;Erik Menveds Barndom ; Kong Erik og de Fredløt;/span&gt;
+  &lt;span class=&quot;noteHeader&quot;&gt;Samhørende:&lt;/span&gt;
+  &lt;span class=&quot;title phraseLink&quot;&gt;Erik Menveds Barndom ; Kong Erik og de Fredløse&lt;/span&gt;
 
 &lt;/div&gt;&lt;div class=&quot;languageInformation&quot;/&gt;
 &lt;span class=&quot;languageHeader&quot;&gt;Sprog:&lt;/span&gt;

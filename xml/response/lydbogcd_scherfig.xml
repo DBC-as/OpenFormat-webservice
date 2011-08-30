@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><ofo:formatResponse><ofo:bibliotekdkFullDisplay><ofo:fullDisplayInformation><ofo:creator>&lt;div class=&quot;creators&quot;&gt;
   &lt;span class=&quot;creator phraseLink&quot;&gt;Hans Scherfig&lt;/span&gt;
-&lt;/div&gt;</ofo:creator><ofo:title>&lt;div class=&quot;title&quot;&gt;Den forsvundne fuldmæig&lt;/div&gt;</ofo:title><ofo:type>&lt;div class=&quot;type&quot;&gt;Lydbog (cd)&lt;/div&gt;</ofo:type><ofo:description>&lt;div class=&quot;subjects&quot;&gt;
+&lt;/div&gt;</ofo:creator><ofo:title>&lt;div class=&quot;title&quot;&gt;Den forsvundne fuldmægtig&lt;/div&gt;</ofo:title><ofo:type>&lt;div class=&quot;type&quot;&gt;Lydbog (cd)&lt;/div&gt;</ofo:type><ofo:description>&lt;div class=&quot;subjects&quot;&gt;
 
   &lt;span class=&quot;subjectHeader&quot;&gt;Emne:&lt;/span&gt;
   &lt;span class=&quot;subject phraseLink&quot;&gt;humor&lt;/span&gt;
@@ -11,16 +11,16 @@
   &lt;span class=&quot;subject phraseLink&quot;&gt;samfundssatire&lt;/span&gt;
    ; 
   &lt;span class=&quot;subject phraseLink&quot;&gt;Danmark&lt;/span&gt;
-&lt;/div&gt;&lt;div class=&quot;abstract&quot;&gt;Satire over vanemenneskets afhæighed af den borgerlige tilvælses konvention og disciplin med embedsmandens kontortilvælse som eksempel&lt;/div&gt;</ofo:description><ofo:details>&amp;lt;div class=&quot;contributors&quot;&amp;gt;
+&lt;/div&gt;&lt;div class=&quot;abstract&quot;&gt;Satire over vanemenneskets afhængighed af den borgerlige tilværelses konvention og disciplin med embedsmandens kontortilværelse som eksempel&lt;/div&gt;</ofo:description><ofo:details>&amp;lt;div class=&quot;contributors&quot;&amp;gt;
   &amp;lt;span class=&quot;contributor&quot;&amp;gt;tekst: Hans Scherfig&amp;lt;/span&amp;gt;
 
 &amp;lt;/div&amp;gt;&amp;lt;div class=&quot;format&quot;&amp;gt;5 t., 32 min., 1 cd i 1 mappe&amp;lt;/div&amp;gt;&amp;lt;div class=&quot;series&quot;&amp;gt;
   &amp;lt;span class=&quot;seriesHeader&quot;&amp;gt;Serie:&amp;lt;/span&amp;gt;
-  &amp;lt;span class=&quot;series phraseLink&quot;&amp;gt;Gyldendals tranebøamp;lt;/span&amp;gt;
+  &amp;lt;span class=&quot;series phraseLink&quot;&amp;gt;Gyldendals tranebøger&amp;lt;/span&amp;gt;
 
 &amp;lt;/div&amp;gt;&amp;lt;div class=&quot;shelf&quot;&amp;gt;
   &amp;lt;span class=&quot;shelfHeader&quot;&amp;gt;Opstilling i folkebiblioteker:&amp;lt;/span&amp;gt;
-  &amp;lt;span class=&quot;classification phraseLink&quot;&amp;gt;skøteratur&amp;lt;/span&amp;gt;
+  &amp;lt;span class=&quot;classification phraseLink&quot;&amp;gt;skønlitteratur&amp;lt;/span&amp;gt;
 &amp;lt;/div&amp;gt;
 
 &lt;div class=&quot;usedLanguages&quot;/&gt;&lt;div class=&quot;identifiers&quot;&gt;

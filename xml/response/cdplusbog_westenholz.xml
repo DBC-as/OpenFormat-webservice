@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><ofo:formatResponse><ofo:bibliotekdkFullDisplay><ofo:fullDisplayInformation><ofo:creator>&lt;div class=&quot;creators&quot;&gt;
   &lt;span class=&quot;creator phraseLink&quot;&gt;Anders Westenholz (f. 1936)&lt;/span&gt;
-&lt;/div&gt;</ofo:creator><ofo:title>&lt;div class=&quot;title&quot;&gt;Mona Lisa påfveje&lt;/div&gt;</ofo:title><ofo:type>&lt;div class=&quot;type&quot;&gt;Cd&lt;/div&gt;</ofo:type><ofo:description>&lt;div class=&quot;subjects&quot;&gt;
+&lt;/div&gt;</ofo:creator><ofo:title>&lt;div class=&quot;title&quot;&gt;Mona Lisa på afveje&lt;/div&gt;</ofo:title><ofo:type>&lt;div class=&quot;type&quot;&gt;Cd&lt;/div&gt;</ofo:type><ofo:description>&lt;div class=&quot;subjects&quot;&gt;
 
   &lt;span class=&quot;subjectHeader&quot;&gt;Emne:&lt;/span&gt;
   &lt;span class=&quot;subject phraseLink&quot;&gt;humor&lt;/span&gt;
@@ -9,26 +9,26 @@
 
    ; 
   &lt;span class=&quot;subject phraseLink&quot;&gt;kunst&lt;/span&gt;
-&lt;/div&gt;&lt;div class=&quot;abstract&quot;&gt;Kunsteksperten Viggo har alletiders plan : at stjæ Mona Lisa. Det lykkes faktisk, og han sæer maleriet til en brasiliansk milliardæ Men dermed er lykken alligevel ikke gjort&lt;/div&gt;</ofo:description><ofo:details>&amp;lt;div class=&quot;contributors&quot;&amp;gt;
+&lt;/div&gt;&lt;div class=&quot;abstract&quot;&gt;Kunsteksperten Viggo har alletiders plan : at stjæle Mona Lisa. Det lykkes faktisk, og han sælger maleriet til en brasiliansk milliardær. Men dermed er lykken alligevel ikke gjort&lt;/div&gt;</ofo:description><ofo:details>&amp;lt;div class=&quot;contributors&quot;&amp;gt;
   &amp;lt;span class=&quot;contributor&quot;&amp;gt;Anders Westenholz&amp;lt;/span&amp;gt;
 
 &amp;lt;/div&amp;gt;&amp;lt;div class=&quot;format&quot;&amp;gt;Spilletid: 2 t., 15 min., 115 sider&amp;lt;/div&amp;gt;&amp;lt;div class=&quot;series&quot;&amp;gt;
   &amp;lt;span class=&quot;seriesHeader&quot;&amp;gt;Serie:&amp;lt;/span&amp;gt;
-  &amp;lt;span class=&quot;series phraseLink&quot;&amp;gt;Lælyst&amp;lt;/span&amp;gt;
+  &amp;lt;span class=&quot;series phraseLink&quot;&amp;gt;Læselyst&amp;lt;/span&amp;gt;
   &amp;lt;span class=&quot;seriesNumber&quot;&amp;gt;; 13&amp;lt;/span&amp;gt;
 
 &amp;lt;/div&amp;gt;&amp;lt;div class=&quot;shelf&quot;&amp;gt;
   &amp;lt;span class=&quot;shelfHeader&quot;&amp;gt;Opstilling i folkebiblioteker:&amp;lt;/span&amp;gt;
-  &amp;lt;span class=&quot;classification phraseLink&quot;&amp;gt;skøteratur&amp;lt;/span&amp;gt;
+  &amp;lt;span class=&quot;classification phraseLink&quot;&amp;gt;skønlitteratur&amp;lt;/span&amp;gt;
 &amp;lt;/div&amp;gt;
 
 &lt;div class=&quot;usedLanguages&quot;/&gt;&lt;div class=&quot;note&quot;&gt;
-  &lt;span class=&quot;noteHeader&quot;&gt;Samhøe:&lt;/span&gt;
-  &lt;span class=&quot;title phraseLink&quot;&gt;Mona Lisa påfveje&lt;/span&gt;
+  &lt;span class=&quot;noteHeader&quot;&gt;Samhørende:&lt;/span&gt;
+  &lt;span class=&quot;title phraseLink&quot;&gt;Mona Lisa på afveje&lt;/span&gt;
 
    ; 
   &lt;span class=&quot;title phraseLink&quot;&gt;Fup, fiduser og falske malerier&lt;/span&gt;
-  &lt;div class=&quot;descriptionNote&quot;&gt;Cd Indlæ af Janek Lesniak&lt;/div&gt;
+  &lt;div class=&quot;descriptionNote&quot;&gt;Cd Indlæst af Janek Lesniak&lt;/div&gt;
   &lt;div class=&quot;descriptionNote&quot;&gt;Bog: Hedehusene : Nyt Dansk Litteraturselskab, 2005&lt;/div&gt;
 
 &lt;/div&gt;&lt;div class=&quot;identifiers&quot;&gt;

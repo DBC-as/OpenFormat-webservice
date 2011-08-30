@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><ofo:formatResponse><ofo:bibliotekdkFullDisplay><ofo:fullDisplayInformation><ofo:creator>&lt;div class=&quot;creators&quot;&gt;
   &lt;span class=&quot;creator phraseLink&quot;&gt;Martin Handford&lt;/span&gt;
-&lt;/div&gt;</ofo:creator><ofo:title>&lt;div class=&quot;title&quot;&gt;Find Holger påen eventyrlige rejse&lt;/div&gt;</ofo:title><ofo:type>&lt;div class=&quot;type&quot;&gt;Billedbog&lt;/div&gt;</ofo:type><ofo:description>&lt;div class=&quot;subjects&quot;&gt;
+&lt;/div&gt;</ofo:creator><ofo:title>&lt;div class=&quot;title&quot;&gt;Find Holger på den eventyrlige rejse&lt;/div&gt;</ofo:title><ofo:type>&lt;div class=&quot;type&quot;&gt;Billedbog&lt;/div&gt;</ofo:type><ofo:description>&lt;div class=&quot;subjects&quot;&gt;
 
   &lt;span class=&quot;subjectHeader&quot;&gt;Emne:&lt;/span&gt;
-  &lt;span class=&quot;subject phraseLink&quot;&gt;gååpdagelse&lt;/span&gt;
-&lt;/div&gt;&lt;div class=&quot;abstract&quot;&gt;Billedbog om Holger der er pån eventyrlig rejse sammen med Troldmand Hvidskæ Påvert af de 12 opslag gæer det om at finde Holger, Troldmand Hvidskæog en skriftrulle&lt;/div&gt;</ofo:description><ofo:details>&amp;lt;div class=&quot;originalTitle&quot;&amp;gt;
+  &lt;span class=&quot;subject phraseLink&quot;&gt;gå på opdagelse&lt;/span&gt;
+&lt;/div&gt;&lt;div class=&quot;abstract&quot;&gt;Billedbog om Holger der er på en eventyrlig rejse sammen med Troldmand Hvidskæg. På hvert af de 12 opslag gælder det om at finde Holger, Troldmand Hvidskæg og en skriftrulle&lt;/div&gt;</ofo:description><ofo:details>&amp;lt;div class=&quot;originalTitle&quot;&amp;gt;
   &amp;lt;span class=&quot;originalTitleHeader&quot;&amp;gt;Originaltitel:&amp;lt;/span&amp;gt;
   &amp;lt;span class=&quot;originalTitle&quot;&amp;gt;Where's Wally? - the fantastic journey&amp;lt;/span&amp;gt;
 
@@ -12,12 +12,12 @@
   &amp;lt;span class=&quot;contributor&quot;&amp;gt;tekst: Martin Handford&amp;lt;/span&amp;gt;
 &amp;lt;/div&amp;gt;&amp;lt;div class=&quot;format&quot;&amp;gt;28 sider, alle illustreret i farver&amp;lt;/div&amp;gt;&amp;lt;div class=&quot;shelf&quot;&amp;gt;
   &amp;lt;span class=&quot;shelfHeader&quot;&amp;gt;Opstilling i folkebiblioteker:&amp;lt;/span&amp;gt;
-  &amp;lt;span class=&quot;classification phraseLink&quot;&amp;gt;skøteratur&amp;lt;/span&amp;gt;
+  &amp;lt;span class=&quot;classification phraseLink&quot;&amp;gt;skønlitteratur&amp;lt;/span&amp;gt;
 
 &amp;lt;/div&amp;gt;
 &lt;div class=&quot;usedLanguages&quot;/&gt;&lt;div class=&quot;note&quot;&gt;
-  &lt;div class=&quot;descriptionNote&quot;&gt;Øerst påitelsiden: Holgers herligste eventyr!&lt;/div&gt;
-  &lt;div class=&quot;descriptionNote&quot;&gt;Påmslaget: 3&lt;/div&gt;
+  &lt;div class=&quot;descriptionNote&quot;&gt;Øverst på titelsiden: Holgers herligste eventyr!&lt;/div&gt;
+  &lt;div class=&quot;descriptionNote&quot;&gt;På omslaget: 3&lt;/div&gt;
 
 &lt;/div&gt;&lt;div class=&quot;identifiers&quot;&gt;
   &lt;span class=&quot;identifierHeader&quot;&gt;ISBN&lt;/span&gt;
