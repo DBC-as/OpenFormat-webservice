@@ -54,7 +54,7 @@ class openFormat extends webServiceServer {
         if (!$this->aaa->has_right('openformat', 500))
             $res->error->_value = 'authentication_error';
         else {
-            $param->trackingId->_value = verbose::make_tracking_id('of', $param->trackingId->_value);
+            $param->trackingId->_value = verbose::set_tracking_id('of', $param->trackingId->_value);
             if (is_array($param->originalData))
                 foreach ($param->originalData as $key => $od)
                     $form_req[] = &$param->originalData[$key];
@@ -69,7 +69,6 @@ class openFormat extends webServiceServer {
         }
         $ret->formatResponse->_value = &$res;
         $ret->formatResponse->_namespace = $this->xmlns['ofo'];
-        //var_dump($ret); var_dump($param); die();
         if (!($dump_format = $this->dump_timer)) $dmp_format = '%s';
         foreach ($this->rec_status as $r_c) {
             $size_upload = $r_c['size_upload'];
@@ -84,27 +83,9 @@ class openFormat extends webServiceServer {
                            ' no_of_js_server:' . count($this->js_server_url) . 
                            ' js_server:' . sprintf('%01.3f', $this->watch->splittime('js_server')) .
                            ' Total:' . sprintf('%01.3f', $this->watch->splittime('Total')));
+        //var_dump($ret); var_dump($param); die();
         return $ret;
 
-    }
-
-    /** \brief Echos config-settings
-     *
-     */
-    public function show_info() {
-        echo '<pre>';
-        echo 'version             ' . $this->config->get_value('version', 'setup') . '<br/>';
-        echo 'logfile             ' . $this->config->get_value('logfile', 'setup') . '<br/>';
-        echo 'verbose             ' . $this->config->get_value('verbose', 'setup') . '<br/>';
-        $txt = 'js_server           ';
-        foreach ($this->config->get_value('js_server', 'setup') as $js) {
-            echo $txt . $js . '<br/>';
-            $txt = ' -                  ';
-        }
-        echo 'aaa_credentials     ' . $this->strip_oci_pwd($this->config->get_value('aaa_credentials', 'aaa')) . '<br/>';
-        echo 'pwd                 ' . $_SERVER['HTTP_HOST'] . dirname($_SERVER['PHP_SELF']);
-        echo '</pre>';
-        die();
     }
 
     /** \brief Format recs sending them to js_server(s)
@@ -112,16 +93,18 @@ class openFormat extends webServiceServer {
      */
     private function format_recs(&$recs, &$param) {
         // Since the api for record_blocking is not defined, it will be set to 1
+        $this->record_blocking = 1;
+
         if (!($timeout = (integer) $this->config->get_value('curl_timeout', 'setup')))
-            $timeout = 20;
+            $timeout = 5;
 
         $dom = new DomDocument();
         $dom->preserveWhiteSpace = false;
         $output_format = $param->outputFormat->_value;
+        $form_req->formatSingleManifestationRequest->_value->agency = $param->agency;
         $form_req->formatSingleManifestationRequest->_value->language = $param->language;
         $form_req->formatSingleManifestationRequest->_value->outputFormat = $param->outputFormat;
         $form_req->formatSingleManifestationRequest->_value->trackingId = $param->trackingId;
-        $this->record_blocking = 1;
         $ret = array();
         $curls = 0;
         $tot_curls = 0;
@@ -173,6 +156,28 @@ class openFormat extends webServiceServer {
         return $ret;
     }
 
+    /** \brief Echos config-settings
+     *
+     */
+    public function show_info() {
+        echo '<pre>';
+        echo 'version             ' . $this->config->get_value('version', 'setup') . '<br/>';
+        echo 'logfile             ' . $this->config->get_value('logfile', 'setup') . '<br/>';
+        echo 'verbose             ' . $this->config->get_value('verbose', 'setup') . '<br/>';
+        $txt = 'js_server           ';
+        foreach ($this->config->get_value('js_server', 'setup') as $js) {
+            echo $txt . $js . '<br/>';
+            $txt = ' -                  ';
+        }
+        echo 'aaa_credentials     ' . $this->strip_oci_pwd($this->config->get_value('aaa_credentials', 'aaa')) . '<br/>';
+        echo 'pwd                 ' . $_SERVER['HTTP_HOST'] . dirname($_SERVER['PHP_SELF']);
+        echo '</pre>';
+        die();
+    }
+
+    /** \brief
+     *  hides password part of oci credentials
+     */
     private function strip_oci_pwd($cred) {
         if (($p1 = strpos($cred, '/')) && ($p2 = strpos($cred, '@')))
             return substr($cred, 0, $p1) . '/********' . substr($cred, $p2);
