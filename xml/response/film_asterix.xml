@@ -1,31 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?><SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><ofo:formatResponse><ofo:bibliotekdkFullDisplay><ofo:fullDisplayInformation><ofo:creator>&lt;div class=&quot;creators&quot;&gt;
-  &lt;span class=&quot;creator phraseLink&quot;&gt;Stefan Fjeldmark&lt;/span&gt;
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput">
+  <SOAP-ENV:Body>
+    <ofo:formatResponse>
+<ofo:bibliotekdkFullDisplay>
+  <ofo:fullDisplayInformation>
+    <ofo:title>&lt;div class="title"&gt;Asterix og vikingerne&lt;/div&gt;</ofo:title>
+    <ofo:creator>&lt;div class="creators"&gt;
+  &lt;span class="creator phraseLink"&gt;Stefan Fjeldmark&lt;/span&gt;
    ; 
-  &lt;span class=&quot;creator phraseLink&quot;&gt;Jesper Møller filminstruktør&lt;/span&gt;
-&lt;/div&gt;</ofo:creator><ofo:title>&lt;div class=&quot;title&quot;&gt;Asterix og vikingerne&lt;/div&gt;</ofo:title><ofo:type>&lt;div class=&quot;type&quot;&gt;Film (net)&lt;/div&gt;</ofo:type><ofo:description>&lt;div class=&quot;subjects&quot;&gt;
-  &lt;span class=&quot;subjectHeader&quot;&gt;Emne:&lt;/span&gt;
-  &lt;span class=&quot;subject phraseLink&quot;&gt;vikinger&lt;/span&gt;
-&lt;/div&gt;&lt;div class=&quot;abstract&quot;&gt;Vikingerne mod nord, der ikke kender til frygt, planlægger et togt til Gallien for at kidnappe en galler, der kan vise dem hvad frygt er. De gæve gallere må drage mod nord for at befri ham&lt;/div&gt;&lt;div class=&quot;genre&quot;&gt;Tegnefilm&lt;/div&gt;</ofo:description><ofo:details>&amp;lt;div class=&quot;alternativeTitle&quot;&amp;gt;
-  &amp;lt;span class=&quot;alternativeTitle&quot;&amp;gt;Alternativ titel: Asterix ja viikingit&amp;lt;/span&amp;gt;
-  &amp;lt;span class=&quot;alternativeTitle&quot;&amp;gt;Alternativ titel: Asterix and the vikings&amp;lt;/span&amp;gt;
-&amp;lt;/div&amp;gt;&amp;lt;div class=&quot;contributors&quot;&amp;gt;
-  &amp;lt;span class=&quot;contributor&quot;&amp;gt;based on the work of René Goscinny and Albert Uderzo, script and dialogue Jean-Luc Goossens, with the collaboration of Stefan Fjeldmark, directed by Stefan Fjeldmark and Jesper Møller, produced by Natalie Altmann, Thomas Valentin, lead animation Rune Bennicke m. fl., dansk instruktør Sonny Lahey, oversætter Trine Dansgaard, dansk producer Svend Christensen&amp;lt;/span&amp;gt;
-&amp;lt;/div&amp;gt;&amp;lt;div class=&quot;format&quot;&amp;gt;Spilletid: 75 min.&amp;lt;/div&amp;gt;&amp;lt;div class=&quot;audience&quot;&amp;gt;
-  &amp;lt;div class=&quot;markedAudience&quot;&amp;gt;Mærkning: Tilladt for alle men frarådes børn under 7 år&amp;lt;/div&amp;gt;
-  &amp;lt;div class=&quot;recommendedAudience&quot;&amp;gt;Biblioteket anbefaler: Fra 7 år&amp;lt;/div&amp;gt;
-&amp;lt;/div&amp;gt;
-&lt;div class=&quot;usedLanguages&quot;/&gt;&lt;div class=&quot;note&quot;&gt;
-  &lt;div class=&quot;descriptionNote&quot;&gt;Titlen hentet fra Filmstribens indgangsside&lt;/div&gt;
-  &lt;div class=&quot;descriptionNote&quot;&gt;Stemmer Jesper Asholt, Dejan Cukic, David Owe, Helle Fagralid, Peter Aude, Martin Brygmann, Søs Egelind, Mads M. Nielsen, Søren Spanning ... et al.&lt;/div&gt;
-  &lt;div class=&quot;descriptionNote&quot;&gt;Originalfilmen: Frankrig : M6 Studio : Mandarin SAS : 2d3D Animation ; Kbh. : in association with A.Film ... et al., 2006&lt;/div&gt;
-&lt;/div&gt;&lt;div class=&quot;priceInformation&quot;&gt;
-  &lt;span class=&quot;price&quot;&gt;Adgang til streaming for biblioteksbrugere i kommuner med abonnement på Filmstriben&lt;/span&gt;
-&lt;/div&gt;&lt;div class=&quot;languageInformation&quot;/&gt;
-&lt;span class=&quot;languageHeader&quot;&gt;Sprog:&lt;/span&gt;
-&lt;span class=&quot;language&quot;&gt;Dansk&lt;/span&gt;&lt;div class=&quot;accessInformation&quot;&gt;
-  &lt;span class=&quot;accessUrl&quot;&gt;http://www.filmstriben.dk/?showfilm=2668960000&lt;/span&gt;
-&lt;/div&gt;</ofo:details><ofo:publicationDetails>&lt;div class=&quot;publication&quot;&gt;
-  &lt;span class=&quot;publisher&quot;&gt;SF Film&lt;/span&gt;
+  &lt;span class="creator phraseLink"&gt;Jesper Møller filminstruktør&lt;/span&gt;
+&lt;/div&gt;</ofo:creator>
+    <ofo:type>&lt;div class="type"&gt;Film (net)&lt;/div&gt;</ofo:type>
+    <ofo:description>&lt;div class="subjects"&gt;
+  &lt;span class="subjectHeader"&gt;Emne:&lt;/span&gt;
+  &lt;span class="subject phraseLink"&gt;vikinger&lt;/span&gt;
+&lt;/div&gt;&lt;div class="abstract"&gt;Vikingerne mod nord, der ikke kender til frygt, planlægger et togt til Gallien for at kidnappe en galler, der kan vise dem hvad frygt er. De gæve gallere må drage mod nord for at befri ham&lt;/div&gt;&lt;div class="genre"&gt;Tegnefilm&lt;/div&gt;</ofo:description>
+    <ofo:details>&lt;div class="alternativeTitle"&gt;
+  &lt;span class="alternativeTitle"&gt;Alternativ titel: Asterix ja viikingit&lt;/span&gt;
+  &lt;span class="alternativeTitle"&gt;Alternativ titel: Asterix and the vikings&lt;/span&gt;
+&lt;/div&gt;&lt;div class="contributors"&gt;
+  &lt;span class="contributor"&gt;based on the work of René Goscinny and Albert Uderzo, script and dialogue Jean-Luc Goossens, with the collaboration of Stefan Fjeldmark, directed by Stefan Fjeldmark and Jesper Møller, produced by Natalie Altmann, Thomas Valentin, lead animation Rune Bennicke m. fl., dansk instruktør Sonny Lahey, oversætter Trine Dansgaard, dansk producer Svend Christensen&lt;/span&gt;
+&lt;/div&gt;&lt;div class="format"&gt;Spilletid: 75 min.&lt;/div&gt;&lt;div class="audience"&gt;
+  &lt;div class="markedAudience"&gt;Mærkning: Tilladt for alle men frarådes børn under 7 år&lt;/div&gt;
+  &lt;div class="recommendedAudience"&gt;Biblioteket anbefaler: Fra 7 år&lt;/div&gt;
+&lt;/div&gt;&lt;div class="note"&gt;
+  &lt;div class="descriptionNote"&gt;Titlen hentet fra Filmstribens indgangsside&lt;/div&gt;
+  &lt;div class="descriptionNote"&gt;Stemmer Jesper Asholt, Dejan Cukic, David Owe, Helle Fagralid, Peter Aude, Martin Brygmann, Søs Egelind, Mads M. Nielsen, Søren Spanning ... et al.&lt;/div&gt;
+  &lt;div class="descriptionNote"&gt;Originalfilmen: Frankrig : M6 Studio : Mandarin SAS : 2d3D Animation ; Kbh. : in association with A.Film ... et al., 2006&lt;/div&gt;
+&lt;/div&gt;&lt;div class="priceInformation"&gt;
+  &lt;span class="price"&gt;Adgang til streaming for biblioteksbrugere i kommuner med abonnement på Filmstriben&lt;/span&gt;
+&lt;/div&gt;&lt;div class="languageInformation"/&gt;
+&lt;span class="languageHeader"&gt;Sprog:&lt;/span&gt;
+&lt;span class="language"&gt;Dansk&lt;/span&gt;&lt;div class="accessInformation"&gt;
+  &lt;span class="accessUrl"&gt;http://www.filmstriben.dk/?showfilm=2668960000&lt;/span&gt;
+&lt;/div&gt;</ofo:details>
+    <ofo:publicationDetails>&lt;div class="publication"&gt;
+  &lt;span class="publisher"&gt;SF Film&lt;/span&gt;
   , 
-  &lt;span class=&quot;year&quot;&gt;2010&lt;/span&gt;
-&lt;/div&gt;</ofo:publicationDetails><ofo:content></ofo:content></ofo:fullDisplayInformation></ofo:bibliotekdkFullDisplay></ofo:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+  &lt;span class="year"&gt;2010&lt;/span&gt;
+&lt;/div&gt;</ofo:publicationDetails>
+    <ofo:content/>
+  </ofo:fullDisplayInformation>
+</ofo:bibliotekdkFullDisplay>
+    </ofo:formatResponse>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
