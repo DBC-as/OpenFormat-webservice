@@ -1,39 +1,60 @@
-<?xml version="1.0" encoding="UTF-8"?><SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><ofo:formatResponse><ofo:bibliotekdkFullDisplay><ofo:fullDisplayInformation><ofo:creator>&lt;div class=&quot;creators&quot;&gt;
-  &lt;span class=&quot;creator phraseLink&quot;&gt;Anders Westenholz (f. 1936)&lt;/span&gt;
-&lt;/div&gt;</ofo:creator><ofo:title>&lt;div class=&quot;title&quot;&gt;Mona Lisa på afveje&lt;/div&gt;</ofo:title><ofo:type>&lt;div class=&quot;type&quot;&gt;Cd&lt;/div&gt;</ofo:type><ofo:description>&lt;div class=&quot;subjects&quot;&gt;
-  &lt;span class=&quot;subjectHeader&quot;&gt;Emne:&lt;/span&gt;
-  &lt;span class=&quot;subject phraseLink&quot;&gt;humor&lt;/span&gt;
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput">
+  <SOAP-ENV:Body>
+    <ofo:formatResponse>
+<ofo:bibliotekdkFullDisplay>
+  <ofo:fullDisplayInformation>
+    <ofo:title>&lt;div class="title"&gt;Mona Lisa på afveje&lt;/div&gt;</ofo:title>
+    <ofo:creator>&lt;div class="creators"&gt;
+  &lt;span class="creator phraseLink"&gt;Anders Westenholz (f. 1936)&lt;/span&gt;
+&lt;/div&gt;</ofo:creator>
+    <ofo:type>&lt;div class="type"&gt;Cd&lt;/div&gt;</ofo:type>
+    <ofo:description>&lt;div class="subjects"&gt;
+  &lt;span class="subjectHeader"&gt;Emne:&lt;/span&gt;
+  &lt;span class="subject phraseLink"&gt;humor&lt;/span&gt;
    ; 
-  &lt;span class=&quot;subject phraseLink&quot;&gt;kriminalitet&lt;/span&gt;
+  &lt;span class="subject phraseLink"&gt;kriminalitet&lt;/span&gt;
    ; 
-  &lt;span class=&quot;subject phraseLink&quot;&gt;kunst&lt;/span&gt;
-&lt;/div&gt;&lt;div class=&quot;abstract&quot;&gt;Kunsteksperten Viggo har alletiders plan : at stjæle Mona Lisa. Det lykkes faktisk, og han sælger maleriet til en brasiliansk milliardær. Men dermed er lykken alligevel ikke gjort&lt;/div&gt;</ofo:description><ofo:details>&amp;lt;div class=&quot;contributors&quot;&amp;gt;
-  &amp;lt;span class=&quot;contributor&quot;&amp;gt;Anders Westenholz&amp;lt;/span&amp;gt;
-&amp;lt;/div&amp;gt;&amp;lt;div class=&quot;format&quot;&amp;gt;Spilletid: 2 t., 15 min., 115 sider&amp;lt;/div&amp;gt;&amp;lt;div class=&quot;series&quot;&amp;gt;
-  &amp;lt;span class=&quot;seriesHeader&quot;&amp;gt;Serie:&amp;lt;/span&amp;gt;
-  &amp;lt;span class=&quot;series phraseLink&quot;&amp;gt;Læselyst&amp;lt;/span&amp;gt;
-  &amp;lt;span class=&quot;seriesNumber&quot;&amp;gt;; 13&amp;lt;/span&amp;gt;
-&amp;lt;/div&amp;gt;&amp;lt;div class=&quot;shelf&quot;&amp;gt;
-  &amp;lt;span class=&quot;shelfHeader&quot;&amp;gt;Opstilling i folkebiblioteker:&amp;lt;/span&amp;gt;
-  &amp;lt;span class=&quot;classification phraseLink&quot;&amp;gt;skønlitteratur&amp;lt;/span&amp;gt;
-&amp;lt;/div&amp;gt;
-&lt;div class=&quot;usedLanguages&quot;/&gt;&lt;div class=&quot;note&quot;&gt;
-  &lt;span class=&quot;noteHeader&quot;&gt;Samhørende:&lt;/span&gt;
-  &lt;span class=&quot;title phraseLink&quot;&gt;Mona Lisa på afveje&lt;/span&gt;
+  &lt;span class="subject phraseLink"&gt;kunst&lt;/span&gt;
+&lt;/div&gt;&lt;div class="abstract"&gt;Kunsteksperten Viggo har alletiders plan : at stjæle Mona Lisa. Det lykkes faktisk, og han sælger maleriet til en brasiliansk milliardær. Men dermed er lykken alligevel ikke gjort&lt;/div&gt;</ofo:description>
+    <ofo:details>&lt;div class="contributors"&gt;
+  &lt;span class="contributor"&gt;Anders Westenholz&lt;/span&gt;
+&lt;/div&gt;&lt;div class="format"&gt;Spilletid: 2 t., 15 min., 115 sider&lt;/div&gt;&lt;div class="seriesTitles"&gt;
+  &lt;div class="series"&gt;
+    &lt;span class="seriesHeader"&gt;Serie:&lt;/span&gt;
+    &lt;span class="series phraseLink"&gt;Læselyst&lt;/span&gt;
+    &lt;span class="seriesNumber"&gt;; 13&lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;div class="shelf"&gt;
+  &lt;span class="shelfHeader"&gt;Opstilling i folkebiblioteker:&lt;/span&gt;
+  &lt;span class="classification phraseLink"&gt;skønlitteratur&lt;/span&gt;
+&lt;/div&gt;&lt;div class="audienceSubjects"&gt;
+  &lt;span class="audienceSubjectHeader"&gt;Målgruppe:&lt;/span&gt;
+  &lt;span class="augienceSubject phraseLink"&gt;for læsesvage voksne&lt;/span&gt;
+&lt;/div&gt;&lt;div class="note"&gt;
+  &lt;span class="noteHeader"&gt;Samhørende:&lt;/span&gt;
+  &lt;span class="title phraseLink"&gt;Mona Lisa på afveje&lt;/span&gt;
    ; 
-  &lt;span class=&quot;title phraseLink&quot;&gt;Fup, fiduser og falske malerier&lt;/span&gt;
-  &lt;div class=&quot;descriptionNote&quot;&gt;Cd Indlæst af Janek Lesniak&lt;/div&gt;
-  &lt;div class=&quot;descriptionNote&quot;&gt;Bog: Hedehusene : Nyt Dansk Litteraturselskab, 2005&lt;/div&gt;
-&lt;/div&gt;&lt;div class=&quot;identifiers&quot;&gt;
-  &lt;span class=&quot;identifierHeader&quot;&gt;ISBN&lt;/span&gt;
-  &lt;span class=&quot;identifier&quot;&gt;87-89793-09-9&lt;/span&gt;
-&lt;/div&gt;&lt;div class=&quot;priceInformation&quot;&gt;
-  &lt;span class=&quot;priceHeader&quot;&gt;Pris ved udgivelsen:&lt;/span&gt;
-  &lt;span class=&quot;price&quot;&gt;Kr. 580,00&lt;/span&gt;
-&lt;/div&gt;&lt;div class=&quot;languageInformation&quot;/&gt;
-&lt;span class=&quot;languageHeader&quot;&gt;Sprog:&lt;/span&gt;
-&lt;span class=&quot;language&quot;&gt;Dansk&lt;/span&gt;</ofo:details><ofo:publicationDetails>&lt;div class=&quot;publication&quot;&gt;
-  &lt;span class=&quot;publisher&quot;&gt;KKB-Lyd&lt;/span&gt;
+  &lt;span class="title phraseLink"&gt;Fup, fiduser og falske malerier&lt;/span&gt;
+  &lt;div class="descriptionNote"&gt;Cd Indlæst af Janek Lesniak&lt;/div&gt;
+  &lt;div class="descriptionNote"&gt;Bog: Hedehusene : Nyt Dansk Litteraturselskab, 2005&lt;/div&gt;
+&lt;/div&gt;&lt;div class="identifiers"&gt;
+  &lt;span class="identifierHeader"&gt;ISBN&lt;/span&gt;
+  &lt;span class="identifier"&gt;87-89793-09-9&lt;/span&gt;
+&lt;/div&gt;&lt;div class="priceInformation"&gt;
+  &lt;span class="priceHeader"&gt;Pris ved udgivelsen:&lt;/span&gt;
+  &lt;span class="price"&gt;Kr. 580,00&lt;/span&gt;
+&lt;/div&gt;&lt;div class="languageInformation"/&gt;
+&lt;span class="languageHeader"&gt;Sprog:&lt;/span&gt;
+&lt;span class="language"&gt;Dansk&lt;/span&gt;</ofo:details>
+    <ofo:publicationDetails>&lt;div class="publication"&gt;
+  &lt;span class="publisher"&gt;KKB-Lyd&lt;/span&gt;
   , 
-  &lt;span class=&quot;year&quot;&gt;2006&lt;/span&gt;
-&lt;/div&gt;</ofo:publicationDetails><ofo:content></ofo:content></ofo:fullDisplayInformation></ofo:bibliotekdkFullDisplay></ofo:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+  &lt;span class="year"&gt;2006&lt;/span&gt;
+&lt;/div&gt;</ofo:publicationDetails>
+    <ofo:content/>
+  </ofo:fullDisplayInformation>
+</ofo:bibliotekdkFullDisplay>
+    </ofo:formatResponse>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
