@@ -1,40 +1,58 @@
-<?xml version="1.0" encoding="UTF-8"?><SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><ofo:formatResponse><ofo:bibliotekdkFullDisplay><ofo:fullDisplayInformation><ofo:creator>&lt;div class=&quot;creators&quot;&gt;
-  &lt;span class=&quot;creator phraseLink&quot;&gt;René Goscinny&lt;/span&gt;
-&lt;/div&gt;</ofo:creator><ofo:title>&lt;div class=&quot;title&quot;&gt;Asterix' og Obelix' fødselsdag&lt;/div&gt;</ofo:title><ofo:type>&lt;div class=&quot;type&quot;&gt;Tegneserie&lt;/div&gt;</ofo:type><ofo:description>&lt;div class=&quot;subjects&quot;&gt;
-  &lt;span class=&quot;subjectHeader&quot;&gt;Emne:&lt;/span&gt;
-  &lt;span class=&quot;subject phraseLink&quot;&gt;humor&lt;/span&gt;
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput">
+  <SOAP-ENV:Body>
+    <ofo:formatResponse>
+<ofo:bibliotekdkFullDisplay>
+  <ofo:fullDisplayInformation>
+    <ofo:title>&lt;div class="title"&gt;Asterix' og Obelix' fødselsdag&lt;/div&gt;</ofo:title>
+    <ofo:creator>&lt;div class="creators"&gt;
+  &lt;span class="creator phraseLink"&gt;René Goscinny&lt;/span&gt;
+&lt;/div&gt;</ofo:creator>
+    <ofo:type>&lt;div class="type"&gt;Tegneserie&lt;/div&gt;</ofo:type>
+    <ofo:description>&lt;div class="subjects"&gt;
+  &lt;span class="subjectHeader"&gt;Emne:&lt;/span&gt;
+  &lt;span class="subject phraseLink"&gt;humor&lt;/span&gt;
    ; 
-  &lt;span class=&quot;subject phraseLink&quot;&gt;Romerriget&lt;/span&gt;
+  &lt;span class="subject phraseLink"&gt;Romerriget&lt;/span&gt;
    ; 
-  &lt;span class=&quot;subject phraseLink&quot;&gt;Gallien&lt;/span&gt;
-&lt;/div&gt;&lt;div class=&quot;abstract&quot;&gt;Tegneserie. I den lille galliske landsby ved Atlanterhavets kyst gør indbyggerne klar til at fejre Asterix ́og Obelix ́runde fødselsdage. Det giver anledning til en række tilbageblik på seriens 50-årige historie&lt;/div&gt;</ofo:description><ofo:details>&amp;lt;div class=&quot;originalTitle&quot;&amp;gt;
-  &amp;lt;span class=&quot;originalTitleHeader&quot;&amp;gt;Originaltitel:&amp;lt;/span&amp;gt;
-  &amp;lt;span class=&quot;originalTitle&quot;&amp;gt;L'anniversaire d'Astérix et Obélix&amp;lt;/span&amp;gt;
-&amp;lt;/div&amp;gt;&amp;lt;div class=&quot;alternativeTitle&quot;&amp;gt;
-  &amp;lt;span class=&quot;alternativeTitle&quot;&amp;gt;Alternativ titel: Asterix' &amp;amp;amp; Obelix' fødselsdag&amp;lt;/span&amp;gt;
-&amp;lt;/div&amp;gt;&amp;lt;div class=&quot;contributors&quot;&amp;gt;
-  &amp;lt;span class=&quot;contributor&quot;&amp;gt;tekst: René Goscinny, tekst: Albert Uderzo, tegner: Albert Uderzo, oversætter: François-Eric Grodin, redaktør: Michael G. Nielsen&amp;lt;/span&amp;gt;
-&amp;lt;/div&amp;gt;&amp;lt;div class=&quot;format&quot;&amp;gt;53 sider, alle illustreret i farver&amp;lt;/div&amp;gt;&amp;lt;div class=&quot;series&quot;&amp;gt;
-  &amp;lt;span class=&quot;seriesHeader&quot;&amp;gt;Serie:&amp;lt;/span&amp;gt;
-  &amp;lt;span class=&quot;series phraseLink&quot;&amp;gt;Asterix&amp;lt;/span&amp;gt;
-  &amp;lt;span class=&quot;seriesNumber&quot;&amp;gt;; nr. 34&amp;lt;/span&amp;gt;
-&amp;lt;/div&amp;gt;&amp;lt;div class=&quot;shelf&quot;&amp;gt;
-  &amp;lt;span class=&quot;shelfHeader&quot;&amp;gt;Opstilling i folkebiblioteker:&amp;lt;/span&amp;gt;
-  &amp;lt;span class=&quot;classification phraseLink&quot;&amp;gt;skønlitteratur&amp;lt;/span&amp;gt;
-&amp;lt;/div&amp;gt;
-&lt;div class=&quot;usedLanguages&quot;/&gt;&lt;div class=&quot;note&quot;&gt;
-  &lt;div class=&quot;descriptionNote&quot;&gt;Udgivet i forbindelse med tegneseriefigurernes 50-års jubilæum&lt;/div&gt;
-  &lt;div class=&quot;descriptionNote&quot;&gt;I materialet: Goscinny og Uderzo præsenterer ...&lt;/div&gt;
-&lt;/div&gt;&lt;div class=&quot;identifiers&quot;&gt;
-  &lt;span class=&quot;identifierHeader&quot;&gt;ISBN&lt;/span&gt;
-  &lt;span class=&quot;identifier&quot;&gt;9788776795214&lt;/span&gt;
-&lt;/div&gt;&lt;div class=&quot;priceInformation&quot;&gt;
-  &lt;span class=&quot;priceHeader&quot;&gt;Pris ved udgivelsen:&lt;/span&gt;
-  &lt;span class=&quot;price&quot;&gt;kr. 99,95&lt;/span&gt;
-&lt;/div&gt;&lt;div class=&quot;languageInformation&quot;/&gt;
-&lt;span class=&quot;languageHeader&quot;&gt;Sprog:&lt;/span&gt;
-&lt;span class=&quot;language&quot;&gt;Dansk&lt;/span&gt;</ofo:details><ofo:publicationDetails>&lt;div class=&quot;publication&quot;&gt;
-  &lt;span class=&quot;publisher&quot;&gt;Egmont Serieforlaget&lt;/span&gt;
+  &lt;span class="subject phraseLink"&gt;Gallien&lt;/span&gt;
+&lt;/div&gt;&lt;div class="abstract"&gt;Tegneserie. I den lille galliske landsby ved Atlanterhavets kyst gør indbyggerne klar til at fejre Asterix ́og Obelix ́runde fødselsdage. Det giver anledning til en række tilbageblik på seriens 50-årige historie&lt;/div&gt;</ofo:description>
+    <ofo:details>&lt;div class="originalTitle"&gt;
+  &lt;span class="originalTitleHeader"&gt;Originaltitel:&lt;/span&gt;
+  &lt;span class="originalTitle"&gt;L'anniversaire d'Astérix et Obélix&lt;/span&gt;
+&lt;/div&gt;&lt;div class="alternativeTitle"&gt;
+  &lt;span class="alternativeTitle"&gt;Alternativ titel: Asterix' &amp;amp; Obelix' fødselsdag&lt;/span&gt;
+&lt;/div&gt;&lt;div class="contributors"&gt;
+  &lt;span class="contributor"&gt;tekst: René Goscinny, tekst: Albert Uderzo, tegner: Albert Uderzo, oversætter: François-Eric Grodin, redaktør: Michael G. Nielsen&lt;/span&gt;
+&lt;/div&gt;&lt;div class="format"&gt;53 sider, alle illustreret i farver&lt;/div&gt;&lt;div class="seriesTitles"&gt;
+  &lt;div class="series"&gt;
+    &lt;span class="seriesHeader"&gt;Serie:&lt;/span&gt;
+    &lt;span class="series phraseLink"&gt;Asterix&lt;/span&gt;
+    &lt;span class="seriesNumber"&gt;; nr. 34&lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;div class="shelf"&gt;
+  &lt;span class="shelfHeader"&gt;Opstilling i folkebiblioteker:&lt;/span&gt;
+  &lt;span class="classification phraseLink"&gt;skønlitteratur&lt;/span&gt;
+&lt;/div&gt;&lt;div class="note"&gt;
+  &lt;div class="descriptionNote"&gt;Udgivet i forbindelse med tegneseriefigurernes 50-års jubilæum&lt;/div&gt;
+  &lt;div class="descriptionNote"&gt;I materialet: Goscinny og Uderzo præsenterer ...&lt;/div&gt;
+&lt;/div&gt;&lt;div class="identifiers"&gt;
+  &lt;span class="identifierHeader"&gt;ISBN&lt;/span&gt;
+  &lt;span class="identifier"&gt;9788776795214&lt;/span&gt;
+&lt;/div&gt;&lt;div class="priceInformation"&gt;
+  &lt;span class="priceHeader"&gt;Pris ved udgivelsen:&lt;/span&gt;
+  &lt;span class="price"&gt;kr. 99,95&lt;/span&gt;
+&lt;/div&gt;&lt;div class="languageInformation"/&gt;
+&lt;span class="languageHeader"&gt;Sprog:&lt;/span&gt;
+&lt;span class="language"&gt;Dansk&lt;/span&gt;</ofo:details>
+    <ofo:publicationDetails>&lt;div class="publication"&gt;
+  &lt;span class="publisher"&gt;Egmont Serieforlaget&lt;/span&gt;
   , 
-  &lt;span class=&quot;year&quot;&gt;2009&lt;/span&gt;
-&lt;/div&gt;</ofo:publicationDetails><ofo:content></ofo:content></ofo:fullDisplayInformation></ofo:bibliotekdkFullDisplay></ofo:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+  &lt;span class="year"&gt;2009&lt;/span&gt;
+&lt;/div&gt;</ofo:publicationDetails>
+    <ofo:content/>
+  </ofo:fullDisplayInformation>
+</ofo:bibliotekdkFullDisplay>
+    </ofo:formatResponse>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
