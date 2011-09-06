@@ -1,26 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput">
   <SOAP-ENV:Body>
-    <formatSingleManifestationResponse>
-<ofo:bibliotekdkFullDisplay><ofo:displayInformation>
+    <ofo:formatResponse>
+<ofo:bibliotekdkFullDisplay>
   <ofo:fullDisplayInformation>
-    <ofo:creator>&lt;div class="creators"/&gt;</ofo:creator>
     <ofo:title>&lt;div class="title"&gt;Brink&lt;/div&gt;</ofo:title>
+    <ofo:creator>&lt;div class="creators"/&gt;</ofo:creator>
     <ofo:type>&lt;div class="type"&gt;Playstation 3&lt;/div&gt;</ofo:type>
     <ofo:description>&lt;div class="abstract"&gt;Shooter. Menneskehedens fremtid ser sort ud i Brink. Jorden er oversvømmet og eneste tilflugtssted er det flydende samfund The Ark. Men her er der udbrudt borgerkrig og militære sikkerhedsstyrker og oprørere kæmper i gaderne om kontrol over byen. Spilleren kan skabe sin egen karakter og deltage i online kampene eller spille alene mod computeren. Med animationer og videoklip&lt;/div&gt;&lt;div class="genre"&gt;Spil for 1 spiller&lt;/div&gt;</ofo:description>
-    <ofo:details>&amp;lt;div class="contributors"&amp;gt;
-  &amp;lt;span class="contributor"&amp;gt;developed by Splash Damage&amp;lt;/span&amp;gt;
-  &amp;lt;span class="formHeader"&amp;gt;Form:&amp;lt;/span&amp;gt;
-  &amp;lt;span class="subject phraseLink"&amp;gt;computerspil&amp;lt;/span&amp;gt;
+    <ofo:details>&lt;div class="contributors"&gt;
+  &lt;span class="contributor"&gt;developed by Splash Damage&lt;/span&gt;
+&lt;/div&gt;&lt;div class="format"&gt;
+  1 blu-ray disc, blu-ray, playstation 3, lyd, farve, 1 vejledning
+  &lt;div class="format"&gt;Afspilningsudstyr Sony playstation 3; understøtter vibrationsfunktion. - Med multiplayerfunktion&lt;/div&gt;
+&lt;/div&gt;&lt;div class="forms"&gt;
+  &lt;span class="formHeader"&gt;Form:&lt;/span&gt;
+  &lt;span class="subject phraseLink"&gt;computerspil&lt;/span&gt;
    ; 
-  &amp;lt;span class="subject phraseLink"&amp;gt;shooters&amp;lt;/span&amp;gt;
-&amp;lt;/div&amp;gt;&amp;lt;div class="shelf"&amp;gt;
-  &amp;lt;span class="shelfHeader"&amp;gt;Opstilling i folkebiblioteker:&amp;lt;/span&amp;gt;
-  &amp;lt;span class="classification phraseLink"&amp;gt;79.41&amp;lt;/span&amp;gt;
-&amp;lt;/div&amp;gt;&amp;lt;div class="audience"&amp;gt;
-  &amp;lt;div class="recommendedAudience"&amp;gt;Biblioteket anbefaler: Fra 12 år&amp;lt;/div&amp;gt;
-&amp;lt;/div&amp;gt;
-&lt;div class="usedLanguages"/&gt;&lt;div class="note"&gt;
+  &lt;span class="subject phraseLink"&gt;shooters&lt;/span&gt;
+&lt;/div&gt;&lt;div class="shelf"&gt;
+  &lt;span class="shelfHeader"&gt;Opstilling i folkebiblioteker:&lt;/span&gt;
+  &lt;span class="classification phraseLink"&gt;79.41&lt;/span&gt;
+&lt;/div&gt;&lt;div class="audience"&gt;
+  &lt;div class="recommendedAudience"&gt;Europæisk PEGI-mærkning: 16&lt;/div&gt;
+  &lt;div class="recommendedAudience"&gt;Biblioteket anbefaler: Fra 12 år&lt;/div&gt;
+&lt;/div&gt;&lt;div class="note"&gt;
   &lt;div class="descriptionNote"&gt;Titlen hentet fra disc-etiketten&lt;/div&gt;
   &lt;div class="descriptionNote"&gt;Vejledning: Engelsk tekst med quickstart på dansk, norsk, svensk og finsk&lt;/div&gt;
 &lt;/div&gt;&lt;div class="languageInformation"/&gt;
@@ -35,7 +39,7 @@
 &lt;/div&gt;</ofo:publicationDetails>
     <ofo:content/>
   </ofo:fullDisplayInformation>
-</ofo:displayInformation></ofo:bibliotekdkFullDisplay>
-    </formatSingleManifestationResponse>
+</ofo:bibliotekdkFullDisplay>
+    </ofo:formatResponse>
   </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
