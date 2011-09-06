@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatSingleManifestationRequest>
+      <ns1:originalData>
+        <ns1:bibliographicData>
+  <dkabm:record>
+    <ac:identifier>28480261|870970</ac:identifier>
+    <ac:source>undefined</ac:source>
+    <dc:title>Pirates of the Caribbean - den sorte forbandelse</dc:title>
+    <dc:title xsi:type="dkdcplus:full">Pirates of the Caribbean - den sorte forbandelse</dc:title>
+    <dc:title xsi:type="dkdcplus:series">Disney dvd</dc:title>
+    <dcterms:alternative>Pirates of the Caribbean - the curse of the Black Pearl</dcterms:alternative>
+    <dc:creator xsi:type="dkdcplus:drt">Gore Verbinski</dc:creator>
+    <dc:creator xsi:type="oss:sort">Verbinski, Gore</dc:creator>
+    <dc:subject xsi:type="dkdcplus:DK5">77.7</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DK5-Text">Spillefilm</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCS">adventurefilm</dc:subject>
+    <dc:subject xsi:type="dkdcplus:genre">adventurefilm</dc:subject>
+    <dc:subject xsi:type="dkdcplus:genre">fiktion</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCS">sørøvere</dc:subject>
+    <dc:description>Originalfilmen: USA : Walt Disney Enterprises, 2003</dc:description>
+    <dc:description>Af indholdet: Bonus materiale</dc:description>
+    <dcterms:audience xsi:type="dkdcplus:medieraad">Mærkning: Tilladt for børn over 11 år</dcterms:audience>
+    <dcterms:audience xsi:type="dkdcplus:age">Fra 11 år</dcterms:audience>
+    <dcterms:audience>børnematerialer</dcterms:audience>
+    <dcterms:audience>voksenmaterialer</dcterms:audience>
+    <dc:publisher>Buena Vista Home Entertainment</dc:publisher>
+    <dc:contributor>Walt Disney</dc:contributor>
+    <dc:contributor>Gore Verbinski</dc:contributor>
+    <dc:contributor>Ted Elliott</dc:contributor>
+    <dc:contributor>Terry Rossio</dc:contributor>
+    <dc:contributor>Dariusz Wolski</dc:contributor>
+    <dc:contributor>Walt Disney firma</dc:contributor>
+    <dc:contributor xsi:type="dkdcplus:act">Johnny Depp</dc:contributor>
+    <dc:contributor xsi:type="dkdcplus:act">Geoffrey Rush</dc:contributor>
+    <dc:contributor xsi:type="dkdcplus:act">Orlando Bloom</dc:contributor>
+    <dc:contributor xsi:type="dkdcplus:act">Keira Knightley</dc:contributor>
+    <dc:contributor xsi:type="dkdcplus:act">Jack Davensport</dc:contributor>
+    <dc:date>2010</dc:date>
+    <dc:type xsi:type="dkdcplus:BibDK-Type">Dvd</dc:type>
+    <dc:format>1 dvd-video</dc:format>
+    <dcterms:extent>ca. 2 t., 17 min.</dcterms:extent>
+    <dc:language xsi:type="dcterms:ISO639-2">mul</dc:language>
+    <dc:language>Flere sprog</dc:language>
+    <dc:language xsi:type="dkdcplus:spoken">eng</dc:language>
+    <dc:language xsi:type="dkdcplus:spoken">por</dc:language>
+    <dc:language xsi:type="dkdcplus:subtitles">eng</dc:language>
+    <dc:language xsi:type="dkdcplus:subtitles">por</dc:language>
+    <dc:language xsi:type="dkdcplus:subtitles">dut</dc:language>
+    <dc:language xsi:type="dkdcplus:subtitles">nor</dc:language>
+    <dc:language xsi:type="dkdcplus:subtitles">dan</dc:language>
+    <dc:language xsi:type="dkdcplus:subtitles">swe</dc:language>
+    <dc:language xsi:type="dkdcplus:subtitles">fin</dc:language>
+    <dc:language xsi:type="dkdcplus:subtitles">ice</dc:language>
+    <dc:language xsi:type="dkdcplus:subtitles">est</dc:language>
+    <dcterms:spatial xsi:type="dkdcplus:DBCS">Jamaica</dcterms:spatial>
+    <dcterms:temporal xsi:type="dkdcplus:DBCP">1700-1799</dcterms:temporal>
+  </dkabm:record>
+<marcx:collection xmlns:marcx="http://www.bs.dk/standards/MarcXchange">
+    <record format="danMARC2" type="Bibliographic">
+      <leader>000000000000000000000000</leader>
+      <datafield tag="001" ind1="0" ind2="0">
+        <subfield code="a">28480261</subfield>
+        <subfield code="b">870970</subfield>
+        <subfield code="c">20101108181028</subfield>
+        <subfield code="d">20101019</subfield>
+        <subfield code="f">a</subfield>
+        <subfield code="t">FAUST</subfield>
+      </datafield>
+      <datafield tag="004" ind1="0" ind2="0">
+        <subfield code="r">n</subfield>
+        <subfield code="a">e</subfield>
+      </datafield>
+      <datafield tag="006" ind1="0" ind2="0">
+        <subfield code="d">11</subfield>
+        <subfield code="2">b</subfield>
+      </datafield>
+      <datafield tag="006" ind1="0" ind2="0">
+        <subfield code="e">11</subfield>
+        <subfield code="2">d</subfield>
+      </datafield>
+      <datafield tag="008" ind1="0" ind2="0">
+        <subfield code="t">m</subfield>
+        <subfield code="u">f</subfield>
+        <subfield code="a">2010</subfield>
+        <subfield code="b">dk</subfield>
+        <subfield code="l">mul</subfield>
+        <subfield code="v">0</subfield>
+      </datafield>
+      <datafield tag="009" ind1="0" ind2="0">
+        <subfield code="a">m</subfield>
+        <subfield code="g">th</subfield>
+      </datafield>
+      <datafield tag="021" ind1="0" ind2="0">
+        <subfield code="b">Brugsretskategori: C+</subfield>
+      </datafield>
+      <datafield tag="023" ind1="0" ind2="0">
+        <subfield code="a">8717418110222</subfield>
+      </datafield>
+      <datafield tag="032" ind1="0" ind2="0">
+        <subfield code="a">DBI201045</subfield>
+        <subfield code="x">BKM201045</subfield>
+      </datafield>
+      <datafield tag="041" ind1="0" ind2="0">
+        <subfield code="p">eng</subfield>
+        <subfield code="p">por</subfield>
+        <subfield code="u">eng</subfield>
+        <subfield code="u">por</subfield>
+        <subfield code="u">dut</subfield>
+        <subfield code="u">nor</subfield>
+        <subfield code="u">dan</subfield>
+        <subfield code="u">swe</subfield>
+        <subfield code="u">fin</subfield>
+        <subfield code="u">ice</subfield>
+        <subfield code="u">est</subfield>
+      </datafield>
+      <datafield tag="245" ind1="0" ind2="0">
+        <subfield code="a">Pirates of the Caribbean - den sorte forbandelse</subfield>
+        <subfield code="p">Pirates of the Caribbean - the curse of the Black Pearl</subfield>
+        <subfield code="e">directed by Gore Verbinski</subfield>
+        <subfield code="e">screenplay by Ted Elliott &amp; Terry Rossio</subfield>
+        <subfield code="e">screen story by Ted Elliott ... [et al.]</subfield>
+        <subfield code="e">based on Walt Disney's Pirates of the Caribbean</subfield>
+        <subfield code="f">produced by Jerry Bruckheimer</subfield>
+        <subfield code="e">director of photography Dariusz Wolski</subfield>
+      </datafield>
+      <datafield tag="260" ind1="0" ind2="0">
+        <subfield code="a">[Kbh.]</subfield>
+        <subfield code="b">Buena Vista Home Entertainment</subfield>
+        <subfield code="c">[2010]</subfield>
+      </datafield>
+      <datafield tag="300" ind1="0" ind2="0">
+        <subfield code="n">1 dvd-video</subfield>
+        <subfield code="l">ca. 2 t., 17 min.</subfield>
+      </datafield>
+      <datafield tag="440" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Disney dvd</subfield>
+      </datafield>
+      <datafield tag="508" ind1="0" ind2="0">
+        <subfield code="a">Engelsk tale, samt synkronisering på portugisisk</subfield>
+      </datafield>
+      <datafield tag="508" ind1="0" ind2="0">
+        <subfield code="a">Undertekster på engelsk, portugisisk, hollandsk, norsk, dansk, svensk, finsk, islandsk og estisk</subfield>
+      </datafield>
+      <datafield tag="508" ind1="0" ind2="0">
+        <subfield code="a">Tekstet for hørehæmmede på engelsk</subfield>
+      </datafield>
+      <datafield tag="512" ind1="0" ind2="0">
+        <subfield code="i">Medvirkende</subfield>
+        <subfield code="e">Johnny Depp, Geoffrey Rush, Orlando Bloom, Keira Knightley, Jack Davensport ... et al.</subfield>
+      </datafield>
+      <datafield tag="512" ind1="0" ind2="0">
+        <subfield code="a">Originalfilmen: USA : Walt Disney Enterprises, 2003</subfield>
+      </datafield>
+      <datafield tag="517" ind1="0" ind2="0">
+        <subfield code="a">Mærkning: Tilladt for børn over 11 år</subfield>
+      </datafield>
+      <datafield tag="517" ind1="0" ind2="0">
+        <subfield code="a">Fra 11 år</subfield>
+      </datafield>
+      <datafield tag="534" ind1="0" ind2="0">
+        <subfield code="a">Af indholdet: Bonus materiale</subfield>
+      </datafield>
+      <datafield tag="538" ind1="0" ind2="0">
+        <subfield code="a">BMA 3023315</subfield>
+      </datafield>
+      <datafield tag="652" ind1="0" ind2="0">
+        <subfield code="m">77.7</subfield>
+      </datafield>
+      <datafield tag="666" ind1="0" ind2="0">
+        <subfield code="s">adventurefilm</subfield>
+      </datafield>
+      <datafield tag="666" ind1="0" ind2="0">
+        <subfield code="s">sørøvere</subfield>
+      </datafield>
+      <datafield tag="666" ind1="0" ind2="0">
+        <subfield code="q">Jamaica</subfield>
+      </datafield>
+      <datafield tag="666" ind1="0" ind2="0">
+        <subfield code="i">1700-1799</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="å">1</subfield>
+        <subfield code="a">Disney</subfield>
+        <subfield code="h">Walt</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Verbinski</subfield>
+        <subfield code="h">Gore</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Elliott</subfield>
+        <subfield code="h">Ted</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Rossio</subfield>
+        <subfield code="h">Terry</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Wolski</subfield>
+        <subfield code="h">Dariusz</subfield>
+      </datafield>
+      <datafield tag="710" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Walt Disney</subfield>
+        <subfield code="e">firma</subfield>
+      </datafield>
+      <datafield tag="910" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Disney</subfield>
+        <subfield code="h">Walt</subfield>
+        <subfield code="e">firma</subfield>
+        <subfield code="x">se</subfield>
+        <subfield code="w">Walt Disney (firma)</subfield>
+        <subfield code="z">710</subfield>
+      </datafield>
+      <datafield tag="s10" ind1="0" ind2="0">
+        <subfield code="a">DBC</subfield>
+      </datafield>
+      <datafield tag="990" ind1="0" ind2="0">
+        <subfield code="o">201045</subfield>
+        <subfield code="b">v</subfield>
+        <subfield code="u">nt</subfield>
+      </datafield>
+    </record>
+  </marcx:collection>
+  <oss:openurl/>
+        </ns1:bibliographicData>
+      </ns1:originalData>
+      <ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
+    </ns1:formatSingleManifestationRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
