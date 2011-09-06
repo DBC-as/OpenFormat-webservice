@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput">
   <SOAP-ENV:Body>
-    <formatResponse>
+    <ofo:formatResponse>
 <ofo:bibliotekdkFullDisplay>
   <ofo:fullDisplayInformation>
     <ofo:title>&lt;div class="title"&gt;På Slotsholmen&lt;/div&gt;</ofo:title>
@@ -63,6 +63,6 @@
     <ofo:content/>
   </ofo:fullDisplayInformation>
 </ofo:bibliotekdkFullDisplay>
-    </formatResponse>
+    </ofo:formatResponse>
   </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
