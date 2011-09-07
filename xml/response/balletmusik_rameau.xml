@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput">
   <SOAP-ENV:Body>
-    <ofo:formatResponse>
+    <of:formatResponse>
 <ofo:bibliotekdkFullDisplay>
   <ofo:fullDisplayInformation>
     <ofo:title>&lt;div class="title"&gt;Les fêtes d'Hébé&lt;/div&gt;</ofo:title>
@@ -79,6 +79,6 @@
     </ofo:content>
   </ofo:fullDisplayInformation>
 </ofo:bibliotekdkFullDisplay>
-    </ofo:formatResponse>
+    </of:formatResponse>
   </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
