@@ -1,79 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?><SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:bibliotekdkFullDisplay><ofo:fullDisplayInformation><ofo:title>&lt;div class=&quot;title&quot;&gt;Les fêtes d'Hébé&lt;/div&gt;</ofo:title><ofo:creator>&lt;div class=&quot;creators&quot;&gt;
   &lt;span class=&quot;creator phraseLink&quot;&gt;Jean-Philippe Rameau&lt;/span&gt;
 &lt;/div&gt;</ofo:creator><ofo:type>&lt;div class=&quot;type&quot;&gt;Cd (musik)&lt;/div&gt;</ofo:type><ofo:description>&lt;div class=&quot;subjects&quot;&gt;
-
   &lt;span class=&quot;subjectHeader&quot;&gt;Emne:&lt;/span&gt;
   &lt;span class=&quot;subject phraseLink&quot;&gt;balletmusik&lt;/span&gt;
    ; 
   &lt;span class=&quot;subject phraseLink&quot;&gt;barok&lt;/span&gt;
-
    ; 
   &lt;span class=&quot;subject phraseLink&quot;&gt;instrumental&lt;/span&gt;
    ; 
   &lt;span class=&quot;subject phraseLink&quot;&gt;operaballet&lt;/span&gt;
    ; 
   &lt;span class=&quot;subject phraseLink&quot;&gt;operaouverture&lt;/span&gt;
-
    ; 
   &lt;span class=&quot;subject phraseLink&quot;&gt;orkester&lt;/span&gt;
    ; 
   &lt;span class=&quot;subject phraseLink&quot;&gt;ouverture&lt;/span&gt;
    ; 
   &lt;span class=&quot;subject phraseLink&quot;&gt;Frankrig&lt;/span&gt;
-
    ; 
   &lt;span class=&quot;subject phraseLink&quot;&gt;Frankrig&lt;/span&gt;
    ; 
   &lt;span class=&quot;subject phraseLink&quot;&gt;1730-1739&lt;/span&gt;
    ; 
   &lt;span class=&quot;subject phraseLink&quot;&gt;1680-1689&lt;/span&gt;
-
    ; 
   &lt;span class=&quot;subject phraseLink&quot;&gt;1690-1699&lt;/span&gt;
 &lt;/div&gt;&lt;div class=&quot;abstract&quot;&gt;Indspillet i Paris 1994-1997&lt;/div&gt;</ofo:description><ofo:details>&lt;div class=&quot;alternativeTitle&quot;&gt;
   &lt;span class=&quot;alternativeTitle&quot;&gt;Alternativ titel: Musique de ballet 1979-1999&lt;/span&gt;
-
   &lt;span class=&quot;alternativeTitle&quot;&gt;Alternativ titel: Vingtième anniversaire Les Arts Florissants&lt;/span&gt;
 &lt;/div&gt;&lt;div class=&quot;contributors&quot;&gt;
   &lt;span class=&quot;contributor&quot;&gt;Les Arts Florissants, dirigent: William Christie&lt;/span&gt;
 &lt;/div&gt;&lt;div class=&quot;format&quot;&gt;1 cd, digitaloptagelse&lt;/div&gt;&lt;div class=&quot;shelf&quot;&gt;
-
   &lt;span class=&quot;shelfHeader&quot;&gt;Opstilling i folkebiblioteker:&lt;/span&gt;
   &lt;span class=&quot;shelfMusic&quot;&gt;Orkestermusik&lt;/span&gt;
 &lt;/div&gt;&lt;div class=&quot;note&quot;&gt;
   &lt;div class=&quot;descriptionNote&quot;&gt;Indspillet i Paris 1994-1997&lt;/div&gt;
-
 &lt;/div&gt;&lt;div class=&quot;identifiers&quot;&gt;
   &lt;div class=&quot;identifier&quot;&gt;Erato 3984-26129-2&lt;/div&gt;
 &lt;/div&gt;&lt;div class=&quot;priceInformation&quot;&gt;
   &lt;span class=&quot;priceHeader&quot;&gt;Pris ved udgivelsen:&lt;/span&gt;
-
   &lt;span class=&quot;price&quot;&gt;kr. 145,00&lt;/span&gt;
 &lt;/div&gt;</ofo:details><ofo:publicationDetails>&lt;div class=&quot;publication&quot;&gt;
   &lt;span class=&quot;publisher&quot;&gt;Erato&lt;/span&gt;
   , 
   &lt;span class=&quot;year&quot;&gt;1999&lt;/span&gt;
-
 &lt;/div&gt;</ofo:publicationDetails><ofo:content><div class="content">Indhold:&lt;div class=&quot;analyticContent&quot;&gt;
   &lt;div class=&quot;contributor phraseLink&quot;&gt;Jean-Philippe Rameau&lt;/div&gt;
   &lt;div class=&quot;title&quot;&gt;
     &lt;span class=&quot;title phraseLink&quot;&gt;Les fêtes d'Hébé (Ouverture ; Balletmusik) ; &lt;/span&gt;
-
   &lt;/div&gt;
   &lt;div class=&quot;title&quot;&gt;
     &lt;span class=&quot;title phraseLink&quot;&gt;Hippolyte og Aricie (Ouverture ; Balletmusik)&lt;/span&gt;
   &lt;/div&gt;
   &lt;div class=&quot;contributor phraseLink&quot;&gt;Marc-Antoine Charpentier&lt;/div&gt;
-
   &lt;div class=&quot;title&quot;&gt;
     &lt;span class=&quot;title phraseLink&quot;&gt;La descente d'Orphée aux enfers (Ouverture ; Entrée des nymphes ; Les fantômes) ; &lt;/span&gt;
   &lt;/div&gt;
   &lt;div class=&quot;title&quot;&gt;
-
     &lt;span class=&quot;title phraseLink&quot;&gt;Les plaisirs de Versailles (Ouverture) ; &lt;/span&gt;
   &lt;/div&gt;
   &lt;div class=&quot;title&quot;&gt;
     &lt;span class=&quot;title phraseLink&quot;&gt;Médée (Ouverture ; Balletmusik)&lt;/span&gt;
-
   &lt;/div&gt;
 &lt;/div&gt;</div></ofo:content></ofo:fullDisplayInformation></ofo:bibliotekdkFullDisplay></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
