@@ -120,11 +120,6 @@ You should have received a copy of the GNU Affero General Public License along w
 			<xs:documentation xml:lang="en">User identifier (for authentication purposes)</xs:documentation>
 		</xs:annotation>
 	</xs:element>
-	<xs:element name="workOutputFormat" type="of:workOutputFormatType">
-		<xs:annotation>
-			<xs:documentation xml:lang="en">E.g. bibliotek.dk full display format.</xs:documentation>
-		</xs:annotation>
-	</xs:element>
 	<xs:simpleType name="languageType">
 		<xs:annotation>
 			<xs:documentation xml:lang="en">The output languages that can be used with this service.</xs:documentation>

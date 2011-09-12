@@ -14,6 +14,13 @@
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
+	<xs:element name="bibliotekdkBriefDisplay">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ofo:briefDisplayInformation"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
 	<xs:element name="briefDisplayInformation">
 		<xs:annotation>
 			<xs:documentation xml:lang="en">HTML formatted display information</xs:documentation>
@@ -32,8 +39,8 @@
 		</xs:annotation>
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="ofo:creator" minOccurs="0"/>
 				<xs:element ref="ofo:title" minOccurs="0"/>
+				<xs:element ref="ofo:creator" minOccurs="0"/>
 				<xs:element ref="ofo:type"/>
 				<xs:element ref="ofo:description" minOccurs="0"/>
 				<xs:element ref="ofo:details" minOccurs="0"/>
