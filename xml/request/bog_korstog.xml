@@ -36,7 +36,7 @@
             <dcterms:temporal xsi:type="dkdcplus:DBCP">1270-1279</dcterms:temporal>
             <dcterms:temporal xsi:type="dkdcplus:DBCP">1280-1289</dcterms:temporal>
           </dkabm:record>
-          <marcx:collection xmlns:marcx="http://www.bs.dk/standards/MarcXchange">
+<marcx:collection>
             <record format="danMARC2" type="Bibliographic">
               <leader>000000000000000000000000</leader>
               <datafield tag="001" ind1="0" ind2="0">

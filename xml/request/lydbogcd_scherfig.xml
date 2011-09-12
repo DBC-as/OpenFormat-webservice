@@ -31,7 +31,7 @@
             <dc:language>Dansk</dc:language>
             <dcterms:spatial xsi:type="dkdcplus:DBCS">Danmark</dcterms:spatial>
           </dkabm:record>
-          <marcx:collection xmlns:marcx="http://www.bs.dk/standards/MarcXchange">
+<marcx:collection>
             <record format="danMARC2" type="Bibliographic">
               <leader>000000000000000000000000</leader>
               <datafield tag="001" ind1="0" ind2="0">

@@ -37,7 +37,7 @@
             <dcterms:spatial xsi:type="dkdcplus:DBCF">Tyskland</dcterms:spatial>
             <dcterms:temporal xsi:type="dkdcplus:DBCP">1940-1949</dcterms:temporal>
           </dkabm:record>
-          <marcx:collection xmlns:marcx="http://www.bs.dk/standards/MarcXchange">
+<marcx:collection>
             <record format="danMARC2" type="Bibliographic">
               <leader>000000000000000000000000</leader>
               <datafield tag="001" ind1="0" ind2="0">
