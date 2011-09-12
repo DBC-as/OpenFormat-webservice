@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput">
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput">
   <SOAP-ENV:Body>
-    <ofo:formatResponse>
-<ofo:bibliotekdkFullDisplay>
-  <ofo:fullDisplayInformation>
-    <ofo:title>&lt;div class="title"&gt;Tone&lt;/div&gt;</ofo:title>
-    <ofo:creator>&lt;div class="creators"&gt;
+    <of:formatResponse>
+      <ofo:bibliotekdkFullDisplay>
+        <ofo:fullDisplayInformation>
+          <ofo:title>&lt;div class="title"&gt;Tone&lt;/div&gt;</ofo:title>
+          <ofo:creator>&lt;div class="creators"&gt;
   &lt;span class="creator phraseLink"&gt;Suzanne Brøgger&lt;/span&gt;
 &lt;/div&gt;</ofo:creator>
-    <ofo:type>&lt;div class="type"&gt;Bog&lt;/div&gt;</ofo:type>
-    <ofo:description>&lt;div class="abstract"&gt;Prosadigt om hattesyersken og kostumieren fru Tone&lt;/div&gt;</ofo:description>
-    <ofo:details>&lt;div class="contributors"&gt;
+          <ofo:type>&lt;div class="type"&gt;Bog&lt;/div&gt;</ofo:type>
+          <ofo:description>&lt;div class="abstract"&gt;Prosadigt om hattesyersken og kostumieren fru Tone&lt;/div&gt;</ofo:description>
+          <ofo:details>&lt;div class="contributors"&gt;
   &lt;span class="contributor"&gt;tekst: Suzanne Brøgger&lt;/span&gt;
 &lt;/div&gt;&lt;div class="format"&gt;146 sider&lt;/div&gt;&lt;div class="seriesTitles"&gt;
   &lt;div class="series"&gt;
@@ -30,7 +30,7 @@
 &lt;/div&gt;&lt;div class="languageInformation"/&gt;
 &lt;span class="languageHeader"&gt;Sprog:&lt;/span&gt;
 &lt;span class="language"&gt;Dansk&lt;/span&gt;</ofo:details>
-    <ofo:publicationDetails>&lt;div class="publication"&gt;
+          <ofo:publicationDetails>&lt;div class="publication"&gt;
   &lt;span class="edition"&gt;MagnaPrintudgave&lt;/span&gt;
   . 
   &lt;span class="publisher"&gt;Borgen&lt;/span&gt;
@@ -39,9 +39,9 @@
   , 
   &lt;span class="year"&gt;1985&lt;/span&gt;
 &lt;/div&gt;</ofo:publicationDetails>
-    <ofo:content/>
-  </ofo:fullDisplayInformation>
-</ofo:bibliotekdkFullDisplay>
-    </ofo:formatResponse>
+          <ofo:content/>
+        </ofo:fullDisplayInformation>
+      </ofo:bibliotekdkFullDisplay>
+    </of:formatResponse>
   </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
