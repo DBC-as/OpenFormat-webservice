@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput">
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput">
   <SOAP-ENV:Body>
-    <ofo:formatResponse>
-<ofo:bibliotekdkFullDisplay>
-  <ofo:fullDisplayInformation>
-    <ofo:title>&lt;div class="title"&gt;Asterix' og Obelix' fødselsdag&lt;/div&gt;</ofo:title>
-    <ofo:creator>&lt;div class="creators"&gt;
+    <of:formatResponse>
+      <ofo:bibliotekdkFullDisplay>
+        <ofo:fullDisplayInformation>
+          <ofo:title>&lt;div class="title"&gt;Asterix' og Obelix' fødselsdag&lt;/div&gt;</ofo:title>
+          <ofo:creator>&lt;div class="creators"&gt;
   &lt;span class="creator phraseLink"&gt;René Goscinny&lt;/span&gt;
 &lt;/div&gt;</ofo:creator>
-    <ofo:type>&lt;div class="type"&gt;Tegneserie&lt;/div&gt;</ofo:type>
-    <ofo:description>&lt;div class="subjects"&gt;
+          <ofo:type>&lt;div class="type"&gt;Tegneserie&lt;/div&gt;</ofo:type>
+          <ofo:description>&lt;div class="subjects"&gt;
   &lt;span class="subjectHeader"&gt;Emne:&lt;/span&gt;
   &lt;span class="subject phraseLink"&gt;humor&lt;/span&gt;
    ; 
@@ -17,7 +17,7 @@
    ; 
   &lt;span class="subject phraseLink"&gt;Gallien&lt;/span&gt;
 &lt;/div&gt;&lt;div class="abstract"&gt;Tegneserie. I den lille galliske landsby ved Atlanterhavets kyst gør indbyggerne klar til at fejre Asterix ́og Obelix ́runde fødselsdage. Det giver anledning til en række tilbageblik på seriens 50-årige historie&lt;/div&gt;</ofo:description>
-    <ofo:details>&lt;div class="originalTitle"&gt;
+          <ofo:details>&lt;div class="originalTitle"&gt;
   &lt;span class="originalTitleHeader"&gt;Originaltitel:&lt;/span&gt;
   &lt;span class="originalTitle"&gt;L'anniversaire d'Astérix et Obélix&lt;/span&gt;
 &lt;/div&gt;&lt;div class="alternativeTitle"&gt;
@@ -45,14 +45,14 @@
 &lt;/div&gt;&lt;div class="languageInformation"/&gt;
 &lt;span class="languageHeader"&gt;Sprog:&lt;/span&gt;
 &lt;span class="language"&gt;Dansk&lt;/span&gt;</ofo:details>
-    <ofo:publicationDetails>&lt;div class="publication"&gt;
+          <ofo:publicationDetails>&lt;div class="publication"&gt;
   &lt;span class="publisher"&gt;Egmont Serieforlaget&lt;/span&gt;
   , 
   &lt;span class="year"&gt;2009&lt;/span&gt;
 &lt;/div&gt;</ofo:publicationDetails>
-    <ofo:content/>
-  </ofo:fullDisplayInformation>
-</ofo:bibliotekdkFullDisplay>
-    </ofo:formatResponse>
+          <ofo:content/>
+        </ofo:fullDisplayInformation>
+      </ofo:bibliotekdkFullDisplay>
+    </of:formatResponse>
   </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>

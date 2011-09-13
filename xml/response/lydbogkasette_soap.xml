@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput">
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput">
   <SOAP-ENV:Body>
-    <ofo:formatResponse>
-<ofo:bibliotekdkFullDisplay>
-  <ofo:fullDisplayInformation>
-    <ofo:title>&lt;div class="title"&gt;Soap&lt;/div&gt;</ofo:title>
-    <ofo:creator>&lt;div class="creators"&gt;
+    <of:formatResponse>
+      <ofo:bibliotekdkFullDisplay>
+        <ofo:fullDisplayInformation>
+          <ofo:title>&lt;div class="title"&gt;Soap&lt;/div&gt;</ofo:title>
+          <ofo:creator>&lt;div class="creators"&gt;
   &lt;span class="creator phraseLink"&gt;Hanne Marie Svendsen (f. 1933)&lt;/span&gt;
 &lt;/div&gt;</ofo:creator>
-    <ofo:type>&lt;div class="type"&gt;Lydbog (bånd)&lt;/div&gt;</ofo:type>
-    <ofo:description>&lt;div class="subjects"&gt;
+          <ofo:type>&lt;div class="type"&gt;Lydbog (bånd)&lt;/div&gt;</ofo:type>
+          <ofo:description>&lt;div class="subjects"&gt;
   &lt;span class="subjectHeader"&gt;Emne:&lt;/span&gt;
   &lt;span class="subject phraseLink"&gt;film&lt;/span&gt;
 &lt;/div&gt;&lt;div class="abstract"&gt;Molly får tilbudt en stor rolle i en soap-tvserie, men hun lader sig ikke imponere af det groteske og forlorne filmmiljø og træffer sit eget personlige valg&lt;/div&gt;</ofo:description>
-    <ofo:details>&lt;div class="contributors"&gt;
+          <ofo:details>&lt;div class="contributors"&gt;
   &lt;span class="contributor"&gt;Hanne Marie Svendsen&lt;/span&gt;
 &lt;/div&gt;&lt;div class="format"&gt;Spilletid: 2 t., 56 min., 101 sider&lt;/div&gt;&lt;div class="seriesTitles"&gt;
   &lt;div class="series"&gt;
@@ -35,16 +35,16 @@
 &lt;/div&gt;&lt;div class="languageInformation"/&gt;
 &lt;span class="languageHeader"&gt;Sprog:&lt;/span&gt;
 &lt;span class="language"&gt;Dansk&lt;/span&gt;</ofo:details>
-    <ofo:publicationDetails>&lt;div class="publication"&gt;
+          <ofo:publicationDetails>&lt;div class="publication"&gt;
   &lt;span class="edition"&gt;Nyt oplag&lt;/span&gt;
   . 
   &lt;span class="publisher"&gt;Modtryk&lt;/span&gt;
   , 
   &lt;span class="year"&gt;2004&lt;/span&gt;
 &lt;/div&gt;</ofo:publicationDetails>
-    <ofo:content/>
-  </ofo:fullDisplayInformation>
-</ofo:bibliotekdkFullDisplay>
-    </ofo:formatResponse>
+          <ofo:content/>
+        </ofo:fullDisplayInformation>
+      </ofo:bibliotekdkFullDisplay>
+    </of:formatResponse>
   </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>

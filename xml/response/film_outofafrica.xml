@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput">
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput">
   <SOAP-ENV:Body>
-    <ofo:formatResponse>
-<ofo:bibliotekdkFullDisplay>
-  <ofo:fullDisplayInformation>
-    <ofo:title>&lt;div class="title"&gt;Out of Africa&lt;/div&gt;</ofo:title>
-    <ofo:creator>&lt;div class="creators"/&gt;</ofo:creator>
-    <ofo:type>&lt;div class="type"&gt;Blu-ray&lt;/div&gt;</ofo:type>
-    <ofo:description>&lt;div class="subjects"&gt;
+    <of:formatResponse>
+      <ofo:bibliotekdkFullDisplay>
+        <ofo:fullDisplayInformation>
+          <ofo:title>&lt;div class="title"&gt;Out of Africa&lt;/div&gt;</ofo:title>
+          <ofo:creator>&lt;div class="creators"/&gt;</ofo:creator>
+          <ofo:type>&lt;div class="type"&gt;Blu-ray&lt;/div&gt;</ofo:type>
+          <ofo:description>&lt;div class="subjects"&gt;
   &lt;span class="subjectHeader"&gt;Emne:&lt;/span&gt;
   &lt;span class="subject phraseLink"&gt;Karen Blixen&lt;/span&gt;
    ; 
@@ -23,7 +23,7 @@
    ; 
   &lt;span class="subject phraseLink"&gt;1920-1929&lt;/span&gt;
 &lt;/div&gt;&lt;div class="abstract"&gt;Om Karen Blixens liv på kaffefarmen i Kenya fra 1913-1931 med hovedvægten på hendes forhold til Dennis Finch Hatton&lt;/div&gt;</ofo:description>
-    <ofo:details>&lt;div class="alternativeTitle"&gt;
+          <ofo:details>&lt;div class="alternativeTitle"&gt;
   &lt;span class="alternativeTitle"&gt;Alternativ titel: Mit Afrika&lt;/span&gt;
 &lt;/div&gt;&lt;div class="contributors"&gt;
   &lt;span class="contributor"&gt;medvirkende: Robert Redford, Meryl Streep, Klaus Maria Brandauer&lt;/span&gt;
@@ -42,14 +42,14 @@
 &lt;/div&gt;&lt;div class="languageInformation"/&gt;
 &lt;span class="languageHeader"&gt;Sprog:&lt;/span&gt;
 &lt;span class="language"&gt;Flere sprog&lt;/span&gt;</ofo:details>
-    <ofo:publicationDetails>&lt;div class="publication"&gt;
+          <ofo:publicationDetails>&lt;div class="publication"&gt;
   &lt;span class="publisher"&gt;Universal Pictures Nordic&lt;/span&gt;
   , 
   &lt;span class="year"&gt;2010&lt;/span&gt;
 &lt;/div&gt;</ofo:publicationDetails>
-    <ofo:content/>
-  </ofo:fullDisplayInformation>
-</ofo:bibliotekdkFullDisplay>
-    </ofo:formatResponse>
+          <ofo:content/>
+        </ofo:fullDisplayInformation>
+      </ofo:bibliotekdkFullDisplay>
+    </of:formatResponse>
   </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
