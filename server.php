@@ -68,7 +68,7 @@ class openFormat extends webServiceServer {
             $res->{$fkey}[] = &$formatted[$i]->$fkey;
         }
         $ret->formatResponse->_value = &$res;
-        $ret->formatResponse->_namespace = $this->xmlns['ofo'];
+        $ret->formatResponse->_namespace = $this->xmlns['of'];
         if (!($dump_format = $this->dump_timer)) $dmp_format = '%s';
         foreach ($this->rec_status as $r_c) {
             $size_upload = $r_c['size_upload'];
@@ -116,11 +116,11 @@ class openFormat extends webServiceServer {
             $this->curl->set_url($this->js_server_url[$next_js_server], $curls);
             $rec = $this->objconvert->obj2xmlNs($form_req);
             $this->curl->set_post_xml($rec, $curls);
-            verbose::log(DEBUG, 'Using js_server no: ' . $next_js_server);
+            //verbose::log(DEBUG, 'Using js_server no: ' . $next_js_server);
             $curls++;
             $tot_curls++;
             if ($curls == count($this->js_server_url) || $tot_curls == count($recs)) {
-                verbose::log(DEBUG, "Do curl");
+                //verbose::log(DEBUG, "Do curl");
                 $this->watch->start('js_server');
                 $js_result = $this->curl->get();
                 $curl_status = $this->curl->get_status();
@@ -142,9 +142,9 @@ class openFormat extends webServiceServer {
                         $error = 'HTTP error ' . $curl_status[$i]['http_code'] . ' . formatting record';
                     }
                     if ($error) {
-                        $js_obj->{$output_format}->_namespace = $this->xmlns['ofo'];
+                        $js_obj->{$output_format}->_namespace = $this->xmlns['of'];
                         $js_obj->{$output_format}->_value->error->_value = $error;
-                        $js_obj->{$output_format}->_value->error->_namespace = $this->xmlns['ofo'];
+                        $js_obj->{$output_format}->_value->error->_namespace = $this->xmlns['of'];
                         unset($error);
                     }
                     $ret[] = $js_obj;

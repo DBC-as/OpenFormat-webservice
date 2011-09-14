@@ -35,7 +35,7 @@ wsdl = openformat.wsdl
 soapAction[format] = formatRequest
 
 ; prefixes and namespaces
-xmlns[] = http://oss.dbc.dk/ns/openformat
+xmlns[of] = http://oss.dbc.dk/ns/openformat
 xmlns[xs] = http://www.w3.org/2001/XMLSchema
 xmlns[xsi] = http://www.w3.org/2001/XMLSchema-instance
 xmlns[oss] = http://oss.dbc.dk/ns/osstypes
