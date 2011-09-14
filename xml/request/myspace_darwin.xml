@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <ns1:bibliographicData>
+  <dkabm:record>
+    <ac:identifier>27882676|870970</ac:identifier>
+    <ac:source>undefined</ac:source>
+    <dc:title>Oh my God, Charlie Darwin</dc:title>
+    <dc:title xsi:type="dkdcplus:full">Oh my God, Charlie Darwin</dc:title>
+    <dc:creator>The Low Anthem</dc:creator>
+    <dc:creator xsi:type="oss:sort">The Low Anthem</dc:creator>
+    <dc:subject xsi:type="dkdcplus:DK5">78.794:5</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DK5-Text">Rock (Beat). Moderne folkemusik (Folk)</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCM">americana</dc:subject>
+    <dc:subject xsi:type="dkdcplus:genre">americana</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCM">folk</dc:subject>
+    <dc:subject xsi:type="dkdcplus:genre">folk</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCM">vokal</dc:subject>
+    <dcterms:audience>børnematerialer</dcterms:audience>
+    <dcterms:audience>voksenmaterialer</dcterms:audience>
+    <dc:publisher>Bella Union</dc:publisher>
+    <dc:contributor>Joice Adams</dc:contributor>
+    <dc:contributor>Ben Miller</dc:contributor>
+    <dc:contributor>Jeffrey Prystowsky</dc:contributor>
+    <dc:contributor>Anne Williams</dc:contributor>
+    <dc:date>2009</dc:date>
+    <dc:type xsi:type="dkdcplus:BibDK-Type">Cd (musik)</dc:type>
+    <dc:format>1 cd</dc:format>
+    <dc:identifier>Bella Union BELLACD 202</dc:identifier>
+    <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+    <dc:language>Engelsk</dc:language>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Charlie Darwin</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">To Ohio</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Ticket taker</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">The horizon is a beltway</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Home I'll never be</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Cage the songbird</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">(Don't) tremble</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Music box</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Champion angel</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">To the ghosts who write history books</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">OMGCD</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">To Ohio (reprise)</dcterms:hasPart>
+    <dcterms:spatial xsi:type="dkdcplus:DBCM">USA</dcterms:spatial>
+    <dcterms:temporal xsi:type="dkdcplus:DBCM">2000-2009</dcterms:temporal>
+  </dkabm:record>
+  <marcx:collection> 
+    <record format="danMARC2" type="Bibliographic">
+      <leader>000000000000000000000000</leader>
+      <datafield tag="001" ind1="0" ind2="0">
+        <subfield code="a">27882676</subfield>
+        <subfield code="b">870970</subfield>
+        <subfield code="c">20090831180941</subfield>
+        <subfield code="d">20090821</subfield>
+        <subfield code="f">a</subfield>
+        <subfield code="t">FAUST</subfield>
+      </datafield>
+      <datafield tag="004" ind1="0" ind2="0">
+        <subfield code="r">n</subfield>
+        <subfield code="a">e</subfield>
+      </datafield>
+      <datafield tag="006" ind1="0" ind2="0">
+        <subfield code="a">20090701</subfield>
+        <subfield code="c">20091101</subfield>
+        <subfield code="2">a</subfield>
+      </datafield>
+      <datafield tag="008" ind1="0" ind2="0">
+        <subfield code="t">s</subfield>
+        <subfield code="u">f</subfield>
+        <subfield code="a">2009</subfield>
+        <subfield code="b">gb</subfield>
+        <subfield code="l">eng</subfield>
+        <subfield code="v">0</subfield>
+      </datafield>
+      <datafield tag="009" ind1="0" ind2="0">
+        <subfield code="a">s</subfield>
+        <subfield code="g">xc</subfield>
+      </datafield>
+      <datafield tag="021" ind1="0" ind2="0">
+        <subfield code="d">Kr. 136,00</subfield>
+      </datafield>
+      <datafield tag="023" ind1="0" ind2="0">
+        <subfield code="a">0602527058856</subfield>
+      </datafield>
+      <datafield tag="032" ind1="0" ind2="0">
+        <subfield code="x">BKM200936</subfield>
+      </datafield>
+      <datafield tag="039" ind1="0" ind2="0">
+        <subfield code="a">bef</subfield>
+      </datafield>
+      <datafield tag="110" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">The ¤Low Anthem</subfield>
+      </datafield>
+      <datafield tag="245" ind1="0" ind2="0">
+        <subfield code="a">Oh my God, Charlie Darwin</subfield>
+        <subfield code="e">The Low Anthem (Ben Knox Miller, Jeffrey Prystowsky, Joice Adams) with Anne Williams ... [et al.]</subfield>
+      </datafield>
+      <datafield tag="260" ind1="0" ind2="0">
+        <subfield code="a">[S.l.]</subfield>
+        <subfield code="b">Bella Union</subfield>
+        <subfield code="c">p 2009</subfield>
+      </datafield>
+      <datafield tag="300" ind1="0" ind2="0">
+        <subfield code="n">1 cd</subfield>
+      </datafield>
+      <datafield tag="529" ind1="0" ind2="0">
+        <subfield code="a">MySpace</subfield>
+        <subfield code="u">http://www.myspace.com/lowanthem</subfield>
+      </datafield>
+      <datafield tag="531" ind1="0" ind2="0">
+        <subfield code="a">Indhold:</subfield>
+      </datafield>
+      <datafield tag="538" ind1="0" ind2="0">
+        <subfield code="f">Bella Union</subfield>
+        <subfield code="g">BELLACD 202</subfield>
+      </datafield>
+      <datafield tag="652" ind1="0" ind2="0">
+        <subfield code="m">78.794</subfield>
+        <subfield code="v">5</subfield>
+      </datafield>
+      <datafield tag="666" ind1="0" ind2="0">
+        <subfield code="m">folk</subfield>
+        <subfield code="m">americana</subfield>
+        <subfield code="n">vokal</subfield>
+        <subfield code="p">2000-2009</subfield>
+        <subfield code="l">USA</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Adams</subfield>
+        <subfield code="h">Joice</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="å">1</subfield>
+        <subfield code="a">Miller</subfield>
+        <subfield code="h">Ben</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Prystowsky</subfield>
+        <subfield code="h">Jeffrey</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Williams</subfield>
+        <subfield code="h">Anne</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">11</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Charlie Darwin</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">12</subfield>
+        <subfield code="0"/>
+        <subfield code="a">To Ohio</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">13</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Ticket taker</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">14</subfield>
+        <subfield code="0"/>
+        <subfield code="a">The ¤horizon is a beltway</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">15</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Home I'll never be</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">16</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Cage the songbird</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">17</subfield>
+        <subfield code="0"/>
+        <subfield code="a">(Don't) tremble</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">18</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Music box</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">19</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Champion angel</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">20</subfield>
+        <subfield code="0"/>
+        <subfield code="a">To the ghosts who write history books</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">21</subfield>
+        <subfield code="0"/>
+        <subfield code="a">OMGCD</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">22</subfield>
+        <subfield code="0"/>
+        <subfield code="a">To Ohio (reprise)</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">99</subfield>
+        <subfield code="0"/>
+        <subfield code="y">0</subfield>
+        <subfield code="a">Tremble</subfield>
+      </datafield>
+      <datafield tag="900" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Knox Miller</subfield>
+        <subfield code="h">Ben</subfield>
+        <subfield code="x">se</subfield>
+        <subfield code="w">Miller, Ben</subfield>
+        <subfield code="z">700/1</subfield>
+      </datafield>
+      <datafield tag="s10" ind1="0" ind2="0">
+        <subfield code="a">DBC</subfield>
+      </datafield>
+      <datafield tag="990" ind1="0" ind2="0">
+        <subfield code="o">200936</subfield>
+        <subfield code="b">v</subfield>
+        <subfield code="u">nt</subfield>
+      </datafield>
+    </record>
+  </marcx:collection>
+  <oss:openurl/>
+        </ns1:bibliographicData>
+      </ns1:originalData>
+      <ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
