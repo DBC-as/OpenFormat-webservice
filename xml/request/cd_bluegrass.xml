@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <ns1:bibliographicData>
+  <dkabm:record>
+    <ac:identifier>24143627|870970</ac:identifier>
+    <ac:source>undefined</ac:source>
+    <dc:title>The rough guide to the music of the Appalachians</dc:title>
+    <dc:title xsi:type="dkdcplus:full">The rough guide to the music of the Appalachians : mountain music - bluegrass, old-time, folk &amp; gospel</dc:title>
+    <dcterms:alternative>Appalachians</dcterms:alternative>
+    <dc:subject xsi:type="dkdcplus:DK5">78.7863</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DK5-Text">Folkemusik. USA</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCM">bluegrass</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCM">country</dc:subject>
+    <dc:subject xsi:type="dkdcplus:genre">country</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCM">folk</dc:subject>
+    <dc:subject xsi:type="dkdcplus:genre">folk</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCM">folkemusik</dc:subject>
+    <dc:subject xsi:type="dkdcplus:genre">folkemusik</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCM">instrumental</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCM">old time</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCM">vokal</dc:subject>
+    <dcterms:audience>voksenmaterialer</dcterms:audience>
+    <dc:publisher>World Music Network</dc:publisher>
+    <dc:contributor>Dan Rosenberg</dc:contributor>
+    <dc:contributor>Nancy Blake</dc:contributor>
+    <dc:contributor>Claire Lynch</dc:contributor>
+    <dc:contributor>Rhonda Vincent</dc:contributor>
+    <dc:contributor>Tom Adams</dc:contributor>
+    <dc:contributor>Peter Rowan</dc:contributor>
+    <dc:contributor>Del McCoury</dc:contributor>
+    <dc:contributor>Tony Rice Tony Rice Unit</dc:contributor>
+    <dc:contributor>Larry Sparks</dc:contributor>
+    <dc:contributor>Ginny Hawker</dc:contributor>
+    <dc:contributor>Ralph Stanley</dc:contributor>
+    <dc:contributor>Rafe Stefanini</dc:contributor>
+    <dc:contributor>Jeremy Stephens</dc:contributor>
+    <dc:contributor>Joe Thompson</dc:contributor>
+    <dc:contributor>Norman Blake</dc:contributor>
+    <dc:contributor>Dock Boggs</dc:contributor>
+    <dc:contributor>Karl Shiflett</dc:contributor>
+    <dc:contributor>The Clinch Mountain Boys</dc:contributor>
+    <dc:contributor>Laurel Canyon Ramblers</dc:contributor>
+    <dc:contributor>The Cox Family</dc:contributor>
+    <dc:contributor>Blue Highway</dc:contributor>
+    <dc:contributor>Bluegrass Album Band</dc:contributor>
+    <dc:date>2002</dc:date>
+    <dc:type xsi:type="dkdcplus:BibDK-Type">Cd (musik)</dc:type>
+    <dc:format>1 cd</dc:format>
+    <dc:identifier>World Music Network RGNET 1104 CD</dc:identifier>
+    <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+    <dc:language>Engelsk</dc:language>
+    <dcterms:hasPart xsi:type="dkdcplus:track">God spoke his name</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Happy I'll be</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">My sweet love ain't around</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Box elder beetles</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Wild geese cry again</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">How long blues</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Another lonesome morning</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Jerusalem Ridge</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Still climbing mountains</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">The old church yard</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">My warfare will soon be over</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Two coats</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">I've got no honey baby now</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">River of death</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Hard times</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Old corn liquor</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Hello stranger</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Wise county jail</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">The trail of the ancients</dcterms:hasPart>
+    <dcterms:spatial xsi:type="dkdcplus:DBCM">USA</dcterms:spatial>
+    <dcterms:spatial xsi:type="dkdcplus:DBCM">Appalacherne</dcterms:spatial>
+    <dcterms:temporal xsi:type="dkdcplus:DBCM">1990-1999</dcterms:temporal>
+    <dcterms:temporal xsi:type="dkdcplus:DBCM">2000-2009</dcterms:temporal>
+  </dkabm:record>
+  <marcx:collection>
+    <record format="danMARC2" type="Bibliographic">
+      <leader>000000000000000000000000</leader>
+      <datafield tag="001" ind1="0" ind2="0">
+        <subfield code="a">24143627</subfield>
+        <subfield code="b">870970</subfield>
+        <subfield code="c">20050824034812</subfield>
+        <subfield code="d">20020625</subfield>
+        <subfield code="f">a</subfield>
+        <subfield code="t">FAUST</subfield>
+      </datafield>
+      <datafield tag="004" ind1="0" ind2="0">
+        <subfield code="r">n</subfield>
+        <subfield code="a">e</subfield>
+      </datafield>
+      <datafield tag="005" ind1="0" ind2="0">
+        <subfield code="h">e</subfield>
+      </datafield>
+      <datafield tag="008" ind1="0" ind2="0">
+        <subfield code="t">s</subfield>
+        <subfield code="u">f</subfield>
+        <subfield code="a">2002</subfield>
+        <subfield code="b">xx</subfield>
+        <subfield code="l">eng</subfield>
+        <subfield code="v">0</subfield>
+      </datafield>
+      <datafield tag="009" ind1="0" ind2="0">
+        <subfield code="a">s</subfield>
+        <subfield code="g">xc</subfield>
+      </datafield>
+      <datafield tag="021" ind1="0" ind2="0">
+        <subfield code="d">kr. 159,00</subfield>
+      </datafield>
+      <datafield tag="023" ind1="0" ind2="0">
+        <subfield code="a">0605633110425</subfield>
+      </datafield>
+      <datafield tag="032" ind1="0" ind2="0">
+        <subfield code="x">SFG200229</subfield>
+        <subfield code="x">DAT990535</subfield>
+      </datafield>
+      <datafield tag="039" ind1="0" ind2="0">
+        <subfield code="a">fol</subfield>
+        <subfield code="b">us</subfield>
+      </datafield>
+      <datafield tag="245" ind1="0" ind2="0">
+        <subfield code="a">The ¤rough guide to the music of the Appalachians</subfield>
+        <subfield code="c">mountain music - bluegrass, old-time, folk &amp; gospel</subfield>
+        <subfield code="e">compiled by Dan Rosenberg</subfield>
+      </datafield>
+      <datafield tag="260" ind1="0" ind2="0">
+        <subfield code="a">London</subfield>
+        <subfield code="b">World Music Network</subfield>
+        <subfield code="c">p 2002</subfield>
+      </datafield>
+      <datafield tag="300" ind1="0" ind2="0">
+        <subfield code="n">1 cd</subfield>
+      </datafield>
+      <datafield tag="512" ind1="0" ind2="0">
+        <subfield code="i">På cd'en</subfield>
+        <subfield code="t">Appalachians</subfield>
+      </datafield>
+      <datafield tag="531" ind1="0" ind2="0">
+        <subfield code="a">Indhold:</subfield>
+      </datafield>
+      <datafield tag="538" ind1="0" ind2="0">
+        <subfield code="f">World Music Network</subfield>
+        <subfield code="g">RGNET 1104 CD</subfield>
+      </datafield>
+      <datafield tag="652" ind1="0" ind2="0">
+        <subfield code="m">78.7863</subfield>
+      </datafield>
+      <datafield tag="666" ind1="0" ind2="0">
+        <subfield code="m">bluegrass</subfield>
+        <subfield code="m">country</subfield>
+        <subfield code="m">old time</subfield>
+        <subfield code="m">folkemusik</subfield>
+        <subfield code="m">folk</subfield>
+        <subfield code="n">vokal</subfield>
+        <subfield code="n">instrumental</subfield>
+        <subfield code="p">1990-1999</subfield>
+        <subfield code="p">2000-2009</subfield>
+        <subfield code="l">USA</subfield>
+        <subfield code="l">Appalacherne</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Rosenberg</subfield>
+        <subfield code="h">Dan</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Blake</subfield>
+        <subfield code="h">Nancy</subfield>
+      </datafield>
+      <datafield tag="710" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">The ¤Clinch Mountain Boys</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">11</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Lynch</subfield>
+        <subfield code="h">Claire</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">13</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Vincent</subfield>
+        <subfield code="h">Rhonda</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">14</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Adams</subfield>
+        <subfield code="h">Tom</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">15</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Rowan</subfield>
+        <subfield code="h">Peter</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">16</subfield>
+        <subfield code="0"/>
+        <subfield code="A">maccoury</subfield>
+        <subfield code="a">McCoury</subfield>
+        <subfield code="h">Del</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">18</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Rice</subfield>
+        <subfield code="h">Tony</subfield>
+        <subfield code="e">Tony Rice Unit</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">20</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Sparks</subfield>
+        <subfield code="h">Larry</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">21</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Hawker</subfield>
+        <subfield code="h">Ginny</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">22</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Stanley</subfield>
+        <subfield code="h">Ralph</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">23</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Stefanini</subfield>
+        <subfield code="h">Rafe</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">25</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Stephens</subfield>
+        <subfield code="h">Jeremy</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">26</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Thompson</subfield>
+        <subfield code="h">Joe</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">27</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Blake</subfield>
+        <subfield code="h">Norman</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">28</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Boggs</subfield>
+        <subfield code="h">Dock</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">29</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Shiflett</subfield>
+        <subfield code="h">Karl</subfield>
+      </datafield>
+      <datafield tag="780" ind1="0" ind2="0">
+        <subfield code="å">12</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Laurel Canyon Ramblers</subfield>
+      </datafield>
+      <datafield tag="780" ind1="0" ind2="0">
+        <subfield code="å">17</subfield>
+        <subfield code="0"/>
+        <subfield code="a">The ¤Cox Family</subfield>
+      </datafield>
+      <datafield tag="780" ind1="0" ind2="0">
+        <subfield code="å">19</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Blue Highway</subfield>
+      </datafield>
+      <datafield tag="780" ind1="0" ind2="0">
+        <subfield code="å">24</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Bluegrass Album Band</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">11</subfield>
+        <subfield code="0"/>
+        <subfield code="a">God spoke his name</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">12</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Happy I'll be</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">13</subfield>
+        <subfield code="0"/>
+        <subfield code="a">My sweet love ain't around</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">14</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Box elder beetles</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">15</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Wild geese cry again</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">16</subfield>
+        <subfield code="0"/>
+        <subfield code="a">How long blues</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">17</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Another lonesome morning</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">18</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Jerusalem Ridge</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">19</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Still climbing mountains</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">20</subfield>
+        <subfield code="0"/>
+        <subfield code="a">The ¤old church yard</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">21</subfield>
+        <subfield code="0"/>
+        <subfield code="a">My warfare will soon be over</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">22</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Two coats</subfield>
+        <subfield code="e">Ralph Stanley &amp; the Clinch Mountain Boys</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">23</subfield>
+        <subfield code="0"/>
+        <subfield code="a">I've got no honey baby now</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">24</subfield>
+        <subfield code="0"/>
+        <subfield code="a">River of death</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">25</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Hard times</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">26</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Old corn liquor</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">27</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Hello stranger</subfield>
+        <subfield code="e">Norman &amp; Nancy Blake</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">28</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Wise county jail</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">29</subfield>
+        <subfield code="0"/>
+        <subfield code="a">The ¤trail of the ancients</subfield>
+        <subfield code="e">Karl Shiflett &amp; Big Country Show</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">99</subfield>
+        <subfield code="0"/>
+        <subfield code="y">0</subfield>
+        <subfield code="a">2 coats</subfield>
+      </datafield>
+      <datafield tag="s10" ind1="0" ind2="0">
+        <subfield code="a">DBC</subfield>
+      </datafield>
+      <datafield tag="990" ind1="0" ind2="0">
+        <subfield code="a">SFG</subfield>
+        <subfield code="o">200229</subfield>
+        <subfield code="c">C</subfield>
+      </datafield>
+    </record>
+  </marcx:collection>
+        </ns1:bibliographicData>
+      </ns1:originalData>
+      <ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

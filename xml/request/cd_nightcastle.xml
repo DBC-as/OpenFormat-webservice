@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <ns1:bibliographicData>
+  <dkabm:record>
+    <ac:identifier>44796872|870970</ac:identifier>
+    <ac:source>undefined</ac:source>
+    <dc:title>Night castle</dc:title>
+    <dc:title xsi:type="dkdcplus:full">Night castle</dc:title>
+    <dc:creator>Trans-Siberian Orchestra</dc:creator>
+    <dc:creator xsi:type="oss:sort">Trans-Siberian Orchestra</dc:creator>
+    <dc:subject xsi:type="dkdcplus:DK5">78.794:5</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DK5-Text">Rock (Beat). Moderne folkemusik (Folk)</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCM">instrumental</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCM">pop</dc:subject>
+    <dc:subject xsi:type="dkdcplus:genre">pop</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCM">rock</dc:subject>
+    <dc:subject xsi:type="dkdcplus:genre">rock</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCM">symfonisk rock</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCM">vokal</dc:subject>
+    <dcterms:audience>børnematerialer</dcterms:audience>
+    <dcterms:audience>voksenmaterialer</dcterms:audience>
+    <dc:publisher>Atlantic</dc:publisher>
+    <dc:contributor>Paul O'Neill</dc:contributor>
+    <dc:contributor>Robert Kinkel</dc:contributor>
+    <dc:contributor>Jon Oliva</dc:contributor>
+    <dc:contributor>Al Pitrelli</dc:contributor>
+    <dc:contributor>Chris Altenhoff</dc:contributor>
+    <dc:contributor>Luci Butler</dc:contributor>
+    <dc:contributor>Chris Caffery</dc:contributor>
+    <dc:contributor>Roddy Chong</dc:contributor>
+    <dc:contributor>Angus Clark</dc:contributor>
+    <dc:date>2009</dc:date>
+    <dc:type xsi:type="dkdcplus:BibDK-Type">Cd (musik)</dc:type>
+    <dc:format>2 cd'er, 1 tekstbilag</dc:format>
+    <dc:identifier>Atlantic 5202712</dc:identifier>
+    <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+    <dc:language>Engelsk</dc:language>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Night enchanted</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Childhood dreams</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Sparks</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">The mountain</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Night castle</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">The safest way into tomorrow</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Mozart and memories</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Another way you can die</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Toccata - Carpimus noctem</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">The lion's roar</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Dreams we conceive</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Mother and son</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">There was a life</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Moonlight and madness</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Time floats on</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Epiphany</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Bach lullaby</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Father, son &amp; holy ghost</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Remnants of a lullaby</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">The safest way into tomorrow (reprise)</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Embers</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Child of the night</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Believe</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Nutrocker</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Carmina Burana</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Tracers</dcterms:hasPart>
+    <dcterms:spatial xsi:type="dkdcplus:DBCM">USA</dcterms:spatial>
+    <dcterms:temporal xsi:type="dkdcplus:DBCM">2000-2009</dcterms:temporal>
+  </dkabm:record>
+  <marcx:collection>
+    <record format="danMARC2" type="Bibliographic">
+      <leader>000000000000000000000000</leader>
+      <datafield tag="001" ind1="0" ind2="0">
+        <subfield code="a">44796872</subfield>
+        <subfield code="b">870970</subfield>
+        <subfield code="c">20100318101632</subfield>
+        <subfield code="d">20100318</subfield>
+        <subfield code="f">a</subfield>
+        <subfield code="t">FAUST</subfield>
+      </datafield>
+      <datafield tag="002" ind1="0" ind2="0">
+        <subfield code="b">710100</subfield>
+        <subfield code="c">9 292 656 7</subfield>
+        <subfield code="x">71010092926567</subfield>
+      </datafield>
+      <datafield tag="004" ind1="0" ind2="0">
+        <subfield code="r">n</subfield>
+        <subfield code="a">e</subfield>
+      </datafield>
+      <datafield tag="005" ind1="0" ind2="0">
+        <subfield code="h">e</subfield>
+      </datafield>
+      <datafield tag="008" ind1="0" ind2="0">
+        <subfield code="t">s</subfield>
+        <subfield code="u">f</subfield>
+        <subfield code="a">2009</subfield>
+        <subfield code="b">us</subfield>
+        <subfield code="l">eng</subfield>
+        <subfield code="v">0</subfield>
+      </datafield>
+      <datafield tag="009" ind1="0" ind2="0">
+        <subfield code="a">s</subfield>
+        <subfield code="g">xc</subfield>
+        <subfield code="b">a</subfield>
+        <subfield code="h">xx</subfield>
+      </datafield>
+      <datafield tag="039" ind1="0" ind2="0">
+        <subfield code="a">bef</subfield>
+      </datafield>
+      <datafield tag="110" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Trans-Siberian Orchestra</subfield>
+      </datafield>
+      <datafield tag="245" ind1="0" ind2="0">
+        <subfield code="a">Night castle</subfield>
+        <subfield code="e">Trans-Siberian Orchestra (Paul O'Neill, Robert Kinkel, Jon Oliva, Al Pitrelli, Chris Altenhoff, Luci Butler, Chris Caffery, Roddy Chong, Angus Clark ... [et al.])</subfield>
+      </datafield>
+      <datafield tag="260" ind1="0" ind2="0">
+        <subfield code="a">New York</subfield>
+        <subfield code="b">Atlantic</subfield>
+        <subfield code="c">p 2009</subfield>
+      </datafield>
+      <datafield tag="300" ind1="0" ind2="0">
+        <subfield code="n">2 cd'er</subfield>
+        <subfield code="d">1 tekstbilag</subfield>
+      </datafield>
+      <datafield tag="531" ind1="0" ind2="0">
+        <subfield code="a">Indhold:</subfield>
+      </datafield>
+      <datafield tag="538" ind1="0" ind2="0">
+        <subfield code="f">Atlantic</subfield>
+        <subfield code="g">5202712</subfield>
+      </datafield>
+      <datafield tag="652" ind1="0" ind2="0">
+        <subfield code="m">78.794</subfield>
+        <subfield code="v">5</subfield>
+      </datafield>
+      <datafield tag="666" ind1="0" ind2="0">
+        <subfield code="m">rock</subfield>
+        <subfield code="m">pop</subfield>
+        <subfield code="m">symfonisk rock</subfield>
+        <subfield code="n">vokal</subfield>
+        <subfield code="n">instrumental</subfield>
+        <subfield code="p">2000-2009</subfield>
+        <subfield code="l">USA</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">O'Neill</subfield>
+        <subfield code="h">Paul</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Kinkel</subfield>
+        <subfield code="h">Robert</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Oliva</subfield>
+        <subfield code="h">Jon</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Pitrelli</subfield>
+        <subfield code="h">Al</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Altenhoff</subfield>
+        <subfield code="h">Chris</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Butler</subfield>
+        <subfield code="h">Luci</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Caffery</subfield>
+        <subfield code="h">Chris</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Chong</subfield>
+        <subfield code="h">Roddy</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Clark</subfield>
+        <subfield code="h">Angus</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">11</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Night enchanted</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">12</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Childhood dreams</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">13</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Sparks</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">14</subfield>
+        <subfield code="0"/>
+        <subfield code="a">The ¤mountain</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">15</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Night castle</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">16</subfield>
+        <subfield code="0"/>
+        <subfield code="a">The ¤safest way into tomorrow</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">17</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Mozart and memories</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">18</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Another way you can die</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">19</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Toccata - Carpimus noctem</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">20</subfield>
+        <subfield code="0"/>
+        <subfield code="a">The ¤lion's roar</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">21</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Dreams we conceive</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">22</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Mother and son</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">23</subfield>
+        <subfield code="0"/>
+        <subfield code="a">There was a life</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">24</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Moonlight and madness</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">25</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Time floats on</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">26</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Epiphany</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">27</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Bach lullaby</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">28</subfield>
+        <subfield code="0"/>
+        <subfield code="A">father son and holy ghost</subfield>
+        <subfield code="a">Father, son &amp; holy ghost</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">29</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Remnants of a lullaby</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">30</subfield>
+        <subfield code="0"/>
+        <subfield code="a">The ¤safest way into tomorrow (reprise)</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">31</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Embers</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">32</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Child of the night</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">33</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Believe</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">34</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nutrocker</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">35</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Carmina Burana</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">36</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Tracers</subfield>
+      </datafield>
+      <datafield tag="s10" ind1="0" ind2="0">
+        <subfield code="a">710100</subfield>
+      </datafield>
+    </record>
+  </marcx:collection>
+        </ns1:bibliographicData>
+      </ns1:originalData>
+      <ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
