@@ -1,0 +1,918 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <ns1:bibliographicData>
+  <dkabm:record>
+    <ac:identifier>27833888|870970</ac:identifier>
+    <ac:source>undefined</ac:source>
+    <dc:title>Juvenilia et addenda</dc:title>
+    <dc:title xsi:type="dkdcplus:full">Juvenilia et addenda</dc:title>
+    <dc:title xsi:type="dkdcplus:series">Værker / Carl Nielsen ; bind 1</dc:title>
+    <dc:creator>Carl Nielsen (f. 1865)</dc:creator>
+    <dc:creator xsi:type="oss:sort">Nielsen, Carl (f. 1865)</dc:creator>
+    <dc:subject xsi:type="dkdcplus:DK5">78.42</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DK5-Text">Kammermusik for 3 eller flere soloinstrumenter</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCM">instrumental</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCM">kammermusik</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCM">klaver</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCM">neoklassik</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCM">orgel</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCM">senromantik</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCM">strygekvartet</dc:subject>
+    <dcterms:audience>voksenmaterialer</dcterms:audience>
+    <dc:publisher>Carl Nielsen Udgaven, Det Kongelige Bibliotek</dc:publisher>
+    <dc:publisher>Wilhelm Hansen</dc:publisher>
+    <dc:contributor>Lisbeth Ahlgren Jensen</dc:contributor>
+    <dc:contributor>Lisbeth Larsen (f. 1977-04-24)</dc:contributor>
+    <dc:contributor>Carl Nielsen (f. 1865)</dc:contributor>
+    <dc:contributor>Carl Nielsen Udgaven</dc:contributor>
+    <dc:date>2009</dc:date>
+    <dc:type xsi:type="dkdcplus:BibDK-Type">Node</dc:type>
+    <dc:format>1 partitur</dc:format>
+    <dcterms:extent>lvi, 330 sider</dcterms:extent>
+    <dc:identifier xsi:type="dkdcplus:ISBN">9788759818244</dc:identifier>
+    <dc:identifier xsi:type="dkdcplus:ISMN">M-66134-212-0</dc:identifier>
+    <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+    <dc:language>Dansk</dc:language>
+    <dcterms:hasPart>Polka for violin, A-dur, FS 1 (CNU add. 1)</dcterms:hasPart>
+    <dcterms:hasPart>Duet for 2 violiner, A-dur, FS 3e (CNU add. 2)</dcterms:hasPart>
+    <dcterms:hasPart>Romance for violin og klaver, G-dur, CNU add. 3</dcterms:hasPart>
+    <dcterms:hasPart>Romance for violin og klaver, D-dur, 1883 (CNU add. 4)</dcterms:hasPart>
+    <dcterms:hasPart>Sonate for violin og klaver, G-dur, FS 3b (CNU add. 5)</dcterms:hasPart>
+    <dcterms:hasPart>Fantasistykke for klarinet og klaver, 1881 (CNU add. 6)</dcterms:hasPart>
+    <dcterms:hasPart>Trio for violin, violoncel og klaver, G-dur, FS 3i (CNU add. 7)</dcterms:hasPart>
+    <dcterms:hasPart>Kvartet for 2 violiner, viola og violoncel, d-mol, FS 3d (CNU add. 8)</dcterms:hasPart>
+    <dcterms:hasPart>Kvartetsatser for 2 violiner, viola og violoncel, FS 3c</dcterms:hasPart>
+    <dcterms:hasPart>Kvartetsatser for 2 violiner, viola og violoncel, FS 3c</dcterms:hasPart>
+    <dcterms:hasPart>Kvartetsatser for 2 violiner, viola og violoncel, FS 3c</dcterms:hasPart>
+    <dcterms:hasPart>Kvartetsatser for 2 violiner, viola og violoncel, FS 3c</dcterms:hasPart>
+    <dcterms:hasPart>Kvartetsatser for 2 violiner, viola og violoncel, FS 3c</dcterms:hasPart>
+    <dcterms:hasPart>Kvartetsatser for 2 violiner, viola og violoncel, FS 3c</dcterms:hasPart>
+    <dcterms:hasPart>Trauermarsch for 2 violiner, viola og violoncel, CNU add. 15</dcterms:hasPart>
+    <dcterms:hasPart>To karakterstykker for klaver, FS 3f (CNU add. 16)</dcterms:hasPart>
+    <dcterms:hasPart>Norsk folkedans for klaver, CNU add. 17</dcterms:hasPart>
+    <dcterms:hasPart>Andante for klaver, F-dur, CNU add. 18</dcterms:hasPart>
+    <dcterms:hasPart>Klaverstykke, Es-dur, CNU add. 19</dcterms:hasPart>
+    <dcterms:hasPart>Bondedans for klaver, F-dur, CNU add. 20</dcterms:hasPart>
+    <dcterms:hasPart>Allegretto for klaver, g-mol, CNU add. 21</dcterms:hasPart>
+    <dcterms:hasPart>Klaverstykke, B-dur, CNU add. 22</dcterms:hasPart>
+    <dcterms:hasPart>Menuet for klaver, A-dur, CNU add. 23</dcterms:hasPart>
+    <dcterms:hasPart>Klaverstykke, A-dur, CNU add. 24</dcterms:hasPart>
+    <dcterms:hasPart>Andantino for klaver, F-dur, CNU add. 25</dcterms:hasPart>
+    <dcterms:hasPart>Klaverstykke, C-dur, CNU add. 26</dcterms:hasPart>
+    <dcterms:hasPart>Et lille klaverstykke, C-dur, CNU add. 27</dcterms:hasPart>
+    <dcterms:hasPart>Kantate til mindefesten for P.S. Krøyer, CNU add. 28</dcterms:hasPart>
+    <dcterms:hasPart>Snefrid (Forspil)</dcterms:hasPart>
+    <dcterms:hasPart>Hr. Oluf han rider</dcterms:hasPart>
+    <dcterms:hasPart>Hagbarth og Signe</dcterms:hasPart>
+    <dcterms:hasPart>Canto serioso</dcterms:hasPart>
+    <dcterms:hasPart>Aladdin (uddrag)</dcterms:hasPart>
+    <dcterms:hasPart>Kinesisk dans</dcterms:hasPart>
+    <dcterms:hasPart>Fangernes dans</dcterms:hasPart>
+    <dcterms:hasPart>Hindu-dabs</dcterms:hasPart>
+    <dcterms:hasPart>Negerdans</dcterms:hasPart>
+    <dcterms:hasPart>Dans og kor</dcterms:hasPart>
+    <dcterms:hasPart>Morgentågernes dans</dcterms:hasPart>
+    <dcterms:hasPart>Moderen (uddrag)</dcterms:hasPart>
+    <dcterms:hasPart>Tågen letter</dcterms:hasPart>
+    <dcterms:hasPart>Fjerde billede (Forspil)</dcterms:hasPart>
+    <dcterms:hasPart>Menuet</dcterms:hasPart>
+    <dcterms:hasPart>Syvende billede (Forspil)</dcterms:hasPart>
+    <dcterms:hasPart>March</dcterms:hasPart>
+    <dcterms:hasPart>Der er et yndigt land</dcterms:hasPart>
+    <dcterms:hasPart>Kantate ved Polyteknisk Læreanstalts 100 års jubilæum</dcterms:hasPart>
+    <dcterms:hasPart>Fuga for 2 stemmer, CNU add. 38</dcterms:hasPart>
+    <dcterms:hasPart>Fuga for 2 stemmer, CNU add. 39</dcterms:hasPart>
+    <dcterms:hasPart>Fuga for 3 stemmer, CNU add. 40</dcterms:hasPart>
+    <dcterms:hasPart>Fuga for 3 stemmer, CNU add. 41</dcterms:hasPart>
+    <dcterms:hasPart>Fuga for 3 stemmer, CNU add. 42</dcterms:hasPart>
+    <dcterms:hasPart>Fuga for 3 stemmer, CNU add. 43</dcterms:hasPart>
+    <dcterms:hasPart>Fuga for 3 stemmer, CNU add. 44</dcterms:hasPart>
+    <dcterms:hasPart>Grüss, CNU add. 45</dcterms:hasPart>
+    <dcterms:hasPart>Gade, CNU add. 46</dcterms:hasPart>
+    <dcterms:hasPart>Danmark!, CNU add. 47</dcterms:hasPart>
+    <dcterms:hasPart>Velkommen i Della Grazia 20, lille Marie!, CNU add. 48</dcterms:hasPart>
+    <dcterms:hasPart>Hyrdedrengens melodi, CNU add. 49</dcterms:hasPart>
+    <dcterms:spatial xsi:type="dkdcplus:DBCM">Danmark</dcterms:spatial>
+    <dcterms:temporal xsi:type="dkdcplus:DBCM">1880-1889</dcterms:temporal>
+    <dcterms:temporal xsi:type="dkdcplus:DBCM">1890-1899</dcterms:temporal>
+    <dcterms:temporal xsi:type="dkdcplus:DBCM">1900-1909</dcterms:temporal>
+    <dcterms:temporal xsi:type="dkdcplus:DBCM">1910-1919</dcterms:temporal>
+    <dcterms:temporal xsi:type="dkdcplus:DBCM">1920-1929</dcterms:temporal>
+    <dcterms:temporal xsi:type="dkdcplus:DBCM">1930-1939</dcterms:temporal>
+  </dkabm:record>
+  <marcx:collection>
+    <record format="danMARC2" type="Bibliographic">
+      <leader>000000000000000000000000</leader>
+      <datafield tag="001" ind1="0" ind2="0">
+        <subfield code="a">27833888</subfield>
+        <subfield code="b">870970</subfield>
+        <subfield code="c">20090727181153</subfield>
+        <subfield code="d">20090720</subfield>
+        <subfield code="f">a</subfield>
+        <subfield code="t">FAUST</subfield>
+      </datafield>
+      <datafield tag="004" ind1="0" ind2="0">
+        <subfield code="r">n</subfield>
+        <subfield code="a">e</subfield>
+      </datafield>
+      <datafield tag="005" ind1="0" ind2="0">
+        <subfield code="h">c</subfield>
+        <subfield code="h">j</subfield>
+        <subfield code="i">a</subfield>
+        <subfield code="k">a</subfield>
+      </datafield>
+      <datafield tag="008" ind1="0" ind2="0">
+        <subfield code="t">s</subfield>
+        <subfield code="u">f</subfield>
+        <subfield code="a">2009</subfield>
+        <subfield code="b">dk</subfield>
+        <subfield code="l">dan</subfield>
+        <subfield code="v">0</subfield>
+      </datafield>
+      <datafield tag="009" ind1="0" ind2="0">
+        <subfield code="a">c</subfield>
+        <subfield code="g">xx</subfield>
+      </datafield>
+      <datafield tag="021" ind1="0" ind2="0">
+        <subfield code="e">9788759818244</subfield>
+      </datafield>
+      <datafield tag="028" ind1="0" ind2="0">
+        <subfield code="a">M-66134-212-0</subfield>
+        <subfield code="n">CN 00052</subfield>
+        <subfield code="c">ib.</subfield>
+        <subfield code="d">kr. 1168,00</subfield>
+      </datafield>
+      <datafield tag="032" ind1="0" ind2="0">
+        <subfield code="x">BKM200931</subfield>
+      </datafield>
+      <datafield tag="041" ind1="0" ind2="0">
+        <subfield code="a">dan</subfield>
+        <subfield code="e">dan</subfield>
+        <subfield code="e">eng</subfield>
+      </datafield>
+      <datafield tag="100" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="245" ind1="0" ind2="0">
+        <subfield code="a">Juvenilia et addenda</subfield>
+        <subfield code="e">Carl Nielsen</subfield>
+        <subfield code="e">udgivet af Lisbeth Ahlgren Jensen, Lisbeth Larsen</subfield>
+        <subfield code="ø">Carl Nielsen Udgaven</subfield>
+      </datafield>
+      <datafield tag="260" ind1="0" ind2="0">
+        <subfield code="a">Copenhagen</subfield>
+        <subfield code="b">\Carl Nielsen Udgaven\, Det Kongelige Bibliotek</subfield>
+        <subfield code="b">Wilhelm Hansen</subfield>
+        <subfield code="g">distribution Wilhelm Hansen</subfield>
+        <subfield code="c">2009</subfield>
+      </datafield>
+      <datafield tag="300" ind1="0" ind2="0">
+        <subfield code="n">1 \partitur\</subfield>
+        <subfield code="a">lvi, 330 sider</subfield>
+        <subfield code="c">33 cm</subfield>
+      </datafield>
+      <datafield tag="440" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Værker</subfield>
+        <subfield code="æ">Carl Nielsen</subfield>
+        <subfield code="N">serie 4</subfield>
+        <subfield code="n">Serie IV</subfield>
+        <subfield code="o">Juvenilia et addenda</subfield>
+        <subfield code="V">1</subfield>
+        <subfield code="v">bind 1</subfield>
+      </datafield>
+      <datafield tag="508" ind1="0" ind2="0">
+        <subfield code="a">Med forord på dansk og engelsk og revisionsberetning på engelsk</subfield>
+      </datafield>
+      <datafield tag="531" ind1="0" ind2="0">
+        <subfield code="a">Indhold:</subfield>
+      </datafield>
+      <datafield tag="532" ind1="0" ind2="0">
+        <subfield code="a">Litteraturhenvisninger ; Kildehenvisninger</subfield>
+      </datafield>
+      <datafield tag="538" ind1="0" ind2="0">
+        <subfield code="d">CN 00052</subfield>
+      </datafield>
+      <datafield tag="652" ind1="0" ind2="0">
+        <subfield code="m">78.42</subfield>
+      </datafield>
+      <datafield tag="652" ind1="0" ind2="0">
+        <subfield code="p">78.53</subfield>
+      </datafield>
+      <datafield tag="652" ind1="0" ind2="0">
+        <subfield code="p">78.652</subfield>
+      </datafield>
+      <datafield tag="652" ind1="0" ind2="0">
+        <subfield code="p">78.31</subfield>
+      </datafield>
+      <datafield tag="666" ind1="0" ind2="0">
+        <subfield code="m">senromantik</subfield>
+        <subfield code="m">neoklassik</subfield>
+        <subfield code="m">kammermusik</subfield>
+        <subfield code="n">instrumental</subfield>
+        <subfield code="n">klaver</subfield>
+        <subfield code="n">orgel</subfield>
+        <subfield code="n">strygekvartet</subfield>
+        <subfield code="p">1880-1889</subfield>
+        <subfield code="p">1890-1899</subfield>
+        <subfield code="p">1900-1909</subfield>
+        <subfield code="p">1910-1919</subfield>
+        <subfield code="p">1920-1929</subfield>
+        <subfield code="p">1930-1939</subfield>
+        <subfield code="l">Danmark</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="å">1</subfield>
+        <subfield code="a">Ahlgren Jensen</subfield>
+        <subfield code="h">Lisbeth</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Larsen</subfield>
+        <subfield code="h">Lisbeth</subfield>
+        <subfield code="c">f. 1977-04-24</subfield>
+      </datafield>
+      <datafield tag="710" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Carl Nielsen Udgaven</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">11</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">12</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">13</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">14</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">15</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">16</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">17</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">18</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">19</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">20</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">21</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">22</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">23</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">24</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">25</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">26</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">27</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">28</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">29</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">30</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">31</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">32</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">33</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">34</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">35</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">36</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">37</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">38</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">39</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">40</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">41</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">42</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">43</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">44</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">45</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">46</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">47</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">48</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">49</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">50</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">51</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">52</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">53</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">54</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">55</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">56</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">57</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">58</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="770" ind1="0" ind2="0">
+        <subfield code="å">59</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Nielsen</subfield>
+        <subfield code="h">Carl</subfield>
+        <subfield code="c">f. 1865</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">11</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Polka for violin, A-dur, FS 1 (CNU add. 1)</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">12</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Duet for 2 violiner, A-dur, FS 3e (CNU add. 2)</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">13</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Romance for violin og klaver, G-dur, CNU add. 3</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">14</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Romance for violin og klaver, D-dur, 1883 (CNU add. 4)</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">15</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Sonate for violin og klaver, G-dur, FS 3b (CNU add. 5)</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">16</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Fantasistykke for klarinet og klaver, 1881 (CNU add. 6)</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">17</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Trio for violin, violoncel og klaver, G-dur, FS 3i (CNU add. 7)</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">18</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Kvartet for 2 violiner, viola og violoncel, d-mol, FS 3d (CNU add. 8)</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">19</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Kvartetsatser for 2 violiner, viola og violoncel, FS 3c</subfield>
+        <subfield code="7"> (</subfield>
+        <subfield code="v">Allegro, F-dur, CNU add. 9</subfield>
+        <subfield code="7">)</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">20</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Kvartetsatser for 2 violiner, viola og violoncel, FS 3c</subfield>
+        <subfield code="7"> (</subfield>
+        <subfield code="v">Allegro molto, F-dur, CNU add. 10</subfield>
+        <subfield code="7">)</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">21</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Kvartetsatser for 2 violiner, viola og violoncel, FS 3c</subfield>
+        <subfield code="7"> (</subfield>
+        <subfield code="v">Allegro moderato, F-dur, CNU add. 11</subfield>
+        <subfield code="7">)</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">22</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Kvartetsatser for 2 violiner, viola og violoncel, FS 3c</subfield>
+        <subfield code="7"> (</subfield>
+        <subfield code="v">Allegro, g-mol, CNU add. 12</subfield>
+        <subfield code="7">)</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">23</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Kvartetsatser for 2 violiner, viola og violoncel, FS 3c</subfield>
+        <subfield code="7"> (</subfield>
+        <subfield code="v">Andante, fis-mol, CNU add. 13</subfield>
+        <subfield code="7">)</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">24</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Kvartetsatser for 2 violiner, viola og violoncel, FS 3c</subfield>
+        <subfield code="7"> (</subfield>
+        <subfield code="v">Menuet, B-dur, CNU add. 14</subfield>
+        <subfield code="7">)</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">25</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Trauermarsch for 2 violiner, viola og violoncel, CNU add. 15</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">26</subfield>
+        <subfield code="0"/>
+        <subfield code="a">To karakterstykker for klaver, FS 3f (CNU add. 16)</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">27</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Norsk folkedans for klaver, CNU add. 17</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">28</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Andante for klaver, F-dur, CNU add. 18</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">29</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Klaverstykke, Es-dur, CNU add. 19</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">30</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Bondedans for klaver, F-dur, CNU add. 20</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">31</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Allegretto for klaver, g-mol, CNU add. 21</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">32</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Klaverstykke, B-dur, CNU add. 22</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">33</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Menuet for klaver, A-dur, CNU add. 23</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">34</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Klaverstykke, A-dur, CNU add. 24</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">35</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Andantino for klaver, F-dur, CNU add. 25</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">36</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Klaverstykke, C-dur, CNU add. 26</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">37</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Et ¤lille klaverstykke, C-dur, CNU add. 27</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">38</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Kantate til mindefesten for P.S. Krøyer, CNU add. 28</subfield>
+        <subfield code="c">for recitation, sopran, baryton, mandskor og klaver</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">39</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Snefrid (Forspil)</subfield>
+        <subfield code="c">for klaver (CNU add. 29)</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">40</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Snefrid</subfield>
+        <subfield code="c">for recitation og klaverkvintet (CNU add. 30)</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">41</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Hr. Oluf han rider</subfield>
+        <subfield code="7"> (</subfield>
+        <subfield code="v">Elverdans</subfield>
+        <subfield code="7">) : </subfield>
+        <subfield code="c">for klaver (CNU add. 31)</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">42</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Hagbarth og Signe</subfield>
+        <subfield code="7"> (</subfield>
+        <subfield code="v">Ternernes dans</subfield>
+        <subfield code="7">) : </subfield>
+        <subfield code="c">for klaver (CNU add. 32)</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">43</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Canto serioso</subfield>
+        <subfield code="c">for violoncel og klaver, CNU add. 33</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">44</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Aladdin (uddrag)</subfield>
+        <subfield code="7"> (</subfield>
+        <subfield code="a">Kinesisk dans</subfield>
+        <subfield code="a">Fangernes dans</subfield>
+        <subfield code="a">Hindu-dabs</subfield>
+        <subfield code="a">Negerdans</subfield>
+        <subfield code="a">Dans og kor</subfield>
+        <subfield code="a">Morgentågernes dans</subfield>
+        <subfield code="7">) : </subfield>
+        <subfield code="c">for klaver (CNU add. 34)</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">45</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Moderen (uddrag)</subfield>
+        <subfield code="7"> (</subfield>
+        <subfield code="a">Tågen letter</subfield>
+        <subfield code="a">Fjerde billede (Forspil)</subfield>
+        <subfield code="a">Menuet</subfield>
+        <subfield code="a">Syvende billede (Forspil)</subfield>
+        <subfield code="a">March</subfield>
+        <subfield code="7">) : </subfield>
+        <subfield code="c">for klaver (CNU add. 35)</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">46</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Der er et yndigt land</subfield>
+        <subfield code="c">for 2 trompeter, 2 basuner og tuba, CNU add. 36</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">47</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Kantate ved Polyteknisk Læreanstalts 100 års jubilæum</subfield>
+        <subfield code="c">for recitation, mandskor, strygere og klaver (CNU add. 37)</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">48</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Fuga for 2 stemmer, CNU add. 38</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">49</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Fuga for 2 stemmer, CNU add. 39</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">50</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Fuga for 3 stemmer, CNU add. 40</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">51</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Fuga for 3 stemmer, CNU add. 41</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">52</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Fuga for 3 stemmer, CNU add. 42</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">53</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Fuga for 3 stemmer, CNU add. 43</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">54</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Fuga for 3 stemmer, CNU add. 44</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">55</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Grüss, CNU add. 45</subfield>
+        <subfield code="c">for violin</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">56</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Gade, CNU add. 46</subfield>
+        <subfield code="c">for klaver</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">57</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Danmark!, CNU add. 47</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">58</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Velkommen i Della Grazia 20, lille Marie!, CNU add. 48</subfield>
+        <subfield code="c">for klaver</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">59</subfield>
+        <subfield code="0"/>
+        <subfield code="a">Hyrdedrengens melodi, CNU add. 49</subfield>
+        <subfield code="c">for obo</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">99</subfield>
+        <subfield code="0"/>
+        <subfield code="y">0</subfield>
+        <subfield code="a">2 karakterstykker for klaver, FS 3f</subfield>
+      </datafield>
+      <datafield tag="900" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Jensen</subfield>
+        <subfield code="h">Lisbeth Ahlgren</subfield>
+        <subfield code="x">se</subfield>
+        <subfield code="w">Ahlgren Jensen, Lisbeth</subfield>
+        <subfield code="z">700/1</subfield>
+      </datafield>
+      <datafield tag="s10" ind1="0" ind2="0">
+        <subfield code="a">DBC</subfield>
+      </datafield>
+      <datafield tag="990" ind1="0" ind2="0">
+        <subfield code="o">200931</subfield>
+        <subfield code="b">v</subfield>
+        <subfield code="n">02</subfield>
+        <subfield code="u">nt</subfield>
+      </datafield>
+    </record>
+  </marcx:collection>
+  <oss:openurl/>
+        </ns1:bibliographicData>
+      </ns1:originalData>
+      <ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

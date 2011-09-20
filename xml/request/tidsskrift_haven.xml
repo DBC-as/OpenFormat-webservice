@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <ns1:bibliographicData>
+  <dkabm:record>
+    <ac:identifier>05972787|870970</ac:identifier>
+    <ac:source>undefined</ac:source>
+    <dc:title>Haven</dc:title>
+    <dc:title xsi:type="dkdcplus:full">Haven</dc:title>
+    <dcterms:alternative>Haven</dcterms:alternative>
+    <dc:subject xsi:type="dkdcplus:DK5">63.5</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DK5-Text">Gartneri og havebrug</dc:subject>
+    <dc:subject xsi:type="dkdcplus:genre">nonfiktion</dc:subject>
+    <dc:description>Tidligere med udgiverbetegnelsen: De danske Haveselskaber</dc:description>
+    <dc:description>Tidligere udgivet af: Det Danske Haveselskab, herunder Det jyske Haveselskab, Det Kgl. danske Haveselskab og Østifternes Haveselskab</dc:description>
+    <dc:description>Størrelsen varierer</dc:description>
+    <dcterms:audience>voksenmaterialer</dcterms:audience>
+    <dc:publisher>Det Danske Haveselskab</dc:publisher>
+    <dc:contributor>Det Danske Haveselskab</dc:contributor>
+    <dc:contributor>Det Kongelige Danske Haveselskab</dc:contributor>
+    <dc:contributor>Det Jydske Haveselskab</dc:contributor>
+    <dc:contributor>Østifternes Haveselskab</dc:contributor>
+    <dc:date>1900</dc:date>
+    <dc:type xsi:type="dkdcplus:BibDK-Type">Tidsskrift</dc:type>
+    <dc:format>Ill. i farver</dc:format>
+    <dc:identifier xsi:type="dkdcplus:ISSN">0017-8500</dc:identifier>
+    <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+    <dc:language>Dansk</dc:language>
+  </dkabm:record>
+  <marcx:collection>
+    <record format="danMARC2" type="Bibliographic">
+      <leader>000000000000000000000000</leader>
+      <datafield tag="001" ind1="0" ind2="0">
+        <subfield code="a">05972787</subfield>
+        <subfield code="b">870970</subfield>
+        <subfield code="c">20010709141026</subfield>
+        <subfield code="d">19831005</subfield>
+        <subfield code="f">a</subfield>
+        <subfield code="t">FAUST</subfield>
+      </datafield>
+      <datafield tag="004" ind1="0" ind2="0">
+        <subfield code="r">n</subfield>
+        <subfield code="a">e</subfield>
+      </datafield>
+      <datafield tag="008" ind1="0" ind2="0">
+        <subfield code="t">p</subfield>
+        <subfield code="u">c</subfield>
+        <subfield code="a">1900</subfield>
+        <subfield code="b">dk</subfield>
+        <subfield code="c">m</subfield>
+        <subfield code="h">p</subfield>
+        <subfield code="i">b</subfield>
+        <subfield code="l">dan</subfield>
+        <subfield code="v">0</subfield>
+      </datafield>
+      <datafield tag="009" ind1="0" ind2="0">
+        <subfield code="a">a</subfield>
+        <subfield code="g">xx</subfield>
+      </datafield>
+      <datafield tag="022" ind1="0" ind2="0">
+        <subfield code="a">0017-8500</subfield>
+        <subfield code="c">hf.</subfield>
+      </datafield>
+      <datafield tag="032" ind1="0" ind2="0">
+        <subfield code="a">DPF197680</subfield>
+        <subfield code="x">DAT199521</subfield>
+        <subfield code="x">DAT200128</subfield>
+        <subfield code="x">DAT200128</subfield>
+      </datafield>
+      <datafield tag="082" ind1="0" ind2="0">
+        <subfield code="a">635</subfield>
+      </datafield>
+      <datafield tag="210" ind1="0" ind2="0">
+        <subfield code="a">Haven</subfield>
+        <subfield code="b">Frederiksberg</subfield>
+      </datafield>
+      <datafield tag="222" ind1="0" ind2="0">
+        <subfield code="a">Haven</subfield>
+        <subfield code="b">Frederiksberg</subfield>
+      </datafield>
+      <datafield tag="245" ind1="0" ind2="0">
+        <subfield code="a">Haven</subfield>
+        <subfield code="e">Det Danske Haveselskab</subfield>
+      </datafield>
+      <datafield tag="255" ind1="0" ind2="0">
+        <subfield code="a">[?]-</subfield>
+      </datafield>
+      <datafield tag="260" ind1="0" ind2="0">
+        <subfield code="a">Lyngby</subfield>
+        <subfield code="b">Det Danske Haveselskab</subfield>
+        <subfield code="c">1900-</subfield>
+      </datafield>
+      <datafield tag="300" ind1="0" ind2="0">
+        <subfield code="b">Ill. i farver</subfield>
+        <subfield code="c">30 cm</subfield>
+      </datafield>
+      <datafield tag="500" ind1="0" ind2="0">
+        <subfield code="a">Månedlig</subfield>
+      </datafield>
+      <datafield tag="512" ind1="0" ind2="0">
+        <subfield code="a">Tidligere med udgiverbetegnelsen: De danske Haveselskaber</subfield>
+      </datafield>
+      <datafield tag="512" ind1="0" ind2="0">
+        <subfield code="a">Tidligere udgivet af: Det Danske Haveselskab, herunder Det jyske Haveselskab, Det Kgl. danske Haveselskab og Østifternes Haveselskab</subfield>
+      </datafield>
+      <datafield tag="512" ind1="0" ind2="0">
+        <subfield code="a">Størrelsen varierer</subfield>
+      </datafield>
+      <datafield tag="526" ind1="0" ind2="0">
+        <subfield code="i">Har supplement</subfield>
+        <subfield code="t">Havens særtryk</subfield>
+      </datafield>
+      <datafield tag="526" ind1="0" ind2="0">
+        <subfield code="i">Har supplement</subfield>
+        <subfield code="t">Åbne haver i Danmark</subfield>
+      </datafield>
+      <datafield tag="532" ind1="0" ind2="0">
+        <subfield code="a">Hertil findes: Register 1989-1993</subfield>
+      </datafield>
+      <datafield tag="539" ind1="0" ind2="0">
+        <subfield code="a">Nr. 5, 101. årgang (maj 2001)</subfield>
+      </datafield>
+      <datafield tag="652" ind1="0" ind2="0">
+        <subfield code="m">63.5</subfield>
+      </datafield>
+      <datafield tag="710" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="å">1</subfield>
+        <subfield code="a">Det ¤Danske Haveselskab</subfield>
+      </datafield>
+      <datafield tag="710" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Det ¤Kongelige Danske Haveselskab</subfield>
+      </datafield>
+      <datafield tag="710" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="å">2</subfield>
+        <subfield code="a">Det ¤Jydske Haveselskab</subfield>
+      </datafield>
+      <datafield tag="710" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Østifternes Haveselskab</subfield>
+      </datafield>
+      <datafield tag="745" ind1="0" ind2="0">
+        <subfield code="a">Haven</subfield>
+      </datafield>
+      <datafield tag="910" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Det ¤Jyske Haveselskab</subfield>
+        <subfield code="x">se</subfield>
+        <subfield code="w">Det ¤Jydske Haveselskab</subfield>
+        <subfield code="z">710/2</subfield>
+      </datafield>
+      <datafield tag="910" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Det ¤Kgl. Danske Haveselskab</subfield>
+        <subfield code="x">se</subfield>
+        <subfield code="w">Det ¤Danske Haveselskab</subfield>
+        <subfield code="z">710/1</subfield>
+      </datafield>
+      <datafield tag="s10" ind1="0" ind2="0">
+        <subfield code="a">810010</subfield>
+      </datafield>
+    </record>
+  </marcx:collection>
+  <oss:openurl>_BASEURL_url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:journal&amp;rft.jtitle=Haven&amp;rft.issn=0017-8500&amp;rft.genre=journal</oss:openurl>
+        </ns1:bibliographicData>
+      </ns1:originalData>
+      <ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
