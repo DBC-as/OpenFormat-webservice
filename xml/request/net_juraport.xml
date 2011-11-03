@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <ns1:bibliographicData>
+  <dkabm:record>
+    <ac:identifier>20110324092820|150000</ac:identifier>
+    <ac:source>undefined</ac:source>
+    <dc:title>Narkotika</dc:title>
+    <dc:title xsi:type="dkdcplus:full">Narkotika</dc:title>
+    <dc:subject xsi:type="dkdcplus:DK5">66.88</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DK5-Text">Nydelsesmidler. Stimulanser</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCF">linksamlinger</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCF">lovgivning</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCF">narkotika</dc:subject>
+    <dc:subject xsi:type="dkdcplus:genre">nonfiktion</dc:subject>
+    <dcterms:abstract>Linksamling, der indgår i den juridiske nettjeneste Bibliotekernes Juraport. Med links til forklarende tekster om juridiske forhold, love og regler, selvbetjening på nettet, netværk samt henvisninger til bøger inden for emnet narkotika</dcterms:abstract>
+    <dc:description>DC.Issued 2011</dc:description>
+    <dc:description>Registreret 24.3.2011</dc:description>
+    <dc:description xsi:type="dkdcplus:series">Er del af:</dc:description>
+    <dcterms:audience>voksenmaterialer</dcterms:audience>
+    <dc:publisher>Bibliotekernes Juraport</dc:publisher>
+    <dc:contributor>Bibliotekernes Juraport</dc:contributor>
+    <dc:date>2011</dc:date>
+    <dc:type xsi:type="dkdcplus:BibDK-Type">Netdokument</dc:type>
+    <dc:identifier xsi:type="dcterms:URI">http://www.juraport.dk/narkotika.asp</dc:identifier>
+    <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+    <dc:language>Dansk</dc:language>
+  </dkabm:record>
+  <marcx:collection>
+    <record format="danMARC2" type="Bibliographic">
+      <leader>000000000000000000000000</leader>
+      <datafield tag="001" ind1="0" ind2="0">
+        <subfield code="a">20110324092820</subfield>
+        <subfield code="b">150000</subfield>
+        <subfield code="c">20110328</subfield>
+        <subfield code="d">20110324</subfield>
+        <subfield code="f">a</subfield>
+      </datafield>
+      <datafield tag="004" ind1="0" ind2="0">
+        <subfield code="r">n</subfield>
+        <subfield code="a">e</subfield>
+      </datafield>
+      <datafield tag="008" ind1="0" ind2="0">
+        <subfield code="t">m</subfield>
+        <subfield code="a">2011</subfield>
+        <subfield code="l">dan</subfield>
+        <subfield code="n">a</subfield>
+        <subfield code="v">0</subfield>
+      </datafield>
+      <datafield tag="009" ind1="0" ind2="0">
+        <subfield code="a">a</subfield>
+        <subfield code="g">xe</subfield>
+      </datafield>
+      <datafield tag="032" ind1="0" ind2="0">
+        <subfield code="x">NET201114</subfield>
+      </datafield>
+      <datafield tag="245" ind1="0" ind2="0">
+        <subfield code="a">Narkotika</subfield>
+      </datafield>
+      <datafield tag="260" ind1="0" ind2="0">
+        <subfield code="b">Bibliotekernes Juraport</subfield>
+        <subfield code="c">2011</subfield>
+      </datafield>
+      <datafield tag="504" ind1="0" ind2="0">
+        <subfield code="a">Linksamling, der indgår i den juridiske nettjeneste Bibliotekernes Juraport. Med links til forklarende tekster om juridiske forhold, love og regler, selvbetjening på nettet, netværk samt henvisninger til bøger inden for emnet narkotika</subfield>
+      </datafield>
+      <datafield tag="512" ind1="0" ind2="0">
+        <subfield code="i">DC.Issued</subfield>
+        <subfield code="b">2011</subfield>
+      </datafield>
+      <datafield tag="512" ind1="0" ind2="0">
+        <subfield code="a">Registreret 24.3.2011</subfield>
+      </datafield>
+      <datafield tag="526" ind1="0" ind2="0">
+        <subfield code="i">Er del af:</subfield>
+        <subfield code="u">http://www.juraport.dk/</subfield>
+      </datafield>
+      <datafield tag="652" ind1="0" ind2="0">
+        <subfield code="m">66.88</subfield>
+      </datafield>
+      <datafield tag="666" ind1="0" ind2="0">
+        <subfield code="f">narkotika</subfield>
+      </datafield>
+      <datafield tag="666" ind1="0" ind2="0">
+        <subfield code="f">lovgivning</subfield>
+      </datafield>
+      <datafield tag="666" ind1="0" ind2="0">
+        <subfield code="f">linksamlinger</subfield>
+      </datafield>
+      <datafield tag="710" ind1="0" ind2="0">
+        <subfield code="a">Bibliotekernes Juraport</subfield>
+        <subfield code="b">DC.Publisher</subfield>
+      </datafield>
+      <datafield tag="856" ind1="0" ind2="0">
+        <subfield code="u">http://www.juraport.dk/narkotika.asp</subfield>
+      </datafield>
+    </record>
+  </marcx:collection>
+  <oss:openurl/>
+        </ns1:bibliographicData>
+      </ns1:originalData>
+      <ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
