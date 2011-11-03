@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput">
+  <SOAP-ENV:Body>
+    <of:formatResponse>
+      <ofo:bibliotekdkFullDisplay>
+        <ofo:fullDisplayInformation>
+          <ofo:title>&lt;div class="title"&gt;Baron Blixen&lt;/div&gt;</ofo:title>
+          <ofo:creator>&lt;div class="creators"&gt;
+  &lt;span class="creator phraseLink"&gt;Ulf Aschan&lt;/span&gt;
+&lt;/div&gt;</ofo:creator>
+          <ofo:type>&lt;div class="type"&gt;Bog&lt;/div&gt;</ofo:type>
+          <ofo:description>&lt;div class="abstract"&gt;Kort på forsatspapiret&lt;/div&gt;</ofo:description>
+          <ofo:details>&lt;div class="contributors"&gt;
+  &lt;span class="contributor"&gt;tekst: Ulf Aschan&lt;/span&gt;
+&lt;/div&gt;&lt;div class="format"&gt;237 sider, illustreret&lt;/div&gt;&lt;div class="shelf"&gt;
+  &lt;span class="shelfHeader"&gt;Opstilling i folkebiblioteker:&lt;/span&gt;
+  &lt;span class="classification phraseLink"&gt;99.4 Blixen-Finecke, Bror von&lt;/span&gt;
+&lt;/div&gt;&lt;div class="note"&gt;
+  &lt;div class="descriptionNote"&gt;Kort på forsatspapiret&lt;/div&gt;
+&lt;/div&gt;&lt;div class="references"&gt;Litteratur: side 236&lt;/div&gt;&lt;div class="identifiers"&gt;
+  &lt;span class="identifierHeader"&gt;ISBN&lt;/span&gt;
+  &lt;span class="identifier"&gt;91-7024-332-8&lt;/span&gt;
+&lt;/div&gt;&lt;div class="languageInformation"/&gt;
+&lt;span class="languageHeader"&gt;Sprog:&lt;/span&gt;
+&lt;span class="language"&gt;Svensk&lt;/span&gt;</ofo:details>
+          <ofo:publicationDetails>&lt;div class="publication"&gt;
+  &lt;span class="publisher"&gt;Wiken&lt;/span&gt;
+  , 
+  &lt;span class="year"&gt;1987&lt;/span&gt;
+&lt;/div&gt;</ofo:publicationDetails>
+          <ofo:content/>
+        </ofo:fullDisplayInformation>
+      </ofo:bibliotekdkFullDisplay>
+    </of:formatResponse>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
