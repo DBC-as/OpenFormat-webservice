@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <ns1:bibliographicData>
+  <dkabm:record>
+    <ac:identifier>21347108|870970</ac:identifier>
+    <ac:source>undefined</ac:source>
+    <dc:title>Bror Blixen</dc:title>
+    <dc:title xsi:type="dkdcplus:full">Bror Blixen : storvildtjæger og kvindebedårer</dc:title>
+    <dcterms:alternative>Manden som kvinderne elskede</dcterms:alternative>
+    <dc:creator xsi:type="dkdcplus:aut">Ulf Aschan</dc:creator>
+    <dc:creator xsi:type="oss:sort">Aschan, Ulf</dc:creator>
+    <dc:subject xsi:type="dkdcplus:DK5">99.4 Blixen-Finecke, Bror von</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DK5-Text">Biografier af enkelte personer</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCF">Bror von Blixen-Finecke</dc:subject>
+    <dc:subject xsi:type="oss:sort">Blixen-Finecke, Bror von</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCO">biografier</dc:subject>
+    <dc:subject xsi:type="dkdcplus:genre">nonfiktion</dc:subject>
+    <dcterms:abstract>Om Bror von Blixen-Fineckes (1886-1946) opvækst i svensk godsejeradel, hans eventyrlige liv indledt ved ægteskabet med Karen Blixen og om livet i Afrika som farmer, storvildtjæger og opdagelsesrejsende samt om hans senere ægteskaber og elskerinder</dcterms:abstract>
+    <dcterms:audience>voksenmaterialer</dcterms:audience>
+    <dkdcplus:version>2. udgave, 1. oplag</dkdcplus:version>
+    <dc:publisher>Sesam</dc:publisher>
+    <dc:date>1996</dc:date>
+    <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+    <dc:format>illustreret</dc:format>
+    <dcterms:extent>240 sider</dcterms:extent>
+    <dc:identifier xsi:type="dkdcplus:ISBN">87-7801-646-0</dc:identifier>
+    <dc:source>Baron Blixen</dc:source>
+    <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+    <dc:language>Dansk</dc:language>
+    <dcterms:temporal xsi:type="dkdcplus:DBCP">1900-1999</dcterms:temporal>
+  </dkabm:record>
+  <marcx:collection>
+    <record format="danMARC2" type="Bibliographic">
+      <leader>000000000000000000000000</leader>
+      <datafield tag="001" ind1="0" ind2="0">
+        <subfield code="a">21347108</subfield>
+        <subfield code="b">870970</subfield>
+        <subfield code="c">20010128224732</subfield>
+        <subfield code="d">19960621</subfield>
+        <subfield code="f">a</subfield>
+        <subfield code="o">c</subfield>
+        <subfield code="t">FAUST</subfield>
+      </datafield>
+      <datafield tag="004" ind1="0" ind2="0">
+        <subfield code="r">n</subfield>
+        <subfield code="a">e</subfield>
+      </datafield>
+      <datafield tag="008" ind1="0" ind2="0">
+        <subfield code="t">m</subfield>
+        <subfield code="u">u</subfield>
+        <subfield code="a">1996</subfield>
+        <subfield code="b">dk</subfield>
+        <subfield code="k">b</subfield>
+        <subfield code="l">dan</subfield>
+        <subfield code="v">0</subfield>
+      </datafield>
+      <datafield tag="009" ind1="0" ind2="0">
+        <subfield code="a">a</subfield>
+        <subfield code="g">xx</subfield>
+      </datafield>
+      <datafield tag="021" ind1="0" ind2="0">
+        <subfield code="a">87-7801-646-0</subfield>
+        <subfield code="c">hf.</subfield>
+        <subfield code="d">kr. 98,00</subfield>
+        <subfield code="x">87-7801-676-0</subfield>
+      </datafield>
+      <datafield tag="032" ind1="0" ind2="0">
+        <subfield code="a">DBF199629</subfield>
+        <subfield code="x">SFD199629</subfield>
+      </datafield>
+      <datafield tag="041" ind1="0" ind2="0">
+        <subfield code="a">dan</subfield>
+        <subfield code="b">eng</subfield>
+        <subfield code="c">swe</subfield>
+      </datafield>
+      <datafield tag="100" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Aschan</subfield>
+        <subfield code="h">Ulf</subfield>
+      </datafield>
+      <datafield tag="241" ind1="0" ind2="0">
+        <subfield code="a">Baron Blixen</subfield>
+      </datafield>
+      <datafield tag="245" ind1="0" ind2="0">
+        <subfield code="a">Bror Blixen</subfield>
+        <subfield code="c">storvildtjæger og kvindebedårer</subfield>
+        <subfield code="e">Ulf Aschan</subfield>
+        <subfield code="f">på dansk ved Birgitte Brix</subfield>
+      </datafield>
+      <datafield tag="250" ind1="0" ind2="0">
+        <subfield code="a">2. udgave</subfield>
+        <subfield code="x">1. oplag</subfield>
+        <subfield code="b">2. udgave</subfield>
+      </datafield>
+      <datafield tag="260" ind1="0" ind2="0">
+        <subfield code="a">[Kbh.]</subfield>
+        <subfield code="b">Sesam</subfield>
+        <subfield code="k">Nørhaven, Viborg</subfield>
+        <subfield code="c">1996</subfield>
+      </datafield>
+      <datafield tag="300" ind1="0" ind2="0">
+        <subfield code="a">240 sider</subfield>
+        <subfield code="b">ill.</subfield>
+      </datafield>
+      <datafield tag="502" ind1="0" ind2="0">
+        <subfield code="a">Oversat efter: The man whom women loved</subfield>
+      </datafield>
+      <datafield tag="502" ind1="0" ind2="0">
+        <subfield code="a">Originaltitel: Baron Blixen (svensk)</subfield>
+      </datafield>
+      <datafield tag="504" ind1="0" ind2="0">
+        <subfield code="a">Om Bror von Blixen-Fineckes (1886-1946) opvækst i svensk godsejeradel, hans eventyrlige liv indledt ved ægteskabet med Karen Blixen og om livet i Afrika som farmer, storvildtjæger og opdagelsesrejsende samt om hans senere ægteskaber og elskerinder</subfield>
+      </datafield>
+      <datafield tag="520" ind1="0" ind2="0">
+        <subfield code="a">Tidligere: 1. udgave med titel: Manden som kvinderne elskede. 1988</subfield>
+      </datafield>
+      <datafield tag="600" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Blixen-Finecke</subfield>
+        <subfield code="h">Bror von</subfield>
+        <subfield code="2">DBC</subfield>
+      </datafield>
+      <datafield tag="652" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="å">1</subfield>
+        <subfield code="m">99.4</subfield>
+        <subfield code="a">Blixen-Finecke</subfield>
+        <subfield code="h">Bror von</subfield>
+      </datafield>
+      <datafield tag="666" ind1="0" ind2="0">
+        <subfield code="i">1900-1999</subfield>
+      </datafield>
+      <datafield tag="666" ind1="0" ind2="0">
+        <subfield code="o">biografier</subfield>
+      </datafield>
+      <datafield tag="745" ind1="0" ind2="0">
+        <subfield code="a">Manden som kvinderne elskede</subfield>
+      </datafield>
+      <datafield tag="900" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Finecke</subfield>
+        <subfield code="h">Bror von Blixen-</subfield>
+        <subfield code="x">se</subfield>
+        <subfield code="w">Blixen-Finecke, Bror von</subfield>
+        <subfield code="z">652/1(a,h)</subfield>
+      </datafield>
+      <datafield tag="900" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Blixen</subfield>
+        <subfield code="h">Bror</subfield>
+        <subfield code="x">se</subfield>
+        <subfield code="w">Blixen-Finecke, Bror von</subfield>
+        <subfield code="z">652/1(a,h)</subfield>
+      </datafield>
+      <datafield tag="s10" ind1="0" ind2="0">
+        <subfield code="a">DBC</subfield>
+      </datafield>
+    </record>
+  </marcx:collection>
+  <oss:openurl>_BASEURL_url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:book&amp;rft.btitle=Bror+Blixen&amp;rft.aulast=Aschan&amp;rft.aufirst=Ulf&amp;rft.auinit=U&amp;rft.date=1996&amp;rft.isbn=87-7801-646-0&amp;rft.pub=Sesam&amp;rft.edition=2.+udgave,+1.+oplag&amp;rft.genre=book</oss:openurl>
+        </ns1:bibliographicData>
+      </ns1:originalData>
+      <ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
