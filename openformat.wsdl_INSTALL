@@ -22,7 +22,7 @@ You should have received a copy of the GNU Affero General Public License along w
 	<wsdl:portType name="formatServicePortType">
 		<wsdl:operation name="format">
 			<wsdl:input message="ofw:formatRequest"/>
-			<wsdl:output message="ofw:formatSResponse"/>
+			<wsdl:output message="ofw:formatResponse"/>
 		</wsdl:operation>
 	</wsdl:portType>
 	<wsdl:binding name="formatServiceSoapBinding" type="ofw:formatServicePortType">
