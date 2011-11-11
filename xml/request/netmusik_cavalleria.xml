@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <ns1:bibliographicData>
+  <dkabm:record>
+    <ac:identifier>0000000018287060|150014</ac:identifier>
+    <ac:source>undefined</ac:source>
+    <dc:title>Mascagni: Cavalleria Rusticana</dc:title>
+    <dc:title xsi:type="dkdcplus:full">Mascagni: Cavalleria Rusticana</dc:title>
+    <dc:creator>Riccardo Muti</dc:creator>
+    <dc:creator xsi:type="oss:sort">Muti, Riccardo</dc:creator>
+    <dc:subject>klassisk musik</dc:subject>
+    <dcterms:audience>voksenmaterialer</dcterms:audience>
+    <dc:publisher>EMI Classics</dc:publisher>
+    <dc:contributor xsi:type="dkdcplus:cmp">Ruggero Leoncavallo</dc:contributor>
+    <dc:contributor xsi:type="dkdcplus:cmp">Pietro Mascagni</dc:contributor>
+    <dc:contributor>Jose Carreras</dc:contributor>
+    <dc:contributor>Riccardo Muti</dc:contributor>
+    <dc:contributor>John Mordler</dc:contributor>
+    <dc:contributor>Kari Nurmela</dc:contributor>
+    <dc:contributor>Astrid Varnay</dc:contributor>
+    <dc:contributor>John McCarthy</dc:contributor>
+    <dc:contributor>Matteo Manuguerra</dc:contributor>
+    <dc:contributor>Julia Hamari</dc:contributor>
+    <dc:contributor>Renata Scotto</dc:contributor>
+    <dc:contributor>Astrid Varnay</dc:contributor>
+    <dc:contributor>Thomas Allen</dc:contributor>
+    <dc:contributor>Ugo Benelli</dc:contributor>
+    <dc:contributor xsi:type="dkdcplus:mus">José Carreras</dc:contributor>
+    <dc:contributor xsi:type="dkdcplus:mus">PHILHARMONIA ORCHESTRA</dc:contributor>
+    <dc:contributor xsi:type="dkdcplus:mus">Montserrat Caballé</dc:contributor>
+    <dc:contributor xsi:type="dkdcplus:mus">Ambrosian Opera Chorus</dc:contributor>
+    <dc:contributor xsi:type="dkdcplus:mus">Southend Boys' Choir</dc:contributor>
+    <dc:contributor>PHILHARMONIA ORCHESTRA</dc:contributor>
+    <dc:contributor>Montserrat Caballé</dc:contributor>
+    <dc:contributor>Ambrosian Opera Chorus</dc:contributor>
+    <dc:contributor xsi:type="dkdcplus:prf">Southend Boys' Choir</dc:contributor>
+    <dc:date>2011</dc:date>
+    <dc:type xsi:type="dkdcplus:BibDK-Type">Musik (net)</dc:type>
+    <dc:identifier xsi:type="dcterms:URI">http://www.bibzoom.dk/cgi-bin/WebObjects/TShop.woa/wa/PSShop/MusicCollection?sku=0000000018287060</dc:identifier>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Cavalleria Rusticana (1987 Digital Remaster): No, no, Turiddu, rimani (Santuzza/Turiddu)</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Pagliacci (1987 Digital Remaster), PROLOGO/PROLOGUE/PROLOG: Si può? Si può? (Tonio)</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Cavalleria Rusticana (1987 Digital Remaster): Intermezzo (Orchestra)</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Cavalleria Rusticana (1987 Digital Remaster): Mamma, quel vino è generoso (Turiddu/Mamma Lucia/Santuzza/Una donna)</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Preludio (Orchestra) ... O Lola ch'hai di latti la cammisa (Turiddu) from Cavalleria rusticana (1987 Digital Remaster)</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Cavalleria Rusticana (1987 Digital Remaster): Il cavallo scalpita (Alfio/Chorus)</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Cavalleria Rusticana (1987 Digital Remaster): Viva il vino spumeggiante (Turiddu/Coro/Lola)</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Pagliacci (1987 Digital Remaster), ATTO PRIMO/ACT 1/ERSTER AKT/PREMIER ACTE, Scena seconda/Scene 2/Zweite Szene/Deuxième Scène: Qual fiamma avea nel guardo!...Hiu! Stridono lassù (Nedda)</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Regina Coeli ... Inneggiamo, il Signor non è morto (Coro/Santuzza/Mamma Lucia) from Cavalleria rusticana (1987 Digital Remaster)</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Pagliacci (1987 Digital Remaster), ATTO PRIMO/ACT 1/ERSTER AKT/PREMIER ACTE, Scena seconda/Scene 2/Zweite Szene/Deuxième Scène: E allor perché, di', tu m'hai stregato (Silvio/Nedda)</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Cavalleria Rusticana (1987 Digital Remaster): Voi lo sapete, o mamma (Santuzza/Mamma Lucia)</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Pagliacci (1987 Digital Remaster), ATTO PRIMO/ACT 1/ERSTER AKT/PREMIER ACTE, Scena seconda/Scene 2/Zweite Szene/Deuxième Scène: Recitar!...Vesti la giubba</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">No, Pagliaccio non son ... Suvvia, così terrible(Canio/Coro/Silvio/Nedda/Beppe/Tonio) from Pagliacci (1987 Digital Remaster)</dcterms:hasPart>
+  </dkabm:record>
+  <marcx:collection>
+    <record format="danMARC2" type="Bibliographic">
+      <leader>000000000000000000000000</leader>
+      <datafield tag="001" ind1="0" ind2="0">
+        <subfield code="a">0000000018287060</subfield>
+        <subfield code="b">150014</subfield>
+        <subfield code="d">20110808</subfield>
+        <subfield code="f">a</subfield>
+      </datafield>
+      <datafield tag="004" ind1="0" ind2="0">
+        <subfield code="r">n</subfield>
+        <subfield code="a">e</subfield>
+      </datafield>
+      <datafield tag="008" ind1="0" ind2="0">
+        <subfield code="t">m</subfield>
+        <subfield code="a">2011</subfield>
+        <subfield code="n">a</subfield>
+        <subfield code="v">7</subfield>
+      </datafield>
+      <datafield tag="009" ind1="0" ind2="0">
+        <subfield code="a">s</subfield>
+        <subfield code="g">xe</subfield>
+      </datafield>
+      <datafield tag="023" ind1="0" ind2="0">
+        <subfield code="a">5099909483859</subfield>
+      </datafield>
+      <datafield tag="100" ind1="0" ind2="0">
+        <subfield code="a">Muti</subfield>
+        <subfield code="h">Riccardo</subfield>
+      </datafield>
+      <datafield tag="245" ind1="0" ind2="0">
+        <subfield code="a">Mascagni: Cavalleria Rusticana</subfield>
+      </datafield>
+      <datafield tag="260" ind1="0" ind2="0">
+        <subfield code="b">EMI Classics</subfield>
+        <subfield code="c">2011</subfield>
+      </datafield>
+      <datafield tag="631" ind1="0" ind2="0">
+        <subfield code="a">klassisk musik</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="a">Leoncavallo</subfield>
+        <subfield code="h">Ruggero</subfield>
+        <subfield code="4">cmp</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="a">Mascagni</subfield>
+        <subfield code="h">Pietro</subfield>
+        <subfield code="4">cmp</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="a">Carreras</subfield>
+        <subfield code="h">Jose</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="a">Muti</subfield>
+        <subfield code="h">Riccardo</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="a">Mordler</subfield>
+        <subfield code="h">John</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="a">Nurmela</subfield>
+        <subfield code="h">Kari</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="a">Varnay</subfield>
+        <subfield code="h">Astrid</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="a">McCarthy</subfield>
+        <subfield code="h">John</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="a">Manuguerra</subfield>
+        <subfield code="h">Matteo</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="a">Hamari</subfield>
+        <subfield code="h">Julia</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="a">Scotto</subfield>
+        <subfield code="h">Renata</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="a">Varnay</subfield>
+        <subfield code="h">Astrid</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="a">Allen</subfield>
+        <subfield code="h">Thomas</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="a">Benelli</subfield>
+        <subfield code="h">Ugo</subfield>
+      </datafield>
+      <datafield tag="720" ind1="0" ind2="0">
+        <subfield code="o">José Carreras</subfield>
+        <subfield code="4">mus</subfield>
+      </datafield>
+      <datafield tag="720" ind1="0" ind2="0">
+        <subfield code="o">PHILHARMONIA ORCHESTRA</subfield>
+        <subfield code="4">mus</subfield>
+      </datafield>
+      <datafield tag="720" ind1="0" ind2="0">
+        <subfield code="o">Montserrat Caballé</subfield>
+        <subfield code="4">mus</subfield>
+      </datafield>
+      <datafield tag="720" ind1="0" ind2="0">
+        <subfield code="o">Ambrosian Opera Chorus</subfield>
+        <subfield code="4">mus</subfield>
+      </datafield>
+      <datafield tag="720" ind1="0" ind2="0">
+        <subfield code="o">Southend Boys' Choir</subfield>
+        <subfield code="4">mus</subfield>
+      </datafield>
+      <datafield tag="720" ind1="0" ind2="0">
+        <subfield code="o">PHILHARMONIA ORCHESTRA</subfield>
+      </datafield>
+      <datafield tag="720" ind1="0" ind2="0">
+        <subfield code="o">Montserrat Caballé</subfield>
+      </datafield>
+      <datafield tag="720" ind1="0" ind2="0">
+        <subfield code="o">Ambrosian Opera Chorus</subfield>
+      </datafield>
+      <datafield tag="720" ind1="0" ind2="0">
+        <subfield code="o">Southend Boys' Choir</subfield>
+        <subfield code="4">prf</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">11</subfield>
+        <subfield code="a">Cavalleria Rusticana (1987 Digital Remaster): No, no, Turiddu, rimani (Santuzza/Turiddu)</subfield>
+        <subfield code="l">5:38 min</subfield>
+        <subfield code="x">0000000018287117</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">12</subfield>
+        <subfield code="a">Pagliacci (1987 Digital Remaster), PROLOGO/PROLOGUE/PROLOG: Si può? Si può? (Tonio)</subfield>
+        <subfield code="l">7:52 min</subfield>
+        <subfield code="x">0000000018287136</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">13</subfield>
+        <subfield code="a">Cavalleria Rusticana (1987 Digital Remaster): Intermezzo (Orchestra)</subfield>
+        <subfield code="l">3:45 min</subfield>
+        <subfield code="x">0000000018287118</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">14</subfield>
+        <subfield code="a">Cavalleria Rusticana (1987 Digital Remaster): Mamma, quel vino è generoso (Turiddu/Mamma Lucia/Santuzza/Una donna)</subfield>
+        <subfield code="l">5:42 min</subfield>
+        <subfield code="x">0000000018287133</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">15</subfield>
+        <subfield code="a">Preludio (Orchestra) ... O Lola ch'hai di latti la cammisa (Turiddu) from Cavalleria rusticana (1987 Digital Remaster)</subfield>
+        <subfield code="l">8:12 min</subfield>
+        <subfield code="x">0000000018287062</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">16</subfield>
+        <subfield code="a">Cavalleria Rusticana (1987 Digital Remaster): Il cavallo scalpita (Alfio/Chorus)</subfield>
+        <subfield code="l">2:43 min</subfield>
+        <subfield code="x">0000000018287069</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">17</subfield>
+        <subfield code="a">Cavalleria Rusticana (1987 Digital Remaster): Viva il vino spumeggiante (Turiddu/Coro/Lola)</subfield>
+        <subfield code="l">2:51 min</subfield>
+        <subfield code="x">0000000018287121</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">18</subfield>
+        <subfield code="a">Pagliacci (1987 Digital Remaster), ATTO PRIMO/ACT 1/ERSTER AKT/PREMIER ACTE, Scena seconda/Scene 2/Zweite Szene/Deuxième Scène: Qual fiamma avea nel guardo!...Hiu! Stridono lassù (Nedda)</subfield>
+        <subfield code="l">5:27 min</subfield>
+        <subfield code="x">0000000018287137</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">19</subfield>
+        <subfield code="a">Regina Coeli ... Inneggiamo, il Signor non è morto (Coro/Santuzza/Mamma Lucia) from Cavalleria rusticana (1987 Digital Remaster)</subfield>
+        <subfield code="l">6:37 min</subfield>
+        <subfield code="x">0000000018287082</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">20</subfield>
+        <subfield code="a">Pagliacci (1987 Digital Remaster), ATTO PRIMO/ACT 1/ERSTER AKT/PREMIER ACTE, Scena seconda/Scene 2/Zweite Szene/Deuxième Scène: E allor perché, di', tu m'hai stregato (Silvio/Nedda)</subfield>
+        <subfield code="l">4:01 min</subfield>
+        <subfield code="x">0000000018287138</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">21</subfield>
+        <subfield code="a">Cavalleria Rusticana (1987 Digital Remaster): Voi lo sapete, o mamma (Santuzza/Mamma Lucia)</subfield>
+        <subfield code="l">5:50 min</subfield>
+        <subfield code="x">0000000018287114</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">22</subfield>
+        <subfield code="a">Pagliacci (1987 Digital Remaster), ATTO PRIMO/ACT 1/ERSTER AKT/PREMIER ACTE, Scena seconda/Scene 2/Zweite Szene/Deuxième Scène: Recitar!...Vesti la giubba</subfield>
+        <subfield code="l">3:57 min</subfield>
+        <subfield code="x">0000000018287139</subfield>
+      </datafield>
+      <datafield tag="795" ind1="0" ind2="0">
+        <subfield code="å">23</subfield>
+        <subfield code="a">No, Pagliaccio non son ... Suvvia, così terrible(Canio/Coro/Silvio/Nedda/Beppe/Tonio) from Pagliacci (1987 Digital Remaster)</subfield>
+        <subfield code="l">6:20 min</subfield>
+        <subfield code="x">0000000018287140</subfield>
+      </datafield>
+      <datafield tag="856" ind1="0" ind2="0">
+        <subfield code="u">http://www.bibzoom.dk/cgi-bin/WebObjects/TShop.woa/wa/PSShop/MusicCollection?sku=0000000018287060</subfield>
+      </datafield>
+    </record>
+  </marcx:collection>
+  <oss:openurl/>
+        </ns1:bibliographicData>
+      </ns1:originalData>
+      <ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
