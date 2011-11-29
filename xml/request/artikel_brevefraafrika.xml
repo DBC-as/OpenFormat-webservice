@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <ns1:bibliographicData>
+  <dkabm:record>
+    <ac:identifier>71942031|870971</ac:identifier>
+    <ac:source>Artikler</ac:source>
+    <dc:title>Breve fra Afrika</dc:title>
+    <dc:title xsi:type="dkdcplus:full">Breve fra Afrika</dc:title>
+    <dc:creator>Kajsa Harryson</dc:creator>
+    <dc:creator xsi:type="oss:sort">Harryson, Kajsa</dc:creator>
+    <dc:subject xsi:type="dkdcplus:DK5">99.4 Blixen, Karen</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DK5-Text">Biografier af enkelte personer</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCF">Bror von Blixen-Finecke</dc:subject>
+    <dc:subject xsi:type="oss:sort">Blixen-Finecke, Bror von</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCF">Karen Blixen</dc:subject>
+    <dc:subject xsi:type="oss:sort">Blixen, Karen</dc:subject>
+    <dc:subject>biografier</dc:subject>
+    <dc:subject xsi:type="dkdcplus:genre">nonfiktion</dc:subject>
+    <dcterms:abstract>Om Bror Blixen, den ægtemand, som Karen Blixen absolut ikke ville skilles fra</dcterms:abstract>
+    <dcterms:audience>voksenmaterialer</dcterms:audience>
+    <dc:date>1986</dc:date>
+    <dc:type xsi:type="dkdcplus:BibDK-Type">Avisartikel</dc:type>
+    <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+    <dc:language>Dansk</dc:language>
+    <dcterms:isPartOf>Politiken, 1986-05-06</dcterms:isPartOf>
+    <dcterms:isPartOf xsi:type="dkdcplus:ISSN">0907-1814</dcterms:isPartOf>
+  </dkabm:record>
+  <marcx:collection>
+    <record format="danMARC2" type="Bibliographic">
+      <leader>000000000000000000000000</leader>
+      <datafield tag="001" ind1="0" ind2="0">
+        <subfield code="a">71942031</subfield>
+        <subfield code="b">870971</subfield>
+        <subfield code="c">20030704120742</subfield>
+        <subfield code="d">19860526</subfield>
+        <subfield code="f">a</subfield>
+      </datafield>
+      <datafield tag="004" ind1="0" ind2="0">
+        <subfield code="r">n</subfield>
+        <subfield code="a">i</subfield>
+      </datafield>
+      <datafield tag="008" ind1="0" ind2="0">
+        <subfield code="t">a</subfield>
+        <subfield code="u">f</subfield>
+        <subfield code="a">1986</subfield>
+        <subfield code="b">dk</subfield>
+        <subfield code="l">dan</subfield>
+        <subfield code="r">an</subfield>
+        <subfield code="v">0</subfield>
+      </datafield>
+      <datafield tag="009" ind1="0" ind2="0">
+        <subfield code="a">a</subfield>
+        <subfield code="g">xx</subfield>
+      </datafield>
+      <datafield tag="016" ind1="0" ind2="0">
+        <subfield code="a">03243850</subfield>
+      </datafield>
+      <datafield tag="032" ind1="0" ind2="0">
+        <subfield code="a">ABU200327</subfield>
+        <subfield code="a">DAR198605</subfield>
+      </datafield>
+      <datafield tag="086" ind1="0" ind2="0">
+        <subfield code="a">Biografier af enkelte personer</subfield>
+      </datafield>
+      <datafield tag="245" ind1="0" ind2="0">
+        <subfield code="a">Breve fra Afrika</subfield>
+      </datafield>
+      <datafield tag="504" ind1="0" ind2="0">
+        <subfield code="a">Om Bror Blixen, den ægtemand, som Karen Blixen absolut ikke ville skilles fra</subfield>
+      </datafield>
+      <datafield tag="557" ind1="0" ind2="0">
+        <subfield code="a">Politiken</subfield>
+        <subfield code="j">1986</subfield>
+        <subfield code="z">0907-1814</subfield>
+        <subfield code="V">1986-05-06</subfield>
+        <subfield code="v">1986-05-06</subfield>
+      </datafield>
+      <datafield tag="600" ind1="0" ind2="0">
+        <subfield code="a">Blixen</subfield>
+        <subfield code="h">Karen</subfield>
+        <subfield code="2">ARTB</subfield>
+      </datafield>
+      <datafield tag="600" ind1="0" ind2="0">
+        <subfield code="a">Blixen-Finecke</subfield>
+        <subfield code="h">Bror von</subfield>
+      </datafield>
+      <datafield tag="630" ind1="0" ind2="0">
+        <subfield code="f">biografier</subfield>
+        <subfield code="2">ARTB</subfield>
+      </datafield>
+      <datafield tag="652" ind1="0" ind2="0">
+        <subfield code="m">99.4</subfield>
+        <subfield code="a">Blixen</subfield>
+        <subfield code="h">Karen</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="a">Harryson</subfield>
+        <subfield code="h">Kajsa</subfield>
+      </datafield>
+      <datafield tag="996" ind1="0" ind2="0">
+        <subfield code="a">IDX</subfield>
+      </datafield>
+    </record>
+  </marcx:collection>
+  <oss:openurl>_BASEURL_url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:journal&amp;rft.atitle=Breve+fra+Afrika&amp;rft.aulast=Harryson&amp;rft.aufirst=Kajsa&amp;rft.auinit=K&amp;rft.jtitle=Politiken&amp;rft.date=1986&amp;rft.pages=&amp;rft.spage=&amp;rft.epage=&amp;rft.issn=0907-1814&amp;rft.genre=article</oss:openurl>
+        </ns1:bibliographicData>
+      </ns1:originalData>
+      <ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
