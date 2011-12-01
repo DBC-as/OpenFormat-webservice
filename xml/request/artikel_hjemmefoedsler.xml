@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <ns1:bibliographicData>
+  <dkabm:record>
+    <ac:identifier>34903743|870971</ac:identifier>
+    <ac:source>Artikler</ac:source>
+    <dc:title>Hjemmefødslser på et oplyst grundlag</dc:title>
+    <dc:title>Ole og ketchupeffekten</dc:title>
+    <dc:title>Hellere blive hjemme end føde ambulant</dc:title>
+    <dc:title xsi:type="dkdcplus:full">Hjemmefødslser på et oplyst grundlag : Ole og ketchupeffekten : Hellere blive hjemme end føde ambulant</dc:title>
+    <dc:title xsi:type="dkdcplus:series">Hjemmesfødsler</dc:title>
+    <dc:creator>Conny Mikkelsen</dc:creator>
+    <dc:creator xsi:type="oss:sort">Mikkelsen, Conny</dc:creator>
+    <dc:subject xsi:type="dkdcplus:DK5">61.68</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DK5-Text">Gynækologi</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCF">fødsel</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCF">hjemmefødsel</dc:subject>
+    <dc:subject xsi:type="dkdcplus:genre">nonfiktion</dc:subject>
+    <dcterms:audience>voksenmaterialer</dcterms:audience>
+    <dc:date>2011</dc:date>
+    <dc:type xsi:type="dkdcplus:BibDK-Type">Tidsskriftsartikel</dc:type>
+    <dc:format>illustreret</dc:format>
+    <dcterms:extent>S. 6-10</dcterms:extent>
+    <dc:identifier xsi:type="dcterms:URI">http://www.jordemoderforeningen.dk/tidsskrift-for-jordemoedre/singlevisning/artikel/hjemmefoedsler-paa-et-oplyst-grundlag/</dc:identifier>
+    <dc:identifier xsi:type="dcterms:URI">http://www.jordemoderforeningen.dk/tidsskrift-for-jordemoedre/singlevisning/artikel/ole-og-ketchupeffekten/</dc:identifier>
+    <dc:identifier xsi:type="dcterms:URI">http://www.jordemoderforeningen.dk/tidsskrift-for-jordemoedre/singlevisning/artikel/hellere-blive-hjemme-end-foede-ambulant/</dc:identifier>
+    <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+    <dc:language>Dansk</dc:language>
+    <dcterms:isPartOf>Tidsskrift for jordemødre, Årg. 121, nr. 11 (2011)</dcterms:isPartOf>
+    <dcterms:isPartOf xsi:type="dkdcplus:ISSN">0106-1836</dcterms:isPartOf>
+  </dkabm:record>
+  <marcx:collection>
+    <record format="danMARC2" type="Bibliographic">
+      <leader>000000000000000000000000</leader>
+      <datafield tag="001" ind1="0" ind2="0">
+        <subfield code="a">34903743</subfield>
+        <subfield code="b">870971</subfield>
+        <subfield code="c">20111125192147</subfield>
+        <subfield code="d">20111125</subfield>
+        <subfield code="f">a</subfield>
+      </datafield>
+      <datafield tag="004" ind1="0" ind2="0">
+        <subfield code="r">n</subfield>
+        <subfield code="a">i</subfield>
+      </datafield>
+      <datafield tag="008" ind1="0" ind2="0">
+        <subfield code="t">a</subfield>
+        <subfield code="u">f</subfield>
+        <subfield code="a">2011</subfield>
+        <subfield code="b">dk</subfield>
+        <subfield code="d">y</subfield>
+        <subfield code="l">dan</subfield>
+        <subfield code="r">ap</subfield>
+        <subfield code="v">0</subfield>
+      </datafield>
+      <datafield tag="009" ind1="0" ind2="0">
+        <subfield code="a">a</subfield>
+        <subfield code="g">xe</subfield>
+        <subfield code="g">xx</subfield>
+      </datafield>
+      <datafield tag="016" ind1="0" ind2="0">
+        <subfield code="a">03204162</subfield>
+      </datafield>
+      <datafield tag="032" ind1="0" ind2="0">
+        <subfield code="a">ABU201148</subfield>
+        <subfield code="a">DAR201148</subfield>
+        <subfield code="x">IDA201148</subfield>
+        <subfield code="x">ARK201148</subfield>
+      </datafield>
+      <datafield tag="086" ind1="0" ind2="0">
+        <subfield code="a">Gynækologi</subfield>
+      </datafield>
+      <datafield tag="245" ind1="0" ind2="0">
+        <subfield code="a">Hjemmefødslser på et oplyst grundlag</subfield>
+        <subfield code="a">Ole og ketchupeffekten</subfield>
+        <subfield code="a">Hellere blive hjemme end føde ambulant</subfield>
+      </datafield>
+      <datafield tag="300" ind1="0" ind2="0">
+        <subfield code="a">S. 6-10</subfield>
+        <subfield code="b">ill.</subfield>
+      </datafield>
+      <datafield tag="440" ind1="0" ind2="0">
+        <subfield code="a">Hjemmesfødsler</subfield>
+      </datafield>
+      <datafield tag="532" ind1="0" ind2="0">
+        <subfield code="a">Med litteraturhenvisninger</subfield>
+      </datafield>
+      <datafield tag="557" ind1="0" ind2="0">
+        <subfield code="a">Tidsskrift for jordemødre</subfield>
+        <subfield code="j">2011</subfield>
+        <subfield code="z">0106-1836</subfield>
+        <subfield code="V">Årg. 0121, nr. 0011 (2011)</subfield>
+        <subfield code="v">Årg. 121, nr. 11 (2011)</subfield>
+      </datafield>
+      <datafield tag="652" ind1="0" ind2="0">
+        <subfield code="m">61.68</subfield>
+      </datafield>
+      <datafield tag="666" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="f">fødsel</subfield>
+      </datafield>
+      <datafield tag="666" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="f">hjemmefødsel</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="a">Mikkelsen</subfield>
+        <subfield code="h">Conny</subfield>
+      </datafield>
+      <datafield tag="856" ind1="0" ind2="0">
+        <subfield code="z">Findes også på internettet</subfield>
+        <subfield code="u">http://www.jordemoderforeningen.dk/tidsskrift-for-jordemoedre/singlevisning/artikel/hjemmefoedsler-paa-et-oplyst-grundlag/</subfield>
+      </datafield>
+      <datafield tag="856" ind1="0" ind2="0">
+        <subfield code="z">Findes også på internettet</subfield>
+        <subfield code="u">http://www.jordemoderforeningen.dk/tidsskrift-for-jordemoedre/singlevisning/artikel/ole-og-ketchupeffekten/</subfield>
+      </datafield>
+      <datafield tag="856" ind1="0" ind2="0">
+        <subfield code="z">Findes også på internettet</subfield>
+        <subfield code="u">http://www.jordemoderforeningen.dk/tidsskrift-for-jordemoedre/singlevisning/artikel/hellere-blive-hjemme-end-foede-ambulant/</subfield>
+      </datafield>
+      <datafield tag="996" ind1="0" ind2="0">
+        <subfield code="a">IDX</subfield>
+      </datafield>
+    </record>
+  </marcx:collection>
+  <oss:openurl>_BASEURL_url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:journal&amp;rft.atitle=Hjemmefødslser+på+et+oplyst+grundlag&amp;rft.aulast=Mikkelsen&amp;rft.aufirst=Conny&amp;rft.auinit=C&amp;rft.jtitle=Tidsskrift+for+jordemødre&amp;rft.date=2011&amp;rft.volume=121&amp;rft.issue=11&amp;rft.pages=6-10&amp;rft.spage=6&amp;rft.epage=10&amp;rft.issn=0106-1836&amp;rft.genre=article</oss:openurl>
+        </ns1:bibliographicData>
+      </ns1:originalData>
+      <ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
