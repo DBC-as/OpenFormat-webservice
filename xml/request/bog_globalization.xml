@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <ns1:bibliographicData>
+  <dkabm:record>
+    <ac:identifier>000467112|820120</ac:identifier>
+    <ac:source>NJE</ac:source>
+    <dc:title>Globalization</dc:title>
+    <dc:title xsi:type="dkdcplus:full">Globalization : Trade agreements, global health and United Nations involvement</dc:title>
+    <dc:subject xsi:type="dcterms:LCSH">Balance of trade</dc:subject>
+    <dc:subject xsi:type="dcterms:LCSH">World health</dc:subject>
+    <dcterms:abstract>This book presents current research in the study of globalization, with a particular focus on global health programs, trade agreements and United Nations involvement. Topics discussed include trade agreements and their impact on the U.S. economy; U.S. trade deficit and the impact of changing oil prices; free trade agreements; centers for disease control and prevention global health programs; the 2009 influenza pandemic; United Nations assistance mission in Afghanistan; the United Nations Human Rights Council; and the United Nations Convention on the Rights of the Child</dcterms:abstract>
+    <dc:description>Preface; Trade Agreements: Impact on the U.S. Economy; U.S. Trade Deficit &amp; the Impact of Changing Oil Prices; Free Trade Agreements: Impact on U.S. Trade &amp; Implications for U.S. Trade Policy; Centers for Disease Control &amp; Prevention Global Health Programs: FY2001-FY2011; The 2009 Influenza Pandemic: An Overview; United Nations Reform: U.S. Policy &amp; International Perspectives; United Nations Assistance Mission in Afghanistan: Background &amp; Policy Issues; The United Nations Human Rights Council: Issues for Congress; The United Nations Convention on the Rights of the Child: Background &amp; Policy Issues</dc:description>
+    <dcterms:audience>voksenmaterialer</dcterms:audience>
+    <dc:publisher>Nova Science</dc:publisher>
+    <dc:contributor>Marilyn G. Massari</dc:contributor>
+    <dc:contributor>Karl J. Lutz</dc:contributor>
+    <dc:date>2011</dc:date>
+    <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+    <dcterms:extent>x s.</dcterms:extent>
+    <dc:identifier xsi:type="dkdcplus:ISBN">1614703272</dc:identifier>
+    <dc:identifier xsi:type="dkdcplus:ISBN">9781614703273</dc:identifier>
+    <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+    <dc:language>Engelsk</dc:language>
+  </dkabm:record>
+  <marcx:collection>
+    <record format="danMARC2" type="Bibliographic">
+      <leader>000000000000000000000000</leader>
+      <datafield tag="001" ind1="0" ind2="0">
+        <subfield code="a">000467112</subfield>
+        <subfield code="b">820120</subfield>
+        <subfield code="f">a</subfield>
+      </datafield>
+      <datafield tag="004" ind1="0" ind2="0">
+        <subfield code="r">n</subfield>
+        <subfield code="a">e</subfield>
+      </datafield>
+      <datafield tag="008" ind1="0" ind2="0">
+        <subfield code="t">m</subfield>
+        <subfield code="a">2011</subfield>
+        <subfield code="l">eng</subfield>
+        <subfield code="v">4</subfield>
+      </datafield>
+      <datafield tag="009" ind1="0" ind2="0">
+        <subfield code="a">a</subfield>
+        <subfield code="g">xx</subfield>
+      </datafield>
+      <datafield tag="021" ind1="0" ind2="0">
+        <subfield code="e">9781614703273</subfield>
+      </datafield>
+      <datafield tag="021" ind1="0" ind2="0">
+        <subfield code="a">1614703272</subfield>
+      </datafield>
+      <datafield tag="245" ind1="0" ind2="0">
+        <subfield code="a">Globalization</subfield>
+        <subfield code="c">Trade agreements, global health and United Nations involvement</subfield>
+      </datafield>
+      <datafield tag="260" ind1="0" ind2="0">
+        <subfield code="a">Hauppauge, N.Y.</subfield>
+        <subfield code="b">Nova Science</subfield>
+        <subfield code="c">2011</subfield>
+      </datafield>
+      <datafield tag="300" ind1="0" ind2="0">
+        <subfield code="a">x s.</subfield>
+      </datafield>
+      <datafield tag="504" ind1="0" ind2="0">
+        <subfield code="a">This book presents current research in the study of globalization, with a particular focus on global health programs, trade agreements and United Nations involvement. Topics discussed include trade agreements and their impact on the U.S. economy; U.S. trade deficit and the impact of changing oil prices; free trade agreements; centers for disease control and prevention global health programs; the 2009 influenza pandemic; United Nations assistance mission in Afghanistan; the United Nations Human Rights Council; and the United Nations Convention on the Rights of the Child</subfield>
+      </datafield>
+      <datafield tag="530" ind1="0" ind2="0">
+        <subfield code="a">Preface; Trade Agreements: Impact on the U.S. Economy; U.S. Trade Deficit &amp; the Impact of Changing Oil Prices; Free Trade Agreements: Impact on U.S. Trade &amp; Implications for U.S. Trade Policy; Centers for Disease Control &amp; Prevention Global Health Programs: FY2001-FY2011; The 2009 Influenza Pandemic: An Overview; United Nations Reform: U.S. Policy &amp; International Perspectives; United Nations Assistance Mission in Afghanistan: Background &amp; Policy Issues; The United Nations Human Rights Council: Issues for Congress; The United Nations Convention on the Rights of the Child: Background &amp; Policy Issues</subfield>
+      </datafield>
+      <datafield tag="650" ind1="0" ind2="0">
+        <subfield code="a">Balance of trade</subfield>
+        <subfield code="z">United States</subfield>
+      </datafield>
+      <datafield tag="650" ind1="0" ind2="0">
+        <subfield code="a">World health</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="a">Massari</subfield>
+        <subfield code="h">Marilyn G.</subfield>
+        <subfield code="b">(ed.)</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="a">Lutz</subfield>
+        <subfield code="h">Karl J.</subfield>
+        <subfield code="b">(ed.)</subfield>
+      </datafield>
+    </record>
+  </marcx:collection>
+  <oss:openurl>_BASEURL_url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:book&amp;rft.btitle=Globalization&amp;rft.aulast=Massari&amp;rft.aufirst=Marilyn+G.&amp;rft.auinit=MG&amp;rft.date=2011&amp;rft.isbn=9781614703273&amp;rft.pub=Nova+Science&amp;rft.genre=book</oss:openurl>
+        </ns1:bibliographicData>
+      </ns1:originalData>
+      <ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
