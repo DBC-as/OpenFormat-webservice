@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <ns1:bibliographicData>
+  <dkabm:record>
+    <ac:identifier>29080380|870970</ac:identifier>
+    <ac:source>NJE</ac:source>
+    <dc:title>Hvor lidt der skal til</dc:title>
+    <dc:title xsi:type="dkdcplus:full">Hvor lidt der skal til : en bog om Helle Helles forfatterskab</dc:title>
+    <dc:title xsi:type="dkdcplus:series">University of Southern Denmark studies in Scandinavian languages and literature ; vol. 106</dc:title>
+    <dcterms:alternative>Hvor lidt skal der til</dcterms:alternative>
+    <dc:subject xsi:type="dkdcplus:DK5">99.4 Helle, Helle</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DK5-Text">Biografier af enkelte personer</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCF">Helle Helle</dc:subject>
+    <dc:subject xsi:type="oss:sort">Helle, Helle</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCO">analyser</dc:subject>
+    <dc:subject>bibliografier</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCF">dansk litteratur</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCF">forfatterskaber</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCO">litteraturanalyser</dc:subject>
+    <dc:subject xsi:type="dkdcplus:genre">nonfiktion</dc:subject>
+    <dc:description>Indhold: Helle Helle: Alfabetet ; Noter. Per Krogh Hansen: Lidt har også ret. Værklæsninger (Maja Lucas: Bogen der svajede : Eksempel på liv, 1993. Anker Gemzøe: Rester betyder : Rester, 1996. Karen Hvidtfeldt Madsen: "Alting er som det skal være" : det helt almindelige livs æstetik : Hus og hjem, 1999. Anne-Marie Vestergꜳrd: Er flæskestegen et symbol? : Biler og dyr, 2000. Jørgen Ꜳbenhus: Et sted at være : Forestillingen om et ukompliceret liv med en mand, 2002. Karin Esmann Knudsen: Også plads til børnelæseren : Min mor sidder fast på en pind /sammen med Lars Nørgꜳrd, 2003. Trine Wittenburg Kvorning: På jagt efter en undertekst : Rødby-Puttgarden, 2005. Niels Gunder Hansen: De gode menneskers provins : Ned til hundene, 2008. Anita Nell Bech Albertsen: Også tilværelsen kræver fortolkning : Det burde skrives i nutid, 2011). Morten Mikkelsen: Helle Helle som dansklærerlitteratur. Dennis Gade Kofod: Et mail-interview med Helle Helle. Lars Bukdahl: Minimalmaraton! : en Helle Helle-læsning i real time</dc:description>
+    <dcterms:audience>voksenmaterialer</dcterms:audience>
+    <dc:publisher>Syddansk Universitetsforlag</dc:publisher>
+    <dc:publisher>Rosinante</dc:publisher>
+    <dc:contributor xsi:type="dkdcplus:edt">Jørgen Ꜳbenhus</dc:contributor>
+    <dc:contributor xsi:type="dkdcplus:edt">Anita Nell Bech Albertsen</dc:contributor>
+    <dc:contributor xsi:type="dkdcplus:edt">Per Krogh Hansen</dc:contributor>
+    <dc:contributor>Syddansk Universitet</dc:contributor>
+    <dc:date>2011</dc:date>
+    <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+    <dcterms:extent>310 sider</dcterms:extent>
+    <dc:identifier xsi:type="dkdcplus:ISBN">9788776745790</dc:identifier>
+    <dc:identifier xsi:type="dkdcplus:ISSN">0078-3331</dc:identifier>
+    <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+    <dc:language>Dansk</dc:language>
+    <dcterms:temporal xsi:type="dkdcplus:DBCP">1990-1999</dcterms:temporal>
+    <dcterms:temporal xsi:type="dkdcplus:DBCP">2000-2009</dcterms:temporal>
+    <dcterms:temporal xsi:type="dkdcplus:DBCP">2010-2019</dcterms:temporal>
+  </dkabm:record>
+  <marcx:collection>
+    <record format="danMARC2" type="Bibliographic">
+      <leader>000000000000000000000000</leader>
+      <datafield tag="001" ind1="0" ind2="0">
+        <subfield code="a">29080380</subfield>
+        <subfield code="b">870970</subfield>
+        <subfield code="c">20111212180733</subfield>
+        <subfield code="d">20111118</subfield>
+        <subfield code="f">a</subfield>
+        <subfield code="t">FAUST</subfield>
+      </datafield>
+      <datafield tag="004" ind1="0" ind2="0">
+        <subfield code="r">n</subfield>
+        <subfield code="a">e</subfield>
+      </datafield>
+      <datafield tag="008" ind1="0" ind2="0">
+        <subfield code="t">s</subfield>
+        <subfield code="u">f</subfield>
+        <subfield code="a">2011</subfield>
+        <subfield code="b">dk</subfield>
+        <subfield code="d">y</subfield>
+        <subfield code="l">dan</subfield>
+        <subfield code="x">04</subfield>
+        <subfield code="x">06</subfield>
+        <subfield code="v">0</subfield>
+      </datafield>
+      <datafield tag="009" ind1="0" ind2="0">
+        <subfield code="a">a</subfield>
+        <subfield code="g">xx</subfield>
+      </datafield>
+      <datafield tag="021" ind1="0" ind2="0">
+        <subfield code="e">9788776745790</subfield>
+        <subfield code="c">hf.</subfield>
+        <subfield code="d">kr. 278,00</subfield>
+      </datafield>
+      <datafield tag="032" ind1="0" ind2="0">
+        <subfield code="a">DBF201150</subfield>
+        <subfield code="x">BKM201150</subfield>
+      </datafield>
+      <datafield tag="245" ind1="0" ind2="0">
+        <subfield code="a">Hvor lidt der skal til</subfield>
+        <subfield code="c">en bog om Helle Helles forfatterskab</subfield>
+      </datafield>
+      <datafield tag="260" ind1="0" ind2="0">
+        <subfield code="a">Odense</subfield>
+        <subfield code="b">Syddansk Universitetsforlag</subfield>
+        <subfield code="a">[Kbh.]</subfield>
+        <subfield code="b">Rosinante</subfield>
+        <subfield code="c">2011</subfield>
+      </datafield>
+      <datafield tag="300" ind1="0" ind2="0">
+        <subfield code="a">310 sider</subfield>
+      </datafield>
+      <datafield tag="440" ind1="0" ind2="0">
+        <subfield code="a">University of Southern Denmark studies in Scandinavian languages and literatures</subfield>
+        <subfield code="z">0078-3331</subfield>
+        <subfield code="V">106</subfield>
+        <subfield code="v">vol. 106</subfield>
+      </datafield>
+      <datafield tag="521" ind1="0" ind2="0">
+        <subfield code="b">1. oplag</subfield>
+        <subfield code="c">2011</subfield>
+        <subfield code="k">Narayana Press, Gylling</subfield>
+      </datafield>
+      <datafield tag="530" ind1="0" ind2="0">
+        <subfield code="a">Indhold: Helle Helle: Alfabetet ; Noter. Per Krogh Hansen: Lidt har også ret. Værklæsninger (Maja Lucas: Bogen der svajede : Eksempel på liv, 1993. Anker Gemzøe: Rester betyder : Rester, 1996. Karen Hvidtfeldt Madsen: "Alting er som det skal være" : det helt almindelige livs æstetik : Hus og hjem, 1999. Anne-Marie Vestergꜳrd: Er flæskestegen et symbol? : Biler og dyr, 2000. Jørgen Ꜳbenhus: Et sted at være : Forestillingen om et ukompliceret liv med en mand, 2002. Karin Esmann Knudsen: Også plads til børnelæseren : Min mor sidder fast på en pind /sammen med Lars Nørgꜳrd, 2003. Trine Wittenburg Kvorning: På jagt efter en undertekst : Rødby-Puttgarden, 2005. Niels Gunder Hansen: De gode menneskers provins : Ned til hundene, 2008. Anita Nell Bech Albertsen: Også tilværelsen kræver fortolkning : Det burde skrives i nutid, 2011). Morten Mikkelsen: Helle Helle som dansklærerlitteratur. Dennis Gade Kofod: Et mail-interview med Helle Helle. Lars Bukdahl: Minimalmaraton! : en Helle Helle-læsning i real time</subfield>
+      </datafield>
+      <datafield tag="532" ind1="0" ind2="0">
+        <subfield code="a">Side 299-305: Bibliografi</subfield>
+      </datafield>
+      <datafield tag="532" ind1="0" ind2="0">
+        <subfield code="a">Med litteraturhenvisninger og links</subfield>
+      </datafield>
+      <datafield tag="600" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Helle</subfield>
+        <subfield code="h">Helle</subfield>
+        <subfield code="2">DBC</subfield>
+      </datafield>
+      <datafield tag="631" ind1="0" ind2="0">
+        <subfield code="f">bibliografier</subfield>
+      </datafield>
+      <datafield tag="652" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="m">99.4</subfield>
+        <subfield code="a">Helle</subfield>
+        <subfield code="h">Helle</subfield>
+      </datafield>
+      <datafield tag="652" ind1="0" ind2="0">
+        <subfield code="p">81.66</subfield>
+      </datafield>
+      <datafield tag="666" ind1="0" ind2="0">
+        <subfield code="f">dansk litteratur</subfield>
+      </datafield>
+      <datafield tag="666" ind1="0" ind2="0">
+        <subfield code="f">forfatterskaber</subfield>
+      </datafield>
+      <datafield tag="666" ind1="0" ind2="0">
+        <subfield code="i">1990-1999</subfield>
+      </datafield>
+      <datafield tag="666" ind1="0" ind2="0">
+        <subfield code="i">2000-2009</subfield>
+      </datafield>
+      <datafield tag="666" ind1="0" ind2="0">
+        <subfield code="i">2010-2019</subfield>
+      </datafield>
+      <datafield tag="666" ind1="0" ind2="0">
+        <subfield code="o">litteraturanalyser</subfield>
+      </datafield>
+      <datafield tag="666" ind1="0" ind2="0">
+        <subfield code="o">analyser</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Ꜳbenhus</subfield>
+        <subfield code="h">Jørgen</subfield>
+        <subfield code="4">edt</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="å">1</subfield>
+        <subfield code="a">Bech Albertsen</subfield>
+        <subfield code="h">Anita Nell</subfield>
+        <subfield code="4">edt</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="å">2</subfield>
+        <subfield code="a">Krogh Hansen</subfield>
+        <subfield code="h">Per</subfield>
+        <subfield code="4">edt</subfield>
+      </datafield>
+      <datafield tag="710" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Syddansk Universitet</subfield>
+      </datafield>
+      <datafield tag="745" ind1="0" ind2="0">
+        <subfield code="a">Hvor lidt skal der til</subfield>
+      </datafield>
+      <datafield tag="840" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">University of Southern Denmark studies in Scandinavian languages and literature</subfield>
+        <subfield code="V">106</subfield>
+        <subfield code="v">vol. 106</subfield>
+      </datafield>
+      <datafield tag="900" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Albertsen</subfield>
+        <subfield code="h">Anita Nell Bech</subfield>
+        <subfield code="x">se</subfield>
+        <subfield code="w">Bech Albertsen, Anita Nell</subfield>
+        <subfield code="z">700/1</subfield>
+      </datafield>
+      <datafield tag="900" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Hansen</subfield>
+        <subfield code="h">Per Krogh</subfield>
+        <subfield code="x">se</subfield>
+        <subfield code="w">Krogh Hansen, Per</subfield>
+        <subfield code="z">700/2</subfield>
+      </datafield>
+      <datafield tag="910" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">University of Southern Denmark</subfield>
+        <subfield code="x">se</subfield>
+        <subfield code="w">Syddansk Universitet</subfield>
+        <subfield code="z">710</subfield>
+      </datafield>
+      <datafield tag="s10" ind1="0" ind2="0">
+        <subfield code="a">DBC</subfield>
+      </datafield>
+      <datafield tag="990" ind1="0" ind2="0">
+        <subfield code="o">201150</subfield>
+        <subfield code="b">l</subfield>
+        <subfield code="b">v</subfield>
+        <subfield code="u">nt</subfield>
+      </datafield>
+    </record>
+  </marcx:collection>
+  <oss:openurl>_BASEURL_url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:book&amp;rft.btitle=Hvor+lidt+der+skal+til&amp;rft.aulast=Ꜳbenhus&amp;rft.aufirst=Jørgen&amp;rft.auinit=J&amp;rft.date=2011&amp;rft.isbn=9788776745790&amp;rft.pub=Syddansk+Universitetsforlag&amp;rft.series=University+of+Southern+Denmark+studies+in+Scandinavian+languages+and+literature+;+vol.+106&amp;rft.genre=book</oss:openurl>
+        </ns1:bibliographicData>
+      </ns1:originalData>
+      <ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

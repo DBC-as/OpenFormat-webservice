@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <ns1:bibliographicData>
+  <dkabm:record>
+    <ac:identifier>05412803|870970</ac:identifier>
+    <ac:source>NJE</ac:source>
+    <dc:title>Fra norrøne skrifter til nordiske forskningsbiblioteker</dc:title>
+    <dc:title xsi:type="dkdcplus:full">Fra norrøne skrifter til nordiske forskningsbiblioteker</dc:title>
+    <dc:creator>Nordisk Videnskabeligt Bibliotekarforbund Medlemsmøde 5 1978 Reykjavík</dc:creator>
+    <dc:creator xsi:type="oss:sort">Nordisk Videnskabeligt Bibliotekarforbund Medlemsmøde 5 1978 Reykjavík</dc:creator>
+    <dc:subject xsi:type="dkdcplus:DK5">02</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DK5-Text">Biblioteks- og arkivvæsen</dc:subject>
+    <dc:subject xsi:type="dkdcplus:genre">nonfiktion</dc:subject>
+    <dc:description>Af indholdet: Christian Hermann Jensen: Bibliotek og samfund - udviklingstendenser og konsekvenser for uddannelsen af personale til forskningsbibliotekerne. Biblioteksutdanning i Norden - sammenligning, vurdering og muligheter for samarbeid. EDB som hjälpmedel i de nordiska forskningsbibliotekens dagliga verksamhet. Forskningsbibliotekernes organisations-, styrings- og samarbejdsformer. Hans Westermann: Det grønlandske biblioteksvæsen.</dc:description>
+    <dcterms:audience>voksenmaterialer</dcterms:audience>
+    <dc:publisher>Nordisk videnskabeligt Bibliotekarforbund</dc:publisher>
+    <dc:contributor>Einar Sigurðsson</dc:contributor>
+    <dc:contributor>Helgi Magnússon</dc:contributor>
+    <dc:date>1979</dc:date>
+    <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+    <dc:format>illustreret</dc:format>
+    <dcterms:extent>218 sider</dcterms:extent>
+    <dc:language xsi:type="dcterms:ISO639-2">mul</dc:language>
+    <dc:language>Flere sprog</dc:language>
+    <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+    <dc:language>Dansk</dc:language>
+    <dc:language xsi:type="dcterms:ISO639-2">swe</dc:language>
+    <dc:language>Svensk</dc:language>
+    <dc:language xsi:type="dcterms:ISO639-2">nor</dc:language>
+    <dc:language>Norsk</dc:language>
+  </dkabm:record>
+  <marcx:collection>
+    <record format="danMARC2" type="Bibliographic">
+      <leader>000000000000000000000000</leader>
+      <datafield tag="001" ind1="0" ind2="0">
+        <subfield code="a">05412803</subfield>
+        <subfield code="b">870970</subfield>
+        <subfield code="c">20010128224732</subfield>
+        <subfield code="d">19790802</subfield>
+        <subfield code="f">a</subfield>
+        <subfield code="o">c</subfield>
+        <subfield code="t">FAUST</subfield>
+      </datafield>
+      <datafield tag="004" ind1="0" ind2="0">
+        <subfield code="r">n</subfield>
+        <subfield code="a">e</subfield>
+      </datafield>
+      <datafield tag="008" ind1="0" ind2="0">
+        <subfield code="t">m</subfield>
+        <subfield code="u">f</subfield>
+        <subfield code="a">1979</subfield>
+        <subfield code="b">is</subfield>
+        <subfield code="f">1</subfield>
+        <subfield code="l">mul</subfield>
+        <subfield code="v">0</subfield>
+      </datafield>
+      <datafield tag="009" ind1="0" ind2="0">
+        <subfield code="a">a</subfield>
+        <subfield code="g">xx</subfield>
+      </datafield>
+      <datafield tag="021" ind1="0" ind2="0">
+        <subfield code="c">Hf.</subfield>
+        <subfield code="d">kr. 90.20</subfield>
+      </datafield>
+      <datafield tag="032" ind1="0" ind2="0">
+        <subfield code="a">DBF197934</subfield>
+        <subfield code="x">SFD199137</subfield>
+        <subfield code="x">OPR197934</subfield>
+        <subfield code="x">DAT990036</subfield>
+      </datafield>
+      <datafield tag="041" ind1="0" ind2="0">
+        <subfield code="a">dan</subfield>
+        <subfield code="a">swe</subfield>
+        <subfield code="a">nor</subfield>
+      </datafield>
+      <datafield tag="110" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Nordisk Videnskabeligt Bibliotekarforbund</subfield>
+        <subfield code="c">Medlemsmøde</subfield>
+        <subfield code="i">5</subfield>
+        <subfield code="k">1978</subfield>
+        <subfield code="j">Reykjavík</subfield>
+      </datafield>
+      <datafield tag="245" ind1="0" ind2="0">
+        <subfield code="a">Fra norrøne skrifter til nordiske forskningsbiblioteker</subfield>
+        <subfield code="e">Nordisk videnskabeligt Bibliotekarforbunds 5. medlemsmøde, Islands Universitet 18.-23. juni 1978</subfield>
+        <subfield code="e">redigeret af Einar Sigurðsson og Helgi Magnússon</subfield>
+      </datafield>
+      <datafield tag="260" ind1="0" ind2="0">
+        <subfield code="a">Reykjavík</subfield>
+        <subfield code="b">Nordisk videnskabeligt Bibliotekarforbund</subfield>
+        <subfield code="f">Kbh.</subfield>
+        <subfield code="g">i kommission hos Bibliotekscentralen</subfield>
+        <subfield code="k">tr. i Island</subfield>
+        <subfield code="c">1979</subfield>
+      </datafield>
+      <datafield tag="300" ind1="0" ind2="0">
+        <subfield code="a">218 sider</subfield>
+        <subfield code="b">ill.</subfield>
+        <subfield code="c">24 cm</subfield>
+      </datafield>
+      <datafield tag="508" ind1="0" ind2="0">
+        <subfield code="a">Bidrag på dansk, norsk og svensk</subfield>
+      </datafield>
+      <datafield tag="534" ind1="0" ind2="0">
+        <subfield code="a">Af indholdet: Christian Hermann Jensen: Bibliotek og samfund - udviklingstendenser og konsekvenser for uddannelsen af personale til forskningsbibliotekerne. Biblioteksutdanning i Norden - sammenligning, vurdering og muligheter for samarbeid. EDB som hjälpmedel i de nordiska forskningsbibliotekens dagliga verksamhet. Forskningsbibliotekernes organisations-, styrings- og samarbejdsformer. Hans Westermann: Det grønlandske biblioteksvæsen.</subfield>
+      </datafield>
+      <datafield tag="652" ind1="0" ind2="0">
+        <subfield code="m">02</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Sigurðsson</subfield>
+        <subfield code="h">Einar</subfield>
+      </datafield>
+      <datafield tag="700" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="å">2</subfield>
+        <subfield code="a">Helgi Magnússon</subfield>
+      </datafield>
+      <datafield tag="900" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Magnússon</subfield>
+        <subfield code="h">Helgi</subfield>
+        <subfield code="x">se</subfield>
+        <subfield code="w">Helgi Magnússon</subfield>
+        <subfield code="z">700/2</subfield>
+      </datafield>
+      <datafield tag="910" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">NVBF</subfield>
+        <subfield code="x">se</subfield>
+        <subfield code="w">Nordisk Videnskabeligt Bibliotekarforbund</subfield>
+        <subfield code="z">110(a)</subfield>
+      </datafield>
+      <datafield tag="s10" ind1="0" ind2="0">
+        <subfield code="a">DBC</subfield>
+      </datafield>
+    </record>
+  </marcx:collection>
+  <oss:openurl>_BASEURL_url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:book&amp;rft.btitle=Fra+norrøne+skrifter+til+nordiske+forskningsbiblioteker&amp;rft.aulast=Sigurðsson&amp;rft.aufirst=Einar&amp;rft.auinit=E&amp;rft.date=1979&amp;rft.pub=Nordisk+videnskabeligt+Bibliotekarforbund&amp;rft.genre=book</oss:openurl>
+        </ns1:bibliographicData>
+      </ns1:originalData>
+      <ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
