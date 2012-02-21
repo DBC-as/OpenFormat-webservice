@@ -4,7 +4,7 @@
     <of:formatResponse>
       <ofo:bibliotekdkFullDisplay>
         <ofo:fullDisplayInformation>
-          <ofo:title>&lt;div class="title"&gt;Manden som kvinderne elskede&lt;/div&gt;</ofo:title>
+          <ofo:title>&lt;div class="title"&gt;Manden som kvinderne elskede : Bror Blixens liv&lt;/div&gt;</ofo:title>
           <ofo:creator>&lt;div class="creators"&gt;
   &lt;span class="creator phraseLink"&gt;Ulf Aschan&lt;/span&gt;
 &lt;/div&gt;</ofo:creator>
@@ -19,27 +19,21 @@
   &lt;span class="originalTitleHeader"&gt;Originaltitel:&lt;/span&gt;
   &lt;span class="originalTitle"&gt;Baron Blixen&lt;/span&gt;
 &lt;/div&gt;&lt;div class="contributors"&gt;
-  &lt;span class="contributor"&gt;tekst: Ulf Aschan&lt;/span&gt;
+  &lt;span class="contributor"&gt;på dansk ved Birgitte Brix&lt;/span&gt;
 &lt;/div&gt;&lt;div class="format"&gt;240 sider, illustreret&lt;/div&gt;&lt;div class="forms"&gt;
   &lt;span class="formHeader"&gt;Form:&lt;/span&gt;
-  &lt;span class="subject phraseLink"&gt;biografier&lt;/span&gt;
+  &lt;span class="formSubject phraseLink"&gt;biografier&lt;/span&gt;
 &lt;/div&gt;&lt;div class="shelf"&gt;
   &lt;span class="shelfHeader"&gt;Opstilling i folkebiblioteker:&lt;/span&gt;
   &lt;span class="classification phraseLink"&gt;99.4 Blixen-Finecke, Bror von&lt;/span&gt;
 &lt;/div&gt;&lt;div class="identifiers"&gt;
-  &lt;span class="identifierHeader"&gt;ISBN&lt;/span&gt;
+  &lt;span class="identifierHeader"&gt;ISBN:&lt;/span&gt;
   &lt;span class="identifier"&gt;87-7258-337-1&lt;/span&gt;
 &lt;/div&gt;&lt;div class="priceInformation"&gt;
   &lt;span class="priceHeader"&gt;Pris ved udgivelsen:&lt;/span&gt;
   &lt;span class="price"&gt;kr. 149,00&lt;/span&gt;
-&lt;/div&gt;&lt;div class="languageInformation"/&gt;
-&lt;span class="languageHeader"&gt;Sprog:&lt;/span&gt;
-&lt;span class="language"&gt;Dansk&lt;/span&gt;</ofo:details>
-          <ofo:publicationDetails>&lt;div class="publication"&gt;
-  &lt;span class="publisher"&gt;Sesam&lt;/span&gt;
-  , 
-  &lt;span class="year"&gt;1988&lt;/span&gt;
-&lt;/div&gt;</ofo:publicationDetails>
+&lt;/div&gt;</ofo:details>
+          <ofo:publicationDetails>&lt;div class="publication"&gt;&lt;span class="publisher"&gt;Sesam&lt;/span&gt;, &lt;span class="year"&gt;1988&lt;/span&gt;&lt;/div&gt;</ofo:publicationDetails>
           <ofo:content/>
         </ofo:fullDisplayInformation>
       </ofo:bibliotekdkFullDisplay>

@@ -5,16 +5,13 @@
       <ofo:bibliotekdkFullDisplay>
         <ofo:fullDisplayInformation>
           <ofo:title>&lt;div class="title"&gt;Lærerstanden ved de nedlagte Latinskoler i Ebeltolt, Grenaa, Hobro, Mariager og Skive&lt;/div&gt;</ofo:title>
-          <ofo:creator>&lt;div class="creators"/&gt;</ofo:creator>
+          <ofo:creator>&lt;div class="creators"&gt;
+  &lt;span class="creator phraseLink"&gt;F. E. Hundrup&lt;/span&gt;
+&lt;/div&gt;</ofo:creator>
           <ofo:type>&lt;div class="type"&gt;Bog&lt;/div&gt;</ofo:type>
           <ofo:description/>
-          <ofo:details>&lt;div class="format"&gt;21 S.&lt;/div&gt;&lt;div class="languageInformation"/&gt;
-&lt;span class="languageHeader"&gt;Sprog:&lt;/span&gt;
-&lt;span class="language"&gt;Dansk&lt;/span&gt;</ofo:details>
-          <ofo:publicationDetails>&lt;div class="publication"&gt;
-  , 
-  &lt;span class="year"&gt;1876&lt;/span&gt;
-&lt;/div&gt;</ofo:publicationDetails>
+          <ofo:details>&lt;div class="format"&gt;21 S.&lt;/div&gt;</ofo:details>
+          <ofo:publicationDetails>&lt;div class="publication"&gt;, &lt;span class="year"&gt;1876&lt;/span&gt;&lt;/div&gt;</ofo:publicationDetails>
           <ofo:content/>
         </ofo:fullDisplayInformation>
       </ofo:bibliotekdkFullDisplay>

@@ -4,11 +4,21 @@
     <of:formatResponse>
       <ofo:bibliotekdkFullDisplay>
         <ofo:fullDisplayInformation>
-          <ofo:title>&lt;div class="title"&gt;The rough guide to the music of the Appalachians&lt;/div&gt;</ofo:title>
-          <ofo:creator>&lt;div class="creators"/&gt;</ofo:creator>
+          <ofo:title>&lt;div class="title"&gt;The rough guide to the music of the Appalachians : mountain music - bluegrass, old-time, folk &amp;amp; gospel&lt;/div&gt;</ofo:title>
+          <ofo:creator>&lt;div class="creators"&gt;
+  &lt;span class="creator phraseLink"&gt;Dan Rosenberg&lt;/span&gt;
+   ; 
+  &lt;span class="creator phraseLink"&gt;Nancy Blake&lt;/span&gt;
+   ; 
+  &lt;span class="creator phraseLink"&gt;The Clinch Mountain Boys&lt;/span&gt;
+&lt;/div&gt;</ofo:creator>
           <ofo:type>&lt;div class="type"&gt;Cd (musik)&lt;/div&gt;</ofo:type>
           <ofo:description>&lt;div class="subjects"&gt;
   &lt;span class="subjectHeader"&gt;Emne:&lt;/span&gt;
+  &lt;span class="subject phraseLink"&gt;Appalacherne&lt;/span&gt;
+   ; 
+  &lt;span class="subject phraseLink"&gt;USA&lt;/span&gt;
+   ; 
   &lt;span class="subject phraseLink"&gt;bluegrass&lt;/span&gt;
    ; 
   &lt;span class="subject phraseLink"&gt;country&lt;/span&gt;
@@ -23,10 +33,6 @@
    ; 
   &lt;span class="subject phraseLink"&gt;vokal&lt;/span&gt;
    ; 
-  &lt;span class="subject phraseLink"&gt;USA&lt;/span&gt;
-   ; 
-  &lt;span class="subject phraseLink"&gt;Appalacherne&lt;/span&gt;
-   ; 
   &lt;span class="subject phraseLink"&gt;1990-1999&lt;/span&gt;
    ; 
   &lt;span class="subject phraseLink"&gt;2000-2009&lt;/span&gt;
@@ -37,22 +43,15 @@
   &lt;span class="contributor"&gt;compiled by Dan Rosenberg&lt;/span&gt;
 &lt;/div&gt;&lt;div class="format"&gt;1 cd&lt;/div&gt;&lt;div class="shelf"&gt;
   &lt;span class="shelfHeader"&gt;Opstilling i folkebiblioteker:&lt;/span&gt;
-  &lt;span class="shelfMusic"&gt;Folkemusik&lt;/span&gt;
+  &lt;span class="shelfMusic"&gt;Folkemusik. USA&lt;/span&gt;
 &lt;/div&gt;&lt;div class="identifiers"&gt;
-  &lt;div class="identifier"&gt;World Music Network RGNET 1104 CD&lt;/div&gt;
+  &lt;span class="identifier"&gt;World Music Network RGNET 1104 CD&lt;/span&gt;
 &lt;/div&gt;&lt;div class="priceInformation"&gt;
   &lt;span class="priceHeader"&gt;Pris ved udgivelsen:&lt;/span&gt;
   &lt;span class="price"&gt;kr. 159,00&lt;/span&gt;
-&lt;/div&gt;&lt;div class="languageInformation"/&gt;
-&lt;span class="languageHeader"&gt;Sprog:&lt;/span&gt;
-&lt;span class="language"&gt;Engelsk&lt;/span&gt;</ofo:details>
-          <ofo:publicationDetails>&lt;div class="publication"&gt;
-  &lt;span class="publisher"&gt;World Music Network&lt;/span&gt;
-  , 
-  &lt;span class="year"&gt;2002&lt;/span&gt;
-&lt;/div&gt;</ofo:publicationDetails>
-          <ofo:content>
-            <div class="content">Indhold:&lt;div class="analyticContent"&gt;
+&lt;/div&gt;</ofo:details>
+          <ofo:publicationDetails>&lt;div class="publication"&gt;&lt;span class="publisher"&gt;World Music Network&lt;/span&gt;, &lt;span class="year"&gt;2002&lt;/span&gt;&lt;/div&gt;</ofo:publicationDetails>
+          <ofo:content>&lt;span class="contentHeader"&gt;Indhold:&lt;/span&gt;&lt;div class="analyticContent"&gt;
   &lt;div class="contributor phraseLink"&gt;Claire Lynch&lt;/div&gt;
   &lt;div class="title"&gt;
     &lt;span class="title phraseLink"&gt;God spoke his name&lt;/span&gt;
@@ -132,8 +131,7 @@
     &lt;span class="title phraseLink"&gt;The trail of the ancients&lt;/span&gt;
     &lt;span class="restOfTitle"&gt;/ Karl Shiflett &amp;amp; Big Country Show&lt;/span&gt;
   &lt;/div&gt;
-&lt;/div&gt;</div>
-          </ofo:content>
+&lt;/div&gt;</ofo:content>
         </ofo:fullDisplayInformation>
       </ofo:bibliotekdkFullDisplay>
     </of:formatResponse>

@@ -5,17 +5,15 @@
       <ofo:bibliotekdkFullDisplay>
         <ofo:fullDisplayInformation>
           <ofo:title>&lt;div class="title"&gt;USADSB&lt;/div&gt;</ofo:title>
-          <ofo:creator>&lt;div class="creators"&gt;
-  &lt;span class="creator phraseLink"&gt;Nephew&lt;/span&gt;
-&lt;/div&gt;</ofo:creator>
+          <ofo:creator>&lt;div class="creators"/&gt;</ofo:creator>
           <ofo:type>&lt;div class="type"&gt;Cd&lt;/div&gt;</ofo:type>
           <ofo:description>&lt;div class="subjects"&gt;
   &lt;span class="subjectHeader"&gt;Emne:&lt;/span&gt;
+  &lt;span class="subject phraseLink"&gt;Danmark&lt;/span&gt;
+   ; 
   &lt;span class="subject phraseLink"&gt;rock&lt;/span&gt;
    ; 
   &lt;span class="subject phraseLink"&gt;vokal&lt;/span&gt;
-   ; 
-  &lt;span class="subject phraseLink"&gt;Danmark&lt;/span&gt;
    ; 
   &lt;span class="subject phraseLink"&gt;2000-2009&lt;/span&gt;
 &lt;/div&gt;&lt;div class="abstract"&gt;Indspillet i Århus&lt;/div&gt;</ofo:description>
@@ -27,20 +25,13 @@
 &lt;/div&gt;&lt;div class="note"&gt;
   &lt;div class="descriptionNote"&gt;Indspillet i Århus&lt;/div&gt;
 &lt;/div&gt;&lt;div class="identifiers"&gt;
-  &lt;div class="identifier"&gt;Copenhagen CPHREC 0004&lt;/div&gt;
+  &lt;span class="identifier"&gt;Copenhagen CPHREC 0004&lt;/span&gt;
 &lt;/div&gt;&lt;div class="priceInformation"&gt;
   &lt;span class="priceHeader"&gt;Pris ved udgivelsen:&lt;/span&gt;
   &lt;span class="price"&gt;kr. 159,00&lt;/span&gt;
-&lt;/div&gt;&lt;div class="languageInformation"/&gt;
-&lt;span class="languageHeader"&gt;Sprog:&lt;/span&gt;
-&lt;span class="language"&gt;Dansk&lt;/span&gt;</ofo:details>
-          <ofo:publicationDetails>&lt;div class="publication"&gt;
-  &lt;span class="publisher"&gt;Copenhagen&lt;/span&gt;
-  , 
-  &lt;span class="year"&gt;2004&lt;/span&gt;
-&lt;/div&gt;</ofo:publicationDetails>
-          <ofo:content>
-            <div class="content">Indhold:&lt;div class="analyticContent"&gt;
+&lt;/div&gt;</ofo:details>
+          <ofo:publicationDetails>&lt;div class="publication"&gt;&lt;span class="publisher"&gt;Copenhagen&lt;/span&gt;, &lt;span class="year"&gt;2004&lt;/span&gt;&lt;/div&gt;</ofo:publicationDetails>
+          <ofo:content>&lt;span class="contentHeader"&gt;Indhold:&lt;/span&gt;&lt;div class="analyticContent"&gt;
   &lt;div class="title"&gt;
     &lt;span class="title phraseLink"&gt;Movie klip&lt;/span&gt;
   &lt;/div&gt;
@@ -71,8 +62,7 @@
   &lt;div class="title"&gt;
     &lt;span class="title phraseLink"&gt;Bazooka&lt;/span&gt;
   &lt;/div&gt;
-&lt;/div&gt;</div>
-          </ofo:content>
+&lt;/div&gt;</ofo:content>
         </ofo:fullDisplayInformation>
       </ofo:bibliotekdkFullDisplay>
     </of:formatResponse>

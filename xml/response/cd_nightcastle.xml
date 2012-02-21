@@ -5,12 +5,12 @@
       <ofo:bibliotekdkFullDisplay>
         <ofo:fullDisplayInformation>
           <ofo:title>&lt;div class="title"&gt;Night castle&lt;/div&gt;</ofo:title>
-          <ofo:creator>&lt;div class="creators"&gt;
-  &lt;span class="creator phraseLink"&gt;Trans-Siberian Orchestra&lt;/span&gt;
-&lt;/div&gt;</ofo:creator>
+          <ofo:creator>&lt;div class="creators"/&gt;</ofo:creator>
           <ofo:type>&lt;div class="type"&gt;Cd (musik)&lt;/div&gt;</ofo:type>
           <ofo:description>&lt;div class="subjects"&gt;
   &lt;span class="subjectHeader"&gt;Emne:&lt;/span&gt;
+  &lt;span class="subject phraseLink"&gt;USA&lt;/span&gt;
+   ; 
   &lt;span class="subject phraseLink"&gt;instrumental&lt;/span&gt;
    ; 
   &lt;span class="subject phraseLink"&gt;pop&lt;/span&gt;
@@ -21,8 +21,6 @@
    ; 
   &lt;span class="subject phraseLink"&gt;vokal&lt;/span&gt;
    ; 
-  &lt;span class="subject phraseLink"&gt;USA&lt;/span&gt;
-   ; 
   &lt;span class="subject phraseLink"&gt;2000-2009&lt;/span&gt;
 &lt;/div&gt;</ofo:description>
           <ofo:details>&lt;div class="contributors"&gt;
@@ -31,17 +29,10 @@
   &lt;span class="shelfHeader"&gt;Opstilling i folkebiblioteker:&lt;/span&gt;
   &lt;span class="shelfMusic"&gt;Rock&lt;/span&gt;
 &lt;/div&gt;&lt;div class="identifiers"&gt;
-  &lt;div class="identifier"&gt;Atlantic 5202712&lt;/div&gt;
-&lt;/div&gt;&lt;div class="languageInformation"/&gt;
-&lt;span class="languageHeader"&gt;Sprog:&lt;/span&gt;
-&lt;span class="language"&gt;Engelsk&lt;/span&gt;</ofo:details>
-          <ofo:publicationDetails>&lt;div class="publication"&gt;
-  &lt;span class="publisher"&gt;Atlantic&lt;/span&gt;
-  , 
-  &lt;span class="year"&gt;2009&lt;/span&gt;
-&lt;/div&gt;</ofo:publicationDetails>
-          <ofo:content>
-            <div class="content">Indhold:&lt;div class="analyticContent"&gt;
+  &lt;span class="identifier"&gt;Atlantic 5202712&lt;/span&gt;
+&lt;/div&gt;</ofo:details>
+          <ofo:publicationDetails>&lt;div class="publication"&gt;&lt;span class="publisher"&gt;Atlantic&lt;/span&gt;, &lt;span class="year"&gt;2009&lt;/span&gt;&lt;/div&gt;</ofo:publicationDetails>
+          <ofo:content>&lt;span class="contentHeader"&gt;Indhold:&lt;/span&gt;&lt;div class="analyticContent"&gt;
   &lt;div class="title"&gt;
     &lt;span class="title phraseLink"&gt;Night enchanted&lt;/span&gt;
   &lt;/div&gt;
@@ -120,8 +111,7 @@
   &lt;div class="title"&gt;
     &lt;span class="title phraseLink"&gt;Tracers&lt;/span&gt;
   &lt;/div&gt;
-&lt;/div&gt;</div>
-          </ofo:content>
+&lt;/div&gt;</ofo:content>
         </ofo:fullDisplayInformation>
       </ofo:bibliotekdkFullDisplay>
     </of:formatResponse>

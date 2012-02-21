@@ -20,16 +20,10 @@
   &lt;div class="descriptionNote"&gt;Tidligere udgivet af: Det Danske Haveselskab, herunder Det jyske Haveselskab, Det Kgl. danske Haveselskab og Østifternes Haveselskab&lt;/div&gt;
   &lt;div class="descriptionNote"&gt;Størrelsen varierer&lt;/div&gt;
 &lt;/div&gt;&lt;div class="references"&gt;Hertil findes: Register 1989-1993&lt;/div&gt;&lt;div class="identifiers"&gt;
-  &lt;span class="identifierHeader"&gt;ISSN&lt;/span&gt;
+  &lt;span class="identifierHeader"&gt;ISSN:&lt;/span&gt;
   &lt;span class="identifier"&gt;0017-8500&lt;/span&gt;
-&lt;/div&gt;&lt;div class="languageInformation"/&gt;
-&lt;span class="languageHeader"&gt;Sprog:&lt;/span&gt;
-&lt;span class="language"&gt;Dansk&lt;/span&gt;</ofo:details>
-          <ofo:publicationDetails>&lt;div class="publication"&gt;
-  &lt;span class="publisher"&gt;Det Danske Haveselskab&lt;/span&gt;
-  , 
-  &lt;span class="year"&gt;1900&lt;/span&gt;
-&lt;/div&gt;</ofo:publicationDetails>
+&lt;/div&gt;</ofo:details>
+          <ofo:publicationDetails>&lt;div class="publication"&gt;&lt;span class="publisher"&gt;Det Danske Haveselskab&lt;/span&gt;, &lt;span class="year"&gt;1900&lt;/span&gt;&lt;/div&gt;</ofo:publicationDetails>
           <ofo:content/>
         </ofo:fullDisplayInformation>
       </ofo:bibliotekdkFullDisplay>

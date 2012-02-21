@@ -5,7 +5,9 @@
       <ofo:bibliotekdkFullDisplay>
         <ofo:fullDisplayInformation>
           <ofo:title>&lt;div class="title"&gt;Narkotika&lt;/div&gt;</ofo:title>
-          <ofo:creator>&lt;div class="creators"/&gt;</ofo:creator>
+          <ofo:creator>&lt;div class="creators"&gt;
+  &lt;span class="creator phraseLink"&gt;Bibliotekernes Juraport&lt;/span&gt;
+&lt;/div&gt;</ofo:creator>
           <ofo:type>&lt;div class="type"&gt;Netdokument&lt;/div&gt;</ofo:type>
           <ofo:description>&lt;div class="subjects"&gt;
   &lt;span class="subjectHeader"&gt;Emne:&lt;/span&gt;
@@ -19,16 +21,10 @@
   &lt;span class="noteHeader"&gt;Er del af::&lt;/span&gt;
   &lt;div class="descriptionNote"&gt;DC.Issued 2011&lt;/div&gt;
   &lt;div class="descriptionNote"&gt;Registreret 24.3.2011&lt;/div&gt;
-&lt;/div&gt;&lt;div class="languageInformation"/&gt;
-&lt;span class="languageHeader"&gt;Sprog:&lt;/span&gt;
-&lt;span class="language"&gt;Dansk&lt;/span&gt;&lt;div class="accessInformation"&gt;
+&lt;/div&gt;&lt;div class="accessInformation"&gt;
   &lt;span class="accessUrl"&gt;http://www.juraport.dk/narkotika.asp&lt;/span&gt;
 &lt;/div&gt;</ofo:details>
-          <ofo:publicationDetails>&lt;div class="publication"&gt;
-  &lt;span class="publisher"&gt;Bibliotekernes Juraport&lt;/span&gt;
-  , 
-  &lt;span class="year"&gt;2011&lt;/span&gt;
-&lt;/div&gt;</ofo:publicationDetails>
+          <ofo:publicationDetails>&lt;div class="publication"&gt;&lt;span class="publisher"&gt;Bibliotekernes Juraport&lt;/span&gt;, &lt;span class="year"&gt;2011&lt;/span&gt;&lt;/div&gt;</ofo:publicationDetails>
           <ofo:content/>
         </ofo:fullDisplayInformation>
       </ofo:bibliotekdkFullDisplay>

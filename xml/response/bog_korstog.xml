@@ -11,6 +11,10 @@
           <ofo:type>&lt;div class="type"&gt;Bog&lt;/div&gt;</ofo:type>
           <ofo:description>&lt;div class="subjects"&gt;
   &lt;span class="subjectHeader"&gt;Emne:&lt;/span&gt;
+  &lt;span class="subject phraseLink"&gt;Akko&lt;/span&gt;
+   ; 
+  &lt;span class="subject phraseLink"&gt;Palæstina&lt;/span&gt;
+   ; 
   &lt;span class="subject phraseLink"&gt;historie&lt;/span&gt;
    ; 
   &lt;span class="subject phraseLink"&gt;korstogene&lt;/span&gt;
@@ -18,10 +22,6 @@
   &lt;span class="subject phraseLink"&gt;middelalderen&lt;/span&gt;
    ; 
   &lt;span class="subject phraseLink"&gt;tempelriddere&lt;/span&gt;
-   ; 
-  &lt;span class="subject phraseLink"&gt;Akko&lt;/span&gt;
-   ; 
-  &lt;span class="subject phraseLink"&gt;Palæstina&lt;/span&gt;
    ; 
   &lt;span class="subject phraseLink"&gt;1270-1279&lt;/span&gt;
    ; 
@@ -39,18 +39,10 @@
   &lt;span class="noteHeader"&gt;2. del af:&lt;/span&gt;
   &lt;span class="title phraseLink"&gt;Broderskabet&lt;/span&gt;
 &lt;/div&gt;&lt;div class="references"&gt;Med litteraturhenvisninger&lt;/div&gt;&lt;div class="identifiers"&gt;
-  &lt;span class="identifierHeader"&gt;ISBN&lt;/span&gt;
-  &lt;span class="identifier"&gt;9788771082326&lt;/span&gt;
-&lt;/div&gt;&lt;div class="languageInformation"/&gt;
-&lt;span class="languageHeader"&gt;Sprog:&lt;/span&gt;
-&lt;span class="language"&gt;Dansk&lt;/span&gt;</ofo:details>
-          <ofo:publicationDetails>&lt;div class="publication"&gt;
-  &lt;span class="edition"&gt;1. udgave&lt;/span&gt;
-  . 
-  &lt;span class="publisher"&gt;People's Press&lt;/span&gt;
-  , 
-  &lt;span class="year"&gt;2011&lt;/span&gt;
-&lt;/div&gt;</ofo:publicationDetails>
+  &lt;span class="identifierHeader"&gt;ISBN:&lt;/span&gt;
+  &lt;span class="identifier"&gt;978-87-7108-232-6&lt;/span&gt;
+&lt;/div&gt;</ofo:details>
+          <ofo:publicationDetails>&lt;div class="publication"&gt;&lt;span class="edition"&gt;1. udgave&lt;/span&gt;. &lt;span class="publisher"&gt;People's Press&lt;/span&gt;, &lt;span class="year"&gt;2011&lt;/span&gt;&lt;/div&gt;</ofo:publicationDetails>
           <ofo:content/>
         </ofo:fullDisplayInformation>
       </ofo:bibliotekdkFullDisplay>

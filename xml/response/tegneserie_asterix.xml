@@ -4,18 +4,20 @@
     <of:formatResponse>
       <ofo:bibliotekdkFullDisplay>
         <ofo:fullDisplayInformation>
-          <ofo:title>&lt;div class="title"&gt;Asterix' og Obelix' fødselsdag&lt;/div&gt;</ofo:title>
+          <ofo:title>&lt;div class="title"&gt;Asterix' og Obelix' fødselsdag : den gyldne gæstebog&lt;/div&gt;</ofo:title>
           <ofo:creator>&lt;div class="creators"&gt;
   &lt;span class="creator phraseLink"&gt;René Goscinny&lt;/span&gt;
+   ; 
+  &lt;span class="creator phraseLink"&gt;Albert Uderzo&lt;/span&gt;
 &lt;/div&gt;</ofo:creator>
           <ofo:type>&lt;div class="type"&gt;Tegneserie&lt;/div&gt;</ofo:type>
           <ofo:description>&lt;div class="subjects"&gt;
   &lt;span class="subjectHeader"&gt;Emne:&lt;/span&gt;
-  &lt;span class="subject phraseLink"&gt;humor&lt;/span&gt;
+  &lt;span class="subject phraseLink"&gt;Gallien&lt;/span&gt;
    ; 
   &lt;span class="subject phraseLink"&gt;Romerriget&lt;/span&gt;
    ; 
-  &lt;span class="subject phraseLink"&gt;Gallien&lt;/span&gt;
+  &lt;span class="subject phraseLink"&gt;humor&lt;/span&gt;
 &lt;/div&gt;&lt;div class="abstract"&gt;Tegneserie. I den lille galliske landsby ved Atlanterhavets kyst gør indbyggerne klar til at fejre Asterix ́og Obelix ́runde fødselsdage. Det giver anledning til en række tilbageblik på seriens 50-årige historie&lt;/div&gt;</ofo:description>
           <ofo:details>&lt;div class="originalTitle"&gt;
   &lt;span class="originalTitleHeader"&gt;Originaltitel:&lt;/span&gt;
@@ -23,9 +25,9 @@
 &lt;/div&gt;&lt;div class="alternativeTitle"&gt;
   &lt;span class="alternativeTitle"&gt;Alternativ titel: Asterix' &amp;amp; Obelix' fødselsdag&lt;/span&gt;
 &lt;/div&gt;&lt;div class="contributors"&gt;
-  &lt;span class="contributor"&gt;tekst: René Goscinny, tekst: Albert Uderzo, tegner: Albert Uderzo, oversætter: François-Eric Grodin, redaktør: Michael G. Nielsen&lt;/span&gt;
+  &lt;span class="contributor"&gt;tekst: René Goscinny, Albert Uderzo, tegner: Albert Uderzo, oversætter: François-Eric Grodin, redaktør: Michael G. Nielsen&lt;/span&gt;
 &lt;/div&gt;&lt;div class="format"&gt;53 sider, alle illustreret i farver&lt;/div&gt;&lt;div class="seriesTitles"&gt;
-  &lt;div class="series"&gt;
+  &lt;div class="seriesTitle"&gt;
     &lt;span class="seriesHeader"&gt;Serie:&lt;/span&gt;
     &lt;span class="series phraseLink"&gt;Asterix&lt;/span&gt;
     &lt;span class="seriesNumber"&gt;; nr. 34&lt;/span&gt;
@@ -37,19 +39,13 @@
   &lt;div class="descriptionNote"&gt;Udgivet i forbindelse med tegneseriefigurernes 50-års jubilæum&lt;/div&gt;
   &lt;div class="descriptionNote"&gt;I materialet: Goscinny og Uderzo præsenterer ...&lt;/div&gt;
 &lt;/div&gt;&lt;div class="identifiers"&gt;
-  &lt;span class="identifierHeader"&gt;ISBN&lt;/span&gt;
-  &lt;span class="identifier"&gt;9788776795214&lt;/span&gt;
+  &lt;span class="identifierHeader"&gt;ISBN:&lt;/span&gt;
+  &lt;span class="identifier"&gt;978-87-7679-521-4&lt;/span&gt;
 &lt;/div&gt;&lt;div class="priceInformation"&gt;
   &lt;span class="priceHeader"&gt;Pris ved udgivelsen:&lt;/span&gt;
   &lt;span class="price"&gt;kr. 99,95&lt;/span&gt;
-&lt;/div&gt;&lt;div class="languageInformation"/&gt;
-&lt;span class="languageHeader"&gt;Sprog:&lt;/span&gt;
-&lt;span class="language"&gt;Dansk&lt;/span&gt;</ofo:details>
-          <ofo:publicationDetails>&lt;div class="publication"&gt;
-  &lt;span class="publisher"&gt;Egmont Serieforlaget&lt;/span&gt;
-  , 
-  &lt;span class="year"&gt;2009&lt;/span&gt;
-&lt;/div&gt;</ofo:publicationDetails>
+&lt;/div&gt;</ofo:details>
+          <ofo:publicationDetails>&lt;div class="publication"&gt;&lt;span class="publisher"&gt;Egmont Serieforlaget&lt;/span&gt;, &lt;span class="year"&gt;2009&lt;/span&gt;&lt;/div&gt;</ofo:publicationDetails>
           <ofo:content/>
         </ofo:fullDisplayInformation>
       </ofo:bibliotekdkFullDisplay>

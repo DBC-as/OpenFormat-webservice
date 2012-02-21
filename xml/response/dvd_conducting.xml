@@ -9,6 +9,16 @@
           <ofo:type>&lt;div class="type"&gt;Dvd&lt;/div&gt;</ofo:type>
           <ofo:description>&lt;div class="subjects"&gt;
   &lt;span class="subjectHeader"&gt;Emne:&lt;/span&gt;
+  &lt;span class="subject phraseLink"&gt;Frankrig&lt;/span&gt;
+   ; 
+  &lt;span class="subject phraseLink"&gt;Rusland&lt;/span&gt;
+   ; 
+  &lt;span class="subject phraseLink"&gt;Tjekkiet&lt;/span&gt;
+   ; 
+  &lt;span class="subject phraseLink"&gt;Tyskland&lt;/span&gt;
+   ; 
+  &lt;span class="subject phraseLink"&gt;Østrig&lt;/span&gt;
+   ; 
   &lt;span class="subject phraseLink"&gt;impressionisme&lt;/span&gt;
    ; 
   &lt;span class="subject phraseLink"&gt;instrumental&lt;/span&gt;
@@ -25,16 +35,6 @@
    ; 
   &lt;span class="subject phraseLink"&gt;symfonisk digt&lt;/span&gt;
    ; 
-  &lt;span class="subject phraseLink"&gt;Tyskland&lt;/span&gt;
-   ; 
-  &lt;span class="subject phraseLink"&gt;Rusland&lt;/span&gt;
-   ; 
-  &lt;span class="subject phraseLink"&gt;Frankrig&lt;/span&gt;
-   ; 
-  &lt;span class="subject phraseLink"&gt;Østrig&lt;/span&gt;
-   ; 
-  &lt;span class="subject phraseLink"&gt;Tjekkiet&lt;/span&gt;
-   ; 
   &lt;span class="subject phraseLink"&gt;1800-1899&lt;/span&gt;
    ; 
   &lt;span class="subject phraseLink"&gt;1900-1909&lt;/span&gt;
@@ -43,13 +43,13 @@
 &lt;/div&gt;&lt;div class="abstract"&gt;Indspillet 1931-1991&lt;/div&gt;</ofo:description>
           <ofo:details>&lt;div class="format"&gt;1 t., 55 min., 1 dvd-video, 1 kommentarhæfte&lt;/div&gt;&lt;div class="forms"&gt;
   &lt;span class="formHeader"&gt;Form:&lt;/span&gt;
-  &lt;span class="subject phraseLink"&gt;direktion&lt;/span&gt;
+  &lt;span class="formSubject phraseLink"&gt;direktion&lt;/span&gt;
    ; 
-  &lt;span class="subject phraseLink"&gt;historiske optagelser&lt;/span&gt;
+  &lt;span class="formSubject phraseLink"&gt;historiske optagelser&lt;/span&gt;
    ; 
-  &lt;span class="subject phraseLink"&gt;orkesterdirektion&lt;/span&gt;
+  &lt;span class="formSubject phraseLink"&gt;orkesterdirektion&lt;/span&gt;
    ; 
-  &lt;span class="subject phraseLink"&gt;orkesterprøver&lt;/span&gt;
+  &lt;span class="formSubject phraseLink"&gt;orkesterprøver&lt;/span&gt;
 &lt;/div&gt;&lt;div class="shelf"&gt;
   &lt;span class="shelfHeader"&gt;Opstilling i folkebiblioteker:&lt;/span&gt;
   &lt;span class="shelfMusic"&gt;Orkestermusik. Antologier&lt;/span&gt;
@@ -58,22 +58,13 @@
   &lt;div class="descriptionNote"&gt;På omslaget: Sergiu Celibidache, Wilhelm Furtwängler, Erich Kleiber, Evgeny Mravinsky, Charles Munch, Willem Mengelberg, André Cluytens, Herbert von Karajan, Hermann Scherchen, Václav Talich&lt;/div&gt;
   &lt;div class="descriptionNote"&gt;Med kommentarer af Peter Andry, Alexander Barantschik, Daniel Barenboim, Walter Barylli, Otto Edelmann, Vic Furth, Yuri Grigorovich, Bernard Haitink, Yehudi Menuhin og Evgeny Mravinsky&lt;/div&gt;
 &lt;/div&gt;&lt;div class="identifiers"&gt;
-  &lt;div class="identifier"&gt;Warner Music Vision 0927-42668-2&lt;/div&gt;
+  &lt;span class="identifier"&gt;Warner Music Vision 0927-42668-2&lt;/span&gt;
 &lt;/div&gt;&lt;div class="priceInformation"&gt;
   &lt;span class="priceHeader"&gt;Pris ved udgivelsen:&lt;/span&gt;
   &lt;span class="price"&gt;Kr. 199,00&lt;/span&gt;
-&lt;/div&gt;&lt;div class="languageInformation"/&gt;
-&lt;span class="languageHeader"&gt;Sprog:&lt;/span&gt;
-&lt;span class="language"&gt;Flere sprog&lt;/span&gt;</ofo:details>
-          <ofo:publicationDetails>&lt;div class="publication"&gt;
-  &lt;span class="publisher"&gt;Teldec Classics International&lt;/span&gt;
-   ; 
-  &lt;span class="publisher"&gt;Warner Music Vision&lt;/span&gt;
-  , 
-  &lt;span class="year"&gt;2002&lt;/span&gt;
-&lt;/div&gt;</ofo:publicationDetails>
-          <ofo:content>
-            <div class="content">Indhold:&lt;div class="analyticContent"&gt;
+&lt;/div&gt;</ofo:details>
+          <ofo:publicationDetails>&lt;div class="publication"&gt;&lt;span class="publisher"&gt;Teldec Classics International&lt;/span&gt; ; &lt;span class="publisher"&gt;Warner Music Vision&lt;/span&gt;, &lt;span class="year"&gt;2002&lt;/span&gt;&lt;/div&gt;</ofo:publicationDetails>
+          <ofo:content>&lt;span class="contentHeader"&gt;Indhold:&lt;/span&gt;&lt;div class="analyticContent"&gt;
   &lt;div class="contributor phraseLink"&gt;Richard Strauss&lt;/div&gt;
   &lt;div class="title"&gt;
     &lt;span class="title phraseLink"&gt;Ein Heldenleben, opus 40 (uddrag)&lt;/span&gt;
@@ -179,8 +170,7 @@
     &lt;span class="title phraseLink"&gt;Symfoni nr. 5, d-mol, opus 47 (1. sats ; 4. sats)&lt;/span&gt;
     &lt;span class="restOfTitle"&gt;/ Leningrad Philharmonic Orchestra ; dirigent: Evgeny Alexandrovich Mravinsky&lt;/span&gt;
   &lt;/div&gt;
-&lt;/div&gt;</div>
-          </ofo:content>
+&lt;/div&gt;</ofo:content>
         </ofo:fullDisplayInformation>
       </ofo:bibliotekdkFullDisplay>
     </of:formatResponse>

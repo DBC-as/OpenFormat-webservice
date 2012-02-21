@@ -5,12 +5,12 @@
       <ofo:bibliotekdkFullDisplay>
         <ofo:fullDisplayInformation>
           <ofo:title>&lt;div class="title"&gt;Juvenilia et addenda&lt;/div&gt;</ofo:title>
-          <ofo:creator>&lt;div class="creators"&gt;
-  &lt;span class="creator phraseLink"&gt;Carl Nielsen (f. 1865)&lt;/span&gt;
-&lt;/div&gt;</ofo:creator>
+          <ofo:creator>&lt;div class="creators"/&gt;</ofo:creator>
           <ofo:type>&lt;div class="type"&gt;Node&lt;/div&gt;</ofo:type>
           <ofo:description>&lt;div class="subjects"&gt;
   &lt;span class="subjectHeader"&gt;Emne:&lt;/span&gt;
+  &lt;span class="subject phraseLink"&gt;Danmark&lt;/span&gt;
+   ; 
   &lt;span class="subject phraseLink"&gt;instrumental&lt;/span&gt;
    ; 
   &lt;span class="subject phraseLink"&gt;kammermusik&lt;/span&gt;
@@ -25,8 +25,6 @@
    ; 
   &lt;span class="subject phraseLink"&gt;strygekvartet&lt;/span&gt;
    ; 
-  &lt;span class="subject phraseLink"&gt;Danmark&lt;/span&gt;
-   ; 
   &lt;span class="subject phraseLink"&gt;1880-1889&lt;/span&gt;
    ; 
   &lt;span class="subject phraseLink"&gt;1890-1899&lt;/span&gt;
@@ -40,9 +38,9 @@
   &lt;span class="subject phraseLink"&gt;1930-1939&lt;/span&gt;
 &lt;/div&gt;</ofo:description>
           <ofo:details>&lt;div class="contributors"&gt;
-  &lt;span class="contributor"&gt;Carl Nielsen, udgivet af Lisbeth Ahlgren Jensen, Lisbeth Larsen&lt;/span&gt;
+  &lt;span class="contributor"&gt;udgivet af Lisbeth Ahlgren Jensen, Lisbeth Larsen&lt;/span&gt;
 &lt;/div&gt;&lt;div class="format"&gt;lvi, 330 sider, 1 partitur&lt;/div&gt;&lt;div class="seriesTitles"&gt;
-  &lt;div class="series"&gt;
+  &lt;div class="seriesTitle"&gt;
     &lt;span class="seriesHeader"&gt;Serie:&lt;/span&gt;
     &lt;span class="series phraseLink"&gt;Værker / Carl Nielsen&lt;/span&gt;
     &lt;span class="seriesNumber"&gt;; bind 1&lt;/span&gt;
@@ -53,21 +51,16 @@
 &lt;/div&gt;&lt;div class="usedLanguages"&gt;
   &lt;div class="usedLanguage"&gt;Med forord på dansk og engelsk og revisionsberetning på engelsk&lt;/div&gt;
 &lt;/div&gt;&lt;div class="references"&gt;Litteraturhenvisninger ; Kildehenvisninger&lt;/div&gt;&lt;div class="identifiers"&gt;
-  &lt;span class="identifierHeader"&gt;ISBN&lt;/span&gt;
-  &lt;span class="identifier"&gt;9788759818244&lt;/span&gt;
-  &lt;div class="identifier"&gt;M-66134-212-0&lt;/div&gt;
-&lt;/div&gt;&lt;div class="languageInformation"/&gt;
-&lt;span class="languageHeader"&gt;Sprog:&lt;/span&gt;
-&lt;span class="language"&gt;Dansk&lt;/span&gt;</ofo:details>
-          <ofo:publicationDetails>&lt;div class="publication"&gt;
-  &lt;span class="publisher"&gt;Carl Nielsen Udgaven, Det Kongelige Bibliotek&lt;/span&gt;
-   ; 
-  &lt;span class="publisher"&gt;Wilhelm Hansen&lt;/span&gt;
-  , 
-  &lt;span class="year"&gt;2009&lt;/span&gt;
-&lt;/div&gt;</ofo:publicationDetails>
-          <ofo:content>
-            <div class="content">Indhold:&lt;div class="analyticContent"&gt;
+  &lt;span class="identifierHeader"&gt;ISBN:&lt;/span&gt;
+  &lt;span class="identifier"&gt;978-87-598-1824-4&lt;/span&gt;
+&lt;/div&gt;&lt;div class="identifiers"&gt;
+  &lt;span class="identifierHeader"&gt;ISMN:&lt;/span&gt;
+  &lt;span class="identifier"&gt;M-66134-212-0&lt;/span&gt;
+&lt;/div&gt;&lt;div class="identifiers"&gt;
+  &lt;span class="identifier"&gt;CN 00052&lt;/span&gt;
+&lt;/div&gt;</ofo:details>
+          <ofo:publicationDetails>&lt;div class="publication"&gt;&lt;span class="publisher"&gt;Carl Nielsen Udgaven, Det Kongelige Bibliotek&lt;/span&gt; ; &lt;span class="publisher"&gt;Wilhelm Hansen&lt;/span&gt;, &lt;span class="year"&gt;2009&lt;/span&gt;&lt;/div&gt;</ofo:publicationDetails>
+          <ofo:content>&lt;span class="contentHeader"&gt;Indhold:&lt;/span&gt;&lt;div class="analyticContent"&gt;
   &lt;div class="contributor phraseLink"&gt;Carl Nielsen, f. 1865&lt;/div&gt;
   &lt;div class="title"&gt;
     &lt;span class="title phraseLink"&gt;Polka for violin, A-dur, FS 1 (CNU add. 1)&lt;/span&gt;
@@ -311,8 +304,7 @@
     &lt;span class="title phraseLink"&gt;Hyrdedrengens melodi, CNU add. 49&lt;/span&gt;
     &lt;span class="restOfTitle"&gt;: for obo&lt;/span&gt;
   &lt;/div&gt;
-&lt;/div&gt;</div>
-          </ofo:content>
+&lt;/div&gt;</ofo:content>
         </ofo:fullDisplayInformation>
       </ofo:bibliotekdkFullDisplay>
     </of:formatResponse>

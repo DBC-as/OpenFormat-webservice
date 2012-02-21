@@ -21,28 +21,21 @@
   &lt;span class="originalTitleHeader"&gt;Originaltitel:&lt;/span&gt;
   &lt;span class="originalTitle"&gt;Jonathan Livingston Seagull&lt;/span&gt;
 &lt;/div&gt;&lt;div class="contributors"&gt;
-  &lt;span class="contributor"&gt;tekst: Richard Bach&lt;/span&gt;
+  &lt;span class="contributor"&gt;fotografier af Russell Munson, på dansk ved Henrik Nordbrandt&lt;/span&gt;
 &lt;/div&gt;&lt;div class="format"&gt;93 sider, illustreret&lt;/div&gt;&lt;div class="shelf"&gt;
   &lt;span class="shelfHeader"&gt;Opstilling i folkebiblioteker:&lt;/span&gt;
   &lt;span class="classification phraseLink"&gt;skønlitteratur&lt;/span&gt;
-&lt;/div&gt;&lt;div class="identifiers"&gt;
-  &lt;span class="identifierHeader"&gt;ISBN&lt;/span&gt;
+&lt;/div&gt;&lt;div class="originals"&gt;Originaludgave: 1970&lt;/div&gt;&lt;div class="identifiers"&gt;
+  &lt;span class="identifierHeader"&gt;ISBN:&lt;/span&gt;
   &lt;span class="identifier"&gt;87-7560-587-2&lt;/span&gt;
-  &lt;span class="identifierHeader"&gt;ISBN&lt;/span&gt;
-  &lt;span class="identifier"&gt;9788775605873&lt;/span&gt;
+&lt;/div&gt;&lt;div class="identifiers"&gt;
+  &lt;span class="identifierHeader"&gt;ISBN:&lt;/span&gt;
+  &lt;span class="identifier"&gt;978-87-7560-587-3&lt;/span&gt;
 &lt;/div&gt;&lt;div class="priceInformation"&gt;
   &lt;span class="priceHeader"&gt;Pris ved udgivelsen:&lt;/span&gt;
   &lt;span class="price"&gt;kr. 99,95&lt;/span&gt;
-&lt;/div&gt;&lt;div class="languageInformation"/&gt;
-&lt;span class="languageHeader"&gt;Sprog:&lt;/span&gt;
-&lt;span class="language"&gt;Dansk&lt;/span&gt;</ofo:details>
-          <ofo:publicationDetails>&lt;div class="publication"&gt;
-  &lt;span class="edition"&gt;1. i.e.2. udgave&lt;/span&gt;
-  . 
-  &lt;span class="publisher"&gt;Lindhardt og Ringhof&lt;/span&gt;
-  , 
-  &lt;span class="year"&gt;2010&lt;/span&gt;
-&lt;/div&gt;</ofo:publicationDetails>
+&lt;/div&gt;</ofo:details>
+          <ofo:publicationDetails>&lt;div class="publication"&gt;&lt;span class="edition"&gt;1. i.e.2. udgave&lt;/span&gt;. &lt;span class="publisher"&gt;Lindhardt og Ringhof&lt;/span&gt;, &lt;span class="year"&gt;2010&lt;/span&gt;&lt;/div&gt;</ofo:publicationDetails>
           <ofo:content/>
         </ofo:fullDisplayInformation>
       </ofo:bibliotekdkFullDisplay>

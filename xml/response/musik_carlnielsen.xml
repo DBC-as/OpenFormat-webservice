@@ -7,10 +7,20 @@
           <ofo:title>&lt;div class="title"&gt;Music for harp and flute&lt;/div&gt;</ofo:title>
           <ofo:creator>&lt;div class="creators"&gt;
   &lt;span class="creator phraseLink"&gt;Sofia Asunción Claro&lt;/span&gt;
+   ; 
+  &lt;span class="creator phraseLink"&gt;Lars Graugaard&lt;/span&gt;
 &lt;/div&gt;</ofo:creator>
           <ofo:type>&lt;div class="type"&gt;Cd (musik)&lt;/div&gt;</ofo:type>
           <ofo:description>&lt;div class="subjects"&gt;
   &lt;span class="subjectHeader"&gt;Emne:&lt;/span&gt;
+  &lt;span class="subject phraseLink"&gt;Danmark&lt;/span&gt;
+   ; 
+  &lt;span class="subject phraseLink"&gt;Frankrig&lt;/span&gt;
+   ; 
+  &lt;span class="subject phraseLink"&gt;Italien&lt;/span&gt;
+   ; 
+  &lt;span class="subject phraseLink"&gt;Tyskland&lt;/span&gt;
+   ; 
   &lt;span class="subject phraseLink"&gt;fløjte&lt;/span&gt;
    ; 
   &lt;span class="subject phraseLink"&gt;harpe&lt;/span&gt;
@@ -22,14 +32,6 @@
   &lt;span class="subject phraseLink"&gt;kammermusik&lt;/span&gt;
    ; 
   &lt;span class="subject phraseLink"&gt;tværfløjte&lt;/span&gt;
-   ; 
-  &lt;span class="subject phraseLink"&gt;Frankrig&lt;/span&gt;
-   ; 
-  &lt;span class="subject phraseLink"&gt;Italien&lt;/span&gt;
-   ; 
-  &lt;span class="subject phraseLink"&gt;Danmark&lt;/span&gt;
-   ; 
-  &lt;span class="subject phraseLink"&gt;Tyskland&lt;/span&gt;
    ; 
   &lt;span class="subject phraseLink"&gt;1890-1899&lt;/span&gt;
    ; 
@@ -49,18 +51,13 @@
   &lt;span class="shelfHeader"&gt;Opstilling i folkebiblioteker:&lt;/span&gt;
   &lt;span class="shelfMusic"&gt;Kammermusik. Antologier&lt;/span&gt;
 &lt;/div&gt;&lt;div class="identifiers"&gt;
-  &lt;div class="identifier"&gt;Tutl FKT 063&lt;/div&gt;
+  &lt;span class="identifier"&gt;Tutl FKT 063&lt;/span&gt;
 &lt;/div&gt;&lt;div class="priceInformation"&gt;
   &lt;span class="priceHeader"&gt;Pris ved udgivelsen:&lt;/span&gt;
   &lt;span class="price"&gt;Kr. 136,00&lt;/span&gt;
 &lt;/div&gt;</ofo:details>
-          <ofo:publicationDetails>&lt;div class="publication"&gt;
-  &lt;span class="publisher"&gt;Tutl&lt;/span&gt;
-  , 
-  &lt;span class="year"&gt;2010&lt;/span&gt;
-&lt;/div&gt;</ofo:publicationDetails>
-          <ofo:content>
-            <div class="content">Indhold:&lt;div class="analyticContent"&gt;
+          <ofo:publicationDetails>&lt;div class="publication"&gt;&lt;span class="publisher"&gt;Tutl&lt;/span&gt;, &lt;span class="year"&gt;2010&lt;/span&gt;&lt;/div&gt;</ofo:publicationDetails>
+          <ofo:content>&lt;span class="contentHeader"&gt;Indhold:&lt;/span&gt;&lt;div class="analyticContent"&gt;
   &lt;div class="contributor phraseLink"&gt;Jean Françaix&lt;/div&gt;
   &lt;div class="title"&gt;
     &lt;span class="title phraseLink"&gt;Cinque piccoli duetti&lt;/span&gt;
@@ -106,8 +103,7 @@
     &lt;span class="title phraseLink"&gt;Moderen (Tågen letter) / &lt;/span&gt;
     &lt;span class="restOfTitle"&gt;Lars Graugaard, fløjte ; Sofia Asunción Claro, harpe&lt;/span&gt;
   &lt;/div&gt;
-&lt;/div&gt;</div>
-          </ofo:content>
+&lt;/div&gt;</ofo:content>
         </ofo:fullDisplayInformation>
       </ofo:bibliotekdkFullDisplay>
     </of:formatResponse>

@@ -18,29 +18,21 @@
           <ofo:details>&lt;div class="contributors"&gt;
   &lt;span class="contributor"&gt;tekst: Herman Bang&lt;/span&gt;
 &lt;/div&gt;&lt;div class="seriesTitles"&gt;
-  &lt;div class="series"&gt;
+  &lt;div class="seriesTitle"&gt;
     &lt;span class="seriesHeader"&gt;Serie:&lt;/span&gt;
     &lt;span class="series phraseLink"&gt;Gyldendals e-bøger&lt;/span&gt;
   &lt;/div&gt;
 &lt;/div&gt;&lt;div class="note"&gt;
   &lt;div class="descriptionNote"&gt;Downloades i PDF-format (2 MB)&lt;/div&gt;
-&lt;/div&gt;&lt;div class="identifiers"&gt;
-  &lt;span class="identifierHeader"&gt;ISBN&lt;/span&gt;
-  &lt;span class="identifier"&gt;9788702087314&lt;/span&gt;
+&lt;/div&gt;&lt;div class="originals"&gt;Originaludgave: 1896&lt;/div&gt;&lt;div class="identifiers"&gt;
+  &lt;span class="identifierHeader"&gt;ISBN:&lt;/span&gt;
+  &lt;span class="identifier"&gt;978-87-02-08731-4&lt;/span&gt;
 &lt;/div&gt;&lt;div class="priceInformation"&gt;
   &lt;span class="price"&gt;kr. 99,00&lt;/span&gt;
-&lt;/div&gt;&lt;div class="languageInformation"/&gt;
-&lt;span class="languageHeader"&gt;Sprog:&lt;/span&gt;
-&lt;span class="language"&gt;Dansk&lt;/span&gt;&lt;div class="accessInformation"&gt;
+&lt;/div&gt;&lt;div class="accessInformation"&gt;
   &lt;span class="accessUrl"&gt;http://ebog.dk/apc/direct.php?ISBN="9788702087314"&lt;/span&gt;
 &lt;/div&gt;</ofo:details>
-          <ofo:publicationDetails>&lt;div class="publication"&gt;
-  &lt;span class="edition"&gt;1. e-bogsudgave&lt;/span&gt;
-  . 
-  &lt;span class="publisher"&gt;Gyldendal&lt;/span&gt;
-  , 
-  &lt;span class="year"&gt;2009&lt;/span&gt;
-&lt;/div&gt;</ofo:publicationDetails>
+          <ofo:publicationDetails>&lt;div class="publication"&gt;&lt;span class="edition"&gt;1. e-bogsudgave&lt;/span&gt;. &lt;span class="publisher"&gt;Gyldendal&lt;/span&gt;, &lt;span class="year"&gt;2009&lt;/span&gt;&lt;/div&gt;</ofo:publicationDetails>
           <ofo:content/>
         </ofo:fullDisplayInformation>
       </ofo:bibliotekdkFullDisplay>

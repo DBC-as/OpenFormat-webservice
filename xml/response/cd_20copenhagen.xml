@@ -20,17 +20,10 @@
   &lt;div class="descriptionNote"&gt;Gratis cd. Tilgængelig via download fra DR's hjemmeside&lt;/div&gt;
   &lt;div class="descriptionNote"&gt;Med interviews&lt;/div&gt;
 &lt;/div&gt;&lt;div class="identifiers"&gt;
-  &lt;div class="identifier"&gt;DR Concerto Copenhagen CoCo 20-1&lt;/div&gt;
+  &lt;span class="identifier"&gt;DR Concerto Copenhagen CoCo 20-1&lt;/span&gt;
 &lt;/div&gt;</ofo:details>
-          <ofo:publicationDetails>&lt;div class="publication"&gt;
-  &lt;span class="publisher"&gt;Concerto Copenhagen&lt;/span&gt;
-   ; 
-  &lt;span class="publisher"&gt;DR&lt;/span&gt;
-  , 
-  &lt;span class="year"&gt;2011&lt;/span&gt;
-&lt;/div&gt;</ofo:publicationDetails>
-          <ofo:content>
-            <div class="content">Indhold:&lt;div class="analyticContent"&gt;
+          <ofo:publicationDetails>&lt;div class="publication"&gt;&lt;span class="publisher"&gt;Concerto Copenhagen&lt;/span&gt; ; &lt;span class="publisher"&gt;DR&lt;/span&gt;, &lt;span class="year"&gt;2011&lt;/span&gt;&lt;/div&gt;</ofo:publicationDetails>
+          <ofo:content>&lt;span class="contentHeader"&gt;Indhold:&lt;/span&gt;&lt;div class="analyticContent"&gt;
   &lt;div class="contributor phraseLink"&gt;Georg Philipp Telemann&lt;/div&gt;
   &lt;div class="title"&gt;
     &lt;span class="title phraseLink"&gt;Koncert for 3 trompeter, 2 oboer, pauker, strygere og continuo, D-dur, TWV 54:D3 (Kross BD 1) (1. sats : Intrada)&lt;/span&gt;
@@ -91,8 +84,7 @@
     &lt;span class="title phraseLink"&gt;Sinfonia, D-dur (1. sats : Allegro)&lt;/span&gt;
     &lt;span class="restOfTitle"&gt;/ anonym (Sigr G), af Gieddes samling, KB, X, ii ; dirigent: Lars Ulrik Mortensen&lt;/span&gt;
   &lt;/div&gt;
-&lt;/div&gt;</div>
-          </ofo:content>
+&lt;/div&gt;</ofo:content>
         </ofo:fullDisplayInformation>
       </ofo:bibliotekdkFullDisplay>
     </of:formatResponse>

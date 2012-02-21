@@ -11,14 +11,14 @@
   &lt;span class="subjectHeader"&gt;Emne:&lt;/span&gt;
   &lt;span class="subject phraseLink"&gt;Bolivia&lt;/span&gt;
    ; 
-  &lt;span class="subject phraseLink"&gt;Paraguay&lt;/span&gt;
-   ; 
   &lt;span class="subject phraseLink"&gt;kort&lt;/span&gt;
+   ; 
+  &lt;span class="subject phraseLink"&gt;Paraguay&lt;/span&gt;
    ; 
   &lt;span class="subject phraseLink"&gt;vejatlas&lt;/span&gt;
 &lt;/div&gt;&lt;div class="abstract"&gt;På omslaget: Special maps: Cusco/Machu Picchu, Iguacu, Tiahuanaco, Cusco, La Paz, Santa Cruz, Potosi, Central Asunción, Sucre&lt;/div&gt;</ofo:description>
           <ofo:details>&lt;div class="format"&gt;1 falset kort, i farver&lt;/div&gt;&lt;div class="seriesTitles"&gt;
-  &lt;div class="series"&gt;
+  &lt;div class="seriesTitle"&gt;
     &lt;span class="seriesHeader"&gt;Serie:&lt;/span&gt;
     &lt;span class="series phraseLink"&gt;Nelles map&lt;/span&gt;
   &lt;/div&gt;
@@ -29,18 +29,10 @@
   &lt;div class="descriptionNote"&gt;På omslaget: Special maps: Cusco/Machu Picchu, Iguacu, Tiahuanaco, Cusco, La Paz, Santa Cruz, Potosi, Central Asunción, Sucre&lt;/div&gt;
   &lt;div class="descriptionNote"&gt;På omslaget: Physical rilief mapping, Places of interest&lt;/div&gt;
 &lt;/div&gt;&lt;div class="identifiers"&gt;
-  &lt;span class="identifierHeader"&gt;ISBN&lt;/span&gt;
-  &lt;span class="identifier"&gt;9783865742056&lt;/span&gt;
-&lt;/div&gt;&lt;div class="languageInformation"/&gt;
-&lt;span class="languageHeader"&gt;Sprog:&lt;/span&gt;
-&lt;span class="language"&gt;Engelsk&lt;/span&gt;</ofo:details>
-          <ofo:publicationDetails>&lt;div class="publication"&gt;
-  &lt;span class="edition"&gt;Edition 2011&lt;/span&gt;
-  . 
-  &lt;span class="publisher"&gt;Nelles&lt;/span&gt;
-  , 
-  &lt;span class="year"&gt;2011&lt;/span&gt;
-&lt;/div&gt;</ofo:publicationDetails>
+  &lt;span class="identifierHeader"&gt;ISBN:&lt;/span&gt;
+  &lt;span class="identifier"&gt;978-3-86574-205-6&lt;/span&gt;
+&lt;/div&gt;</ofo:details>
+          <ofo:publicationDetails>&lt;div class="publication"&gt;&lt;span class="edition"&gt;Edition 2011&lt;/span&gt;. &lt;span class="publisher"&gt;Nelles&lt;/span&gt;, &lt;span class="year"&gt;2011&lt;/span&gt;&lt;/div&gt;</ofo:publicationDetails>
           <ofo:content/>
         </ofo:fullDisplayInformation>
       </ofo:bibliotekdkFullDisplay>

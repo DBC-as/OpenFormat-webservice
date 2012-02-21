@@ -6,7 +6,7 @@
         <ofo:fullDisplayInformation>
           <ofo:title>&lt;div class="title"&gt;Mona Lisa på afveje&lt;/div&gt;</ofo:title>
           <ofo:creator>&lt;div class="creators"&gt;
-  &lt;span class="creator phraseLink"&gt;Anders Westenholz (f. 1936)&lt;/span&gt;
+  &lt;span class="creator phraseLink"&gt;Anders Westenholz, f. 1936&lt;/span&gt;
 &lt;/div&gt;</ofo:creator>
           <ofo:type>&lt;div class="type"&gt;Cd&lt;/div&gt;</ofo:type>
           <ofo:description>&lt;div class="subjects"&gt;
@@ -17,10 +17,8 @@
    ; 
   &lt;span class="subject phraseLink"&gt;kunst&lt;/span&gt;
 &lt;/div&gt;&lt;div class="abstract"&gt;Kunsteksperten Viggo har alletiders plan : at stjæle Mona Lisa. Det lykkes faktisk, og han sælger maleriet til en brasiliansk milliardær. Men dermed er lykken alligevel ikke gjort&lt;/div&gt;</ofo:description>
-          <ofo:details>&lt;div class="contributors"&gt;
-  &lt;span class="contributor"&gt;Anders Westenholz&lt;/span&gt;
-&lt;/div&gt;&lt;div class="format"&gt;Spilletid: 2 t., 15 min., 115 sider&lt;/div&gt;&lt;div class="seriesTitles"&gt;
-  &lt;div class="series"&gt;
+          <ofo:details>&lt;div class="format"&gt;2 t., 15 min., 115 sider, 1 cd, mp3, 1 bog&lt;/div&gt;&lt;div class="seriesTitles"&gt;
+  &lt;div class="seriesTitle"&gt;
     &lt;span class="seriesHeader"&gt;Serie:&lt;/span&gt;
     &lt;span class="series phraseLink"&gt;Læselyst&lt;/span&gt;
     &lt;span class="seriesNumber"&gt;; 13&lt;/span&gt;
@@ -30,7 +28,7 @@
   &lt;span class="classification phraseLink"&gt;skønlitteratur&lt;/span&gt;
 &lt;/div&gt;&lt;div class="audienceSubjects"&gt;
   &lt;span class="audienceSubjectHeader"&gt;Målgruppe:&lt;/span&gt;
-  &lt;span class="augienceSubject phraseLink"&gt;for læsesvage voksne&lt;/span&gt;
+  &lt;span class="audienceSubject phraseLink"&gt;for læsesvage voksne&lt;/span&gt;
 &lt;/div&gt;&lt;div class="note"&gt;
   &lt;span class="noteHeader"&gt;Samhørende:&lt;/span&gt;
   &lt;span class="title phraseLink"&gt;Mona Lisa på afveje&lt;/span&gt;
@@ -38,20 +36,14 @@
   &lt;span class="title phraseLink"&gt;Fup, fiduser og falske malerier&lt;/span&gt;
   &lt;div class="descriptionNote"&gt;Cd Indlæst af Janek Lesniak&lt;/div&gt;
   &lt;div class="descriptionNote"&gt;Bog: Hedehusene : Nyt Dansk Litteraturselskab, 2005&lt;/div&gt;
-&lt;/div&gt;&lt;div class="identifiers"&gt;
-  &lt;span class="identifierHeader"&gt;ISBN&lt;/span&gt;
+&lt;/div&gt;&lt;div class="originals"&gt;Bogens originaludgave: 2005&lt;/div&gt;&lt;div class="identifiers"&gt;
+  &lt;span class="identifierHeader"&gt;ISBN:&lt;/span&gt;
   &lt;span class="identifier"&gt;87-89793-09-9&lt;/span&gt;
 &lt;/div&gt;&lt;div class="priceInformation"&gt;
   &lt;span class="priceHeader"&gt;Pris ved udgivelsen:&lt;/span&gt;
   &lt;span class="price"&gt;Kr. 580,00&lt;/span&gt;
-&lt;/div&gt;&lt;div class="languageInformation"/&gt;
-&lt;span class="languageHeader"&gt;Sprog:&lt;/span&gt;
-&lt;span class="language"&gt;Dansk&lt;/span&gt;</ofo:details>
-          <ofo:publicationDetails>&lt;div class="publication"&gt;
-  &lt;span class="publisher"&gt;KKB-Lyd&lt;/span&gt;
-  , 
-  &lt;span class="year"&gt;2006&lt;/span&gt;
-&lt;/div&gt;</ofo:publicationDetails>
+&lt;/div&gt;</ofo:details>
+          <ofo:publicationDetails>&lt;div class="publication"&gt;&lt;span class="publisher"&gt;KKB-Lyd&lt;/span&gt;, &lt;span class="year"&gt;2006&lt;/span&gt;&lt;/div&gt;</ofo:publicationDetails>
           <ofo:content/>
         </ofo:fullDisplayInformation>
       </ofo:bibliotekdkFullDisplay>
