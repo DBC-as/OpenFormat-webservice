@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <ns1:bibliographicData>
+  <dkabm:record>
+    <ac:identifier>07197195|870970</ac:identifier>
+    <ac:source>NJE</ac:source>
+    <dc:title>ISDN-bogen</dc:title>
+    <dc:title xsi:type="dkdcplus:full">ISDN-bogen</dc:title>
+    <dc:title xsi:type="dkdcplus:series">Borgen/data</dc:title>
+    <dc:creator xsi:type="dkdcplus:aut">Jeppe Rude</dc:creator>
+    <dc:creator xsi:type="oss:sort">Rude, Jeppe</dc:creator>
+    <dc:subject xsi:type="dkdcplus:DK5">65.87</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCF">ISDN</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DK5-Text">Telekommunikation i alm. Telegraf- og telefonvæsen</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCF">datakommunikation</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCF">datanet</dc:subject>
+    <dc:subject xsi:type="dkdcplus:genre">nonfiktion</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCF">telekommunikation</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCF">telenet</dc:subject>
+    <dc:description>ISDN: Integrated Services Digital Network</dc:description>
+    <dc:description>Indhold: Lidt telefonhistorie ; Hvorfor ISDN? ; IDN, Integrated Digital Network ; Beskrivelse af ISDN ; Standardtilslutninger ; SS#7, Signal System nr. 7 ; Datatransmission i ISDN, nuværende net ; ISDN, praktisk anvendelse ; Bredbånds-ISDN ; Internationalt perspektiv ; Industriens muligheder ; Oversigt over standarder herunder CCITT-rekommandationerne</dc:description>
+    <dcterms:audience>voksenmaterialer</dcterms:audience>
+    <dkdcplus:version>1. udgave, 1. oplag</dkdcplus:version>
+    <dc:publisher>Borgen</dc:publisher>
+    <dc:date>1991</dc:date>
+    <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+    <dc:format>illustreret</dc:format>
+    <dcterms:extent>112 sider</dcterms:extent>
+    <dc:identifier xsi:type="dkdcplus:ISBN">87-418-5933-2</dc:identifier>
+    <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+    <dc:language>Dansk</dc:language>
+  </dkabm:record>
+  <marcx:collection>
+    <record format="danMARC2" type="Bibliographic">
+      <leader>000000000000000000000000</leader>
+      <datafield tag="001" ind1="0" ind2="0">
+        <subfield code="a">07197195</subfield>
+        <subfield code="b">870970</subfield>
+        <subfield code="c">20070101161045</subfield>
+        <subfield code="d">19910423</subfield>
+        <subfield code="f">a</subfield>
+        <subfield code="o">c</subfield>
+        <subfield code="t">FAUST</subfield>
+      </datafield>
+      <datafield tag="004" ind1="0" ind2="0">
+        <subfield code="r">n</subfield>
+        <subfield code="a">e</subfield>
+      </datafield>
+      <datafield tag="008" ind1="0" ind2="0">
+        <subfield code="t">m</subfield>
+        <subfield code="u">f</subfield>
+        <subfield code="a">1991</subfield>
+        <subfield code="b">dk</subfield>
+        <subfield code="l">dan</subfield>
+        <subfield code="v">0</subfield>
+      </datafield>
+      <datafield tag="009" ind1="0" ind2="0">
+        <subfield code="a">a</subfield>
+        <subfield code="g">xx</subfield>
+      </datafield>
+      <datafield tag="021" ind1="0" ind2="0">
+        <subfield code="a">87-418-5933-2</subfield>
+        <subfield code="c">hf.</subfield>
+        <subfield code="d">kr. 148,00</subfield>
+      </datafield>
+      <datafield tag="032" ind1="0" ind2="0">
+        <subfield code="a">DBF199121</subfield>
+        <subfield code="x">SFD199121</subfield>
+        <subfield code="x">DAT990703</subfield>
+      </datafield>
+      <datafield tag="044" ind1="0" ind2="0">
+        <subfield code="a">E</subfield>
+        <subfield code="a">F</subfield>
+        <subfield code="a">G</subfield>
+        <subfield code="a">V</subfield>
+        <subfield code="b">10a</subfield>
+        <subfield code="b">10b</subfield>
+        <subfield code="b">10s</subfield>
+      </datafield>
+      <datafield tag="100" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Rude</subfield>
+        <subfield code="h">Jeppe</subfield>
+      </datafield>
+      <datafield tag="245" ind1="0" ind2="0">
+        <subfield code="a">ISDN-bogen</subfield>
+        <subfield code="e">Jeppe Rude</subfield>
+      </datafield>
+      <datafield tag="250" ind1="0" ind2="0">
+        <subfield code="a">1. udgave</subfield>
+        <subfield code="x">1. oplag</subfield>
+        <subfield code="b">÷</subfield>
+      </datafield>
+      <datafield tag="260" ind1="0" ind2="0">
+        <subfield code="a">Valby</subfield>
+        <subfield code="b">Borgen</subfield>
+        <subfield code="k">Narayana, Gylling</subfield>
+        <subfield code="c">1991</subfield>
+      </datafield>
+      <datafield tag="300" ind1="0" ind2="0">
+        <subfield code="a">112 sider</subfield>
+        <subfield code="b">ill.</subfield>
+      </datafield>
+      <datafield tag="440" ind1="0" ind2="0">
+        <subfield code="0"/>
+        <subfield code="a">Borgen/data</subfield>
+      </datafield>
+      <datafield tag="512" ind1="0" ind2="0">
+        <subfield code="a">ISDN: Integrated Services Digital Network</subfield>
+      </datafield>
+      <datafield tag="530" ind1="0" ind2="0">
+        <subfield code="a">Indhold: Lidt telefonhistorie ; Hvorfor ISDN? ; IDN, Integrated Digital Network ; Beskrivelse af ISDN ; Standardtilslutninger ; SS#7, Signal System nr. 7 ; Datatransmission i ISDN, nuværende net ; ISDN, praktisk anvendelse ; Bredbånds-ISDN ; Internationalt perspektiv ; Industriens muligheder ; Oversigt over standarder herunder CCITT-rekommandationerne</subfield>
+      </datafield>
+      <datafield tag="532" ind1="0" ind2="0">
+        <subfield code="a">Litteraturfortegnelse: side 102-105</subfield>
+      </datafield>
+      <datafield tag="652" ind1="0" ind2="0">
+        <subfield code="m">65.87</subfield>
+      </datafield>
+      <datafield tag="666" ind1="0" ind2="0">
+        <subfield code="f">telekommunikation</subfield>
+      </datafield>
+      <datafield tag="666" ind1="0" ind2="0">
+        <subfield code="f">ISDN</subfield>
+      </datafield>
+      <datafield tag="666" ind1="0" ind2="0">
+        <subfield code="f">datakommunikation</subfield>
+      </datafield>
+      <datafield tag="666" ind1="0" ind2="0">
+        <subfield code="f">datanet</subfield>
+      </datafield>
+      <datafield tag="666" ind1="0" ind2="0">
+        <subfield code="f">telenet</subfield>
+      </datafield>
+      <datafield tag="s10" ind1="0" ind2="0">
+        <subfield code="a">DBC</subfield>
+      </datafield>
+    </record>
+  </marcx:collection>
+  <oss:openurl>_BASEURL_url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:book&amp;rft.btitle=ISDN-bogen&amp;rft.aulast=Rude&amp;rft.aufirst=Jeppe&amp;rft.auinit=J&amp;rft.date=1991&amp;rft.isbn=87-418-5933-2&amp;rft.pub=Borgen&amp;rft.edition=1.+udgave,+1.+oplag&amp;rft.series=Borgen/data&amp;rft.genre=book</oss:openurl>
+        </ns1:bibliographicData>
+      </ns1:originalData>
+      <ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
