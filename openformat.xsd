@@ -70,6 +70,7 @@ You should have received a copy of the GNU Affero General Public License along w
 			<xs:sequence>
 				<xs:element ref="dkabm:record"/>
 				<xs:element ref="marcx:collection" minOccurs="0"/>
+				<xs:element ref="of:identifier"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
@@ -88,6 +89,11 @@ You should have received a copy of the GNU Affero General Public License along w
 			<xs:documentation xml:lang="en">Identifier of the group (most often a library number) the user belongs to (for authentication purposes)</xs:documentation>
 		</xs:annotation>
 	</xs:element>
+    <xs:element name="identifier" type="xs:string">
+        <xs:annotation>
+            <xs:documentation xml:lang="en">Unik identifier of an object.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
 	<xs:element name="language" type="of:languageType">
 		<xs:annotation>
 			<xs:documentation xml:lang="en">Language of output. Danish is the default output language.</xs:documentation>
