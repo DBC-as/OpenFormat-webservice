@@ -2,7 +2,7 @@
 <!-- edited with XMLSpy v2012 (http://www.altova.com) by DBC A/S (DBC A/S) -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput" xmlns:os="http://oss.dbc.dk/ns/opensearch" targetNamespace="http://oss.dbc.dk/ns/openformat" elementFormDefault="qualified">
 	<xs:annotation>
-		<xs:documentation xml:lang="en">Opensearch Service</xs:documentation>
+		<xs:documentation xml:lang="en">Open Format Service</xs:documentation>
 		<xs:documentation xml:lang="en">This XML Schema describes the data and structure of data of the Open Format service.</xs:documentation>
 		<xs:documentation xml:lang="en">This file is part of Open Library System.
 Copyright © 2011, Dansk Bibliotekscenter a/s,  Tempovej 7-11, DK-2750 Ballerup, Denmark. CVR: 15149043
@@ -25,7 +25,7 @@ You should have received a copy of the GNU Affero General Public License along w
 				<xs:element ref="of:authentication" minOccurs="0"/>
 				<xs:element ref="of:callback" minOccurs="0"/>
 				<xs:element ref="of:language" minOccurs="0"/>
-				<xs:element ref="os:collection" maxOccurs="unbounded"/>
+				<xs:element ref="of:originalData" maxOccurs="unbounded"/>
 				<xs:element ref="of:outputFormat"/>
 				<xs:element ref="of:outputType" minOccurs="0"/>
 				<xs:element ref="of:trackingId" minOccurs="0"/>
@@ -82,6 +82,16 @@ You should have received a copy of the GNU Affero General Public License along w
 			<xs:documentation xml:lang="en">Language of output. Danish is the default output language.</xs:documentation>
 		</xs:annotation>
 	</xs:element>
+	<xs:element name="originalData">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Input to be formated.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:choice>
+				<xs:element ref="os:collection" maxOccurs="unbounded"/>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
 	<xs:element name="outputFormat" type="of:outputFormatType">
 		<xs:annotation>
 			<xs:documentation xml:lang="en">E.g. bibliotek.dk full display format.</xs:documentation>
@@ -95,6 +105,11 @@ You should have received a copy of the GNU Affero General Public License along w
 	<xs:element name="passwordAut">
 		<xs:annotation>
 			<xs:documentation xml:lang="en">Password (for authentication purposes)</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="trackingId" type="xs:string">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Unique id to track this request</xs:documentation>
 		</xs:annotation>
 	</xs:element>
 	<xs:element name="userIdAut">
@@ -132,9 +147,4 @@ You should have received a copy of the GNU Affero General Public License along w
 			<xs:enumeration value="php"/>
 		</xs:restriction>
 	</xs:simpleType>
-	<xs:element name="trackingId" type="xs:string">
-		<xs:annotation>
-			<xs:documentation xml:lang="en">Unique id to track this request</xs:documentation>
-		</xs:annotation>
-	</xs:element>
 </xs:schema>
