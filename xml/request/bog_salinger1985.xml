@@ -1,140 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SOAP-ENV:Body>
     <ns1:formatRequest>
       <ns1:originalData>
-        <ns1:bibliographicData>
-  <dkabm:record>
-    <ac:identifier>01550101|870970</ac:identifier>
-    <ac:source>undefined</ac:source>
-    <dc:title>Forbandede ungdom</dc:title>
-    <dc:title xsi:type="dkdcplus:full">Forbandede ungdom</dc:title>
-    <dc:title xsi:type="dkdcplus:series">Gyldendals tranebøger</dc:title>
-    <dc:creator xsi:type="dkdcplus:aut">J. D. Salinger</dc:creator>
-    <dc:creator xsi:type="oss:sort">Salinger, J. D.</dc:creator>
-    <dc:subject xsi:type="dkdcplus:DK5-Text">Skønlitteratur</dc:subject>
-    <dc:subject xsi:type="dkdcplus:genre">fiktion</dc:subject>
-    <dc:subject xsi:type="dkdcplus:DK5">sk</dc:subject>
-    <dcterms:abstract>En 17-årig amerikansk ung mands konflikt med sig selv og de voksnes verden</dcterms:abstract>
-    <dcterms:audience xsi:type="dkdcplus:age">Fra 14 år</dcterms:audience>
-    <dcterms:audience>voksenmaterialer</dcterms:audience>
-    <dkdcplus:version>2. udgave, 12. tranebogsoplag</dkdcplus:version>
-    <dc:publisher>Gyldendal</dc:publisher>
-    <dc:date>1985</dc:date>
-    <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
-    <dcterms:extent>222 sider</dcterms:extent>
-    <dc:identifier xsi:type="dkdcplus:ISBN">87-00-38712-6</dc:identifier>
-    <dc:source>The catcher in the rye</dc:source>
-    <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
-    <dc:language>Dansk</dc:language>
-  </dkabm:record>
-  <marcx:collection>
-    <record format="danMARC2" type="Bibliographic">
-      <leader>000000000000000000000000</leader>
-      <datafield tag="001" ind1="0" ind2="0">
-        <subfield code="a">01550101</subfield>
-        <subfield code="b">870970</subfield>
-        <subfield code="c">20040901001845</subfield>
-        <subfield code="d">19770418</subfield>
-        <subfield code="f">a</subfield>
-        <subfield code="t">FAUST</subfield>
-      </datafield>
-      <datafield tag="004" ind1="0" ind2="0">
-        <subfield code="r">n</subfield>
-        <subfield code="a">e</subfield>
-      </datafield>
-      <datafield tag="008" ind1="0" ind2="0">
-        <subfield code="t">m</subfield>
-        <subfield code="u">r</subfield>
-        <subfield code="a">1960</subfield>
-        <subfield code="z">1985</subfield>
-        <subfield code="b">dk</subfield>
-        <subfield code="j">f</subfield>
-        <subfield code="l">dan</subfield>
-        <subfield code="v">0</subfield>
-      </datafield>
-      <datafield tag="009" ind1="0" ind2="0">
-        <subfield code="a">a</subfield>
-        <subfield code="g">xx</subfield>
-      </datafield>
-      <datafield tag="021" ind1="0" ind2="0">
-        <subfield code="a">87-00-38712-6</subfield>
-        <subfield code="c">hf.</subfield>
-        <subfield code="d">kr. 32.00</subfield>
-      </datafield>
-      <datafield tag="032" ind1="0" ind2="0">
-        <subfield code="a">DBF198533</subfield>
-        <subfield code="x">SFD198533</subfield>
-        <subfield code="x">DAT200436</subfield>
-      </datafield>
-      <datafield tag="041" ind1="0" ind2="0">
-        <subfield code="a">dan</subfield>
-        <subfield code="c">eng</subfield>
-      </datafield>
-      <datafield tag="100" ind1="0" ind2="0">
-        <subfield code="0"/>
-        <subfield code="a">Salinger</subfield>
-        <subfield code="h">J. D.</subfield>
-      </datafield>
-      <datafield tag="241" ind1="0" ind2="0">
-        <subfield code="a">The ¤catcher in the rye</subfield>
-      </datafield>
-      <datafield tag="245" ind1="0" ind2="0">
-        <subfield code="a">Forbandede ungdom</subfield>
-        <subfield code="e">[af] J.D. Salinger</subfield>
-        <subfield code="f">på dansk ved Vibeke Cerri</subfield>
-      </datafield>
-      <datafield tag="250" ind1="0" ind2="0">
-        <subfield code="a">2. udgave</subfield>
-        <subfield code="x">12. tranebogsoplag</subfield>
-        <subfield code="b">2. udgave (Tranebog)</subfield>
-      </datafield>
-      <datafield tag="260" ind1="0" ind2="0">
-        <subfield code="a">[Kbh.]</subfield>
-        <subfield code="b">[Gyldendal]</subfield>
-        <subfield code="k">Nørhaven, Viborg</subfield>
-        <subfield code="c">1985</subfield>
-      </datafield>
-      <datafield tag="300" ind1="0" ind2="0">
-        <subfield code="a">222 sider</subfield>
-        <subfield code="c">19 cm</subfield>
-      </datafield>
-      <datafield tag="440" ind1="0" ind2="0">
-        <subfield code="a">Gyldendals tranebøger</subfield>
-      </datafield>
-      <datafield tag="504" ind1="0" ind2="0">
-        <subfield code="a">En 17-årig amerikansk ung mands konflikt med sig selv og de voksnes verden</subfield>
-      </datafield>
-      <datafield tag="517" ind1="0" ind2="0">
-        <subfield code="a">Fra 14 år</subfield>
-      </datafield>
-      <datafield tag="520" ind1="0" ind2="0">
-        <subfield code="a">Tidligere: 2. udgave. 1960</subfield>
-      </datafield>
-      <datafield tag="520" ind1="0" ind2="0">
-        <subfield code="i">Også med titel</subfield>
-        <subfield code="t">Griberen i rugen</subfield>
-      </datafield>
-      <datafield tag="520" ind1="0" ind2="0">
-        <subfield code="a">Originaludgave 1951</subfield>
-      </datafield>
-      <datafield tag="652" ind1="0" ind2="0">
-        <subfield code="n">83.8</subfield>
-        <subfield code="z">26</subfield>
-      </datafield>
-      <datafield tag="652" ind1="0" ind2="0">
-        <subfield code="o">sk</subfield>
-      </datafield>
-      <datafield tag="668" ind1="0" ind2="0">
-        <subfield code="a">Børn og unge</subfield>
-        <subfield code="b">USA</subfield>
-      </datafield>
-      <datafield tag="s10" ind1="0" ind2="0">
-        <subfield code="a">DBC</subfield>
-      </datafield>
-    </record>
-  </marcx:collection>
-        </ns1:bibliographicData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>01550101|870970</ac:identifier>
+              <ac:source>undefined</ac:source>
+              <dc:title>Forbandede ungdom</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Forbandede ungdom</dc:title>
+              <dc:title xsi:type="dkdcplus:series">Gyldendals tranebøger</dc:title>
+              <dc:creator xsi:type="dkdcplus:aut">J. D. Salinger</dc:creator>
+              <dc:creator xsi:type="oss:sort">Salinger, J. D.</dc:creator>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Skønlitteratur</dc:subject>
+              <dc:subject xsi:type="dkdcplus:genre">fiktion</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5">sk</dc:subject>
+              <dcterms:abstract>En 17-årig amerikansk ung mands konflikt med sig selv og de voksnes verden</dcterms:abstract>
+              <dcterms:audience xsi:type="dkdcplus:age">Fra 14 år</dcterms:audience>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dkdcplus:version>2. udgave, 12. tranebogsoplag</dkdcplus:version>
+              <dc:publisher>Gyldendal</dc:publisher>
+              <dc:date>1985</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+              <dcterms:extent>222 sider</dcterms:extent>
+              <dc:identifier xsi:type="dkdcplus:ISBN">87-00-38712-6</dc:identifier>
+              <dc:source>The catcher in the rye</dc:source>
+              <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+              <dc:language>Dansk</dc:language>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>000000000000000000000000</marcx:leader>
+                <marcx:datafield tag="001" ind1="0" ind2="0">
+                  <marcx:subfield code="a">01550101</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20040901001845</marcx:subfield>
+                  <marcx:subfield code="d">19770418</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                  <marcx:subfield code="t">FAUST</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="004" ind1="0" ind2="0">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="008" ind1="0" ind2="0">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="u">r</marcx:subfield>
+                  <marcx:subfield code="a">1960</marcx:subfield>
+                  <marcx:subfield code="z">1985</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="j">f</marcx:subfield>
+                  <marcx:subfield code="l">dan</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="009" ind1="0" ind2="0">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xx</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="021" ind1="0" ind2="0">
+                  <marcx:subfield code="a">87-00-38712-6</marcx:subfield>
+                  <marcx:subfield code="c">hf.</marcx:subfield>
+                  <marcx:subfield code="d">kr. 32.00</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="032" ind1="0" ind2="0">
+                  <marcx:subfield code="a">DBF198533</marcx:subfield>
+                  <marcx:subfield code="x">SFD198533</marcx:subfield>
+                  <marcx:subfield code="x">DAT200436</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="041" ind1="0" ind2="0">
+                  <marcx:subfield code="a">dan</marcx:subfield>
+                  <marcx:subfield code="c">eng</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="100" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Salinger</marcx:subfield>
+                  <marcx:subfield code="h">J. D.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="241" ind1="0" ind2="0">
+                  <marcx:subfield code="a">The ¤catcher in the rye</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="245" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Forbandede ungdom</marcx:subfield>
+                  <marcx:subfield code="e">[af] J.D. Salinger</marcx:subfield>
+                  <marcx:subfield code="f">på dansk ved Vibeke Cerri</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="250" ind1="0" ind2="0">
+                  <marcx:subfield code="a">2. udgave</marcx:subfield>
+                  <marcx:subfield code="x">12. tranebogsoplag</marcx:subfield>
+                  <marcx:subfield code="b">2. udgave (Tranebog)</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="260" ind1="0" ind2="0">
+                  <marcx:subfield code="a">[Kbh.]</marcx:subfield>
+                  <marcx:subfield code="b">[Gyldendal]</marcx:subfield>
+                  <marcx:subfield code="k">Nørhaven, Viborg</marcx:subfield>
+                  <marcx:subfield code="c">1985</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="300" ind1="0" ind2="0">
+                  <marcx:subfield code="a">222 sider</marcx:subfield>
+                  <marcx:subfield code="c">19 cm</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="440" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Gyldendals tranebøger</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="504" ind1="0" ind2="0">
+                  <marcx:subfield code="a">En 17-årig amerikansk ung mands konflikt med sig selv og de voksnes verden</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="517" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Fra 14 år</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="520" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Tidligere: 2. udgave. 1960</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="520" ind1="0" ind2="0">
+                  <marcx:subfield code="i">Også med titel</marcx:subfield>
+                  <marcx:subfield code="t">Griberen i rugen</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="520" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Originaludgave 1951</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="652" ind1="0" ind2="0">
+                  <marcx:subfield code="n">83.8</marcx:subfield>
+                  <marcx:subfield code="z">26</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="652" ind1="0" ind2="0">
+                  <marcx:subfield code="o">sk</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="668" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Børn og unge</marcx:subfield>
+                  <marcx:subfield code="b">USA</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="s10" ind1="0" ind2="0">
+                  <marcx:subfield code="a">DBC</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>1</os:identifier>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
       </ns1:originalData>
       <ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
     </ns1:formatRequest>

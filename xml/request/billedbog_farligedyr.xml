@@ -1,150 +1,158 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SOAP-ENV:Body>
     <ns1:formatRequest>
       <ns1:originalData>
-        <ns1:bibliographicData>
-  <dkabm:record>
-    <ac:identifier>29036748|870970</ac:identifier>
-    <ac:source>undefined</ac:source>
-    <dc:title>Farlige dyr</dc:title>
-    <dc:title xsi:type="dkdcplus:full">Farlige dyr</dc:title>
-    <dc:creator xsi:type="dkdcplus:aut">Angela Weinhold</dc:creator>
-    <dc:creator xsi:type="oss:sort">Weinhold, Angela</dc:creator>
-    <dc:subject xsi:type="dkdcplus:DK5">58</dc:subject>
-    <dc:subject xsi:type="dkdcplus:DK5-Text">Zoologi</dc:subject>
-    <dc:subject xsi:type="dkdcplus:DBCF">dyr</dc:subject>
-    <dc:subject xsi:type="dkdcplus:DBCN">for 5-9 år</dc:subject>
-    <dc:subject xsi:type="dkdcplus:DBCO">løft og kig</dc:subject>
-    <dc:subject xsi:type="dkdcplus:genre">nonfiktion</dc:subject>
-    <dc:subject xsi:type="dkdcplus:DBCF">vilde dyr</dc:subject>
-    <dcterms:abstract>Billedbog med flapper om hvorfor nogle dyr er farlige, hvordan de opsporer deres bytte, og hvordan de jagede dyr forsvarer sig</dcterms:abstract>
-    <dcterms:audience>børnematerialer</dcterms:audience>
-    <dc:publisher>Klematis</dc:publisher>
-    <dc:contributor xsi:type="dkdcplus:ill">Angela Weinhold</dc:contributor>
-    <dc:contributor xsi:type="dkdcplus:trl">Jesper Vad</dc:contributor>
-    <dc:date>2011</dc:date>
-    <dc:type xsi:type="dkdcplus:BibDK-Type">Billedbog</dc:type>
-    <dc:format>alle illustreret i farver</dc:format>
-    <dcterms:extent>14 sider</dcterms:extent>
-    <dc:identifier xsi:type="dkdcplus:ISBN">9788764107326</dc:identifier>
-    <dc:source>Gefährliche Tiere</dc:source>
-    <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
-    <dc:language>Dansk</dc:language>
-  </dkabm:record>
-  <marcx:collection>
-    <record format="danMARC2" type="Bibliographic">
-      <leader>000000000000000000000000</leader>
-      <datafield tag="001" ind1="0" ind2="0">
-        <subfield code="a">29036748</subfield>
-        <subfield code="b">870970</subfield>
-        <subfield code="c">20111128180631</subfield>
-        <subfield code="d">20111027</subfield>
-        <subfield code="f">a</subfield>
-        <subfield code="t">FAUST</subfield>
-      </datafield>
-      <datafield tag="004" ind1="0" ind2="0">
-        <subfield code="r">n</subfield>
-        <subfield code="a">e</subfield>
-      </datafield>
-      <datafield tag="008" ind1="0" ind2="0">
-        <subfield code="t">m</subfield>
-        <subfield code="u">f</subfield>
-        <subfield code="a">2011</subfield>
-        <subfield code="b">dk</subfield>
-        <subfield code="d">å</subfield>
-        <subfield code="d">2</subfield>
-        <subfield code="d">y</subfield>
-        <subfield code="l">dan</subfield>
-        <subfield code="o">b</subfield>
-        <subfield code="x">01</subfield>
-        <subfield code="x">02</subfield>
-        <subfield code="v">0</subfield>
-      </datafield>
-      <datafield tag="009" ind1="0" ind2="0">
-        <subfield code="a">a</subfield>
-        <subfield code="g">xx</subfield>
-      </datafield>
-      <datafield tag="021" ind1="0" ind2="0">
-        <subfield code="e">9788764107326</subfield>
-        <subfield code="c">ib.</subfield>
-        <subfield code="d">kr. 269,95</subfield>
-      </datafield>
-      <datafield tag="032" ind1="0" ind2="0">
-        <subfield code="a">DBF201148</subfield>
-        <subfield code="x">BKM201148</subfield>
-      </datafield>
-      <datafield tag="038" ind1="0" ind2="0">
-        <subfield code="a">bi</subfield>
-      </datafield>
-      <datafield tag="041" ind1="0" ind2="0">
-        <subfield code="a">dan</subfield>
-        <subfield code="c">ger</subfield>
-      </datafield>
-      <datafield tag="100" ind1="0" ind2="0">
-        <subfield code="0"/>
-        <subfield code="a">Weinhold</subfield>
-        <subfield code="h">Angela</subfield>
-        <subfield code="4">aut</subfield>
-        <subfield code="4">ill</subfield>
-      </datafield>
-      <datafield tag="241" ind1="0" ind2="0">
-        <subfield code="a">Gefährliche Tiere</subfield>
-      </datafield>
-      <datafield tag="245" ind1="0" ind2="0">
-        <subfield code="a">Farlige dyr</subfield>
-      </datafield>
-      <datafield tag="260" ind1="0" ind2="0">
-        <subfield code="a">[Risskov]</subfield>
-        <subfield code="b">Klematis</subfield>
-        <subfield code="c">2011</subfield>
-      </datafield>
-      <datafield tag="300" ind1="0" ind2="0">
-        <subfield code="a">[14] sider</subfield>
-        <subfield code="b">alle ill. i farver</subfield>
-        <subfield code="c">28 cm</subfield>
-      </datafield>
-      <datafield tag="504" ind1="0" ind2="0">
-        <subfield code="a">Billedbog med flapper om hvorfor nogle dyr er farlige, hvordan de opsporer deres bytte, og hvordan de jagede dyr forsvarer sig</subfield>
-      </datafield>
-      <datafield tag="521" ind1="0" ind2="0">
-        <subfield code="b">1. oplag</subfield>
-        <subfield code="c">2011</subfield>
-        <subfield code="k">tr. i udl.</subfield>
-      </datafield>
-      <datafield tag="652" ind1="0" ind2="0">
-        <subfield code="m">58</subfield>
-      </datafield>
-      <datafield tag="666" ind1="0" ind2="0">
-        <subfield code="f">dyr</subfield>
-      </datafield>
-      <datafield tag="666" ind1="0" ind2="0">
-        <subfield code="f">vilde dyr</subfield>
-      </datafield>
-      <datafield tag="666" ind1="0" ind2="0">
-        <subfield code="o">løft og kig</subfield>
-      </datafield>
-      <datafield tag="666" ind1="0" ind2="0">
-        <subfield code="u">for 5-9 år</subfield>
-      </datafield>
-      <datafield tag="720" ind1="0" ind2="0">
-        <subfield code="o">Jesper Vad</subfield>
-        <subfield code="4">trl</subfield>
-      </datafield>
-      <datafield tag="s10" ind1="0" ind2="0">
-        <subfield code="a">DBC</subfield>
-      </datafield>
-      <datafield tag="990" ind1="0" ind2="0">
-        <subfield code="o">201148</subfield>
-        <subfield code="b">l</subfield>
-        <subfield code="b">b</subfield>
-        <subfield code="b">s</subfield>
-        <subfield code="u">nt</subfield>
-      </datafield>
-    </record>
-  </marcx:collection>
-  <oss:openurl/>
-        </ns1:bibliographicData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>29036748|870970</ac:identifier>
+              <ac:source>undefined</ac:source>
+              <dc:title>Farlige dyr</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Farlige dyr</dc:title>
+              <dc:creator xsi:type="dkdcplus:aut">Angela Weinhold</dc:creator>
+              <dc:creator xsi:type="oss:sort">Weinhold, Angela</dc:creator>
+              <dc:subject xsi:type="dkdcplus:DK5">58</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Zoologi</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">dyr</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCN">for 5-9 år</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCO">løft og kig</dc:subject>
+              <dc:subject xsi:type="dkdcplus:genre">nonfiktion</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">vilde dyr</dc:subject>
+              <dcterms:abstract>Billedbog med flapper om hvorfor nogle dyr er farlige, hvordan de opsporer deres bytte, og hvordan de jagede dyr forsvarer sig</dcterms:abstract>
+              <dcterms:audience>børnematerialer</dcterms:audience>
+              <dc:publisher>Klematis</dc:publisher>
+              <dc:contributor xsi:type="dkdcplus:ill">Angela Weinhold</dc:contributor>
+              <dc:contributor xsi:type="dkdcplus:trl">Jesper Vad</dc:contributor>
+              <dc:date>2011</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Billedbog</dc:type>
+              <dc:format>alle illustreret i farver</dc:format>
+              <dcterms:extent>14 sider</dcterms:extent>
+              <dc:identifier xsi:type="dkdcplus:ISBN">9788764107326</dc:identifier>
+              <dc:source>Gefährliche Tiere</dc:source>
+              <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+              <dc:language>Dansk</dc:language>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>000000000000000000000000</marcx:leader>
+                <marcx:datafield tag="001" ind1="0" ind2="0">
+                  <marcx:subfield code="a">29036748</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20111128180631</marcx:subfield>
+                  <marcx:subfield code="d">20111027</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                  <marcx:subfield code="t">FAUST</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="004" ind1="0" ind2="0">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="008" ind1="0" ind2="0">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">2011</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="d">å</marcx:subfield>
+                  <marcx:subfield code="d">2</marcx:subfield>
+                  <marcx:subfield code="d">y</marcx:subfield>
+                  <marcx:subfield code="l">dan</marcx:subfield>
+                  <marcx:subfield code="o">b</marcx:subfield>
+                  <marcx:subfield code="x">01</marcx:subfield>
+                  <marcx:subfield code="x">02</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="009" ind1="0" ind2="0">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xx</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="021" ind1="0" ind2="0">
+                  <marcx:subfield code="e">9788764107326</marcx:subfield>
+                  <marcx:subfield code="c">ib.</marcx:subfield>
+                  <marcx:subfield code="d">kr. 269,95</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="032" ind1="0" ind2="0">
+                  <marcx:subfield code="a">DBF201148</marcx:subfield>
+                  <marcx:subfield code="x">BKM201148</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="038" ind1="0" ind2="0">
+                  <marcx:subfield code="a">bi</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="041" ind1="0" ind2="0">
+                  <marcx:subfield code="a">dan</marcx:subfield>
+                  <marcx:subfield code="c">ger</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="100" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Weinhold</marcx:subfield>
+                  <marcx:subfield code="h">Angela</marcx:subfield>
+                  <marcx:subfield code="4">aut</marcx:subfield>
+                  <marcx:subfield code="4">ill</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="241" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Gefährliche Tiere</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="245" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Farlige dyr</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="260" ind1="0" ind2="0">
+                  <marcx:subfield code="a">[Risskov]</marcx:subfield>
+                  <marcx:subfield code="b">Klematis</marcx:subfield>
+                  <marcx:subfield code="c">2011</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="300" ind1="0" ind2="0">
+                  <marcx:subfield code="a">[14] sider</marcx:subfield>
+                  <marcx:subfield code="b">alle ill. i farver</marcx:subfield>
+                  <marcx:subfield code="c">28 cm</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="504" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Billedbog med flapper om hvorfor nogle dyr er farlige, hvordan de opsporer deres bytte, og hvordan de jagede dyr forsvarer sig</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="521" ind1="0" ind2="0">
+                  <marcx:subfield code="b">1. oplag</marcx:subfield>
+                  <marcx:subfield code="c">2011</marcx:subfield>
+                  <marcx:subfield code="k">tr. i udl.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="652" ind1="0" ind2="0">
+                  <marcx:subfield code="m">58</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="f">dyr</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="f">vilde dyr</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="o">løft og kig</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="u">for 5-9 år</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="720" ind1="0" ind2="0">
+                  <marcx:subfield code="o">Jesper Vad</marcx:subfield>
+                  <marcx:subfield code="4">trl</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="s10" ind1="0" ind2="0">
+                  <marcx:subfield code="a">DBC</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="990" ind1="0" ind2="0">
+                  <marcx:subfield code="o">201148</marcx:subfield>
+                  <marcx:subfield code="b">l</marcx:subfield>
+                  <marcx:subfield code="b">b</marcx:subfield>
+                  <marcx:subfield code="b">s</marcx:subfield>
+                  <marcx:subfield code="u">nt</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <oss:openurl/>
+            <os:identifier>1</os:identifier>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
       </ns1:originalData>
       <ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
     </ns1:formatRequest>

@@ -1,148 +1,156 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SOAP-ENV:Body>
     <ns1:formatRequest>
       <ns1:originalData>
-        <ns1:bibliographicData>
-  <dkabm:record>
-    <ac:identifier>04944356|870970</ac:identifier>
-    <ac:source>undefined</ac:source>
-    <dc:title>Baron Blixen</dc:title>
-    <dc:title xsi:type="dkdcplus:full">Baron Blixen : ett porträtt av baron Bror von Blixen-Finecke</dc:title>
-    <dc:creator xsi:type="dkdcplus:aut">Ulf Aschan</dc:creator>
-    <dc:creator xsi:type="oss:sort">Aschan, Ulf</dc:creator>
-    <dc:subject>1910-1919</dc:subject>
-    <dc:subject>1920-1929</dc:subject>
-    <dc:subject>1930-1939</dc:subject>
-    <dc:subject>1940-1949</dc:subject>
-    <dc:subject xsi:type="dkdcplus:DK5">99.4 Blixen-Finecke, Bror von</dc:subject>
-    <dc:subject xsi:type="dkdcplus:DK5-Text">Biografier af enkelte personer</dc:subject>
-    <dc:subject>Blixen-Finecke</dc:subject>
-    <dc:subject>Kenya</dc:subject>
-    <dc:subject xsi:type="dkdcplus:genre">nonfiktion</dc:subject>
-    <dc:subject>storvildt</dc:subject>
-    <dc:description>Kort på forsatspapiret</dc:description>
-    <dcterms:audience>voksenmaterialer</dcterms:audience>
-    <dc:publisher>Wiken</dc:publisher>
-    <dc:date>1987</dc:date>
-    <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
-    <dc:format>illustreret</dc:format>
-    <dcterms:extent>237 sider</dcterms:extent>
-    <dc:identifier xsi:type="dkdcplus:ISBN">91-7024-332-8</dc:identifier>
-    <dc:language xsi:type="dcterms:ISO639-2">swe</dc:language>
-    <dc:language>Svensk</dc:language>
-  </dkabm:record>
-  <marcx:collection>
-    <record format="danMARC2" type="Bibliographic">
-      <leader>000000000000000000000000</leader>
-      <datafield tag="001" ind1="0" ind2="0">
-        <subfield code="a">04944356</subfield>
-        <subfield code="b">870970</subfield>
-        <subfield code="c">20010128224732</subfield>
-        <subfield code="d">19870302</subfield>
-        <subfield code="f">a</subfield>
-        <subfield code="o">c</subfield>
-        <subfield code="t">FAUST</subfield>
-      </datafield>
-      <datafield tag="004" ind1="0" ind2="0">
-        <subfield code="r">n</subfield>
-        <subfield code="a">e</subfield>
-      </datafield>
-      <datafield tag="008" ind1="0" ind2="0">
-        <subfield code="t">m</subfield>
-        <subfield code="u">f</subfield>
-        <subfield code="a">1987</subfield>
-        <subfield code="b">se</subfield>
-        <subfield code="k">b</subfield>
-        <subfield code="l">swe</subfield>
-        <subfield code="v">0</subfield>
-      </datafield>
-      <datafield tag="009" ind1="0" ind2="0">
-        <subfield code="a">a</subfield>
-        <subfield code="g">xx</subfield>
-      </datafield>
-      <datafield tag="021" ind1="0" ind2="0">
-        <subfield code="a">91-7024-332-8</subfield>
-      </datafield>
-      <datafield tag="032" ind1="0" ind2="0">
-        <subfield code="x">SFU198718</subfield>
-        <subfield code="x">OPR198710</subfield>
-      </datafield>
-      <datafield tag="100" ind1="0" ind2="0">
-        <subfield code="0"/>
-        <subfield code="a">Aschan</subfield>
-        <subfield code="h">Ulf</subfield>
-      </datafield>
-      <datafield tag="245" ind1="0" ind2="0">
-        <subfield code="a">Baron Blixen</subfield>
-        <subfield code="c">ett porträtt av baron Bror von Blixen-Finecke</subfield>
-      </datafield>
-      <datafield tag="260" ind1="0" ind2="0">
-        <subfield code="a">Stockholm</subfield>
-        <subfield code="b">Wiken</subfield>
-        <subfield code="c">1987</subfield>
-      </datafield>
-      <datafield tag="300" ind1="0" ind2="0">
-        <subfield code="a">237 sider</subfield>
-        <subfield code="b">ill.</subfield>
-      </datafield>
-      <datafield tag="512" ind1="0" ind2="0">
-        <subfield code="a">Kort på forsatspapiret</subfield>
-      </datafield>
-      <datafield tag="532" ind1="0" ind2="0">
-        <subfield code="a">Litteratur: side 236</subfield>
-      </datafield>
-      <datafield tag="631" ind1="0" ind2="0">
-        <subfield code="f">storvildt</subfield>
-      </datafield>
-      <datafield tag="631" ind1="0" ind2="0">
-        <subfield code="f">Kenya</subfield>
-      </datafield>
-      <datafield tag="631" ind1="0" ind2="0">
-        <subfield code="f">1910-1919</subfield>
-      </datafield>
-      <datafield tag="631" ind1="0" ind2="0">
-        <subfield code="f">1920-1929</subfield>
-      </datafield>
-      <datafield tag="631" ind1="0" ind2="0">
-        <subfield code="f">1930-1939</subfield>
-      </datafield>
-      <datafield tag="631" ind1="0" ind2="0">
-        <subfield code="f">1940-1949</subfield>
-      </datafield>
-      <datafield tag="631" ind1="0" ind2="0">
-        <subfield code="f">Blixen-Finecke</subfield>
-      </datafield>
-      <datafield tag="652" ind1="0" ind2="0">
-        <subfield code="0"/>
-        <subfield code="å">1</subfield>
-        <subfield code="m">99.4</subfield>
-        <subfield code="a">Blixen-Finecke</subfield>
-        <subfield code="h">Bror von</subfield>
-      </datafield>
-      <datafield tag="900" ind1="0" ind2="0">
-        <subfield code="0"/>
-        <subfield code="a">Finecke</subfield>
-        <subfield code="h">Bror von Blixen-</subfield>
-        <subfield code="x">se</subfield>
-        <subfield code="w">Blixen-Finecke, Bror von</subfield>
-        <subfield code="z">652/1(a,h)</subfield>
-      </datafield>
-      <datafield tag="900" ind1="0" ind2="0">
-        <subfield code="0"/>
-        <subfield code="a">Blixen</subfield>
-        <subfield code="h">Bror</subfield>
-        <subfield code="x">se</subfield>
-        <subfield code="w">Blixen-Finecke, Bror von</subfield>
-        <subfield code="z">652/1(a,h)</subfield>
-      </datafield>
-      <datafield tag="s10" ind1="0" ind2="0">
-        <subfield code="a">DBC</subfield>
-      </datafield>
-    </record>
-  </marcx:collection>
-  <oss:openurl>_BASEURL_url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:book&amp;rft.btitle=Baron+Blixen&amp;rft.aulast=Aschan&amp;rft.aufirst=Ulf&amp;rft.auinit=U&amp;rft.date=1987&amp;rft.isbn=91-7024-332-8&amp;rft.pub=Wiken&amp;rft.genre=book</oss:openurl>
-        </ns1:bibliographicData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>04944356|870970</ac:identifier>
+              <ac:source>undefined</ac:source>
+              <dc:title>Baron Blixen</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Baron Blixen : ett porträtt av baron Bror von Blixen-Finecke</dc:title>
+              <dc:creator xsi:type="dkdcplus:aut">Ulf Aschan</dc:creator>
+              <dc:creator xsi:type="oss:sort">Aschan, Ulf</dc:creator>
+              <dc:subject>1910-1919</dc:subject>
+              <dc:subject>1920-1929</dc:subject>
+              <dc:subject>1930-1939</dc:subject>
+              <dc:subject>1940-1949</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5">99.4 Blixen-Finecke, Bror von</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Biografier af enkelte personer</dc:subject>
+              <dc:subject>Blixen-Finecke</dc:subject>
+              <dc:subject>Kenya</dc:subject>
+              <dc:subject xsi:type="dkdcplus:genre">nonfiktion</dc:subject>
+              <dc:subject>storvildt</dc:subject>
+              <dc:description>Kort på forsatspapiret</dc:description>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dc:publisher>Wiken</dc:publisher>
+              <dc:date>1987</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+              <dc:format>illustreret</dc:format>
+              <dcterms:extent>237 sider</dcterms:extent>
+              <dc:identifier xsi:type="dkdcplus:ISBN">91-7024-332-8</dc:identifier>
+              <dc:language xsi:type="dcterms:ISO639-2">swe</dc:language>
+              <dc:language>Svensk</dc:language>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>000000000000000000000000</marcx:leader>
+                <marcx:datafield tag="001" ind1="0" ind2="0">
+                  <marcx:subfield code="a">04944356</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20010128224732</marcx:subfield>
+                  <marcx:subfield code="d">19870302</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                  <marcx:subfield code="o">c</marcx:subfield>
+                  <marcx:subfield code="t">FAUST</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="004" ind1="0" ind2="0">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="008" ind1="0" ind2="0">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">1987</marcx:subfield>
+                  <marcx:subfield code="b">se</marcx:subfield>
+                  <marcx:subfield code="k">b</marcx:subfield>
+                  <marcx:subfield code="l">swe</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="009" ind1="0" ind2="0">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xx</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="021" ind1="0" ind2="0">
+                  <marcx:subfield code="a">91-7024-332-8</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="032" ind1="0" ind2="0">
+                  <marcx:subfield code="x">SFU198718</marcx:subfield>
+                  <marcx:subfield code="x">OPR198710</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="100" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Aschan</marcx:subfield>
+                  <marcx:subfield code="h">Ulf</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="245" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Baron Blixen</marcx:subfield>
+                  <marcx:subfield code="c">ett porträtt av baron Bror von Blixen-Finecke</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="260" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Stockholm</marcx:subfield>
+                  <marcx:subfield code="b">Wiken</marcx:subfield>
+                  <marcx:subfield code="c">1987</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="300" ind1="0" ind2="0">
+                  <marcx:subfield code="a">237 sider</marcx:subfield>
+                  <marcx:subfield code="b">ill.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="512" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Kort på forsatspapiret</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="532" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Litteratur: side 236</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="631" ind1="0" ind2="0">
+                  <marcx:subfield code="f">storvildt</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="631" ind1="0" ind2="0">
+                  <marcx:subfield code="f">Kenya</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="631" ind1="0" ind2="0">
+                  <marcx:subfield code="f">1910-1919</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="631" ind1="0" ind2="0">
+                  <marcx:subfield code="f">1920-1929</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="631" ind1="0" ind2="0">
+                  <marcx:subfield code="f">1930-1939</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="631" ind1="0" ind2="0">
+                  <marcx:subfield code="f">1940-1949</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="631" ind1="0" ind2="0">
+                  <marcx:subfield code="f">Blixen-Finecke</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="652" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="å">1</marcx:subfield>
+                  <marcx:subfield code="m">99.4</marcx:subfield>
+                  <marcx:subfield code="a">Blixen-Finecke</marcx:subfield>
+                  <marcx:subfield code="h">Bror von</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="900" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Finecke</marcx:subfield>
+                  <marcx:subfield code="h">Bror von Blixen-</marcx:subfield>
+                  <marcx:subfield code="x">se</marcx:subfield>
+                  <marcx:subfield code="w">Blixen-Finecke, Bror von</marcx:subfield>
+                  <marcx:subfield code="z">652/1(a,h)</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="900" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Blixen</marcx:subfield>
+                  <marcx:subfield code="h">Bror</marcx:subfield>
+                  <marcx:subfield code="x">se</marcx:subfield>
+                  <marcx:subfield code="w">Blixen-Finecke, Bror von</marcx:subfield>
+                  <marcx:subfield code="z">652/1(a,h)</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="s10" ind1="0" ind2="0">
+                  <marcx:subfield code="a">DBC</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <oss:openurl>_BASEURL_url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:book&amp;rft.btitle=Baron+Blixen&amp;rft.aulast=Aschan&amp;rft.aufirst=Ulf&amp;rft.auinit=U&amp;rft.date=1987&amp;rft.isbn=91-7024-332-8&amp;rft.pub=Wiken&amp;rft.genre=book</oss:openurl>
+            <os:identifier>1</os:identifier>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
       </ns1:originalData>
       <ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
     </ns1:formatRequest>

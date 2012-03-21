@@ -1,564 +1,572 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SOAP-ENV:Body>
     <ns1:formatRequest>
       <ns1:originalData>
-        <ns1:bibliographicData>
-  <dkabm:record>
-    <ac:identifier>27593291|870970</ac:identifier>
-    <ac:source>undefined</ac:source>
-    <dc:title>The art of conducting - legendary conductors of a golden era</dc:title>
-    <dc:title xsi:type="dkdcplus:full">The art of conducting - legendary conductors of a golden era</dc:title>
-    <dc:subject xsi:type="dkdcplus:DK5">78.411</dc:subject>
-    <dc:subject xsi:type="dkdcplus:DK5-Text">Orkestermusik uden soloinstrumenter</dc:subject>
-    <dc:subject xsi:type="dkdcplus:DBCO">direktion</dc:subject>
-    <dc:subject xsi:type="dkdcplus:DBCO">historiske optagelser</dc:subject>
-    <dc:subject xsi:type="dkdcplus:DBCM">impressionisme</dc:subject>
-    <dc:subject xsi:type="dkdcplus:DBCM">instrumental</dc:subject>
-    <dc:subject xsi:type="dkdcplus:genre">klassiske symfonier</dc:subject>
-    <dc:subject xsi:type="dkdcplus:DBCM">orkester</dc:subject>
-    <dc:subject xsi:type="dkdcplus:DBCO">orkesterdirektion</dc:subject>
-    <dc:subject xsi:type="dkdcplus:DBCO">orkesterprøver</dc:subject>
-    <dc:subject xsi:type="dkdcplus:DBCM">ouverture</dc:subject>
-    <dc:subject xsi:type="dkdcplus:DBCM">romantik</dc:subject>
-    <dc:subject xsi:type="dkdcplus:DBCM">senromantik</dc:subject>
-    <dc:subject xsi:type="dkdcplus:DBCM">symfoni</dc:subject>
-    <dc:subject xsi:type="dkdcplus:DBCM">symfonisk digt</dc:subject>
-    <dc:description>Indspillet 1931-1991</dc:description>
-    <dc:description>På omslaget: Sergiu Celibidache, Wilhelm Furtwängler, Erich Kleiber, Evgeny Mravinsky, Charles Munch, Willem Mengelberg, André Cluytens, Herbert von Karajan, Hermann Scherchen, Václav Talich</dc:description>
-    <dc:description>Med kommentarer af Peter Andry, Alexander Barantschik, Daniel Barenboim, Walter Barylli, Otto Edelmann, Vic Furth, Yuri Grigorovich, Bernard Haitink, Yehudi Menuhin og Evgeny Mravinsky</dc:description>
-    <dcterms:audience>voksenmaterialer</dcterms:audience>
-    <dc:publisher>Teldec Classics International</dc:publisher>
-    <dc:publisher>Warner Music Vision</dc:publisher>
-    <dc:contributor>Sergiu Celibidache</dc:contributor>
-    <dc:contributor>André Cluytens</dc:contributor>
-    <dc:contributor>Wilhelm Furtwängler</dc:contributor>
-    <dc:contributor>Herbert von Karajan</dc:contributor>
-    <dc:contributor>Erich Kleiber</dc:contributor>
-    <dc:contributor>Willem Mengelberg</dc:contributor>
-    <dc:contributor>Jevgénij Mravínskij</dc:contributor>
-    <dc:contributor>Charles Munch</dc:contributor>
-    <dc:contributor>Hermann Scherchen</dc:contributor>
-    <dc:contributor>Václav Talich</dc:contributor>
-    <dc:contributor>Richard Strauss</dc:contributor>
-    <dc:contributor>Antonín Dvořák</dc:contributor>
-    <dc:contributor>Vasilij Kalinnikov</dc:contributor>
-    <dc:contributor>Maurice Ravel</dc:contributor>
-    <dc:contributor>Petr Tjajkovskij</dc:contributor>
-    <dc:contributor>Johann Strauss (f. 1825)</dc:contributor>
-    <dc:contributor>Hector Berlioz</dc:contributor>
-    <dc:contributor>Georges Bizet</dc:contributor>
-    <dc:contributor>Carl Maria von Weber</dc:contributor>
-    <dc:contributor>Ludwig van Beethoven</dc:contributor>
-    <dc:contributor>César Franck</dc:contributor>
-    <dc:contributor>Claude Debussy</dc:contributor>
-    <dc:contributor>Dmitrij Sjostakovitj</dc:contributor>
-    <dc:contributor>Berlins Filharmoniske Orkester</dc:contributor>
-    <dc:contributor>Bostons Symfoniorkester</dc:contributor>
-    <dc:contributor>Concertgebouw-Orkestret, Amsterdam</dc:contributor>
-    <dc:contributor>Leningrads Filharmoniske Orkester</dc:contributor>
-    <dc:contributor>Münchens Filharmoniske Orkester</dc:contributor>
-    <dc:contributor>Statskapellet Berlin</dc:contributor>
-    <dc:contributor>Stuttgarts Radiosymfoniorkester</dc:contributor>
-    <dc:contributor>Tjekkisk Filharmonisk Orkester</dc:contributor>
-    <dc:contributor>Det Ungarske Statsorkester</dc:contributor>
-    <dc:date>2002</dc:date>
-    <dc:type xsi:type="dkdcplus:BibDK-Type">Dvd</dc:type>
-    <dc:format>1 dvd-video, 1 kommentarhæfte</dc:format>
-    <dcterms:extent>1 t., 55 min.</dcterms:extent>
-    <dc:identifier>Warner Music Vision 0927-42668-2</dc:identifier>
-    <dc:language xsi:type="dcterms:ISO639-2">mul</dc:language>
-    <dc:language>Flere sprog</dc:language>
-    <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
-    <dc:language>Engelsk</dc:language>
-    <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
-    <dc:language>Tysk</dc:language>
-    <dc:language xsi:type="dcterms:ISO639-2">dut</dc:language>
-    <dc:language>Hollandsk</dc:language>
-    <dc:language xsi:type="dkdcplus:subtitles">eng</dc:language>
-    <dc:language xsi:type="dkdcplus:subtitles">fre</dc:language>
-    <dc:language xsi:type="dkdcplus:subtitles">ger</dc:language>
-    <dcterms:hasPart xsi:type="dkdcplus:track">Ein Heldenleben, opus 40 (uddrag)</dcterms:hasPart>
-    <dcterms:hasPart xsi:type="dkdcplus:track">Till Eulenspiegels lustige Streiche, opus 28</dcterms:hasPart>
-    <dcterms:hasPart xsi:type="dkdcplus:track">Till Eulenspiegels lustige Streiche, opus 28</dcterms:hasPart>
-    <dcterms:hasPart xsi:type="dkdcplus:track">Die Waldtaube, opus 110 (uddrag)</dcterms:hasPart>
-    <dcterms:hasPart xsi:type="dkdcplus:track">Symfoni nr. 9, e-mol, opus 95 (1. sats)</dcterms:hasPart>
-    <dcterms:hasPart xsi:type="dkdcplus:track">Symfoni nr. 1, g-mol (2. sats)</dcterms:hasPart>
-    <dcterms:hasPart xsi:type="dkdcplus:track">Rapsodie espagnole</dcterms:hasPart>
-    <dcterms:hasPart xsi:type="dkdcplus:track">Daphnis og Chloé (Suite nr. 2)</dcterms:hasPart>
-    <dcterms:hasPart xsi:type="dkdcplus:track">Daphnis og Chloé (Suite nr. 2)</dcterms:hasPart>
-    <dcterms:hasPart xsi:type="dkdcplus:track">Symfoni nr. 4, f-mol, opus 36 (4. sats)</dcterms:hasPart>
-    <dcterms:hasPart xsi:type="dkdcplus:track">Symfoni nr. 5, e-mol, opus 64 (1. sats ; 4. sats)</dcterms:hasPart>
-    <dcterms:hasPart xsi:type="dkdcplus:track">Künstlerleben, opus 316</dcterms:hasPart>
-    <dcterms:hasPart xsi:type="dkdcplus:track">Kejservals, opus 437</dcterms:hasPart>
-    <dcterms:hasPart xsi:type="dkdcplus:track">An der schönen, blauen Donau, opus 314</dcterms:hasPart>
-    <dcterms:hasPart xsi:type="dkdcplus:track">Fausts fordømmelse, opus 24</dcterms:hasPart>
-    <dcterms:hasPart xsi:type="dkdcplus:track">Symphonie fantastique, opus 14 (4. sats</dcterms:hasPart>
-    <dcterms:hasPart xsi:type="dkdcplus:track">L'Arlésienne-suite nr. 1 (Adagietto)</dcterms:hasPart>
-    <dcterms:hasPart xsi:type="dkdcplus:track">Oberon (Ouverture)</dcterms:hasPart>
-    <dcterms:hasPart xsi:type="dkdcplus:track">Symfoni nr. 9, d-mol, opus 125 (4. sats (Finale))</dcterms:hasPart>
-    <dcterms:hasPart xsi:type="dkdcplus:track">Egmont-ouverture, opus 84</dcterms:hasPart>
-    <dcterms:hasPart xsi:type="dkdcplus:track">Symfoni, d-mol (uddrag)</dcterms:hasPart>
-    <dcterms:hasPart xsi:type="dkdcplus:track">La mer</dcterms:hasPart>
-    <dcterms:hasPart xsi:type="dkdcplus:track">Symfoni nr. 5, d-mol, opus 47 (1. sats ; 4. sats)</dcterms:hasPart>
-    <dcterms:spatial xsi:type="dkdcplus:DBCM">Tyskland</dcterms:spatial>
-    <dcterms:spatial xsi:type="dkdcplus:DBCM">Rusland</dcterms:spatial>
-    <dcterms:spatial xsi:type="dkdcplus:DBCM">Frankrig</dcterms:spatial>
-    <dcterms:spatial xsi:type="dkdcplus:DBCM">Østrig</dcterms:spatial>
-    <dcterms:spatial xsi:type="dkdcplus:DBCM">Tjekkiet</dcterms:spatial>
-    <dcterms:temporal xsi:type="dkdcplus:DBCM">1800-1899</dcterms:temporal>
-    <dcterms:temporal xsi:type="dkdcplus:DBCM">1900-1909</dcterms:temporal>
-    <dcterms:temporal xsi:type="dkdcplus:DBCM">1910-1919</dcterms:temporal>
-  </dkabm:record>
-  <marcx:collection>
-    <record format="danMARC2" type="Bibliographic">
-      <leader>000000000000000000000000</leader>
-      <datafield tag="001" ind1="0" ind2="0">
-        <subfield code="a">27593291</subfield>
-        <subfield code="b">870970</subfield>
-        <subfield code="c">20110404162026</subfield>
-        <subfield code="d">20090126</subfield>
-        <subfield code="f">a</subfield>
-        <subfield code="t">FAUST</subfield>
-      </datafield>
-      <datafield tag="004" ind1="0" ind2="0">
-        <subfield code="r">n</subfield>
-        <subfield code="a">e</subfield>
-      </datafield>
-      <datafield tag="008" ind1="0" ind2="0">
-        <subfield code="t">s</subfield>
-        <subfield code="u">f</subfield>
-        <subfield code="a">2002</subfield>
-        <subfield code="b">de</subfield>
-        <subfield code="l">mul</subfield>
-        <subfield code="v">0</subfield>
-      </datafield>
-      <datafield tag="009" ind1="0" ind2="0">
-        <subfield code="a">s</subfield>
-        <subfield code="b">m</subfield>
-        <subfield code="g">th</subfield>
-        <subfield code="b">a</subfield>
-        <subfield code="h">xx</subfield>
-      </datafield>
-      <datafield tag="021" ind1="0" ind2="0">
-        <subfield code="d">Kr. 199,00</subfield>
-        <subfield code="b">brugsretskategori: D</subfield>
-      </datafield>
-      <datafield tag="023" ind1="0" ind2="0">
-        <subfield code="a">0809274266828</subfield>
-      </datafield>
-      <datafield tag="032" ind1="0" ind2="0">
-        <subfield code="x">BKM200908</subfield>
-        <subfield code="x">DAT201114</subfield>
-      </datafield>
-      <datafield tag="039" ind1="0" ind2="0">
-        <subfield code="a">ora</subfield>
-      </datafield>
-      <datafield tag="041" ind1="0" ind2="0">
-        <subfield code="a">eng</subfield>
-        <subfield code="a">ger</subfield>
-        <subfield code="a">dut</subfield>
-        <subfield code="u">eng</subfield>
-        <subfield code="u">fre</subfield>
-        <subfield code="u">ger</subfield>
-      </datafield>
-      <datafield tag="245" ind1="0" ind2="0">
-        <subfield code="a">The ¤art of conducting - legendary conductors of a golden era</subfield>
-      </datafield>
-      <datafield tag="260" ind1="0" ind2="0">
-        <subfield code="a">[S.l.]</subfield>
-        <subfield code="b">Teldec Classics International</subfield>
-        <subfield code="b">Warner Music Vision</subfield>
-        <subfield code="c">[2002], 1997</subfield>
-      </datafield>
-      <datafield tag="300" ind1="0" ind2="0">
-        <subfield code="n">1 dvd-video</subfield>
-        <subfield code="l">1 t., 55 min.</subfield>
-        <subfield code="d">1 kommentarhæfte</subfield>
-      </datafield>
-      <datafield tag="512" ind1="0" ind2="0">
-        <subfield code="a">Indspillet 1931-1991</subfield>
-      </datafield>
-      <datafield tag="512" ind1="0" ind2="0">
-        <subfield code="a">På omslaget: Sergiu Celibidache, Wilhelm Furtwängler, Erich Kleiber, Evgeny Mravinsky, Charles Munch, Willem Mengelberg, André Cluytens, Herbert von Karajan, Hermann Scherchen, Václav Talich</subfield>
-      </datafield>
-      <datafield tag="512" ind1="0" ind2="0">
-        <subfield code="a">Med kommentarer af Peter Andry, Alexander Barantschik, Daniel Barenboim, Walter Barylli, Otto Edelmann, Vic Furth, Yuri Grigorovich, Bernard Haitink, Yehudi Menuhin og Evgeny Mravinsky</subfield>
-      </datafield>
-      <datafield tag="531" ind1="0" ind2="0">
-        <subfield code="a">Indhold:</subfield>
-      </datafield>
-      <datafield tag="538" ind1="0" ind2="0">
-        <subfield code="f">Warner Music Vision</subfield>
-        <subfield code="g">0927-42668-2</subfield>
-      </datafield>
-      <datafield tag="652" ind1="0" ind2="0">
-        <subfield code="m">78.411</subfield>
-      </datafield>
-      <datafield tag="652" ind1="0" ind2="0">
-        <subfield code="p">78.914</subfield>
-      </datafield>
-      <datafield tag="666" ind1="0" ind2="0">
-        <subfield code="m">romantik</subfield>
-        <subfield code="m">senromantik</subfield>
-        <subfield code="m">impressionisme</subfield>
-        <subfield code="m">symfoni</subfield>
-        <subfield code="m">ouverture</subfield>
-        <subfield code="m">symfonisk digt</subfield>
-        <subfield code="n">instrumental</subfield>
-        <subfield code="n">orkester</subfield>
-        <subfield code="p">1800-1899</subfield>
-        <subfield code="p">1900-1909</subfield>
-        <subfield code="p">1910-1919</subfield>
-        <subfield code="l">Tyskland</subfield>
-        <subfield code="l">Rusland</subfield>
-        <subfield code="l">Frankrig</subfield>
-        <subfield code="l">Østrig</subfield>
-        <subfield code="l">Tjekkiet</subfield>
-      </datafield>
-      <datafield tag="666" ind1="0" ind2="0">
-        <subfield code="o">historiske optagelser</subfield>
-      </datafield>
-      <datafield tag="666" ind1="0" ind2="0">
-        <subfield code="o">orkesterprøver</subfield>
-      </datafield>
-      <datafield tag="666" ind1="0" ind2="0">
-        <subfield code="o">direktion</subfield>
-      </datafield>
-      <datafield tag="666" ind1="0" ind2="0">
-        <subfield code="o">orkesterdirektion</subfield>
-      </datafield>
-      <datafield tag="700" ind1="0" ind2="0">
-        <subfield code="0"/>
-        <subfield code="a">Celibidache</subfield>
-        <subfield code="h">Sergiu</subfield>
-      </datafield>
-      <datafield tag="700" ind1="0" ind2="0">
-        <subfield code="0"/>
-        <subfield code="a">Cluytens</subfield>
-        <subfield code="h">André</subfield>
-      </datafield>
-      <datafield tag="700" ind1="0" ind2="0">
-        <subfield code="0"/>
-        <subfield code="a">Furtwängler</subfield>
-        <subfield code="h">Wilhelm</subfield>
-      </datafield>
-      <datafield tag="700" ind1="0" ind2="0">
-        <subfield code="0"/>
-        <subfield code="a">Karajan</subfield>
-        <subfield code="h">Herbert von</subfield>
-      </datafield>
-      <datafield tag="700" ind1="0" ind2="0">
-        <subfield code="0"/>
-        <subfield code="a">Kleiber</subfield>
-        <subfield code="h">Erich</subfield>
-      </datafield>
-      <datafield tag="700" ind1="0" ind2="0">
-        <subfield code="0"/>
-        <subfield code="a">Mengelberg</subfield>
-        <subfield code="h">Willem</subfield>
-      </datafield>
-      <datafield tag="700" ind1="0" ind2="0">
-        <subfield code="0"/>
-        <subfield code="a">Mravínskij</subfield>
-        <subfield code="h">Jevgénij</subfield>
-      </datafield>
-      <datafield tag="700" ind1="0" ind2="0">
-        <subfield code="0"/>
-        <subfield code="a">Munch</subfield>
-        <subfield code="h">Charles</subfield>
-      </datafield>
-      <datafield tag="700" ind1="0" ind2="0">
-        <subfield code="0"/>
-        <subfield code="a">Scherchen</subfield>
-        <subfield code="h">Hermann</subfield>
-      </datafield>
-      <datafield tag="700" ind1="0" ind2="0">
-        <subfield code="0"/>
-        <subfield code="a">Talich</subfield>
-        <subfield code="h">Václav</subfield>
-      </datafield>
-      <datafield tag="710" ind1="0" ind2="0">
-        <subfield code="0"/>
-        <subfield code="a">Berlins Filharmoniske Orkester</subfield>
-      </datafield>
-      <datafield tag="710" ind1="0" ind2="0">
-        <subfield code="0"/>
-        <subfield code="a">Bostons Symfoniorkester</subfield>
-      </datafield>
-      <datafield tag="710" ind1="0" ind2="0">
-        <subfield code="0"/>
-        <subfield code="a">Concertgebouw-Orkestret, Amsterdam</subfield>
-      </datafield>
-      <datafield tag="710" ind1="0" ind2="0">
-        <subfield code="0"/>
-        <subfield code="a">Leningrads Filharmoniske Orkester</subfield>
-      </datafield>
-      <datafield tag="710" ind1="0" ind2="0">
-        <subfield code="0"/>
-        <subfield code="a">Münchens Filharmoniske Orkester</subfield>
-      </datafield>
-      <datafield tag="710" ind1="0" ind2="0">
-        <subfield code="0"/>
-        <subfield code="å">1</subfield>
-        <subfield code="a">Statskapellet Berlin</subfield>
-      </datafield>
-      <datafield tag="710" ind1="0" ind2="0">
-        <subfield code="0"/>
-        <subfield code="å">2</subfield>
-        <subfield code="a">Stuttgarts Radiosymfoniorkester</subfield>
-      </datafield>
-      <datafield tag="710" ind1="0" ind2="0">
-        <subfield code="0"/>
-        <subfield code="a">Tjekkisk Filharmonisk Orkester</subfield>
-      </datafield>
-      <datafield tag="710" ind1="0" ind2="0">
-        <subfield code="0"/>
-        <subfield code="a">Det ¤Ungarske Statsorkester</subfield>
-      </datafield>
-      <datafield tag="770" ind1="0" ind2="0">
-        <subfield code="å">11</subfield>
-        <subfield code="0"/>
-        <subfield code="a">Strauss</subfield>
-        <subfield code="h">Richard</subfield>
-      </datafield>
-      <datafield tag="770" ind1="0" ind2="0">
-        <subfield code="å">12</subfield>
-        <subfield code="0"/>
-        <subfield code="a">Dvořák</subfield>
-        <subfield code="h">Antonín</subfield>
-      </datafield>
-      <datafield tag="770" ind1="0" ind2="0">
-        <subfield code="å">13</subfield>
-        <subfield code="0"/>
-        <subfield code="a">Kalinnikov</subfield>
-        <subfield code="h">Vasilij</subfield>
-      </datafield>
-      <datafield tag="770" ind1="0" ind2="0">
-        <subfield code="å">14</subfield>
-        <subfield code="0"/>
-        <subfield code="a">Ravel</subfield>
-        <subfield code="h">Maurice</subfield>
-      </datafield>
-      <datafield tag="770" ind1="0" ind2="0">
-        <subfield code="å">15</subfield>
-        <subfield code="0"/>
-        <subfield code="a">Tjajkovskij</subfield>
-        <subfield code="h">Petr</subfield>
-      </datafield>
-      <datafield tag="770" ind1="0" ind2="0">
-        <subfield code="å">16</subfield>
-        <subfield code="0"/>
-        <subfield code="a">Strauss</subfield>
-        <subfield code="h">Johann</subfield>
-        <subfield code="c">f. 1825</subfield>
-      </datafield>
-      <datafield tag="770" ind1="0" ind2="0">
-        <subfield code="å">17</subfield>
-        <subfield code="0"/>
-        <subfield code="a">Berlioz</subfield>
-        <subfield code="h">Hector</subfield>
-      </datafield>
-      <datafield tag="770" ind1="0" ind2="0">
-        <subfield code="å">18</subfield>
-        <subfield code="0"/>
-        <subfield code="a">Bizet</subfield>
-        <subfield code="h">Georges</subfield>
-      </datafield>
-      <datafield tag="770" ind1="0" ind2="0">
-        <subfield code="å">19</subfield>
-        <subfield code="0"/>
-        <subfield code="a">Weber</subfield>
-        <subfield code="h">Carl Maria von</subfield>
-      </datafield>
-      <datafield tag="770" ind1="0" ind2="0">
-        <subfield code="å">20</subfield>
-        <subfield code="0"/>
-        <subfield code="a">Beethoven</subfield>
-        <subfield code="h">Ludwig van</subfield>
-      </datafield>
-      <datafield tag="770" ind1="0" ind2="0">
-        <subfield code="å">21</subfield>
-        <subfield code="0"/>
-        <subfield code="a">Franck</subfield>
-        <subfield code="h">César</subfield>
-      </datafield>
-      <datafield tag="770" ind1="0" ind2="0">
-        <subfield code="å">22</subfield>
-        <subfield code="0"/>
-        <subfield code="a">Debussy</subfield>
-        <subfield code="h">Claude</subfield>
-      </datafield>
-      <datafield tag="770" ind1="0" ind2="0">
-        <subfield code="å">23</subfield>
-        <subfield code="0"/>
-        <subfield code="a">Sjostakovitj</subfield>
-        <subfield code="h">Dmitrij</subfield>
-      </datafield>
-      <datafield tag="795" ind1="0" ind2="0">
-        <subfield code="å">11</subfield>
-        <subfield code="0"/>
-        <subfield code="a">Ein ¤Heldenleben, opus 40 (uddrag)</subfield>
-        <subfield code="e">Berlin Philharmonic Orchestra</subfield>
-        <subfield code="e">dirigent: Herbert von Karajan</subfield>
-        <subfield code="a">Till Eulenspiegels lustige Streiche, opus 28</subfield>
-        <subfield code="e">Berlin Philharmonic Orchestra</subfield>
-        <subfield code="e">dirigent: Wilhelm Furtwängler</subfield>
-        <subfield code="a">Till Eulenspiegels lustige Streiche, opus 28</subfield>
-        <subfield code="e">Orchestra of Süddeutscher Rundfunk</subfield>
-        <subfield code="e">dirigent: Sergiu Celibidache</subfield>
-      </datafield>
-      <datafield tag="795" ind1="0" ind2="0">
-        <subfield code="å">12</subfield>
-        <subfield code="0"/>
-        <subfield code="a">Die ¤Waldtaube, opus 110 (uddrag)</subfield>
-        <subfield code="e">Czech Philharmonic Orchestra</subfield>
-        <subfield code="e">dirigent: Václav Talich</subfield>
-        <subfield code="a">Symfoni nr. 9, e-mol, opus 95 (1. sats)</subfield>
-        <subfield code="u">Fra den nye verden</subfield>
-        <subfield code="e">Munich Philharmonic Orchestra</subfield>
-        <subfield code="e">dirigent: Sergiu Celibidache</subfield>
-      </datafield>
-      <datafield tag="795" ind1="0" ind2="0">
-        <subfield code="å">13</subfield>
-        <subfield code="0"/>
-        <subfield code="a">Symfoni nr. 1, g-mol (2. sats)</subfield>
-        <subfield code="e">Czech Philharmonic Orchestra</subfield>
-        <subfield code="e">dirigent: Hermann Scherchen</subfield>
-      </datafield>
-      <datafield tag="795" ind1="0" ind2="0">
-        <subfield code="å">14</subfield>
-        <subfield code="0"/>
-        <subfield code="a">Rapsodie espagnole</subfield>
-        <subfield code="e">Czech Philharmonic Orchestra</subfield>
-        <subfield code="e">dirigent: André Cluytens</subfield>
-        <subfield code="a">Daphnis og Chloé (Suite nr. 2)</subfield>
-        <subfield code="e">Hungarina State Orchestra</subfield>
-        <subfield code="e">dirigent: Charles Munch</subfield>
-        <subfield code="a">Daphnis og Chloé (Suite nr. 2)</subfield>
-        <subfield code="e">Boston Symphony Orchestra</subfield>
-        <subfield code="e">dirigent: Charles Munch</subfield>
-      </datafield>
-      <datafield tag="795" ind1="0" ind2="0">
-        <subfield code="å">15</subfield>
-        <subfield code="0"/>
-        <subfield code="a">Symfoni nr. 4, f-mol, opus 36 (4. sats)</subfield>
-        <subfield code="e">Czech Philharmonic Orchestra</subfield>
-        <subfield code="e">dirigent: Evgeny Alexandrovich Mravinsky</subfield>
-        <subfield code="a">Symfoni nr. 5, e-mol, opus 64 (1. sats ; 4. sats)</subfield>
-        <subfield code="e">Leningrad Philharmonic Orchestra</subfield>
-        <subfield code="e">dirigent: Evgeny Alexandrovich Mravinsky</subfield>
-      </datafield>
-      <datafield tag="795" ind1="0" ind2="0">
-        <subfield code="å">16</subfield>
-        <subfield code="0"/>
-        <subfield code="a">Künstlerleben, opus 316</subfield>
-        <subfield code="e">Concertgebouw Orchestra</subfield>
-        <subfield code="e">dirigent: Erich Kleiber</subfield>
-        <subfield code="a">Kejservals, opus 437</subfield>
-        <subfield code="e">Berlin Philharmonic Orchestra</subfield>
-        <subfield code="e">dirigent: Wilhelm Furtwängler</subfield>
-        <subfield code="a">An der schönen, blauen Donau, opus 314</subfield>
-        <subfield code="e">Berlin Staatskapelle</subfield>
-        <subfield code="e">dirigent: Erich Kleiber</subfield>
-      </datafield>
-      <datafield tag="795" ind1="0" ind2="0">
-        <subfield code="å">17</subfield>
-        <subfield code="0"/>
-        <subfield code="a">Fausts fordømmelse, opus 24</subfield>
-        <subfield code="7"> (</subfield>
-        <subfield code="v">Ungarsk march</subfield>
-        <subfield code="7">) / </subfield>
-        <subfield code="e">Concertgebouw Orchestra</subfield>
-        <subfield code="e">dirigent: Willem Mengelberg</subfield>
-        <subfield code="a">Symphonie fantastique, opus 14 (4. sats</subfield>
-        <subfield code="u">Marche au supplice</subfield>
-        <subfield code="7"> ; 5. sats : </subfield>
-        <subfield code="u">Heksesabbat</subfield>
-        <subfield code="7">) / </subfield>
-        <subfield code="e">Boston Symphony Orchestra</subfield>
-        <subfield code="e">dirigent: Charles Munch</subfield>
-      </datafield>
-      <datafield tag="795" ind1="0" ind2="0">
-        <subfield code="å">18</subfield>
-        <subfield code="0"/>
-        <subfield code="a">L'¤Arlésienne-suite nr. 1 (Adagietto)</subfield>
-        <subfield code="e">Concertgebouw Orchestra</subfield>
-        <subfield code="e">dirigent: Willem Mengelberg</subfield>
-      </datafield>
-      <datafield tag="795" ind1="0" ind2="0">
-        <subfield code="å">19</subfield>
-        <subfield code="0"/>
-        <subfield code="a">Oberon (Ouverture)</subfield>
-        <subfield code="e">Concertgebouw Orchestra</subfield>
-        <subfield code="e">dirigent: Willem Mengelberg</subfield>
-      </datafield>
-      <datafield tag="795" ind1="0" ind2="0">
-        <subfield code="å">20</subfield>
-        <subfield code="0"/>
-        <subfield code="a">Symfoni nr. 9, d-mol, opus 125 (4. sats (Finale))</subfield>
-        <subfield code="e">Czech Philharmonic Orchestra</subfield>
-        <subfield code="e">dirigent: Erich Kleiber</subfield>
-        <subfield code="a">Egmont-ouverture, opus 84</subfield>
-        <subfield code="e">Berlin Philharmonic Orchestra</subfield>
-        <subfield code="e">dirigent: Sergiu Celibidache</subfield>
-      </datafield>
-      <datafield tag="795" ind1="0" ind2="0">
-        <subfield code="å">21</subfield>
-        <subfield code="0"/>
-        <subfield code="a">Symfoni, d-mol (uddrag)</subfield>
-        <subfield code="e">Czech Philharmonic Orchestra</subfield>
-        <subfield code="e">dirigent: Charles Munch</subfield>
-      </datafield>
-      <datafield tag="795" ind1="0" ind2="0">
-        <subfield code="å">22</subfield>
-        <subfield code="0"/>
-        <subfield code="a">La ¤mer</subfield>
-        <subfield code="7"> (</subfield>
-        <subfield code="v">Jeux de vagues</subfield>
-        <subfield code="7">) / </subfield>
-        <subfield code="e">Boston Symphony Orchestra</subfield>
-        <subfield code="e">dirigent: Charles Munch</subfield>
-      </datafield>
-      <datafield tag="795" ind1="0" ind2="0">
-        <subfield code="å">23</subfield>
-        <subfield code="0"/>
-        <subfield code="a">Symfoni nr. 5, d-mol, opus 47 (1. sats ; 4. sats)</subfield>
-        <subfield code="e">Leningrad Philharmonic Orchestra</subfield>
-        <subfield code="e">dirigent: Evgeny Alexandrovich Mravinsky</subfield>
-      </datafield>
-      <datafield tag="910" ind1="0" ind2="0">
-        <subfield code="0"/>
-        <subfield code="a">Berlin Staatskapelle</subfield>
-        <subfield code="x">se</subfield>
-        <subfield code="w">Statskapellet Berlin</subfield>
-        <subfield code="z">710/1</subfield>
-      </datafield>
-      <datafield tag="910" ind1="0" ind2="0">
-        <subfield code="0"/>
-        <subfield code="a">Süddeutscher Rundfunks Orkester</subfield>
-        <subfield code="x">se</subfield>
-        <subfield code="w">Stuttgarts Radiosymfoniorkester</subfield>
-        <subfield code="z">710/2</subfield>
-      </datafield>
-      <datafield tag="910" ind1="0" ind2="0">
-        <subfield code="0"/>
-        <subfield code="a">SDRs Orkester</subfield>
-        <subfield code="x">se</subfield>
-        <subfield code="w">Stuttgarts Radiosymfoniorkester</subfield>
-        <subfield code="z">710/2</subfield>
-      </datafield>
-      <datafield tag="s10" ind1="0" ind2="0">
-        <subfield code="a">DBC</subfield>
-      </datafield>
-      <datafield tag="990" ind1="0" ind2="0">
-        <subfield code="o">200908</subfield>
-        <subfield code="b">v</subfield>
-        <subfield code="u">nt</subfield>
-      </datafield>
-    </record>
-  </marcx:collection>
-        </ns1:bibliographicData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>27593291|870970</ac:identifier>
+              <ac:source>undefined</ac:source>
+              <dc:title>The art of conducting - legendary conductors of a golden era</dc:title>
+              <dc:title xsi:type="dkdcplus:full">The art of conducting - legendary conductors of a golden era</dc:title>
+              <dc:subject xsi:type="dkdcplus:DK5">78.411</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Orkestermusik uden soloinstrumenter</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCO">direktion</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCO">historiske optagelser</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCM">impressionisme</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCM">instrumental</dc:subject>
+              <dc:subject xsi:type="dkdcplus:genre">klassiske symfonier</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCM">orkester</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCO">orkesterdirektion</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCO">orkesterprøver</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCM">ouverture</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCM">romantik</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCM">senromantik</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCM">symfoni</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCM">symfonisk digt</dc:subject>
+              <dc:description>Indspillet 1931-1991</dc:description>
+              <dc:description>På omslaget: Sergiu Celibidache, Wilhelm Furtwängler, Erich Kleiber, Evgeny Mravinsky, Charles Munch, Willem Mengelberg, André Cluytens, Herbert von Karajan, Hermann Scherchen, Václav Talich</dc:description>
+              <dc:description>Med kommentarer af Peter Andry, Alexander Barantschik, Daniel Barenboim, Walter Barylli, Otto Edelmann, Vic Furth, Yuri Grigorovich, Bernard Haitink, Yehudi Menuhin og Evgeny Mravinsky</dc:description>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dc:publisher>Teldec Classics International</dc:publisher>
+              <dc:publisher>Warner Music Vision</dc:publisher>
+              <dc:contributor>Sergiu Celibidache</dc:contributor>
+              <dc:contributor>André Cluytens</dc:contributor>
+              <dc:contributor>Wilhelm Furtwängler</dc:contributor>
+              <dc:contributor>Herbert von Karajan</dc:contributor>
+              <dc:contributor>Erich Kleiber</dc:contributor>
+              <dc:contributor>Willem Mengelberg</dc:contributor>
+              <dc:contributor>Jevgénij Mravínskij</dc:contributor>
+              <dc:contributor>Charles Munch</dc:contributor>
+              <dc:contributor>Hermann Scherchen</dc:contributor>
+              <dc:contributor>Václav Talich</dc:contributor>
+              <dc:contributor>Richard Strauss</dc:contributor>
+              <dc:contributor>Antonín Dvořák</dc:contributor>
+              <dc:contributor>Vasilij Kalinnikov</dc:contributor>
+              <dc:contributor>Maurice Ravel</dc:contributor>
+              <dc:contributor>Petr Tjajkovskij</dc:contributor>
+              <dc:contributor>Johann Strauss (f. 1825)</dc:contributor>
+              <dc:contributor>Hector Berlioz</dc:contributor>
+              <dc:contributor>Georges Bizet</dc:contributor>
+              <dc:contributor>Carl Maria von Weber</dc:contributor>
+              <dc:contributor>Ludwig van Beethoven</dc:contributor>
+              <dc:contributor>César Franck</dc:contributor>
+              <dc:contributor>Claude Debussy</dc:contributor>
+              <dc:contributor>Dmitrij Sjostakovitj</dc:contributor>
+              <dc:contributor>Berlins Filharmoniske Orkester</dc:contributor>
+              <dc:contributor>Bostons Symfoniorkester</dc:contributor>
+              <dc:contributor>Concertgebouw-Orkestret, Amsterdam</dc:contributor>
+              <dc:contributor>Leningrads Filharmoniske Orkester</dc:contributor>
+              <dc:contributor>Münchens Filharmoniske Orkester</dc:contributor>
+              <dc:contributor>Statskapellet Berlin</dc:contributor>
+              <dc:contributor>Stuttgarts Radiosymfoniorkester</dc:contributor>
+              <dc:contributor>Tjekkisk Filharmonisk Orkester</dc:contributor>
+              <dc:contributor>Det Ungarske Statsorkester</dc:contributor>
+              <dc:date>2002</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Dvd</dc:type>
+              <dc:format>1 dvd-video, 1 kommentarhæfte</dc:format>
+              <dcterms:extent>1 t., 55 min.</dcterms:extent>
+              <dc:identifier>Warner Music Vision 0927-42668-2</dc:identifier>
+              <dc:language xsi:type="dcterms:ISO639-2">mul</dc:language>
+              <dc:language>Flere sprog</dc:language>
+              <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+              <dc:language>Engelsk</dc:language>
+              <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+              <dc:language>Tysk</dc:language>
+              <dc:language xsi:type="dcterms:ISO639-2">dut</dc:language>
+              <dc:language>Hollandsk</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">eng</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">fre</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">ger</dc:language>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Ein Heldenleben, opus 40 (uddrag)</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Till Eulenspiegels lustige Streiche, opus 28</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Till Eulenspiegels lustige Streiche, opus 28</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Die Waldtaube, opus 110 (uddrag)</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Symfoni nr. 9, e-mol, opus 95 (1. sats)</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Symfoni nr. 1, g-mol (2. sats)</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Rapsodie espagnole</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Daphnis og Chloé (Suite nr. 2)</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Daphnis og Chloé (Suite nr. 2)</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Symfoni nr. 4, f-mol, opus 36 (4. sats)</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Symfoni nr. 5, e-mol, opus 64 (1. sats ; 4. sats)</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Künstlerleben, opus 316</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Kejservals, opus 437</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">An der schönen, blauen Donau, opus 314</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Fausts fordømmelse, opus 24</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Symphonie fantastique, opus 14 (4. sats</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">L'Arlésienne-suite nr. 1 (Adagietto)</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Oberon (Ouverture)</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Symfoni nr. 9, d-mol, opus 125 (4. sats (Finale))</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Egmont-ouverture, opus 84</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Symfoni, d-mol (uddrag)</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">La mer</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Symfoni nr. 5, d-mol, opus 47 (1. sats ; 4. sats)</dcterms:hasPart>
+              <dcterms:spatial xsi:type="dkdcplus:DBCM">Tyskland</dcterms:spatial>
+              <dcterms:spatial xsi:type="dkdcplus:DBCM">Rusland</dcterms:spatial>
+              <dcterms:spatial xsi:type="dkdcplus:DBCM">Frankrig</dcterms:spatial>
+              <dcterms:spatial xsi:type="dkdcplus:DBCM">Østrig</dcterms:spatial>
+              <dcterms:spatial xsi:type="dkdcplus:DBCM">Tjekkiet</dcterms:spatial>
+              <dcterms:temporal xsi:type="dkdcplus:DBCM">1800-1899</dcterms:temporal>
+              <dcterms:temporal xsi:type="dkdcplus:DBCM">1900-1909</dcterms:temporal>
+              <dcterms:temporal xsi:type="dkdcplus:DBCM">1910-1919</dcterms:temporal>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>000000000000000000000000</marcx:leader>
+                <marcx:datafield tag="001" ind1="0" ind2="0">
+                  <marcx:subfield code="a">27593291</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20110404162026</marcx:subfield>
+                  <marcx:subfield code="d">20090126</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                  <marcx:subfield code="t">FAUST</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="004" ind1="0" ind2="0">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="008" ind1="0" ind2="0">
+                  <marcx:subfield code="t">s</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">2002</marcx:subfield>
+                  <marcx:subfield code="b">de</marcx:subfield>
+                  <marcx:subfield code="l">mul</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="009" ind1="0" ind2="0">
+                  <marcx:subfield code="a">s</marcx:subfield>
+                  <marcx:subfield code="b">m</marcx:subfield>
+                  <marcx:subfield code="g">th</marcx:subfield>
+                  <marcx:subfield code="b">a</marcx:subfield>
+                  <marcx:subfield code="h">xx</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="021" ind1="0" ind2="0">
+                  <marcx:subfield code="d">Kr. 199,00</marcx:subfield>
+                  <marcx:subfield code="b">brugsretskategori: D</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="023" ind1="0" ind2="0">
+                  <marcx:subfield code="a">0809274266828</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="032" ind1="0" ind2="0">
+                  <marcx:subfield code="x">BKM200908</marcx:subfield>
+                  <marcx:subfield code="x">DAT201114</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="039" ind1="0" ind2="0">
+                  <marcx:subfield code="a">ora</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="041" ind1="0" ind2="0">
+                  <marcx:subfield code="a">eng</marcx:subfield>
+                  <marcx:subfield code="a">ger</marcx:subfield>
+                  <marcx:subfield code="a">dut</marcx:subfield>
+                  <marcx:subfield code="u">eng</marcx:subfield>
+                  <marcx:subfield code="u">fre</marcx:subfield>
+                  <marcx:subfield code="u">ger</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="245" ind1="0" ind2="0">
+                  <marcx:subfield code="a">The ¤art of conducting - legendary conductors of a golden era</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="260" ind1="0" ind2="0">
+                  <marcx:subfield code="a">[S.l.]</marcx:subfield>
+                  <marcx:subfield code="b">Teldec Classics International</marcx:subfield>
+                  <marcx:subfield code="b">Warner Music Vision</marcx:subfield>
+                  <marcx:subfield code="c">[2002], 1997</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="300" ind1="0" ind2="0">
+                  <marcx:subfield code="n">1 dvd-video</marcx:subfield>
+                  <marcx:subfield code="l">1 t., 55 min.</marcx:subfield>
+                  <marcx:subfield code="d">1 kommentarhæfte</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="512" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Indspillet 1931-1991</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="512" ind1="0" ind2="0">
+                  <marcx:subfield code="a">På omslaget: Sergiu Celibidache, Wilhelm Furtwängler, Erich Kleiber, Evgeny Mravinsky, Charles Munch, Willem Mengelberg, André Cluytens, Herbert von Karajan, Hermann Scherchen, Václav Talich</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="512" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Med kommentarer af Peter Andry, Alexander Barantschik, Daniel Barenboim, Walter Barylli, Otto Edelmann, Vic Furth, Yuri Grigorovich, Bernard Haitink, Yehudi Menuhin og Evgeny Mravinsky</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="531" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Indhold:</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="538" ind1="0" ind2="0">
+                  <marcx:subfield code="f">Warner Music Vision</marcx:subfield>
+                  <marcx:subfield code="g">0927-42668-2</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="652" ind1="0" ind2="0">
+                  <marcx:subfield code="m">78.411</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="652" ind1="0" ind2="0">
+                  <marcx:subfield code="p">78.914</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="m">romantik</marcx:subfield>
+                  <marcx:subfield code="m">senromantik</marcx:subfield>
+                  <marcx:subfield code="m">impressionisme</marcx:subfield>
+                  <marcx:subfield code="m">symfoni</marcx:subfield>
+                  <marcx:subfield code="m">ouverture</marcx:subfield>
+                  <marcx:subfield code="m">symfonisk digt</marcx:subfield>
+                  <marcx:subfield code="n">instrumental</marcx:subfield>
+                  <marcx:subfield code="n">orkester</marcx:subfield>
+                  <marcx:subfield code="p">1800-1899</marcx:subfield>
+                  <marcx:subfield code="p">1900-1909</marcx:subfield>
+                  <marcx:subfield code="p">1910-1919</marcx:subfield>
+                  <marcx:subfield code="l">Tyskland</marcx:subfield>
+                  <marcx:subfield code="l">Rusland</marcx:subfield>
+                  <marcx:subfield code="l">Frankrig</marcx:subfield>
+                  <marcx:subfield code="l">Østrig</marcx:subfield>
+                  <marcx:subfield code="l">Tjekkiet</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="o">historiske optagelser</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="o">orkesterprøver</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="o">direktion</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="o">orkesterdirektion</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Celibidache</marcx:subfield>
+                  <marcx:subfield code="h">Sergiu</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Cluytens</marcx:subfield>
+                  <marcx:subfield code="h">André</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Furtwängler</marcx:subfield>
+                  <marcx:subfield code="h">Wilhelm</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Karajan</marcx:subfield>
+                  <marcx:subfield code="h">Herbert von</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Kleiber</marcx:subfield>
+                  <marcx:subfield code="h">Erich</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Mengelberg</marcx:subfield>
+                  <marcx:subfield code="h">Willem</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Mravínskij</marcx:subfield>
+                  <marcx:subfield code="h">Jevgénij</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Munch</marcx:subfield>
+                  <marcx:subfield code="h">Charles</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Scherchen</marcx:subfield>
+                  <marcx:subfield code="h">Hermann</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Talich</marcx:subfield>
+                  <marcx:subfield code="h">Václav</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="710" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Berlins Filharmoniske Orkester</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="710" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Bostons Symfoniorkester</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="710" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Concertgebouw-Orkestret, Amsterdam</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="710" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Leningrads Filharmoniske Orkester</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="710" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Münchens Filharmoniske Orkester</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="710" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="å">1</marcx:subfield>
+                  <marcx:subfield code="a">Statskapellet Berlin</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="710" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="å">2</marcx:subfield>
+                  <marcx:subfield code="a">Stuttgarts Radiosymfoniorkester</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="710" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Tjekkisk Filharmonisk Orkester</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="710" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Det ¤Ungarske Statsorkester</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="770" ind1="0" ind2="0">
+                  <marcx:subfield code="å">11</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Strauss</marcx:subfield>
+                  <marcx:subfield code="h">Richard</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="770" ind1="0" ind2="0">
+                  <marcx:subfield code="å">12</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Dvořák</marcx:subfield>
+                  <marcx:subfield code="h">Antonín</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="770" ind1="0" ind2="0">
+                  <marcx:subfield code="å">13</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Kalinnikov</marcx:subfield>
+                  <marcx:subfield code="h">Vasilij</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="770" ind1="0" ind2="0">
+                  <marcx:subfield code="å">14</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Ravel</marcx:subfield>
+                  <marcx:subfield code="h">Maurice</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="770" ind1="0" ind2="0">
+                  <marcx:subfield code="å">15</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Tjajkovskij</marcx:subfield>
+                  <marcx:subfield code="h">Petr</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="770" ind1="0" ind2="0">
+                  <marcx:subfield code="å">16</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Strauss</marcx:subfield>
+                  <marcx:subfield code="h">Johann</marcx:subfield>
+                  <marcx:subfield code="c">f. 1825</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="770" ind1="0" ind2="0">
+                  <marcx:subfield code="å">17</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Berlioz</marcx:subfield>
+                  <marcx:subfield code="h">Hector</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="770" ind1="0" ind2="0">
+                  <marcx:subfield code="å">18</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Bizet</marcx:subfield>
+                  <marcx:subfield code="h">Georges</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="770" ind1="0" ind2="0">
+                  <marcx:subfield code="å">19</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Weber</marcx:subfield>
+                  <marcx:subfield code="h">Carl Maria von</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="770" ind1="0" ind2="0">
+                  <marcx:subfield code="å">20</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Beethoven</marcx:subfield>
+                  <marcx:subfield code="h">Ludwig van</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="770" ind1="0" ind2="0">
+                  <marcx:subfield code="å">21</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Franck</marcx:subfield>
+                  <marcx:subfield code="h">César</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="770" ind1="0" ind2="0">
+                  <marcx:subfield code="å">22</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Debussy</marcx:subfield>
+                  <marcx:subfield code="h">Claude</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="770" ind1="0" ind2="0">
+                  <marcx:subfield code="å">23</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Sjostakovitj</marcx:subfield>
+                  <marcx:subfield code="h">Dmitrij</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">11</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Ein ¤Heldenleben, opus 40 (uddrag)</marcx:subfield>
+                  <marcx:subfield code="e">Berlin Philharmonic Orchestra</marcx:subfield>
+                  <marcx:subfield code="e">dirigent: Herbert von Karajan</marcx:subfield>
+                  <marcx:subfield code="a">Till Eulenspiegels lustige Streiche, opus 28</marcx:subfield>
+                  <marcx:subfield code="e">Berlin Philharmonic Orchestra</marcx:subfield>
+                  <marcx:subfield code="e">dirigent: Wilhelm Furtwängler</marcx:subfield>
+                  <marcx:subfield code="a">Till Eulenspiegels lustige Streiche, opus 28</marcx:subfield>
+                  <marcx:subfield code="e">Orchestra of Süddeutscher Rundfunk</marcx:subfield>
+                  <marcx:subfield code="e">dirigent: Sergiu Celibidache</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">12</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Die ¤Waldtaube, opus 110 (uddrag)</marcx:subfield>
+                  <marcx:subfield code="e">Czech Philharmonic Orchestra</marcx:subfield>
+                  <marcx:subfield code="e">dirigent: Václav Talich</marcx:subfield>
+                  <marcx:subfield code="a">Symfoni nr. 9, e-mol, opus 95 (1. sats)</marcx:subfield>
+                  <marcx:subfield code="u">Fra den nye verden</marcx:subfield>
+                  <marcx:subfield code="e">Munich Philharmonic Orchestra</marcx:subfield>
+                  <marcx:subfield code="e">dirigent: Sergiu Celibidache</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">13</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Symfoni nr. 1, g-mol (2. sats)</marcx:subfield>
+                  <marcx:subfield code="e">Czech Philharmonic Orchestra</marcx:subfield>
+                  <marcx:subfield code="e">dirigent: Hermann Scherchen</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">14</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Rapsodie espagnole</marcx:subfield>
+                  <marcx:subfield code="e">Czech Philharmonic Orchestra</marcx:subfield>
+                  <marcx:subfield code="e">dirigent: André Cluytens</marcx:subfield>
+                  <marcx:subfield code="a">Daphnis og Chloé (Suite nr. 2)</marcx:subfield>
+                  <marcx:subfield code="e">Hungarina State Orchestra</marcx:subfield>
+                  <marcx:subfield code="e">dirigent: Charles Munch</marcx:subfield>
+                  <marcx:subfield code="a">Daphnis og Chloé (Suite nr. 2)</marcx:subfield>
+                  <marcx:subfield code="e">Boston Symphony Orchestra</marcx:subfield>
+                  <marcx:subfield code="e">dirigent: Charles Munch</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">15</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Symfoni nr. 4, f-mol, opus 36 (4. sats)</marcx:subfield>
+                  <marcx:subfield code="e">Czech Philharmonic Orchestra</marcx:subfield>
+                  <marcx:subfield code="e">dirigent: Evgeny Alexandrovich Mravinsky</marcx:subfield>
+                  <marcx:subfield code="a">Symfoni nr. 5, e-mol, opus 64 (1. sats ; 4. sats)</marcx:subfield>
+                  <marcx:subfield code="e">Leningrad Philharmonic Orchestra</marcx:subfield>
+                  <marcx:subfield code="e">dirigent: Evgeny Alexandrovich Mravinsky</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">16</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Künstlerleben, opus 316</marcx:subfield>
+                  <marcx:subfield code="e">Concertgebouw Orchestra</marcx:subfield>
+                  <marcx:subfield code="e">dirigent: Erich Kleiber</marcx:subfield>
+                  <marcx:subfield code="a">Kejservals, opus 437</marcx:subfield>
+                  <marcx:subfield code="e">Berlin Philharmonic Orchestra</marcx:subfield>
+                  <marcx:subfield code="e">dirigent: Wilhelm Furtwängler</marcx:subfield>
+                  <marcx:subfield code="a">An der schönen, blauen Donau, opus 314</marcx:subfield>
+                  <marcx:subfield code="e">Berlin Staatskapelle</marcx:subfield>
+                  <marcx:subfield code="e">dirigent: Erich Kleiber</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">17</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Fausts fordømmelse, opus 24</marcx:subfield>
+                  <marcx:subfield code="7"> (</marcx:subfield>
+                  <marcx:subfield code="v">Ungarsk march</marcx:subfield>
+                  <marcx:subfield code="7">) / </marcx:subfield>
+                  <marcx:subfield code="e">Concertgebouw Orchestra</marcx:subfield>
+                  <marcx:subfield code="e">dirigent: Willem Mengelberg</marcx:subfield>
+                  <marcx:subfield code="a">Symphonie fantastique, opus 14 (4. sats</marcx:subfield>
+                  <marcx:subfield code="u">Marche au supplice</marcx:subfield>
+                  <marcx:subfield code="7"> ; 5. sats : </marcx:subfield>
+                  <marcx:subfield code="u">Heksesabbat</marcx:subfield>
+                  <marcx:subfield code="7">) / </marcx:subfield>
+                  <marcx:subfield code="e">Boston Symphony Orchestra</marcx:subfield>
+                  <marcx:subfield code="e">dirigent: Charles Munch</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">18</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">L'¤Arlésienne-suite nr. 1 (Adagietto)</marcx:subfield>
+                  <marcx:subfield code="e">Concertgebouw Orchestra</marcx:subfield>
+                  <marcx:subfield code="e">dirigent: Willem Mengelberg</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">19</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Oberon (Ouverture)</marcx:subfield>
+                  <marcx:subfield code="e">Concertgebouw Orchestra</marcx:subfield>
+                  <marcx:subfield code="e">dirigent: Willem Mengelberg</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">20</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Symfoni nr. 9, d-mol, opus 125 (4. sats (Finale))</marcx:subfield>
+                  <marcx:subfield code="e">Czech Philharmonic Orchestra</marcx:subfield>
+                  <marcx:subfield code="e">dirigent: Erich Kleiber</marcx:subfield>
+                  <marcx:subfield code="a">Egmont-ouverture, opus 84</marcx:subfield>
+                  <marcx:subfield code="e">Berlin Philharmonic Orchestra</marcx:subfield>
+                  <marcx:subfield code="e">dirigent: Sergiu Celibidache</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">21</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Symfoni, d-mol (uddrag)</marcx:subfield>
+                  <marcx:subfield code="e">Czech Philharmonic Orchestra</marcx:subfield>
+                  <marcx:subfield code="e">dirigent: Charles Munch</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">22</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">La ¤mer</marcx:subfield>
+                  <marcx:subfield code="7"> (</marcx:subfield>
+                  <marcx:subfield code="v">Jeux de vagues</marcx:subfield>
+                  <marcx:subfield code="7">) / </marcx:subfield>
+                  <marcx:subfield code="e">Boston Symphony Orchestra</marcx:subfield>
+                  <marcx:subfield code="e">dirigent: Charles Munch</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">23</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Symfoni nr. 5, d-mol, opus 47 (1. sats ; 4. sats)</marcx:subfield>
+                  <marcx:subfield code="e">Leningrad Philharmonic Orchestra</marcx:subfield>
+                  <marcx:subfield code="e">dirigent: Evgeny Alexandrovich Mravinsky</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="910" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Berlin Staatskapelle</marcx:subfield>
+                  <marcx:subfield code="x">se</marcx:subfield>
+                  <marcx:subfield code="w">Statskapellet Berlin</marcx:subfield>
+                  <marcx:subfield code="z">710/1</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="910" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Süddeutscher Rundfunks Orkester</marcx:subfield>
+                  <marcx:subfield code="x">se</marcx:subfield>
+                  <marcx:subfield code="w">Stuttgarts Radiosymfoniorkester</marcx:subfield>
+                  <marcx:subfield code="z">710/2</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="910" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">SDRs Orkester</marcx:subfield>
+                  <marcx:subfield code="x">se</marcx:subfield>
+                  <marcx:subfield code="w">Stuttgarts Radiosymfoniorkester</marcx:subfield>
+                  <marcx:subfield code="z">710/2</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="s10" ind1="0" ind2="0">
+                  <marcx:subfield code="a">DBC</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="990" ind1="0" ind2="0">
+                  <marcx:subfield code="o">200908</marcx:subfield>
+                  <marcx:subfield code="b">v</marcx:subfield>
+                  <marcx:subfield code="u">nt</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>1</os:identifier>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
       </ns1:originalData>
       <ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
     </ns1:formatRequest>

@@ -1,102 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SOAP-ENV:Body>
     <ns1:formatRequest>
       <ns1:originalData>
-        <ns1:bibliographicData>
-  <dkabm:record>
-    <ac:identifier>63047961|870971</ac:identifier>
-    <ac:source>NJE</ac:source>
-    <dc:title>Et essay om Karen Blixen</dc:title>
-    <dc:title xsi:type="dkdcplus:full">Et essay om Karen Blixen</dc:title>
-    <dc:creator>Jørgen Gustava Brandt</dc:creator>
-    <dc:creator xsi:type="oss:sort">Brandt, Jørgen Gustava</dc:creator>
-    <dc:subject>Enkelte personer og familier</dc:subject>
-    <dc:subject xsi:type="dkdcplus:DBCF">Karen Blixen</dc:subject>
-    <dc:subject xsi:type="oss:sort">Blixen, Karen</dc:subject>
-    <dc:subject xsi:type="dkdcplus:genre">nonfiktion</dc:subject>
-    <dcterms:abstract>Forfatterinde, f. 17/4 1885</dcterms:abstract>
-    <dcterms:audience>voksenmaterialer</dcterms:audience>
-    <dc:date>1953</dc:date>
-    <dc:type xsi:type="dkdcplus:BibDK-Type">Tidsskriftsartikel</dc:type>
-    <dcterms:extent>S. 200-223, 300-320</dcterms:extent>
-    <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
-    <dc:language>Dansk</dc:language>
-    <dcterms:isPartOf>Heretica, Årg. 6 (1953)</dcterms:isPartOf>
-  </dkabm:record>
-  <marcx:collection>
-    <record format="danMARC2" type="Bibliographic">
-      <leader>000000000000000000000000</leader>
-      <datafield tag="001" ind1="0" ind2="0">
-        <subfield code="a">63047961</subfield>
-        <subfield code="b">870971</subfield>
-        <subfield code="c">20020404201142</subfield>
-        <subfield code="d">20020125</subfield>
-        <subfield code="f">a</subfield>
-        <subfield code="t">FAUST</subfield>
-      </datafield>
-      <datafield tag="004" ind1="0" ind2="0">
-        <subfield code="r">n</subfield>
-        <subfield code="a">i</subfield>
-      </datafield>
-      <datafield tag="008" ind1="0" ind2="0">
-        <subfield code="t">a</subfield>
-        <subfield code="u">f</subfield>
-        <subfield code="a">1953</subfield>
-        <subfield code="b">dk</subfield>
-        <subfield code="l">dan</subfield>
-        <subfield code="r">ap</subfield>
-        <subfield code="v">9</subfield>
-      </datafield>
-      <datafield tag="009" ind1="0" ind2="0">
-        <subfield code="a">a</subfield>
-        <subfield code="g">xx</subfield>
-      </datafield>
-      <datafield tag="016" ind1="0" ind2="0">
-        <subfield code="a">03196925</subfield>
-      </datafield>
-      <datafield tag="032" ind1="0" ind2="0">
-        <subfield code="a">DAR195300</subfield>
-        <subfield code="x">DTI195300</subfield>
-      </datafield>
-      <datafield tag="245" ind1="0" ind2="0">
-        <subfield code="a">Et ¤essay om Karen Blixen</subfield>
-      </datafield>
-      <datafield tag="300" ind1="0" ind2="0">
-        <subfield code="a">S. 200-223, 300-320</subfield>
-      </datafield>
-      <datafield tag="504" ind1="0" ind2="0">
-        <subfield code="a">Forfatterinde, f. 17/4 1885</subfield>
-      </datafield>
-      <datafield tag="557" ind1="0" ind2="0">
-        <subfield code="a">Heretica</subfield>
-        <subfield code="j">1953</subfield>
-        <subfield code="V">Årg. 0006 (1953)</subfield>
-        <subfield code="v">Årg. 6 (1953)</subfield>
-      </datafield>
-      <datafield tag="600" ind1="0" ind2="0">
-        <subfield code="a">Blixen</subfield>
-        <subfield code="h">Karen</subfield>
-      </datafield>
-      <datafield tag="631" ind1="0" ind2="0">
-        <subfield code="a">Enkelte personer og familier</subfield>
-      </datafield>
-      <datafield tag="654" ind1="0" ind2="0">
-        <subfield code="m">99.4</subfield>
-        <subfield code="a">Blixen</subfield>
-        <subfield code="h">Karen</subfield>
-      </datafield>
-      <datafield tag="700" ind1="0" ind2="0">
-        <subfield code="a">Brandt</subfield>
-        <subfield code="h">Jørgen Gustava</subfield>
-      </datafield>
-      <datafield tag="s10" ind1="0" ind2="0">
-        <subfield code="a">IDX</subfield>
-      </datafield>
-    </record>
-  </marcx:collection>
-  <oss:openurl>_BASEURL_url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:journal&amp;rft.atitle=Et+essay+om+Karen+Blixen&amp;rft.aulast=Brandt&amp;rft.aufirst=Jørgen+Gustava&amp;rft.auinit=JG&amp;rft.jtitle=Heretica&amp;rft.date=1953&amp;rft.volume=Årg.+6+(1953)&amp;rft.pages=200-223,+300-320&amp;rft.spage=200&amp;rft.epage=320&amp;rft.genre=article</oss:openurl>
-        </ns1:bibliographicData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>63047961|870971</ac:identifier>
+              <ac:source>NJE</ac:source>
+              <dc:title>Et essay om Karen Blixen</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Et essay om Karen Blixen</dc:title>
+              <dc:creator>Jørgen Gustava Brandt</dc:creator>
+              <dc:creator xsi:type="oss:sort">Brandt, Jørgen Gustava</dc:creator>
+              <dc:subject>Enkelte personer og familier</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">Karen Blixen</dc:subject>
+              <dc:subject xsi:type="oss:sort">Blixen, Karen</dc:subject>
+              <dc:subject xsi:type="dkdcplus:genre">nonfiktion</dc:subject>
+              <dcterms:abstract>Forfatterinde, f. 17/4 1885</dcterms:abstract>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dc:date>1953</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Tidsskriftsartikel</dc:type>
+              <dcterms:extent>S. 200-223, 300-320</dcterms:extent>
+              <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+              <dc:language>Dansk</dc:language>
+              <dcterms:isPartOf>Heretica, Årg. 6 (1953)</dcterms:isPartOf>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>000000000000000000000000</marcx:leader>
+                <marcx:datafield tag="001" ind1="0" ind2="0">
+                  <marcx:subfield code="a">63047961</marcx:subfield>
+                  <marcx:subfield code="b">870971</marcx:subfield>
+                  <marcx:subfield code="c">20020404201142</marcx:subfield>
+                  <marcx:subfield code="d">20020125</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                  <marcx:subfield code="t">FAUST</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="004" ind1="0" ind2="0">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">i</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="008" ind1="0" ind2="0">
+                  <marcx:subfield code="t">a</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">1953</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="l">dan</marcx:subfield>
+                  <marcx:subfield code="r">ap</marcx:subfield>
+                  <marcx:subfield code="v">9</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="009" ind1="0" ind2="0">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xx</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="016" ind1="0" ind2="0">
+                  <marcx:subfield code="a">03196925</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="032" ind1="0" ind2="0">
+                  <marcx:subfield code="a">DAR195300</marcx:subfield>
+                  <marcx:subfield code="x">DTI195300</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="245" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Et ¤essay om Karen Blixen</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="300" ind1="0" ind2="0">
+                  <marcx:subfield code="a">S. 200-223, 300-320</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="504" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Forfatterinde, f. 17/4 1885</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="557" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Heretica</marcx:subfield>
+                  <marcx:subfield code="j">1953</marcx:subfield>
+                  <marcx:subfield code="V">Årg. 0006 (1953)</marcx:subfield>
+                  <marcx:subfield code="v">Årg. 6 (1953)</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="600" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Blixen</marcx:subfield>
+                  <marcx:subfield code="h">Karen</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="631" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Enkelte personer og familier</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="654" ind1="0" ind2="0">
+                  <marcx:subfield code="m">99.4</marcx:subfield>
+                  <marcx:subfield code="a">Blixen</marcx:subfield>
+                  <marcx:subfield code="h">Karen</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Brandt</marcx:subfield>
+                  <marcx:subfield code="h">Jørgen Gustava</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="s10" ind1="0" ind2="0">
+                  <marcx:subfield code="a">IDX</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <oss:openurl>_BASEURL_url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:journal&amp;rft.atitle=Et+essay+om+Karen+Blixen&amp;rft.aulast=Brandt&amp;rft.aufirst=Jørgen+Gustava&amp;rft.auinit=JG&amp;rft.jtitle=Heretica&amp;rft.date=1953&amp;rft.volume=Årg.+6+(1953)&amp;rft.pages=200-223,+300-320&amp;rft.spage=200&amp;rft.epage=320&amp;rft.genre=article</oss:openurl>
+            <os:identifier>1</os:identifier>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
       </ns1:originalData>
       <ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
     </ns1:formatRequest>

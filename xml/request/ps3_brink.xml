@@ -1,163 +1,171 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SOAP-ENV:Body>
     <ns1:formatRequest>
       <ns1:originalData>
-        <ns1:bibliographicData>
-  <dkabm:record>
-    <ac:identifier>28849591|870970</ac:identifier>
-    <ac:source>undefined</ac:source>
-    <dc:title>Brink</dc:title>
-    <dc:title xsi:type="dkdcplus:full">Brink</dc:title>
-    <dc:subject xsi:type="dkdcplus:DK5">79.41</dc:subject>
-    <dc:subject xsi:type="dkdcplus:DK5-Text">Computerspil</dc:subject>
-    <dc:subject xsi:type="dkdcplus:DBCO">computerspil</dc:subject>
-    <dc:subject xsi:type="dkdcplus:DBCO">shooters</dc:subject>
-    <dcterms:abstract>Shooter. Menneskehedens fremtid ser sort ud i Brink. Jorden er oversvømmet og eneste tilflugtssted er det flydende samfund The Ark. Men her er der udbrudt borgerkrig og militære sikkerhedsstyrker og oprørere kæmper i gaderne om kontrol over byen. Spilleren kan skabe sin egen karakter og deltage i online kampene eller spille alene mod computeren. Med animationer og videoklip</dcterms:abstract>
-    <dc:description>Titlen hentet fra disc-etiketten</dc:description>
-    <dc:description>Vejledning: Engelsk tekst med quickstart på dansk, norsk, svensk og finsk</dc:description>
-    <dcterms:audience xsi:type="dkdcplus:pegi">PEGI-mærkning: 16</dcterms:audience>
-    <dcterms:audience xsi:type="dkdcplus:age">Fra 12 år</dcterms:audience>
-    <dcterms:audience>voksenmaterialer</dcterms:audience>
-    <dkdcplus:version>Special edition</dkdcplus:version>
-    <dc:publisher>Bethesda Software</dc:publisher>
-    <dc:contributor>Splash Damage</dc:contributor>
-    <dc:date>2011</dc:date>
-    <dc:type xsi:type="dkdcplus:BibDK-Type">Playstation 3</dc:type>
-    <dc:format>1 blu-ray disc, blu-ray, playstation 3, lyd, farve, 1 vejledning</dc:format>
-    <dc:format>Afspilningsudstyr Sony playstation 3; understøtter vibrationsfunktion. - Med multiplayerfunktion</dc:format>
-    <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
-    <dc:language>Engelsk</dc:language>
-  </dkabm:record>
-<marcx:collection>
-    <record format="danMARC2" type="Bibliographic">
-      <leader>000000000000000000000000</leader>
-      <datafield tag="001" ind1="0" ind2="0">
-        <subfield code="a">28849591</subfield>
-        <subfield code="b">870970</subfield>
-        <subfield code="c">20110718180849</subfield>
-        <subfield code="d">20110627</subfield>
-        <subfield code="f">a</subfield>
-        <subfield code="t">FAUST</subfield>
-      </datafield>
-      <datafield tag="004" ind1="0" ind2="0">
-        <subfield code="r">n</subfield>
-        <subfield code="a">e</subfield>
-      </datafield>
-      <datafield tag="006" ind1="0" ind2="0">
-        <subfield code="e">16</subfield>
-        <subfield code="2">c</subfield>
-      </datafield>
-      <datafield tag="006" ind1="0" ind2="0">
-        <subfield code="e">12</subfield>
-        <subfield code="2">d</subfield>
-      </datafield>
-      <datafield tag="008" ind1="0" ind2="0">
-        <subfield code="t">m</subfield>
-        <subfield code="u">f</subfield>
-        <subfield code="a">2011</subfield>
-        <subfield code="b">xx</subfield>
-        <subfield code="l">eng</subfield>
-        <subfield code="q">bg</subfield>
-        <subfield code="v">0</subfield>
-      </datafield>
-      <datafield tag="009" ind1="0" ind2="0">
-        <subfield code="a">t</subfield>
-        <subfield code="g">to</subfield>
-        <subfield code="b">a</subfield>
-        <subfield code="h">xx</subfield>
-      </datafield>
-      <datafield tag="021" ind1="0" ind2="0">
-        <subfield code="b">Til udlån og brug på stedet</subfield>
-      </datafield>
-      <datafield tag="023" ind1="0" ind2="0">
-        <subfield code="a">0093155142626</subfield>
-      </datafield>
-      <datafield tag="032" ind1="0" ind2="0">
-        <subfield code="x">BKM201129</subfield>
-        <subfield code="x">BKX201128</subfield>
-      </datafield>
-      <datafield tag="041" ind1="0" ind2="0">
-        <subfield code="a">eng</subfield>
-        <subfield code="e">dan</subfield>
-        <subfield code="e">nor</subfield>
-        <subfield code="e">swe</subfield>
-        <subfield code="e">fin</subfield>
-      </datafield>
-      <datafield tag="245" ind1="0" ind2="0">
-        <subfield code="a">Brink</subfield>
-        <subfield code="e">developed by Splash Damage</subfield>
-        <subfield code="ø">Playstation 3</subfield>
-      </datafield>
-      <datafield tag="250" ind1="0" ind2="0">
-        <subfield code="a">Special edition</subfield>
-      </datafield>
-      <datafield tag="260" ind1="0" ind2="0">
-        <subfield code="a">[S.l.]</subfield>
-        <subfield code="b">Bethesda Software</subfield>
-        <subfield code="c">2011</subfield>
-      </datafield>
-      <datafield tag="300" ind1="0" ind2="0">
-        <subfield code="n">1 blu-ray disc</subfield>
-        <subfield code="e">blu-ray</subfield>
-        <subfield code="e">playstation 3</subfield>
-        <subfield code="b">lyd, farve</subfield>
-        <subfield code="d">1 vejledning</subfield>
-      </datafield>
-      <datafield tag="501" ind1="0" ind2="0">
-        <subfield code="i">Afspilningsudstyr</subfield>
-        <subfield code="a">Sony \playstation 3\; understøtter vibrationsfunktion. - Med multiplayerfunktion</subfield>
-      </datafield>
-      <datafield tag="504" ind1="0" ind2="0">
-        <subfield code="a">Shooter. Menneskehedens fremtid ser sort ud i Brink. Jorden er oversvømmet og eneste tilflugtssted er det flydende samfund The Ark. Men her er der udbrudt borgerkrig og militære sikkerhedsstyrker og oprørere kæmper i gaderne om kontrol over byen. Spilleren kan skabe sin egen karakter og deltage i online kampene eller spille alene mod computeren. Med animationer og videoklip</subfield>
-      </datafield>
-      <datafield tag="505" ind1="0" ind2="0">
-        <subfield code="a">Spil for 1 spiller</subfield>
-      </datafield>
-      <datafield tag="512" ind1="0" ind2="0">
-        <subfield code="a">Titlen hentet fra disc-etiketten</subfield>
-      </datafield>
-      <datafield tag="512" ind1="0" ind2="0">
-        <subfield code="a">Vejledning: Engelsk tekst med quickstart på dansk, norsk, svensk og finsk</subfield>
-      </datafield>
-      <datafield tag="517" ind1="0" ind2="0">
-        <subfield code="a">PEGI-mærkning: 16</subfield>
-      </datafield>
-      <datafield tag="517" ind1="0" ind2="0">
-        <subfield code="a">Fra 12 år</subfield>
-      </datafield>
-      <datafield tag="652" ind1="0" ind2="0">
-        <subfield code="m">79.41</subfield>
-      </datafield>
-      <datafield tag="666" ind1="0" ind2="0">
-        <subfield code="o">computerspil</subfield>
-      </datafield>
-      <datafield tag="666" ind1="0" ind2="0">
-        <subfield code="o">shooters</subfield>
-      </datafield>
-      <datafield tag="710" ind1="0" ind2="0">
-        <subfield code="0"/>
-        <subfield code="a">Splash Damage</subfield>
-      </datafield>
-      <datafield tag="s10" ind1="0" ind2="0">
-        <subfield code="a">DBC</subfield>
-      </datafield>
-      <datafield tag="990" ind1="0" ind2="0">
-        <subfield code="o">201129</subfield>
-        <subfield code="b">m</subfield>
-        <subfield code="b">v</subfield>
-        <subfield code="u">nt</subfield>
-      </datafield>
-      <datafield tag="991" ind1="0" ind2="0">
-        <subfield code="o">Ekspres 201128</subfield>
-      </datafield>
-      <datafield tag="991" ind1="0" ind2="0">
-        <subfield code="o">Agenturholder: Nordic Game Supply</subfield>
-      </datafield>
-    </record>
-  </marcx:collection>
-  <oss:openurl/>
-        </ns1:bibliographicData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>28849591|870970</ac:identifier>
+              <ac:source>undefined</ac:source>
+              <dc:title>Brink</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Brink</dc:title>
+              <dc:subject xsi:type="dkdcplus:DK5">79.41</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Computerspil</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCO">computerspil</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCO">shooters</dc:subject>
+              <dcterms:abstract>Shooter. Menneskehedens fremtid ser sort ud i Brink. Jorden er oversvømmet og eneste tilflugtssted er det flydende samfund The Ark. Men her er der udbrudt borgerkrig og militære sikkerhedsstyrker og oprørere kæmper i gaderne om kontrol over byen. Spilleren kan skabe sin egen karakter og deltage i online kampene eller spille alene mod computeren. Med animationer og videoklip</dcterms:abstract>
+              <dc:description>Titlen hentet fra disc-etiketten</dc:description>
+              <dc:description>Vejledning: Engelsk tekst med quickstart på dansk, norsk, svensk og finsk</dc:description>
+              <dcterms:audience xsi:type="dkdcplus:pegi">PEGI-mærkning: 16</dcterms:audience>
+              <dcterms:audience xsi:type="dkdcplus:age">Fra 12 år</dcterms:audience>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dkdcplus:version>Special edition</dkdcplus:version>
+              <dc:publisher>Bethesda Software</dc:publisher>
+              <dc:contributor>Splash Damage</dc:contributor>
+              <dc:date>2011</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Playstation 3</dc:type>
+              <dc:format>1 blu-ray disc, blu-ray, playstation 3, lyd, farve, 1 vejledning</dc:format>
+              <dc:format>Afspilningsudstyr Sony playstation 3; understøtter vibrationsfunktion. - Med multiplayerfunktion</dc:format>
+              <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+              <dc:language>Engelsk</dc:language>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>000000000000000000000000</marcx:leader>
+                <marcx:datafield tag="001" ind1="0" ind2="0">
+                  <marcx:subfield code="a">28849591</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20110718180849</marcx:subfield>
+                  <marcx:subfield code="d">20110627</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                  <marcx:subfield code="t">FAUST</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="004" ind1="0" ind2="0">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="006" ind1="0" ind2="0">
+                  <marcx:subfield code="e">16</marcx:subfield>
+                  <marcx:subfield code="2">c</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="006" ind1="0" ind2="0">
+                  <marcx:subfield code="e">12</marcx:subfield>
+                  <marcx:subfield code="2">d</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="008" ind1="0" ind2="0">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">2011</marcx:subfield>
+                  <marcx:subfield code="b">xx</marcx:subfield>
+                  <marcx:subfield code="l">eng</marcx:subfield>
+                  <marcx:subfield code="q">bg</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="009" ind1="0" ind2="0">
+                  <marcx:subfield code="a">t</marcx:subfield>
+                  <marcx:subfield code="g">to</marcx:subfield>
+                  <marcx:subfield code="b">a</marcx:subfield>
+                  <marcx:subfield code="h">xx</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="021" ind1="0" ind2="0">
+                  <marcx:subfield code="b">Til udlån og brug på stedet</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="023" ind1="0" ind2="0">
+                  <marcx:subfield code="a">0093155142626</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="032" ind1="0" ind2="0">
+                  <marcx:subfield code="x">BKM201129</marcx:subfield>
+                  <marcx:subfield code="x">BKX201128</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="041" ind1="0" ind2="0">
+                  <marcx:subfield code="a">eng</marcx:subfield>
+                  <marcx:subfield code="e">dan</marcx:subfield>
+                  <marcx:subfield code="e">nor</marcx:subfield>
+                  <marcx:subfield code="e">swe</marcx:subfield>
+                  <marcx:subfield code="e">fin</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="245" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Brink</marcx:subfield>
+                  <marcx:subfield code="e">developed by Splash Damage</marcx:subfield>
+                  <marcx:subfield code="ø">Playstation 3</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="250" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Special edition</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="260" ind1="0" ind2="0">
+                  <marcx:subfield code="a">[S.l.]</marcx:subfield>
+                  <marcx:subfield code="b">Bethesda Software</marcx:subfield>
+                  <marcx:subfield code="c">2011</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="300" ind1="0" ind2="0">
+                  <marcx:subfield code="n">1 blu-ray disc</marcx:subfield>
+                  <marcx:subfield code="e">blu-ray</marcx:subfield>
+                  <marcx:subfield code="e">playstation 3</marcx:subfield>
+                  <marcx:subfield code="b">lyd, farve</marcx:subfield>
+                  <marcx:subfield code="d">1 vejledning</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="501" ind1="0" ind2="0">
+                  <marcx:subfield code="i">Afspilningsudstyr</marcx:subfield>
+                  <marcx:subfield code="a">Sony \playstation 3\; understøtter vibrationsfunktion. - Med multiplayerfunktion</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="504" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Shooter. Menneskehedens fremtid ser sort ud i Brink. Jorden er oversvømmet og eneste tilflugtssted er det flydende samfund The Ark. Men her er der udbrudt borgerkrig og militære sikkerhedsstyrker og oprørere kæmper i gaderne om kontrol over byen. Spilleren kan skabe sin egen karakter og deltage i online kampene eller spille alene mod computeren. Med animationer og videoklip</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="505" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Spil for 1 spiller</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="512" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Titlen hentet fra disc-etiketten</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="512" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Vejledning: Engelsk tekst med quickstart på dansk, norsk, svensk og finsk</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="517" ind1="0" ind2="0">
+                  <marcx:subfield code="a">PEGI-mærkning: 16</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="517" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Fra 12 år</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="652" ind1="0" ind2="0">
+                  <marcx:subfield code="m">79.41</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="o">computerspil</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="o">shooters</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="710" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Splash Damage</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="s10" ind1="0" ind2="0">
+                  <marcx:subfield code="a">DBC</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="990" ind1="0" ind2="0">
+                  <marcx:subfield code="o">201129</marcx:subfield>
+                  <marcx:subfield code="b">m</marcx:subfield>
+                  <marcx:subfield code="b">v</marcx:subfield>
+                  <marcx:subfield code="u">nt</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="991" ind1="0" ind2="0">
+                  <marcx:subfield code="o">Ekspres 201128</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="991" ind1="0" ind2="0">
+                  <marcx:subfield code="o">Agenturholder: Nordic Game Supply</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <oss:openurl/>
+            <os:identifier>1</os:identifier>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
       </ns1:originalData>
       <ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
     </ns1:formatRequest>
