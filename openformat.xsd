@@ -24,6 +24,7 @@ You should have received a copy of the GNU Affero General Public License along w
 				<xs:element ref="of:agency" minOccurs="0"/>
 				<xs:element ref="of:authentication" minOccurs="0"/>
 				<xs:element ref="of:callback" minOccurs="0"/>
+				<xs:element ref="of:holdBackEndDate" minOccurs="0"/>
 				<xs:element ref="of:language" minOccurs="0"/>
 				<xs:element ref="of:originalData" maxOccurs="unbounded"/>
 				<xs:element ref="of:outputFormat"/>
@@ -75,6 +76,11 @@ You should have received a copy of the GNU Affero General Public License along w
 	<xs:element name="groupIdAut">
 		<xs:annotation>
 			<xs:documentation xml:lang="en">Identifier of the group (most often a library number) the user belongs to (for authentication purposes)</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="holdBackEndDate" type="xs:date">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Last of hold back period to be set in output</xs:documentation>
 		</xs:annotation>
 	</xs:element>
 	<xs:element name="language" type="of:languageType">
