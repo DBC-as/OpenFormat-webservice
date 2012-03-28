@@ -42,6 +42,8 @@ You should have received a copy of the GNU Affero General Public License along w
 				<xs:element ref="ofo:bibliotekdkBriefDisplay"/>
 				<xs:element ref="ofo:bibliotekdkFullDisplay"/>
 				<xs:element ref="ofo:bibliotekdkWorkDisplay"/>
+				<xs:element ref="ofo:refWorks"/>
+				<xs:element ref="ofo:ris"/>
 				<xs:element ref="of:error"/>
 			</xs:choice>
 		</xs:complexType>
@@ -134,18 +136,20 @@ You should have received a copy of the GNU Affero General Public License along w
 	</xs:simpleType>
 	<xs:simpleType name="outputFormatType">
 		<xs:annotation>
-			<xs:documentation xml:lang="en">The types of output that can be returned by the service.</xs:documentation>
+			<xs:documentation xml:lang="en">The output formats that can be returned by the service.</xs:documentation>
 		</xs:annotation>
 		<xs:restriction base="xs:string">
 			<xs:enumeration value="bibliotekdkBriefDisplay"/>
 			<xs:enumeration value="bibliotekdkFullDisplay"/>
 			<xs:enumeration value="bibliotekdkWorkDisplay"/>
 			<xs:enumeration value="briefDisplay"/>
+			<xs:enumeration value="refWorks"/>
+			<xs:enumeration value="ris"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<xs:simpleType name="outputTypeType">
 		<xs:annotation>
-			<xs:documentation xml:lang="en">The types of output that can be returned by the service.</xs:documentation>
+			<xs:documentation xml:lang="en">The types of output that can be returned by the service. Default is xml</xs:documentation>
 		</xs:annotation>
 		<xs:restriction base="xs:string">
 			<xs:enumeration value="xml"/>
