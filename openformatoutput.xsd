@@ -21,6 +21,16 @@
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
+	<xs:element name="refWorks" type="ofo:lineFormat">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Formatted for RefWorks</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="ris" type="ofo:lineFormat">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Formatted in RIS (for use with RefMan etc.)</xs:documentation>
+		</xs:annotation>
+	</xs:element>
 	<xs:element name="briefDisplayInformation">
 		<xs:annotation>
 			<xs:documentation xml:lang="en">HTML formatted display information</xs:documentation>
@@ -92,4 +102,12 @@
 	<xs:element name="publicationDetails" type="xs:string"/>
 	<xs:element name="title" type="xs:string"/>
 	<xs:element name="type" type="xs:string"/>
+	<xs:complexType name="lineFormat" mixed="true">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Format used for non structured text</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
 </xs:schema>
