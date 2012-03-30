@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" targetNamespace="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="fullDisplay">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:adminData"/>
+				<xs:element ref="bibdk:content" minOccurs="0"/>
+				<xs:element ref="bibdk:creators" minOccurs="0"/>
+				<xs:element ref="bibdk:description" minOccurs="0"/>
+				<xs:element ref="bibdk:details" minOccurs="0"/>
+				<xs:element ref="bibdk:publicationDetails" minOccurs="0"/>
+				<xs:element ref="bibdk:title"/>
+				<xs:element ref="bibdk:type"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="briefDisplay">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:adminData"/>
+				<xs:element ref="bibdk:creators" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:title"/>
+				<xs:element ref="bibdk:type"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="abstract" type="xs:string"/>
+	<xs:element name="adminData">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:pid"/>
+				<xs:element ref="bibdk:holdBackEndDate" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="content"/>
+	<xs:element name="creator">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:searchCode" minOccurs="0"/>
+				<xs:element ref="bibdk:display"/>
+			</xs:sequence>
+			<xs:attribute ref="bibdk:className"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="creators">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:creator" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="description">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:subjects" minOccurs="0"/>
+				<xs:element ref="bibdk:abstract" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="details">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:format" minOccurs="0"/>
+				<xs:element ref="bibdk:forms" minOccurs="0"/>
+				<xs:element ref="bibdk:shelf" minOccurs="0"/>
+				<xs:element ref="bibdk:note" minOccurs="0"/>
+				<xs:element ref="bibdk:identifiers" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:priceInformation" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="display" type="xs:string"/>
+	<xs:element name="edition">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute ref="bibdk:punctuation" use="optional"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="format" type="xs:string"/>
+	<xs:element name="formHeader" type="xs:string"/>
+	<xs:element name="forms">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:formHeader"/>
+				<xs:element ref="bibdk:formSubject" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="formSubject">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:searchCode" minOccurs="0"/>
+				<xs:element ref="bibdk:display"/>
+			</xs:sequence>
+			<xs:attribute ref="bibdk:className"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="holdBackEndDate" type="xs:string"/>
+	<xs:element name="identifier" type="xs:string"/>
+	<xs:element name="identifierHeader" type="xs:string"/>
+	<xs:element name="identifiers">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:identifierHeader" minOccurs="0"/>
+				<xs:element ref="bibdk:identifier"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="note">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Must change name - maybe series</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:noteHeader"/>
+				<xs:element ref="bibdk:noteTitle" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="noteHeader" type="xs:string"/>
+	<xs:element name="noteTitle">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:searchCode" minOccurs="0"/>
+				<xs:element ref="bibdk:display"/>
+			</xs:sequence>
+			<xs:attribute ref="bibdk:className"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="pid" type="xs:string"/>
+	<xs:element name="price" type="xs:string"/>
+	<xs:element name="priceHeader" type="xs:string"/>
+	<xs:element name="priceInformation">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:priceHeader" minOccurs="0"/>
+				<xs:element ref="bibdk:price"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="publication">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:edition" minOccurs="0"/>
+				<xs:element ref="bibdk:publisher" minOccurs="0"/>
+				<xs:element ref="bibdk:publicationYear" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="publicationDetails">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:publication" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="publicationYear" type="xs:string"/>
+	<xs:element name="publisher">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute ref="bibdk:punctuation" use="optional"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="searchCode">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute ref="bibdk:phrase" use="optional"/>
+					<xs:attribute ref="bibdk:word" use="optional"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="shelf">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:shelfHeader"/>
+				<xs:element ref="bibdk:shelfClassification" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="shelfClassification">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:searchCode" minOccurs="0"/>
+				<xs:element ref="bibdk:display"/>
+			</xs:sequence>
+			<xs:attribute ref="bibdk:className"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="shelfHeader" type="xs:string"/>
+	<xs:element name="subject">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:searchCode"/>
+				<xs:element ref="bibdk:display"/>
+			</xs:sequence>
+			<xs:attribute ref="bibdk:className"/>
+			<xs:attribute ref="bibdk:punctuation"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="subjectHeader" type="xs:string"/>
+	<xs:element name="subjects">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:subjectHeader"/>
+				<xs:element ref="bibdk:subject" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="title">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:titleFull"/>
+				<xs:element ref="bibdk:titleSpecific"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="titleFull" type="xs:string"/>
+	<xs:element name="titleSpecific" type="xs:string"/>
+	<xs:element name="type" type="xs:string"/>
+	<xs:attribute name="className" type="xs:string"/>
+	<xs:attribute name="phrase" type="xs:string"/>
+	<xs:attribute name="punctuation" type="xs:string"/>
+	<xs:attribute name="word" type="xs:string"/>
+</xs:schema>
