@@ -33,7 +33,7 @@
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
-	<xs:element name="content" type="xs:string"/>
+	<xs:element name="content"/>
 	<xs:element name="creator">
 		<xs:complexType>
 			<xs:sequence>
