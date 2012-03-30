@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- edited with XMLSpy v2012 (http://www.altova.com) by DBC A/S (DBC A/S) -->
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput" xmlns:os="http://oss.dbc.dk/ns/opensearch" targetNamespace="http://oss.dbc.dk/ns/openformat" elementFormDefault="qualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" targetNamespace="http://oss.dbc.dk/ns/openformat" elementFormDefault="qualified">
 	<xs:annotation>
 		<xs:documentation xml:lang="en">Open Format Service</xs:documentation>
 		<xs:documentation xml:lang="en">This XML Schema describes the data and structure of data of the Open Format service.</xs:documentation>
@@ -15,6 +15,7 @@ You should have received a copy of the GNU Affero General Public License along w
 	</xs:annotation>
 	<xs:import namespace="http://oss.dbc.dk/ns/openformatoutput" schemaLocation="openformatoutput.xsd"/>
 	<xs:import namespace="http://oss.dbc.dk/ns/opensearch" schemaLocation="opensearch.xsd"/>
+	<xs:import namespace="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" schemaLocation="bibliotekdkdisplay.xsd"/>
 	<xs:element name="formatRequest">
 		<xs:annotation>
 			<xs:documentation xml:lang="en">Request for formatting a single manifestation.</xs:documentation>
@@ -39,9 +40,11 @@ You should have received a copy of the GNU Affero General Public License along w
 		</xs:annotation>
 		<xs:complexType>
 			<xs:choice>
-				<xs:element ref="ofo:bibliotekdkBriefDisplay"/>
-				<xs:element ref="ofo:bibliotekdkFullDisplay"/>
-				<xs:element ref="ofo:bibliotekdkWorkDisplay"/>
+				<xs:element ref="ofo:briefDisplayHtml"/>
+				<xs:element ref="ofo:fullDisplayHtml"/>
+				<xs:element ref="ofo:workDisplayHtml"/>
+				<xs:element ref="bibdk:briefDisplay"/>
+				<xs:element ref="bibdk:fullDisplay"/>
 				<xs:element ref="ofo:refWorks"/>
 				<xs:element ref="ofo:ris"/>
 				<xs:element ref="of:error"/>
@@ -139,10 +142,11 @@ You should have received a copy of the GNU Affero General Public License along w
 			<xs:documentation xml:lang="en">The output formats that can be returned by the service.</xs:documentation>
 		</xs:annotation>
 		<xs:restriction base="xs:string">
-			<xs:enumeration value="bibliotekdkBriefDisplay"/>
-			<xs:enumeration value="bibliotekdkFullDisplay"/>
-			<xs:enumeration value="bibliotekdkWorkDisplay"/>
+			<xs:enumeration value="briefDisplayHtml"/>
+			<xs:enumeration value="fullDisplayHtml"/>
+			<xs:enumeration value="workDisplayHtml"/>
 			<xs:enumeration value="briefDisplay"/>
+			<xs:enumeration value="fullDisplay"/>
 			<xs:enumeration value="refWorks"/>
 			<xs:enumeration value="ris"/>
 		</xs:restriction>
