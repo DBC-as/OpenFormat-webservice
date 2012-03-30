@@ -3,14 +3,24 @@
 	<xs:element name="fullDisplay">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="bibdk:adminData" minOccurs="0"/>
+				<xs:element ref="bibdk:adminData"/>
 				<xs:element ref="bibdk:content" minOccurs="0"/>
 				<xs:element ref="bibdk:creators" minOccurs="0"/>
 				<xs:element ref="bibdk:description" minOccurs="0"/>
 				<xs:element ref="bibdk:details" minOccurs="0"/>
 				<xs:element ref="bibdk:publicationDetails" minOccurs="0"/>
-				<xs:element ref="bibdk:title" minOccurs="0"/>
-				<xs:element ref="bibdk:type" minOccurs="0"/>
+				<xs:element ref="bibdk:title"/>
+				<xs:element ref="bibdk:type"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="briefDisplay">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:adminData"/>
+				<xs:element ref="bibdk:creators" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:title"/>
+				<xs:element ref="bibdk:type"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
@@ -18,7 +28,7 @@
 	<xs:element name="adminData">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="bibdk:pid" minOccurs="0"/>
+				<xs:element ref="bibdk:pid"/>
 				<xs:element ref="bibdk:holdBackEndDate" minOccurs="0"/>
 			</xs:sequence>
 		</xs:complexType>
