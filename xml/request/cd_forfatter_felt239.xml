@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+  <dkabm:record>
+    <ac:identifier>25722566|870970</ac:identifier>
+    <ac:source>NJE</ac:source>
+    <dc:title>Symfoni nr. 4, f-mol, opus 36</dc:title>
+    <dc:title xsi:type="dkdcplus:full">Symfoni nr. 4, f-mol, opus 36 (Thomas)</dc:title>
+    <dcterms:alternative>Keeping score</dcterms:alternative>
+    <dc:subject xsi:type="dkdcplus:DK5">78.411</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DK5-Text">Orkestermusik uden soloinstrumenter</dc:subject>
+    <dc:subject xsi:type="dkdcplus:genre">nonfiktion</dc:subject>
+    <dcterms:audience>voksenmaterialer</dcterms:audience>
+    <dc:publisher>San Francisco Symphony</dc:publisher>
+    <dc:contributor>Michael Tilson Thomas</dc:contributor>
+    <dc:contributor>San Franciscos Symfoniorkester</dc:contributor>
+    <dc:contributor xsi:type="dkdcplus:act">San Francisco Symphonydirigent: Michael Tilson Thomas</dc:contributor>
+    <dc:date>2004</dc:date>
+    <dc:type xsi:type="dkdcplus:BibDK-Type">Dvd</dc:type>
+    <dc:format>1 dvd-video</dc:format>
+    <dc:identifier>San Francisco Symphony 821936-0005-9</dc:identifier>
+  </dkabm:record>
+  <marcx:collection>
+    <marcx:record format="danMARC2" type="Bibliographic">
+      <marcx:leader>000000000000000000000000</marcx:leader>
+      <marcx:datafield tag="001" ind1="0" ind2="0">
+        <marcx:subfield code="a">25722566</marcx:subfield>
+        <marcx:subfield code="b">870970</marcx:subfield>
+        <marcx:subfield code="c">20050426151610</marcx:subfield>
+        <marcx:subfield code="d">20050426</marcx:subfield>
+        <marcx:subfield code="f">a</marcx:subfield>
+        <marcx:subfield code="t">FAUST</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="004" ind1="0" ind2="0">
+        <marcx:subfield code="r">n</marcx:subfield>
+        <marcx:subfield code="a">e</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="008" ind1="0" ind2="0">
+        <marcx:subfield code="t">m</marcx:subfield>
+        <marcx:subfield code="u">f</marcx:subfield>
+        <marcx:subfield code="a">2004</marcx:subfield>
+        <marcx:subfield code="b">us</marcx:subfield>
+        <marcx:subfield code="v">4</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="009" ind1="0" ind2="0">
+        <marcx:subfield code="a">m</marcx:subfield>
+        <marcx:subfield code="b">s</marcx:subfield>
+        <marcx:subfield code="g">th</marcx:subfield>
+        <marcx:subfield code="b">a</marcx:subfield>
+        <marcx:subfield code="h">xx</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="239" ind1="0" ind2="0">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Tjajkovskij</marcx:subfield>
+        <marcx:subfield code="h">Petr</marcx:subfield>
+        <marcx:subfield code="t">Symfoni nr. 4, f-mol, opus 36</marcx:subfield>
+        <marcx:subfield code="ø">Thomas</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="245" ind1="0" ind2="0">
+        <marcx:subfield code="a">Keeping score</marcx:subfield>
+        <marcx:subfield code="u">Tchaikovsky Symphony no. 4 in F minor</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="260" ind1="0" ind2="0">
+        <marcx:subfield code="a">San Francisco, Calif.</marcx:subfield>
+        <marcx:subfield code="b">San Francisco Symphony</marcx:subfield>
+        <marcx:subfield code="c">cop. 2004</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="300" ind1="0" ind2="0">
+        <marcx:subfield code="n">1 dvd-video</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="512" ind1="0" ind2="0">
+        <marcx:subfield code="i">Medvirkende</marcx:subfield>
+        <marcx:subfield code="e">San Francisco Symphony</marcx:subfield>
+        <marcx:subfield code="e">dirigent: Michael Tilson Thomas</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="538" ind1="0" ind2="0">
+        <marcx:subfield code="f">San Francisco Symphony</marcx:subfield>
+        <marcx:subfield code="g">821936-0005-9</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="652" ind1="0" ind2="0">
+        <marcx:subfield code="m">78.411</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="700" ind1="0" ind2="0">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="å">2</marcx:subfield>
+        <marcx:subfield code="a">Thomas</marcx:subfield>
+        <marcx:subfield code="h">Michael Tilson</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="710" ind1="0" ind2="0">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">San Franciscos Symfoniorkester</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="900" ind1="0" ind2="0">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Tilson Thomas</marcx:subfield>
+        <marcx:subfield code="h">Michael</marcx:subfield>
+        <marcx:subfield code="x">se</marcx:subfield>
+        <marcx:subfield code="w">Thomas, Michael Tilson</marcx:subfield>
+        <marcx:subfield code="z">700/2</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="s10" ind1="0" ind2="0">
+        <marcx:subfield code="a">RET</marcx:subfield>
+      </marcx:datafield>
+    </marcx:record>
+  </marcx:collection>
+  <oss:openurl/>
+            <ns1:identifier>870970-basis:25722566</ns1:identifier>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

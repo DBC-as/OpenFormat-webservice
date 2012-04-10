@@ -324,6 +324,7 @@
           </os:object>
         </os:collection>
       </ns1:originalData>
+      <ns1:holdBackEndDate>2012-04-10</ns1:holdBackEndDate>
       <ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
     </ns1:formatRequest>
   </SOAP-ENV:Body>
