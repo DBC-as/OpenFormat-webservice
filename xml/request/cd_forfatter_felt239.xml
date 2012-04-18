@@ -110,7 +110,7 @@
     </marcx:record>
   </marcx:collection>
   <oss:openurl/>
-            <ns1:identifier>870970-basis:25722566</ns1:identifier>
+            <os:identifier>870970-basis:25722566</os:identifier>
             <os:formatsAvailable>
               <os:format>dkabm</os:format>
             </os:formatsAvailable>

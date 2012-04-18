@@ -127,7 +127,7 @@
       </ns1:originalData>
       <ns1:originalData>
         <os:collection>
-          <os:resultPosition>1</os:resultPosition>
+          <os:resultPosition>2</os:resultPosition>
           <os:numberOfObjects>1</os:numberOfObjects>
           <os:object>
             <dkabm:record>
@@ -241,7 +241,7 @@
                 </marcx:datafield>
               </marcx:record>
             </marcx:collection>
-            <os:identifier>1</os:identifier>
+            <os:identifier>2</os:identifier>
             <os:formatsAvailable>
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
