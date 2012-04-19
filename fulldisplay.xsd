@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2012 rel. 2 (http://www.altova.com) by DBC A/S (DBC A/S) -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" targetNamespace="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" elementFormDefault="qualified" attributeFormDefault="unqualified">
 	<xs:element name="fullDisplay">
 		<xs:complexType>
@@ -33,7 +34,26 @@
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
-	<xs:element name="content"/>
+	<xs:element name="analyticContent" type="xs:string"/>
+	<xs:element name="analyticContributor" type="xs:string"/>
+	<xs:element name="analyticRestOfTitle" type="xs:string"/>
+	<xs:element name="analyticTitle" type="xs:string"/>
+	<xs:element name="analyticTitleMain" type="xs:string"/>
+	<xs:element name="content">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:contentHeader" minOccurs="0"/>
+				<xs:element ref="bibdk:analyticContent" minOccurs="0"/>
+				<xs:element ref="bibdk:analyticTitle" minOccurs="0"/>
+				<xs:element ref="bibdk:analyticTitleMain" minOccurs="0"/>
+				<xs:element ref="bibdk:analyticRestOfTitle" minOccurs="0"/>
+				<xs:element ref="bibdk:analyticContributor" minOccurs="0"/>
+				<xs:element ref="bibdk:contentTitle" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="contentHeader" type="xs:string"/>
+	<xs:element name="contentTitle" type="xs:string"/>
 	<xs:element name="creator">
 		<xs:complexType>
 			<xs:sequence>
