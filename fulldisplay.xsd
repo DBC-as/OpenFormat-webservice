@@ -73,6 +73,8 @@
 	<xs:element name="description">
 		<xs:complexType>
 			<xs:sequence>
+				<xs:element ref="bibdk:hostPublication" minOccurs="0"/>
+				<xs:element ref="bibdk:language" minOccurs="0"/>
 				<xs:element ref="bibdk:subjects" minOccurs="0"/>
 				<xs:element ref="bibdk:abstract" minOccurs="0"/>
 			</xs:sequence>
@@ -119,7 +121,8 @@
 			<xs:attribute ref="bibdk:className"/>
 		</xs:complexType>
 	</xs:element>
-	<xs:element name="holdBackEndDate" type="xs:string"/>
+	<xs:element name="holdBackEndDate" type="xs:date"/>
+	<xs:element name="hostPublication" type="xs:string"/>
 	<xs:element name="identifier" type="xs:string"/>
 	<xs:element name="identifierHeader" type="xs:string"/>
 	<xs:element name="identifiers">
@@ -130,6 +133,16 @@
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
+	<xs:element name="language">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:languageHeader"/>
+				<xs:element ref="bibdk:languageElement"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="languageElement" type="xs:string"/>
+	<xs:element name="languageHeader" type="xs:string"/>
 	<xs:element name="note">
 		<xs:annotation>
 			<xs:documentation xml:lang="en">Must change name - maybe series</xs:documentation>
