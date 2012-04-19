@@ -34,21 +34,47 @@
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
-	<xs:element name="analyticContent" type="xs:string"/>
-	<xs:element name="analyticContributor" type="xs:string"/>
+	<xs:element name="analyticContent">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:analyticTitle" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:analyticContributor" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="analyticContributor">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:searchCode" minOccurs="0"/>
+				<xs:element ref="bibdk:display"/>
+			</xs:sequence>
+			<xs:attribute ref="bibdk:className"/>
+		</xs:complexType>
+	</xs:element>
 	<xs:element name="analyticRestOfTitle" type="xs:string"/>
-	<xs:element name="analyticTitle" type="xs:string"/>
-	<xs:element name="analyticTitleMain" type="xs:string"/>
+	<xs:element name="analyticTitle">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:analyticTitleMain"/>
+				<xs:element ref="bibdk:analyticRestOfTitle" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="analyticTitleMain">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:searchCode" minOccurs="0"/>
+				<xs:element ref="bibdk:display"/>
+			</xs:sequence>
+			<xs:attribute ref="bibdk:className"/>
+		</xs:complexType>
+	</xs:element>
 	<xs:element name="content">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="bibdk:contentHeader" minOccurs="0"/>
+				<xs:element ref="bibdk:contentHeader"/>
 				<xs:element ref="bibdk:analyticContent" minOccurs="0"/>
-				<xs:element ref="bibdk:analyticTitle" minOccurs="0"/>
-				<xs:element ref="bibdk:analyticTitleMain" minOccurs="0"/>
-				<xs:element ref="bibdk:analyticRestOfTitle" minOccurs="0"/>
-				<xs:element ref="bibdk:analyticContributor" minOccurs="0"/>
-				<xs:element ref="bibdk:contentTitle" minOccurs="0"/>
+				<xs:element ref="bibdk:contentTitle" minOccurs="0" maxOccurs="unbounded"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
