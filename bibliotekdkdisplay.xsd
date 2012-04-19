@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2012 rel. 2 (http://www.altova.com) by DBC A/S (DBC A/S) -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" targetNamespace="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" elementFormDefault="qualified" attributeFormDefault="unqualified">
 	<xs:element name="fullDisplay">
 		<xs:complexType>
@@ -33,7 +34,52 @@
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
-	<xs:element name="content"/>
+	<xs:element name="analyticContent">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:analyticTitle" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:analyticContributor" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="analyticContributor">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:searchCode" minOccurs="0"/>
+				<xs:element ref="bibdk:display"/>
+			</xs:sequence>
+			<xs:attribute ref="bibdk:className"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="analyticRestOfTitle" type="xs:string"/>
+	<xs:element name="analyticTitle">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:analyticTitleMain"/>
+				<xs:element ref="bibdk:analyticRestOfTitle" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="analyticTitleMain">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:searchCode" minOccurs="0"/>
+				<xs:element ref="bibdk:display"/>
+			</xs:sequence>
+			<xs:attribute ref="bibdk:className"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="content">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:contentHeader"/>
+				<xs:element ref="bibdk:analyticContent" minOccurs="0"/>
+				<xs:element ref="bibdk:contentTitle" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="contentHeader" type="xs:string"/>
+	<xs:element name="contentTitle" type="xs:string"/>
 	<xs:element name="creator">
 		<xs:complexType>
 			<xs:sequence>
@@ -53,6 +99,8 @@
 	<xs:element name="description">
 		<xs:complexType>
 			<xs:sequence>
+				<xs:element ref="bibdk:hostPublication" minOccurs="0"/>
+				<xs:element ref="bibdk:language" minOccurs="0"/>
 				<xs:element ref="bibdk:subjects" minOccurs="0"/>
 				<xs:element ref="bibdk:abstract" minOccurs="0"/>
 			</xs:sequence>
@@ -99,7 +147,8 @@
 			<xs:attribute ref="bibdk:className"/>
 		</xs:complexType>
 	</xs:element>
-	<xs:element name="holdBackEndDate" type="xs:string"/>
+	<xs:element name="holdBackEndDate" type="xs:date"/>
+	<xs:element name="hostPublication" type="xs:string"/>
 	<xs:element name="identifier" type="xs:string"/>
 	<xs:element name="identifierHeader" type="xs:string"/>
 	<xs:element name="identifiers">
@@ -110,6 +159,16 @@
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
+	<xs:element name="language">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:languageHeader"/>
+				<xs:element ref="bibdk:languageElement"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="languageElement" type="xs:string"/>
+	<xs:element name="languageHeader" type="xs:string"/>
 	<xs:element name="note">
 		<xs:annotation>
 			<xs:documentation xml:lang="en">Must change name - maybe series</xs:documentation>
