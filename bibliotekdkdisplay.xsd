@@ -99,7 +99,7 @@
 	<xs:element name="description">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="bibdk:hostPublication" minOccurs="0"/>
+				<xs:element ref="bibdk:hostPublication" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:language" minOccurs="0"/>
 				<xs:element ref="bibdk:subjects" minOccurs="0"/>
 				<xs:element ref="bibdk:abstract" minOccurs="0"/>
@@ -109,6 +109,7 @@
 	<xs:element name="details">
 		<xs:complexType>
 			<xs:sequence>
+				<xs:element ref="bibdk:originalTitle" minOccurs="0"/>
 				<xs:element ref="bibdk:format" minOccurs="0"/>
 				<xs:element ref="bibdk:forms" minOccurs="0"/>
 				<xs:element ref="bibdk:shelf" minOccurs="0"/>
@@ -190,6 +191,16 @@
 			<xs:attribute ref="bibdk:className"/>
 		</xs:complexType>
 	</xs:element>
+	<xs:element name="originalTitle">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:originalTitleHeader" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:originalTitleElement" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="originalTitleElement" type="xs:string"/>
+	<xs:element name="originalTitleHeader" type="xs:string"/>
 	<xs:element name="pid" type="xs:string"/>
 	<xs:element name="price" type="xs:string"/>
 	<xs:element name="priceHeader" type="xs:string"/>
