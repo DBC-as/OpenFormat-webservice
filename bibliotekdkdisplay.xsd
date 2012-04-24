@@ -90,13 +90,21 @@
 	</xs:element>
 	<xs:element name="contentHeader" type="xs:string"/>
 	<xs:element name="contentTitle" type="xs:string"/>
+	<xs:element name="contributor" type="xs:string"/>
+	<xs:element name="contributors">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:contributor" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
 	<xs:element name="creator">
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element ref="bibdk:searchCode" minOccurs="0"/>
 				<xs:element ref="bibdk:display"/>
 			</xs:sequence>
-			<xs:attribute name="className"  type="xs:string"/>
+			<xs:attribute name="className" type="xs:string"/>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="creators">
@@ -121,7 +129,9 @@
 			<xs:sequence>
 				<xs:element ref="bibdk:originalTitle" minOccurs="0"/>
 				<xs:element ref="bibdk:alternativeTitle" minOccurs="0"/>
+				<xs:element ref="bibdk:contributors" minOccurs="0"/>
 				<xs:element ref="bibdk:format" minOccurs="0"/>
+				<xs:element ref="bibdk:seriesTitle" minOccurs="0"/>
 				<xs:element ref="bibdk:forms" minOccurs="0"/>
 				<xs:element ref="bibdk:shelf" minOccurs="0"/>
 				<xs:element ref="bibdk:note" minOccurs="0"/>
