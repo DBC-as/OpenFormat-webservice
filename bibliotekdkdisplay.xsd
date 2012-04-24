@@ -34,6 +34,16 @@
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
+	<xs:element name="alternativeTitle">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:alternativeTitleHeader" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:alternativeTitleElement" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="alternativeTitleHeader" type="xs:string"/>
+	<xs:element name="alternativeTitleElement" type="xs:string"/>
 	<xs:element name="analyticContent">
 		<xs:complexType>
 			<xs:sequence>
@@ -110,6 +120,7 @@
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element ref="bibdk:originalTitle" minOccurs="0"/>
+				<xs:element ref="bibdk:alternativeTitle" minOccurs="0"/>
 				<xs:element ref="bibdk:format" minOccurs="0"/>
 				<xs:element ref="bibdk:forms" minOccurs="0"/>
 				<xs:element ref="bibdk:shelf" minOccurs="0"/>
