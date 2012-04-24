@@ -58,7 +58,7 @@
 				<xs:element ref="bibdk:searchCode" minOccurs="0"/>
 				<xs:element ref="bibdk:display"/>
 			</xs:sequence>
-			<xs:attribute ref="bibdk:className"/>
+			<xs:attribute name="className" type="xs:string"/>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="analyticRestOfTitle" type="xs:string"/>
@@ -76,7 +76,7 @@
 				<xs:element ref="bibdk:searchCode" minOccurs="0"/>
 				<xs:element ref="bibdk:display"/>
 			</xs:sequence>
-			<xs:attribute ref="bibdk:className"/>
+			<xs:attribute name="className" type="xs:string"/>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="content">
@@ -96,7 +96,7 @@
 				<xs:element ref="bibdk:searchCode" minOccurs="0"/>
 				<xs:element ref="bibdk:display"/>
 			</xs:sequence>
-			<xs:attribute ref="bibdk:className"/>
+			<xs:attribute name="className"  type="xs:string"/>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="creators">
@@ -135,7 +135,7 @@
 		<xs:complexType>
 			<xs:simpleContent>
 				<xs:extension base="xs:string">
-					<xs:attribute ref="bibdk:punctuation" use="optional"/>
+					<xs:attribute name="punctuation" type="xs:string" use="optional"/>
 				</xs:extension>
 			</xs:simpleContent>
 		</xs:complexType>
@@ -156,7 +156,7 @@
 				<xs:element ref="bibdk:searchCode" minOccurs="0"/>
 				<xs:element ref="bibdk:display"/>
 			</xs:sequence>
-			<xs:attribute ref="bibdk:className"/>
+			<xs:attribute name="className" type="xs:string"/>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="holdBackEndDate" type="xs:date"/>
@@ -199,7 +199,7 @@
 				<xs:element ref="bibdk:searchCode" minOccurs="0"/>
 				<xs:element ref="bibdk:display"/>
 			</xs:sequence>
-			<xs:attribute ref="bibdk:className"/>
+			<xs:attribute name="className" type="xs:string"/>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="originalTitle">
@@ -244,7 +244,7 @@
 		<xs:complexType>
 			<xs:simpleContent>
 				<xs:extension base="xs:string">
-					<xs:attribute ref="bibdk:punctuation" use="optional"/>
+					<xs:attribute name="punctuation" type="xs:string" use="optional"/>
 				</xs:extension>
 			</xs:simpleContent>
 		</xs:complexType>
@@ -253,8 +253,8 @@
 		<xs:complexType>
 			<xs:simpleContent>
 				<xs:extension base="xs:string">
-					<xs:attribute ref="bibdk:phrase" use="optional"/>
-					<xs:attribute ref="bibdk:word" use="optional"/>
+					<xs:attribute name="phrase" type="xs:string" use="optional"/>
+					<xs:attribute name="word" type="xs:string" use="optional"/>
 				</xs:extension>
 			</xs:simpleContent>
 		</xs:complexType>
@@ -273,7 +273,7 @@
 				<xs:element ref="bibdk:searchCode" minOccurs="0"/>
 				<xs:element ref="bibdk:display"/>
 			</xs:sequence>
-			<xs:attribute ref="bibdk:className"/>
+			<xs:attribute name="className" type="xs:string"/>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="shelfHeader" type="xs:string"/>
@@ -283,8 +283,8 @@
 				<xs:element ref="bibdk:searchCode"/>
 				<xs:element ref="bibdk:display"/>
 			</xs:sequence>
-			<xs:attribute ref="bibdk:className"/>
-			<xs:attribute ref="bibdk:punctuation"/>
+			<xs:attribute name="className" type="xs:string"/>
+			<xs:attribute name="punctuation" type="xs:string"/>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="subjectHeader" type="xs:string"/>
@@ -307,8 +307,4 @@
 	<xs:element name="titleFull" type="xs:string"/>
 	<xs:element name="titleSpecific" type="xs:string"/>
 	<xs:element name="type" type="xs:string"/>
-	<xs:attribute name="className" type="xs:string"/>
-	<xs:attribute name="phrase" type="xs:string"/>
-	<xs:attribute name="punctuation" type="xs:string"/>
-	<xs:attribute name="word" type="xs:string"/>
 </xs:schema>
