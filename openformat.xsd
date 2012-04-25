@@ -85,7 +85,7 @@ You should have received a copy of the GNU Affero General Public License along w
 	</xs:element>
 	<xs:element name="holdBackEndDate" type="xs:date">
 		<xs:annotation>
-			<xs:documentation xml:lang="en">Last of hold back period to be set in output</xs:documentation>
+			<xs:documentation xml:lang="en">date to compare a holdBackEndDate to, typically today</xs:documentation>
 		</xs:annotation>
 	</xs:element>
 	<xs:element name="language" type="of:languageType">
