@@ -269,6 +269,26 @@
 			</xs:simpleContent>
 		</xs:complexType>
 	</xs:element>
+	<xs:element name="series">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:searchCode" minOccurs="0"/>
+				<xs:element ref="bibdk:display"/>
+			</xs:sequence>
+			<xs:attribute name="className" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="seriesHeader" type="xs:string"/>
+	<xs:element name="seriesNumber" type="xs:string"/>
+	<xs:element name="seriesTitle">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:seriesHeader" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:series" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:seriesNumber" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
 	<xs:element name="shelf">
 		<xs:complexType>
 			<xs:sequence>
