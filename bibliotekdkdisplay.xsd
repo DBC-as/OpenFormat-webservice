@@ -90,14 +90,7 @@
 	</xs:element>
 	<xs:element name="contentHeader" type="xs:string"/>
 	<xs:element name="contentTitle" type="xs:string"/>
-	<xs:element name="contributor" type="xs:string"/>
-	<xs:element name="contributors">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element ref="bibdk:contributor" maxOccurs="unbounded"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
+	<xs:element name="contributors" type="xs:string"/>
 	<xs:element name="creator">
 		<xs:complexType>
 			<xs:sequence>
@@ -129,10 +122,11 @@
 			<xs:sequence>
 				<xs:element ref="bibdk:originalTitle" minOccurs="0"/>
 				<xs:element ref="bibdk:alternativeTitle" minOccurs="0"/>
-				<xs:element ref="bibdk:contributors" minOccurs="0"/>
+				<xs:element ref="bibdk:contributors" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:format" minOccurs="0"/>
-				<xs:element ref="bibdk:seriesTitle" minOccurs="0"/>
 				<xs:element ref="bibdk:forms" minOccurs="0"/>
+				<xs:element ref="bibdk:seriesTitle" minOccurs="0"/>
+				<xs:element ref="bibdk:relatedSeriesTitle" minOccurs="0"/>
 				<xs:element ref="bibdk:shelf" minOccurs="0"/>
 				<xs:element ref="bibdk:note" minOccurs="0"/>
 				<xs:element ref="bibdk:identifiers" minOccurs="0" maxOccurs="unbounded"/>
@@ -259,6 +253,25 @@
 			</xs:simpleContent>
 		</xs:complexType>
 	</xs:element>
+	<xs:element name="relatedSeries">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:searchCode"/>
+				<xs:element ref="bibdk:display"/>
+			</xs:sequence>
+			<xs:attribute name="className" type="xs:string"/>
+			<xs:attribute name="punctuation" type="xs:string"/>
+		</xs:complexType>	
+	</xs:element>
+	<xs:element name="relatedSeriesHeader" type="xs:string"/>
+	<xs:element name="relatedSeriesTitle">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:relatedSeriesHeader" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:relatedSeries" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>	
+	</xs:element>
 	<xs:element name="searchCode">
 		<xs:complexType>
 			<xs:simpleContent>
@@ -276,6 +289,7 @@
 				<xs:element ref="bibdk:display"/>
 			</xs:sequence>
 			<xs:attribute name="className" type="xs:string"/>
+			<xs:attribute name="punctuation" type="xs:string"/>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="seriesHeader" type="xs:string"/>
