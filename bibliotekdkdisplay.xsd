@@ -127,6 +127,7 @@
 				<xs:element ref="bibdk:forms" minOccurs="0"/>
 				<xs:element ref="bibdk:seriesTitle" minOccurs="0"/>
 				<xs:element ref="bibdk:relatedSeriesTitle" minOccurs="0"/>
+				<xs:element ref="bibdk:readabilityIndexes" minOccurs="0"/>
 				<xs:element ref="bibdk:shelf" minOccurs="0"/>
 				<xs:element ref="bibdk:note" minOccurs="0"/>
 				<xs:element ref="bibdk:identifiers" minOccurs="0" maxOccurs="unbounded"/>
@@ -253,6 +254,14 @@
 			</xs:simpleContent>
 		</xs:complexType>
 	</xs:element>
+	<xs:element name="readabilityIndexes">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:readabilityIndex" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="readabilityIndex" type="xs:string"/>
 	<xs:element name="relatedSeries">
 		<xs:complexType>
 			<xs:sequence>
@@ -261,7 +270,7 @@
 			</xs:sequence>
 			<xs:attribute name="className" type="xs:string"/>
 			<xs:attribute name="punctuation" type="xs:string"/>
-		</xs:complexType>	
+		</xs:complexType>
 	</xs:element>
 	<xs:element name="relatedSeriesHeader" type="xs:string"/>
 	<xs:element name="relatedSeriesTitle">
@@ -270,7 +279,7 @@
 				<xs:element ref="bibdk:relatedSeriesHeader" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:relatedSeries" maxOccurs="unbounded"/>
 			</xs:sequence>
-		</xs:complexType>	
+		</xs:complexType>
 	</xs:element>
 	<xs:element name="searchCode">
 		<xs:complexType>
