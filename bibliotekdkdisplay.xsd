@@ -79,6 +79,25 @@
 			<xs:attribute name="className" type="xs:string"/>
 		</xs:complexType>
 	</xs:element>
+	<xs:element name="audienceSubjectHeader" type="xs:string"/>
+	<xs:element name="audienceSubject">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:searchCode" minOccurs="0"/>
+				<xs:element ref="bibdk:display"/>
+			</xs:sequence>
+			<xs:attribute name="className" type="xs:string"/>
+			<xs:attribute name="punctuation" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="audienceSubjects">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:audienceSubjectHeader"/>
+				<xs:element ref="bibdk:audienceSubject" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
 	<xs:element name="content">
 		<xs:complexType>
 			<xs:sequence>
@@ -130,6 +149,7 @@
 				<xs:element ref="bibdk:readabilityIndexes" minOccurs="0"/>
 				<xs:element ref="bibdk:shelf" minOccurs="0"/>
 				<xs:element ref="bibdk:genre" minOccurs="0"/>
+				<xs:element ref="bibdk:audienceSubjects" minOccurs="0"/>
 				<xs:element ref="bibdk:note" minOccurs="0"/>
 				<xs:element ref="bibdk:identifiers" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:priceInformation" minOccurs="0"/>
