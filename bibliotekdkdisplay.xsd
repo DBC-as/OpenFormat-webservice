@@ -129,6 +129,7 @@
 				<xs:element ref="bibdk:relatedSeriesTitle" minOccurs="0"/>
 				<xs:element ref="bibdk:readabilityIndexes" minOccurs="0"/>
 				<xs:element ref="bibdk:shelf" minOccurs="0"/>
+				<xs:element ref="bibdk:genre" minOccurs="0"/>
 				<xs:element ref="bibdk:note" minOccurs="0"/>
 				<xs:element ref="bibdk:identifiers" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:priceInformation" minOccurs="0"/>
@@ -164,6 +165,7 @@
 			<xs:attribute name="className" type="xs:string"/>
 		</xs:complexType>
 	</xs:element>
+	<xs:element name="genre" type="xs:string"/>
 	<xs:element name="holdBackEndDate" type="xs:date"/>
 	<xs:element name="hostPublication" type="xs:string"/>
 	<xs:element name="identifier" type="xs:string"/>
