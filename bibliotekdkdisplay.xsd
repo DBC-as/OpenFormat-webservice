@@ -26,6 +26,14 @@
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="abstract" type="xs:string"/>
+	<xs:element name="accessInformation">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:accessUrl" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>	
+	</xs:element>
+	<xs:element name="accessUrl" type="xs:string"/>
 	<xs:element name="actorNote" type="xs:string"/>
 	<xs:element name="adminData">
 		<xs:complexType>
@@ -110,6 +118,14 @@
 	</xs:element>
 	<xs:element name="contentHeader" type="xs:string"/>
 	<xs:element name="contentTitle" type="xs:string"/>
+	<xs:element name="context">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:contextElement" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="contextElement" type="xs:string"/>
 	<xs:element name="contributors" type="xs:string"/>
 	<xs:element name="creator">
 		<xs:complexType>
@@ -158,8 +174,12 @@
 				<xs:element ref="bibdk:actorNote" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:descriptionNote" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:references" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:originals" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:context" minOccurs="0"/>
 				<xs:element ref="bibdk:identifiers" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:priceInformation" minOccurs="0"/>
+				<xs:element ref="bibdk:language" minOccurs="0"/>
+				<xs:element ref="bibdk:accessInformation" minOccurs="0"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
@@ -237,6 +257,7 @@
 			<xs:attribute name="className" type="xs:string"/>
 		</xs:complexType>
 	</xs:element>
+	<xs:element name="originals" type="xs:string"/>
 	<xs:element name="originalTitle">
 		<xs:complexType>
 			<xs:sequence>
