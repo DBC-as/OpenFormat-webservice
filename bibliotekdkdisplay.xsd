@@ -31,7 +31,7 @@
 			<xs:sequence>
 				<xs:element ref="bibdk:accessUrl" maxOccurs="unbounded"/>
 			</xs:sequence>
-		</xs:complexType>	
+		</xs:complexType>
 	</xs:element>
 	<xs:element name="accessUrl" type="xs:string"/>
 	<xs:element name="actorNote" type="xs:string"/>
@@ -279,19 +279,13 @@
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
-	<xs:element name="publication">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element ref="bibdk:edition" minOccurs="0"/>
-				<xs:element ref="bibdk:publisher" minOccurs="0"/>
-				<xs:element ref="bibdk:publicationYear" minOccurs="0"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
 	<xs:element name="publicationDetails">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="bibdk:publication" maxOccurs="unbounded"/>
+			<xs:element ref="bibdk:hostPublication" minOccurs="0"/>
+				<xs:element ref="bibdk:edition" minOccurs="0"/>
+				<xs:element ref="bibdk:publisher" minOccurs="0"/>
+				<xs:element ref="bibdk:publicationYear" minOccurs="0"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
