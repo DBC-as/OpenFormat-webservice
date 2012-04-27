@@ -26,6 +26,7 @@
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="abstract" type="xs:string"/>
+	<xs:element name="actorNote" type="xs:string"/>
 	<xs:element name="adminData">
 		<xs:complexType>
 			<xs:sequence>
@@ -136,6 +137,7 @@
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
+	<xs:element name="descriptionNote" type="xs:string"/>
 	<xs:element name="details">
 		<xs:complexType>
 			<xs:sequence>
@@ -153,7 +155,8 @@
 				<xs:element ref="bibdk:markedAudience" minOccurs="0"/>
 				<xs:element ref="bibdk:recommendedAudience" minOccurs="0"/>
 				<xs:element ref="bibdk:usedLanguage" minOccurs="0" maxOccurs="unbounded"/>
-				<xs:element ref="bibdk:note" minOccurs="0"/>
+				<xs:element ref="bibdk:actorNote" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:descriptionNote" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:identifiers" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:priceInformation" minOccurs="0"/>
 			</xs:sequence>
