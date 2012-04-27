@@ -283,6 +283,7 @@
 		<xs:complexType>
 			<xs:sequence>
 			<xs:element ref="bibdk:hostPublication" minOccurs="0"/>
+			<xs:element ref="bibdk:format" minOccurs="0"/>
 				<xs:element ref="bibdk:edition" minOccurs="0"/>
 				<xs:element ref="bibdk:publisher" minOccurs="0"/>
 				<xs:element ref="bibdk:publicationYear" minOccurs="0"/>
