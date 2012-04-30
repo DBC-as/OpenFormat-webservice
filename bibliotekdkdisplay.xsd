@@ -221,10 +221,12 @@
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element ref="bibdk:identifierHeader" minOccurs="0"/>
-				<xs:element ref="bibdk:identifier"/>
+				<xs:element ref="bibdk:identifier" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:ISSN" minOccurs="0" maxOccurs="unbounded"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
+	<xs:element name="ISSN" type="xs:string"/>
 	<xs:element name="language">
 		<xs:complexType>
 			<xs:sequence>
@@ -282,11 +284,11 @@
 	<xs:element name="publicationDetails">
 		<xs:complexType>
 			<xs:sequence>
-			<xs:element ref="bibdk:hostPublication" minOccurs="0"/>
-			<xs:element ref="bibdk:format" minOccurs="0"/>
-				<xs:element ref="bibdk:edition" minOccurs="0"/>
-				<xs:element ref="bibdk:publisher" minOccurs="0"/>
-				<xs:element ref="bibdk:publicationYear" minOccurs="0"/>
+				<xs:element ref="bibdk:hostPublication" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:format" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:edition" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:publisher" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:publicationYear" minOccurs="0" maxOccurs="unbounded"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
