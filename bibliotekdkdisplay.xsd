@@ -39,7 +39,7 @@
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element ref="bibdk:pid"/>
-				<xs:element ref="bibdk:holdBackEndDate" minOccurs="0"/>
+				<xs:element ref="bibdk:holdbackEndDate" minOccurs="0"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
@@ -213,7 +213,7 @@
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="genre" type="xs:string"/>
-	<xs:element name="holdBackEndDate" type="xs:date"/>
+	<xs:element name="holdbackEndDate" type="xs:date"/>
 	<xs:element name="hostPublication" type="xs:string"/>
 	<xs:element name="identifier" type="xs:string"/>
 	<xs:element name="identifierHeader" type="xs:string"/>
@@ -238,27 +238,6 @@
 	<xs:element name="languageElement" type="xs:string"/>
 	<xs:element name="languageHeader" type="xs:string"/>
 	<xs:element name="markedAudience" type="xs:string"/>
-	<xs:element name="note">
-		<xs:annotation>
-			<xs:documentation xml:lang="en">Must change name - maybe series</xs:documentation>
-		</xs:annotation>
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element ref="bibdk:noteHeader"/>
-				<xs:element ref="bibdk:noteTitle" maxOccurs="unbounded"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="noteHeader" type="xs:string"/>
-	<xs:element name="noteTitle">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element ref="bibdk:searchCode" minOccurs="0"/>
-				<xs:element ref="bibdk:display"/>
-			</xs:sequence>
-			<xs:attribute name="className" type="xs:string"/>
-		</xs:complexType>
-	</xs:element>
 	<xs:element name="originals" type="xs:string"/>
 	<xs:element name="originalTitle">
 		<xs:complexType>
@@ -366,7 +345,8 @@
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element ref="bibdk:shelfHeader"/>
-				<xs:element ref="bibdk:shelfClassification" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:shelfMusic" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:shelfClassification" minOccurs="0" maxOccurs="unbounded"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
@@ -380,6 +360,7 @@
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="shelfHeader" type="xs:string"/>
+	<xs:element name="shelfMusic" type="xs:string"/>
 	<xs:element name="subject">
 		<xs:complexType>
 			<xs:sequence>
