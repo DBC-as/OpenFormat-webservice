@@ -45,6 +45,7 @@
 	<xs:element name="manifestation">
 		<xs:complexType>
 			<xs:sequence>
+				<xs:element ref="bibdk:adminData"/>
 				<xs:element ref="bibdk:type"/>
 				<xs:element ref="bibdk:details" minOccurs="0"/>
 				<xs:element ref="bibdk:publicationDetails" minOccurs="0"/>
