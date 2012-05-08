@@ -25,6 +25,33 @@
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
+	<xs:element name="workDisplay">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:work"/>
+				<xs:element ref="bibdk:manifestation" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="work">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:title"/>
+				<xs:element ref="bibdk:creators" minOccurs="0"/>
+				<xs:element ref="bibdk:description" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="manifestation">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:type"/>
+				<xs:element ref="bibdk:details" minOccurs="0"/>
+				<xs:element ref="bibdk:publicationDetails" minOccurs="0"/>
+				<xs:element ref="bibdk:content" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
 	<xs:element name="abstract" type="xs:string"/>
 	<xs:element name="accessInformation">
 		<xs:complexType>
@@ -384,7 +411,7 @@
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element ref="bibdk:titleFull"/>
-				<xs:element ref="bibdk:titleSpecific"/>
+				<xs:element ref="bibdk:titleSpecific" minOccurs="0"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
