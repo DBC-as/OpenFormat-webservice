@@ -19,8 +19,8 @@
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element ref="bibdk:adminData"/>
-				<xs:element ref="bibdk:creators" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:title"/>
+				<xs:element ref="bibdk:creators" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:type"/>
 			</xs:sequence>
 		</xs:complexType>
@@ -74,8 +74,8 @@
 	<xs:element name="alternativeTitle">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="bibdk:alternativeTitleHeader" minOccurs="0" maxOccurs="unbounded"/>
-				<xs:element ref="bibdk:alternativeTitleElement" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:alternativeTitleHeader" minOccurs="0"/>
+				<xs:element ref="bibdk:alternativeTitleElement"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
@@ -186,7 +186,7 @@
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element ref="bibdk:originalTitle" minOccurs="0"/>
-				<xs:element ref="bibdk:alternativeTitle" minOccurs="0"/>
+				<xs:element ref="bibdk:alternativeTitle" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:contributors" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:format" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:forms" minOccurs="0"/>
