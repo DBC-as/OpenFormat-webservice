@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+  <dkabm:record>
+    <ac:identifier>01112775|125420</ac:identifier>
+    <ac:source>NJE</ac:source>
+    <dc:title>Geothermal news</dc:title>
+    <dc:title xsi:type="dkdcplus:full">Geothermal news</dc:title>
+    <dcterms:audience>voksenmaterialer</dcterms:audience>
+    <dc:publisher>Geothermal Co-ordinator, DSIR</dc:publisher>
+    <dc:date>1983</dc:date>
+    <dc:type xsi:type="dkdcplus:BibDK-Type">Periodikum</dc:type>
+    <dc:identifier xsi:type="dkdcplus:ISSN">0111-2775</dc:identifier>
+    <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+    <dc:language>Engelsk</dc:language>
+  </dkabm:record>
+  <marcx:collection>
+    <marcx:record format="danMARC2" type="Bibliographic">
+      <marcx:leader>000000000000000000000000</marcx:leader>
+      <marcx:datafield tag="001" ind1="0" ind2="0">
+        <marcx:subfield code="a">01112775</marcx:subfield>
+        <marcx:subfield code="b">125420</marcx:subfield>
+        <marcx:subfield code="d">19890913</marcx:subfield>
+        <marcx:subfield code="f">a</marcx:subfield>
+        <marcx:subfield code="t">ALBA</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="004" ind1="0" ind2="0">
+        <marcx:subfield code="r">n</marcx:subfield>
+        <marcx:subfield code="a">e</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="008" ind1="0" ind2="0">
+        <marcx:subfield code="t">p</marcx:subfield>
+        <marcx:subfield code="u">d</marcx:subfield>
+        <marcx:subfield code="a">1980</marcx:subfield>
+        <marcx:subfield code="z">1983</marcx:subfield>
+        <marcx:subfield code="c">k</marcx:subfield>
+        <marcx:subfield code="b">nz</marcx:subfield>
+        <marcx:subfield code="l">eng</marcx:subfield>
+        <marcx:subfield code="v">7</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="009" ind1="0" ind2="0">
+        <marcx:subfield code="a">a</marcx:subfield>
+        <marcx:subfield code="g">xx</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="022" ind1="0" ind2="0">
+        <marcx:subfield code="a">0111-2775</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="082" ind1="0" ind2="0">
+        <marcx:subfield code="a">622.159</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="210" ind1="0" ind2="0">
+        <marcx:subfield code="a">Geotherm. news</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="222" ind1="0" ind2="0">
+        <marcx:subfield code="a">Geothermal news</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="245" ind1="0" ind2="0">
+        <marcx:subfield code="a">Geothermal news</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="260" ind1="0" ind2="0">
+        <marcx:subfield code="a">Wellington</marcx:subfield>
+        <marcx:subfield code="b">Geothermal Co-ordinator, DSIR</marcx:subfield>
+      </marcx:datafield>
+    </marcx:record>
+  </marcx:collection>
+  <oss:openurl/>
+<os:identifier>125420-basis:01112775</os:identifier>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
