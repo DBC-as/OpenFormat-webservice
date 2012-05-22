@@ -20,7 +20,7 @@
 			<xs:sequence>
 				<xs:element ref="bibdk:adminData"/>
 				<xs:element ref="bibdk:title"/>
-				<xs:element ref="bibdk:creators" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:creators" minOccurs="0"/>
 				<xs:element ref="bibdk:type"/>
 			</xs:sequence>
 		</xs:complexType>
@@ -174,7 +174,7 @@
 	<xs:element name="description">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="bibdk:hostPublication" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:hostPublication" minOccurs="0"/>
 				<xs:element ref="bibdk:language" minOccurs="0"/>
 				<xs:element ref="bibdk:subjects" minOccurs="0"/>
 				<xs:element ref="bibdk:abstract" minOccurs="0"/>
@@ -187,14 +187,14 @@
 			<xs:sequence>
 				<xs:element ref="bibdk:originalTitle" minOccurs="0"/>
 				<xs:element ref="bibdk:alternativeTitle" minOccurs="0" maxOccurs="unbounded"/>
-				<xs:element ref="bibdk:contributors" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:contributors" minOccurs="0"/>
 				<xs:element ref="bibdk:format" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:forms" minOccurs="0"/>
 				<xs:element ref="bibdk:seriesTitle" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:relatedSeriesTitle" minOccurs="0" maxOccurs="unbounded"/>
-				<xs:element ref="bibdk:readabilityIndexes" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:readabilityIndexes" minOccurs="0"/>
 				<xs:element ref="bibdk:shelf" minOccurs="0"/>
-				<xs:element ref="bibdk:genre" minOccurs="0"/>
+				<xs:element ref="bibdk:genre" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:audienceSubjects" minOccurs="0"/>
 				<xs:element ref="bibdk:markedAudience" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:recommendedAudience" minOccurs="0" maxOccurs="unbounded"/>
@@ -205,9 +205,9 @@
 				<xs:element ref="bibdk:originals" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:context" minOccurs="0"/>
 				<xs:element ref="bibdk:identifiers" minOccurs="0" maxOccurs="unbounded"/>
-				<xs:element ref="bibdk:priceInformation" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:priceInformation" minOccurs="0"/>
 				<xs:element ref="bibdk:language" minOccurs="0"/>
-				<xs:element ref="bibdk:accessInformation" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:accessInformation" minOccurs="0"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
@@ -291,11 +291,11 @@
 	<xs:element name="publicationDetails">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="bibdk:hostPublication" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:hostPublication" minOccurs="0"/>
 				<xs:element ref="bibdk:format" minOccurs="0" maxOccurs="unbounded"/>
-				<xs:element ref="bibdk:edition" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:edition" minOccurs="0"/>
 				<xs:element ref="bibdk:publisher" minOccurs="0" maxOccurs="unbounded"/>
-				<xs:element ref="bibdk:publicationYear" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:publicationYear" minOccurs="0"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
