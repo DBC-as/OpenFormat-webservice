@@ -185,7 +185,7 @@
               </marcx:record>
             </marcx:collection>
             <oss:openurl>_BASEURL_url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:book&amp;rft.btitle=Frederik+IV&amp;rft.aulast=Wagner&amp;rft.aufirst=Hans&amp;rft.auinit=H&amp;rft.date=2008&amp;rft.isbn=9788762710498&amp;rft.pub=Flachs&amp;rft.series=Tilbageblik&amp;rft.genre=book</oss:openurl>
-            <os:identifier>1</os:identifier>
+<os:identifier>870970-basis:27208010</os:identifier>
             <os:formatsAvailable>
               <os:format>dkabm</os:format>
             </os:formatsAvailable>

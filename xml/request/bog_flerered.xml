@@ -223,7 +223,7 @@
               </marcx:record>
             </marcx:collection>
             <oss:openurl>_BASEURL_url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:book&amp;rft.btitle=Hvor+lidt+der+skal+til&amp;rft.aulast=Ꜳbenhus&amp;rft.aufirst=Jørgen&amp;rft.auinit=J&amp;rft.date=2011&amp;rft.isbn=9788776745790&amp;rft.pub=Syddansk+Universitetsforlag&amp;rft.series=University+of+Southern+Denmark+studies+in+Scandinavian+languages+and+literature+;+vol.+106&amp;rft.genre=book</oss:openurl>
-            <os:identifier>1</os:identifier>
+<os:identifier>870970-basis:29080380</os:identifier>
             <os:formatsAvailable>
               <os:format>dkabm</os:format>
             </os:formatsAvailable>

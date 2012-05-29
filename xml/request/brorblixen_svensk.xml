@@ -145,7 +145,7 @@
               </marcx:record>
             </marcx:collection>
             <oss:openurl>_BASEURL_url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:book&amp;rft.btitle=Baron+Blixen&amp;rft.aulast=Aschan&amp;rft.aufirst=Ulf&amp;rft.auinit=U&amp;rft.date=1987&amp;rft.isbn=91-7024-332-8&amp;rft.pub=Wiken&amp;rft.genre=book</oss:openurl>
-            <os:identifier>1</os:identifier>
+<os:identifier>870970-basis:04944356</os:identifier>
             <os:formatsAvailable>
               <os:format>dkabm</os:format>
             </os:formatsAvailable>

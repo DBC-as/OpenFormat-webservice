@@ -2,7 +2,6 @@
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SOAP-ENV:Body>
     <ns1:formatRequest>
-      <ns1:holdBackEndDate>2012-04-10</ns1:holdBackEndDate>
       <ns1:originalData>
         <os:collection>
           <os:resultPosition>1</os:resultPosition>
@@ -318,13 +317,14 @@
               </marcx:record>
             </marcx:collection>
             <oss:openurl/>
-            <os:identifier>1</os:identifier>
+<os:identifier>870970-basis:29213836</os:identifier>
             <os:formatsAvailable>
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
           </os:object>
         </os:collection>
       </ns1:originalData>
+      <ns1:holdBackEndDate>2012-04-10</ns1:holdBackEndDate>
       <ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
     </ns1:formatRequest>
   </SOAP-ENV:Body>

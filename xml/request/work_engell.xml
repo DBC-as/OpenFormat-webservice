@@ -5,7 +5,7 @@
       <ns1:originalData>
         <os:collection>
           <os:resultPosition>1</os:resultPosition>
-          <os:numberOfObjects>3</os:numberOfObjects>
+          <os:numberOfObjects>1</os:numberOfObjects>
           <os:object>
             <dkabm:record>
               <ac:identifier>22229427|870970</ac:identifier>
@@ -29,7 +29,7 @@
               <dcterms:abstract>Hans Engell (f. 1948), der i 1997 gik af som konservativ partileder, beskriver det politiske liv på Slotsholmen fra han i 1978 startede som pressechef til han i 1993 sluttede som justitsminister, da Tamilsagen tvang Schlüter-regeringen til at gå</dcterms:abstract>
               <dcterms:audience>voksenmaterialer</dcterms:audience>
               <dkdcplus:version>2. udgave</dkdcplus:version>
-              <dc:publisher>Asch				ehoug</dc:publisher>
+              <dc:publisher>Aschehoug</dc:publisher>
               <dc:date>1998</dc:date>
               <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
               <dc:format>illustreret</dc:format>
@@ -176,11 +176,15 @@
                 </marcx:datafield>
               </marcx:record>
             </marcx:collection>
-            <os:identifier>1</os:identifier>
+<os:identifier>870970-basis:22229427</os:identifier>
             <os:formatsAvailable>
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
           </os:object>
+        </os:collection>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
           <os:object>
             <dkabm:record>
               <ac:identifier>21921173|870970</ac:identifier>
@@ -380,11 +384,15 @@
                 </marcx:datafield>
               </marcx:record>
             </marcx:collection>
-            <os:identifier>1</os:identifier>
+<os:identifier>870970-basis:21921173</os:identifier>
             <os:formatsAvailable>
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
           </os:object>
+        </os:collection>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
           <os:object>
             <dkabm:record>
               <ac:identifier>22100025|870970</ac:identifier>
@@ -567,7 +575,7 @@
                 </marcx:datafield>
               </marcx:record>
             </marcx:collection>
-            <os:identifier>1</os:identifier>
+<os:identifier>870970-basis:22100025</os:identifier>
             <os:formatsAvailable>
               <os:format>dkabm</os:format>
             </os:formatsAvailable>

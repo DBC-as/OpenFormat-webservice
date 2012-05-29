@@ -198,7 +198,7 @@
               </marcx:record>
             </marcx:collection>
             <oss:openurl>_BASEURL_url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:book&amp;rft.btitle=Visse+hensyn&amp;rft.aulast=Kampmann&amp;rft.aufirst=Christian&amp;rft.auinit=C&amp;rft.date=2005&amp;rft.isbn=87-02-03424-7&amp;rft.pub=Gyldendal&amp;rft.edition=2.+samlede+udgave,+5.+oplag&amp;rft.genre=book</oss:openurl>
-            <os:identifier>1</os:identifier>
+<os:identifier>760700-basis:25387376</os:identifier>
             <os:formatsAvailable>
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
