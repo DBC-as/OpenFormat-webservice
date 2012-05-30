@@ -7,7 +7,7 @@
 ;service_http_error = HTTP/1.1 410 Gone
 ;service_http_error = HTTP/1.0 503 Service Unavailable
 
-version = 0.1
+version = 0.2
 
 ; wsdl for service
 wsdl = openformat.wsdl
