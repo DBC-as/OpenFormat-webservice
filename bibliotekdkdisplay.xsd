@@ -242,7 +242,16 @@
 	</xs:element>
 	<xs:element name="genre" type="xs:string"/>
 	<xs:element name="holdbackEndDate" type="xs:date"/>
-	<xs:element name="hostPublication" type="xs:string"/>
+	<xs:element name="hostPublication">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="punctuation" type="xs:string" use="optional"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>	
+	
 	<xs:element name="identifier" type="xs:string"/>
 	<xs:element name="identifierHeader" type="xs:string"/>
 	<xs:element name="identifiers">
