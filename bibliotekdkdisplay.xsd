@@ -139,7 +139,7 @@
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element ref="bibdk:contentHeader"/>
-				<xs:element ref="bibdk:analyticContent" minOccurs="0"/>
+				<xs:element ref="bibdk:analyticContent" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:contentTitle" minOccurs="0" maxOccurs="unbounded"/>
 			</xs:sequence>
 		</xs:complexType>
@@ -250,8 +250,7 @@
 				</xs:extension>
 			</xs:simpleContent>
 		</xs:complexType>
-	</xs:element>	
-	
+	</xs:element>
 	<xs:element name="identifier" type="xs:string"/>
 	<xs:element name="identifierHeader" type="xs:string"/>
 	<xs:element name="identifiers">
