@@ -2,7 +2,7 @@
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat">
   <SOAP-ENV:Body>
     <of:formatResponse>
-<ofo:ris xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput">TY  - BOOK
+<ofo:ris>TY  - BOOK
 A1  - Engell,Hans
 T1  - På Slotsholmen
 SP  - 455 sider, illustreret
