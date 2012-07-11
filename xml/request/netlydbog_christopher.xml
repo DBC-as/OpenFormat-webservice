@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+  <dkabm:record>
+    <ac:identifier>28439040|870970</ac:identifier>
+    <ac:source>NJE</ac:source>
+    <dc:title>De Brændende Bjerge</dc:title>
+    <dc:title xsi:type="dkdcplus:full">De Brændende Bjerge</dc:title>
+    <dc:title xsi:type="dkdcplus:series">Sværdet ; 2</dc:title>
+    <dc:creator xsi:type="dkdcplus:aut">John Christopher </dc:creator>
+    <dc:creator xsi:type="oss:sort">Christopher, John</dc:creator>
+    <dc:subject xsi:type="dkdcplus:DK5-Text">Skønlitteratur</dc:subject>
+    <dc:subject xsi:type="dkdcplus:genre">fiktion</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCN">for 13 år</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCN">for 14 år</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCN">for 15 år</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCN">for 16 år</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCS">science fiction</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DK5">sk</dc:subject>
+    <dcterms:abstract>Science fiction. Forstødt fra tronen af broderen Peter foretrækker Luke at udforske landet bag de Brændende Bjerge. Her hersker andre normer, som åbner Lukes øjne for troldmændenes rænkespil, der koster dyrt i menneskeliv</dcterms:abstract>
+    <dc:description>Downloades i WMA-format eller streames</dc:description>
+    <dc:description>Oversætteren fremgår ikke af materialet</dc:description>
+    <dcterms:audience>børnematerialer</dcterms:audience>
+    <dc:publisher>Tellerup AV</dc:publisher>
+    <dc:contributor xsi:type="dkdcplus:dkind">Henning Palner </dc:contributor>
+    <dc:contributor xsi:type="dkdcplus:trl">Bjarne Skovlund</dc:contributor>
+    <dc:date>2010</dc:date>
+    <dc:type xsi:type="dkdcplus:BibDK-Type">Lydbog (net)</dc:type>
+    <dcterms:extent>Spilletid i WMA-format: 5 t., 46 min.</dcterms:extent>
+    <dcterms:extent>Spilletid ved streaming: 5 t., 41 min.</dcterms:extent>
+    <dc:identifier xsi:type="dkdcplus:ISBN">9788790101879</dc:identifier>
+    <dc:identifier xsi:type="dcterms:URI">http://netlydbog.dk/ting/object/150015:28439040</dc:identifier>
+    <dc:source>Beyond the burning lands</dc:source>
+    <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+    <dc:language>Dansk</dc:language>
+  </dkabm:record>
+  <marcx:collection>
+    <marcx:record format="danMARC2" type="Bibliographic">
+      <marcx:leader>000000000000000000000000</marcx:leader>
+      <marcx:datafield tag="001" ind1="0" ind2="0">
+        <marcx:subfield code="a">28439040</marcx:subfield>
+        <marcx:subfield code="b">870970</marcx:subfield>
+        <marcx:subfield code="c">20120704125010</marcx:subfield>
+        <marcx:subfield code="d">20100921</marcx:subfield>
+        <marcx:subfield code="f">a</marcx:subfield>
+        <marcx:subfield code="t">FAUST</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="004" ind1="0" ind2="0">
+        <marcx:subfield code="r">n</marcx:subfield>
+        <marcx:subfield code="a">e</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="005" ind1="0" ind2="0">
+        <marcx:subfield code="z">p</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="008" ind1="0" ind2="0">
+        <marcx:subfield code="t">m</marcx:subfield>
+        <marcx:subfield code="u">f</marcx:subfield>
+        <marcx:subfield code="a">2010</marcx:subfield>
+        <marcx:subfield code="b">dk</marcx:subfield>
+        <marcx:subfield code="d">x</marcx:subfield>
+        <marcx:subfield code="j">f</marcx:subfield>
+        <marcx:subfield code="l">dan</marcx:subfield>
+        <marcx:subfield code="n">b</marcx:subfield>
+        <marcx:subfield code="v">0</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="009" ind1="0" ind2="0">
+        <marcx:subfield code="a">r</marcx:subfield>
+        <marcx:subfield code="g">xe</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="021" ind1="0" ind2="0">
+        <marcx:subfield code="e">9788790101879</marcx:subfield>
+        <marcx:subfield code="x">87-901018-7-1</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="032" ind1="0" ind2="0">
+        <marcx:subfield code="a">DLF201040</marcx:subfield>
+        <marcx:subfield code="x">NET201040</marcx:subfield>
+        <marcx:subfield code="x">NLY201040</marcx:subfield>
+        <marcx:subfield code="x">DAT201043</marcx:subfield>
+        <marcx:subfield code="x">DAT991135</marcx:subfield>
+        <marcx:subfield code="x">DAT991229</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="041" ind1="0" ind2="0">
+        <marcx:subfield code="a">dan</marcx:subfield>
+        <marcx:subfield code="c">eng</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="100" ind1="0" ind2="0">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Christopher</marcx:subfield>
+        <marcx:subfield code="h">John</marcx:subfield>
+        <marcx:subfield code="4">aut</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="241" ind1="0" ind2="0">
+        <marcx:subfield code="a">Beyond the burning lands</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="245" ind1="0" ind2="0">
+        <marcx:subfield code="a">De ¤Brændende Bjerge</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="260" ind1="0" ind2="0">
+        <marcx:subfield code="b">Tellerup AV</marcx:subfield>
+        <marcx:subfield code="c">2010</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="440" ind1="0" ind2="0">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">[Sværdet]</marcx:subfield>
+        <marcx:subfield code="v">[2]</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="504" ind1="0" ind2="0">
+        <marcx:subfield code="a">Science fiction. Forstødt fra tronen af broderen Peter foretrækker Luke at udforske landet bag de Brændende Bjerge. Her hersker andre normer, som åbner Lukes øjne for troldmændenes rænkespil, der koster dyrt i menneskeliv</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="512" ind1="0" ind2="0">
+        <marcx:subfield code="a">Downloades i WMA-format eller streames</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="512" ind1="0" ind2="0">
+        <marcx:subfield code="a">Spilletid i WMA-format: 5 t., 46 min.</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="512" ind1="0" ind2="0">
+        <marcx:subfield code="a">Spilletid ved streaming: 5 t., 41 min.</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="512" ind1="0" ind2="0">
+        <marcx:subfield code="a">Oversætteren fremgår ikke af materialet</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="520" ind1="0" ind2="0">
+        <marcx:subfield code="a">Gengivelse af bogen</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="520" ind1="0" ind2="0">
+        <marcx:subfield code="a">Indlæst efter 1. udgave. 1983</marcx:subfield>
+        <marcx:subfield code="n">0 602 672 9</marcx:subfield>
+        <marcx:subfield code="r">87-588-0041-7</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="520" ind1="0" ind2="0">
+        <marcx:subfield code="a">Bogens originaludgave: 1971</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="652" ind1="0" ind2="0">
+        <marcx:subfield code="n">83</marcx:subfield>
+        <marcx:subfield code="z">296</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="652" ind1="0" ind2="0">
+        <marcx:subfield code="o">sk</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="666" ind1="0" ind2="0">
+        <marcx:subfield code="s">science fiction</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="666" ind1="0" ind2="0">
+        <marcx:subfield code="u">for 13 år</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="666" ind1="0" ind2="0">
+        <marcx:subfield code="u">for 14 år</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="666" ind1="0" ind2="0">
+        <marcx:subfield code="u">for 15 år</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="666" ind1="0" ind2="0">
+        <marcx:subfield code="u">for 16 år</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="700" ind1="0" ind2="0">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Palner</marcx:subfield>
+        <marcx:subfield code="h">Henning</marcx:subfield>
+        <marcx:subfield code="4">dkind</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="720" ind1="0" ind2="0">
+        <marcx:subfield code="o">Bjarne Skovlund</marcx:subfield>
+        <marcx:subfield code="4">trl</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="856" ind1="0" ind2="0">
+        <marcx:subfield code="z">Adgangsmåde: Internet</marcx:subfield>
+        <marcx:subfield code="u">http://netlydbog.dk/ting/object/150015:28439040</marcx:subfield>
+        <marcx:subfield code="z">Adgang til lån for biblioteksbrugere i visse kommuner</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="s10" ind1="0" ind2="0">
+        <marcx:subfield code="a">DBC</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="990" ind1="0" ind2="0">
+        <marcx:subfield code="o">201040</marcx:subfield>
+        <marcx:subfield code="b">b</marcx:subfield>
+        <marcx:subfield code="b">s</marcx:subfield>
+        <marcx:subfield code="u">nt</marcx:subfield>
+      </marcx:datafield>
+    </marcx:record>
+  </marcx:collection>
+  <oss:openurl/>
+            <os:identifier>870970-basis:28439040</os:identifier>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
