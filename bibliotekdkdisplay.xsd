@@ -68,6 +68,8 @@
 			<xs:sequence>
 				<xs:element ref="bibdk:pid"/>
 				<xs:element ref="bibdk:holdbackEndDate" minOccurs="0"/>
+				<xs:element ref="bibdk:requestMethod" minOccurs="0"/>
+				<xs:element ref="bibdk:restrictedUse" minOccurs="0"/>
 				<xs:element ref="bibdk:infomediaLink" minOccurs="0" maxOccurs="unbounded"/>
 			</xs:sequence>
 		</xs:complexType>
@@ -348,6 +350,8 @@
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
+	<xs:element name="requestMethod" type="xs:string"/>
+	<xs:element name="restrictedUse" type="xs:string"/>
 	<xs:element name="searchCode">
 		<xs:complexType>
 			<xs:simpleContent>
@@ -385,10 +389,20 @@
 				<xs:element ref="bibdk:shelfHeader"/>
 				<xs:element ref="bibdk:shelfMusic" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:shelfClassification" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:shelfClassificationSubDivision" minOccurs="0" maxOccurs="unbounded"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="shelfClassification">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:searchCode" minOccurs="0"/>
+				<xs:element ref="bibdk:display"/>
+			</xs:sequence>
+			<xs:attribute name="className" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="shelfClassificationSubDivision">
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element ref="bibdk:searchCode" minOccurs="0"/>
