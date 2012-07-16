@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat">
+  <SOAP-ENV:Body>
+    <of:formatResponse>
+<ofo:fullDisplayHtml xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput">
+  <ofo:title>&lt;div class="title"&gt;P&#xE5; Slotsholmen&lt;/div&gt;</ofo:title>
+  <ofo:creator>&lt;div class="creators"&gt;&lt;span class="creator phraseLink"&gt;Hans Engell&lt;/span&gt;&lt;/div&gt;</ofo:creator>
+  <ofo:type>&lt;div class="type"&gt;Bog&lt;/div&gt;</ofo:type>
+  <ofo:description>&lt;div class="subjects"&gt;&lt;span class="subjectHeader"&gt;Emne: &lt;/span&gt;&lt;span class="subject phraseLink"&gt;Danmark&lt;/span&gt; ; &lt;span class="subject phraseLink"&gt;Det Konservative Folkeparti&lt;/span&gt; ; &lt;span class="subject phraseLink"&gt;Hans Engell&lt;/span&gt; ; &lt;span class="subject phraseLink"&gt;historie&lt;/span&gt; ; &lt;span class="subject phraseLink"&gt;politik&lt;/span&gt; ; &lt;span class="subject phraseLink"&gt;politikere&lt;/span&gt; ; &lt;span class="subject phraseLink"&gt;politiske forhold&lt;/span&gt; ; &lt;span class="subject phraseLink"&gt;politiske partier&lt;/span&gt; ; &lt;span class="subject phraseLink"&gt;1980-1989&lt;/span&gt; ; &lt;span class="subject phraseLink"&gt;1990-1999&lt;/span&gt;&lt;/div&gt;&lt;div class="abstract"&gt;Hans Engell (f. 1948), der i 1997 gik af som konservativ partileder, beskriver det politiske liv p&#xE5; Slotsholmen fra han i 1978 startede som pressechef til han i 1993 sluttede som justitsminister, da Tamilsagen tvang Schl&#xFC;ter-regeringen til at g&#xE5;&lt;/div&gt;</ofo:description>
+  <ofo:details>&lt;div class="format"&gt;455 sider, illustreret&lt;/div&gt;&lt;div class="forms"&gt;&lt;span class="formHeader"&gt;Form: &lt;/span&gt;&lt;span class="formSubject phraseLink"&gt;erindringer&lt;/span&gt;&lt;/div&gt;&lt;div class="relatedSeriesTitle"&gt;&lt;span class="relatedSeriesHeader"&gt;Samh&#xF8;rende: &lt;/span&gt;&lt;span class="relatedSeries phraseLink"&gt;P&#xE5; Slotsholmen &lt;/span&gt; ; &lt;span class="relatedSeries phraseLink"&gt;Farvel til Slotsholmen &lt;/span&gt;&lt;/div&gt;&lt;div class="shelf"&gt;&lt;span class="shelfHeader"&gt;Opstilling i folkebiblioteker: &lt;/span&gt;&lt;span class="classification phraseLink"&gt;96.72&lt;/span&gt;&lt;/div&gt;&lt;div class="identifiers"&gt;&lt;span class="identifierHeader"&gt;ISBN: &lt;/span&gt;&lt;span class="identifier"&gt;87-11-15065-3&lt;/span&gt;&lt;/div&gt;&lt;div class="priceInformation"&gt;&lt;span class="priceHeader"&gt;Pris ved udgivelsen: &lt;/span&gt;&lt;span class="price"&gt;kr. 248,00&lt;/span&gt;&lt;/div&gt;</ofo:details>
+  <ofo:publicationDetails>&lt;span class="edition"&gt;1. udgave, 3. oplag&lt;/span&gt;. &lt;span class="publisher"&gt;Aschehoug&lt;/span&gt;, &lt;span class="year"&gt;1997&lt;/span&gt;</ofo:publicationDetails>
+</ofo:fullDisplayHtml>
+    </of:formatResponse>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
