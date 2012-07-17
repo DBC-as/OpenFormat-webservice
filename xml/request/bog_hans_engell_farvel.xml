@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+  <dkabm:record>
+    <ac:identifier>27502148|870970</ac:identifier>
+    <ac:source>NJE</ac:source>
+    <dc:title>Farvel til Slotsholmen</dc:title>
+    <dc:title xsi:type="dkdcplus:full">Farvel til Slotsholmen</dc:title>
+    <dc:creator xsi:type="dkdcplus:aut">Hans Engell </dc:creator>
+    <dc:creator xsi:type="oss:sort">Engell, Hans</dc:creator>
+    <dc:subject xsi:type="dkdcplus:DK5">99.4 Engell, Hans</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DK5-Text">Biografier af enkelte personer</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCF">Det Konservative Folkeparti</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCF">Hans Engell </dc:subject>
+    <dc:subject xsi:type="oss:sort">Engell, Hans</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCO">erindringer</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCF">historie</dc:subject>
+    <dc:subject xsi:type="dkdcplus:genre">nonfiktion</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCF">politik</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCF">politikere</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCF">politiske forhold</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCF">politiske partier</dc:subject>
+    <dcterms:abstract>Forfatteren (f. 1948) giver en personlig og dramatisk skildring af dansk politik i perioden 1993-2001, primært præget af Tamil-sagen, magtkampe i Det konservative Folkeparti og ikke mindst mødet med betonklodsen på Helsingørmotorvejen i 1996 og uheldets fatale følger</dcterms:abstract>
+    <dc:description xsi:type="dkdcplus:series">2. del af: På Slotsholmen</dc:description>
+    <dcterms:audience>voksenmaterialer</dcterms:audience>
+    <dkdcplus:version>1. udgave, 2. oplag</dkdcplus:version>
+    <dc:publisher>Gyldendal</dc:publisher>
+    <dc:date>2008</dc:date>
+    <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+    <dc:format>illustreret</dc:format>
+    <dcterms:extent>412 sider</dcterms:extent>
+    <dc:identifier xsi:type="dkdcplus:ISBN">9788702071177</dc:identifier>
+    <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+    <dc:language>Dansk</dc:language>
+    <dcterms:spatial xsi:type="dkdcplus:DBCF">Danmark</dcterms:spatial>
+    <dcterms:temporal xsi:type="dkdcplus:DBCP">1990-1999</dcterms:temporal>
+  </dkabm:record>
+  <marcx:collection>
+    <marcx:record format="danMARC2" type="Bibliographic">
+      <marcx:leader>000000000000000000000000</marcx:leader>
+      <marcx:datafield tag="001" ind1="0" ind2="0">
+        <marcx:subfield code="a">27502148</marcx:subfield>
+        <marcx:subfield code="b">870970</marcx:subfield>
+        <marcx:subfield code="c">20111203170618</marcx:subfield>
+        <marcx:subfield code="d">20081111</marcx:subfield>
+        <marcx:subfield code="f">a</marcx:subfield>
+        <marcx:subfield code="t">FAUST</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="004" ind1="0" ind2="0">
+        <marcx:subfield code="r">n</marcx:subfield>
+        <marcx:subfield code="a">e</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="008" ind1="0" ind2="0">
+        <marcx:subfield code="t">m</marcx:subfield>
+        <marcx:subfield code="u">r</marcx:subfield>
+        <marcx:subfield code="a">2008</marcx:subfield>
+        <marcx:subfield code="z">2008</marcx:subfield>
+        <marcx:subfield code="b">dk</marcx:subfield>
+        <marcx:subfield code="k">a</marcx:subfield>
+        <marcx:subfield code="l">dan</marcx:subfield>
+        <marcx:subfield code="x">06</marcx:subfield>
+        <marcx:subfield code="v">0</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="009" ind1="0" ind2="0">
+        <marcx:subfield code="a">a</marcx:subfield>
+        <marcx:subfield code="g">xx</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="021" ind1="0" ind2="0">
+        <marcx:subfield code="e">9788702071177</marcx:subfield>
+        <marcx:subfield code="c">hf.</marcx:subfield>
+        <marcx:subfield code="d">kr. 299,00</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="032" ind1="0" ind2="0">
+        <marcx:subfield code="a">DBF200849</marcx:subfield>
+        <marcx:subfield code="x">BKM200849</marcx:subfield>
+        <marcx:subfield code="x">BKX200848</marcx:subfield>
+        <marcx:subfield code="x">DAT200904</marcx:subfield>
+        <marcx:subfield code="x">DAT991149</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="100" ind1="0" ind2="0">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Engell</marcx:subfield>
+        <marcx:subfield code="h">Hans</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="245" ind1="0" ind2="0">
+        <marcx:subfield code="a">Farvel til Slotsholmen</marcx:subfield>
+        <marcx:subfield code="e">Hans Engell</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="250" ind1="0" ind2="0">
+        <marcx:subfield code="a">1. udgave</marcx:subfield>
+        <marcx:subfield code="b">÷</marcx:subfield>
+        <marcx:subfield code="x">2. oplag</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="260" ind1="0" ind2="0">
+        <marcx:subfield code="a">[Kbh.]</marcx:subfield>
+        <marcx:subfield code="b">Gyldendal</marcx:subfield>
+        <marcx:subfield code="k">Narayana Press, Gylling</marcx:subfield>
+        <marcx:subfield code="c">2008</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="300" ind1="0" ind2="0">
+        <marcx:subfield code="a">412 sider</marcx:subfield>
+        <marcx:subfield code="b">ill.</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="504" ind1="0" ind2="0">
+        <marcx:subfield code="a">Forfatteren (f. 1948) giver en personlig og dramatisk skildring af dansk politik i perioden 1993-2001, primært præget af Tamil-sagen, magtkampe i Det konservative Folkeparti og ikke mindst mødet med betonklodsen på Helsingørmotorvejen i 1996 og uheldets fatale følger</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="521" ind1="0" ind2="0">
+        <marcx:subfield code="a">1. oplag</marcx:subfield>
+        <marcx:subfield code="c">2008</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="521" ind1="0" ind2="0">
+        <marcx:subfield code="b">2. oplag</marcx:subfield>
+        <marcx:subfield code="c">2008</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="526" ind1="0" ind2="0">
+        <marcx:subfield code="i">2. del af</marcx:subfield>
+        <marcx:subfield code="t">På Slotsholmen</marcx:subfield>
+        <marcx:subfield code="b">. Seriens indhold se denne</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="600" ind1="0" ind2="0">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Engell</marcx:subfield>
+        <marcx:subfield code="h">Hans</marcx:subfield>
+        <marcx:subfield code="2">DBC</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="610" ind1="0" ind2="0">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Det ¤Konservative Folkeparti</marcx:subfield>
+        <marcx:subfield code="2">DBC</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="652" ind1="0" ind2="0">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="m">99.4</marcx:subfield>
+        <marcx:subfield code="a">Engell</marcx:subfield>
+        <marcx:subfield code="h">Hans</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="652" ind1="0" ind2="0">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="p">32.269</marcx:subfield>
+        <marcx:subfield code="a">Det ¤Konservative Folkeparti</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="652" ind1="0" ind2="0">
+        <marcx:subfield code="p">96.72</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="666" ind1="0" ind2="0">
+        <marcx:subfield code="f">politiske partier</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="666" ind1="0" ind2="0">
+        <marcx:subfield code="f">politikere</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="666" ind1="0" ind2="0">
+        <marcx:subfield code="f">politiske forhold</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="666" ind1="0" ind2="0">
+        <marcx:subfield code="i">1990-1999</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="666" ind1="0" ind2="0">
+        <marcx:subfield code="f">politik</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="666" ind1="0" ind2="0">
+        <marcx:subfield code="f">historie</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="666" ind1="0" ind2="0">
+        <marcx:subfield code="e">Danmark</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="666" ind1="0" ind2="0">
+        <marcx:subfield code="o">erindringer</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="s10" ind1="0" ind2="0">
+        <marcx:subfield code="a">DBC</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="990" ind1="0" ind2="0">
+        <marcx:subfield code="o">200849</marcx:subfield>
+        <marcx:subfield code="b">l</marcx:subfield>
+        <marcx:subfield code="b">v</marcx:subfield>
+        <marcx:subfield code="c">a</marcx:subfield>
+        <marcx:subfield code="u">nt</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="991" ind1="0" ind2="0">
+        <marcx:subfield code="o">Ekspres 200848</marcx:subfield>
+      </marcx:datafield>
+    </marcx:record>
+  </marcx:collection>
+  <oss:openurl>_BASEURL_url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:book&amp;rft.btitle=Farvel+til+Slotsholmen&amp;rft.aulast=Engell&amp;rft.aufirst=Hans&amp;rft.auinit=H&amp;rft.date=2008&amp;rft.isbn=9788702071177&amp;rft.pub=Gyldendal&amp;rft.edition=1.+udgave,+2.+oplag&amp;rft.genre=book</oss:openurl>
+            <os:identifier>870970-basis:27502148</os:identifier>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
