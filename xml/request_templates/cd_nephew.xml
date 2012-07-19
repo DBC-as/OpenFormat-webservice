@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>25294424|870970</ac:identifier>
+              <ac:source>NJE</ac:source>
+              <dc:title>USADSB</dc:title>
+              <dc:title xsi:type="dkdcplus:full">USADSB</dc:title>
+              <dc:creator>Nephew</dc:creator>
+              <dc:creator xsi:type="oss:sort">Nephew</dc:creator>
+              <dc:subject xsi:type="dkdcplus:DK5">78.794:5</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Rock (Beat). Moderne folkemusik (Folk)</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCM">rock</dc:subject>
+              <dc:subject xsi:type="dkdcplus:genre">rock</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCM">vokal</dc:subject>
+              <dc:description>Indspillet i Århus</dc:description>
+              <dcterms:audience>børnematerialer</dcterms:audience>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dc:publisher>Copenhagen</dc:publisher>
+              <dc:contributor>Søren Arnholt</dc:contributor>
+              <dc:contributor>Tore Dencker</dc:contributor>
+              <dc:contributor>Hans Christian Ilskov Erbs</dc:contributor>
+              <dc:contributor>Simon Kvamm</dc:contributor>
+              <dc:contributor>Kristian Riis</dc:contributor>
+              <dc:contributor>Henriette Sennenvaldt</dc:contributor>
+              <dc:contributor>René Munk Thalund</dc:contributor>
+              <dc:contributor>Kasper Toustrup</dc:contributor>
+              <dc:date>2004</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Cd (musik)</dc:type>
+              <dc:format>1 cd</dc:format>
+              <dc:identifier>Copenhagen CPHREC 0004</dc:identifier>
+              <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+              <dc:language>Dansk</dc:language>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Movie klip</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Superliga</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Blå &amp; black</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Milk &amp; wine</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Dårlig træning</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">En wannabe Darth Vader</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Worst/best case scenario</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Ordenspoliti</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">USA DSB</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Bazooka</dcterms:hasPart>
+              <dcterms:spatial xsi:type="dkdcplus:DBCM">Danmark</dcterms:spatial>
+              <dcterms:temporal xsi:type="dkdcplus:DBCM">2000-2009</dcterms:temporal>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>000000000000000000000000</marcx:leader>
+                <marcx:datafield tag="001" ind1="0" ind2="0">
+                  <marcx:subfield code="a">25294424</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20110329135312</marcx:subfield>
+                  <marcx:subfield code="d">20040628</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                  <marcx:subfield code="t">FAUST</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="004" ind1="0" ind2="0">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="008" ind1="0" ind2="0">
+                  <marcx:subfield code="t">s</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">2004</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="l">dan</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="009" ind1="0" ind2="0">
+                  <marcx:subfield code="a">s</marcx:subfield>
+                  <marcx:subfield code="g">xc</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="020" ind1="0" ind2="0">
+                  <marcx:subfield code="a">dk</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="021" ind1="0" ind2="0">
+                  <marcx:subfield code="d">kr. 159,00</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="023" ind1="0" ind2="0">
+                  <marcx:subfield code="a">5700771100040</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="032" ind1="0" ind2="0">
+                  <marcx:subfield code="a">DMO200428</marcx:subfield>
+                  <marcx:subfield code="x">SFG200428</marcx:subfield>
+                  <marcx:subfield code="x">DAT201114</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="039" ind1="0" ind2="0">
+                  <marcx:subfield code="a">bef</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="110" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Nephew</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="245" ind1="0" ind2="0">
+                  <marcx:subfield code="a">USADSB</marcx:subfield>
+                  <marcx:subfield code="i">musik: Nephew</marcx:subfield>
+                  <marcx:subfield code="i">ord: Simon Kvamm</marcx:subfield>
+                  <marcx:subfield code="j">Nephew (Simon Kvamm, Kristian Riis, Kasper Toustrup, Søren Arnholt) ... [et al.]</marcx:subfield>
+                  <marcx:subfield code="i">Nephew (Simon Kvamm, vokal, tangenter ; Kristian Riis, guitar, kor ; Kasper Toustrup, bas, kor ; Søren Arnholt, trommer, kor)</marcx:subfield>
+                  <marcx:subfield code="i">produktion, mix: Carsten Heller</marcx:subfield>
+                  <marcx:subfield code="i">teknik: Carsten Nielsen</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="260" ind1="0" ind2="0">
+                  <marcx:subfield code="a">[S.l.]</marcx:subfield>
+                  <marcx:subfield code="b">Copenhagen</marcx:subfield>
+                  <marcx:subfield code="c">p 2004</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="300" ind1="0" ind2="0">
+                  <marcx:subfield code="n">1 cd</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="512" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Indspillet i Århus</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="531" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Indhold:</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="538" ind1="0" ind2="0">
+                  <marcx:subfield code="f">Copenhagen</marcx:subfield>
+                  <marcx:subfield code="g">CPHREC 0004</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="652" ind1="0" ind2="0">
+                  <marcx:subfield code="m">78.794</marcx:subfield>
+                  <marcx:subfield code="v">5</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="m">rock</marcx:subfield>
+                  <marcx:subfield code="n">vokal</marcx:subfield>
+                  <marcx:subfield code="p">2000-2009</marcx:subfield>
+                  <marcx:subfield code="l">Danmark</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Arnholt</marcx:subfield>
+                  <marcx:subfield code="h">Søren</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="å">22</marcx:subfield>
+                  <marcx:subfield code="a">Dencker</marcx:subfield>
+                  <marcx:subfield code="h">Tore</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="å">4</marcx:subfield>
+                  <marcx:subfield code="a">Erbs</marcx:subfield>
+                  <marcx:subfield code="h">Hans Christian Ilskov</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Kvamm</marcx:subfield>
+                  <marcx:subfield code="h">Simon</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Riis</marcx:subfield>
+                  <marcx:subfield code="h">Kristian</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Sennenvaldt</marcx:subfield>
+                  <marcx:subfield code="h">Henriette</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="å">1</marcx:subfield>
+                  <marcx:subfield code="a">Thalund</marcx:subfield>
+                  <marcx:subfield code="h">René Munk</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Toustrup</marcx:subfield>
+                  <marcx:subfield code="h">Kasper</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">11</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Movie klip</marcx:subfield>
+                  <marcx:subfield code="a">Superliga</marcx:subfield>
+                  <marcx:subfield code="a">Blå &amp; black</marcx:subfield>
+                  <marcx:subfield code="i">Henriette Sennenvaldt, supplerende vokal</marcx:subfield>
+                  <marcx:subfield code="a">Milk &amp; wine</marcx:subfield>
+                  <marcx:subfield code="a">Dårlig træning</marcx:subfield>
+                  <marcx:subfield code="i">Stefan Kvamm, violin</marcx:subfield>
+                  <marcx:subfield code="a">En ¤wannabe Darth Vader</marcx:subfield>
+                  <marcx:subfield code="a">Worst/best case scenario</marcx:subfield>
+                  <marcx:subfield code="i">René Munk Thalund, supplerende tangenter</marcx:subfield>
+                  <marcx:subfield code="a">Ordenspoliti</marcx:subfield>
+                  <marcx:subfield code="i">Tore Hougꜳrd Dencker, basun</marcx:subfield>
+                  <marcx:subfield code="i">Hans Christian Erbs, trompet</marcx:subfield>
+                  <marcx:subfield code="a">USA DSB</marcx:subfield>
+                  <marcx:subfield code="a">Bazooka</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="900" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Hougꜳrd Dencker</marcx:subfield>
+                  <marcx:subfield code="h">Tore</marcx:subfield>
+                  <marcx:subfield code="x">se</marcx:subfield>
+                  <marcx:subfield code="w">Dencker, Tore</marcx:subfield>
+                  <marcx:subfield code="z">700/22</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="900" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Dencker</marcx:subfield>
+                  <marcx:subfield code="h">Tore Hougꜳrd</marcx:subfield>
+                  <marcx:subfield code="x">se</marcx:subfield>
+                  <marcx:subfield code="w">Dencker, Tore</marcx:subfield>
+                  <marcx:subfield code="z">700/22</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="900" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Munk Thalund</marcx:subfield>
+                  <marcx:subfield code="h">René</marcx:subfield>
+                  <marcx:subfield code="x">se</marcx:subfield>
+                  <marcx:subfield code="w">Thalund, René Munk</marcx:subfield>
+                  <marcx:subfield code="z">700/1</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="900" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Erbs</marcx:subfield>
+                  <marcx:subfield code="h">Hans Christian</marcx:subfield>
+                  <marcx:subfield code="x">se</marcx:subfield>
+                  <marcx:subfield code="w">Erbs, Hans Christian Ilskov</marcx:subfield>
+                  <marcx:subfield code="z">700/4</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="900" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Ilskov Erbs</marcx:subfield>
+                  <marcx:subfield code="h">Hans Christian</marcx:subfield>
+                  <marcx:subfield code="x">se</marcx:subfield>
+                  <marcx:subfield code="w">Erbs, Hans Christian Ilskov</marcx:subfield>
+                  <marcx:subfield code="z">700/4</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="s10" ind1="0" ind2="0">
+                  <marcx:subfield code="a">DBC</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="990" ind1="0" ind2="0">
+                  <marcx:subfield code="a">SFG</marcx:subfield>
+                  <marcx:subfield code="o">200428</marcx:subfield>
+                  <marcx:subfield code="b">B</marcx:subfield>
+                  <marcx:subfield code="c">C</marcx:subfield>
+                  <marcx:subfield code="t">30.07.04</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="991" ind1="0" ind2="0">
+                  <marcx:subfield code="o">\(Diskodiagnoser 200428)\</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <oss:openurl/>
+<os:identifier>870970-basis:25294424</os:identifier>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
