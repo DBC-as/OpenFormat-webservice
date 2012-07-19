@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>28608241|870970</ac:identifier>
+              <ac:source>undefined</ac:source>
+              <dc:title>20!</dc:title>
+              <dc:title xsi:type="dkdcplus:full">20!</dc:title>
+              <dc:subject xsi:type="dkdcplus:DK5">78.411</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Orkestermusik uden soloinstrumenter</dc:subject>
+              <dc:description>Udgivet i anledning af Concerto Copenhagens 20-års jubilæum</dc:description>
+              <dc:description>Live-optagelser, Holmens Kirke, Det kongelige Teater, og Garnisons Kirke, København samt Kunsten, Ålborg 1990-2010 og indspillet 1994-2002</dc:description>
+              <dc:description>Interviews Karin Fich</dc:description>
+              <dc:description>Gratis cd. Tilgængelig via download fra DR's hjemmeside</dc:description>
+              <dc:description>Med interviews</dc:description>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dc:publisher>Concerto Copenhagen</dc:publisher>
+              <dc:publisher>DR</dc:publisher>
+              <dc:contributor>Alfredo Bernardini</dc:contributor>
+              <dc:contributor>Karin Fich</dc:contributor>
+              <dc:contributor>Reinhard Goebel</dc:contributor>
+              <dc:contributor>Lars Henriksson</dc:contributor>
+              <dc:contributor>Andrew Lawrence-King</dc:contributor>
+              <dc:contributor>Nikolaj de Fine Licht</dc:contributor>
+              <dc:contributor>Jaap van ter Linden</dc:contributor>
+              <dc:contributor>Andrew Manze</dc:contributor>
+              <dc:contributor>Lars Ulrik Mortensen (f. 1955)</dc:contributor>
+              <dc:contributor>Tuva Semmingsen</dc:contributor>
+              <dc:contributor>Georg Philipp Telemann</dc:contributor>
+              <dc:contributor>Johann Adolph Scheibe</dc:contributor>
+              <dc:contributor>Georg Friedrich Händel</dc:contributor>
+              <dc:contributor>Jean-Philippe Rameau</dc:contributor>
+              <dc:contributor>Georg Friedrich Händel</dc:contributor>
+              <dc:contributor>Johann Sebastian Bach</dc:contributor>
+              <dc:contributor>Jean-Philippe Rameau</dc:contributor>
+              <dc:contributor>Georg Friedrich Händel</dc:contributor>
+              <dc:contributor>Anonym</dc:contributor>
+              <dc:contributor>Antonio Vivaldi</dc:contributor>
+              <dc:contributor>Georg Philipp Telemann</dc:contributor>
+              <dc:contributor>Anonym</dc:contributor>
+              <dc:contributor>Concerto Copenhagen</dc:contributor>
+              <dc:date>2011</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Cd (musik)</dc:type>
+              <dc:format>1 cd, 1 kommentarbilag</dc:format>
+              <dc:identifier>DR Concerto Copenhagen CoCo 20-1</dc:identifier>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Koncert for 3 trompeter, 2 oboer, pauker, strygere og continuo, D-dur, TWV 54:D3 (Kross BD 1) (1. sats : Intrada)</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Sinfonia à 4, B-dur (2. sats : Andante)</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Xerxes (Ouverture)</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Les boréades (Ouverture (Allegro))</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Julius Cæsar</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Koncert for cembalo, strygere og continuo nr. 2, E-dur, BWV 1053 (2. sats : Siciliano)</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Hippolyte og Aricie (Ouverture)</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Water music, HWV 348-350 (Suite nr. 1, F-dur (Allegro))</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">The Spanish gypsies</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">La senna festeggiante, RV 693 (Sinfonia (Allegro))</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Ouverturesuite, G-dur, TWV 55:G10</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Sinfonia, D-dur (1. sats : Allegro)</dcterms:hasPart>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>000000000000000000000000</marcx:leader>
+                <marcx:datafield tag="001" ind1="0" ind2="0">
+                  <marcx:subfield code="a">28608241</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20110209113541</marcx:subfield>
+                  <marcx:subfield code="d">20110118</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                  <marcx:subfield code="t">FAUST</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="004" ind1="0" ind2="0">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="006" ind1="0" ind2="0">
+                  <marcx:subfield code="a">20110112</marcx:subfield>
+                  <marcx:subfield code="c">20110512</marcx:subfield>
+                  <marcx:subfield code="2">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="008" ind1="0" ind2="0">
+                  <marcx:subfield code="t">s</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">2011</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="009" ind1="0" ind2="0">
+                  <marcx:subfield code="a">s</marcx:subfield>
+                  <marcx:subfield code="b">r</marcx:subfield>
+                  <marcx:subfield code="g">xc</marcx:subfield>
+                  <marcx:subfield code="b">a</marcx:subfield>
+                  <marcx:subfield code="h">xx</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="032" ind1="0" ind2="0">
+                  <marcx:subfield code="a">DMO201108</marcx:subfield>
+                  <marcx:subfield code="a">DLF201108</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="039" ind1="0" ind2="0">
+                  <marcx:subfield code="a">ora</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="245" ind1="0" ind2="0">
+                  <marcx:subfield code="a">20!</marcx:subfield>
+                  <marcx:subfield code="e">Concerto Copenhagen</marcx:subfield>
+                  <marcx:subfield code="e">redaktion: Karin Fich, Nikolaj de Fine Licht og Lars Henriksson</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="260" ind1="0" ind2="0">
+                  <marcx:subfield code="b">Concerto Copenhagen</marcx:subfield>
+                  <marcx:subfield code="b">DR</marcx:subfield>
+                  <marcx:subfield code="c">[2011], p 2010</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="300" ind1="0" ind2="0">
+                  <marcx:subfield code="n">1 cd</marcx:subfield>
+                  <marcx:subfield code="d">1 kommentarbilag</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="507" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Udgivet i anledning af Concerto Copenhagens 20-års jubilæum</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="512" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Live-optagelser, Holmens Kirke, Det kongelige Teater, og Garnisons Kirke, København samt Kunsten, Ålborg 1990-2010 og indspillet 1994-2002</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="512" ind1="0" ind2="0">
+                  <marcx:subfield code="i">Interviews</marcx:subfield>
+                  <marcx:subfield code="e">Karin Fich</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="512" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Gratis cd. Tilgængelig via download fra DR's hjemmeside</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="531" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Indhold (musik):</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="534" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Med interviews</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="538" ind1="0" ind2="0">
+                  <marcx:subfield code="f">DR</marcx:subfield>
+                  <marcx:subfield code="f">Concerto Copenhagen</marcx:subfield>
+                  <marcx:subfield code="g">CoCo 20-1</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="652" ind1="0" ind2="0">
+                  <marcx:subfield code="m">78.411</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="652" ind1="0" ind2="0">
+                  <marcx:subfield code="å">11</marcx:subfield>
+                  <marcx:subfield code="i">78.412</marcx:subfield>
+                  <marcx:subfield code="v">1</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="652" ind1="0" ind2="0">
+                  <marcx:subfield code="å">12</marcx:subfield>
+                  <marcx:subfield code="i">78.411</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="652" ind1="0" ind2="0">
+                  <marcx:subfield code="å">13</marcx:subfield>
+                  <marcx:subfield code="i">78.411</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="652" ind1="0" ind2="0">
+                  <marcx:subfield code="å">14</marcx:subfield>
+                  <marcx:subfield code="i">78.411</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="652" ind1="0" ind2="0">
+                  <marcx:subfield code="å">15</marcx:subfield>
+                  <marcx:subfield code="i">78.81</marcx:subfield>
+                  <marcx:subfield code="v">2</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="652" ind1="0" ind2="0">
+                  <marcx:subfield code="å">16</marcx:subfield>
+                  <marcx:subfield code="i">78.412</marcx:subfield>
+                  <marcx:subfield code="v">33</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="652" ind1="0" ind2="0">
+                  <marcx:subfield code="å">17</marcx:subfield>
+                  <marcx:subfield code="i">78.411</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="652" ind1="0" ind2="0">
+                  <marcx:subfield code="å">18</marcx:subfield>
+                  <marcx:subfield code="i">78.411</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="652" ind1="0" ind2="0">
+                  <marcx:subfield code="å">19</marcx:subfield>
+                  <marcx:subfield code="i">78.411</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="652" ind1="0" ind2="0">
+                  <marcx:subfield code="å">20</marcx:subfield>
+                  <marcx:subfield code="i">78.411</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="652" ind1="0" ind2="0">
+                  <marcx:subfield code="å">21</marcx:subfield>
+                  <marcx:subfield code="i">78.411</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="652" ind1="0" ind2="0">
+                  <marcx:subfield code="å">22</marcx:subfield>
+                  <marcx:subfield code="i">78.411</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Bernardini</marcx:subfield>
+                  <marcx:subfield code="h">Alfredo</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Fich</marcx:subfield>
+                  <marcx:subfield code="h">Karin</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Goebel</marcx:subfield>
+                  <marcx:subfield code="h">Reinhard</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Henriksson</marcx:subfield>
+                  <marcx:subfield code="h">Lars</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="å">1</marcx:subfield>
+                  <marcx:subfield code="a">Lawrence-King</marcx:subfield>
+                  <marcx:subfield code="h">Andrew</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="å">2</marcx:subfield>
+                  <marcx:subfield code="a">Licht</marcx:subfield>
+                  <marcx:subfield code="h">Nikolaj de Fine</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Linden</marcx:subfield>
+                  <marcx:subfield code="h">Jaap van ter</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Manze</marcx:subfield>
+                  <marcx:subfield code="h">Andrew</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Mortensen</marcx:subfield>
+                  <marcx:subfield code="h">Lars Ulrik</marcx:subfield>
+                  <marcx:subfield code="c">f. 1955</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Semmingsen</marcx:subfield>
+                  <marcx:subfield code="h">Tuva</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="710" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Concerto Copenhagen</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="770" ind1="0" ind2="0">
+                  <marcx:subfield code="å">11</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Telemann</marcx:subfield>
+                  <marcx:subfield code="h">Georg Philipp</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="770" ind1="0" ind2="0">
+                  <marcx:subfield code="å">12</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Scheibe</marcx:subfield>
+                  <marcx:subfield code="h">Johann Adolph</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="770" ind1="0" ind2="0">
+                  <marcx:subfield code="å">13</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Händel</marcx:subfield>
+                  <marcx:subfield code="h">Georg Friedrich</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="770" ind1="0" ind2="0">
+                  <marcx:subfield code="å">14</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Rameau</marcx:subfield>
+                  <marcx:subfield code="h">Jean-Philippe</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="770" ind1="0" ind2="0">
+                  <marcx:subfield code="å">15</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Händel</marcx:subfield>
+                  <marcx:subfield code="h">Georg Friedrich</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="770" ind1="0" ind2="0">
+                  <marcx:subfield code="å">16</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Bach</marcx:subfield>
+                  <marcx:subfield code="h">Johann Sebastian</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="770" ind1="0" ind2="0">
+                  <marcx:subfield code="å">17</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Rameau</marcx:subfield>
+                  <marcx:subfield code="h">Jean-Philippe</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="770" ind1="0" ind2="0">
+                  <marcx:subfield code="å">18</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Händel</marcx:subfield>
+                  <marcx:subfield code="h">Georg Friedrich</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="770" ind1="0" ind2="0">
+                  <marcx:subfield code="å">19</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Anonym</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="770" ind1="0" ind2="0">
+                  <marcx:subfield code="å">20</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Vivaldi</marcx:subfield>
+                  <marcx:subfield code="h">Antonio</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="770" ind1="0" ind2="0">
+                  <marcx:subfield code="å">21</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Telemann</marcx:subfield>
+                  <marcx:subfield code="h">Georg Philipp</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="770" ind1="0" ind2="0">
+                  <marcx:subfield code="å">22</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Anonym</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">11</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Koncert for 3 trompeter, 2 oboer, pauker, strygere og continuo, D-dur, TWV 54:D3 (Kross BD 1) (1. sats : Intrada)</marcx:subfield>
+                  <marcx:subfield code="e">dirigent: Jaap ter Linden</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">12</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Sinfonia à 4, B-dur (2. sats : Andante)</marcx:subfield>
+                  <marcx:subfield code="e">dirigent: Andrew Manze</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">13</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Xerxes (Ouverture)</marcx:subfield>
+                  <marcx:subfield code="e">dirigent: Reinhard Goebel</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">14</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Les ¤boréades (Ouverture (Allegro))</marcx:subfield>
+                  <marcx:subfield code="e">dirigent: Andrew Manze</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">15</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Julius Cæsar</marcx:subfield>
+                  <marcx:subfield code="7"> (</marcx:subfield>
+                  <marcx:subfield code="v">Svegliatevi nel core</marcx:subfield>
+                  <marcx:subfield code="7">) / </marcx:subfield>
+                  <marcx:subfield code="e">Tuva Semmingsen, mezzosopran</marcx:subfield>
+                  <marcx:subfield code="e">dirigent: Lars Ulrik Mortensen</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">16</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Koncert for cembalo, strygere og continuo nr. 2, E-dur, BWV 1053 (2. sats : Siciliano)</marcx:subfield>
+                  <marcx:subfield code="e">Lars Ulrik Mortensen, cembalo</marcx:subfield>
+                  <marcx:subfield code="e">dirigent: Lars Ulrik Mortensen</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">17</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Hippolyte og Aricie (Ouverture)</marcx:subfield>
+                  <marcx:subfield code="e">dirigent: Lars Ulrik Mortensen</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">18</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Water music, HWV 348-350 (Suite nr. 1, F-dur (Allegro))</marcx:subfield>
+                  <marcx:subfield code="e">dirigent: Lars Ulrik Mortensen</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">19</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">The ¤Spanish gypsies</marcx:subfield>
+                  <marcx:subfield code="e">dirigent: Andrew Lawrence-King</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">20</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">La ¤senna festeggiante, RV 693 (Sinfonia (Allegro))</marcx:subfield>
+                  <marcx:subfield code="e">dirigent: Alfredo Bernardini</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">21</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Ouverturesuite, G-dur, TWV 55:G10</marcx:subfield>
+                  <marcx:subfield code="7"> (</marcx:subfield>
+                  <marcx:subfield code="v">Le ¤reveil de Quichotte</marcx:subfield>
+                  <marcx:subfield code="v">Son attaque des moulins à vent</marcx:subfield>
+                  <marcx:subfield code="7">) : </marcx:subfield>
+                  <marcx:subfield code="u">Don Quixote-suite</marcx:subfield>
+                  <marcx:subfield code="e">dirigent: Lars Ulrik Mortensen</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">22</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Sinfonia, D-dur (1. sats : Allegro)</marcx:subfield>
+                  <marcx:subfield code="e">anonym (Sigr G), af Gieddes samling, KB, X, ii</marcx:subfield>
+                  <marcx:subfield code="e">dirigent: Lars Ulrik Mortensen</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="900" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">King</marcx:subfield>
+                  <marcx:subfield code="h">Andrew Lawrence-</marcx:subfield>
+                  <marcx:subfield code="x">se</marcx:subfield>
+                  <marcx:subfield code="w">Lawrence-King, Andrew</marcx:subfield>
+                  <marcx:subfield code="z">700/1</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="900" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Fine Licht</marcx:subfield>
+                  <marcx:subfield code="h">Nikolaj de</marcx:subfield>
+                  <marcx:subfield code="x">se</marcx:subfield>
+                  <marcx:subfield code="w">Licht, Nikolaj de Fine</marcx:subfield>
+                  <marcx:subfield code="z">700/2</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="s10" ind1="0" ind2="0">
+                  <marcx:subfield code="a">DBC</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+<os:identifier>870970-basis:28608241</os:identifier>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

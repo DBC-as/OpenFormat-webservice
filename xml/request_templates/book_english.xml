@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:language>eng</ns1:language>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>45048780|870970</ac:identifier>
+              <ac:source>Bibliotekets materialer</ac:source>
+              <dc:title>Crusade</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Crusade</dc:title>
+              <dc:creator xsi:type="dkdcplus:aut">Robyn Young</dc:creator>
+              <dc:creator xsi:type="oss:sort">Young, Robyn</dc:creator>
+              <dc:subject xsi:type="dkdcplus:DK5">83</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Engelsk skønlitteratur</dc:subject>
+              <dc:subject xsi:type="dkdcplus:genre">fiktion</dc:subject>
+              <dcterms:abstract>Historisk roman. Skildring af tempelridderen Will Campbells oplevelser i Det Hellige Land i tiden fra 1276 til Acre's fald i 1291. Han indtager nu en høj position og er samtidig medlem af et hemmeligt broderskab indenfor ordenen, som er viet til at forlige de forskellige trosretninger. Mange stærke politiske og økonomiske kræfter er imidlertid mere interesserede i at genoplive fjendtlighederne</dcterms:abstract>
+              <dc:description xsi:type="dkdcplus:series">2. del af serien: Brethren</dc:description>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dkdcplus:version>Paperback edition</dkdcplus:version>
+              <dc:publisher>Hodder</dc:publisher>
+              <dc:date>2008</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+              <dcterms:extent>702 sider</dcterms:extent>
+              <dc:identifier xsi:type="dkdcplus:ISBN">9780340839744</dc:identifier>
+              <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+              <dc:language>Engelsk</dc:language>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>000000000000000000000000</marcx:leader>
+                <marcx:datafield tag="001" ind1="0" ind2="0">
+                  <marcx:subfield code="a">45048780</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20110512135539</marcx:subfield>
+                  <marcx:subfield code="d">20110414</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                  <marcx:subfield code="t">FAUST</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="002" ind1="0" ind2="0">
+                  <marcx:subfield code="b">710100</marcx:subfield>
+                  <marcx:subfield code="c">9 306 015 6</marcx:subfield>
+                  <marcx:subfield code="x">71010093060156</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="004" ind1="0" ind2="0">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="008" ind1="0" ind2="0">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="u">u</marcx:subfield>
+                  <marcx:subfield code="a">2008</marcx:subfield>
+                  <marcx:subfield code="b">gb</marcx:subfield>
+                  <marcx:subfield code="d">x</marcx:subfield>
+                  <marcx:subfield code="j">f</marcx:subfield>
+                  <marcx:subfield code="l">eng</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="009" ind1="0" ind2="0">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xx</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="021" ind1="0" ind2="0">
+                  <marcx:subfield code="e">9780340839744</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="100" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Young</marcx:subfield>
+                  <marcx:subfield code="h">Robyn</marcx:subfield>
+                  <marcx:subfield code="4">aut</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="245" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Crusade</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="250" ind1="0" ind2="0">
+                  <marcx:subfield code="a">[Paperback edition]</marcx:subfield>
+                  <marcx:subfield code="b">Hodder, Pbk. edition 2008</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="260" ind1="0" ind2="0">
+                  <marcx:subfield code="a">London</marcx:subfield>
+                  <marcx:subfield code="b">Hodder</marcx:subfield>
+                  <marcx:subfield code="c">2008</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="300" ind1="0" ind2="0">
+                  <marcx:subfield code="a">702 sider</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="504" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Historisk roman. Skildring af tempelridderen Will Campbells oplevelser i Det Hellige Land i tiden fra 1276 til Acre's fald i 1291. Han indtager nu en høj position og er samtidig medlem af et hemmeligt broderskab indenfor ordenen, som er viet til at forlige de forskellige trosretninger. Mange stærke politiske og økonomiske kræfter er imidlertid mere interesserede i at genoplive fjendtlighederne</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="520" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Originaludgave: 2007</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="526" ind1="0" ind2="0">
+                  <marcx:subfield code="i">2. del af serien</marcx:subfield>
+                  <marcx:subfield code="t">Brethren</marcx:subfield>
+                  <marcx:subfield code="b">Seriens indhold se denne</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="652" ind1="0" ind2="0">
+                  <marcx:subfield code="m">83</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="s10" ind1="0" ind2="0">
+                  <marcx:subfield code="a">710100</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+<os:identifier>870970-basis:45048780</os:identifier>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

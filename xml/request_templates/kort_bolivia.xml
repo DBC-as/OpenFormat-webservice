@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>45056171|870970</ac:identifier>
+              <ac:source>undefined</ac:source>
+              <dc:title>Bolivia, Paraguay</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Bolivia, Paraguay</dc:title>
+              <dc:title xsi:type="dkdcplus:series">Nelles map</dc:title>
+              <dc:subject xsi:type="dkdcplus:DK5">40.1884</dc:subject>
+              <dc:subject xsi:type="dkdcplus:genre">nonfiktion</dc:subject>
+              <dc:description>På omslaget: Special maps: Cusco/Machu Picchu, Iguacu, Tiahuanaco, Cusco, La Paz, Santa Cruz, Potosi, Central Asunción, Sucre</dc:description>
+              <dc:description>På omslaget: Physical rilief mapping, Places of interest</dc:description>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dkdcplus:version>Edition 2011</dkdcplus:version>
+              <dc:publisher>Nelles</dc:publisher>
+              <dc:date>2011</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Kort</dc:type>
+              <dc:format>i farver</dc:format>
+              <dcterms:extent>1 falset kort</dcterms:extent>
+              <dc:identifier xsi:type="dkdcplus:ISBN">9783865742056</dc:identifier>
+              <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+              <dc:language>Engelsk</dc:language>
+              <dcterms:spatial xsi:type="dkdcplus:DBCF">Bolivia</dcterms:spatial>
+              <dcterms:spatial xsi:type="dkdcplus:DBCF">Paraguay</dcterms:spatial>
+              <dcterms:spatial xsi:type="dkdcplus:DBCF">kort</dcterms:spatial>
+              <dcterms:spatial xsi:type="dkdcplus:DBCF">vejatlas</dcterms:spatial>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>000000000000000000000000</marcx:leader>
+                <marcx:datafield tag="001" ind1="0" ind2="0">
+                  <marcx:subfield code="a">45056171</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20110526170209</marcx:subfield>
+                  <marcx:subfield code="d">20110526</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                  <marcx:subfield code="t">FAUST</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="002" ind1="0" ind2="0">
+                  <marcx:subfield code="b">731600</marcx:subfield>
+                  <marcx:subfield code="c">9 033 022 5</marcx:subfield>
+                  <marcx:subfield code="x">73160090330225</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="004" ind1="0" ind2="0">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="008" ind1="0" ind2="0">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="a">2011</marcx:subfield>
+                  <marcx:subfield code="u">u</marcx:subfield>
+                  <marcx:subfield code="b">de</marcx:subfield>
+                  <marcx:subfield code="l">eng</marcx:subfield>
+                  <marcx:subfield code="d">y</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="009" ind1="0" ind2="0">
+                  <marcx:subfield code="a">e</marcx:subfield>
+                  <marcx:subfield code="g">xx</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="021" ind1="0" ind2="0">
+                  <marcx:subfield code="e">9783865742056</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="245" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Bolivia, Paraguay</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="250" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Edition 2011</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="256" ind1="0" ind2="0">
+                  <marcx:subfield code="a">1:2 500 000</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="260" ind1="0" ind2="0">
+                  <marcx:subfield code="a">München</marcx:subfield>
+                  <marcx:subfield code="b">Nelles</marcx:subfield>
+                  <marcx:subfield code="c">2011</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="300" ind1="0" ind2="0">
+                  <marcx:subfield code="a">1 falset kort</marcx:subfield>
+                  <marcx:subfield code="b">i farver</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="440" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Nelles map</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="512" ind1="0" ind2="0">
+                  <marcx:subfield code="a">På omslaget: Special maps: Cusco/Machu Picchu, Iguacu, Tiahuanaco, Cusco, La Paz, Santa Cruz, Potosi, Central Asunción, Sucre</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="512" ind1="0" ind2="0">
+                  <marcx:subfield code="a">På omslaget: Physical rilief mapping, Places of interest</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="652" ind1="0" ind2="0">
+                  <marcx:subfield code="m">40.1884</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="652" ind1="0" ind2="0">
+                  <marcx:subfield code="p">40.1887</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="e">Bolivia</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="e">Paraguay</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="e">kort</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="e">vejatlas</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="s10" ind1="0" ind2="0">
+                  <marcx:subfield code="a">731600</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+<os:identifier>870970-basis:45056171</os:identifier>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

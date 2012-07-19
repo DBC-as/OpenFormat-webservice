@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+  <dkabm:record>
+    <ac:identifier>44291789|870970</ac:identifier>
+    <ac:source>Bibliotekets materialer</ac:source>
+    <dc:title>Miracle</dc:title>
+    <dc:title xsi:type="dkdcplus:full">Miracle</dc:title>
+    <dcterms:alternative>Miracle : a celebration of new life</dcterms:alternative>
+    <dcterms:alternative>Miracle : a miracle in the making : a conversation with Anne Geddes &amp; Celine Dion</dcterms:alternative>
+    <dc:subject xsi:type="dkdcplus:DK5">75.7408</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DK5-Text">Fotografiens emner, motiver, symboler og genrer</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCO">billedv&#xE6;rker</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCF">b&#xF8;rn</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCO">fotografier</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCM">pop</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCM">rock</dc:subject>
+    <dc:subject xsi:type="dkdcplus:genre">rock</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCM">vokal</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCM">vuggevise</dc:subject>
+    <dc:description>Bog Miracle : a celebration of new life Anne Geddes &amp; Celine Dion</dc:description>
+    <dcterms:audience>voksenmaterialer</dcterms:audience>
+    <dc:publisher>Andrews McMeel</dc:publisher>
+    <dc:contributor>Anne Geddes </dc:contributor>
+    <dc:contributor>C&#xE9;line Dion </dc:contributor>
+    <dc:contributor>David Foster </dc:contributor>
+    <dc:contributor>Rafael Padilla </dc:contributor>
+    <dc:contributor>Dean Parks </dc:contributor>
+    <dc:contributor>Jochem Van Der Saag </dc:contributor>
+    <dc:date>2004</dc:date>
+    <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+    <dc:type xsi:type="dkdcplus:BibDK-Type">Cd</dc:type>
+    <dc:type xsi:type="dkdcplus:BibDK-Type">undefined</dc:type>
+    <dc:type xsi:type="dkdcplus:BibDK-Type">Sammensat materiale</dc:type>
+    <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+    <dc:format>1 bog, illustreret (nogle i farver), 1 cd, 1 dvd-video</dc:format>
+    <dcterms:extent>176 sider, 20 min.</dcterms:extent>
+    <dc:identifier xsi:type="dkdcplus:ISBN">0-7407-4696-0</dc:identifier>
+    <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+    <dc:language>Engelsk</dc:language>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Miracle</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Brahms' lullaby</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">If I could</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Sleep tight</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">What a wonderful world</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">My precious one</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">A mother's prayer</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">The first time ever I saw your face</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Baby close your eyes</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Come to me</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Le loup, la biche et le chevalier</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Beautiful boy</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">In some small way</dcterms:hasPart>
+    <dcterms:spatial xsi:type="dkdcplus:DBCM">Canada</dcterms:spatial>
+    <dcterms:temporal xsi:type="dkdcplus:DBCM">2000-2009</dcterms:temporal>
+  </dkabm:record>
+  <marcx:collection>
+    <marcx:record format="danMARC2" type="Bibliographic">
+      <marcx:leader>000000000000000000000000</marcx:leader>
+      <marcx:datafield tag="001" ind1="0" ind2="0">
+        <marcx:subfield code="a">44291789</marcx:subfield>
+        <marcx:subfield code="b">870970</marcx:subfield>
+        <marcx:subfield code="c">20080131134809</marcx:subfield>
+        <marcx:subfield code="d">20080131</marcx:subfield>
+        <marcx:subfield code="f">a</marcx:subfield>
+        <marcx:subfield code="t">FAUST</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="002" ind1="0" ind2="0">
+        <marcx:subfield code="b">710100</marcx:subfield>
+        <marcx:subfield code="c">9 255 384 1</marcx:subfield>
+        <marcx:subfield code="x">71010092553841</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="004" ind1="0" ind2="0">
+        <marcx:subfield code="r">n</marcx:subfield>
+        <marcx:subfield code="a">e</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="008" ind1="0" ind2="0">
+        <marcx:subfield code="t">s</marcx:subfield>
+        <marcx:subfield code="u">u</marcx:subfield>
+        <marcx:subfield code="a">2004</marcx:subfield>
+        <marcx:subfield code="b">us</marcx:subfield>
+        <marcx:subfield code="l">eng</marcx:subfield>
+        <marcx:subfield code="v">0</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="009" ind1="0" ind2="0">
+        <marcx:subfield code="a">a</marcx:subfield>
+        <marcx:subfield code="g">xx</marcx:subfield>
+        <marcx:subfield code="a">s</marcx:subfield>
+        <marcx:subfield code="g">xc</marcx:subfield>
+        <marcx:subfield code="b">m</marcx:subfield>
+        <marcx:subfield code="h">th</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="021" ind1="0" ind2="0">
+        <marcx:subfield code="a">0-7407-4696-0</marcx:subfield>
+        <marcx:subfield code="d">$60,00</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="245" ind1="0" ind2="0">
+        <marcx:subfield code="a">Miracle</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="250" ind1="0" ind2="0">
+        <marcx:subfield code="b">Andrews McMeel</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="260" ind1="0" ind2="0">
+        <marcx:subfield code="a">Kansas City, Mo.</marcx:subfield>
+        <marcx:subfield code="b">Andrews McMeel</marcx:subfield>
+        <marcx:subfield code="c">2004</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="300" ind1="0" ind2="0">
+        <marcx:subfield code="n">1 bog</marcx:subfield>
+        <marcx:subfield code="a">[176] sider</marcx:subfield>
+        <marcx:subfield code="b">ill. (nogle i farver)</marcx:subfield>
+        <marcx:subfield code="n">1 cd</marcx:subfield>
+        <marcx:subfield code="d">1 dvd-video</marcx:subfield>
+        <marcx:subfield code="l">20 min.</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="512" ind1="0" ind2="0">
+        <marcx:subfield code="i">Bog</marcx:subfield>
+        <marcx:subfield code="a">Miracle : a celebration of new life</marcx:subfield>
+        <marcx:subfield code="e">Anne Geddes &amp; Celine Dion</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="512" ind1="0" ind2="0">
+        <marcx:subfield code="i">Cd</marcx:subfield>
+        <marcx:subfield code="t">Miracle : a celebration of new life</marcx:subfield>
+        <marcx:subfield code="e">Celine Dion with David Foster, Jochem van der Saag, Dean Parks, Rafael Padilla ... [et al.]</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="512" ind1="0" ind2="0">
+        <marcx:subfield code="i">Dvd</marcx:subfield>
+        <marcx:subfield code="t">Miracle : a miracle in the making : a conversation with Anne Geddes &amp; Celine Dion</marcx:subfield>
+        <marcx:subfield code="b">producers Kel Geddes, Catherine Madigan. - Af indholdet: Photo gallery ; Song lyrics ; Artists profiles</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="531" ind1="0" ind2="0">
+        <marcx:subfield code="a">Indhold (cd):</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="652" ind1="0" ind2="0">
+        <marcx:subfield code="m">75.7408</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="652" ind1="0" ind2="0">
+        <marcx:subfield code="p">78.794</marcx:subfield>
+        <marcx:subfield code="v">5</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="666" ind1="0" ind2="0">
+        <marcx:subfield code="f">b&#xF8;rn</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="666" ind1="0" ind2="0">
+        <marcx:subfield code="o">fotografier</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="666" ind1="0" ind2="0">
+        <marcx:subfield code="o">billedv&#xE6;rker</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="666" ind1="0" ind2="0">
+        <marcx:subfield code="m">pop</marcx:subfield>
+        <marcx:subfield code="m">rock</marcx:subfield>
+        <marcx:subfield code="m">vuggevise</marcx:subfield>
+        <marcx:subfield code="n">vokal</marcx:subfield>
+        <marcx:subfield code="p">2000-2009</marcx:subfield>
+        <marcx:subfield code="l">Canada</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="700" ind1="0" ind2="0">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Geddes</marcx:subfield>
+        <marcx:subfield code="h">Anne</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="700" ind1="0" ind2="0">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Dion</marcx:subfield>
+        <marcx:subfield code="h">C&#xE9;line</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="700" ind1="0" ind2="0">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Foster</marcx:subfield>
+        <marcx:subfield code="h">David</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="700" ind1="0" ind2="0">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Padilla</marcx:subfield>
+        <marcx:subfield code="h">Rafael</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="700" ind1="0" ind2="0">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Parks</marcx:subfield>
+        <marcx:subfield code="h">Dean</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="700" ind1="0" ind2="0">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="&#xE5;">1</marcx:subfield>
+        <marcx:subfield code="A">vandersaag</marcx:subfield>
+        <marcx:subfield code="a">Van Der Saag</marcx:subfield>
+        <marcx:subfield code="h">Jochem</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="&#xE5;">11</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Miracle</marcx:subfield>
+        <marcx:subfield code="a">Brahms' lullaby</marcx:subfield>
+        <marcx:subfield code="a">If I could</marcx:subfield>
+        <marcx:subfield code="a">Sleep tight</marcx:subfield>
+        <marcx:subfield code="a">What a wonderful world</marcx:subfield>
+        <marcx:subfield code="a">My precious one</marcx:subfield>
+        <marcx:subfield code="a">A &#xA4;mother's prayer</marcx:subfield>
+        <marcx:subfield code="a">The &#xA4;first time ever I saw your face</marcx:subfield>
+        <marcx:subfield code="a">Baby close your eyes</marcx:subfield>
+        <marcx:subfield code="a">Come to me</marcx:subfield>
+        <marcx:subfield code="a">Le &#xA4;loup, la biche et le chevalier</marcx:subfield>
+        <marcx:subfield code="u">Une &#xA4;chanson douce</marcx:subfield>
+        <marcx:subfield code="a">Beautiful boy</marcx:subfield>
+        <marcx:subfield code="a">In some small way</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="900" ind1="0" ind2="0">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Saag</marcx:subfield>
+        <marcx:subfield code="h">Jochem van der</marcx:subfield>
+        <marcx:subfield code="x">se</marcx:subfield>
+        <marcx:subfield code="w">Van Der Saag, Jochem</marcx:subfield>
+        <marcx:subfield code="z">700/1</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="s10" ind1="0" ind2="0">
+        <marcx:subfield code="a">710100</marcx:subfield>
+      </marcx:datafield>
+    </marcx:record>
+  </marcx:collection>
+  <oss:openurl/>
+            <os:identifier>870970-basis:44291789</os:identifier>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

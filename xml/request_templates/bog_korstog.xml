@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>28743092|870970</ac:identifier>
+              <ac:source>Bibliotekets materialer</ac:source>
+              <dc:title>Korstog</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Korstog</dc:title>
+              <dc:creator xsi:type="dkdcplus:aut">Robyn Young</dc:creator>
+              <dc:creator xsi:type="dkdcplus:sort">Young, Robyn</dc:creator>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Skønlitteratur</dc:subject>
+              <dc:subject xsi:type="dkdcplus:genre">fiktion</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">historie</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">korstogene</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">middelalderen</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5">sk</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">tempelriddere</dc:subject>
+              <dcterms:abstract>Tempelridderen Will Campbell opholder sig i 1274 i Akko, det hellige Land. Korstogene er midlertidigt indstillede, der er sluttet fred mellem muslimer og kristne, men freden er skrøbelig. Will sendes på en mission for at nye blodige kampe kan indgås</dcterms:abstract>
+              <dc:description xsi:type="dkdcplus:series">2. del af: Broderskabet</dc:description>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dkdcplus:version>1. udgave</dkdcplus:version>
+              <dc:publisher>People's Press</dc:publisher>
+              <dc:contributor xsi:type="dkdcplus:trl">Svend Ranild</dc:contributor>
+              <dc:date>2011</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+              <dcterms:extent>595 sider</dcterms:extent>
+              <dc:identifier xsi:type="dkdcplus:ISBN">9788771082326</dc:identifier>
+              <dc:source>Crusade</dc:source>
+              <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+              <dc:language>Dansk</dc:language>
+              <dcterms:spatial xsi:type="dkdcplus:DBCS">Akko</dcterms:spatial>
+              <dcterms:spatial xsi:type="dkdcplus:DBCS">Palæstina</dcterms:spatial>
+              <dcterms:temporal xsi:type="dkdcplus:DBCP">1270-1279</dcterms:temporal>
+              <dcterms:temporal xsi:type="dkdcplus:DBCP">1280-1289</dcterms:temporal>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>000000000000000000000000</marcx:leader>
+                <marcx:datafield tag="001" ind1="0" ind2="0">
+                  <marcx:subfield code="a">28743092</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20110606134804</marcx:subfield>
+                  <marcx:subfield code="d">20110413</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                  <marcx:subfield code="t">FAUST</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="004" ind1="0" ind2="0">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="008" ind1="0" ind2="0">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">2011</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="d">x</marcx:subfield>
+                  <marcx:subfield code="j">f</marcx:subfield>
+                  <marcx:subfield code="l">dan</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="009" ind1="0" ind2="0">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xx</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="021" ind1="0" ind2="0">
+                  <marcx:subfield code="e">9788771082326</marcx:subfield>
+                  <marcx:subfield code="c">ib.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="032" ind1="0" ind2="0">
+                  <marcx:subfield code="a">DBF201121</marcx:subfield>
+                  <marcx:subfield code="x">BKM201121</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="041" ind1="0" ind2="0">
+                  <marcx:subfield code="a">dan</marcx:subfield>
+                  <marcx:subfield code="c">eng</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="100" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Young</marcx:subfield>
+                  <marcx:subfield code="h">Robyn</marcx:subfield>
+                  <marcx:subfield code="4">aut</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="241" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Crusade</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="245" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Korstog</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="250" ind1="0" ind2="0">
+                  <marcx:subfield code="a">1. udgave</marcx:subfield>
+                  <marcx:subfield code="b">÷</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="260" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Kbh.</marcx:subfield>
+                  <marcx:subfield code="b">People's Press</marcx:subfield>
+                  <marcx:subfield code="c">2011</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="300" ind1="0" ind2="0">
+                  <marcx:subfield code="a">595 sider</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="504" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Tempelridderen Will Campbell opholder sig i 1274 i Akko, det hellige Land. Korstogene er midlertidigt indstillede, der er sluttet fred mellem muslimer og kristne, men freden er skrøbelig. Will sendes på en mission for at nye blodige kampe kan indgås</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="521" ind1="0" ind2="0">
+                  <marcx:subfield code="b">1. oplag</marcx:subfield>
+                  <marcx:subfield code="c">2011</marcx:subfield>
+                  <marcx:subfield code="k">tr. i udl.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="526" ind1="0" ind2="0">
+                  <marcx:subfield code="i">2. del af</marcx:subfield>
+                  <marcx:subfield code="t">Broderskabet</marcx:subfield>
+                  <marcx:subfield code="b">. Seriens indhold se denne</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="532" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Med litteraturhenvisninger</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="652" ind1="0" ind2="0">
+                  <marcx:subfield code="n">83</marcx:subfield>
+                  <marcx:subfield code="z">26</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="652" ind1="0" ind2="0">
+                  <marcx:subfield code="o">sk</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="s">middelalderen</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="s">tempelriddere</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="s">korstogene</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="s">historie</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="i">1270-1279</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="i">1280-1289</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="q">Akko</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="q">Palæstina</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="720" ind1="0" ind2="0">
+                  <marcx:subfield code="o">Svend Ranild</marcx:subfield>
+                  <marcx:subfield code="4">trl</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="s10" ind1="0" ind2="0">
+                  <marcx:subfield code="a">DBC</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="990" ind1="0" ind2="0">
+                  <marcx:subfield code="o">201121</marcx:subfield>
+                  <marcx:subfield code="b">l</marcx:subfield>
+                  <marcx:subfield code="b">v</marcx:subfield>
+                  <marcx:subfield code="u">nt</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+<os:identifier>870970-basis:28743092</os:identifier>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

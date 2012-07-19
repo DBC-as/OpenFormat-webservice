@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>44796872|870970</ac:identifier>
+              <ac:source>undefined</ac:source>
+              <dc:title>Night castle</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Night castle</dc:title>
+              <dc:creator>Trans-Siberian Orchestra</dc:creator>
+              <dc:creator xsi:type="oss:sort">Trans-Siberian Orchestra</dc:creator>
+              <dc:subject xsi:type="dkdcplus:DK5">78.794:5</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Rock (Beat). Moderne folkemusik (Folk)</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCM">instrumental</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCM">pop</dc:subject>
+              <dc:subject xsi:type="dkdcplus:genre">pop</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCM">rock</dc:subject>
+              <dc:subject xsi:type="dkdcplus:genre">rock</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCM">symfonisk rock</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCM">vokal</dc:subject>
+              <dcterms:audience>børnematerialer</dcterms:audience>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dc:publisher>Atlantic</dc:publisher>
+              <dc:contributor>Paul O'Neill</dc:contributor>
+              <dc:contributor>Robert Kinkel</dc:contributor>
+              <dc:contributor>Jon Oliva</dc:contributor>
+              <dc:contributor>Al Pitrelli</dc:contributor>
+              <dc:contributor>Chris Altenhoff</dc:contributor>
+              <dc:contributor>Luci Butler</dc:contributor>
+              <dc:contributor>Chris Caffery</dc:contributor>
+              <dc:contributor>Roddy Chong</dc:contributor>
+              <dc:contributor>Angus Clark</dc:contributor>
+              <dc:date>2009</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Cd (musik)</dc:type>
+              <dc:format>2 cd'er, 1 tekstbilag</dc:format>
+              <dc:identifier>Atlantic 5202712</dc:identifier>
+              <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+              <dc:language>Engelsk</dc:language>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Night enchanted</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Childhood dreams</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Sparks</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">The mountain</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Night castle</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">The safest way into tomorrow</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Mozart and memories</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Another way you can die</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Toccata - Carpimus noctem</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">The lion's roar</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Dreams we conceive</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Mother and son</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">There was a life</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Moonlight and madness</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Time floats on</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Epiphany</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Bach lullaby</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Father, son &amp; holy ghost</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Remnants of a lullaby</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">The safest way into tomorrow (reprise)</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Embers</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Child of the night</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Believe</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Nutrocker</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Carmina Burana</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Tracers</dcterms:hasPart>
+              <dcterms:spatial xsi:type="dkdcplus:DBCM">USA</dcterms:spatial>
+              <dcterms:temporal xsi:type="dkdcplus:DBCM">2000-2009</dcterms:temporal>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>000000000000000000000000</marcx:leader>
+                <marcx:datafield tag="001" ind1="0" ind2="0">
+                  <marcx:subfield code="a">44796872</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20100318101632</marcx:subfield>
+                  <marcx:subfield code="d">20100318</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                  <marcx:subfield code="t">FAUST</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="002" ind1="0" ind2="0">
+                  <marcx:subfield code="b">710100</marcx:subfield>
+                  <marcx:subfield code="c">9 292 656 7</marcx:subfield>
+                  <marcx:subfield code="x">71010092926567</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="004" ind1="0" ind2="0">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="005" ind1="0" ind2="0">
+                  <marcx:subfield code="h">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="008" ind1="0" ind2="0">
+                  <marcx:subfield code="t">s</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">2009</marcx:subfield>
+                  <marcx:subfield code="b">us</marcx:subfield>
+                  <marcx:subfield code="l">eng</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="009" ind1="0" ind2="0">
+                  <marcx:subfield code="a">s</marcx:subfield>
+                  <marcx:subfield code="g">xc</marcx:subfield>
+                  <marcx:subfield code="b">a</marcx:subfield>
+                  <marcx:subfield code="h">xx</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="039" ind1="0" ind2="0">
+                  <marcx:subfield code="a">bef</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="110" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Trans-Siberian Orchestra</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="245" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Night castle</marcx:subfield>
+                  <marcx:subfield code="e">Trans-Siberian Orchestra (Paul O'Neill, Robert Kinkel, Jon Oliva, Al Pitrelli, Chris Altenhoff, Luci Butler, Chris Caffery, Roddy Chong, Angus Clark ... [et al.])</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="260" ind1="0" ind2="0">
+                  <marcx:subfield code="a">New York</marcx:subfield>
+                  <marcx:subfield code="b">Atlantic</marcx:subfield>
+                  <marcx:subfield code="c">p 2009</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="300" ind1="0" ind2="0">
+                  <marcx:subfield code="n">2 cd'er</marcx:subfield>
+                  <marcx:subfield code="d">1 tekstbilag</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="531" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Indhold:</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="538" ind1="0" ind2="0">
+                  <marcx:subfield code="f">Atlantic</marcx:subfield>
+                  <marcx:subfield code="g">5202712</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="652" ind1="0" ind2="0">
+                  <marcx:subfield code="m">78.794</marcx:subfield>
+                  <marcx:subfield code="v">5</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="m">rock</marcx:subfield>
+                  <marcx:subfield code="m">pop</marcx:subfield>
+                  <marcx:subfield code="m">symfonisk rock</marcx:subfield>
+                  <marcx:subfield code="n">vokal</marcx:subfield>
+                  <marcx:subfield code="n">instrumental</marcx:subfield>
+                  <marcx:subfield code="p">2000-2009</marcx:subfield>
+                  <marcx:subfield code="l">USA</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">O'Neill</marcx:subfield>
+                  <marcx:subfield code="h">Paul</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Kinkel</marcx:subfield>
+                  <marcx:subfield code="h">Robert</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Oliva</marcx:subfield>
+                  <marcx:subfield code="h">Jon</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Pitrelli</marcx:subfield>
+                  <marcx:subfield code="h">Al</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Altenhoff</marcx:subfield>
+                  <marcx:subfield code="h">Chris</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Butler</marcx:subfield>
+                  <marcx:subfield code="h">Luci</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Caffery</marcx:subfield>
+                  <marcx:subfield code="h">Chris</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Chong</marcx:subfield>
+                  <marcx:subfield code="h">Roddy</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Clark</marcx:subfield>
+                  <marcx:subfield code="h">Angus</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">11</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Night enchanted</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">12</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Childhood dreams</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">13</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Sparks</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">14</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">The ¤mountain</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">15</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Night castle</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">16</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">The ¤safest way into tomorrow</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">17</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Mozart and memories</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">18</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Another way you can die</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">19</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Toccata - Carpimus noctem</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">20</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">The ¤lion's roar</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">21</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Dreams we conceive</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">22</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Mother and son</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">23</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">There was a life</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">24</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Moonlight and madness</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">25</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Time floats on</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">26</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Epiphany</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">27</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Bach lullaby</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">28</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="A">father son and holy ghost</marcx:subfield>
+                  <marcx:subfield code="a">Father, son &amp; holy ghost</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">29</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Remnants of a lullaby</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">30</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">The ¤safest way into tomorrow (reprise)</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">31</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Embers</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">32</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Child of the night</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">33</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Believe</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">34</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Nutrocker</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">35</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Carmina Burana</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">36</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Tracers</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="s10" ind1="0" ind2="0">
+                  <marcx:subfield code="a">710100</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+<os:identifier>870970-basis:44796872</os:identifier>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

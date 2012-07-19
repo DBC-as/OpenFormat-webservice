@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>25581792|870970</ac:identifier>
+              <ac:source>undefined</ac:source>
+              <dc:title>Aksel Å mangler ord</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Aksel Å mangler ord</dc:title>
+              <dc:title xsi:type="dkdcplus:series">Vilde veje : bøger til selvlæsning : bøger til dansk ; 3</dc:title>
+              <dc:creator xsi:type="dkdcplus:aut">Cecilie Eken</dc:creator>
+              <dc:creator xsi:type="oss:sort">Eken, Cecilie</dc:creator>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Skønlitteratur</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">bøger</dc:subject>
+              <dc:subject xsi:type="dkdcplus:genre">fiktion</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">læsning</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">ord</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5">sk</dc:subject>
+              <dcterms:abstract>Aksel Å får at vide, at han snart ikke har flere ord tilbage. Hans ordforråd er næsten brugt op. Oline må hjælpe ham med at komme til lægen. Kan lægens kur mon hjælpe Aksel Å?</dcterms:abstract>
+              <dcterms:audience xsi:type="dkdcplus:age">Fra 8 år</dcterms:audience>
+              <dcterms:audience>børnematerialer</dcterms:audience>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dkdcplus:version>1. udgave, 1. oplag</dkdcplus:version>
+              <dc:publisher>L&amp;R Uddannelse</dc:publisher>
+              <dc:contributor>Charlotte Pardi</dc:contributor>
+              <dc:date>2004</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+              <dc:format>illustreret i farver</dc:format>
+              <dcterms:extent>22 sider</dcterms:extent>
+              <dc:identifier xsi:type="dkdcplus:ISBN">87-25-00352-6</dc:identifier>
+              <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+              <dc:language>Dansk</dc:language>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>000000000000000000000000</marcx:leader>
+                <marcx:datafield tag="001" ind1="0" ind2="0">
+                  <marcx:subfield code="a">25581792</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20111016154425</marcx:subfield>
+                  <marcx:subfield code="d">20050110</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                  <marcx:subfield code="t">FAUST</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="004" ind1="0" ind2="0">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="008" ind1="0" ind2="0">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">2004</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="d">å</marcx:subfield>
+                  <marcx:subfield code="j">f</marcx:subfield>
+                  <marcx:subfield code="l">dan</marcx:subfield>
+                  <marcx:subfield code="o">s</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="009" ind1="0" ind2="0">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xx</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="021" ind1="0" ind2="0">
+                  <marcx:subfield code="a">87-25-00352-6</marcx:subfield>
+                  <marcx:subfield code="c">hf.</marcx:subfield>
+                  <marcx:subfield code="d">kr. 93,75</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="032" ind1="0" ind2="0">
+                  <marcx:subfield code="a">DBF200506</marcx:subfield>
+                  <marcx:subfield code="x">SFD200506</marcx:subfield>
+                  <marcx:subfield code="x">DAT200616</marcx:subfield>
+                  <marcx:subfield code="x">DAT991035</marcx:subfield>
+                  <marcx:subfield code="x">DAT991142</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="042" ind1="0" ind2="0">
+                  <marcx:subfield code="c">17</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="044" ind1="0" ind2="0">
+                  <marcx:subfield code="a">F</marcx:subfield>
+                  <marcx:subfield code="b">95b</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="100" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Eken</marcx:subfield>
+                  <marcx:subfield code="h">Cecilie</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="245" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Aksel Å mangler ord</marcx:subfield>
+                  <marcx:subfield code="e">Cecilie Eken</marcx:subfield>
+                  <marcx:subfield code="e">illustreret af Charlotte Pardi</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="250" ind1="0" ind2="0">
+                  <marcx:subfield code="a">1. udgave</marcx:subfield>
+                  <marcx:subfield code="b">÷</marcx:subfield>
+                  <marcx:subfield code="x">1. oplag</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="260" ind1="0" ind2="0">
+                  <marcx:subfield code="a">[Kbh.]</marcx:subfield>
+                  <marcx:subfield code="b">L&amp;R Uddannelse</marcx:subfield>
+                  <marcx:subfield code="k">Sangill Grafisk Produktion, Holme Olstrup</marcx:subfield>
+                  <marcx:subfield code="c">2004</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="300" ind1="0" ind2="0">
+                  <marcx:subfield code="a">22 sider</marcx:subfield>
+                  <marcx:subfield code="b">ill. i farver</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="440" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Vilde veje</marcx:subfield>
+                  <marcx:subfield code="c">bøger til selvlæsning : bøger til dansk</marcx:subfield>
+                  <marcx:subfield code="v">3</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="504" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Aksel Å får at vide, at han snart ikke har flere ord tilbage. Hans ordforråd er næsten brugt op. Oline må hjælpe ham med at komme til lægen. Kan lægens kur mon hjælpe Aksel Å?</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="517" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Let at læse</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="517" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Fra 8 år</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="520" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Originaludgave: 2004</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="521" ind1="0" ind2="0">
+                  <marcx:subfield code="a">1. oplag</marcx:subfield>
+                  <marcx:subfield code="c">2004</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="526" ind1="0" ind2="0">
+                  <marcx:subfield code="i">Hertil findes lærervejledning</marcx:subfield>
+                  <marcx:subfield code="t">Vilde veje - børnelitteratur og litteraturundervisning</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="652" ind1="0" ind2="0">
+                  <marcx:subfield code="n">86</marcx:subfield>
+                  <marcx:subfield code="z">096</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="652" ind1="0" ind2="0">
+                  <marcx:subfield code="o">sk</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="s">ord</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="s">bøger</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="s">læsning</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Pardi</marcx:subfield>
+                  <marcx:subfield code="h">Charlotte</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="s10" ind1="0" ind2="0">
+                  <marcx:subfield code="a">DBC</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="990" ind1="0" ind2="0">
+                  <marcx:subfield code="a">SFD</marcx:subfield>
+                  <marcx:subfield code="o">200506</marcx:subfield>
+                  <marcx:subfield code="b">L</marcx:subfield>
+                  <marcx:subfield code="b">S</marcx:subfield>
+                  <marcx:subfield code="b">B</marcx:subfield>
+                  <marcx:subfield code="c">A</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <oss:openurl>_BASEURL_url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:book&amp;rft.btitle=Aksel+Å+mangler+ord&amp;rft.aulast=Eken&amp;rft.aufirst=Cecilie&amp;rft.auinit=C&amp;rft.date=2004&amp;rft.isbn=87-25-00352-6&amp;rft.pub=L&amp;R+Uddannelse&amp;rft.edition=1.+udgave,+1.+oplag&amp;rft.series=Vilde+veje+:+bøger+til+selvlæsning+:+bøger+til+dansk+;+3&amp;rft.genre=book</oss:openurl>
+<os:identifier>870970-basis:25581792</os:identifier>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

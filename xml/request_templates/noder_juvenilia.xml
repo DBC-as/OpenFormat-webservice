@@ -1,0 +1,926 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+  <dkabm:record>
+    <ac:identifier>27833888|870970</ac:identifier>
+    <ac:source>NJE</ac:source>
+    <dc:title>Juvenilia et addenda</dc:title>
+    <dc:title xsi:type="dkdcplus:full">Juvenilia et addenda</dc:title>
+    <dc:title xsi:type="dkdcplus:series">Værker / Carl Nielsen. Serie IV, Juvenilia et addenda ; bind 1</dc:title>
+    <dc:creator>Carl Nielsen (f. 1865)</dc:creator>
+    <dc:creator xsi:type="oss:sort">Nielsen, Carl (f. 1865)</dc:creator>
+    <dc:subject xsi:type="dkdcplus:DK5">78.42</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DK5-Text">Kammermusik for 3 eller flere soloinstrumenter</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCM">instrumental</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCM">kammermusik</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCM">klaver</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCM">neoklassik</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCM">orgel</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCM">senromantik</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCM">strygekvartet</dc:subject>
+    <dcterms:audience>voksenmaterialer</dcterms:audience>
+    <dc:publisher>Carl Nielsen Udgaven, Det Kongelige Bibliotek</dc:publisher>
+    <dc:publisher>Wilhelm Hansen</dc:publisher>
+    <dc:contributor>Lisbeth Ahlgren Jensen </dc:contributor>
+    <dc:contributor>Lisbeth Larsen (f. 1977-04-24)</dc:contributor>
+    <dc:contributor>Carl Nielsen (f. 1865)</dc:contributor>
+    <dc:contributor>Carl Nielsen Udgaven</dc:contributor>
+    <dc:date>2009</dc:date>
+    <dc:type xsi:type="dkdcplus:BibDK-Type">Node</dc:type>
+    <dc:format>1 partitur</dc:format>
+    <dcterms:extent>lvi, 330 sider</dcterms:extent>
+    <dc:identifier xsi:type="dkdcplus:ISBN">9788759818244</dc:identifier>
+    <dc:identifier xsi:type="dkdcplus:ISMN">M-66134-212-0</dc:identifier>
+    <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+    <dc:language>Dansk</dc:language>
+    <dcterms:hasPart>Polka for violin, A-dur, FS 1 (CNU add. 1)</dcterms:hasPart>
+    <dcterms:hasPart>Duet for 2 violiner, A-dur, FS 3e (CNU add. 2)</dcterms:hasPart>
+    <dcterms:hasPart>Romance for violin og klaver, G-dur, CNU add. 3</dcterms:hasPart>
+    <dcterms:hasPart>Romance for violin og klaver, D-dur, 1883 (CNU add. 4)</dcterms:hasPart>
+    <dcterms:hasPart>Sonate for violin og klaver, G-dur, FS 3b (CNU add. 5)</dcterms:hasPart>
+    <dcterms:hasPart>Fantasistykke for klarinet og klaver, 1881 (CNU add. 6)</dcterms:hasPart>
+    <dcterms:hasPart>Trio for violin, violoncel og klaver, G-dur, FS 3i (CNU add. 7)</dcterms:hasPart>
+    <dcterms:hasPart>Kvartet for 2 violiner, viola og violoncel, d-mol, FS 3d (CNU add. 8)</dcterms:hasPart>
+    <dcterms:hasPart>Kvartetsatser for 2 violiner, viola og violoncel, FS 3c</dcterms:hasPart>
+    <dcterms:hasPart>Kvartetsatser for 2 violiner, viola og violoncel, FS 3c</dcterms:hasPart>
+    <dcterms:hasPart>Kvartetsatser for 2 violiner, viola og violoncel, FS 3c</dcterms:hasPart>
+    <dcterms:hasPart>Kvartetsatser for 2 violiner, viola og violoncel, FS 3c</dcterms:hasPart>
+    <dcterms:hasPart>Kvartetsatser for 2 violiner, viola og violoncel, FS 3c</dcterms:hasPart>
+    <dcterms:hasPart>Kvartetsatser for 2 violiner, viola og violoncel, FS 3c</dcterms:hasPart>
+    <dcterms:hasPart>Trauermarsch for 2 violiner, viola og violoncel, CNU add. 15</dcterms:hasPart>
+    <dcterms:hasPart>To karakterstykker for klaver, FS 3f (CNU add. 16)</dcterms:hasPart>
+    <dcterms:hasPart>Norsk folkedans for klaver, CNU add. 17</dcterms:hasPart>
+    <dcterms:hasPart>Andante for klaver, F-dur, CNU add. 18</dcterms:hasPart>
+    <dcterms:hasPart>Klaverstykke, Es-dur, CNU add. 19</dcterms:hasPart>
+    <dcterms:hasPart>Bondedans for klaver, F-dur, CNU add. 20</dcterms:hasPart>
+    <dcterms:hasPart>Allegretto for klaver, g-mol, CNU add. 21</dcterms:hasPart>
+    <dcterms:hasPart>Klaverstykke, B-dur, CNU add. 22</dcterms:hasPart>
+    <dcterms:hasPart>Menuet for klaver, A-dur, CNU add. 23</dcterms:hasPart>
+    <dcterms:hasPart>Klaverstykke, A-dur, CNU add. 24</dcterms:hasPart>
+    <dcterms:hasPart>Andantino for klaver, F-dur, CNU add. 25</dcterms:hasPart>
+    <dcterms:hasPart>Klaverstykke, C-dur, CNU add. 26</dcterms:hasPart>
+    <dcterms:hasPart>Et lille klaverstykke, C-dur, CNU add. 27</dcterms:hasPart>
+    <dcterms:hasPart>Kantate til mindefesten for P.S. Krøyer, CNU add. 28</dcterms:hasPart>
+    <dcterms:hasPart>Snefrid (Forspil)</dcterms:hasPart>
+    <dcterms:hasPart>Hr. Oluf han rider</dcterms:hasPart>
+    <dcterms:hasPart>Hagbarth og Signe</dcterms:hasPart>
+    <dcterms:hasPart>Canto serioso</dcterms:hasPart>
+    <dcterms:hasPart>Aladdin (uddrag)</dcterms:hasPart>
+    <dcterms:hasPart>Kinesisk dans</dcterms:hasPart>
+    <dcterms:hasPart>Fangernes dans</dcterms:hasPart>
+    <dcterms:hasPart>Hindu-dabs</dcterms:hasPart>
+    <dcterms:hasPart>Negerdans</dcterms:hasPart>
+    <dcterms:hasPart>Dans og kor</dcterms:hasPart>
+    <dcterms:hasPart>Morgentågernes dans</dcterms:hasPart>
+    <dcterms:hasPart>Moderen (uddrag)</dcterms:hasPart>
+    <dcterms:hasPart>Tågen letter</dcterms:hasPart>
+    <dcterms:hasPart>Fjerde billede (Forspil)</dcterms:hasPart>
+    <dcterms:hasPart>Menuet</dcterms:hasPart>
+    <dcterms:hasPart>Syvende billede (Forspil)</dcterms:hasPart>
+    <dcterms:hasPart>March</dcterms:hasPart>
+    <dcterms:hasPart>Der er et yndigt land</dcterms:hasPart>
+    <dcterms:hasPart>Kantate ved Polyteknisk Læreanstalts 100 års jubilæum</dcterms:hasPart>
+    <dcterms:hasPart>Fuga for 2 stemmer, CNU add. 38</dcterms:hasPart>
+    <dcterms:hasPart>Fuga for 2 stemmer, CNU add. 39</dcterms:hasPart>
+    <dcterms:hasPart>Fuga for 3 stemmer, CNU add. 40</dcterms:hasPart>
+    <dcterms:hasPart>Fuga for 3 stemmer, CNU add. 41</dcterms:hasPart>
+    <dcterms:hasPart>Fuga for 3 stemmer, CNU add. 42</dcterms:hasPart>
+    <dcterms:hasPart>Fuga for 3 stemmer, CNU add. 43</dcterms:hasPart>
+    <dcterms:hasPart>Fuga for 3 stemmer, CNU add. 44</dcterms:hasPart>
+    <dcterms:hasPart>Grüss, CNU add. 45</dcterms:hasPart>
+    <dcterms:hasPart>Gade, CNU add. 46</dcterms:hasPart>
+    <dcterms:hasPart>Danmark!, CNU add. 47</dcterms:hasPart>
+    <dcterms:hasPart>Velkommen i Della Grazia 20, lille Marie!, CNU add. 48</dcterms:hasPart>
+    <dcterms:hasPart>Hyrdedrengens melodi, CNU add. 49</dcterms:hasPart>
+    <dcterms:spatial xsi:type="dkdcplus:DBCM">Danmark</dcterms:spatial>
+    <dcterms:temporal xsi:type="dkdcplus:DBCM">1880-1889</dcterms:temporal>
+    <dcterms:temporal xsi:type="dkdcplus:DBCM">1890-1899</dcterms:temporal>
+    <dcterms:temporal xsi:type="dkdcplus:DBCM">1900-1909</dcterms:temporal>
+    <dcterms:temporal xsi:type="dkdcplus:DBCM">1910-1919</dcterms:temporal>
+    <dcterms:temporal xsi:type="dkdcplus:DBCM">1920-1929</dcterms:temporal>
+    <dcterms:temporal xsi:type="dkdcplus:DBCM">1930-1939</dcterms:temporal>
+  </dkabm:record>
+  <marcx:collection>
+    <marcx:record format="danMARC2" type="Bibliographic">
+      <marcx:leader>000000000000000000000000</marcx:leader>
+      <marcx:datafield tag="001" ind1="0" ind2="0">
+        <marcx:subfield code="a">27833888</marcx:subfield>
+        <marcx:subfield code="b">870970</marcx:subfield>
+        <marcx:subfield code="c">20090727181153</marcx:subfield>
+        <marcx:subfield code="d">20090720</marcx:subfield>
+        <marcx:subfield code="f">a</marcx:subfield>
+        <marcx:subfield code="t">FAUST</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="004" ind1="0" ind2="0">
+        <marcx:subfield code="r">n</marcx:subfield>
+        <marcx:subfield code="a">e</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="005" ind1="0" ind2="0">
+        <marcx:subfield code="h">c</marcx:subfield>
+        <marcx:subfield code="h">j</marcx:subfield>
+        <marcx:subfield code="i">a</marcx:subfield>
+        <marcx:subfield code="k">a</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="008" ind1="0" ind2="0">
+        <marcx:subfield code="t">s</marcx:subfield>
+        <marcx:subfield code="u">f</marcx:subfield>
+        <marcx:subfield code="a">2009</marcx:subfield>
+        <marcx:subfield code="b">dk</marcx:subfield>
+        <marcx:subfield code="l">dan</marcx:subfield>
+        <marcx:subfield code="v">0</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="009" ind1="0" ind2="0">
+        <marcx:subfield code="a">c</marcx:subfield>
+        <marcx:subfield code="g">xx</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="021" ind1="0" ind2="0">
+        <marcx:subfield code="e">9788759818244</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="028" ind1="0" ind2="0">
+        <marcx:subfield code="a">M-66134-212-0</marcx:subfield>
+        <marcx:subfield code="n">CN 00052</marcx:subfield>
+        <marcx:subfield code="c">ib.</marcx:subfield>
+        <marcx:subfield code="d">kr. 1168,00</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="032" ind1="0" ind2="0">
+        <marcx:subfield code="x">BKM200931</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="041" ind1="0" ind2="0">
+        <marcx:subfield code="a">dan</marcx:subfield>
+        <marcx:subfield code="e">dan</marcx:subfield>
+        <marcx:subfield code="e">eng</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="100" ind1="0" ind2="0">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="245" ind1="0" ind2="0">
+        <marcx:subfield code="a">Juvenilia et addenda</marcx:subfield>
+        <marcx:subfield code="e">Carl Nielsen</marcx:subfield>
+        <marcx:subfield code="e">udgivet af Lisbeth Ahlgren Jensen, Lisbeth Larsen</marcx:subfield>
+        <marcx:subfield code="ø">Carl Nielsen Udgaven</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="260" ind1="0" ind2="0">
+        <marcx:subfield code="a">Copenhagen</marcx:subfield>
+        <marcx:subfield code="b">\Carl Nielsen Udgaven\, Det Kongelige Bibliotek</marcx:subfield>
+        <marcx:subfield code="b">Wilhelm Hansen</marcx:subfield>
+        <marcx:subfield code="g">distribution Wilhelm Hansen</marcx:subfield>
+        <marcx:subfield code="c">2009</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="300" ind1="0" ind2="0">
+        <marcx:subfield code="n">1 \partitur\</marcx:subfield>
+        <marcx:subfield code="a">lvi, 330 sider</marcx:subfield>
+        <marcx:subfield code="c">33 cm</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="440" ind1="0" ind2="0">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Værker</marcx:subfield>
+        <marcx:subfield code="æ">Carl Nielsen</marcx:subfield>
+        <marcx:subfield code="N">serie 4</marcx:subfield>
+        <marcx:subfield code="n">Serie IV</marcx:subfield>
+        <marcx:subfield code="o">Juvenilia et addenda</marcx:subfield>
+        <marcx:subfield code="V">1</marcx:subfield>
+        <marcx:subfield code="v">bind 1</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="508" ind1="0" ind2="0">
+        <marcx:subfield code="a">Med forord på dansk og engelsk og revisionsberetning på engelsk</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="531" ind1="0" ind2="0">
+        <marcx:subfield code="a">Indhold:</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="532" ind1="0" ind2="0">
+        <marcx:subfield code="a">Litteraturhenvisninger ; Kildehenvisninger</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="538" ind1="0" ind2="0">
+        <marcx:subfield code="d">CN 00052</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="652" ind1="0" ind2="0">
+        <marcx:subfield code="m">78.42</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="652" ind1="0" ind2="0">
+        <marcx:subfield code="p">78.53</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="652" ind1="0" ind2="0">
+        <marcx:subfield code="p">78.652</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="652" ind1="0" ind2="0">
+        <marcx:subfield code="p">78.31</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="666" ind1="0" ind2="0">
+        <marcx:subfield code="m">senromantik</marcx:subfield>
+        <marcx:subfield code="m">neoklassik</marcx:subfield>
+        <marcx:subfield code="m">kammermusik</marcx:subfield>
+        <marcx:subfield code="n">instrumental</marcx:subfield>
+        <marcx:subfield code="n">klaver</marcx:subfield>
+        <marcx:subfield code="n">orgel</marcx:subfield>
+        <marcx:subfield code="n">strygekvartet</marcx:subfield>
+        <marcx:subfield code="p">1880-1889</marcx:subfield>
+        <marcx:subfield code="p">1890-1899</marcx:subfield>
+        <marcx:subfield code="p">1900-1909</marcx:subfield>
+        <marcx:subfield code="p">1910-1919</marcx:subfield>
+        <marcx:subfield code="p">1920-1929</marcx:subfield>
+        <marcx:subfield code="p">1930-1939</marcx:subfield>
+        <marcx:subfield code="l">Danmark</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="700" ind1="0" ind2="0">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="å">1</marcx:subfield>
+        <marcx:subfield code="a">Ahlgren Jensen</marcx:subfield>
+        <marcx:subfield code="h">Lisbeth</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="700" ind1="0" ind2="0">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Larsen</marcx:subfield>
+        <marcx:subfield code="h">Lisbeth</marcx:subfield>
+        <marcx:subfield code="c">f. 1977-04-24</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="710" ind1="0" ind2="0">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Carl Nielsen Udgaven</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">11</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">12</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">13</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">14</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">15</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">16</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">17</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">18</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">19</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">20</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">21</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">22</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">23</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">24</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">25</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">26</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">27</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">28</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">29</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">30</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">31</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">32</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">33</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">34</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">35</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">36</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">37</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">38</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">39</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">40</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">41</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">42</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">43</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">44</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">45</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">46</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">47</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">48</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">49</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">50</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">51</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">52</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">53</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">54</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">55</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">56</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">57</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">58</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="770" ind1="0" ind2="0">
+        <marcx:subfield code="å">59</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Nielsen</marcx:subfield>
+        <marcx:subfield code="h">Carl</marcx:subfield>
+        <marcx:subfield code="c">f. 1865</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">11</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Polka for violin, A-dur, FS 1 (CNU add. 1)</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">12</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Duet for 2 violiner, A-dur, FS 3e (CNU add. 2)</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">13</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Romance for violin og klaver, G-dur, CNU add. 3</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">14</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Romance for violin og klaver, D-dur, 1883 (CNU add. 4)</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">15</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Sonate for violin og klaver, G-dur, FS 3b (CNU add. 5)</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">16</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Fantasistykke for klarinet og klaver, 1881 (CNU add. 6)</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">17</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Trio for violin, violoncel og klaver, G-dur, FS 3i (CNU add. 7)</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">18</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Kvartet for 2 violiner, viola og violoncel, d-mol, FS 3d (CNU add. 8)</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">19</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Kvartetsatser for 2 violiner, viola og violoncel, FS 3c</marcx:subfield>
+        <marcx:subfield code="7"> (</marcx:subfield>
+        <marcx:subfield code="v">Allegro, F-dur, CNU add. 9</marcx:subfield>
+        <marcx:subfield code="7">)</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">20</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Kvartetsatser for 2 violiner, viola og violoncel, FS 3c</marcx:subfield>
+        <marcx:subfield code="7"> (</marcx:subfield>
+        <marcx:subfield code="v">Allegro molto, F-dur, CNU add. 10</marcx:subfield>
+        <marcx:subfield code="7">)</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">21</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Kvartetsatser for 2 violiner, viola og violoncel, FS 3c</marcx:subfield>
+        <marcx:subfield code="7"> (</marcx:subfield>
+        <marcx:subfield code="v">Allegro moderato, F-dur, CNU add. 11</marcx:subfield>
+        <marcx:subfield code="7">)</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">22</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Kvartetsatser for 2 violiner, viola og violoncel, FS 3c</marcx:subfield>
+        <marcx:subfield code="7"> (</marcx:subfield>
+        <marcx:subfield code="v">Allegro, g-mol, CNU add. 12</marcx:subfield>
+        <marcx:subfield code="7">)</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">23</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Kvartetsatser for 2 violiner, viola og violoncel, FS 3c</marcx:subfield>
+        <marcx:subfield code="7"> (</marcx:subfield>
+        <marcx:subfield code="v">Andante, fis-mol, CNU add. 13</marcx:subfield>
+        <marcx:subfield code="7">)</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">24</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Kvartetsatser for 2 violiner, viola og violoncel, FS 3c</marcx:subfield>
+        <marcx:subfield code="7"> (</marcx:subfield>
+        <marcx:subfield code="v">Menuet, B-dur, CNU add. 14</marcx:subfield>
+        <marcx:subfield code="7">)</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">25</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Trauermarsch for 2 violiner, viola og violoncel, CNU add. 15</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">26</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">To karakterstykker for klaver, FS 3f (CNU add. 16)</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">27</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Norsk folkedans for klaver, CNU add. 17</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">28</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Andante for klaver, F-dur, CNU add. 18</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">29</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Klaverstykke, Es-dur, CNU add. 19</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">30</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Bondedans for klaver, F-dur, CNU add. 20</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">31</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Allegretto for klaver, g-mol, CNU add. 21</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">32</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Klaverstykke, B-dur, CNU add. 22</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">33</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Menuet for klaver, A-dur, CNU add. 23</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">34</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Klaverstykke, A-dur, CNU add. 24</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">35</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Andantino for klaver, F-dur, CNU add. 25</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">36</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Klaverstykke, C-dur, CNU add. 26</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">37</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Et ¤lille klaverstykke, C-dur, CNU add. 27</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">38</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Kantate til mindefesten for P.S. Krøyer, CNU add. 28</marcx:subfield>
+        <marcx:subfield code="c">for recitation, sopran, baryton, mandskor og klaver</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">39</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Snefrid (Forspil)</marcx:subfield>
+        <marcx:subfield code="c">for klaver (CNU add. 29)</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">40</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Snefrid</marcx:subfield>
+        <marcx:subfield code="c">for recitation og klaverkvintet (CNU add. 30)</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">41</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Hr. Oluf han rider</marcx:subfield>
+        <marcx:subfield code="7"> (</marcx:subfield>
+        <marcx:subfield code="v">Elverdans</marcx:subfield>
+        <marcx:subfield code="7">) : </marcx:subfield>
+        <marcx:subfield code="c">for klaver (CNU add. 31)</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">42</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Hagbarth og Signe</marcx:subfield>
+        <marcx:subfield code="7"> (</marcx:subfield>
+        <marcx:subfield code="v">Ternernes dans</marcx:subfield>
+        <marcx:subfield code="7">) : </marcx:subfield>
+        <marcx:subfield code="c">for klaver (CNU add. 32)</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">43</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Canto serioso</marcx:subfield>
+        <marcx:subfield code="c">for violoncel og klaver, CNU add. 33</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">44</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Aladdin (uddrag)</marcx:subfield>
+        <marcx:subfield code="7"> (</marcx:subfield>
+        <marcx:subfield code="a">Kinesisk dans</marcx:subfield>
+        <marcx:subfield code="a">Fangernes dans</marcx:subfield>
+        <marcx:subfield code="a">Hindu-dabs</marcx:subfield>
+        <marcx:subfield code="a">Negerdans</marcx:subfield>
+        <marcx:subfield code="a">Dans og kor</marcx:subfield>
+        <marcx:subfield code="a">Morgentågernes dans</marcx:subfield>
+        <marcx:subfield code="7">) : </marcx:subfield>
+        <marcx:subfield code="c">for klaver (CNU add. 34)</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">45</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Moderen (uddrag)</marcx:subfield>
+        <marcx:subfield code="7"> (</marcx:subfield>
+        <marcx:subfield code="a">Tågen letter</marcx:subfield>
+        <marcx:subfield code="a">Fjerde billede (Forspil)</marcx:subfield>
+        <marcx:subfield code="a">Menuet</marcx:subfield>
+        <marcx:subfield code="a">Syvende billede (Forspil)</marcx:subfield>
+        <marcx:subfield code="a">March</marcx:subfield>
+        <marcx:subfield code="7">) : </marcx:subfield>
+        <marcx:subfield code="c">for klaver (CNU add. 35)</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">46</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Der er et yndigt land</marcx:subfield>
+        <marcx:subfield code="c">for 2 trompeter, 2 basuner og tuba, CNU add. 36</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">47</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Kantate ved Polyteknisk Læreanstalts 100 års jubilæum</marcx:subfield>
+        <marcx:subfield code="c">for recitation, mandskor, strygere og klaver (CNU add. 37)</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">48</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Fuga for 2 stemmer, CNU add. 38</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">49</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Fuga for 2 stemmer, CNU add. 39</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">50</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Fuga for 3 stemmer, CNU add. 40</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">51</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Fuga for 3 stemmer, CNU add. 41</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">52</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Fuga for 3 stemmer, CNU add. 42</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">53</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Fuga for 3 stemmer, CNU add. 43</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">54</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Fuga for 3 stemmer, CNU add. 44</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">55</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Grüss, CNU add. 45</marcx:subfield>
+        <marcx:subfield code="c">for violin</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">56</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Gade, CNU add. 46</marcx:subfield>
+        <marcx:subfield code="c">for klaver</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">57</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Danmark!, CNU add. 47</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">58</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Velkommen i Della Grazia 20, lille Marie!, CNU add. 48</marcx:subfield>
+        <marcx:subfield code="c">for klaver</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">59</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Hyrdedrengens melodi, CNU add. 49</marcx:subfield>
+        <marcx:subfield code="c">for obo</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">99</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="y">0</marcx:subfield>
+        <marcx:subfield code="a">2 karakterstykker for klaver, FS 3f</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="900" ind1="0" ind2="0">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Jensen</marcx:subfield>
+        <marcx:subfield code="h">Lisbeth Ahlgren</marcx:subfield>
+        <marcx:subfield code="x">se</marcx:subfield>
+        <marcx:subfield code="w">Ahlgren Jensen, Lisbeth</marcx:subfield>
+        <marcx:subfield code="z">700/1</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="s10" ind1="0" ind2="0">
+        <marcx:subfield code="a">DBC</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="990" ind1="0" ind2="0">
+        <marcx:subfield code="o">200931</marcx:subfield>
+        <marcx:subfield code="b">v</marcx:subfield>
+        <marcx:subfield code="n">02</marcx:subfield>
+        <marcx:subfield code="u">nt</marcx:subfield>
+      </marcx:datafield>
+    </marcx:record>
+  </marcx:collection>
+  <oss:openurl/>
+            <os:identifier>870970-basis:27833888</os:identifier>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

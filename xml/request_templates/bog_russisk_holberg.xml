@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+  <dkabm:record>
+    <ac:identifier>003091934|810015</ac:identifier>
+    <ac:source>NJE</ac:source>
+    <dc:title>Henrik og Pernille</dc:title>
+    <dc:title xsi:type="dkdcplus:full">Henrik og Pernille</dc:title>
+    <dc:creator xsi:type="dkdcplus:aut">Ludvig Holberg </dc:creator>
+    <dc:creator xsi:type="oss:sort">Holberg, Ludvig</dc:creator>
+    <dc:subject>Literatur Den Dramatiske Literatur</dc:subject>
+    <dcterms:audience>voksenmaterialer</dcterms:audience>
+    <dc:date>1765</dc:date>
+    <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+    <dcterms:extent>102 s.</dcterms:extent>
+    <dc:language xsi:type="dcterms:ISO639-2">rus</dc:language>
+    <dc:language>Russisk</dc:language>
+  </dkabm:record>
+  <marcx:collection>
+    <marcx:record format="danMARC2" type="Bibliographic">
+      <marcx:leader>000000000000000000000000</marcx:leader>
+      <marcx:datafield tag="001" ind1="0" ind2="0">
+        <marcx:subfield code="a">003091934</marcx:subfield>
+        <marcx:subfield code="b">810015</marcx:subfield>
+        <marcx:subfield code="f">a</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="002" ind1="0" ind2="0">
+        <marcx:subfield code="d">x231446720</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="004" ind1="0" ind2="0">
+        <marcx:subfield code="r">n</marcx:subfield>
+        <marcx:subfield code="a">e</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="008" ind1="0" ind2="0">
+        <marcx:subfield code="t">m</marcx:subfield>
+        <marcx:subfield code="a">1765</marcx:subfield>
+        <marcx:subfield code="b">ru</marcx:subfield>
+        <marcx:subfield code="l">rus</marcx:subfield>
+        <marcx:subfield code="j">d</marcx:subfield>
+        <marcx:subfield code="v">9</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="009" ind1="0" ind2="0">
+        <marcx:subfield code="a">a</marcx:subfield>
+        <marcx:subfield code="g">xx</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="100" ind1="0" ind2="0">
+        <marcx:subfield code="a">Holberg</marcx:subfield>
+        <marcx:subfield code="h">Ludvig</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="245" ind1="0" ind2="0">
+        <marcx:subfield code="a">Henrik og Pernille</marcx:subfield>
+        <marcx:subfield code="e">Oversat paa Russisk af A. N. (i.e.: Andreas Nartov)</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="260" ind1="0" ind2="0">
+        <marcx:subfield code="a">St. Petersborg</marcx:subfield>
+        <marcx:subfield code="c">1765</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="300" ind1="0" ind2="0">
+        <marcx:subfield code="a">102 s.</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="529" ind1="0" ind2="0">
+        <marcx:subfield code="b">Bibliotheca Danica</marcx:subfield>
+        <marcx:subfield code="u">http://images.kb.dk/bibliothecad̲anica/bind%2040167.jpg</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="631" ind1="0" ind2="0">
+        <marcx:subfield code="a">Literatur</marcx:subfield>
+        <marcx:subfield code="a">Den Dramatiske Literatur</marcx:subfield>
+      </marcx:datafield>
+    </marcx:record>
+  </marcx:collection>
+  <oss:openurl>_BASEURL_url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:book&amp;rft.btitle=Henrik+og+Pernille&amp;rft.aulast=Holberg&amp;rft.aufirst=Ludvig&amp;rft.auinit=L&amp;rft.date=1765&amp;rft.genre=book</oss:openurl>
+            <os:identifier>810015-basis:003091934</os:identifier>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

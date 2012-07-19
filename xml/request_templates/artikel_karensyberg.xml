@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>34786798|870971</ac:identifier>
+              <ac:source>Artikler</ac:source>
+              <dc:title>Kvinder er vel også hele mennesker</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Kvinder er vel også hele mennesker</dc:title>
+              <dc:creator>Karen Syberg</dc:creator>
+              <dc:creator xsi:type="oss:sort">Syberg, Karen</dc:creator>
+              <dc:subject xsi:type="dkdcplus:DK5">81.6</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Dansk litteraturhistorie</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">Kirsten Hamman</dc:subject>
+              <dc:subject xsi:type="oss:sort">Hamman, Kirsten</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">dansk litteratur</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCO">kronikker</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">kvindelige forfattere</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">kvinder</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">litterære motiver</dc:subject>
+              <dc:subject xsi:type="dkdcplus:genre">nonfiktion</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">romaner</dc:subject>
+              <dcterms:abstract>Er det tankevækkende, at romaner af kvinder skildrer kvinder, der ikke kan finde ud af livet?</dcterms:abstract>
+              <dc:description>I anledning af Nils Gunder Hansens anmeldelse af Kirsten Hammanns nye roman 'Se på mig'</dc:description>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dc:date>2011</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Avisartikel</dc:type>
+              <dc:format>illustreret</dc:format>
+              <dcterms:extent>Sektion 2, s. 4</dcterms:extent>
+              <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+              <dc:language>Dansk</dc:language>
+              <dcterms:isPartOf>Information, 2011-09-16</dcterms:isPartOf>
+              <dcterms:isPartOf xsi:type="dkdcplus:ISSN">1602-2572</dcterms:isPartOf>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>000000000000000000000000</marcx:leader>
+                <marcx:datafield tag="001" ind1="0" ind2="0">
+                  <marcx:subfield code="a">34786798</marcx:subfield>
+                  <marcx:subfield code="b">870971</marcx:subfield>
+                  <marcx:subfield code="c">20110918000243</marcx:subfield>
+                  <marcx:subfield code="d">20110918</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="004" ind1="0" ind2="0">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">i</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="008" ind1="0" ind2="0">
+                  <marcx:subfield code="t">a</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">2011</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="d">y</marcx:subfield>
+                  <marcx:subfield code="l">dan</marcx:subfield>
+                  <marcx:subfield code="r">an</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="009" ind1="0" ind2="0">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xx</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="016" ind1="0" ind2="0">
+                  <marcx:subfield code="a">03243095</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="032" ind1="0" ind2="0">
+                  <marcx:subfield code="a">ABU201138</marcx:subfield>
+                  <marcx:subfield code="a">DAR201138</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="086" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Dansk litteraturhistorie</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="245" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Kvinder er vel også hele mennesker</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="300" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Sektion 2, s. 4</marcx:subfield>
+                  <marcx:subfield code="b">ill.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="504" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Er det tankevækkende, at romaner af kvinder skildrer kvinder, der ikke kan finde ud af livet?</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="507" ind1="0" ind2="0">
+                  <marcx:subfield code="a">I anledning af Nils Gunder Hansens anmeldelse af Kirsten Hammanns nye roman 'Se på mig'</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="538" ind1="0" ind2="0">
+                  <marcx:subfield code="i">Infomedia</marcx:subfield>
+                  <marcx:subfield code="a">e2df6971</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="557" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Information</marcx:subfield>
+                  <marcx:subfield code="j">2011</marcx:subfield>
+                  <marcx:subfield code="z">1602-2572</marcx:subfield>
+                  <marcx:subfield code="V">2011-09-16</marcx:subfield>
+                  <marcx:subfield code="v">2011-09-16</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="600" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Hamman</marcx:subfield>
+                  <marcx:subfield code="h">Kirsten</marcx:subfield>
+                  <marcx:subfield code="1"/>
+                </marcx:datafield>
+                <marcx:datafield tag="652" ind1="0" ind2="0">
+                  <marcx:subfield code="m">81.6</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">dansk litteratur</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">romaner</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">kvindelige forfattere</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">litterære motiver</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">kvinder</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="o">kronikker</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Syberg</marcx:subfield>
+                  <marcx:subfield code="h">Karen</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="996" ind1="0" ind2="0">
+                  <marcx:subfield code="a">IDX</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <oss:openurl>_BASEURL_url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:journal&amp;rft.atitle=Kvinder+er+vel+også+hele+mennesker&amp;rft.aulast=Syberg&amp;rft.aufirst=Karen&amp;rft.auinit=K&amp;rft.jtitle=Information&amp;rft.date=2011&amp;rft.pages=4&amp;rft.spage=4&amp;rft.epage=4&amp;rft.issn=1602-2572&amp;rft.genre=article</oss:openurl>
+<os:identifier>870971-basis:34786798</os:identifier>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

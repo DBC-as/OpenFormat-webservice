@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>05412803|870970</ac:identifier>
+              <ac:source>NJE</ac:source>
+              <dc:title>Fra norrøne skrifter til nordiske forskningsbiblioteker</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Fra norrøne skrifter til nordiske forskningsbiblioteker</dc:title>
+              <dc:creator>Nordisk Videnskabeligt Bibliotekarforbund Medlemsmøde 5 1978 Reykjavík</dc:creator>
+              <dc:creator xsi:type="oss:sort">Nordisk Videnskabeligt Bibliotekarforbund Medlemsmøde 5 1978 Reykjavík</dc:creator>
+              <dc:subject xsi:type="dkdcplus:DK5">02</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Biblioteks- og arkivvæsen</dc:subject>
+              <dc:subject xsi:type="dkdcplus:genre">nonfiktion</dc:subject>
+              <dc:description>Af indholdet: Christian Hermann Jensen: Bibliotek og samfund - udviklingstendenser og konsekvenser for uddannelsen af personale til forskningsbibliotekerne. Biblioteksutdanning i Norden - sammenligning, vurdering og muligheter for samarbeid. EDB som hjälpmedel i de nordiska forskningsbibliotekens dagliga verksamhet. Forskningsbibliotekernes organisations-, styrings- og samarbejdsformer. Hans Westermann: Det grønlandske biblioteksvæsen.</dc:description>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dc:publisher>Nordisk videnskabeligt Bibliotekarforbund</dc:publisher>
+              <dc:contributor>Einar Sigurðsson</dc:contributor>
+              <dc:contributor>Helgi Magnússon</dc:contributor>
+              <dc:date>1979</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+              <dc:format>illustreret</dc:format>
+              <dcterms:extent>218 sider</dcterms:extent>
+              <dc:language xsi:type="dcterms:ISO639-2">mul</dc:language>
+              <dc:language>Flere sprog</dc:language>
+              <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+              <dc:language>Dansk</dc:language>
+              <dc:language xsi:type="dcterms:ISO639-2">swe</dc:language>
+              <dc:language>Svensk</dc:language>
+              <dc:language xsi:type="dcterms:ISO639-2">nor</dc:language>
+              <dc:language>Norsk</dc:language>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>000000000000000000000000</marcx:leader>
+                <marcx:datafield tag="001" ind1="0" ind2="0">
+                  <marcx:subfield code="a">05412803</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20010128224732</marcx:subfield>
+                  <marcx:subfield code="d">19790802</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                  <marcx:subfield code="o">c</marcx:subfield>
+                  <marcx:subfield code="t">FAUST</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="004" ind1="0" ind2="0">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="008" ind1="0" ind2="0">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">1979</marcx:subfield>
+                  <marcx:subfield code="b">is</marcx:subfield>
+                  <marcx:subfield code="f">1</marcx:subfield>
+                  <marcx:subfield code="l">mul</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="009" ind1="0" ind2="0">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xx</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="021" ind1="0" ind2="0">
+                  <marcx:subfield code="c">Hf.</marcx:subfield>
+                  <marcx:subfield code="d">kr. 90.20</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="032" ind1="0" ind2="0">
+                  <marcx:subfield code="a">DBF197934</marcx:subfield>
+                  <marcx:subfield code="x">SFD199137</marcx:subfield>
+                  <marcx:subfield code="x">OPR197934</marcx:subfield>
+                  <marcx:subfield code="x">DAT990036</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="041" ind1="0" ind2="0">
+                  <marcx:subfield code="a">dan</marcx:subfield>
+                  <marcx:subfield code="a">swe</marcx:subfield>
+                  <marcx:subfield code="a">nor</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="110" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Nordisk Videnskabeligt Bibliotekarforbund</marcx:subfield>
+                  <marcx:subfield code="c">Medlemsmøde</marcx:subfield>
+                  <marcx:subfield code="i">5</marcx:subfield>
+                  <marcx:subfield code="k">1978</marcx:subfield>
+                  <marcx:subfield code="j">Reykjavík</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="245" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Fra norrøne skrifter til nordiske forskningsbiblioteker</marcx:subfield>
+                  <marcx:subfield code="e">Nordisk videnskabeligt Bibliotekarforbunds 5. medlemsmøde, Islands Universitet 18.-23. juni 1978</marcx:subfield>
+                  <marcx:subfield code="e">redigeret af Einar Sigurðsson og Helgi Magnússon</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="260" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Reykjavík</marcx:subfield>
+                  <marcx:subfield code="b">Nordisk videnskabeligt Bibliotekarforbund</marcx:subfield>
+                  <marcx:subfield code="f">Kbh.</marcx:subfield>
+                  <marcx:subfield code="g">i kommission hos Bibliotekscentralen</marcx:subfield>
+                  <marcx:subfield code="k">tr. i Island</marcx:subfield>
+                  <marcx:subfield code="c">1979</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="300" ind1="0" ind2="0">
+                  <marcx:subfield code="a">218 sider</marcx:subfield>
+                  <marcx:subfield code="b">ill.</marcx:subfield>
+                  <marcx:subfield code="c">24 cm</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="508" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Bidrag på dansk, norsk og svensk</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="534" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Af indholdet: Christian Hermann Jensen: Bibliotek og samfund - udviklingstendenser og konsekvenser for uddannelsen af personale til forskningsbibliotekerne. Biblioteksutdanning i Norden - sammenligning, vurdering og muligheter for samarbeid. EDB som hjälpmedel i de nordiska forskningsbibliotekens dagliga verksamhet. Forskningsbibliotekernes organisations-, styrings- og samarbejdsformer. Hans Westermann: Det grønlandske biblioteksvæsen.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="652" ind1="0" ind2="0">
+                  <marcx:subfield code="m">02</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Sigurðsson</marcx:subfield>
+                  <marcx:subfield code="h">Einar</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="å">2</marcx:subfield>
+                  <marcx:subfield code="a">Helgi Magnússon</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="900" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Magnússon</marcx:subfield>
+                  <marcx:subfield code="h">Helgi</marcx:subfield>
+                  <marcx:subfield code="x">se</marcx:subfield>
+                  <marcx:subfield code="w">Helgi Magnússon</marcx:subfield>
+                  <marcx:subfield code="z">700/2</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="910" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">NVBF</marcx:subfield>
+                  <marcx:subfield code="x">se</marcx:subfield>
+                  <marcx:subfield code="w">Nordisk Videnskabeligt Bibliotekarforbund</marcx:subfield>
+                  <marcx:subfield code="z">110(a)</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="s10" ind1="0" ind2="0">
+                  <marcx:subfield code="a">DBC</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <oss:openurl>_BASEURL_url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:book&amp;rft.btitle=Fra+norrøne+skrifter+til+nordiske+forskningsbiblioteker&amp;rft.aulast=Sigurðsson&amp;rft.aufirst=Einar&amp;rft.auinit=E&amp;rft.date=1979&amp;rft.pub=Nordisk+videnskabeligt+Bibliotekarforbund&amp;rft.genre=book</oss:openurl>
+<os:identifier>870970-basis:05412803</os:identifier>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>28318855|870970</ac:identifier>
+              <ac:source>undefined</ac:source>
+              <dc:title>Den forsvundne fuldmægtig</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Den forsvundne fuldmægtig</dc:title>
+              <dc:title xsi:type="dkdcplus:series">Gyldendals tranebøger</dc:title>
+              <dc:creator xsi:type="dkdcplus:aut">Hans Scherfig</dc:creator>
+              <dc:creator xsi:type="oss:sort">Scherfig, Hans</dc:creator>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Skønlitteratur</dc:subject>
+              <dc:subject xsi:type="dkdcplus:genre">fiktion</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">humor</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">samfundskritik</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">samfundssatire</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5">sk</dc:subject>
+              <dcterms:abstract>Satire over vanemenneskets afhængighed af den borgerlige tilværelses konvention og disciplin med embedsmandens kontortilværelse som eksempel</dcterms:abstract>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dc:publisher>Biblioteksmedier</dc:publisher>
+              <dc:contributor xsi:type="dkdcplus:dkind">Jørgen Teytaud</dc:contributor>
+              <dc:date>2010</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Lydbog (cd)</dc:type>
+              <dc:format>1 cd i 1 mappe</dc:format>
+              <dcterms:extent>5 t., 32 min.</dcterms:extent>
+              <dc:identifier xsi:type="dkdcplus:ISBN">9788764451399</dc:identifier>
+              <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+              <dc:language>Dansk</dc:language>
+              <dcterms:spatial xsi:type="dkdcplus:DBCS">Danmark</dcterms:spatial>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>000000000000000000000000</marcx:leader>
+                <marcx:datafield tag="001" ind1="0" ind2="0">
+                  <marcx:subfield code="a">28318855</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20100628182045</marcx:subfield>
+                  <marcx:subfield code="d">20100617</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                  <marcx:subfield code="t">FAUST</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="004" ind1="0" ind2="0">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="005" ind1="0" ind2="0">
+                  <marcx:subfield code="z">p</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="008" ind1="0" ind2="0">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">2010</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="d">x</marcx:subfield>
+                  <marcx:subfield code="j">f</marcx:subfield>
+                  <marcx:subfield code="l">dan</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="009" ind1="0" ind2="0">
+                  <marcx:subfield code="a">r</marcx:subfield>
+                  <marcx:subfield code="g">xc</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="021" ind1="0" ind2="0">
+                  <marcx:subfield code="e">9788764451399</marcx:subfield>
+                  <marcx:subfield code="d">kr. 300,00</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="032" ind1="0" ind2="0">
+                  <marcx:subfield code="a">DLF201026</marcx:subfield>
+                  <marcx:subfield code="x">BKM201026</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="100" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Scherfig</marcx:subfield>
+                  <marcx:subfield code="h">Hans</marcx:subfield>
+                  <marcx:subfield code="4">aut</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="245" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Den ¤forsvundne fuldmægtig</marcx:subfield>
+                  <marcx:subfield code="ø">mp3</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="260" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Ballerup</marcx:subfield>
+                  <marcx:subfield code="b">Biblioteksmedier</marcx:subfield>
+                  <marcx:subfield code="c">2010</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="300" ind1="0" ind2="0">
+                  <marcx:subfield code="n">1 cd i 1 mappe</marcx:subfield>
+                  <marcx:subfield code="l">5 t., 32 min.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="440" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Gyldendals tranebøger</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="504" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Satire over vanemenneskets afhængighed af den borgerlige tilværelses konvention og disciplin med embedsmandens kontortilværelse som eksempel</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="520" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Gengivelse af bogen</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="520" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Indlæst efter 8. tranebogsudgave. 1996</marcx:subfield>
+                  <marcx:subfield code="n">2 157 732 4</marcx:subfield>
+                  <marcx:subfield code="r">9788700288225</marcx:subfield>
+                  <marcx:subfield code="r">87-00-28822-5</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="520" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Bogens originaludgave: 1938</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="652" ind1="0" ind2="0">
+                  <marcx:subfield code="n">86</marcx:subfield>
+                  <marcx:subfield code="z">06</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="652" ind1="0" ind2="0">
+                  <marcx:subfield code="o">sk</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="s">humor</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="s">samfundskritik</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="s">samfundssatire</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="q">Danmark</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Teytaud</marcx:subfield>
+                  <marcx:subfield code="h">Jørgen</marcx:subfield>
+                  <marcx:subfield code="4">dkind</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="s10" ind1="0" ind2="0">
+                  <marcx:subfield code="a">DBC</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="990" ind1="0" ind2="0">
+                  <marcx:subfield code="o">201026</marcx:subfield>
+                  <marcx:subfield code="b">v</marcx:subfield>
+                  <marcx:subfield code="b">s</marcx:subfield>
+                  <marcx:subfield code="u">nt</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="991" ind1="0" ind2="0">
+                  <marcx:subfield code="o">Også udgivet som cd'er (optaget i BKM 201024 (2 829 245 7))</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+<os:identifier>870970-basis:28318855</os:identifier>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

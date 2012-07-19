@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+  <dkabm:record>
+    <ac:identifier>49216092|860840</ac:identifier>
+    <ac:source>NJE</ac:source>
+    <dc:title>Kompass</dc:title>
+    <dc:title xsi:type="dkdcplus:full">Kompass</dc:title>
+    <dcterms:alternative>Kompass Danmark</dcterms:alternative>
+    <dcterms:alternative>Kompass Vol. 1, Register of Danish industry and commerce</dcterms:alternative>
+    <dc:subject xsi:type="dkdcplus:DK5">65.016</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DK5-Text">Danmark</dc:subject>
+    <dc:subject xsi:type="dkdcplus:genre">nonfiktion</dc:subject>
+    <dc:description xsi:type="dkdcplus:series">Delvis fortsættelse af: Kompass (Holte : 1961)</dc:description>
+    <dcterms:audience>voksenmaterialer</dcterms:audience>
+    <dc:publisher>Kompass-Danmark</dc:publisher>
+    <dc:date>2001</dc:date>
+    <dc:type xsi:type="dkdcplus:BibDK-Type">Årbog</dc:type>
+    <dc:identifier xsi:type="dkdcplus:ISSN">1397-2286</dc:identifier>
+    <dc:language xsi:type="dcterms:ISO639-2">mul</dc:language>
+    <dc:language>Flere sprog</dc:language>
+    <dc:language xsi:type="dcterms:ISO639-2">mul</dc:language>
+    <dc:language>Flere sprog</dc:language>
+  </dkabm:record>
+  <marcx:collection>
+    <marcx:record format="danMARC2" type="Bibliographic">
+      <marcx:leader>000000000000000000000000</marcx:leader>
+      <marcx:datafield tag="001" ind1="0" ind2="0">
+        <marcx:subfield code="a">49216092</marcx:subfield>
+        <marcx:subfield code="b">860840</marcx:subfield>
+        <marcx:subfield code="f">a</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="004" ind1="0" ind2="0">
+        <marcx:subfield code="r">n</marcx:subfield>
+        <marcx:subfield code="a">h</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="008" ind1="0" ind2="0">
+        <marcx:subfield code="u">d</marcx:subfield>
+        <marcx:subfield code="a">1993</marcx:subfield>
+        <marcx:subfield code="z">2001</marcx:subfield>
+        <marcx:subfield code="b">dk</marcx:subfield>
+        <marcx:subfield code="c">a</marcx:subfield>
+        <marcx:subfield code="h">z</marcx:subfield>
+        <marcx:subfield code="i">b</marcx:subfield>
+        <marcx:subfield code="l">mul</marcx:subfield>
+        <marcx:subfield code="v">0</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="009" ind1="0" ind2="0">
+        <marcx:subfield code="a">a</marcx:subfield>
+        <marcx:subfield code="g">xx</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="010" ind1="0" ind2="0">
+        <marcx:subfield code="a">D996973019</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="015" ind1="0" ind2="0">
+        <marcx:subfield code="a">22603116</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="015" ind1="0" ind2="0">
+        <marcx:subfield code="a">20712058</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="018" ind1="0" ind2="0">
+        <marcx:subfield code="a">49216084</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="022" ind1="0" ind2="0">
+        <marcx:subfield code="a">1397-2286</marcx:subfield>
+        <marcx:subfield code="c">ib.</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="041" ind1="0" ind2="0">
+        <marcx:subfield code="a">mul</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="082" ind1="0" ind2="0">
+        <marcx:subfield code="a">380.102 548 9</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="210" ind1="0" ind2="0">
+        <marcx:subfield code="a">Kompass, 1, Indeks Dan. ind. næringsliv. Prod./serv.</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="222" ind1="0" ind2="0">
+        <marcx:subfield code="a">Kompass. Bind 1, Indeks over Danmarks industri og næringsliv, Produkter/service</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="245" ind1="0" ind2="0">
+        <marcx:subfield code="a">Kompass</marcx:subfield>
+        <marcx:subfield code="n">Bind 1</marcx:subfield>
+        <marcx:subfield code="o">Indeks over Danmarks industri og næringsliv, Produkter/service</marcx:subfield>
+        <marcx:subfield code="p">Kompass</marcx:subfield>
+        <marcx:subfield code="q">Vol. 1, Register of Danish industry and commerce</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="255" ind1="0" ind2="0">
+        <marcx:subfield code="a">33. udgave (1993/94)-41. udgave (2001/2002)</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="260" ind1="0" ind2="0">
+        <marcx:subfield code="a">Holte</marcx:subfield>
+        <marcx:subfield code="b">Kompass-Danmark</marcx:subfield>
+        <marcx:subfield code="c">[1993-2001]</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="300" ind1="0" ind2="0">
+        <marcx:subfield code="c">30 cm</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="500" ind1="0" ind2="0">
+        <marcx:subfield code="a">Årlig</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="505" ind1="0" ind2="0">
+        <marcx:subfield code="a">Årspublikation</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="512" ind1="0" ind2="0">
+        <marcx:subfield code="i">Omslagstitel</marcx:subfield>
+        <marcx:subfield code="t">Kompass Danmark</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="526" ind1="0" ind2="0">
+        <marcx:subfield code="i">Delvis fortsættelse af</marcx:subfield>
+        <marcx:subfield code="t">Kompass (Holte : 1961)</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="526" ind1="0" ind2="0">
+        <marcx:subfield code="i">Sammenlagt med</marcx:subfield>
+        <marcx:subfield code="t">Kompass. Bind 2, Indeks over Danmarks industri og næringsliv, Firmaer</marcx:subfield>
+        <marcx:subfield code="b">, til:</marcx:subfield>
+        <marcx:subfield code="t">Kompass (Holte : 2002)</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="652" ind1="0" ind2="0">
+        <marcx:subfield code="m">65.016</marcx:subfield>
+      </marcx:datafield>
+    </marcx:record>
+  </marcx:collection>
+  <oss:openurl/>
+<os:identifier>860840-basis:49216092</os:identifier>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>23317605|870970</ac:identifier>
+              <ac:source>undefined</ac:source>
+              <dc:title>Soap</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Soap</dc:title>
+              <dc:title xsi:type="dkdcplus:series">Letlæst for voksne (Århus)</dc:title>
+              <dc:creator>Hanne Marie Svendsen (f. 1933)</dc:creator>
+              <dc:creator xsi:type="oss:sort">Svendsen, Hanne Marie (f. 1933)</dc:creator>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Skønlitteratur</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">film</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCN">for læsesvage voksne</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5">sk</dc:subject>
+              <dcterms:abstract>Molly får tilbudt en stor rolle i en soap-tvserie, men hun lader sig ikke imponere af det groteske og forlorne filmmiljø og træffer sit eget personlige valg</dcterms:abstract>
+              <dc:description>Kassettebånd Indlæst af: Dianna Vangsꜳ . Læsehastighed: Tilpasset</dc:description>
+              <dc:description>Bog: 2000</dc:description>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dkdcplus:version>Nyt oplag</dkdcplus:version>
+              <dc:publisher>Modtryk</dc:publisher>
+              <dc:date>2004</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Lydbog (bånd)</dc:type>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Sammensat materiale</dc:type>
+              <dc:format>2 kassettebånd, 1 bog</dc:format>
+              <dcterms:extent>2 t., 56 min., 101 sider</dcterms:extent>
+              <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+              <dc:language>Dansk</dc:language>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>000000000000000000000000</marcx:leader>
+                <marcx:datafield tag="001" ind1="0" ind2="0">
+                  <marcx:subfield code="a">23317605</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20050707001935</marcx:subfield>
+                  <marcx:subfield code="d">20010112</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                  <marcx:subfield code="t">FAUST</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="004" ind1="0" ind2="0">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="008" ind1="0" ind2="0">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="u">r</marcx:subfield>
+                  <marcx:subfield code="a">2001</marcx:subfield>
+                  <marcx:subfield code="z">2004</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="j">f</marcx:subfield>
+                  <marcx:subfield code="l">dan</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="009" ind1="0" ind2="0">
+                  <marcx:subfield code="a">r</marcx:subfield>
+                  <marcx:subfield code="g">xh</marcx:subfield>
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xx</marcx:subfield>
+                  <marcx:subfield code="a">v</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="021" ind1="0" ind2="0">
+                  <marcx:subfield code="n">7431</marcx:subfield>
+                  <marcx:subfield code="d">kr. 645,00</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="032" ind1="0" ind2="0">
+                  <marcx:subfield code="a">DLF200439</marcx:subfield>
+                  <marcx:subfield code="x">SFA200439</marcx:subfield>
+                  <marcx:subfield code="x">DAT200527</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="100" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Svendsen</marcx:subfield>
+                  <marcx:subfield code="h">Hanne Marie</marcx:subfield>
+                  <marcx:subfield code="c">f. 1933</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="245" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Soap</marcx:subfield>
+                  <marcx:subfield code="e">Hanne Marie Svendsen</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="250" ind1="0" ind2="0">
+                  <marcx:subfield code="x">[Nyt oplag]</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="260" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Århus</marcx:subfield>
+                  <marcx:subfield code="b">Modtryk</marcx:subfield>
+                  <marcx:subfield code="c">2004</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="300" ind1="0" ind2="0">
+                  <marcx:subfield code="n">2 kassettebånd</marcx:subfield>
+                  <marcx:subfield code="l">2 t., 56 min.</marcx:subfield>
+                  <marcx:subfield code="n">1 bog</marcx:subfield>
+                  <marcx:subfield code="a">101 sider</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="440" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Letlæst for voksne</marcx:subfield>
+                  <marcx:subfield code="ø">Århus</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="504" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Molly får tilbudt en stor rolle i en soap-tvserie, men hun lader sig ikke imponere af det groteske og forlorne filmmiljø og træffer sit eget personlige valg</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="512" ind1="0" ind2="0">
+                  <marcx:subfield code="i">Kassettebånd</marcx:subfield>
+                  <marcx:subfield code="e">Indlæst af: Dianna Vangsꜳ</marcx:subfield>
+                  <marcx:subfield code="b">. Læsehastighed: Tilpasset</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="512" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Bog: 2000</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="520" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Kassettebåndene er en gengivelse af bogen</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="520" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Tidligere: 1. udgave. 2001. (1. oplag: Århus : Modtryk AV Bog+bånd)</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="520" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Bogens originaludgave: 2000</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="521" ind1="0" ind2="0">
+                  <marcx:subfield code="a">[1. oplag]</marcx:subfield>
+                  <marcx:subfield code="c">2001</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="521" ind1="0" ind2="0">
+                  <marcx:subfield code="b">[Nyt oplag]</marcx:subfield>
+                  <marcx:subfield code="c">2004</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="652" ind1="0" ind2="0">
+                  <marcx:subfield code="n">86</marcx:subfield>
+                  <marcx:subfield code="z">06</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="652" ind1="0" ind2="0">
+                  <marcx:subfield code="o">sk</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="u">for læsesvage voksne</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="s">film</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="945" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Letlæst for voksne</marcx:subfield>
+                  <marcx:subfield code="ø">Modtryk</marcx:subfield>
+                  <marcx:subfield code="x">se</marcx:subfield>
+                  <marcx:subfield code="w">Letlæst for voksne (Århus)</marcx:subfield>
+                  <marcx:subfield code="z">440</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="s10" ind1="0" ind2="0">
+                  <marcx:subfield code="a">DBC</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="990" ind1="0" ind2="0">
+                  <marcx:subfield code="a">SFA</marcx:subfield>
+                  <marcx:subfield code="o">200439</marcx:subfield>
+                  <marcx:subfield code="b">F</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="991" ind1="0" ind2="0">
+                  <marcx:subfield code="o">Tidligere optaget i Av-fortegnelse 200106</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="991" ind1="0" ind2="0">
+                  <marcx:subfield code="o">Bogen optaget i A-fortegnelse 200043 (2 314 290 2)</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+<os:identifier>870970-basis:23317605</os:identifier>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
