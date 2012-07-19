@@ -2,7 +2,7 @@
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput">
   <SOAP-ENV:Body>
     <of:formatResponse>
-<ofo:ris xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput">TY  - SOUND
+<ofo:ris>TY  - SOUND
 A1  - Nephew
 T1  - USADSB
 SP  - 1 cd
@@ -15,7 +15,7 @@ KW  - Danmark
 KW  - rock
 KW  - vokal
 KW  - 2000-2009
-ER  - THIS IS WRONG
+ER  - 
 </ofo:ris>
     </of:formatResponse>
   </SOAP-ENV:Body>
