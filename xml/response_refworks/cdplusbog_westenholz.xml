@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Computer Program
+A1 Westenholz,Anders, f. 1936
+T1 Mona Lisa på afveje
+SP 1 cd, mp3, 2 t., 15 min.; 1 bog, 115 sider
+PP [Kbh.]
+PB KKB-Lyd
+YR 2006
+SN 8789793099
+T3 Læselyst 13
+NO Kunsteksperten Viggo har alletiders plan : at stjæle Mona Lisa. Det lykkes faktisk, og han sælger maleriet til en brasiliansk milliardær. Men dermed er lykken alligevel ikke gjort
+K1 humor
+K1 kriminalitet
+K1 kunst
+</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Book, Whole
+SR Print(0)
+A1 Nordisk Videnskabeligt Bibliotekarforbund. Medlemsmøde (5 : 1978 : Reykjavík)
+A1 Sigurðsson,Einar
+A1 Helgi Magnússon
+T1 Fra norrøne skrifter til nordiske forskningsbiblioteker
+SP 218 sider, illustreret
+PP Reykjavík
+PB Nordisk videnskabeligt Bibliotekarforbund
+YR 1979
+NO Af indholdet: Christian Hermann Jensen: Bibliotek og samfund - udviklingstendenser og konsekvenser for uddannelsen af personale til forskningsbibliotekerne. Biblioteksutdanning i Norden - sammenligning, vurdering og muligheter for samarbeid. EDB som hjälpmedel i de nordiska forskningsbibliotekens dagliga verksamhet. Forskningsbibliotekernes organisations-, styrings- og samarbejdsformer. Hans Westermann: Det grønlandske biblioteksvæsen.
+</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

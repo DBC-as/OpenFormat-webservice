@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Sound Recording
-A1 Nephew
-T1 USADSB
-SP 1 cd
-PP [S.l.]
-PB Copenhagen
-YR 2004
-SN Copenhagen CPHREC 0004
-NO Indspillet i Århus
-K1 Danmark
-K1 rock
-K1 vokal
-K1 2000-2009
+A1 Muti,Riccardo
+T1 Mascagni: Cavalleria Rusticana
+SP 
+PB EMI Classics
+YR 2011
+K1 klassisk musik
+LK http://www.bibzoom.dk/cgi-bin/WebObjects/TShop.woa/wa/PSShop/MusicCollection?sku=0000000018287060
 </ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

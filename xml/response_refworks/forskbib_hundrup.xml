@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Book, Whole
+SR Print(0)
+A1 Hundrup, F. E.
+T1 Lærerstanden ved de nedlagte Latinskoler i Ebeltolt, Grenaa, Hobro, Mariager og Skive
+SP 21 S.
+PP Randers
+PP Randers
+YR 1876
+</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

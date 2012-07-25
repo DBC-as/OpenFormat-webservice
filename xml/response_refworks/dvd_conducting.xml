@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Motion Picture
+T1 The ¤art of conducting - legendary conductors of a golden era
+SP 1 dvd-video, 1 t., 55 min. + 1 kommentarhæfte
+PP [S.l.]
+PB Teldec Classics International
+PB Warner Music Vision
+YR 2002
+SN Warner Music Vision 0927426682
+NO Indspillet 1931-1991
+K1 Frankrig
+K1 Rusland
+K1 Tjekkiet
+K1 Tyskland
+K1 Østrig
+K1 impressionisme
+K1 instrumental
+K1 orkester
+K1 ouverture
+K1 romantik
+K1 senromantik
+K1 symfoni
+K1 symfonisk digt
+K1 1800-1899
+K1 1900-1909
+K1 1910-1919
+</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Book, Whole
+SR Print(0)
+A1 Eken,Cecilie
+A1 Pardi,Charlotte
+T1 Aksel Å mangler ord
+SP 22 sider, illustreret i farver
+PP [Kbh.]
+ED 1. udgave, 1. oplag
+PB L&amp;R Uddannelse
+YR 2004
+SN 8725003526
+T3 Vilde veje : bøger til selvlæsning : bøger til dansk 3
+NO Aksel Å får at vide, at han snart ikke har flere ord tilbage. Hans ordforråd er næsten brugt op. Oline må hjælpe ham med at komme til lægen. Kan lægens kur mon hjælpe Aksel Å?
+K1 bøger
+K1 læsning
+K1 ord
+</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

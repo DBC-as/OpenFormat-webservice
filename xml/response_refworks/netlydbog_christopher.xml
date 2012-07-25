@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Sound Recording
+A1 Christopher,John
+T1 De ¤Brændende Bjerge
+SP 
+PB Tellerup AV
+YR 2010
+SN 9788790101879
+T3 Sværdet 2
+NO Science fiction. Forstødt fra tronen af broderen Peter foretrækker Luke at udforske landet bag de Brændende Bjerge. Her hersker andre normer, som åbner Lukes øjne for troldmændenes rænkespil, der koster dyrt i menneskeliv
+K1 science fiction
+LK http://netlydbog.dk/ting/object/150015:28439040
+</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Sound Recording
-A1 Nephew
-T1 USADSB
+A1 Rosenberg,Dan
+A1 Blake,Nancy
+A1 The ¤Clinch Mountain Boys
+T1 The ¤rough guide to the music of the Appalachians : mountain music - bluegrass, old-time, folk &amp; gospel
 SP 1 cd
-PP [S.l.]
-PB Copenhagen
-YR 2004
-SN Copenhagen CPHREC 0004
-NO Indspillet i Århus
-K1 Danmark
-K1 rock
+PP London
+PB World Music Network
+YR 2002
+SN World Music Network RGNET 1104 CD
+K1 Appalacherne
+K1 USA
+K1 bluegrass
+K1 country
+K1 folk
+K1 folkemusik
+K1 instrumental
+K1 old time
 K1 vokal
+K1 1990-1999
 K1 2000-2009
 </ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

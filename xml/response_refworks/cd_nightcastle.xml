@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Sound Recording
-A1 Nephew
-T1 USADSB
-SP 1 cd
-PP [S.l.]
-PB Copenhagen
-YR 2004
-SN Copenhagen CPHREC 0004
-NO Indspillet i Århus
-K1 Danmark
+A1 Trans-Siberian Orchestra
+T1 Night castle
+SP 2 cd'er + 1 tekstbilag
+PP New York
+PB Atlantic
+YR 2009
+SN Atlantic 5202712
+K1 USA
+K1 instrumental
+K1 pop
 K1 rock
+K1 symfonisk rock
 K1 vokal
 K1 2000-2009
 </ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

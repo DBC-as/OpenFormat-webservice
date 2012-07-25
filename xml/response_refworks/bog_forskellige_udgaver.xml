@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Book, Whole
+SR Print(0)
+A1 Elikofer,Jørgen
+A1 Falk,Mogens
+A1 Dansk Metalarbejderforbund
+T1 Sikkerhedsorganisation fra A til Æ : en håndbog for sikkerhedsrepræsentanter, tillidsmænd m.v. 1. udgave. Bemærkninger til bekendtgørelse om virksomhedernes sikkerheds- og sundhedsarbejde. 1. udgave, 2. oplag (Fotografisk genoptryk)
+SP 119, 61, [20] sider
+PP [Kbh.]
+PB Dansk Metalarbejderforbund
+YR 1988
+SN 8798202960
+NO Af Jørgen Elikofer
+K1 sikkerhedsarbejde
+K1 sikkerhedsorganisation
+</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

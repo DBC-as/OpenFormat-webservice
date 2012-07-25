@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Book, Whole
+SR Print(0)
+A1 Rude,Jeppe
+T1 ISDN-bogen
+SP 112 sider, illustreret
+PP Valby
+ED 1. udgave, 1. oplag
+PB Borgen
+YR 1991
+SN 8741859332
+T3 Borgen/data
+NO ISDN: Integrated Services Digital Network
+K1 datakommunikation
+K1 datanet
+K1 ISDN
+K1 telekommunikation
+K1 telenet
+</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
