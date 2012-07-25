@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - BOOK
+A1  - Salinger, J. D.
+T1  - Forbandede ungdom
+SP  - 222 sider
+CY  - [Kbh.]
+ET  - 2. udgave, 12. tranebogsoplag
+PB  - Gyldendal
+Y1  - 1985
+SN  - 8700387126
+T3  - Gyldendals tranebøger
+N1  - En 17-årig amerikansk ung mands konflikt med sig selv og de voksnes verden
+ER  - 
+</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
