@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - DATA
+T1  - Miracle
+SP  - 1 bog, [176] sider, illustreret (nogle i farver); 1 cd + 1 dvd-video, 20 min.
+CY  - Kansas City, Mo.
+PB  - Andrews McMeel
+Y1  - 2004
+SN  - 0740746960
+N1  - Bog Miracle : a celebration of new life Anne Geddes &amp; Celine Dion
+KW  - Canada
+KW  - børn
+KW  - pop
+KW  - rock
+KW  - vokal
+KW  - vuggevise
+KW  - 2000-2009
+ER  - 
+</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

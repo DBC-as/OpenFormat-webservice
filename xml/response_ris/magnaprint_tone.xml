@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - BOOK
+A1  - Brøgger,Suzanne
+T1  - Tone : epos
+SP  - 146 sider
+CY  - [Valby]
+CY  - [Ballerup]
+ET  - MagnaPrintudgave
+PB  - Borgen
+PB  - Nyt Dansk Litteraturselskab
+Y1  - 1985
+SN  - 8741870239
+T3  - MagnaPrintserien nr. 226
+N1  - Prosadigt om hattesyersken og kostumieren fru Tone
+ER  - 
+</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

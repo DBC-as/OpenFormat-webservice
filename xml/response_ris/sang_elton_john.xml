@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - CHAP
+A1  - Taupin,Elton John Bernie
+A1  - John,Elton
+A1  - Taupin,Bernie
+T1  - It's a little bit funny
+SP  - 276
+Y1  - 1991
+JF  - The New York Times great songs of the sixties
+N1  - Førstelinie
+KW  - sange
+KW  - vise
+KW  - vokal
+ER  - 
+</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

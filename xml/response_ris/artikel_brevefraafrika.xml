@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - NEWS
+A1  - Harryson,Kajsa
+T1  - Breve fra Afrika
+IS  - 1986-05-06
+Y1  - 1986
+JF  - Politiken
+SN  - 0907-1814
+N1  - Om Bror Blixen, den ægtemand, som Karen Blixen absolut ikke ville skilles fra
+KW  - biografier
+KW  - Bror von Blixen-Finecke
+KW  - Karen Blixen
+ER  - 
+</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

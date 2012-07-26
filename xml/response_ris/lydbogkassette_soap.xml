@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - DATA
+A1  - Svendsen,Hanne Marie, f. 1933
+T1  - Soap
+SP  - 2 kassettebånd, 2 t., 56 min.; 1 bog, 101 sider
+CY  - Århus
+ET  - Nyt oplag
+PB  - Modtryk
+Y1  - 2004
+T3  - Letlæst for voksne (Århus)
+N1  - Molly får tilbudt en stor rolle i en soap-tvserie, men hun lader sig ikke imponere af det groteske og forlorne filmmiljø og træffer sit eget personlige valg
+KW  - film
+ER  - 
+</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

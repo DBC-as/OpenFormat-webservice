@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - SOUND
+A1  - Sonne,Laust
+T1  - Laust Sonne
+SP  - 1 cd + 1 bilag
+ET  - 2012 version
+PB  - EMI Music Denmark
+Y1  - 2012
+SN  - We:Made EMI EMI 9558652
+KW  - Danmark
+KW  - electronica
+KW  - pop
+KW  - rock
+KW  - vokal
+KW  - 2010-2019
+ER  - 
+</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

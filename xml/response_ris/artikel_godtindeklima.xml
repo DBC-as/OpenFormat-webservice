@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - DATA
+A1  - Petersen,Steffen
+T1  - Godt indeklima og lavenergibyggeri skal gå hånd i hånd
+VL  - 60
+IS  - 10, Tillæg
+SP  - 18, 20
+EP  - 21
+Y1  - 2011
+JF  - Plast panorama Scandinavia
+KW  - arkitektur
+KW  - boliger
+KW  - byggeri
+KW  - design
+KW  - energiforbrug
+KW  - indeklima
+KW  - ingeniørarbejde
+KW  - kontorhuse
+KW  - simuleringsteknik
+UR  - http://techmedia.swiflet.com/tm/pla/56/1/
+ER  - 
+</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

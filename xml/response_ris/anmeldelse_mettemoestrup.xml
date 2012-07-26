@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - NEWS
+A1  - Sønsthagen,Kari
+T1  - [Anmeldelse]
+VL  - 2
+IS  - 2010-03-05
+SP  - 7
+Y1  - 2010
+JF  - Berlingske tidende
+SN  - 0106-4223
+N1  - Vurdering: 3/6
+ER  - 
+</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

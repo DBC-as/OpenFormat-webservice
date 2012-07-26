@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - EBOOK
+A1  - Bitfrost Interactive
+T1  - Matematik i Måneby
+SP  - 
+ET  - Ver. 1.03
+PB  - Bitfrost
+Y1  - 2011
+N1  - Undervisning. Matematikprogram i adventurespilgenren. Med spilleren som konstruktør (beregner) skal der bygges en by i et goldt månelandskab. Opgaverne går fra at bygge store villaer til at beregne mængden af mad til håndværkerne
+KW  - matematik
+UR  - http://downlaan.spilogmedier.dk/product/lp26063/
+ER  - 
+</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
