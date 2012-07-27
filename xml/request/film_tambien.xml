@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+  <dkabm:record>
+    <ac:identifier>29320071|870970</ac:identifier>
+    <ac:source>NJE</ac:source>
+    <dc:title>También la lluvia</dc:title>
+    <dc:title xsi:type="dkdcplus:full">También la lluvia</dc:title>
+    <dcterms:alternative>Even the rain</dcterms:alternative>
+    <dc:creator xsi:type="dkdcplus:drt">Iciar Bollain</dc:creator>
+    <dc:creator xsi:type="oss:sort">Bollain, Iciar</dc:creator>
+    <dc:subject xsi:type="dkdcplus:DK5">77.7</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DK5-Text">Spillefilm</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCS">drama</dc:subject>
+    <dc:subject xsi:type="dkdcplus:genre">drama</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCS">drikkevand</dc:subject>
+    <dc:subject xsi:type="dkdcplus:genre">fiktion</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCS">indianere</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCS">korruption</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCS">magtmisbrug</dc:subject>
+    <dcterms:abstract>Bolivia år 2000. Indianeren Daniel får en rolle i en film om Columbus, men er samtidig involveret i en protestbevægelse, så han fængsles og prygles af regeringssoldater. Filmholdet får købt ham fri, men må opgive projektet, og har nu et ansvar for Daniel og hans familie</dcterms:abstract>
+    <dc:description>Originalfilmen: Spanien : Morena Films : en coproducción con Vaca Films ; Frankrig : Mandarin Cinema ; Mexico : Alebrije Cine y Video ... et al., 2010</dc:description>
+    <dc:description>Af indholdet: Extras</dc:description>
+    <dcterms:audience xsi:type="dkdcplus:medieraad">Mærkning: Tilladt for børn over 15 år</dcterms:audience>
+    <dcterms:audience>voksenmaterialer</dcterms:audience>
+    <dc:publisher>Pan Vision</dc:publisher>
+    <dc:contributor>Alex Catalán </dc:contributor>
+    <dc:contributor>Iciar Bollaín </dc:contributor>
+    <dc:contributor>Paul Laverty </dc:contributor>
+    <dc:contributor xsi:type="dkdcplus:act">Luis Tosar</dc:contributor>
+    <dc:contributor xsi:type="dkdcplus:act">Gael García Bernal</dc:contributor>
+    <dc:contributor xsi:type="dkdcplus:act">Juan Carlos Aduviri</dc:contributor>
+    <dc:contributor xsi:type="dkdcplus:act">Karra Elcjalde</dc:contributor>
+    <dc:contributor xsi:type="dkdcplus:act">Raúl Arévalo</dc:contributor>
+    <dc:contributor xsi:type="dkdcplus:act">Carlos Santos</dc:contributor>
+    <dc:contributor xsi:type="dkdcplus:act">Cassandra Ciaguerotti</dc:contributor>
+    <dc:date>2012</dc:date>
+    <dc:type xsi:type="dkdcplus:BibDK-Type">Dvd</dc:type>
+    <dc:format>1 dvd-video</dc:format>
+    <dcterms:extent>ca. 103 min.</dcterms:extent>
+    <dc:language xsi:type="dcterms:ISO639-2">spa</dc:language>
+    <dc:language>Spansk</dc:language>
+    <dc:language xsi:type="dkdcplus:subtitles">swe</dc:language>
+    <dc:language xsi:type="dkdcplus:subtitles">nor</dc:language>
+    <dc:language xsi:type="dkdcplus:subtitles">dan</dc:language>
+    <dc:language xsi:type="dkdcplus:subtitles">fin</dc:language>
+    <dcterms:spatial xsi:type="dkdcplus:DBCS">Bolivia</dcterms:spatial>
+    <dcterms:temporal xsi:type="dkdcplus:DBCP">2000-2009</dcterms:temporal>
+  </dkabm:record>
+  <marcx:collection>
+    <marcx:record format="danMARC2" type="Bibliographic">
+      <marcx:leader>000000000000000000000000</marcx:leader>
+      <marcx:datafield tag="001" ind1="0" ind2="0">
+        <marcx:subfield code="a">29320071</marcx:subfield>
+        <marcx:subfield code="b">870970</marcx:subfield>
+        <marcx:subfield code="c">20120507181129</marcx:subfield>
+        <marcx:subfield code="d">20120410</marcx:subfield>
+        <marcx:subfield code="f">a</marcx:subfield>
+        <marcx:subfield code="t">FAUST</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="004" ind1="0" ind2="0">
+        <marcx:subfield code="r">n</marcx:subfield>
+        <marcx:subfield code="a">e</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="006" ind1="0" ind2="0">
+        <marcx:subfield code="c">20120510</marcx:subfield>
+        <marcx:subfield code="2">e</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="006" ind1="0" ind2="0">
+        <marcx:subfield code="d">15</marcx:subfield>
+        <marcx:subfield code="2">b</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="008" ind1="0" ind2="0">
+        <marcx:subfield code="t">m</marcx:subfield>
+        <marcx:subfield code="u">f</marcx:subfield>
+        <marcx:subfield code="a">2012</marcx:subfield>
+        <marcx:subfield code="b">se</marcx:subfield>
+        <marcx:subfield code="l">spa</marcx:subfield>
+        <marcx:subfield code="v">0</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="009" ind1="0" ind2="0">
+        <marcx:subfield code="a">m</marcx:subfield>
+        <marcx:subfield code="g">th</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="021" ind1="0" ind2="0">
+        <marcx:subfield code="b">Brugsretskategori: C+</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="023" ind1="0" ind2="0">
+        <marcx:subfield code="a">7391970040664</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="032" ind1="0" ind2="0">
+        <marcx:subfield code="a">DBI201219</marcx:subfield>
+        <marcx:subfield code="x">BKM201219</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="041" ind1="0" ind2="0">
+        <marcx:subfield code="a">spa</marcx:subfield>
+        <marcx:subfield code="u">swe</marcx:subfield>
+        <marcx:subfield code="u">nor</marcx:subfield>
+        <marcx:subfield code="u">dan</marcx:subfield>
+        <marcx:subfield code="u">fin</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="245" ind1="0" ind2="0">
+        <marcx:subfield code="a">También la lluvia</marcx:subfield>
+        <marcx:subfield code="e">director de fotografía Alex Catalán</marcx:subfield>
+        <marcx:subfield code="f">producida por Juan Gordon</marcx:subfield>
+        <marcx:subfield code="e">escrita por Paul Laverty</marcx:subfield>
+        <marcx:subfield code="e">dirigida por Iciar Bollain</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="260" ind1="0" ind2="0">
+        <marcx:subfield code="a">[Stockholm]</marcx:subfield>
+        <marcx:subfield code="b">Pan Vision</marcx:subfield>
+        <marcx:subfield code="c">2012</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="300" ind1="0" ind2="0">
+        <marcx:subfield code="n">1 dvd-video</marcx:subfield>
+        <marcx:subfield code="l">ca. 103 min.</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="504" ind1="0" ind2="0">
+        <marcx:subfield code="a">Bolivia år 2000. Indianeren Daniel får en rolle i en film om Columbus, men er samtidig involveret i en protestbevægelse, så han fængsles og prygles af regeringssoldater. Filmholdet får købt ham fri, men må opgive projektet, og har nu et ansvar for Daniel og hans familie</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="508" ind1="0" ind2="0">
+        <marcx:subfield code="a">Spansk tale</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="508" ind1="0" ind2="0">
+        <marcx:subfield code="a">Undertekster på svensk, norsk, dansk og finsk</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="512" ind1="0" ind2="0">
+        <marcx:subfield code="i">Titel på dvd-etiket og omslag</marcx:subfield>
+        <marcx:subfield code="t">Even the rain</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="512" ind1="0" ind2="0">
+        <marcx:subfield code="i">Medvirkende</marcx:subfield>
+        <marcx:subfield code="e">Luis Tosar, Gael García Bernal, Juan Carlos Aduviri, Karra Elcjalde, Raúl Arévalo, Carlos Santos, Cassandra Ciaguerotti ... et al.</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="512" ind1="0" ind2="0">
+        <marcx:subfield code="a">Originalfilmen: Spanien : Morena Films : en coproducción con Vaca Films ; Frankrig : Mandarin Cinema ; Mexico : Alebrije Cine y Video ... et al., 2010</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="517" ind1="0" ind2="0">
+        <marcx:subfield code="a">Mærkning: Tilladt for børn over 15 år</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="534" ind1="0" ind2="0">
+        <marcx:subfield code="a">Af indholdet: Extras</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="538" ind1="0" ind2="0">
+        <marcx:subfield code="a">D 5900073</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="652" ind1="0" ind2="0">
+        <marcx:subfield code="m">77.7</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="666" ind1="0" ind2="0">
+        <marcx:subfield code="s">drama</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="666" ind1="0" ind2="0">
+        <marcx:subfield code="s">indianere</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="666" ind1="0" ind2="0">
+        <marcx:subfield code="s">korruption</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="666" ind1="0" ind2="0">
+        <marcx:subfield code="s">magtmisbrug</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="666" ind1="0" ind2="0">
+        <marcx:subfield code="s">drikkevand</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="666" ind1="0" ind2="0">
+        <marcx:subfield code="q">Bolivia</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="666" ind1="0" ind2="0">
+        <marcx:subfield code="i">2000-2009</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="700" ind1="0" ind2="0">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Catalán</marcx:subfield>
+        <marcx:subfield code="h">Alex</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="700" ind1="0" ind2="0">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Bollaín</marcx:subfield>
+        <marcx:subfield code="h">Iciar</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="700" ind1="0" ind2="0">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Laverty</marcx:subfield>
+        <marcx:subfield code="h">Paul</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="s10" ind1="0" ind2="0">
+        <marcx:subfield code="a">DBC</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="990" ind1="0" ind2="0">
+        <marcx:subfield code="o">201219</marcx:subfield>
+        <marcx:subfield code="b">n</marcx:subfield>
+        <marcx:subfield code="b">v</marcx:subfield>
+        <marcx:subfield code="u">nt</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="991" ind1="0" ind2="0">
+        <marcx:subfield code="o">Agenturholder: Scanbox</marcx:subfield>
+      </marcx:datafield>
+    </marcx:record>
+  </marcx:collection>
+  <oss:openurl/>
+            <os:identifier>870970-basis:29320071</os:identifier>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
