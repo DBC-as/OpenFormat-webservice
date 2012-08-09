@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - MPCT
+A1  - Klan,Rune
+T1  - Rune Klan - tre-i-en
+SP  - 1 dvd-video, 120 min., farve med sort-hvide sekvenser
+CY  - [S.l.]
+PB  - CMC
+Y1  - 2003
+SN  - 4909099
+N1  - Tilrettelæggelse Rune Klan
+KW  - humor
+KW  - tryllekunster
+ER  - 
+</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
