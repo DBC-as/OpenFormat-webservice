@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Motion Picture
+A1 Klan,Rune
+T1 Rune Klan - tre-i-en
+SP 1 dvd-video, 120 min., farve med sort-hvide sekvenser
+PP [S.l.]
+PB CMC
+YR 2003
+SN 4909099
+NO Tilrettelæggelse Rune Klan
+K1 humor
+K1 tryllekunster
+</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
