@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+  <dkabm:record>
+    <ac:identifier>23954915|870970</ac:identifier>
+    <ac:source>NJE</ac:source>
+    <dc:title>The battle of Mexico City</dc:title>
+    <dc:title xsi:type="dkdcplus:full">The battle of Mexico City</dc:title>
+    <dc:creator>Rage Against the Machine</dc:creator>
+    <dc:creator xsi:type="oss:sort">Rage Against the Machine</dc:creator>
+    <dc:subject xsi:type="dkdcplus:DK5">78.794:5</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DK5-Text">Rock (Beat). Moderne folkemusik (Folk)</dc:subject>
+    <dc:description>Live-optagelse</dc:description>
+    <dc:description>Af indholdet: Bonus features (Photo gallery ; Interview with Noam Chomsky ; Interview with Marcos ; Pre-show segment ; Tom Morello's tour of Mexico City ; Dvd-rom "Rage context")</dc:description>
+    <dcterms:audience>børnematerialer</dcterms:audience>
+    <dcterms:audience>voksenmaterialer</dcterms:audience>
+    <dc:publisher>SMV Enterprisis</dc:publisher>
+    <dc:contributor>Zack De la Rocha </dc:contributor>
+    <dc:contributor>Tim Bob </dc:contributor>
+    <dc:contributor>Brad Wilk </dc:contributor>
+    <dc:contributor>Tom Morello </dc:contributor>
+    <dc:contributor xsi:type="dkdcplus:act">Rage Against the Machine </dc:contributor>
+    <dc:date>2002</dc:date>
+    <dc:type xsi:type="dkdcplus:BibDK-Type">Dvd</dc:type>
+    <dc:format>1 dvd-video, surround</dc:format>
+    <dcterms:extent>68 min.</dcterms:extent>
+    <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+    <dc:language>Engelsk</dc:language>
+    <dc:language xsi:type="dkdcplus:subtitles">eng</dc:language>
+    <dc:language xsi:type="dkdcplus:subtitles">spa</dc:language>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Testify</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Guerrilla radio</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">People of the sun</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Calm like a bomb</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Sleep now in the fire</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Born of a broken man</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Bombtrack</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Know your enemy</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">No shelter</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">War within a breath</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Bulls on parade</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Killing in the name</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Zapata's blood</dcterms:hasPart>
+    <dcterms:hasPart xsi:type="dkdcplus:track">Freedom</dcterms:hasPart>
+  </dkabm:record>
+  <marcx:collection>
+    <marcx:record format="danMARC2" type="Bibliographic">
+      <marcx:leader>000000000000000000000000</marcx:leader>
+      <marcx:datafield tag="001" ind1="0" ind2="0">
+        <marcx:subfield code="a">23954915</marcx:subfield>
+        <marcx:subfield code="b">870970</marcx:subfield>
+        <marcx:subfield code="c">20060620202338</marcx:subfield>
+        <marcx:subfield code="d">20020222</marcx:subfield>
+        <marcx:subfield code="f">a</marcx:subfield>
+        <marcx:subfield code="t">FAUST</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="004" ind1="0" ind2="0">
+        <marcx:subfield code="r">n</marcx:subfield>
+        <marcx:subfield code="a">e</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="008" ind1="0" ind2="0">
+        <marcx:subfield code="t">m</marcx:subfield>
+        <marcx:subfield code="u">f</marcx:subfield>
+        <marcx:subfield code="a">2002</marcx:subfield>
+        <marcx:subfield code="b">xx</marcx:subfield>
+        <marcx:subfield code="l">eng</marcx:subfield>
+        <marcx:subfield code="v">0</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="009" ind1="0" ind2="0">
+        <marcx:subfield code="a">s</marcx:subfield>
+        <marcx:subfield code="b">m</marcx:subfield>
+        <marcx:subfield code="g">th</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="021" ind1="0" ind2="0">
+        <marcx:subfield code="n">23954915</marcx:subfield>
+        <marcx:subfield code="d">kr. 912,50</marcx:subfield>
+        <marcx:subfield code="b">brugsretskategori: E</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="032" ind1="0" ind2="0">
+        <marcx:subfield code="x">DAT200220</marcx:subfield>
+        <marcx:subfield code="x">DAT990626</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="039" ind1="0" ind2="0">
+        <marcx:subfield code="a">bef</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="041" ind1="0" ind2="0">
+        <marcx:subfield code="a">eng</marcx:subfield>
+        <marcx:subfield code="u">eng</marcx:subfield>
+        <marcx:subfield code="u">spa</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="110" ind1="0" ind2="0">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Rage Against the Machine</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="245" ind1="0" ind2="0">
+        <marcx:subfield code="a">The ¤battle of Mexico City</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="260" ind1="0" ind2="0">
+        <marcx:subfield code="a">[S.l.]</marcx:subfield>
+        <marcx:subfield code="b">SMV Enterprisis</marcx:subfield>
+        <marcx:subfield code="f">[Ballerup]</marcx:subfield>
+        <marcx:subfield code="g">distribution: DBC medier</marcx:subfield>
+        <marcx:subfield code="c">[2002]</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="300" ind1="0" ind2="0">
+        <marcx:subfield code="n">1 dvd-video</marcx:subfield>
+        <marcx:subfield code="l">68 min.</marcx:subfield>
+        <marcx:subfield code="b">surround</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="508" ind1="0" ind2="0">
+        <marcx:subfield code="a">Engelsk sang og tale</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="508" ind1="0" ind2="0">
+        <marcx:subfield code="a">Undertekster på engelsk og spansk</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="512" ind1="0" ind2="0">
+        <marcx:subfield code="i">Medvirkende</marcx:subfield>
+        <marcx:subfield code="e">Rage Against the Machine (Zack de la Rocha, Tom Morello, Y.Tim.K., Brad Wilk) ... et al.</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="512" ind1="0" ind2="0">
+        <marcx:subfield code="a">Live-optagelse</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="531" ind1="0" ind2="0">
+        <marcx:subfield code="a">Indhold:</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="534" ind1="0" ind2="0">
+        <marcx:subfield code="a">Af indholdet: Bonus features (Photo gallery ; Interview with Noam Chomsky ; Interview with Marcos ; Pre-show segment ; Tom Morello's tour of Mexico City ; Dvd-rom "Rage context")</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="652" ind1="0" ind2="0">
+        <marcx:subfield code="m">78.794</marcx:subfield>
+        <marcx:subfield code="v">5</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="700" ind1="0" ind2="0">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="å">1</marcx:subfield>
+        <marcx:subfield code="A">delarocha</marcx:subfield>
+        <marcx:subfield code="a">De la Rocha</marcx:subfield>
+        <marcx:subfield code="h">Zack</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="700" ind1="0" ind2="0">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="å">2</marcx:subfield>
+        <marcx:subfield code="a">Bob</marcx:subfield>
+        <marcx:subfield code="h">Tim</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="700" ind1="0" ind2="0">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Wilk</marcx:subfield>
+        <marcx:subfield code="h">Brad</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="700" ind1="0" ind2="0">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Morello</marcx:subfield>
+        <marcx:subfield code="h">Tom</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="795" ind1="0" ind2="0">
+        <marcx:subfield code="å">11</marcx:subfield>
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Testify</marcx:subfield>
+        <marcx:subfield code="a">Guerrilla radio</marcx:subfield>
+        <marcx:subfield code="a">People of the sun</marcx:subfield>
+        <marcx:subfield code="a">Calm like a bomb</marcx:subfield>
+        <marcx:subfield code="a">Sleep now in the fire</marcx:subfield>
+        <marcx:subfield code="a">Born of a broken man</marcx:subfield>
+        <marcx:subfield code="a">Bombtrack</marcx:subfield>
+        <marcx:subfield code="a">Know your enemy</marcx:subfield>
+        <marcx:subfield code="a">No shelter</marcx:subfield>
+        <marcx:subfield code="a">War within a breath</marcx:subfield>
+        <marcx:subfield code="a">Bulls on parade</marcx:subfield>
+        <marcx:subfield code="a">Killing in the name</marcx:subfield>
+        <marcx:subfield code="a">Zapata's blood</marcx:subfield>
+        <marcx:subfield code="a">Freedom</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="900" ind1="0" ind2="0">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Rocha</marcx:subfield>
+        <marcx:subfield code="h">Zack de la</marcx:subfield>
+        <marcx:subfield code="x">se</marcx:subfield>
+        <marcx:subfield code="w">De la Rocha, Zack</marcx:subfield>
+        <marcx:subfield code="z">700/1</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="900" ind1="0" ind2="0">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Y.tim.K.</marcx:subfield>
+        <marcx:subfield code="x">se</marcx:subfield>
+        <marcx:subfield code="w">Bob, Tim</marcx:subfield>
+        <marcx:subfield code="z">700/2</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="s10" ind1="0" ind2="0">
+        <marcx:subfield code="a">DBC</marcx:subfield>
+      </marcx:datafield>
+    </marcx:record>
+  </marcx:collection>
+  <oss:openurl/>
+            <os:identifier>870970-basis:23954915</os:identifier>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
