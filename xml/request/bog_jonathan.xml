@@ -167,6 +167,10 @@
                 <marcx:datafield tag="666" ind1="0" ind2="0">
                   <marcx:subfield code="s">eventyrlige fortællinger</marcx:subfield>
                 </marcx:datafield>
+                <marcx:datafield tag="n50" ind1="0" ind2="0">
+                  <marcx:subfield code="a">19830729</marcx:subfield>
+                </marcx:datafield>
+                </marcx:datafield>
                 <marcx:datafield tag="s10" ind1="0" ind2="0">
                   <marcx:subfield code="a">DBC</marcx:subfield>
                 </marcx:datafield>
@@ -179,6 +183,7 @@
             </marcx:collection>
             <oss:openurl>_BASEURL_url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:book&amp;rft.btitle=Jonathan+Livingston+Havmåge&amp;rft.aulast=Bach&amp;rft.aufirst=Richard&amp;rft.auinit=R&amp;rft.date=2010&amp;rft.isbn=9788775605873&amp;rft.pub=Lindhardt+og+Ringhof&amp;rft.edition=1.+i.e.2.+udgave&amp;rft.genre=book</oss:openurl>
 <os:identifier>870970-basis:05946719</os:identifier>
+<os:holdingsCount>0</os:holdingsCount>
             <os:formatsAvailable>
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
