@@ -170,7 +170,6 @@
                 <marcx:datafield tag="n50" ind1="0" ind2="0">
                   <marcx:subfield code="a">19830729</marcx:subfield>
                 </marcx:datafield>
-                </marcx:datafield>
                 <marcx:datafield tag="s10" ind1="0" ind2="0">
                   <marcx:subfield code="a">DBC</marcx:subfield>
                 </marcx:datafield>
