@@ -67,6 +67,7 @@
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element ref="bibdk:pid"/>
+				<xs:element ref="bibdk:hostPublicationID" minOccurs="0"/>
 				<xs:element ref="bibdk:holdbackEndDate" minOccurs="0"/>
 				<xs:element ref="bibdk:requestMethod" minOccurs="0"/>
 				<xs:element ref="bibdk:restrictedUse" minOccurs="0"/>
@@ -254,6 +255,7 @@
 			</xs:simpleContent>
 		</xs:complexType>
 	</xs:element>
+	<xs:element name="hostPublicationID" type="xs:string"/>
 	<xs:element name="identifier" type="xs:string"/>
 	<xs:element name="identifierHeader" type="xs:string"/>
 	<xs:element name="identifiers">
