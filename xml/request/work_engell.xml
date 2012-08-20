@@ -487,7 +487,7 @@
                   <marcx:subfield code="c">1998</marcx:subfield>
                 </marcx:datafield>
                 <marcx:datafield tag="300" ind1="0" ind2="0">
-                  <marcx:subfield code="n">10 kassettebånd</marcx:subfield>
+                  <marcx:subfield code="n">\10 kassettebånd\</marcx:subfield>
                   <marcx:subfield code="a">15 t.</marcx:subfield>
                   <marcx:subfield code="a">i 1 mappe</marcx:subfield>
                 </marcx:datafield>
