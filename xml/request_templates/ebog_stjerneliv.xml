@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+  <dkabm:record>
+    <ac:identifier>29465606|870970</ac:identifier>
+    <ac:source>NJE</ac:source>
+    <dc:title>Stjerneliv</dc:title>
+    <dc:title xsi:type="dkdcplus:full">Stjerneliv</dc:title>
+    <dc:title xsi:type="dkdcplus:series">Min søster, vampyren ; nr. 8</dc:title>
+    <dc:creator xsi:type="dkdcplus:aut">Sienna Mercer </dc:creator>
+    <dc:creator xsi:type="oss:sort">Mercer, Sienna</dc:creator>
+    <dc:subject xsi:type="dkdcplus:DK5-Text">Skønlitteratur</dc:subject>
+    <dc:subject xsi:type="dkdcplus:genre">fiktion</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCS">film</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCS">filmstjerner</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCN">for 10 år</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCN">for 11 år</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCN">for 12 år</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCN">for 13 år</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCS">kærlighed</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCS">piger</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DK5">sk</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCS">søstre</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCS">tvillinger</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCS">unge</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCS">vampyrer</dc:subject>
+    <dcterms:abstract>Menneskepigen Olivia og vampyrpigen Evy er tvillinger. Nu har Hollywood fået øje på dem og vil lave en film med dem begge. Olivia har store skuespillerdrømme, men Evy synes ikke, at det er noget for hende</dcterms:abstract>
+    <dc:description>Downloades i EPUB-format</dc:description>
+    <dc:description>Beskrivelsen baseret på det fysiske forlæg</dc:description>
+    <dcterms:audience>børnematerialer</dcterms:audience>
+    <dkdcplus:version>1. e-bogsudgave</dkdcplus:version>
+    <dc:publisher>Alvilda</dc:publisher>
+    <dc:contributor xsi:type="dkdcplus:trl">Lis Andersen</dc:contributor>
+    <dc:contributor xsi:type="dkdcplus:edt">Nicole Boyle Rødtnes</dc:contributor>
+    <dc:date>2012</dc:date>
+    <dc:type xsi:type="dkdcplus:BibDK-Type">Ebog</dc:type>
+    <dcterms:extent>200 sider</dcterms:extent>
+    <dc:identifier xsi:type="dkdcplus:ISBN">9788771054286</dc:identifier>
+    <dc:identifier xsi:type="dcterms:URI">https://ereolen.dk/ting/object/150028:29465606</dc:identifier>
+    <dc:source>Star style</dc:source>
+    <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+    <dc:language>Dansk</dc:language>
+    <dcterms:spatial xsi:type="dkdcplus:DBCS">Hollywood</dcterms:spatial>
+  </dkabm:record>
+  <marcx:collection>
+    <marcx:record format="danMARC2" type="Bibliographic">
+      <marcx:leader>000000000000000000000000</marcx:leader>
+      <marcx:datafield tag="001" ind1="0" ind2="0">
+        <marcx:subfield code="a">29465606</marcx:subfield>
+        <marcx:subfield code="b">870970</marcx:subfield>
+        <marcx:subfield code="c">20120816082705</marcx:subfield>
+        <marcx:subfield code="d">20120813</marcx:subfield>
+        <marcx:subfield code="f">a</marcx:subfield>
+        <marcx:subfield code="t">FAUST</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="004" ind1="0" ind2="0">
+        <marcx:subfield code="r">n</marcx:subfield>
+        <marcx:subfield code="a">e</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="008" ind1="0" ind2="0">
+        <marcx:subfield code="t">m</marcx:subfield>
+        <marcx:subfield code="u">f</marcx:subfield>
+        <marcx:subfield code="a">2012</marcx:subfield>
+        <marcx:subfield code="b">dk</marcx:subfield>
+        <marcx:subfield code="d">x</marcx:subfield>
+        <marcx:subfield code="j">f</marcx:subfield>
+        <marcx:subfield code="l">dan</marcx:subfield>
+        <marcx:subfield code="n">b</marcx:subfield>
+        <marcx:subfield code="o">b</marcx:subfield>
+        <marcx:subfield code="w">1</marcx:subfield>
+        <marcx:subfield code="v">5</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="009" ind1="0" ind2="0">
+        <marcx:subfield code="a">a</marcx:subfield>
+        <marcx:subfield code="g">xe</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="021" ind1="0" ind2="0">
+        <marcx:subfield code="e">9788771054286</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="032" ind1="0" ind2="0">
+        <marcx:subfield code="a">DBF201235</marcx:subfield>
+        <marcx:subfield code="x">BKM201235</marcx:subfield>
+        <marcx:subfield code="x">ERE201235</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="041" ind1="0" ind2="0">
+        <marcx:subfield code="a">dan</marcx:subfield>
+        <marcx:subfield code="c">eng</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="100" ind1="0" ind2="0">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Mercer</marcx:subfield>
+        <marcx:subfield code="h">Sienna</marcx:subfield>
+        <marcx:subfield code="4">aut</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="241" ind1="0" ind2="0">
+        <marcx:subfield code="a">Star style</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="245" ind1="0" ind2="0">
+        <marcx:subfield code="a">Stjerneliv</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="250" ind1="0" ind2="0">
+        <marcx:subfield code="a">1. e-bogsudgave</marcx:subfield>
+        <marcx:subfield code="b">÷</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="260" ind1="0" ind2="0">
+        <marcx:subfield code="b">Alvilda</marcx:subfield>
+        <marcx:subfield code="g">[sælges på internettet]</marcx:subfield>
+        <marcx:subfield code="c">2012</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="300" ind1="0" ind2="0">
+        <marcx:subfield code="a">200 sider</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="440" ind1="0" ind2="0">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Min søster, vampyren</marcx:subfield>
+        <marcx:subfield code="V">8</marcx:subfield>
+        <marcx:subfield code="v">nr. 8</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="504" ind1="0" ind2="0">
+        <marcx:subfield code="a">Menneskepigen Olivia og vampyrpigen Evy er tvillinger. Nu har Hollywood fået øje på dem og vil lave en film med dem begge. Olivia har store skuespillerdrømme, men Evy synes ikke, at det er noget for hende</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="512" ind1="0" ind2="0">
+        <marcx:subfield code="a">Downloades i EPUB-format</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="512" ind1="0" ind2="0">
+        <marcx:subfield code="a">Beskrivelsen baseret på det fysiske forlæg</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="652" ind1="0" ind2="0">
+        <marcx:subfield code="n">83</marcx:subfield>
+        <marcx:subfield code="z">296</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="652" ind1="0" ind2="0">
+        <marcx:subfield code="o">sk</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="666" ind1="0" ind2="0">
+        <marcx:subfield code="s">piger</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="666" ind1="0" ind2="0">
+        <marcx:subfield code="s">søstre</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="666" ind1="0" ind2="0">
+        <marcx:subfield code="s">tvillinger</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="666" ind1="0" ind2="0">
+        <marcx:subfield code="s">vampyrer</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="666" ind1="0" ind2="0">
+        <marcx:subfield code="s">unge</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="666" ind1="0" ind2="0">
+        <marcx:subfield code="s">kærlighed</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="666" ind1="0" ind2="0">
+        <marcx:subfield code="s">film</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="666" ind1="0" ind2="0">
+        <marcx:subfield code="s">filmstjerner</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="666" ind1="0" ind2="0">
+        <marcx:subfield code="q">Hollywood</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="666" ind1="0" ind2="0">
+        <marcx:subfield code="u">for 10 år</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="666" ind1="0" ind2="0">
+        <marcx:subfield code="u">for 11 år</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="666" ind1="0" ind2="0">
+        <marcx:subfield code="u">for 12 år</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="666" ind1="0" ind2="0">
+        <marcx:subfield code="u">for 13 år</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="720" ind1="0" ind2="0">
+        <marcx:subfield code="o">Lis Andersen</marcx:subfield>
+        <marcx:subfield code="4">trl</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="720" ind1="0" ind2="0">
+        <marcx:subfield code="o">Nicole Boyle Rødtnes</marcx:subfield>
+        <marcx:subfield code="4">edt</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="856" ind1="0" ind2="0">
+        <marcx:subfield code="z">Adgang til lån for biblioteksbrugere</marcx:subfield>
+        <marcx:subfield code="u">https://ereolen.dk/ting/object/150028:29465606</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="s10" ind1="0" ind2="0">
+        <marcx:subfield code="a">DBC</marcx:subfield>
+      </marcx:datafield>
+    </marcx:record>
+  </marcx:collection>
+  <oss:openurl/>
+            <os:identifier>870970-basis:29465606</os:identifier>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
