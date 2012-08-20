@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>28209061|870970</ac:identifier>
+              <ac:source>NJE</ac:source>
+              <dc:title>The horn collection</dc:title>
+              <dc:title xsi:type="dkdcplus:full">The horn collection : 14 pieces by 11 composers : easy to intermediate level</dc:title>
+              <dc:title xsi:type="dkdcplus:series">The G. Schirmer instrumental library</dc:title>
+              <dc:subject xsi:type="dkdcplus:DK5">78.435:6</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Klaver og blæser</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCM">barok</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCN">for let øvede</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCM">horn</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCM">instrumental</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCM">klassik</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCO">music minus one</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCM">romantik</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCM">senromantik</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCM">wienerklassik</dc:subject>
+              <dc:description>For horn og klaver</dc:description>
+              <dc:description>For horn i F</dc:description>
+              <dc:description>Cd: The horn collection / Bernhard Scully, horn, med Vincent Fuh. New York, N.Y. : Schirmer ; Milwaukee, Wis. : distributed by Hal Leonard, p 2009. 1 cd : stereo. Gennemspilning af stykkerne i nodehæftet med og uden horn. Indspillet efter music-minus-one-princippet. Cd-rom-indhold: Amazing slow downer software, som kan regulere musikkens afspilningshastighed uden at ændre tonehøjden. Bestillingsnr.: 63009893</dc:description>
+              <dc:description>Med noter til de enkelte stykker</dc:description>
+              <dc:description>Med spillevejledning</dc:description>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dc:publisher>Schirmer</dc:publisher>
+              <dc:contributor>Mason Jones </dc:contributor>
+              <dc:contributor>Ludwig van Beethoven </dc:contributor>
+              <dc:contributor>Vincenzo Bellini </dc:contributor>
+              <dc:contributor>Ludwig van Beethoven </dc:contributor>
+              <dc:contributor>Arcangelo Corelli </dc:contributor>
+              <dc:contributor>Felix Mendelssohn-Bartholdy </dc:contributor>
+              <dc:contributor>Wolfgang Amadeus Mozart </dc:contributor>
+              <dc:contributor>Henry Purcell </dc:contributor>
+              <dc:contributor>Franz Schubert </dc:contributor>
+              <dc:contributor>Giacomo Puccini </dc:contributor>
+              <dc:contributor>Johann Friedrich Reichardt </dc:contributor>
+              <dc:contributor>Robert Schumann </dc:contributor>
+              <dc:contributor>Richard Strauss </dc:contributor>
+              <dc:contributor> Anonym </dc:contributor>
+              <dc:date>2009</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Node</dc:type>
+              <dc:format>1 partitur og klaverpartitur, 1 stemme, 1 cd, 1 installationsvejledning</dc:format>
+              <dcterms:extent>32 sider</dcterms:extent>
+              <dc:identifier xsi:type="dkdcplus:ISBN">9781423406501</dc:identifier>
+              <dc:identifier>HL 50486136</dc:identifier>
+              <dc:identifier>Hal Leonard 63009893</dc:identifier>
+              <dcterms:hasPart>Sange, opus 52</dcterms:hasPart>
+              <dcterms:hasPart>Vaga luna che inargenti</dcterms:hasPart>
+              <dcterms:hasPart>Abschiedsgesang an Wiens Bürger</dcterms:hasPart>
+              <dcterms:hasPart>Sonate for violin og continuo, d-mol, opus 5:7 (Sarabande)</dcterms:hasPart>
+              <dcterms:hasPart>Sonate for violin og continuo, F-dur, opus 5:10 (Gavotte)</dcterms:hasPart>
+              <dcterms:hasPart>Sange, opus 99</dcterms:hasPart>
+              <dcterms:hasPart>Sange, opus 34</dcterms:hasPart>
+              <dcterms:hasPart>Idomeneo</dcterms:hasPart>
+              <dcterms:hasPart>The libertine</dcterms:hasPart>
+              <dcterms:hasPart>Rosamunde</dcterms:hasPart>
+              <dcterms:hasPart>Pigen fra vesten</dcterms:hasPart>
+              <dcterms:hasPart>Das Bild der Rose</dcterms:hasPart>
+              <dcterms:hasPart>Kinderszenen, opus 15</dcterms:hasPart>
+              <dcterms:hasPart>Sange, opus 10</dcterms:hasPart>
+              <dcterms:hasPart>The ash grove</dcterms:hasPart>
+              <dcterms:spatial xsi:type="dkdcplus:DBCM">Tyskland</dcterms:spatial>
+              <dcterms:spatial xsi:type="dkdcplus:DBCM">Østrig</dcterms:spatial>
+              <dcterms:spatial xsi:type="dkdcplus:DBCM">England</dcterms:spatial>
+              <dcterms:spatial xsi:type="dkdcplus:DBCM">Italien</dcterms:spatial>
+              <dcterms:temporal xsi:type="dkdcplus:DBCM">1700-1799</dcterms:temporal>
+              <dcterms:temporal xsi:type="dkdcplus:DBCM">1800-1899</dcterms:temporal>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>000000000000000000000000</marcx:leader>
+                <marcx:datafield tag="001" ind1="0" ind2="0">
+                  <marcx:subfield code="a">28209061</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20100426181020</marcx:subfield>
+                  <marcx:subfield code="d">20100329</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                  <marcx:subfield code="t">FAUST</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="004" ind1="0" ind2="0">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="005" ind1="0" ind2="0">
+                  <marcx:subfield code="h">a</marcx:subfield>
+                  <marcx:subfield code="h">y</marcx:subfield>
+                  <marcx:subfield code="h">p</marcx:subfield>
+                  <marcx:subfield code="i">a</marcx:subfield>
+                  <marcx:subfield code="i">e</marcx:subfield>
+                  <marcx:subfield code="j">a</marcx:subfield>
+                  <marcx:subfield code="k">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="008" ind1="0" ind2="0">
+                  <marcx:subfield code="t">s</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">2009</marcx:subfield>
+                  <marcx:subfield code="b">us</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="009" ind1="0" ind2="0">
+                  <marcx:subfield code="a">c</marcx:subfield>
+                  <marcx:subfield code="g">xx</marcx:subfield>
+                  <marcx:subfield code="b">s</marcx:subfield>
+                  <marcx:subfield code="b">t</marcx:subfield>
+                  <marcx:subfield code="h">xc</marcx:subfield>
+                  <marcx:subfield code="b">a</marcx:subfield>
+                  <marcx:subfield code="h">xx</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="021" ind1="0" ind2="0">
+                  <marcx:subfield code="e">9781423406501</marcx:subfield>
+                  <marcx:subfield code="n">HL 50486136</marcx:subfield>
+                  <marcx:subfield code="c">hf.</marcx:subfield>
+                  <marcx:subfield code="d">kr. 155,00</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="032" ind1="0" ind2="0">
+                  <marcx:subfield code="x">BKM201017</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="041" ind1="0" ind2="0">
+                  <marcx:subfield code="e">eng</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="245" ind1="0" ind2="0">
+                  <marcx:subfield code="a">The ¤horn collection</marcx:subfield>
+                  <marcx:subfield code="c">14 pieces by 11 composers</marcx:subfield>
+                  <marcx:subfield code="c">\easy to intermediate\ level</marcx:subfield>
+                  <marcx:subfield code="e">transcribed by Mason Jones ... [et al.]</marcx:subfield>
+                  <marcx:subfield code="ø">Easy to intermediate</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="260" ind1="0" ind2="0">
+                  <marcx:subfield code="a">New York, N.Y.</marcx:subfield>
+                  <marcx:subfield code="b">Schirmer</marcx:subfield>
+                  <marcx:subfield code="f">Milwaukee, Wis.</marcx:subfield>
+                  <marcx:subfield code="g">distributed by Hal Leonard</marcx:subfield>
+                  <marcx:subfield code="c">2009</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="300" ind1="0" ind2="0">
+                  <marcx:subfield code="n">1 \partitur og klaverpartitur\</marcx:subfield>
+                  <marcx:subfield code="a">32 sider</marcx:subfield>
+                  <marcx:subfield code="n">1 \stemme\</marcx:subfield>
+                  <marcx:subfield code="c">31 cm</marcx:subfield>
+                  <marcx:subfield code="d">1 cd</marcx:subfield>
+                  <marcx:subfield code="d">1 installationsvejledning</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="440" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">The ¤G. Schirmer instrumental library</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="509" ind1="0" ind2="0">
+                  <marcx:subfield code="a">For horn og klaver</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="509" ind1="0" ind2="0">
+                  <marcx:subfield code="a">For horn i F</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="512" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Cd: The horn collection / Bernhard Scully, horn, med Vincent Fuh. [New York, N.Y.] : Schirmer ; [Milwaukee, Wis.] : distributed by Hal Leonard, p 2009. 1 cd : stereo. Gennemspilning af stykkerne i nodehæftet med og uden horn. Indspillet efter music-minus-one-princippet. Cd-rom-indhold: Amazing slow downer software, som kan regulere musikkens afspilningshastighed uden at ændre tonehøjden. Bestillingsnr.: 63009893</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="531" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Indhold:</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="534" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Med noter til de enkelte stykker</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="534" ind1="0" ind2="0">
+                  <marcx:subfield code="a">Med spillevejledning</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="538" ind1="0" ind2="0">
+                  <marcx:subfield code="b">HL 50486136</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="538" ind1="0" ind2="0">
+                  <marcx:subfield code="f">Hal Leonard</marcx:subfield>
+                  <marcx:subfield code="g">63009893</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="652" ind1="0" ind2="0">
+                  <marcx:subfield code="m">78.435</marcx:subfield>
+                  <marcx:subfield code="v">6</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="m">barok</marcx:subfield>
+                  <marcx:subfield code="m">klassik</marcx:subfield>
+                  <marcx:subfield code="m">wienerklassik</marcx:subfield>
+                  <marcx:subfield code="m">romantik</marcx:subfield>
+                  <marcx:subfield code="m">senromantik</marcx:subfield>
+                  <marcx:subfield code="n">instrumental</marcx:subfield>
+                  <marcx:subfield code="n">horn</marcx:subfield>
+                  <marcx:subfield code="p">1700-1799</marcx:subfield>
+                  <marcx:subfield code="p">1800-1899</marcx:subfield>
+                  <marcx:subfield code="l">Tyskland</marcx:subfield>
+                  <marcx:subfield code="l">Østrig</marcx:subfield>
+                  <marcx:subfield code="l">England</marcx:subfield>
+                  <marcx:subfield code="l">Italien</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="o">music minus one</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="666" ind1="0" ind2="0">
+                  <marcx:subfield code="u">for let øvede</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="700" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Jones</marcx:subfield>
+                  <marcx:subfield code="h">Mason</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="770" ind1="0" ind2="0">
+                  <marcx:subfield code="å">11</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Beethoven</marcx:subfield>
+                  <marcx:subfield code="h">Ludwig van</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="770" ind1="0" ind2="0">
+                  <marcx:subfield code="å">12</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Bellini</marcx:subfield>
+                  <marcx:subfield code="h">Vincenzo</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="770" ind1="0" ind2="0">
+                  <marcx:subfield code="å">13</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Beethoven</marcx:subfield>
+                  <marcx:subfield code="h">Ludwig van</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="770" ind1="0" ind2="0">
+                  <marcx:subfield code="å">14</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Corelli</marcx:subfield>
+                  <marcx:subfield code="h">Arcangelo</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="770" ind1="0" ind2="0">
+                  <marcx:subfield code="å">15</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Corelli</marcx:subfield>
+                  <marcx:subfield code="h">Arcangelo</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="770" ind1="0" ind2="0">
+                  <marcx:subfield code="å">16</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Mendelssohn-Bartholdy</marcx:subfield>
+                  <marcx:subfield code="h">Felix</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="770" ind1="0" ind2="0">
+                  <marcx:subfield code="å">17</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Mendelssohn-Bartholdy</marcx:subfield>
+                  <marcx:subfield code="h">Felix</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="770" ind1="0" ind2="0">
+                  <marcx:subfield code="å">18</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Mozart</marcx:subfield>
+                  <marcx:subfield code="h">Wolfgang Amadeus</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="770" ind1="0" ind2="0">
+                  <marcx:subfield code="å">19</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Purcell</marcx:subfield>
+                  <marcx:subfield code="h">Henry</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="770" ind1="0" ind2="0">
+                  <marcx:subfield code="å">20</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Schubert</marcx:subfield>
+                  <marcx:subfield code="h">Franz</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="770" ind1="0" ind2="0">
+                  <marcx:subfield code="å">21</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Puccini</marcx:subfield>
+                  <marcx:subfield code="h">Giacomo</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="770" ind1="0" ind2="0">
+                  <marcx:subfield code="å">22</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Reichardt</marcx:subfield>
+                  <marcx:subfield code="h">Johann Friedrich</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="770" ind1="0" ind2="0">
+                  <marcx:subfield code="å">23</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Schumann</marcx:subfield>
+                  <marcx:subfield code="h">Robert</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="770" ind1="0" ind2="0">
+                  <marcx:subfield code="å">24</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Strauss</marcx:subfield>
+                  <marcx:subfield code="h">Richard</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="770" ind1="0" ind2="0">
+                  <marcx:subfield code="å">25</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Anonym</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">11</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Sange, opus 52</marcx:subfield>
+                  <marcx:subfield code="7"> (</marcx:subfield>
+                  <marcx:subfield code="v">Marmotte</marcx:subfield>
+                  <marcx:subfield code="7">)</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">12</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Vaga luna che inargenti</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">13</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Abschiedsgesang an Wiens Bürger</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">14</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Sonate for violin og continuo, d-mol, opus 5:7 (Sarabande)</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">15</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Sonate for violin og continuo, F-dur, opus 5:10 (Gavotte)</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">16</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Sange, opus 99</marcx:subfield>
+                  <marcx:subfield code="7"> (</marcx:subfield>
+                  <marcx:subfield code="v">Lieblingsplätzchen</marcx:subfield>
+                  <marcx:subfield code="7">)</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">17</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Sange, opus 34</marcx:subfield>
+                  <marcx:subfield code="7"> (</marcx:subfield>
+                  <marcx:subfield code="v">Minnelied</marcx:subfield>
+                  <marcx:subfield code="7">)</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">18</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Idomeneo</marcx:subfield>
+                  <marcx:subfield code="7"> (</marcx:subfield>
+                  <marcx:subfield code="v">Non temer, amato bene</marcx:subfield>
+                  <marcx:subfield code="7">)</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">19</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">The ¤libertine</marcx:subfield>
+                  <marcx:subfield code="7"> (</marcx:subfield>
+                  <marcx:subfield code="v">Nymphs and shepherds</marcx:subfield>
+                  <marcx:subfield code="7">)</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">20</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Rosamunde</marcx:subfield>
+                  <marcx:subfield code="7"> (</marcx:subfield>
+                  <marcx:subfield code="v">Mellemaktsmusik nr. 3, B-dur, Deutsch 797:5</marcx:subfield>
+                  <marcx:subfield code="7">)</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">21</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Pigen fra vesten</marcx:subfield>
+                  <marcx:subfield code="7"> (</marcx:subfield>
+                  <marcx:subfield code="v">Ch'ella mi creda</marcx:subfield>
+                  <marcx:subfield code="7">)</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">22</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Das ¤Bild der Rose</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">23</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Kinderszenen, opus 15</marcx:subfield>
+                  <marcx:subfield code="7"> (</marcx:subfield>
+                  <marcx:subfield code="v">Von fremden Ländern und Menschen</marcx:subfield>
+                  <marcx:subfield code="7">)</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">24</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Sange, opus 10</marcx:subfield>
+                  <marcx:subfield code="7"> (</marcx:subfield>
+                  <marcx:subfield code="v">Allerseelen</marcx:subfield>
+                  <marcx:subfield code="7">)</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="795" ind1="0" ind2="0">
+                  <marcx:subfield code="å">25</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">The ¤ash grove</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="900" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Bartholdy</marcx:subfield>
+                  <marcx:subfield code="h">Felix Mendelssohn</marcx:subfield>
+                  <marcx:subfield code="x">se</marcx:subfield>
+                  <marcx:subfield code="w">Mendelssohn-Bartholdy, Felix</marcx:subfield>
+                  <marcx:subfield code="z">770/16</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="900" ind1="0" ind2="0">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Bartholdy</marcx:subfield>
+                  <marcx:subfield code="h">Felix Mendelssohn</marcx:subfield>
+                  <marcx:subfield code="x">se</marcx:subfield>
+                  <marcx:subfield code="w">Mendelssohn-Bartholdy, Felix</marcx:subfield>
+                  <marcx:subfield code="z">770/17</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="s10" ind1="0" ind2="0">
+                  <marcx:subfield code="a">DBC</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="990" ind1="0" ind2="0">
+                  <marcx:subfield code="o">201017</marcx:subfield>
+                  <marcx:subfield code="b">v</marcx:subfield>
+                  <marcx:subfield code="n">D4</marcx:subfield>
+                  <marcx:subfield code="u">nt</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="991" ind1="0" ind2="0">
+                  <marcx:subfield code="o">Installationsvejledning ligger i lomme sammen med cd'en</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <oss:openurl/>
+            <os:identifier>870970-basis:28209061</os:identifier>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
