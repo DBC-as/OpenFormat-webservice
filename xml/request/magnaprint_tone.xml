@@ -7,120 +7,121 @@
           <os:resultPosition>1</os:resultPosition>
           <os:numberOfObjects>1</os:numberOfObjects>
           <os:object>
-            <dkabm:record>
-              <ac:identifier>06196470|870970</ac:identifier>
-              <ac:source>undefined</ac:source>
-              <dc:title>Tone</dc:title>
-              <dc:title xsi:type="dkdcplus:full">Tone : epos</dc:title>
-              <dc:title xsi:type="dkdcplus:series">MagnaPrintserien ; nr. 226</dc:title>
-              <dc:creator xsi:type="dkdcplus:aut">Suzanne Brøgger</dc:creator>
-              <dc:creator xsi:type="oss:sort">Brøgger, Suzanne</dc:creator>
-              <dc:subject xsi:type="dkdcplus:DK5-Text">Skønlitteratur</dc:subject>
-              <dc:subject xsi:type="dkdcplus:genre">fiktion</dc:subject>
-              <dc:subject xsi:type="dkdcplus:DK5">sk</dc:subject>
-              <dcterms:abstract>Prosadigt om hattesyersken og kostumieren fru Tone</dcterms:abstract>
-              <dcterms:audience>voksenmaterialer</dcterms:audience>
-              <dkdcplus:version>MagnaPrintudgave</dkdcplus:version>
-              <dc:publisher>Borgen</dc:publisher>
-              <dc:publisher>Nyt Dansk Litteraturselskab</dc:publisher>
-              <dc:date>1985</dc:date>
-              <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
-              <dcterms:extent>146 sider</dcterms:extent>
-              <dc:identifier xsi:type="dkdcplus:ISBN">87-418-7023-9</dc:identifier>
-              <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
-              <dc:language>Dansk</dc:language>
-            </dkabm:record>
-            <marcx:collection>
-              <marcx:record format="danMARC2" type="Bibliographic">
-                <marcx:leader>000000000000000000000000</marcx:leader>
-                <marcx:datafield tag="001" ind1="0" ind2="0">
-                  <marcx:subfield code="a">06196470</marcx:subfield>
-                  <marcx:subfield code="b">870970</marcx:subfield>
-                  <marcx:subfield code="c">20010128224732</marcx:subfield>
-                  <marcx:subfield code="d">19850315</marcx:subfield>
-                  <marcx:subfield code="f">a</marcx:subfield>
-                  <marcx:subfield code="o">c</marcx:subfield>
-                  <marcx:subfield code="t">FAUST</marcx:subfield>
-                </marcx:datafield>
-                <marcx:datafield tag="004" ind1="0" ind2="0">
-                  <marcx:subfield code="r">n</marcx:subfield>
-                  <marcx:subfield code="a">e</marcx:subfield>
-                </marcx:datafield>
-                <marcx:datafield tag="008" ind1="0" ind2="0">
-                  <marcx:subfield code="t">s</marcx:subfield>
-                  <marcx:subfield code="u">f</marcx:subfield>
-                  <marcx:subfield code="a">1985</marcx:subfield>
-                  <marcx:subfield code="b">dk</marcx:subfield>
-                  <marcx:subfield code="j">p</marcx:subfield>
-                  <marcx:subfield code="l">dan</marcx:subfield>
-                  <marcx:subfield code="m">1</marcx:subfield>
-                  <marcx:subfield code="v">0</marcx:subfield>
-                </marcx:datafield>
-                <marcx:datafield tag="009" ind1="0" ind2="0">
-                  <marcx:subfield code="a">a</marcx:subfield>
-                  <marcx:subfield code="g">xx</marcx:subfield>
-                </marcx:datafield>
-                <marcx:datafield tag="021" ind1="0" ind2="0">
-                  <marcx:subfield code="a">87-418-7023-9</marcx:subfield>
-                  <marcx:subfield code="c">hf.</marcx:subfield>
-                  <marcx:subfield code="d">kr. 98.00</marcx:subfield>
-                </marcx:datafield>
-                <marcx:datafield tag="032" ind1="0" ind2="0">
-                  <marcx:subfield code="a">DBF198514</marcx:subfield>
-                  <marcx:subfield code="x">SFD198514</marcx:subfield>
-                </marcx:datafield>
-                <marcx:datafield tag="100" ind1="0" ind2="0">
-                  <marcx:subfield code="0"/>
-                  <marcx:subfield code="a">Brøgger</marcx:subfield>
-                  <marcx:subfield code="h">Suzanne</marcx:subfield>
-                </marcx:datafield>
-                <marcx:datafield tag="245" ind1="0" ind2="0">
-                  <marcx:subfield code="a">Tone</marcx:subfield>
-                  <marcx:subfield code="c">epos</marcx:subfield>
-                  <marcx:subfield code="e">[af] Suzanne Brøgger</marcx:subfield>
-                  <marcx:subfield code="ø">MagnaPrintserien</marcx:subfield>
-                </marcx:datafield>
-                <marcx:datafield tag="250" ind1="0" ind2="0">
-                  <marcx:subfield code="a">MagnaPrintudgave</marcx:subfield>
-                  <marcx:subfield code="b">÷</marcx:subfield>
-                </marcx:datafield>
-                <marcx:datafield tag="260" ind1="0" ind2="0">
-                  <marcx:subfield code="a">[Valby]</marcx:subfield>
-                  <marcx:subfield code="b">Borgen</marcx:subfield>
-                  <marcx:subfield code="a">[Ballerup]</marcx:subfield>
-                  <marcx:subfield code="b">i samarbejde med Nyt Dansk Litteraturselskab</marcx:subfield>
-                  <marcx:subfield code="k">Reproset</marcx:subfield>
-                  <marcx:subfield code="c">1985</marcx:subfield>
-                </marcx:datafield>
-                <marcx:datafield tag="300" ind1="0" ind2="0">
-                  <marcx:subfield code="a">146 sider</marcx:subfield>
-                  <marcx:subfield code="c">23 cm</marcx:subfield>
-                </marcx:datafield>
-                <marcx:datafield tag="440" ind1="0" ind2="0">
-                  <marcx:subfield code="0"/>
-                  <marcx:subfield code="a">\MagnaPrintserien\</marcx:subfield>
-                  <marcx:subfield code="V">226</marcx:subfield>
-                  <marcx:subfield code="v">nr. 226</marcx:subfield>
-                </marcx:datafield>
-                <marcx:datafield tag="504" ind1="0" ind2="0">
-                  <marcx:subfield code="a">Prosadigt om hattesyersken og kostumieren fru Tone</marcx:subfield>
-                </marcx:datafield>
-                <marcx:datafield tag="520" ind1="0" ind2="0">
-                  <marcx:subfield code="a">Originaludgave 1981</marcx:subfield>
-                </marcx:datafield>
-                <marcx:datafield tag="652" ind1="0" ind2="0">
-                  <marcx:subfield code="n">86</marcx:subfield>
-                  <marcx:subfield code="z">06</marcx:subfield>
-                </marcx:datafield>
-                <marcx:datafield tag="652" ind1="0" ind2="0">
-                  <marcx:subfield code="o">sk</marcx:subfield>
-                </marcx:datafield>
-                <marcx:datafield tag="s10" ind1="0" ind2="0">
-                  <marcx:subfield code="a">DBC</marcx:subfield>
-                </marcx:datafield>
-              </marcx:record>
-            </marcx:collection>
-<os:identifier>870970-basis:06196470</os:identifier>
+  <dkabm:record>
+    <ac:identifier>06196470|870970</ac:identifier>
+    <ac:source>NJE</ac:source>
+    <dc:title>Tone</dc:title>
+    <dc:title xsi:type="dkdcplus:full">Tone : epos</dc:title>
+    <dc:title xsi:type="dkdcplus:series">MagnaPrintserien ; nr. 226</dc:title>
+    <dc:creator xsi:type="dkdcplus:aut">Suzanne Brøgger </dc:creator>
+    <dc:creator xsi:type="oss:sort">Brøgger, Suzanne</dc:creator>
+    <dc:subject xsi:type="dkdcplus:DK5-Text">Skønlitteratur</dc:subject>
+    <dc:subject xsi:type="dkdcplus:genre">fiktion</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DK5">sk</dc:subject>
+    <dcterms:abstract>Prosadigt om hattesyersken og kostumieren fru Tone</dcterms:abstract>
+    <dcterms:audience>voksenmaterialer</dcterms:audience>
+    <dkdcplus:version>MagnaPrintudgave</dkdcplus:version>
+    <dc:publisher>Borgen</dc:publisher>
+    <dc:publisher> Nyt Dansk Litteraturselskab</dc:publisher>
+    <dc:date>1985</dc:date>
+    <dc:type xsi:type="dkdcplus:BibDK-Type">Bog stor skrift</dc:type>
+    <dcterms:extent>146 sider</dcterms:extent>
+    <dc:identifier xsi:type="dkdcplus:ISBN">87-418-7023-9</dc:identifier>
+    <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+    <dc:language>Dansk</dc:language>
+  </dkabm:record>
+  <marcx:collection>
+    <marcx:record format="danMARC2" type="Bibliographic">
+      <marcx:leader>000000000000000000000000</marcx:leader>
+      <marcx:datafield tag="001" ind1="0" ind2="0">
+        <marcx:subfield code="a">06196470</marcx:subfield>
+        <marcx:subfield code="b">870970</marcx:subfield>
+        <marcx:subfield code="c">20010128224732</marcx:subfield>
+        <marcx:subfield code="d">19850315</marcx:subfield>
+        <marcx:subfield code="f">a</marcx:subfield>
+        <marcx:subfield code="o">c</marcx:subfield>
+        <marcx:subfield code="t">FAUST</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="004" ind1="0" ind2="0">
+        <marcx:subfield code="r">n</marcx:subfield>
+        <marcx:subfield code="a">e</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="008" ind1="0" ind2="0">
+        <marcx:subfield code="t">s</marcx:subfield>
+        <marcx:subfield code="u">f</marcx:subfield>
+        <marcx:subfield code="a">1985</marcx:subfield>
+        <marcx:subfield code="b">dk</marcx:subfield>
+        <marcx:subfield code="j">p</marcx:subfield>
+        <marcx:subfield code="l">dan</marcx:subfield>
+        <marcx:subfield code="m">1</marcx:subfield>
+        <marcx:subfield code="v">0</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="009" ind1="0" ind2="0">
+        <marcx:subfield code="a">a</marcx:subfield>
+        <marcx:subfield code="g">xx</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="021" ind1="0" ind2="0">
+        <marcx:subfield code="a">87-418-7023-9</marcx:subfield>
+        <marcx:subfield code="c">hf.</marcx:subfield>
+        <marcx:subfield code="d">kr. 98.00</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="032" ind1="0" ind2="0">
+        <marcx:subfield code="a">DBF198514</marcx:subfield>
+        <marcx:subfield code="x">SFD198514</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="100" ind1="0" ind2="0">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Brøgger</marcx:subfield>
+        <marcx:subfield code="h">Suzanne</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="245" ind1="0" ind2="0">
+        <marcx:subfield code="a">Tone</marcx:subfield>
+        <marcx:subfield code="c">epos</marcx:subfield>
+        <marcx:subfield code="e">[af] Suzanne Brøgger</marcx:subfield>
+        <marcx:subfield code="ø">MagnaPrintserien</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="250" ind1="0" ind2="0">
+        <marcx:subfield code="a">MagnaPrintudgave</marcx:subfield>
+        <marcx:subfield code="b">÷</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="260" ind1="0" ind2="0">
+        <marcx:subfield code="a">[Valby]</marcx:subfield>
+        <marcx:subfield code="b">Borgen</marcx:subfield>
+        <marcx:subfield code="a">[Ballerup]</marcx:subfield>
+        <marcx:subfield code="b">i samarbejde med Nyt Dansk Litteraturselskab</marcx:subfield>
+        <marcx:subfield code="k">Reproset</marcx:subfield>
+        <marcx:subfield code="c">1985</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="300" ind1="0" ind2="0">
+        <marcx:subfield code="a">146 sider</marcx:subfield>
+        <marcx:subfield code="c">23 cm</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="440" ind1="0" ind2="0">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">\MagnaPrintserien\</marcx:subfield>
+        <marcx:subfield code="V">226</marcx:subfield>
+        <marcx:subfield code="v">nr. 226</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="504" ind1="0" ind2="0">
+        <marcx:subfield code="a">Prosadigt om hattesyersken og kostumieren fru Tone</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="520" ind1="0" ind2="0">
+        <marcx:subfield code="a">Originaludgave 1981</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="652" ind1="0" ind2="0">
+        <marcx:subfield code="n">86</marcx:subfield>
+        <marcx:subfield code="z">06</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="652" ind1="0" ind2="0">
+        <marcx:subfield code="o">sk</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="s10" ind1="0" ind2="0">
+        <marcx:subfield code="a">DBC</marcx:subfield>
+      </marcx:datafield>
+    </marcx:record>
+  </marcx:collection>
+  <oss:openurl/>
+            <os:identifier>870970-basis:06196470</os:identifier>
             <os:formatsAvailable>
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
