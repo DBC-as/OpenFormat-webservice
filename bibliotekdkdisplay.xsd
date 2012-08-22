@@ -68,10 +68,11 @@
 			<xs:sequence>
 				<xs:element ref="bibdk:pid"/>
 				<xs:element ref="bibdk:hostPublicationID" minOccurs="0"/>
-				<xs:element ref="bibdk:holdbackEndDate" minOccurs="0"/>
+				<xs:element ref="bibdk:infomediaLink" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:requestMethod" minOccurs="0"/>
 				<xs:element ref="bibdk:restrictedUse" minOccurs="0"/>
-				<xs:element ref="bibdk:infomediaLink" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:sortKey"/>
+				<xs:element ref="bibdk:holdbackEndDate" minOccurs="0"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
@@ -415,6 +416,7 @@
 	</xs:element>
 	<xs:element name="shelfHeader" type="xs:string"/>
 	<xs:element name="shelfMusic" type="xs:string"/>
+	<xs:element name="sortKey" type="xs:string"/>
 	<xs:element name="subject">
 		<xs:complexType>
 			<xs:sequence>
