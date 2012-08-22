@@ -2,7 +2,6 @@
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - EBOOK
 A1  - Bang,Herman
 T1  - Ludvigsbakke
-SP  - 
 ET  - 1. e-bogsudgave
 PB  - Gyldendal
 Y1  - 2009
