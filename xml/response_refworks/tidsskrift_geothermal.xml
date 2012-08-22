@@ -2,7 +2,6 @@
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Journal
 SR Print(0)
 T1 Geothermal news
-SP 
 PP Wellington
 PB Geothermal Co-ordinator, DSIR
 YR 1983
