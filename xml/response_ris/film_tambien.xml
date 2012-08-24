@@ -2,8 +2,8 @@
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - MPCT
 T1  - También la lluvia
 SP  - 1 dvd-video, ca. 103 min.
-CY  - [Stockholm]
 PB  - Pan Vision
+CY  - [Stockholm]
 Y1  - 2012
 SN  - D 5900073
 N1  - Bolivia år 2000. Indianeren Daniel får en rolle i en film om Columbus, men er samtidig involveret i en protestbevægelse, så han fængsles og prygles af regeringssoldater. Filmholdet får købt ham fri, men må opgive projektet, og har nu et ansvar for Daniel og hans familie
