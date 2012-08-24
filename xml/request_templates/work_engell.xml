@@ -177,6 +177,7 @@
               </marcx:record>
             </marcx:collection>
 <os:identifier>870970-basis:22229427</os:identifier>
+<os:holdingsCount>10</os:holdingsCount>
             <os:formatsAvailable>
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
@@ -385,6 +386,7 @@
               </marcx:record>
             </marcx:collection>
 <os:identifier>870970-basis:21921173</os:identifier>
+<os:holdingsCount>4</os:holdingsCount>
             <os:formatsAvailable>
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
@@ -485,7 +487,7 @@
                   <marcx:subfield code="c">1998</marcx:subfield>
                 </marcx:datafield>
                 <marcx:datafield tag="300" ind1="0" ind2="0">
-                  <marcx:subfield code="n">10 kassettebånd</marcx:subfield>
+                  <marcx:subfield code="n">\10 kassettebånd\</marcx:subfield>
                   <marcx:subfield code="a">15 t.</marcx:subfield>
                   <marcx:subfield code="a">i 1 mappe</marcx:subfield>
                 </marcx:datafield>
@@ -576,6 +578,7 @@
               </marcx:record>
             </marcx:collection>
 <os:identifier>870970-basis:22100025</os:identifier>
+<os:holdingsCount>5</os:holdingsCount>
             <os:formatsAvailable>
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
