@@ -13,7 +13,7 @@
     <dc:title>Tone</dc:title>
     <dc:title xsi:type="dkdcplus:full">Tone : epos</dc:title>
     <dc:title xsi:type="dkdcplus:series">MagnaPrintserien ; nr. 226</dc:title>
-    <dc:creator xsi:type="dkdcplus:aut">Suzanne Brøgger </dc:creator>
+    <dc:creator xsi:type="dkdcplus:aut">Suzanne Brøgger</dc:creator>
     <dc:creator xsi:type="oss:sort">Brøgger, Suzanne</dc:creator>
     <dc:subject xsi:type="dkdcplus:DK5-Text">Skønlitteratur</dc:subject>
     <dc:subject xsi:type="dkdcplus:genre">fiktion</dc:subject>
@@ -22,7 +22,7 @@
     <dcterms:audience>voksenmaterialer</dcterms:audience>
     <dkdcplus:version>MagnaPrintudgave</dkdcplus:version>
     <dc:publisher>Borgen</dc:publisher>
-    <dc:publisher> Nyt Dansk Litteraturselskab</dc:publisher>
+    <dc:publisher>Nyt Dansk Litteraturselskab</dc:publisher>
     <dc:date>1985</dc:date>
     <dc:type xsi:type="dkdcplus:BibDK-Type">Bog stor skrift</dc:type>
     <dcterms:extent>146 sider</dcterms:extent>
