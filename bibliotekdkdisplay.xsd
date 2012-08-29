@@ -446,6 +446,14 @@
 	</xs:element>
 	<xs:element name="titleFull" type="xs:string"/>
 	<xs:element name="titleSpecific" type="xs:string"/>
-	<xs:element name="type" type="xs:string"/>
+	<xs:element name="type">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="punctuation" type="xs:string" use="optional"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
 	<xs:element name="usedLanguage" type="xs:string"/>
 </xs:schema>
