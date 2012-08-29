@@ -11,7 +11,7 @@
 				<xs:element ref="bibdk:details" minOccurs="0"/>
 				<xs:element ref="bibdk:publicationDetails" minOccurs="0"/>
 				<xs:element ref="bibdk:title"/>
-				<xs:element ref="bibdk:type"/>
+				<xs:element ref="bibdk:type" maxOccurs="unbounded"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
