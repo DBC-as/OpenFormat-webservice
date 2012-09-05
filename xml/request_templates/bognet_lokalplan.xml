@@ -23,6 +23,7 @@
     <dc:contributor xsi:type="dkdcplus:dkani">Viborg Kommune</dc:contributor>
     <dc:date>2012</dc:date>
     <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+    <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
     <dc:type xsi:type="dkdcplus:BibDK-Type">Netdokument</dc:type>
     <dc:format>illustreret</dc:format>
     <dcterms:extent>32 sider</dcterms:extent>
