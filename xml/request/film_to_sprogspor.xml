@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+  <dkabm:record>
+    <ac:identifier>28729367|870970</ac:identifier>
+    <ac:source>NJE</ac:source>
+    <dc:title>På sporet af tiden</dc:title>
+    <dc:title xsi:type="dkdcplus:full">På sporet af tiden</dc:title>
+    <dcterms:alternative>River of time</dcterms:alternative>
+    <dc:creator xsi:type="dkdcplus:drt">Robert M. Fox</dc:creator>
+    <dc:creator xsi:type="oss:sort">Fox, Robert M.</dc:creator>
+    <dc:subject xsi:type="dkdcplus:DK5">53.1</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCF">Igor Novikov</dc:subject>
+    <dc:subject xsi:type="oss:sort">Novikov, Igor</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DK5-Text">Teoretisk fysik</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCF">astrofysik</dc:subject>
+    <dc:subject xsi:type="dkdcplus:genre">nonfiktion</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCF">tiden</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCF">tidsrejser</dc:subject>
+    <dcterms:abstract>Den russiske fysiker Igor Novikov fortæller om sine teorier omkring tiden. Han mener at tiden er cirkulær og at det må være muligt at rejse i tiden</dcterms:abstract>
+    <dc:description>På dvd-videoen ligger filmen i 2 versioner: 1. version med engelsk tale, 2. version med engelsk tale med undertekster på dansk</dc:description>
+    <dc:description>Af indholdet: Bonusmaterial (Einstein ; Retrospect ; NASA)</dc:description>
+    <dcterms:audience>voksenmaterialer</dcterms:audience>
+    <dc:publisher>Fox Media</dc:publisher>
+    <dc:contributor>Robert M. Fox</dc:contributor>
+    <dc:date>2011</dc:date>
+    <dc:type xsi:type="dkdcplus:BibDK-Type">Dvd</dc:type>
+    <dc:format>1 dvd-video, sort-hvid og farve</dc:format>
+    <dcterms:extent>ca. 30 min.</dcterms:extent>
+    <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+    <dc:language>Engelsk</dc:language>
+    <dc:language xsi:type="dkdcplus:subtitles">dan</dc:language>
+  </dkabm:record>
+  <marcx:collection>
+    <marcx:record format="danMARC2" type="Bibliographic">
+      <marcx:leader>000000000000000000000000</marcx:leader>
+      <marcx:datafield tag="001" ind1="0" ind2="0">
+        <marcx:subfield code="a">28729367</marcx:subfield>
+        <marcx:subfield code="b">870970</marcx:subfield>
+        <marcx:subfield code="c">20110509180724</marcx:subfield>
+        <marcx:subfield code="d">20110404</marcx:subfield>
+        <marcx:subfield code="f">a</marcx:subfield>
+        <marcx:subfield code="t">FAUST</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="004" ind1="0" ind2="0">
+        <marcx:subfield code="r">n</marcx:subfield>
+        <marcx:subfield code="a">e</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="008" ind1="0" ind2="0">
+        <marcx:subfield code="t">m</marcx:subfield>
+        <marcx:subfield code="u">f</marcx:subfield>
+        <marcx:subfield code="a">2011</marcx:subfield>
+        <marcx:subfield code="b">dk</marcx:subfield>
+        <marcx:subfield code="l">eng</marcx:subfield>
+        <marcx:subfield code="x">06</marcx:subfield>
+        <marcx:subfield code="v">0</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="009" ind1="0" ind2="0">
+        <marcx:subfield code="a">m</marcx:subfield>
+        <marcx:subfield code="g">th</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="021" ind1="0" ind2="0">
+        <marcx:subfield code="b">Brugsretskategori: A</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="032" ind1="0" ind2="0">
+        <marcx:subfield code="a">DBI201119</marcx:subfield>
+        <marcx:subfield code="x">BKM201119</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="041" ind1="0" ind2="0">
+        <marcx:subfield code="a">eng</marcx:subfield>
+        <marcx:subfield code="u">dan</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="245" ind1="0" ind2="0">
+        <marcx:subfield code="a">På sporet af tiden</marcx:subfield>
+        <marcx:subfield code="p">River of time</marcx:subfield>
+        <marcx:subfield code="e">director, producer, writer Robert M. Fox</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="260" ind1="0" ind2="0">
+        <marcx:subfield code="a">Kbh.</marcx:subfield>
+        <marcx:subfield code="b">Fox Media</marcx:subfield>
+        <marcx:subfield code="c">[2011]</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="300" ind1="0" ind2="0">
+        <marcx:subfield code="n">1 dvd-video</marcx:subfield>
+        <marcx:subfield code="l">ca. 30 min.</marcx:subfield>
+        <marcx:subfield code="b">sort-hvid og farve</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="504" ind1="0" ind2="0">
+        <marcx:subfield code="a">Den russiske fysiker Igor Novikov fortæller om sine teorier omkring tiden. Han mener at tiden er cirkulær og at det må være muligt at rejse i tiden</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="508" ind1="0" ind2="0">
+        <marcx:subfield code="a">Engelsk tale med undertekster på dansk</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="512" ind1="0" ind2="0">
+        <marcx:subfield code="a">På dvd-videoen ligger filmen i 2 versioner: 1. version med engelsk tale, 2. version med engelsk tale med undertekster på dansk</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="520" ind1="0" ind2="0">
+        <marcx:subfield code="a">Produceret i 2003</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="534" ind1="0" ind2="0">
+        <marcx:subfield code="a">Af indholdet: Bonusmaterial (Einstein ; Retrospect ; NASA)</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="600" ind1="0" ind2="0">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Novikov</marcx:subfield>
+        <marcx:subfield code="h">Igor</marcx:subfield>
+        <marcx:subfield code="2">DBC</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="652" ind1="0" ind2="0">
+        <marcx:subfield code="m">53.1</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="652" ind1="0" ind2="0">
+        <marcx:subfield code="p">12</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="666" ind1="0" ind2="0">
+        <marcx:subfield code="f">tiden</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="666" ind1="0" ind2="0">
+        <marcx:subfield code="f">tidsrejser</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="666" ind1="0" ind2="0">
+        <marcx:subfield code="f">astrofysik</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="700" ind1="0" ind2="0">
+        <marcx:subfield code="0"/>
+        <marcx:subfield code="a">Fox</marcx:subfield>
+        <marcx:subfield code="h">Robert M.</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="s10" ind1="0" ind2="0">
+        <marcx:subfield code="a">DBC</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield tag="990" ind1="0" ind2="0">
+        <marcx:subfield code="o">201119</marcx:subfield>
+        <marcx:subfield code="b">v</marcx:subfield>
+        <marcx:subfield code="u">nt</marcx:subfield>
+      </marcx:datafield>
+    </marcx:record>
+  </marcx:collection>
+  <oss:openurl/>
+            <os:identifier>870970-basis:28729367</os:identifier>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
