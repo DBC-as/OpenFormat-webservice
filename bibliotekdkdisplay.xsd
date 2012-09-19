@@ -207,6 +207,7 @@
 				<xs:element ref="bibdk:actorNote" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:descriptionNote" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:references" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:referencesExternal" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:originals" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:context" minOccurs="0"/>
 				<xs:element ref="bibdk:identifiers" minOccurs="0" maxOccurs="unbounded"/>
@@ -334,6 +335,7 @@
 	<xs:element name="readabilityIndex" type="xs:string"/>
 	<xs:element name="recommendedAudience" type="xs:string"/>
 	<xs:element name="references" type="xs:string"/>
+	<xs:element name="referencesExternal" type="xs:string"/>
 	<xs:element name="relatedSeries">
 		<xs:complexType>
 			<xs:sequence>
