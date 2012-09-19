@@ -28,7 +28,6 @@
 	<xs:element name="workDisplay">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="bibdk:work"/>
 				<xs:element ref="bibdk:manifestation" maxOccurs="unbounded"/>
 			</xs:sequence>
 		</xs:complexType>
@@ -45,6 +44,7 @@
 	<xs:element name="manifestation">
 		<xs:complexType>
 			<xs:sequence>
+				<xs:element ref="bibdk:work"/>
 				<xs:element ref="bibdk:adminData"/>
 				<xs:element ref="bibdk:type"/>
 				<xs:element ref="bibdk:details" minOccurs="0"/>
