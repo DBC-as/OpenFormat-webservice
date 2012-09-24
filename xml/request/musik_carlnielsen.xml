@@ -24,9 +24,9 @@
               <dc:subject xsi:type="dkdcplus:DBCM">tværfløjte</dc:subject>
               <dcterms:audience>voksenmaterialer</dcterms:audience>
               <dc:publisher>Tutl</dc:publisher>
-              <dc:contributor>Lars Graugꜳrd</dc:contributor>
+              <dc:contributor>Lars Graug@ård</dc:contributor>
               <dc:contributor>Jean Françaix</dc:contributor>
-              <dc:contributor>Lars Graugꜳrd</dc:contributor>
+              <dc:contributor>Lars Graug@ård</dc:contributor>
               <dc:contributor>Paul Hindemith</dc:contributor>
               <dc:contributor>Vincent Persichetti</dc:contributor>
               <dc:contributor>Maurice Ravel</dc:contributor>
@@ -185,7 +185,7 @@
                 </marcx:datafield>
                 <marcx:datafield tag="700" ind1="0" ind2="0">
                   <marcx:subfield code="0"/>
-                  <marcx:subfield code="a">Graugꜳrd</marcx:subfield>
+                  <marcx:subfield code="a">Graug@ård</marcx:subfield>
                   <marcx:subfield code="h">Lars</marcx:subfield>
                 </marcx:datafield>
                 <marcx:datafield tag="770" ind1="0" ind2="0">
@@ -197,7 +197,7 @@
                 <marcx:datafield tag="770" ind1="0" ind2="0">
                   <marcx:subfield code="å">12</marcx:subfield>
                   <marcx:subfield code="0"/>
-                  <marcx:subfield code="a">Graugꜳrd</marcx:subfield>
+                  <marcx:subfield code="a">Graug@ård</marcx:subfield>
                   <marcx:subfield code="h">Lars</marcx:subfield>
                 </marcx:datafield>
                 <marcx:datafield tag="770" ind1="0" ind2="0">
@@ -248,13 +248,13 @@
                   <marcx:subfield code="0"/>
                   <marcx:subfield code="a">Cinque piccoli duetti</marcx:subfield>
                   <marcx:subfield code="e">Sofia Asunción Claro, harpe</marcx:subfield>
-                  <marcx:subfield code="e">Lars Graugꜳrd, fløjte</marcx:subfield>
+                  <marcx:subfield code="e">Lars Graug@ård, fløjte</marcx:subfield>
                 </marcx:datafield>
                 <marcx:datafield tag="795" ind1="0" ind2="0">
                   <marcx:subfield code="å">12</marcx:subfield>
                   <marcx:subfield code="0"/>
                   <marcx:subfield code="a">Fantasi for fløjte og harpe</marcx:subfield>
-                  <marcx:subfield code="e">Lars Graugꜳrd, fløjte</marcx:subfield>
+                  <marcx:subfield code="e">Lars Graug@ård, fløjte</marcx:subfield>
                   <marcx:subfield code="e">Sofia Asunción Claro, harpe</marcx:subfield>
                 </marcx:datafield>
                 <marcx:datafield tag="795" ind1="0" ind2="0">
@@ -268,14 +268,14 @@
                   <marcx:subfield code="0"/>
                   <marcx:subfield code="a">Serenade nr. 10, opus 79</marcx:subfield>
                   <marcx:subfield code="c">for fløjte og harpe</marcx:subfield>
-                  <marcx:subfield code="e">Lars Graugꜳrd, fløjte</marcx:subfield>
+                  <marcx:subfield code="e">Lars Graug@ård, fløjte</marcx:subfield>
                   <marcx:subfield code="e">Sofia Asunción Claro, harpe</marcx:subfield>
                 </marcx:datafield>
                 <marcx:datafield tag="795" ind1="0" ind2="0">
                   <marcx:subfield code="å">15</marcx:subfield>
                   <marcx:subfield code="0"/>
                   <marcx:subfield code="a">Pavane pour une infante défunte</marcx:subfield>
-                  <marcx:subfield code="e">Lars Graugꜳrd, fløjte</marcx:subfield>
+                  <marcx:subfield code="e">Lars Graug@ård, fløjte</marcx:subfield>
                   <marcx:subfield code="e">Sofia Asunción Claro, harpe</marcx:subfield>
                 </marcx:datafield>
                 <marcx:datafield tag="795" ind1="0" ind2="0">
@@ -283,20 +283,20 @@
                   <marcx:subfield code="0"/>
                   <marcx:subfield code="a">Sicilienne for violoncel og klaver, opus 78</marcx:subfield>
                   <marcx:subfield code="c">for fløjte og harpe</marcx:subfield>
-                  <marcx:subfield code="e">Lars Graugꜳrd, fløjte</marcx:subfield>
+                  <marcx:subfield code="e">Lars Graug@ård, fløjte</marcx:subfield>
                   <marcx:subfield code="e">Sofia Asunción Claro, harpe</marcx:subfield>
                 </marcx:datafield>
                 <marcx:datafield tag="795" ind1="0" ind2="0">
                   <marcx:subfield code="å">17</marcx:subfield>
                   <marcx:subfield code="0"/>
                   <marcx:subfield code="a">Pièce</marcx:subfield>
-                  <marcx:subfield code="e">Lars Graugꜳrd, fløjte</marcx:subfield>
+                  <marcx:subfield code="e">Lars Graug@ård, fløjte</marcx:subfield>
                 </marcx:datafield>
                 <marcx:datafield tag="795" ind1="0" ind2="0">
                   <marcx:subfield code="å">18</marcx:subfield>
                   <marcx:subfield code="0"/>
                   <marcx:subfield code="a">Entr'acte</marcx:subfield>
-                  <marcx:subfield code="e">Lars Graugꜳrd, fløjte</marcx:subfield>
+                  <marcx:subfield code="e">Lars Graug@ård, fløjte</marcx:subfield>
                   <marcx:subfield code="e">Sofia Asunción Claro, harpe</marcx:subfield>
                 </marcx:datafield>
                 <marcx:datafield tag="795" ind1="0" ind2="0">
@@ -306,7 +306,7 @@
                   <marcx:subfield code="7"> (</marcx:subfield>
                   <marcx:subfield code="v">Tågen letter</marcx:subfield>
                   <marcx:subfield code="7">) / </marcx:subfield>
-                  <marcx:subfield code="e">Lars Graugꜳrd, fløjte</marcx:subfield>
+                  <marcx:subfield code="e">Lars Graug@ård, fløjte</marcx:subfield>
                   <marcx:subfield code="e">Sofia Asunción Claro, harpe</marcx:subfield>
                 </marcx:datafield>
                 <marcx:datafield tag="795" ind1="0" ind2="0">
