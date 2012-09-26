@@ -9,6 +9,7 @@
           <os:object>
   <dkabm:record>
     <ac:identifier>25687086|870970</ac:identifier>
+<dc:identifier xsi:type="dcterms:URI">http://www.e17.dk/portalen/laeserum/findogbestil.aspx?pid=infoxml.e17&amp;xml=704170</dc:identifier>
     <ac:source>NJE</ac:source>
     <dc:title>Griberen i rugen</dc:title>
     <dc:title xsi:type="dkdcplus:full">Griberen i rugen</dc:title>
@@ -133,6 +134,7 @@
       </marcx:datafield>
       <marcx:datafield tag="856" ind1="0" ind2="0">
         <marcx:subfield code="z">Adgangsmåde: Internet</marcx:subfield>
+<marcx:subfield code="u">http://www.e17.dk/portalen/laeserum/findogbestil.aspx?pid=infoxml.e17&amp;xml=704170</marcx:subfield>
       </marcx:datafield>
       <marcx:datafield tag="s10" ind1="0" ind2="0">
         <marcx:subfield code="a">700100</marcx:subfield>
@@ -147,7 +149,7 @@
           </os:object>
         </os:collection>
       </ns1:originalData>
-      <ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
     </ns1:formatRequest>
   </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
