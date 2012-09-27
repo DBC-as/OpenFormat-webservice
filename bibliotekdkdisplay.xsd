@@ -280,6 +280,16 @@
 	</xs:element>
 	<xs:element name="languageElement" type="xs:string"/>
 	<xs:element name="languageHeader" type="xs:string"/>
+	<xs:element name="latestReprint">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:latestReprintHead" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:latestReprintElement" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="latestReprintElement" type="xs:string"/>
+	<xs:element name="latestReprintHead" type="xs:string"/>
 	<xs:element name="infomediaLink" type="xs:string"/>
 	<xs:element name="markedAudience" type="xs:string"/>
 	<xs:element name="originals" type="xs:string"/>
@@ -312,6 +322,7 @@
 				<xs:element ref="bibdk:edition" minOccurs="0"/>
 				<xs:element ref="bibdk:publisher" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:publicationYear" minOccurs="0"/>
+				<xs:element ref="bibdk:latestReprint" minOccurs="0"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
