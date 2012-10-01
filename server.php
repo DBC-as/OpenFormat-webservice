@@ -106,10 +106,12 @@ class openFormat extends webServiceServer {
         $form_req->formatSingleManifestationRequest->_value->outputFormat = $param->outputFormat;
         $form_req->formatSingleManifestationRequest->_value->trackingId = $param->trackingId;
         $ret = array();
+        $ret_index = array();  // to make future caching easier
         $curls = 0;
         $tot_curls = 0;
         $next_js_server = rand(0, count($this->js_server_url) - 1);
         for ($no = 0; $no < count($recs); $no = $no + $this->record_blocking) {
+            $ret_index[$curls] = $no;
             $form_req->formatSingleManifestationRequest->_value->originalData = &$recs[$tot_curls];
             $this->curl->set_option(CURLOPT_TIMEOUT, $timeout, $curls);
             $this->curl->set_option(CURLOPT_HTTPHEADER, array('Content-Type: text/xml; charset=UTF-8'), $curls);
@@ -147,7 +149,7 @@ class openFormat extends webServiceServer {
                         $js_obj->{$output_format}->_value->error->_namespace = $this->xmlns['of'];
                         unset($error);
                     }
-                    $ret[] = $js_obj;
+                    $ret[$ret_index[$i]] = $js_obj;
                 }
                 $curls = 0;
             }
