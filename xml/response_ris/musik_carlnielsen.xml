@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - SOUND
 A1  - Claro,Sofia Asunción
-A1  - Graugꜳrd,Lars
+A1  - Graug@ård,Lars
 T1  - Music for harp and flute
 SP  - 1 cd
 PB  - Tutl
