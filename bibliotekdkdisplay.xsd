@@ -73,6 +73,7 @@
 				<xs:element ref="bibdk:restrictedUse" minOccurs="0"/>
 				<xs:element ref="bibdk:sortKey"/>
 				<xs:element ref="bibdk:holdbackEndDate" minOccurs="0"/>
+				<xs:element ref="bibdk:typeGroup" minOccurs="1" maxOccurs="unbounded"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
@@ -468,5 +469,6 @@
 			</xs:simpleContent>
 		</xs:complexType>
 	</xs:element>
+	<xs:element name="typeGroup" type="xs:string"/>
 	<xs:element name="usedLanguage" type="xs:string"/>
 </xs:schema>
