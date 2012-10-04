@@ -73,7 +73,7 @@ class openFormat extends webServiceServer {
     }
     for ($i = 0; $i < count($formatted); $i++) {
       $fkey = key($formatted[$i]);
-      $res->{$fkey}[] = &$formatted[$i]->$fkey;
+      $res->{$fkey}[$i] = &$formatted[$i]->$fkey;
     }
     $ret->formatResponse->_value = &$res;
     $ret->formatResponse->_namespace = $this->xmlns['of'];

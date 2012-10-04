@@ -28,7 +28,7 @@ You should have received a copy of the GNU Affero General Public License along w
 	<wsdl:binding name="formatServiceSoapBinding" type="ofw:formatServicePortType">
 		<soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
 		<wsdl:operation name="format">
-			<soap:operation soapAction="http://openformat.addi.dk/"/>
+			<soap:operation soapAction="http://openformat.addi.dk/0.3/"/>
 			<wsdl:input name="formatRequest">
 				<soap:body use="literal"/>
 			</wsdl:input>
@@ -39,7 +39,7 @@ You should have received a copy of the GNU Affero General Public License along w
 	</wsdl:binding>
 	<wsdl:service name="formatService">
 		<wsdl:port name="formatService" binding="ofw:formatServiceSoapBinding">
-			<soap:address location="http://openformat.addi.dk/"/>
+			<soap:address location="http://openformat.addi.dk/0.3/"/>
 		</wsdl:port>
 	</wsdl:service>
 </wsdl:definitions>

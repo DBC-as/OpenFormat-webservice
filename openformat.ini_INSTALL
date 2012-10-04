@@ -7,7 +7,7 @@
 ;service_http_error = HTTP/1.1 410 Gone
 ;service_http_error = HTTP/1.0 503 Service Unavailable
 
-version = 0.2
+version = 0.3
 
 ; wsdl for service
 wsdl = openformat.wsdl
@@ -83,6 +83,11 @@ verbose = WARNING+ERROR+FATAL+STAT+TIMER+TRACE+DEBUG+Z3950+OCI
 
 ; format for automatic timer dump %s is the soap-action used
 dump_timer = openformat(%s)
+
+; memcache
+;cache_host = localhost
+;cache_port = 11211
+;cache_expire = 600
 
 [aaa]
 ; aaa Authentication, Access control and Accounting
