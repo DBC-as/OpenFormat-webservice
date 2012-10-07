@@ -1,2 +1,183 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse><bibdk:fullDisplay><bibdk:adminData><bibdk:pid>820010-basis:1031374</bibdk:pid><bibdk:requestMethod>Old</bibdk:requestMethod><bibdk:sortKey>_01  A  999  2124  </bibdk:sortKey></bibdk:adminData><bibdk:creators><bibdk:creator className="link"><bibdk:searchCode phrase="dkcclphrase.lfo">F. E. Hundrup</bibdk:searchCode><bibdk:display>F. E. Hundrup</bibdk:display></bibdk:creator></bibdk:creators><bibdk:description/><bibdk:details><bibdk:format>21 S.</bibdk:format></bibdk:details><bibdk:publicationDetails><bibdk:place punctuation=", ">Randers</bibdk:place><bibdk:publicationYear>1876</bibdk:publicationYear></bibdk:publicationDetails><bibdk:title><bibdk:titleFull>Lærerstanden ved de nedlagte Latinskoler i Ebeltolt, Grenaa, Hobro, Mariager og Skive</bibdk:titleFull><bibdk:titleSpecific>Lærerstanden ved de nedlagte Latinskoler i Ebeltolt, Grenaa, Hobro, Mariager og Skive</bibdk:titleSpecific></bibdk:title><bibdk:type punctuation=" + ">Bog</bibdk:type></bibdk:fullDisplay></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat">
+  <SOAP-ENV:Body>
+    <of:formatResponse>
+<bibdk:workDisplay>
+        <bibdk:manifestation>
+          <bibdk:work>
+            <bibdk:title>
+              <bibdk:titleFull>Værk 1 M1</bibdk:titleFull>
+              <bibdk:titleSpecific>Værk 1 M1</bibdk:titleSpecific>
+            </bibdk:title>
+            <bibdk:creators>
+              <bibdk:creator className="link">
+                <bibdk:searchCode phrase="dkcclphrase.lfo">F. E. Hundrup</bibdk:searchCode>
+                <bibdk:display>F. E. Hundrup</bibdk:display>
+              </bibdk:creator>
+            </bibdk:creators>
+            <bibdk:description/>
+          </bibdk:work>
+          <bibdk:adminData>
+            <bibdk:pid>820010-basis:1031374</bibdk:pid>
+            <bibdk:sortKey>_01  A  999  2124  </bibdk:sortKey>
+            <bibdk:typeGroup>literature</bibdk:typeGroup>
+            <bibdk:orsOrderMaterialType>monograph</bibdk:orsOrderMaterialType>
+          </bibdk:adminData>
+          <bibdk:type punctuation=" + ">Bog</bibdk:type>
+          <bibdk:details>
+            <bibdk:format>21 S.</bibdk:format>
+          </bibdk:details>
+          <bibdk:publicationDetails>
+            <bibdk:place punctuation=", ">Randers</bibdk:place>
+            <bibdk:publicationYear>1876</bibdk:publicationYear>
+          </bibdk:publicationDetails>
+        </bibdk:manifestation>
+  <bibdk:manifestation>
+          <bibdk:work>
+            <bibdk:title>
+              <bibdk:titleFull>Værk 1 M2</bibdk:titleFull>
+              <bibdk:titleSpecific>Værk 1 M2</bibdk:titleSpecific>
+            </bibdk:title>
+            <bibdk:creators>
+              <bibdk:creator className="link">
+                <bibdk:searchCode phrase="dkcclphrase.lfo">F. E. Hundrup</bibdk:searchCode>
+                <bibdk:display>F. E. Hundrup</bibdk:display>
+              </bibdk:creator>
+            </bibdk:creators>
+            <bibdk:description/>
+          </bibdk:work>
+          <bibdk:adminData>
+            <bibdk:pid>820010-basis:1031374</bibdk:pid>
+            <bibdk:sortKey>_01  A  999  2124  </bibdk:sortKey>
+            <bibdk:typeGroup>literature</bibdk:typeGroup>
+            <bibdk:orsOrderMaterialType>monograph</bibdk:orsOrderMaterialType>
+          </bibdk:adminData>
+          <bibdk:type punctuation=" + ">Bog</bibdk:type>
+          <bibdk:details>
+            <bibdk:format>21 S.</bibdk:format>
+          </bibdk:details>
+          <bibdk:publicationDetails>
+            <bibdk:place punctuation=", ">Randers</bibdk:place>
+            <bibdk:publicationYear>1876</bibdk:publicationYear>
+          </bibdk:publicationDetails>
+        </bibdk:manifestation>
+        <bibdk:manifestation>
+          <bibdk:work>
+            <bibdk:title>
+              <bibdk:titleFull>Værk 2 M1</bibdk:titleFull>
+              <bibdk:titleSpecific>Værk 2 M2</bibdk:titleSpecific>
+            </bibdk:title>
+            <bibdk:creators>
+              <bibdk:creator className="link">
+                <bibdk:searchCode phrase="dkcclphrase.lfo">F. E. Hundrup</bibdk:searchCode>
+                <bibdk:display>F. E. Hundrup</bibdk:display>
+              </bibdk:creator>
+            </bibdk:creators>
+            <bibdk:description/>
+          </bibdk:work>
+          <bibdk:adminData>
+            <bibdk:pid>820010-basis:1031374</bibdk:pid>
+            <bibdk:sortKey>_01  A  999  2124  </bibdk:sortKey>
+            <bibdk:typeGroup>literature</bibdk:typeGroup>
+            <bibdk:orsOrderMaterialType>monograph</bibdk:orsOrderMaterialType>
+          </bibdk:adminData>
+          <bibdk:type punctuation=" + ">Bog</bibdk:type>
+          <bibdk:details>
+            <bibdk:format>21 S.</bibdk:format>
+          </bibdk:details>
+          <bibdk:publicationDetails>
+            <bibdk:place punctuation=", ">Randers</bibdk:place>
+            <bibdk:publicationYear>1876</bibdk:publicationYear>
+          </bibdk:publicationDetails>
+        </bibdk:manifestation>
+  <bibdk:manifestation>
+          <bibdk:work>
+            <bibdk:title>
+              <bibdk:titleFull>Værk 3 single</bibdk:titleFull>
+              <bibdk:titleSpecific>Værk 3 single</bibdk:titleSpecific>
+            </bibdk:title>
+            <bibdk:creators>
+              <bibdk:creator className="link">
+                <bibdk:searchCode phrase="dkcclphrase.lfo">F. E. Hundrup</bibdk:searchCode>
+                <bibdk:display>F. E. Hundrup</bibdk:display>
+              </bibdk:creator>
+            </bibdk:creators>
+            <bibdk:description/>
+          </bibdk:work>
+          <bibdk:adminData>
+            <bibdk:pid>820010-basis:1031374</bibdk:pid>
+            <bibdk:sortKey>_01  A  999  2124  </bibdk:sortKey>
+            <bibdk:typeGroup>literature</bibdk:typeGroup>
+            <bibdk:orsOrderMaterialType>monograph</bibdk:orsOrderMaterialType>
+          </bibdk:adminData>
+          <bibdk:type punctuation=" + ">Bog</bibdk:type>
+          <bibdk:details>
+            <bibdk:format>21 S.</bibdk:format>
+          </bibdk:details>
+          <bibdk:publicationDetails>
+            <bibdk:place punctuation=", ">Randers</bibdk:place>
+            <bibdk:publicationYear>1876</bibdk:publicationYear>
+          </bibdk:publicationDetails>
+        </bibdk:manifestation>
+  <bibdk:manifestation>
+          <bibdk:work>
+            <bibdk:title>
+              <bibdk:titleFull>Værk 4 M1</bibdk:titleFull>
+              <bibdk:titleSpecific>Værk 4 M1</bibdk:titleSpecific>
+            </bibdk:title>
+            <bibdk:creators>
+              <bibdk:creator className="link">
+                <bibdk:searchCode phrase="dkcclphrase.lfo">F. E. Hundrup</bibdk:searchCode>
+                <bibdk:display>F. E. Hundrup</bibdk:display>
+              </bibdk:creator>
+            </bibdk:creators>
+            <bibdk:description/>
+          </bibdk:work>
+          <bibdk:adminData>
+            <bibdk:pid>820010-basis:1031374</bibdk:pid>
+            <bibdk:sortKey>_01  A  999  2124  </bibdk:sortKey>
+            <bibdk:typeGroup>literature</bibdk:typeGroup>
+            <bibdk:orsOrderMaterialType>monograph</bibdk:orsOrderMaterialType>
+          </bibdk:adminData>
+          <bibdk:type punctuation=" + ">Bog</bibdk:type>
+          <bibdk:details>
+            <bibdk:format>21 S.</bibdk:format>
+          </bibdk:details>
+          <bibdk:publicationDetails>
+            <bibdk:place punctuation=", ">Randers</bibdk:place>
+            <bibdk:publicationYear>1876</bibdk:publicationYear>
+          </bibdk:publicationDetails>
+        </bibdk:manifestation>
+  <bibdk:manifestation>
+          <bibdk:work>
+            <bibdk:title>
+              <bibdk:titleFull>Værk 4 M2</bibdk:titleFull>
+              <bibdk:titleSpecific>Værk 4 M2</bibdk:titleSpecific>
+            </bibdk:title>
+            <bibdk:creators>
+              <bibdk:creator className="link">
+                <bibdk:searchCode phrase="dkcclphrase.lfo">F. E. Hundrup</bibdk:searchCode>
+                <bibdk:display>F. E. Hundrup</bibdk:display>
+              </bibdk:creator>
+            </bibdk:creators>
+            <bibdk:description/>
+          </bibdk:work>
+          <bibdk:adminData>
+            <bibdk:pid>820010-basis:1031374</bibdk:pid>
+            <bibdk:sortKey>_01  A  999  2124  </bibdk:sortKey>
+            <bibdk:typeGroup>literature</bibdk:typeGroup>
+            <bibdk:orsOrderMaterialType>monograph</bibdk:orsOrderMaterialType>
+          </bibdk:adminData>
+          <bibdk:type punctuation=" + ">Bog</bibdk:type>
+          <bibdk:details>
+            <bibdk:format>21 S.</bibdk:format>
+          </bibdk:details>
+          <bibdk:publicationDetails>
+            <bibdk:place punctuation=", ">Randers</bibdk:place>
+            <bibdk:publicationYear>1876</bibdk:publicationYear>
+          </bibdk:publicationDetails>
+        </bibdk:manifestation>
+</bibdk:workDisplay>
+    </of:formatResponse>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
