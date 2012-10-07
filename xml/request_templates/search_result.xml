@@ -302,7 +302,7 @@
                   <marcx:subfield code="g">xx</marcx:subfield>
                 </marcx:datafield>
                 <marcx:datafield tag="245" ind1="0" ind2="0">
-                  <marcx:subfield code="a">Værk 3 signle</marcx:subfield>
+                  <marcx:subfield code="a">Værk 3 single</marcx:subfield>
                 </marcx:datafield>
                 <marcx:datafield tag="260" ind1="0" ind2="0">
                   <marcx:subfield code="a">Randers</marcx:subfield>
