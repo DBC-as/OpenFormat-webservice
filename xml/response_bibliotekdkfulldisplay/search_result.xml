@@ -65,6 +65,35 @@
           <bibdk:work>
             <bibdk:title>
               <bibdk:titleFull>Værk 2 M1</bibdk:titleFull>
+              <bibdk:titleSpecific>Værk 2 M1</bibdk:titleSpecific>
+            </bibdk:title>
+            <bibdk:creators>
+              <bibdk:creator className="link">
+                <bibdk:searchCode phrase="dkcclphrase.lfo">F. E. Hundrup</bibdk:searchCode>
+                <bibdk:display>F. E. Hundrup</bibdk:display>
+              </bibdk:creator>
+            </bibdk:creators>
+            <bibdk:description/>
+          </bibdk:work>
+          <bibdk:adminData>
+            <bibdk:pid>820010-basis:1031374</bibdk:pid>
+            <bibdk:sortKey>_01  A  999  2124  </bibdk:sortKey>
+            <bibdk:typeGroup>literature</bibdk:typeGroup>
+            <bibdk:orsOrderMaterialType>monograph</bibdk:orsOrderMaterialType>
+          </bibdk:adminData>
+          <bibdk:type punctuation=" + ">Bog</bibdk:type>
+          <bibdk:details>
+            <bibdk:format>21 S.</bibdk:format>
+          </bibdk:details>
+          <bibdk:publicationDetails>
+            <bibdk:place punctuation=", ">Randers</bibdk:place>
+            <bibdk:publicationYear>1876</bibdk:publicationYear>
+          </bibdk:publicationDetails>
+        </bibdk:manifestation>
+        <bibdk:manifestation>
+          <bibdk:work>
+            <bibdk:title>
+              <bibdk:titleFull>Værk 2 M2</bibdk:titleFull>
               <bibdk:titleSpecific>Værk 2 M2</bibdk:titleSpecific>
             </bibdk:title>
             <bibdk:creators>
