@@ -179,6 +179,8 @@
             </marcx:collection>
             <oss:openurl>_BASEURL_url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:book&amp;rft.btitle=Jonathan+Livingston+Havmåge&amp;rft.aulast=Bach&amp;rft.aufirst=Richard&amp;rft.auinit=R&amp;rft.date=2010&amp;rft.isbn=9788775605873&amp;rft.pub=Lindhardt+og+Ringhof&amp;rft.edition=1.+i.e.2.+udgave&amp;rft.genre=book</oss:openurl>
 <os:identifier>870970-basis:05946719</os:identifier>
+<os:holdingsCount>0</os:holdingsCount>
+            <os:creationDate>1983-07-29</os:creationDate>
             <os:formatsAvailable>
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
