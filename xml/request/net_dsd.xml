@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+        <ns1:originalData>
+          <os:collection>
+            <os:resultPosition>1</os:resultPosition>
+            <os:numberOfObjects>1</os:numberOfObjects>
+            <os:object>
+              <dkabm:record>
+                <ac:identifier>185156|150012</ac:identifier>
+                <dc:identifier xsi:type="dcterms:URI">http://www.denstoredanske.dk/Geografi_og_historie/Europa/Østersøen/Østersøen_(Havret)</dc:identifier>
+                <ac:source>Den Store Danske</ac:source>
+                <dc:title>Østersøen (Havret)</dc:title>
+                <dc:title xsi:type="dkdcplus:full">Østersøen (Havret)</dc:title>
+                <dcterms:alternative>Den Store Danske - Gyldendals åbne encyklopædi</dcterms:alternative>
+                <dc:subject>Europa</dc:subject>
+                <dc:subject>Geografi og historie</dc:subject>
+                <dc:subject xsi:type="dkdcplus:genre">leksikonartikel</dc:subject>
+                <dc:subject>Østersøen (Havret)</dc:subject>
+                <dc:subject>Østersøen</dc:subject>
+                <dcterms:abstract>Territorialfarvande og grænsedragninger er reguleret af aftaler mellem kystlandene. Mellem Sverige og Danmark (herunder Bornholm) er der aftalt 3 sømil åbent hav i midten; det betyder, at reglerne om ...</dcterms:abstract>
+                <dc:description>Siden opdateret: 2011-03-04</dc:description>
+                <dcterms:audience>voksenmaterialer</dcterms:audience>
+                <dc:publisher>Gyldendal</dc:publisher>
+                <dc:date>2011</dc:date>
+                <dc:type xsi:type="dkdcplus:BibDK-Type">Artikel</dc:type>
+                <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                <dc:language>Dansk</dc:language>
+              </dkabm:record>
+              <os:identifier>150012-leksikon:185156</os:identifier>
+              <os:creationDate>2009-12-17</os:creationDate>
+              <os:formatsAvailable>
+                <os:format>dkabm</os:format>
+                <os:format>marcxchange</os:format>
+              </os:formatsAvailable>
+            </os:object>
+          </os:collection>
+    </ns1:originalData>
+ <ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
+</ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
