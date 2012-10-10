@@ -74,6 +74,7 @@
 				<xs:element ref="bibdk:sortKey"/>
 				<xs:element ref="bibdk:holdbackEndDate" minOccurs="0"/>
 				<xs:element ref="bibdk:typeGroup" minOccurs="1" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:orsOrderMaterialType" minOccurs="0"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
@@ -304,6 +305,7 @@
 	</xs:element>
 	<xs:element name="originalTitleElement" type="xs:string"/>
 	<xs:element name="originalTitleHeader" type="xs:string"/>
+	<xs:element name="orsOrderMaterialType" type="xs:string"/>
 	<xs:element name="pid" type="xs:string"/>
 	<xs:element name="price" type="xs:string"/>
 	<xs:element name="priceHeader" type="xs:string"/>
