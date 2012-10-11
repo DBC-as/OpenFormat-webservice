@@ -2,16 +2,40 @@
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SOAP-ENV:Body>
     <ns1:formatRequest>
-        <ns1:originalData>
-          <os:collection>
-            <os:resultPosition>1</os:resultPosition>
-            <os:numberOfObjects>1</os:numberOfObjects>
-            <os:object>
-<dkabm:record><ac:identifier>58841|150005</ac:identifier><dc:identifier xsi:type="dcterms:URI">http://www.litteratursiden.dk/?q=node/58841</dc:identifier><ac:source>Litteratursiden</ac:source><dc:title>Analyse af: Vita Andersen - Hva'for en hånd vil du ha'</dc:title><dc:title xsi:type="dkdcplus:full">Analyse af: Vita Andersen - Hva'for en hånd vil du ha'</dc:title><dc:creator xsi:type="dkdcplus:aut">Anne Mette Liedecke</dc:creator><dc:creator xsi:type="oss:sort">Liedecke, Anne Mette</dc:creator><dc:subject>Vita Andersen</dc:subject><dc:subject>Hva'for en hånd vil du ha'</dc:subject><dc:subject xsi:type="dkdcplus:genre">nonfiktion</dc:subject><dc:subject xsi:type="dkdcplus:genre">litteraturanalyse</dc:subject><dcterms:abstract>Vita Andersen er blandt de kvindelige forfattere, der tegner det nye billede af den moderne kvinde. I Hva'for en hånd vil du ha' fokuserer hun på mor-barnforholdet.</dcterms:abstract><dc:publisher>Litteratursiden</dc:publisher><dc:date>2002</dc:date><dc:type xsi:type="dkdcplus:BibDK-Type">Artikel</dc:type><dc:language xsi:type="dcterms:ISO639-2">dan</dc:language><dc:language>Dansk</dc:language><dcterms:references xsi:type="dkdcplus:ISBN">9788700146020</dcterms:references></dkabm:record><identifier>150005-analyse:58841</identifier><creationDate/><formatsAvailable><format>dkabm</format></formatsAvailable>
-            </os:object>
-          </os:collection>
-    </ns1:originalData>
- <ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
-</ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>58841|150005</ac:identifier>
+              <dc:identifier xsi:type="dcterms:URI">http://www.litteratursiden.dk/?q=node/58841</dc:identifier>
+              <ac:source>Litteratursiden</ac:source>
+              <dc:title>Analyse af: Vita Andersen - Hva'for en hånd vil du ha'</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Analyse af: Vita Andersen - Hva'for en hånd vil du ha'</dc:title>
+              <dc:creator xsi:type="dkdcplus:aut">Anne Mette Liedecke</dc:creator>
+              <dc:creator xsi:type="oss:sort">Liedecke, Anne Mette</dc:creator>
+              <dc:subject>Vita Andersen</dc:subject>
+              <dc:subject>Hva'for en hånd vil du ha'</dc:subject>
+              <dc:subject xsi:type="dkdcplus:genre">nonfiktion</dc:subject>
+              <dc:subject xsi:type="dkdcplus:genre">litteraturanalyse</dc:subject>
+              <dcterms:abstract>Vita Andersen er blandt de kvindelige forfattere, der tegner det nye billede af den moderne kvinde. I Hva'for en hånd vil du ha' fokuserer hun på mor-barnforholdet.</dcterms:abstract>
+              <dc:publisher>Litteratursiden</dc:publisher>
+              <dc:date>2002</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Artikel</dc:type>
+              <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+              <dc:language>Dansk</dc:language>
+              <dcterms:references xsi:type="dkdcplus:ISBN">9788700146020</dcterms:references>
+            </dkabm:record>
+            <identifier>150005-analyse:58841</identifier>
+            <creationDate/>
+            <formatsAvailable>
+              <format>dkabm</format>
+            </formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
+    </ns1:formatRequest>
   </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
