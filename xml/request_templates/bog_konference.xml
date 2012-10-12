@@ -146,6 +146,9 @@
             </marcx:collection>
             <oss:openurl>_BASEURL_url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:book&amp;rft.btitle=Fra+norrøne+skrifter+til+nordiske+forskningsbiblioteker&amp;rft.aulast=Sigurðsson&amp;rft.aufirst=Einar&amp;rft.auinit=E&amp;rft.date=1979&amp;rft.pub=Nordisk+videnskabeligt+Bibliotekarforbund&amp;rft.genre=book</oss:openurl>
 <os:identifier>870970-basis:05412803</os:identifier>
+<os:creationDate>1980-03-07</os:creationDate>
+<os:holdingsCount>12</os:holdingsCount>
+<os:lendingLibraries>12</os:lendingLibraries>
             <os:formatsAvailable>
               <os:format>dkabm</os:format>
             </os:formatsAvailable>

@@ -175,6 +175,9 @@
             </marcx:collection>
             <oss:openurl>_BASEURL_url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:book&amp;rft.btitle=Fairytales&amp;rft.aulast=Andersen&amp;rft.aufirst=H.+C.&amp;rft.auinit=HC&amp;rft.date=2009&amp;rft.isbn=9788711433867&amp;rft.pub=Carlsen&amp;rft.edition=1.+i.e.+new+edition,+1.+printrun&amp;rft.genre=book</oss:openurl>
 <os:identifier>870970-basis:27701523</os:identifier>
+<os:creationDate>1980-03-07</os:creationDate>
+<os:holdingsCount>12</os:holdingsCount>
+<os:lendingLibraries>12</os:lendingLibraries>
             <os:formatsAvailable>
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
