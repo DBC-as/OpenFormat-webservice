@@ -76,6 +76,9 @@
   </marcx:collection>
   <oss:openurl>_BASEURL_url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:book&amp;rft.btitle=Henrik+og+Pernille&amp;rft.aulast=Holberg&amp;rft.aufirst=Ludvig&amp;rft.auinit=L&amp;rft.date=1765&amp;rft.genre=book</oss:openurl>
             <os:identifier>810015-basis:003091934</os:identifier>
+<os:creationDate>1980-03-07</os:creationDate>
+<os:holdingsCount>12</os:holdingsCount>
+<os:lendingLibraries>12</os:lendingLibraries>
             <os:formatsAvailable>
               <os:format>dkabm</os:format>
             </os:formatsAvailable>

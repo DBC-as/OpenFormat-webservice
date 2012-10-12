@@ -153,6 +153,9 @@
             </marcx:collection>
             <oss:openurl>_BASEURL_url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:book&amp;rft.btitle=Manden+som+kvinderne+elskede&amp;rft.aulast=Aschan&amp;rft.aufirst=Ulf&amp;rft.auinit=U&amp;rft.date=1988&amp;rft.isbn=87-7258-337-1&amp;rft.pub=Sesam&amp;rft.genre=book</oss:openurl>
 <os:identifier>870970-basis:06702759</os:identifier>
+<os:creationDate>1980-03-07</os:creationDate>
+<os:holdingsCount>12</os:holdingsCount>
+<os:lendingLibraries>12</os:lendingLibraries>
             <os:formatsAvailable>
               <os:format>dkabm</os:format>
             </os:formatsAvailable>

@@ -177,7 +177,9 @@
               </marcx:record>
             </marcx:collection>
 <os:identifier>870970-basis:22229427</os:identifier>
+<os:creationDate>1980-03-07</os:creationDate>
 <os:holdingsCount>10</os:holdingsCount>
+<os:lendingLibraries>10</os:lendingLibraries>
             <os:formatsAvailable>
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
@@ -382,7 +384,9 @@
               </marcx:record>
             </marcx:collection>
 <os:identifier>870970-basis:21921173</os:identifier>
+<os:creationDate>1980-03-07</os:creationDate>
 <os:holdingsCount>4</os:holdingsCount>
+<os:lendingLibraries>4</os:lendingLibraries>
             <os:formatsAvailable>
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
@@ -570,7 +574,9 @@
               </marcx:record>
             </marcx:collection>
 <os:identifier>870970-basis:22100025</os:identifier>
+<os:creationDate>1980-03-07</os:creationDate>
 <os:holdingsCount>5</os:holdingsCount>
+<os:lendingLibraries>5</os:lendingLibraries>
             <os:formatsAvailable>
               <os:format>dkabm</os:format>
             </os:formatsAvailable>

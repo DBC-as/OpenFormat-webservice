@@ -107,6 +107,9 @@
             </marcx:collection>
             <oss:openurl/>
             <os:identifier>874310-katalog:DBB0812331</os:identifier>
+<os:creationDate>1980-03-07</os:creationDate>
+<os:holdingsCount>12</os:holdingsCount>
+<os:lendingLibraries>12</os:lendingLibraries>
             <os:formatsAvailable>
               <os:format>dkabm</os:format>
             </os:formatsAvailable>

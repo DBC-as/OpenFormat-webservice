@@ -33,6 +33,9 @@
     <dcterms:hasPart xsi:type="dkdcplus:track">&lt;a href="http://www.bibzoom.dk/cgi-bin/WebObjects/TShop.woa/wa/PSShop/Track?sku=0000000000046407"&gt;So Good To Be Back Home Again&lt;/a&gt;</dcterms:hasPart>
     <dcterms:hasPart xsi:type="dkdcplus:track">&lt;a href="http://www.bibzoom.dk/cgi-bin/WebObjects/TShop.woa/wa/PSShop/Track?sku=0000000000046409"&gt;Don't Say I Told You So&lt;/a&gt;</dcterms:hasPart>
   </dkabm:record>            <os:identifier>150014-basis:0000000000046404</os:identifier>
+<os:creationDate>1980-03-07</os:creationDate>
+<os:holdingsCount>12</os:holdingsCount>
+<os:lendingLibraries>12</os:lendingLibraries>
             <os:formatsAvailable>
               <os:format>dkabm</os:format>
             </os:formatsAvailable>

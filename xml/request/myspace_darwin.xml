@@ -238,7 +238,9 @@
             </marcx:collection>
             <oss:openurl/>
             <os:identifier>870970-basis:27882676</os:identifier>
-            <os:creationDate/>
+    <os:creationDate>1980-03-07</os:creationDate>
+    <os:holdingsCount>12</os:holdingsCount>
+    <os:lendingLibraries>12</os:lendingLibraries>
             <os:relations>
               <os:relation>
                 <os:relationType>dbcaddi:hasCreatorHomePage</os:relationType>

@@ -189,6 +189,9 @@
   </marcx:collection>
   <oss:openurl>_BASEURL_url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:book&amp;rft.btitle=Farvel+til+Slotsholmen&amp;rft.aulast=Engell&amp;rft.aufirst=Hans&amp;rft.auinit=H&amp;rft.date=2008&amp;rft.isbn=9788702071177&amp;rft.pub=Gyldendal&amp;rft.edition=1.+udgave,+2.+oplag&amp;rft.genre=book</oss:openurl>
             <os:identifier>870970-basis:27502148</os:identifier>
+<os:creationDate>1980-03-07</os:creationDate>
+<os:holdingsCount>12</os:holdingsCount>
+<os:lendingLibraries>12</os:lendingLibraries>
             <os:formatsAvailable>
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
