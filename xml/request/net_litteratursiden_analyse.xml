@@ -27,11 +27,11 @@
               <dc:language>Dansk</dc:language>
               <dcterms:references xsi:type="dkdcplus:ISBN">9788700146020</dcterms:references>
             </dkabm:record>
-            <identifier>150005-analyse:58841</identifier>
-            <creationDate/>
-            <formatsAvailable>
-              <format>dkabm</format>
-            </formatsAvailable>
+            <os:identifier>150005-analyse:58841</os:identifier>
+            <os:creationDate/>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+            </os:formatsAvailable>
           </os:object>
         </os:collection>
       </ns1:originalData>

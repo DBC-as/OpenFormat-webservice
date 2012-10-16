@@ -23,7 +23,7 @@
               <dc:language>Dansk</dc:language>
               <dcterms:references xsi:type="dkdcplus:ISBN">9788702043242</dcterms:references>
             </dkabm:record>
-            <identifier>150005-portraet:45538</identifier>
+            <os:identifier>150005-portraet:45538</os:identifier>
             <os:creationDate/>
             <os:formatsAvailable>
               <os:format>dkabm</os:format>
