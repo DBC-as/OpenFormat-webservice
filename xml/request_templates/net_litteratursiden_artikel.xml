@@ -20,8 +20,8 @@
               <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
               <dc:language>Dansk</dc:language>
             </dkabm:record>
-            <identifier>150005-artikel:59170</identifier>
-            <creationDate/>
+            <os:identifier>150005-artikel:59170</os:identifier>
+            <os:creationDate/>
             <formatsAvailable>
               <format>dkabm</format>
             </formatsAvailable>
