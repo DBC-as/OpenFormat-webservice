@@ -118,9 +118,9 @@
                 </marcx:datafield>
               </marcx:record>
             </marcx:collection>
-<os:identifier>870970-basis:22229427</os:identifier>
-<os:holdingsCount>10</os:holdingsCount>
-<os:createDate>1980-10-10<os:createDate>
+            <os:identifier>870970-basis:22229427</os:identifier>
+            <os:holdingsCount>10</os:holdingsCount>
+            <os:createDate>1980-10-10</os:createDate>
             <os:formatsAvailable>
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
@@ -263,8 +263,8 @@
                 </marcx:datafield>
               </marcx:record>
             </marcx:collection>
-<os:identifier>870970-basis:21921173</os:identifier>
-<os:holdingsCount>4</os:holdingsCount>
+            <os:identifier>870970-basis:21921173</os:identifier>
+            <os:holdingsCount>4</os:holdingsCount>
             <os:formatsAvailable>
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
