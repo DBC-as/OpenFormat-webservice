@@ -75,7 +75,7 @@
           </os:object>
         </os:collection>
       </ns1:originalData>
-      <ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
+      <ns1:outputFormat>fullDisplay</ns1:outputFormat>
     </ns1:formatRequest>
   </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
