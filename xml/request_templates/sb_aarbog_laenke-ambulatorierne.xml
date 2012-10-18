@@ -76,6 +76,7 @@
         </os:collection>
       </ns1:originalData>
       <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>sb_aarbog_laenke-ambulatorierne.xml.PLACEHOLDER</ns1:trackingId>
     </ns1:formatRequest>
   </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
