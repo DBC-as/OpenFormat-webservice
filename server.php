@@ -61,6 +61,7 @@ class openFormat extends webServiceServer {
       $res->error->_value = 'authentication_error';
     else {
       $param->trackingId->_value = verbose::set_tracking_id('of', $param->trackingId->_value);
+      $param->trackingId->_namespace = $this->xmlns['of'];
       if (is_array($param->originalData)) {
         foreach ($param->originalData as $key => $od) {
           $form_req[] = &$param->originalData[$key];
@@ -122,7 +123,7 @@ class openFormat extends webServiceServer {
       $cache_key[$curls] = $this->make_cache_key($recs[$no]->_value->collection->_value->object, $param);
       if ($ret[$no] = $this->cache->get($cache_key[$curls])) {
         verbose::log(DEBUG, 'cache hit ' . $cache_key[$curls]);
-        continue;
+        //continue;
       }
       verbose::log(DEBUG, 'no cache hit');
       $ret_index[$curls] = $no;
