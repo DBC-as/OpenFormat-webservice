@@ -578,6 +578,7 @@
         </os:collection>
       </ns1:originalData>
       <ns1:outputFormat>bibliotekdkWorkDisplay</ns1:outputFormat>
+      <ns1:trackingId>work_engell.xml.bibliotekdkWorkDisplay</ns1:trackingId>
     </ns1:formatRequest>
   </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>

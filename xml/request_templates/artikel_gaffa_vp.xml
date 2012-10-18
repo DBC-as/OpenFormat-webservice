@@ -292,6 +292,7 @@
          </os:collection>
       </ns1:originalData>
       <ns1:outputFormat>bibliotekdkFullDisplay</ns1:outputFormat>
+      <ns1:trackingId>artikel_gaffa_vp.xml.bibliotekdkFullDisplay</ns1:trackingId>
     </ns1:formatRequest>
   </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
