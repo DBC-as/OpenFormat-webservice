@@ -9,8 +9,8 @@
           <os:object>
             <dkabm:record>
               <ac:identifier>22229427-1|870970</ac:identifier>
-              <ac:source>undefined</ac:source>
-              <dc:title>På Slotsholmen</dc:title>
+              <ac:source>NJE</ac:source>
+              <dc:title>På Slotsholmen-1</dc:title>
               <dc:title xsi:type="dkdcplus:full">På Slotsholmen 1</dc:title>
               <dc:creator xsi:type="dkdcplus:aut">Hans Engell 1</dc:creator>
               <dc:creator xsi:type="oss:sort">Engell, Hans</dc:creator>
@@ -129,7 +129,7 @@
             <dkabm:record>
               <ac:identifier>21921173-2|870970</ac:identifier>
               <ac:source>undefined</ac:source>
-              <dc:title>På Slotsholmen</dc:title>
+              <dc:title>På Slotsholmen-2</dc:title>
               <dc:title xsi:type="dkdcplus:full">På Slotsholmen-2</dc:title>
               <dc:creator xsi:type="dkdcplus:aut">Hans Engell-2</dc:creator>
               <dc:creator xsi:type="oss:sort">Engell, Hans</dc:creator>
@@ -192,7 +192,7 @@
                 </marcx:datafield>
                 <marcx:datafield tag="100" ind1="0" ind2="0">
                   <marcx:subfield code="0"/>
-                  <marcx:subfield code="a">Engell</marcx:subfield>
+                  <marcx:subfield code="a">Engell-2</marcx:subfield>
                   <marcx:subfield code="h">Hans</marcx:subfield>
                 </marcx:datafield>
                 <marcx:datafield tag="245" ind1="0" ind2="0">
