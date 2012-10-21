@@ -23,6 +23,7 @@
             <bibdk:typeGroup>literature</bibdk:typeGroup>
             <bibdk:orsOrderMaterialType>monograph</bibdk:orsOrderMaterialType>
           </bibdk:adminData>
+<bibdk:main>
           <bibdk:type punctuation=" + ">Bog</bibdk:type>
           <bibdk:details>
             <bibdk:format>21 S.</bibdk:format>
@@ -31,6 +32,7 @@
             <bibdk:place punctuation=", ">Randers</bibdk:place>
             <bibdk:publicationYear>1876</bibdk:publicationYear>
           </bibdk:publicationDetails>
+</bibdk:main>
         </bibdk:manifestation>
   <bibdk:manifestation>
           <bibdk:work>
@@ -52,6 +54,7 @@
             <bibdk:typeGroup>literature</bibdk:typeGroup>
             <bibdk:orsOrderMaterialType>monograph</bibdk:orsOrderMaterialType>
           </bibdk:adminData>
+<bibdk:main>
           <bibdk:type punctuation=" + ">Bog</bibdk:type>
           <bibdk:details>
             <bibdk:format>21 S.</bibdk:format>
@@ -60,6 +63,7 @@
             <bibdk:place punctuation=", ">Randers</bibdk:place>
             <bibdk:publicationYear>1876</bibdk:publicationYear>
           </bibdk:publicationDetails>
+</bibdk:main>
         </bibdk:manifestation>
         <bibdk:manifestation>
           <bibdk:work>
@@ -81,6 +85,7 @@
             <bibdk:typeGroup>literature</bibdk:typeGroup>
             <bibdk:orsOrderMaterialType>monograph</bibdk:orsOrderMaterialType>
           </bibdk:adminData>
+<bibdk:main>
           <bibdk:type punctuation=" + ">Bog</bibdk:type>
           <bibdk:details>
             <bibdk:format>21 S.</bibdk:format>
@@ -89,6 +94,7 @@
             <bibdk:place punctuation=", ">Randers</bibdk:place>
             <bibdk:publicationYear>1876</bibdk:publicationYear>
           </bibdk:publicationDetails>
+</bibdk:main>
         </bibdk:manifestation>
         <bibdk:manifestation>
           <bibdk:work>
@@ -110,6 +116,7 @@
             <bibdk:typeGroup>literature</bibdk:typeGroup>
             <bibdk:orsOrderMaterialType>monograph</bibdk:orsOrderMaterialType>
           </bibdk:adminData>
+<bibdk:main>
           <bibdk:type punctuation=" + ">Bog</bibdk:type>
           <bibdk:details>
             <bibdk:format>21 S.</bibdk:format>
@@ -118,6 +125,7 @@
             <bibdk:place punctuation=", ">Randers</bibdk:place>
             <bibdk:publicationYear>1876</bibdk:publicationYear>
           </bibdk:publicationDetails>
+</bibdk:main>
         </bibdk:manifestation>
   <bibdk:manifestation>
           <bibdk:work>
@@ -139,6 +147,7 @@
             <bibdk:typeGroup>literature</bibdk:typeGroup>
             <bibdk:orsOrderMaterialType>monograph</bibdk:orsOrderMaterialType>
           </bibdk:adminData>
+<bibdk:main>
           <bibdk:type punctuation=" + ">Bog</bibdk:type>
           <bibdk:details>
             <bibdk:format>21 S.</bibdk:format>
@@ -147,6 +156,7 @@
             <bibdk:place punctuation=", ">Randers</bibdk:place>
             <bibdk:publicationYear>1876</bibdk:publicationYear>
           </bibdk:publicationDetails>
+</bibdk:main>
         </bibdk:manifestation>
   <bibdk:manifestation>
           <bibdk:work>
@@ -168,6 +178,7 @@
             <bibdk:typeGroup>literature</bibdk:typeGroup>
             <bibdk:orsOrderMaterialType>monograph</bibdk:orsOrderMaterialType>
           </bibdk:adminData>
+<bibdk:main>
           <bibdk:type punctuation=" + ">Bog</bibdk:type>
           <bibdk:details>
             <bibdk:format>21 S.</bibdk:format>
@@ -176,6 +187,7 @@
             <bibdk:place punctuation=", ">Randers</bibdk:place>
             <bibdk:publicationYear>1876</bibdk:publicationYear>
           </bibdk:publicationDetails>
+</bibdk:main>
         </bibdk:manifestation>
   <bibdk:manifestation>
           <bibdk:work>
@@ -197,6 +209,7 @@
             <bibdk:typeGroup>literature</bibdk:typeGroup>
             <bibdk:orsOrderMaterialType>monograph</bibdk:orsOrderMaterialType>
           </bibdk:adminData>
+<bibdk:main>
           <bibdk:type punctuation=" + ">Bog</bibdk:type>
           <bibdk:details>
             <bibdk:format>21 S.</bibdk:format>
@@ -205,6 +218,7 @@
             <bibdk:place punctuation=", ">Randers</bibdk:place>
             <bibdk:publicationYear>1876</bibdk:publicationYear>
           </bibdk:publicationDetails>
+</bibdk:main>
         </bibdk:manifestation>
 </bibdk:workDisplay>
     </of:formatResponse>
