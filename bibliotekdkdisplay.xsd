@@ -46,7 +46,34 @@
 			<xs:sequence>
 				<xs:element ref="bibdk:work"/>
 				<xs:element ref="bibdk:adminData"/>
+				<xs:element ref="bibdk:main"/>
+				<xs:element ref="bibdk:section" minOccurs="0"/>
+				<xs:element ref="bibdk:volume" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="main">
+		<xs:complexType>
+			<xs:sequence>
 				<xs:element ref="bibdk:type"/>
+				<xs:element ref="bibdk:details" minOccurs="0"/>
+				<xs:element ref="bibdk:publicationDetails" minOccurs="0"/>
+				<xs:element ref="bibdk:content" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="section">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:details" minOccurs="0"/>
+				<xs:element ref="bibdk:publicationDetails" minOccurs="0"/>
+				<xs:element ref="bibdk:content" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="volume">
+		<xs:complexType>
+			<xs:sequence>
 				<xs:element ref="bibdk:details" minOccurs="0"/>
 				<xs:element ref="bibdk:publicationDetails" minOccurs="0"/>
 				<xs:element ref="bibdk:content" minOccurs="0"/>
