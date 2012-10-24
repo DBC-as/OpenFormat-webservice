@@ -62,8 +62,8 @@
             <bibdk:place punctuation=", ">Randers</bibdk:place>
             <bibdk:publicationYear>1876</bibdk:publicationYear>
           </bibdk:publicationDetails>
-</bibdk:main>
           <bibdk:type punctuation=" + ">Bog</bibdk:type>
+</bibdk:main>
         </bibdk:manifestation>
         <bibdk:manifestation>
           <bibdk:work>
