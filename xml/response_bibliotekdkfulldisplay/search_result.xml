@@ -11,7 +11,7 @@
             </bibdk:title>
             <bibdk:creators>
               <bibdk:creator className="link">
-                <bibdk:searchCode phrase="phrase.creator">F. E. Hundrup</bibdk:searchCode>
+                <bibdk:searchCode phrase="phrase.creator">"F. E. Hundrup"</bibdk:searchCode>
                 <bibdk:display>F. E. Hundrup</bibdk:display>
               </bibdk:creator>
             </bibdk:creators>
@@ -42,7 +42,7 @@
             </bibdk:title>
             <bibdk:creators>
               <bibdk:creator className="link">
-                <bibdk:searchCode phrase="phrase.creator">F. E. Hundrup</bibdk:searchCode>
+                <bibdk:searchCode phrase="phrase.creator">"F. E. Hundrup"</bibdk:searchCode>
                 <bibdk:display>F. E. Hundrup</bibdk:display>
               </bibdk:creator>
             </bibdk:creators>
@@ -73,7 +73,7 @@
             </bibdk:title>
             <bibdk:creators>
               <bibdk:creator className="link">
-                <bibdk:searchCode phrase="phrase.creator">F. E. Hundrup</bibdk:searchCode>
+                <bibdk:searchCode phrase="phrase.creator">"F. E. Hundrup"</bibdk:searchCode>
                 <bibdk:display>F. E. Hundrup</bibdk:display>
               </bibdk:creator>
             </bibdk:creators>
@@ -104,7 +104,7 @@
             </bibdk:title>
             <bibdk:creators>
               <bibdk:creator className="link">
-                <bibdk:searchCode phrase="phrase.creator">F. E. Hundrup</bibdk:searchCode>
+                <bibdk:searchCode phrase="phrase.creator">"F. E. Hundrup"</bibdk:searchCode>
                 <bibdk:display>F. E. Hundrup</bibdk:display>
               </bibdk:creator>
             </bibdk:creators>
@@ -135,7 +135,7 @@
             </bibdk:title>
             <bibdk:creators>
               <bibdk:creator className="link">
-                <bibdk:searchCode phrase="phrase.creator">F. E. Hundrup</bibdk:searchCode>
+                <bibdk:searchCode phrase="phrase.creator">"F. E. Hundrup"</bibdk:searchCode>
                 <bibdk:display>F. E. Hundrup</bibdk:display>
               </bibdk:creator>
             </bibdk:creators>
@@ -166,7 +166,7 @@
             </bibdk:title>
             <bibdk:creators>
               <bibdk:creator className="link">
-                <bibdk:searchCode phrase="phrase.creator">F. E. Hundrup</bibdk:searchCode>
+                <bibdk:searchCode phrase="phrase.creator">"F. E. Hundrup"</bibdk:searchCode>
                 <bibdk:display>F. E. Hundrup</bibdk:display>
               </bibdk:creator>
             </bibdk:creators>
@@ -197,7 +197,7 @@
             </bibdk:title>
             <bibdk:creators>
               <bibdk:creator className="link">
-                <bibdk:searchCode phrase="phrase.creator">F. E. Hundrup</bibdk:searchCode>
+                <bibdk:searchCode phrase="phrase.creator">"F. E. Hundrup"</bibdk:searchCode>
                 <bibdk:display>F. E. Hundrup</bibdk:display>
               </bibdk:creator>
             </bibdk:creators>
