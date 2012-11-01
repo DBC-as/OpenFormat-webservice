@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+              <dkabm:record>
+                <ac:identifier>29038317|870970</ac:identifier>
+                <dc:identifier xsi:type="dkdcplus:ISBN">9788712046240</dc:identifier>
+                <dc:identifier xsi:type="dkdcplus:ISBN">9788712046264</dc:identifier>
+                <dc:identifier xsi:type="dkdcplus:ISBN">9788712046288</dc:identifier>
+                <ac:source>Bibliotekskatalog</ac:source>
+                <dc:title>Søren Kierkegaards skrifter</dc:title>
+                <dc:title xsi:type="dkdcplus:full">Søren Kierkegaards skrifter : Kommentarer til Løse papirer</dc:title>
+                <dc:creator xsi:type="dkdcplus:aut">Søren Kierkegaard</dc:creator>
+                <dc:creator xsi:type="oss:sort">Kierkegaard, Søren</dc:creator>
+                <dc:subject xsi:type="dkdcplus:DK5">04.6</dc:subject>
+                <dc:subject xsi:type="dkdcplus:DK5-Text">Danske forfatteres værker af blandet indhold</dc:subject>
+                <dc:subject xsi:type="dkdcplus:DBCO">filosofiske skrifter</dc:subject>
+                <dc:subject xsi:type="dkdcplus:genre">nonfiktion</dc:subject>
+                <dc:description>Katalogiseret efter omslaget</dc:description>
+                <dcterms:audience>børnematerialer</dcterms:audience>
+                <dcterms:audience>voksenmaterialer</dcterms:audience>
+                <dc:publisher>Søren Kierkegaard Forskningscenteret</dc:publisher>
+                <dc:publisher>Gad</dc:publisher>
+                <dc:contributor>N. J. Cappelørn</dc:contributor>
+                <dc:contributor>Søren Kierkegaard Forskningscenteret</dc:contributor>
+                <dc:date>2011</dc:date>
+                <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+                <dc:format>illustreret</dc:format>
+                <dcterms:extent>1166 sider</dcterms:extent>
+                <dcterms:extent>bind</dcterms:extent>
+                <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                <dc:language>Dansk</dc:language>
+                <dcterms:spatial xsi:type="dkdcplus:DBCF">Danmark</dcterms:spatial>
+                <dcterms:temporal xsi:type="dkdcplus:DBCP">1800-1899</dcterms:temporal>
+              </dkabm:record>
+              <marcx:collection>
+                <marcx:record format="danMARC2" type="Bibliographic">
+                  <marcx:leader>000000000000000000000000</marcx:leader>
+                  <marcx:datafield ind1="0" ind2="0" tag="001">
+                    <marcx:subfield code="a">29038317</marcx:subfield>
+                    <marcx:subfield code="b">870970</marcx:subfield>
+                    <marcx:subfield code="c">20120419085703</marcx:subfield>
+                    <marcx:subfield code="d">20111027</marcx:subfield>
+                    <marcx:subfield code="f">a</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="004">
+                    <marcx:subfield code="r">n</marcx:subfield>
+                    <marcx:subfield code="a">e</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="008">
+                    <marcx:subfield code="t">s</marcx:subfield>
+                    <marcx:subfield code="u">f</marcx:subfield>
+                    <marcx:subfield code="a">2011</marcx:subfield>
+                    <marcx:subfield code="l">dan</marcx:subfield>
+                    <marcx:subfield code="b">dk</marcx:subfield>
+                    <marcx:subfield code="d">y</marcx:subfield>
+                    <marcx:subfield code="v">0</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="009">
+                    <marcx:subfield code="a">a</marcx:subfield>
+                    <marcx:subfield code="g">xx</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="018">
+                    <marcx:subfield code="a">21891592</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="021">
+                    <marcx:subfield code="e">9788712046240</marcx:subfield>
+                    <marcx:subfield code="c">ib.</marcx:subfield>
+                    <marcx:subfield code="d">kr. 525,00</marcx:subfield>
+                    <marcx:subfield code="b">Bind 27 og Kommentarbind, K27</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="021">
+                    <marcx:subfield code="e">9788712046264</marcx:subfield>
+                    <marcx:subfield code="c">ib. shirt.</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="021">
+                    <marcx:subfield code="e">9788712046288</marcx:subfield>
+                    <marcx:subfield code="c">særib.</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="032">
+                    <marcx:subfield code="x">ACC201143</marcx:subfield>
+                    <marcx:subfield code="a">DBF201148</marcx:subfield>
+                    <marcx:subfield code="x">BKM201148</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="100">
+                    <marcx:subfield code="a">Kierkegꜳrd</marcx:subfield>
+                    <marcx:subfield code="h">Søren</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="245">
+                    <marcx:subfield code="a">Søren Kierkegꜳrds skrifter</marcx:subfield>
+                    <marcx:subfield code="f">redaktion: Niels Jørgen Cappelørn ... [et al.]</marcx:subfield>
+                    <marcx:subfield code="c">Kommentarer til Løse papirer</marcx:subfield>
+                    <marcx:subfield code="g">[Bind] K27</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="260">
+                    <marcx:subfield code="c">2011</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="260">
+                    <marcx:subfield code="&amp;">1</marcx:subfield>
+                    <marcx:subfield code="a">Kbh.</marcx:subfield>
+                    <marcx:subfield code="b">Søren Kierkegꜳrd Forskningscenteret</marcx:subfield>
+                    <marcx:subfield code="b">Gad</marcx:subfield>
+                    <marcx:subfield code="g">[eksp. NBC]</marcx:subfield>
+                    <marcx:subfield code="c">1997—</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="300">
+                    <marcx:subfield code="a">1166 sider</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="300">
+                    <marcx:subfield code="a">bind</marcx:subfield>
+                    <marcx:subfield code="b">ill.</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="512">
+                    <marcx:subfield code="a">Katalogiseret efter omslaget</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="521">
+                    <marcx:subfield code="b">1. oplag</marcx:subfield>
+                    <marcx:subfield code="c">2011</marcx:subfield>
+                    <marcx:subfield code="k">Special-trykkeriet Viborg</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="532">
+                    <marcx:subfield code="&amp;">1</marcx:subfield>
+                    <marcx:subfield code="a">Litteraturhenvisninger</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="652">
+                    <marcx:subfield code="m">04.6</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="i">1800-1899</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="e">Danmark</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="o">filosofiske skrifter</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="700">
+                    <marcx:subfield code="a">Cappelørn</marcx:subfield>
+                    <marcx:subfield code="h">N. J.</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="710">
+                    <marcx:subfield code="a">Søren Kierkegꜳrd Forskningscenteret</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="900">
+                    <marcx:subfield code="a">Cappelørn</marcx:subfield>
+                    <marcx:subfield code="h">Niels Jørgen</marcx:subfield>
+                    <marcx:subfield code="z">700</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="990">
+                    <marcx:subfield code="o">201148</marcx:subfield>
+                    <marcx:subfield code="b">v</marcx:subfield>
+                    <marcx:subfield code="u">nt</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="996">
+                    <marcx:subfield code="a">DBC</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="996">
+                    <marcx:subfield code="a">DBC</marcx:subfield>
+                  </marcx:datafield>
+                </marcx:record>
+                <marcx:record format="danMARC2" type="BibliographicMain">
+                  <marcx:leader>000000000000000000000000</marcx:leader>
+                  <marcx:datafield ind1="0" ind2="0" tag="001">
+                    <marcx:subfield code="a">21891592</marcx:subfield>
+                    <marcx:subfield code="b">870970</marcx:subfield>
+                    <marcx:subfield code="c">20120525123439</marcx:subfield>
+                    <marcx:subfield code="d">19971028</marcx:subfield>
+                    <marcx:subfield code="f">a</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="004">
+                    <marcx:subfield code="r">n</marcx:subfield>
+                    <marcx:subfield code="a">h</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="008">
+                    <marcx:subfield code="b">dk</marcx:subfield>
+                    <marcx:subfield code="d">y</marcx:subfield>
+                    <marcx:subfield code="x">06</marcx:subfield>
+                    <marcx:subfield code="v">0</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="009">
+                    <marcx:subfield code="a">a</marcx:subfield>
+                    <marcx:subfield code="g">xx</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="100">
+                    <marcx:subfield code="a">Kierkegꜳrd</marcx:subfield>
+                    <marcx:subfield code="h">Søren</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="245">
+                    <marcx:subfield code="a">Søren Kierkegꜳrds skrifter</marcx:subfield>
+                    <marcx:subfield code="f">redaktion: Niels Jørgen Cappelørn ... [et al.]</marcx:subfield>
+                    <marcx:subfield code="y">Kommentarbind</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="260">
+                    <marcx:subfield code="&amp;">1</marcx:subfield>
+                    <marcx:subfield code="a">Kbh.</marcx:subfield>
+                    <marcx:subfield code="b">Søren Kierkegꜳrd Forskningscenteret</marcx:subfield>
+                    <marcx:subfield code="b">Gad</marcx:subfield>
+                    <marcx:subfield code="g">[eksp. NBC]</marcx:subfield>
+                    <marcx:subfield code="c">1997—</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="300">
+                    <marcx:subfield code="a">bind</marcx:subfield>
+                    <marcx:subfield code="b">ill.</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="532">
+                    <marcx:subfield code="&amp;">1</marcx:subfield>
+                    <marcx:subfield code="a">Litteraturhenvisninger</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="652">
+                    <marcx:subfield code="m">04.6</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="i">1800-1899</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="e">Danmark</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="o">filosofiske skrifter</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="700">
+                    <marcx:subfield code="a">Cappelørn</marcx:subfield>
+                    <marcx:subfield code="h">N. J.</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="710">
+                    <marcx:subfield code="a">Søren Kierkegꜳrd Forskningscenteret</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="900">
+                    <marcx:subfield code="a">Cappelørn</marcx:subfield>
+                    <marcx:subfield code="h">Niels Jørgen</marcx:subfield>
+                    <marcx:subfield code="z">700</marcx:subfield>
+                  </marcx:datafield>
+                </marcx:record>
+                <marcx:record format="danMARC2" type="BibliographicVolume">
+                  <marcx:leader>000000000000000000000000</marcx:leader>
+                  <marcx:datafield ind1="0" ind2="0" tag="001">
+                    <marcx:subfield code="a">29038317</marcx:subfield>
+                    <marcx:subfield code="b">870970</marcx:subfield>
+                    <marcx:subfield code="c">20120419085703</marcx:subfield>
+                    <marcx:subfield code="d">20111027</marcx:subfield>
+                    <marcx:subfield code="f">a</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="004">
+                    <marcx:subfield code="r">n</marcx:subfield>
+                    <marcx:subfield code="a">b</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="008">
+                    <marcx:subfield code="t">s</marcx:subfield>
+                    <marcx:subfield code="u">f</marcx:subfield>
+                    <marcx:subfield code="a">2011</marcx:subfield>
+                    <marcx:subfield code="l">dan</marcx:subfield>
+                    <marcx:subfield code="v">0</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="014">
+                    <marcx:subfield code="a">21891592</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="021">
+                    <marcx:subfield code="e">9788712046240</marcx:subfield>
+                    <marcx:subfield code="c">ib.</marcx:subfield>
+                    <marcx:subfield code="d">kr. 525,00</marcx:subfield>
+                    <marcx:subfield code="b">Bind 27 og Kommentarbind, K27</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="021">
+                    <marcx:subfield code="e">9788712046264</marcx:subfield>
+                    <marcx:subfield code="c">ib. shirt.</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="021">
+                    <marcx:subfield code="e">9788712046288</marcx:subfield>
+                    <marcx:subfield code="c">særib.</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="032">
+                    <marcx:subfield code="x">ACC201143</marcx:subfield>
+                    <marcx:subfield code="a">DBF201148</marcx:subfield>
+                    <marcx:subfield code="x">BKM201148</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="245">
+                    <marcx:subfield code="g">[Bind] K27</marcx:subfield>
+                    <marcx:subfield code="a">Kommentarer til Løse papirer</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="260">
+                    <marcx:subfield code="c">2011</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="300">
+                    <marcx:subfield code="a">1166 sider</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="512">
+                    <marcx:subfield code="a">Katalogiseret efter omslaget</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="521">
+                    <marcx:subfield code="&amp;">REX</marcx:subfield>
+                    <marcx:subfield code="b">1. oplag</marcx:subfield>
+                    <marcx:subfield code="c">2011</marcx:subfield>
+                    <marcx:subfield code="k">Special-trykkeriet Viborg</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="990">
+                    <marcx:subfield code="o">201148</marcx:subfield>
+                    <marcx:subfield code="b">v</marcx:subfield>
+                    <marcx:subfield code="u">nt</marcx:subfield>
+                  </marcx:datafield>
+                </marcx:record>
+              </marcx:collection>
+              <os:identifier>870970-basis:29038317</os:identifier>
+              <os:creationDate>2011-10-27</os:creationDate>
+<os:holdingsCount>12</os:holdingsCount>
+<os:lendingLibraries>12</os:lendingLibraries>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>bibliotekdkWorkDisplay</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

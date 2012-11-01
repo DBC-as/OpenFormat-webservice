@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+              <dkabm:record>
+                <ac:identifier>29363331|870970</ac:identifier>
+                <dc:identifier xsi:type="dkdcplus:ISBN">9788711408186</dc:identifier>
+                <dc:identifier xsi:type="dcterms:URI">https://ereolen.dk/ting/object/150028:29363331</dc:identifier>
+                <ac:source>Bibliotekskatalog</ac:source>
+                <dc:source>Min kamp</dc:source>
+                <dc:title>Min kamp</dc:title>
+                <dc:title xsi:type="dkdcplus:full">Min kamp : roman</dc:title>
+                <dc:creator xsi:type="dkdcplus:aut">Karl Ove Knausgård</dc:creator>
+                <dc:creator xsi:type="oss:sort">Knausgård, Karl Ove</dc:creator>
+                <dc:subject xsi:type="dkdcplus:DK5-Text">Skønlitteratur</dc:subject>
+                <dc:subject xsi:type="dkdcplus:DBCS">alkoholmisbrug</dc:subject>
+                <dc:subject xsi:type="dkdcplus:DBCS">barndom</dc:subject>
+                <dc:subject xsi:type="dkdcplus:DBCS">barndomserindringer</dc:subject>
+                <dc:subject xsi:type="dkdcplus:DBCS">børn</dc:subject>
+                <dc:subject xsi:type="dkdcplus:DBCS">døden</dc:subject>
+                <dc:subject xsi:type="dkdcplus:DBCS">erindringer</dc:subject>
+                <dc:subject xsi:type="dkdcplus:DBCS">familien</dc:subject>
+                <dc:subject xsi:type="dkdcplus:DBCS">far-søn forholdet</dc:subject>
+                <dc:subject xsi:type="dkdcplus:genre">fiktion</dc:subject>
+                <dc:subject xsi:type="dkdcplus:DBCS">forfattere</dc:subject>
+                <dc:subject xsi:type="dkdcplus:DBCS">forældre</dc:subject>
+                <dc:subject xsi:type="dkdcplus:DBCS">identitet</dc:subject>
+                <dc:subject xsi:type="dkdcplus:DBCS">parforhold</dc:subject>
+                <dc:subject xsi:type="dkdcplus:DK5">sk</dc:subject>
+                <dcterms:abstract>Selvbiografisk roman med nærgående beskrivelse af at vokse op og blive til i en sammensat verden med udgangspunkt i faderens død og hovedpersonens selvrealisering som forfatter</dcterms:abstract>
+                <dc:description>Downloades i EPUB-format</dc:description>
+                <dcterms:audience>børnematerialer</dcterms:audience>
+                <dcterms:audience>voksenmaterialer</dcterms:audience>
+                <dkdcplus:version>1. udgave</dkdcplus:version>
+                <dc:publisher>Lindhardt og Ringhof</dc:publisher>
+                <dc:contributor xsi:type="dkdcplus:trl">Sara Koch</dc:contributor>
+                <dc:date>2012</dc:date>
+                <dc:type xsi:type="dkdcplus:BibDK-Type">Netdokument</dc:type>
+                <dcterms:extent>dele</dcterms:extent>
+                <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                <dc:language>Dansk</dc:language>
+                <dcterms:spatial xsi:type="dkdcplus:DBCS">Norge</dcterms:spatial>
+                <dcterms:spatial xsi:type="dkdcplus:DBCS">Sverige</dcterms:spatial>
+                <dcterms:temporal xsi:type="dkdcplus:DBCP">1980-1989</dcterms:temporal>
+                <dcterms:temporal xsi:type="dkdcplus:DBCP">1990-1999</dcterms:temporal>
+                <dcterms:temporal xsi:type="dkdcplus:DBCP">2000-2009</dcterms:temporal>
+              </dkabm:record>
+              <marcx:collection>
+                <marcx:record format="danMARC2" type="Bibliographic">
+                  <marcx:leader>000000000000000000000000</marcx:leader>
+                  <marcx:datafield ind1="0" ind2="0" tag="001">
+                    <marcx:subfield code="a">29363331</marcx:subfield>
+                    <marcx:subfield code="b">870970</marcx:subfield>
+                    <marcx:subfield code="c">20120704102801</marcx:subfield>
+                    <marcx:subfield code="d">20120530</marcx:subfield>
+                    <marcx:subfield code="f">a</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="004">
+                    <marcx:subfield code="r">n</marcx:subfield>
+                    <marcx:subfield code="a">e</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="008">
+                    <marcx:subfield code="t">m</marcx:subfield>
+                    <marcx:subfield code="u">f</marcx:subfield>
+                    <marcx:subfield code="a">2012</marcx:subfield>
+                    <marcx:subfield code="b">dk</marcx:subfield>
+                    <marcx:subfield code="d">x</marcx:subfield>
+                    <marcx:subfield code="j">f</marcx:subfield>
+                    <marcx:subfield code="l">dan</marcx:subfield>
+                    <marcx:subfield code="v">0</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="009">
+                    <marcx:subfield code="a">a</marcx:subfield>
+                    <marcx:subfield code="g">xe</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="018">
+                    <marcx:subfield code="a">29400458</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="021">
+                    <marcx:subfield code="e">9788711408186</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="032">
+                    <marcx:subfield code="x">ACC201222</marcx:subfield>
+                    <marcx:subfield code="a">DBF201224</marcx:subfield>
+                    <marcx:subfield code="x">BKM201224</marcx:subfield>
+                    <marcx:subfield code="x">ERE201224</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="041">
+                    <marcx:subfield code="a">dan</marcx:subfield>
+                    <marcx:subfield code="c">nor</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="100">
+                    <marcx:subfield code="a">Knausgård</marcx:subfield>
+                    <marcx:subfield code="h">Karl Ove</marcx:subfield>
+                    <marcx:subfield code="4">aut</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="241">
+                    <marcx:subfield code="a">Min kamp</marcx:subfield>
+                    <marcx:subfield code="r">norsk</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="245">
+                    <marcx:subfield code="a">Min kamp</marcx:subfield>
+                    <marcx:subfield code="c">roman</marcx:subfield>
+                    <marcx:subfield code="g">[1. bog]</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="250">
+                    <marcx:subfield code="a">1. udgave</marcx:subfield>
+                    <marcx:subfield code="b">÷</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="260">
+                    <marcx:subfield code="c">2012</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="260">
+                    <marcx:subfield code="b">Lindhardt og Ringhof</marcx:subfield>
+                    <marcx:subfield code="g">[sælges på internettet]</marcx:subfield>
+                    <marcx:subfield code="c">2012-</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="300">
+                    <marcx:subfield code="a">dele</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="504">
+                    <marcx:subfield code="&amp;">1</marcx:subfield>
+                    <marcx:subfield code="a">Selvbiografisk roman med nærgående beskrivelse af at vokse op og blive til i en sammensat verden med udgangspunkt i faderens død og hovedpersonens selvrealisering som forfatter</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="512">
+                    <marcx:subfield code="a">Downloades i EPUB-format</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="652">
+                    <marcx:subfield code="n">85</marcx:subfield>
+                    <marcx:subfield code="z">26</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="652">
+                    <marcx:subfield code="o">sk</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="s">far-søn forholdet</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="s">døden</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="s">alkoholmisbrug</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="s">forfattere</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="s">familien</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="s">parforhold</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="s">forældre</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="s">børn</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="s">barndom</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="s">identitet</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="s">barndomserindringer</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="s">erindringer</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="i">1980-1989</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="i">1990-1999</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="i">2000-2009</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="q">Norge</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="q">Sverige</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="720">
+                    <marcx:subfield code="o">Sara Koch</marcx:subfield>
+                    <marcx:subfield code="4">trl</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="856">
+                    <marcx:subfield code="z">Adgang til lån for biblioteksbrugere</marcx:subfield>
+                    <marcx:subfield code="u">https://ereolen.dk/ting/object/150028:29363331</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="990">
+                    <marcx:subfield code="o">201224</marcx:subfield>
+                    <marcx:subfield code="b">v</marcx:subfield>
+                    <marcx:subfield code="u">nt</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="996">
+                    <marcx:subfield code="a">DBC</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="996">
+                    <marcx:subfield code="a">DBC</marcx:subfield>
+                  </marcx:datafield>
+                </marcx:record>
+                <marcx:record format="danMARC2" type="BibliographicMain">
+                  <marcx:leader>000000000000000000000000</marcx:leader>
+                  <marcx:datafield ind1="0" ind2="0" tag="001">
+                    <marcx:subfield code="a">29400458</marcx:subfield>
+                    <marcx:subfield code="b">870970</marcx:subfield>
+                    <marcx:subfield code="c">20120530140603</marcx:subfield>
+                    <marcx:subfield code="d">20120530</marcx:subfield>
+                    <marcx:subfield code="f">a</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="004">
+                    <marcx:subfield code="r">n</marcx:subfield>
+                    <marcx:subfield code="a">h</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="008">
+                    <marcx:subfield code="b">dk</marcx:subfield>
+                    <marcx:subfield code="d">x</marcx:subfield>
+                    <marcx:subfield code="j">f</marcx:subfield>
+                    <marcx:subfield code="l">dan</marcx:subfield>
+                    <marcx:subfield code="n">b</marcx:subfield>
+                    <marcx:subfield code="v">0</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="009">
+                    <marcx:subfield code="a">a</marcx:subfield>
+                    <marcx:subfield code="g">xe</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="041">
+                    <marcx:subfield code="a">dan</marcx:subfield>
+                    <marcx:subfield code="c">nor</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="100">
+                    <marcx:subfield code="a">Knausgård</marcx:subfield>
+                    <marcx:subfield code="h">Karl Ove</marcx:subfield>
+                    <marcx:subfield code="4">aut</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="241">
+                    <marcx:subfield code="a">Min kamp</marcx:subfield>
+                    <marcx:subfield code="r">norsk</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="245">
+                    <marcx:subfield code="a">Min kamp</marcx:subfield>
+                    <marcx:subfield code="c">roman</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="260">
+                    <marcx:subfield code="b">Lindhardt og Ringhof</marcx:subfield>
+                    <marcx:subfield code="g">[sælges på internettet]</marcx:subfield>
+                    <marcx:subfield code="c">2012-</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="300">
+                    <marcx:subfield code="a">dele</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="512">
+                    <marcx:subfield code="a">Downloades i EPUB-format</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="652">
+                    <marcx:subfield code="n">85</marcx:subfield>
+                    <marcx:subfield code="z">26</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="652">
+                    <marcx:subfield code="o">sk</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="s">far-søn forholdet</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="s">døden</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="s">alkoholmisbrug</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="s">forfattere</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="s">familien</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="s">parforhold</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="s">forældre</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="s">børn</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="s">barndom</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="s">identitet</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="s">barndomserindringer</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="s">erindringer</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="i">1980-1989</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="i">1990-1999</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="i">2000-2009</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="q">Norge</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="q">Sverige</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="720">
+                    <marcx:subfield code="o">Sara Koch</marcx:subfield>
+                    <marcx:subfield code="4">trl</marcx:subfield>
+                  </marcx:datafield>
+                </marcx:record>
+                <marcx:record format="danMARC2" type="BibliographicVolume">
+                  <marcx:leader>000000000000000000000000</marcx:leader>
+                  <marcx:datafield ind1="0" ind2="0" tag="001">
+                    <marcx:subfield code="a">29363331</marcx:subfield>
+                    <marcx:subfield code="b">870970</marcx:subfield>
+                    <marcx:subfield code="c">20120704102801</marcx:subfield>
+                    <marcx:subfield code="d">20120530</marcx:subfield>
+                    <marcx:subfield code="f">a</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="004">
+                    <marcx:subfield code="r">n</marcx:subfield>
+                    <marcx:subfield code="a">b</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="008">
+                    <marcx:subfield code="t">m</marcx:subfield>
+                    <marcx:subfield code="u">f</marcx:subfield>
+                    <marcx:subfield code="a">2012</marcx:subfield>
+                    <marcx:subfield code="v">0</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="014">
+                    <marcx:subfield code="a">29400458</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="021">
+                    <marcx:subfield code="e">9788711408186</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="032">
+                    <marcx:subfield code="x">ACC201222</marcx:subfield>
+                    <marcx:subfield code="a">DBF201224</marcx:subfield>
+                    <marcx:subfield code="x">BKM201224</marcx:subfield>
+                    <marcx:subfield code="x">ERE201224</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="245">
+                    <marcx:subfield code="g">[1. bog]</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="250">
+                    <marcx:subfield code="a">1. udgave</marcx:subfield>
+                    <marcx:subfield code="b">÷</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="260">
+                    <marcx:subfield code="c">2012</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="504">
+                    <marcx:subfield code="&amp;">1</marcx:subfield>
+                    <marcx:subfield code="a">Selvbiografisk roman med nærgående beskrivelse af at vokse op og blive til i en sammensat verden med udgangspunkt i faderens død og hovedpersonens selvrealisering som forfatter</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="856">
+                    <marcx:subfield code="z">Adgang til lån for biblioteksbrugere</marcx:subfield>
+                    <marcx:subfield code="u">https://ereolen.dk/ting/object/150028:29363331</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="990">
+                    <marcx:subfield code="o">201224</marcx:subfield>
+                    <marcx:subfield code="b">v</marcx:subfield>
+                    <marcx:subfield code="u">nt</marcx:subfield>
+                  </marcx:datafield>
+                </marcx:record>
+              </marcx:collection>
+              <os:identifier>870970-basis:29363331</os:identifier>
+              <os:creationDate>2012-05-30</os:creationDate>
+<os:holdingsCount>12</os:holdingsCount>
+<os:lendingLibraries>12</os:lendingLibraries>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>bibliotekdkWorkDisplay</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
