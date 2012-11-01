@@ -1905,7 +1905,7 @@
             <bibdk:type punctuation=" + ">Lydbog (bånd)</bibdk:type>
           </bibdk:main>
         </bibdk:manifestation>
-</workDisplay>
+</bibdk:workDisplay>
     </of:formatResponse>
   </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
