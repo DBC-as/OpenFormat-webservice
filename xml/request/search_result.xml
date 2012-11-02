@@ -131,6 +131,8 @@
             </os:formatsAvailable>
           </os:object>
         </os:collection>
+ </ns1:originalData>
+ <ns1:originalData>
         <os:collection>
           <os:resultPosition>2</os:resultPosition>
           <os:numberOfObjects>2</os:numberOfObjects>
@@ -259,6 +261,8 @@
             </os:formatsAvailable>
           </os:object>
         </os:collection>
+ </ns1:originalData>
+ <ns1:originalData>
         <os:collection>
           <os:resultPosition>3</os:resultPosition>
           <os:numberOfObjects>1</os:numberOfObjects>
@@ -325,6 +329,8 @@
             </os:formatsAvailable>
           </os:object>
         </os:collection>
+ </ns1:originalData>
+ <ns1:originalData>
         <os:collection>
           <os:resultPosition>4</os:resultPosition>
           <os:numberOfObjects>2</os:numberOfObjects>
