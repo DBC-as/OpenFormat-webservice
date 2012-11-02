@@ -3,7 +3,7 @@
   <SOAP-ENV:Body>
     <ns1:formatRequest>
       <ns1:originalData>
-        <os:collection>
+         <os:collection>
           <os:resultPosition>1</os:resultPosition>
           <os:numberOfObjects>1</os:numberOfObjects>
           <os:object>
@@ -184,8 +184,6 @@
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
           </os:object>
-        </os:collection>
-        <os:collection>
           <os:resultPosition>1</os:resultPosition>
           <os:numberOfObjects>1</os:numberOfObjects>
           <os:object>
@@ -395,8 +393,6 @@
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
           </os:object>
-        </os:collection>
-        <os:collection>
           <os:resultPosition>1</os:resultPosition>
           <os:numberOfObjects>1</os:numberOfObjects>
           <os:object>
@@ -589,8 +585,6 @@
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
           </os:object>
-        </os:collection>
-        <os:collection>
           <os:resultPosition>1</os:resultPosition>
           <os:numberOfObjects>1</os:numberOfObjects>
           <os:object>
@@ -783,8 +777,6 @@
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
           </os:object>
-        </os:collection>
-        <os:collection>
           <os:resultPosition>1</os:resultPosition>
           <os:numberOfObjects>1</os:numberOfObjects>
           <os:object>
@@ -977,8 +969,6 @@
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
           </os:object>
-        </os:collection>
-        <os:collection>
           <os:resultPosition>1</os:resultPosition>
           <os:numberOfObjects>1</os:numberOfObjects>
           <os:object>
@@ -1171,8 +1161,6 @@
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
           </os:object>
-        </os:collection>
-        <os:collection>
           <os:resultPosition>1</os:resultPosition>
           <os:numberOfObjects>1</os:numberOfObjects>
           <os:object>
@@ -1365,8 +1353,6 @@
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
           </os:object>
-        </os:collection>
-        <os:collection>
           <os:resultPosition>1</os:resultPosition>
           <os:numberOfObjects>1</os:numberOfObjects>
           <os:object>
@@ -1559,8 +1545,6 @@
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
           </os:object>
-        </os:collection>
-        <os:collection>
           <os:resultPosition>1</os:resultPosition>
           <os:numberOfObjects>1</os:numberOfObjects>
           <os:object>
@@ -1753,8 +1737,6 @@
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
           </os:object>
-        </os:collection>
-        <os:collection>
           <os:resultPosition>1</os:resultPosition>
           <os:numberOfObjects>1</os:numberOfObjects>
           <os:object>
@@ -1947,8 +1929,6 @@
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
           </os:object>
-        </os:collection>
-        <os:collection>
           <os:resultPosition>1</os:resultPosition>
           <os:numberOfObjects>1</os:numberOfObjects>
           <os:object>
@@ -2141,8 +2121,6 @@
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
           </os:object>
-        </os:collection>
-        <os:collection>
           <os:resultPosition>1</os:resultPosition>
           <os:numberOfObjects>1</os:numberOfObjects>
           <os:object>
@@ -2335,8 +2313,6 @@
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
           </os:object>
-        </os:collection>
-        <os:collection>
           <os:resultPosition>1</os:resultPosition>
           <os:numberOfObjects>1</os:numberOfObjects>
           <os:object>
@@ -2529,8 +2505,6 @@
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
           </os:object>
-        </os:collection>
-        <os:collection>
           <os:resultPosition>1</os:resultPosition>
           <os:numberOfObjects>1</os:numberOfObjects>
           <os:object>
@@ -2723,8 +2697,6 @@
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
           </os:object>
-        </os:collection>
-        <os:collection>
           <os:resultPosition>1</os:resultPosition>
           <os:numberOfObjects>1</os:numberOfObjects>
           <os:object>
@@ -2917,8 +2889,6 @@
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
           </os:object>
-        </os:collection>
-        <os:collection>
           <os:resultPosition>1</os:resultPosition>
           <os:numberOfObjects>1</os:numberOfObjects>
           <os:object>
@@ -3111,8 +3081,6 @@
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
           </os:object>
-        </os:collection>
-        <os:collection>
           <os:resultPosition>1</os:resultPosition>
           <os:numberOfObjects>1</os:numberOfObjects>
           <os:object>
@@ -3305,8 +3273,6 @@
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
           </os:object>
-        </os:collection>
-        <os:collection>
           <os:resultPosition>1</os:resultPosition>
           <os:numberOfObjects>1</os:numberOfObjects>
           <os:object>
@@ -3499,8 +3465,6 @@
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
           </os:object>
-        </os:collection>
-        <os:collection>
           <os:resultPosition>1</os:resultPosition>
           <os:numberOfObjects>1</os:numberOfObjects>
           <os:object>
@@ -3693,8 +3657,6 @@
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
           </os:object>
-        </os:collection>
-        <os:collection>
           <os:resultPosition>1</os:resultPosition>
           <os:numberOfObjects>1</os:numberOfObjects>
           <os:object>
@@ -3887,8 +3849,6 @@
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
           </os:object>
-        </os:collection>
-        <os:collection>
           <os:resultPosition>1</os:resultPosition>
           <os:numberOfObjects>1</os:numberOfObjects>
           <os:object>
@@ -4081,8 +4041,6 @@
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
           </os:object>
-        </os:collection>
-        <os:collection>
           <os:resultPosition>1</os:resultPosition>
           <os:numberOfObjects>1</os:numberOfObjects>
           <os:object>
@@ -4275,8 +4233,6 @@
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
           </os:object>
-        </os:collection>
-        <os:collection>
           <os:resultPosition>1</os:resultPosition>
           <os:numberOfObjects>1</os:numberOfObjects>
           <os:object>
@@ -4469,8 +4425,6 @@
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
           </os:object>
-        </os:collection>
-        <os:collection>
           <os:resultPosition>1</os:resultPosition>
           <os:numberOfObjects>1</os:numberOfObjects>
           <os:object>
@@ -4663,8 +4617,6 @@
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
           </os:object>
-        </os:collection>
-        <os:collection>
           <os:resultPosition>1</os:resultPosition>
           <os:numberOfObjects>1</os:numberOfObjects>
           <os:object>
@@ -4857,8 +4809,6 @@
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
           </os:object>
-        </os:collection>
-        <os:collection>
           <os:resultPosition>1</os:resultPosition>
           <os:numberOfObjects>1</os:numberOfObjects>
           <os:object>
@@ -5051,8 +5001,6 @@
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
           </os:object>
-        </os:collection>
-        <os:collection>
           <os:resultPosition>1</os:resultPosition>
           <os:numberOfObjects>1</os:numberOfObjects>
           <os:object>
@@ -5245,8 +5193,6 @@
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
           </os:object>
-        </os:collection>
-        <os:collection>
           <os:resultPosition>1</os:resultPosition>
           <os:numberOfObjects>1</os:numberOfObjects>
           <os:object>
@@ -5439,8 +5385,6 @@
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
           </os:object>
-        </os:collection>
-        <os:collection>
           <os:resultPosition>1</os:resultPosition>
           <os:numberOfObjects>1</os:numberOfObjects>
           <os:object>
@@ -5633,8 +5577,6 @@
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
           </os:object>
-        </os:collection>
-        <os:collection>
           <os:resultPosition>1</os:resultPosition>
           <os:numberOfObjects>1</os:numberOfObjects>
           <os:object>
@@ -5827,10 +5769,9 @@
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
           </os:object>
-        </os:collection>
+</os:collection>
       </ns1:originalData>
       <ns1:outputFormat>bibliotekdkWorkDisplay</ns1:outputFormat>
-      <ns1:trackingId>work30_engell.xml.bibliotekdkWorkDisplay</ns1:trackingId>
     </ns1:formatRequest>
   </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
