@@ -435,8 +435,8 @@
           </os:object>
         </os:collection>
       </ns1:originalData>
-      <ns1:outputFormat>bibliotekdkWorkDisplay</ns1:outputFormat>
-      <ns1:trackingId>bog_bd1_knausgaard.xml.bibliotekdkWorkDisplay</ns1:trackingId>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>bog_bd1_knausgaard.xml.PLACEHOLDER</ns1:trackingId>
     </ns1:formatRequest>
   </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
