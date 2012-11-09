@@ -2,7 +2,7 @@
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Journal Article
 SR Print(0)
 A1 Brandt,Jørgen Gustava
-T1 Et ¤essay om Karen Blixen
+T1 Et essay om Karen Blixen
 VO 6
 SP 200-223, 300
 OP 320
