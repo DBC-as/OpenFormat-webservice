@@ -2,7 +2,7 @@
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - BOOK
 A1  - Handford,Martin
 T1  - Find Holger på den eventyrlige rejse
-SP  - [28] sider, alle illustreret i farver
+SP  - 28 sider, alle illustreret i farver
 PB  - Apostrof
 CY  - Kbh.
 Y1  - 1989
