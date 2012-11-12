@@ -14,7 +14,7 @@
               <dc:title xsi:type="dkdcplus:full">Værk 1 M1</dc:title>
               <dcterms:audience>voksenmaterialer</dcterms:audience>
               <dc:contributor>F. E. Hundrup</dc:contributor>
-              <dc:date>1876</dc:date>
+              <dc:date>1870</dc:date>
               <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
               <dcterms:extent>21 S.</dcterms:extent>
               <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
@@ -36,7 +36,7 @@
                 </marcx:datafield>
                 <marcx:datafield tag="008" ind1="0" ind2="0">
                   <marcx:subfield code="t">m</marcx:subfield>
-                  <marcx:subfield code="a">1876</marcx:subfield>
+                  <marcx:subfield code="a">1870</marcx:subfield>
                   <marcx:subfield code="b">dk</marcx:subfield>
                   <marcx:subfield code="l">dan</marcx:subfield>
                   <marcx:subfield code="v">4</marcx:subfield>
@@ -46,7 +46,7 @@
                   <marcx:subfield code="g">xx</marcx:subfield>
                 </marcx:datafield>
                 <marcx:datafield tag="245" ind1="0" ind2="0">
-                  <marcx:subfield code="a">Værk 1 M1</marcx:subfield>
+                  <marcx:subfield code="a">Værk 1 M1 sorteres som nr 2</marcx:subfield>
                 </marcx:datafield>
                 <marcx:datafield tag="260" ind1="0" ind2="0">
                   <marcx:subfield code="a">Randers</marcx:subfield>
@@ -62,7 +62,6 @@
                 </marcx:datafield>
               </marcx:record>
             </marcx:collection>
-            <oss:openurl>_BASEURL_url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:book&amp;rft.btitle=Lærerstanden+ved+de+nedlagte+Latinskoler+i+Ebeltolt,+Grenaa,+Hobro,+Mariager+og+Skive&amp;rft.aulast=Hundrup&amp;rft.aufirst=F.+E.&amp;rft.auinit=FE&amp;rft.date=1876&amp;rft.genre=book</oss:openurl>
 <os:identifier>820010-basis:1031374</os:identifier>
             <os:formatsAvailable>
               <os:format>dkabm</os:format>
