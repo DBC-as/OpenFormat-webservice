@@ -55,16 +55,19 @@
 	<xs:element name="main">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="bibdk:type"/>
+				<xs:element ref="bibdk:content" minOccurs="0"/>
 				<xs:element ref="bibdk:details" minOccurs="0"/>
 				<xs:element ref="bibdk:publicationDetails" minOccurs="0"/>
-				<xs:element ref="bibdk:content" minOccurs="0"/>
+				<xs:element ref="bibdk:type"/>
+				<xs:element ref="bibdk:distinction" minOccurs="0"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="section">
 		<xs:complexType>
 			<xs:sequence>
+				<xs:element ref="bibdk:title"/>
+				<xs:element ref="bibdk:creators" minOccurs="0"/>
 				<xs:element ref="bibdk:details" minOccurs="0"/>
 				<xs:element ref="bibdk:publicationDetails" minOccurs="0"/>
 				<xs:element ref="bibdk:content" minOccurs="0"/>
@@ -74,6 +77,8 @@
 	<xs:element name="volume">
 		<xs:complexType>
 			<xs:sequence>
+				<xs:element ref="bibdk:title"/>
+				<xs:element ref="bibdk:creators" minOccurs="0"/>
 				<xs:element ref="bibdk:details" minOccurs="0"/>
 				<xs:element ref="bibdk:publicationDetails" minOccurs="0"/>
 				<xs:element ref="bibdk:content" minOccurs="0"/>
@@ -89,6 +94,14 @@
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="accessUrl" type="xs:string"/>
+	<xs:element name="acquisitionInformation">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:acquisitionTerms" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="acquisitionTerms" type="xs:string"/>
 	<xs:element name="actorNote" type="xs:string"/>
 	<xs:element name="adminData">
 		<xs:complexType>
@@ -108,12 +121,10 @@
 	<xs:element name="alternativeTitle">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="bibdk:alternativeTitleHeader" minOccurs="0"/>
 				<xs:element ref="bibdk:alternativeTitleElement"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
-	<xs:element name="alternativeTitleHeader" type="xs:string"/>
 	<xs:element name="alternativeTitleElement" type="xs:string"/>
 	<xs:element name="analyticContent">
 		<xs:complexType>
@@ -150,7 +161,6 @@
 			<xs:attribute name="className" type="xs:string"/>
 		</xs:complexType>
 	</xs:element>
-	<xs:element name="audienceSubjectHeader" type="xs:string"/>
 	<xs:element name="audienceSubject">
 		<xs:complexType>
 			<xs:sequence>
@@ -164,7 +174,6 @@
 	<xs:element name="audienceSubjects">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="bibdk:audienceSubjectHeader"/>
 				<xs:element ref="bibdk:audienceSubject" maxOccurs="unbounded"/>
 			</xs:sequence>
 		</xs:complexType>
@@ -172,13 +181,11 @@
 	<xs:element name="content">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="bibdk:contentHeader"/>
 				<xs:element ref="bibdk:analyticContent" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:contentTitle" minOccurs="0" maxOccurs="unbounded"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
-	<xs:element name="contentHeader" type="xs:string"/>
 	<xs:element name="contentTitle" type="xs:string"/>
 	<xs:element name="context">
 		<xs:complexType>
@@ -227,9 +234,11 @@
 				<xs:element ref="bibdk:seriesTitle" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:relatedSeriesTitle" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:readabilityIndexes" minOccurs="0"/>
+				<xs:element ref="bibdk:readabilityNumbers" minOccurs="0"/>
 				<xs:element ref="bibdk:shelf" minOccurs="0"/>
 				<xs:element ref="bibdk:genre" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:audienceSubjects" minOccurs="0"/>
+				<xs:element ref="bibdk:textLevels" minOccurs="0"/>
 				<xs:element ref="bibdk:markedAudience" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:recommendedAudience" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:usedLanguage" minOccurs="0" maxOccurs="unbounded"/>
@@ -241,11 +250,13 @@
 				<xs:element ref="bibdk:context" minOccurs="0"/>
 				<xs:element ref="bibdk:identifiers" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:priceInformation" minOccurs="0"/>
+				<xs:element ref="bibdk:acquisitionInformation" minOccurs="0"/>
 				<xs:element ref="bibdk:language" minOccurs="0"/>
 				<xs:element ref="bibdk:accessInformation" minOccurs="0"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
+	<xs:element name="distinction" type="xs:string"/>
 	<xs:element name="display" type="xs:string"/>
 	<xs:element name="edition">
 		<xs:complexType>
@@ -257,11 +268,9 @@
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="format" type="xs:string"/>
-	<xs:element name="formHeader" type="xs:string"/>
 	<xs:element name="forms">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="bibdk:formHeader"/>
 				<xs:element ref="bibdk:formSubject" maxOccurs="unbounded"/>
 			</xs:sequence>
 		</xs:complexType>
@@ -288,59 +297,60 @@
 	</xs:element>
 	<xs:element name="hostPublicationID" type="xs:string"/>
 	<xs:element name="identifier" type="xs:string"/>
-	<xs:element name="identifierHeader" type="xs:string"/>
+	<xs:element name="identifierDescriptor" type="xs:string"/>
 	<xs:element name="identifiers">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="bibdk:identifierHeader" minOccurs="0"/>
+				<xs:element ref="bibdk:identifierDescriptor" minOccurs="0"/>
 				<xs:element ref="bibdk:identifier" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:ISSN" minOccurs="0" maxOccurs="unbounded"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
+	<xs:element name="infomediaLink" type="xs:string"/>
 	<xs:element name="ISSN" type="xs:string"/>
 	<xs:element name="language">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="bibdk:languageHeader"/>
 				<xs:element ref="bibdk:languageElement"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="languageElement" type="xs:string"/>
-	<xs:element name="languageHeader" type="xs:string"/>
 	<xs:element name="latestReprint">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="bibdk:latestReprintHead" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:latestReprintElement" maxOccurs="unbounded"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="latestReprintElement" type="xs:string"/>
-	<xs:element name="latestReprintHead" type="xs:string"/>
-	<xs:element name="infomediaLink" type="xs:string"/>
 	<xs:element name="markedAudience" type="xs:string"/>
 	<xs:element name="originals" type="xs:string"/>
 	<xs:element name="originalTitle">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="bibdk:originalTitleHeader" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:originalTitleElement" maxOccurs="unbounded"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="originalTitleElement" type="xs:string"/>
-	<xs:element name="originalTitleHeader" type="xs:string"/>
 	<xs:element name="orsOrderMaterialType" type="xs:string"/>
 	<xs:element name="pid" type="xs:string"/>
+	<xs:element name="place">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="punctuation" type="xs:string" use="optional"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
 	<xs:element name="price" type="xs:string"/>
-	<xs:element name="priceHeader" type="xs:string"/>
 	<xs:element name="priceInformation">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="bibdk:priceHeader" minOccurs="0"/>
-				<xs:element ref="bibdk:price"/>
+				<xs:element ref="bibdk:price" minOccurs="0" maxOccurs="unbounded"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
@@ -349,6 +359,7 @@
 			<xs:sequence>
 				<xs:element ref="bibdk:hostPublication" minOccurs="0"/>
 				<xs:element ref="bibdk:format" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:place" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:edition" minOccurs="0"/>
 				<xs:element ref="bibdk:publisher" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:publicationYear" minOccurs="0"/>
@@ -374,6 +385,14 @@
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="readabilityIndex" type="xs:string"/>
+	<xs:element name="readabilityNumbers">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:readabilityNumber" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="readabilityNumber" type="xs:string"/>
 	<xs:element name="recommendedAudience" type="xs:string"/>
 	<xs:element name="references" type="xs:string"/>
 	<xs:element name="referencesExternal" type="xs:string"/>
@@ -387,12 +406,19 @@
 			<xs:attribute name="punctuation" type="xs:string"/>
 		</xs:complexType>
 	</xs:element>
-	<xs:element name="relatedSeriesHeader" type="xs:string"/>
+	<xs:element name="relatedSeriesDescription" type="xs:string"/>
 	<xs:element name="relatedSeriesTitle">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="bibdk:relatedSeriesHeader" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:relatedSeriesDescription" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:relatedSeries" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="relatedSeriesTitles">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:relatedSeriesTitle" maxOccurs="unbounded"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
@@ -418,12 +444,10 @@
 			<xs:attribute name="punctuation" type="xs:string"/>
 		</xs:complexType>
 	</xs:element>
-	<xs:element name="seriesHeader" type="xs:string"/>
 	<xs:element name="seriesNumber" type="xs:string"/>
 	<xs:element name="seriesTitle">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="bibdk:seriesHeader" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:series" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:seriesNumber" minOccurs="0" maxOccurs="unbounded"/>
 			</xs:sequence>
@@ -432,7 +456,6 @@
 	<xs:element name="shelf">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="bibdk:shelfHeader"/>
 				<xs:element ref="bibdk:shelfMusic" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:shelfClassification" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:shelfClassificationSubDivision" minOccurs="0" maxOccurs="unbounded"/>
@@ -457,7 +480,6 @@
 			<xs:attribute name="className" type="xs:string"/>
 		</xs:complexType>
 	</xs:element>
-	<xs:element name="shelfHeader" type="xs:string"/>
 	<xs:element name="shelfMusic" type="xs:string"/>
 	<xs:element name="sortKey" type="xs:string"/>
 	<xs:element name="subject">
@@ -470,12 +492,27 @@
 			<xs:attribute name="punctuation" type="xs:string"/>
 		</xs:complexType>
 	</xs:element>
-	<xs:element name="subjectHeader" type="xs:string"/>
 	<xs:element name="subjects">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="bibdk:subjectHeader"/>
 				<xs:element ref="bibdk:subject" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="textLevel">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:searchCode"/>
+				<xs:element ref="bibdk:display"/>
+			</xs:sequence>
+			<xs:attribute name="className" type="xs:string"/>
+			<xs:attribute name="punctuation" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="textLevels">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:textLevel" maxOccurs="unbounded"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
