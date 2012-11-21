@@ -232,7 +232,7 @@
 				<xs:element ref="bibdk:format" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:forms" minOccurs="0"/>
 				<xs:element ref="bibdk:seriesTitle" minOccurs="0" maxOccurs="unbounded"/>
-				<xs:element ref="bibdk:relatedSeriesTitle" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:relatedSeriesTitles" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:readabilityIndexes" minOccurs="0"/>
 				<xs:element ref="bibdk:readabilityNumbers" minOccurs="0"/>
 				<xs:element ref="bibdk:shelf" minOccurs="0"/>
