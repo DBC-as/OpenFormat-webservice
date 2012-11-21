@@ -58,7 +58,7 @@
 				<xs:element ref="bibdk:content" minOccurs="0"/>
 				<xs:element ref="bibdk:details" minOccurs="0"/>
 				<xs:element ref="bibdk:publicationDetails" minOccurs="0"/>
-				<xs:element ref="bibdk:type"/>
+				<xs:element ref="bibdk:type" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:distinction" minOccurs="0"/>
 			</xs:sequence>
 		</xs:complexType>
@@ -410,7 +410,7 @@
 	<xs:element name="relatedSeriesTitle">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="bibdk:relatedSeriesDescription" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:relatedSeriesDescription" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:relatedSeries" maxOccurs="unbounded"/>
 			</xs:sequence>
 		</xs:complexType>
