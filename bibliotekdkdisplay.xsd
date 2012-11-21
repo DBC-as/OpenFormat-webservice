@@ -135,11 +135,11 @@
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="analyticContributor">
-		<xs:complexType>
-			<xs:sequence>
+		<xs:complexType mixed="true">
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
 				<xs:element ref="bibdk:searchCode" minOccurs="0"/>
 				<xs:element ref="bibdk:display"/>
-			</xs:sequence>
+			</xs:choice>
 			<xs:attribute name="className" type="xs:string"/>
 		</xs:complexType>
 	</xs:element>
@@ -153,11 +153,11 @@
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="analyticTitleMain">
-		<xs:complexType>
-			<xs:sequence>
+		<xs:complexType mixed="true">
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
 				<xs:element ref="bibdk:searchCode" minOccurs="0"/>
 				<xs:element ref="bibdk:display"/>
-			</xs:sequence>
+			</xs:choice>
 			<xs:attribute name="className" type="xs:string"/>
 		</xs:complexType>
 	</xs:element>
