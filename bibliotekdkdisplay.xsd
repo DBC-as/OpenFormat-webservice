@@ -239,8 +239,10 @@
 				<xs:element ref="bibdk:genre" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:audienceSubjects" minOccurs="0"/>
 				<xs:element ref="bibdk:textLevels" minOccurs="0"/>
-				<xs:element ref="bibdk:markedAudience" minOccurs="0" maxOccurs="unbounded"/>
-				<xs:element ref="bibdk:recommendedAudience" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:audience" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:audienceAge" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:audienceMarked" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:audiencePegi" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:usedLanguage" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:actorNote" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:descriptionNote" minOccurs="0" maxOccurs="unbounded"/>
@@ -325,7 +327,10 @@
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="latestReprintElement" type="xs:string"/>
-	<xs:element name="markedAudience" type="xs:string"/>
+	<xs:element name="audience" type="xs:string"/>
+	<xs:element name="audienceAge" type="xs:string"/>
+	<xs:element name="audienceMarked" type="xs:string"/>
+	<xs:element name="audiencePegi" type="xs:string"/>
 	<xs:element name="originals" type="xs:string"/>
 	<xs:element name="originalTitle">
 		<xs:complexType>
@@ -393,7 +398,6 @@
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="readabilityNumber" type="xs:string"/>
-	<xs:element name="recommendedAudience" type="xs:string"/>
 	<xs:element name="references" type="xs:string"/>
 	<xs:element name="referencesExternal" type="xs:string"/>
 	<xs:element name="relatedSeries">
