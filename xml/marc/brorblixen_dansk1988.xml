@@ -1,0 +1,24 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 06702759 *b 870970 *c 20010128224732 *d 19880502 *f a *o c *t FAUST 
+004 00 *r n *a e 
+008 00 *t m *u f *a 1988 *b dk *k b *l dan *v 0 
+009 00 *a a *g xx 
+021 00 *a 87-7258-337-1 *c ib. *d kr. 149,00 
+032 00 *a DBF198822 *x SFD198825 *x OPR198822 
+041 00 *a dan *b eng *c swe 
+100 00 *0 *a Aschan *h Ulf 
+241 00 *a Baron Blixen 
+245 00 *a Manden som kvinderne elskede *c Bror Blixens liv *e Ulf Aschan *f på dansk ved Birgitte Brix 
+260 00 *a [Kbh.] *b Sesam *k Nørhaven, Viborg *c 1988 
+300 00 *a 240 sider *b ill. *c 21 cm 
+502 00 *a Oversat efter: The man whom women loved 
+502 00 *a Originaltitel: Baron Blixen (svensk) 
+504 00 *a Om Bror von Blixen-Fineckes (1886-1946) opvækst i svensk godsejeradel, hans eventyrlige liv indledt ved ægteskabet med Karen Blixen og om livet i Afrika som farmer, storvildtjæger og opdagelsesrejsende samt om hans senere ægteskaber og elskerinder 
+600 00 *0 *a Blixen-Finecke *h Bror von *2 DBC 
+652 00 *0 *å 1 *m 99.4 *a Blixen-Finecke *h Bror von 
+666 00 *i 1900-1999 
+666 00 *o biografier 
+900 00 *0 *a Finecke *h Bror von Blixen- *x se *w Blixen-Finecke, Bror von *z 652/1(a,h) 
+900 00 *0 *a Blixen *h Bror *x se *w Blixen-Finecke, Bror von *z 652/1(a,h) 
+s10 00 *a DBC</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

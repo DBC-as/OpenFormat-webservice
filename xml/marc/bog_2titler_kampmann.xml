@@ -1,0 +1,37 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 25387376 *b 760700 *c 20051221081847 *d 20040903 *f a *t FAUST 
+004 00 *r c *a e 
+008 00 *t m *u r *a 2004 *z 2005 *b dk *j f *l dan *v 0 
+009 00 *a a *g xx 
+017 00 *a 22810987 
+021 00 *a 87-02-03424-7 *c ib. *d kr. 199,00 
+032 00 *a DBF200509 *x SFD200509 *x DAT200603 
+096 00 *z 760700 *f vok 
+096 00 *z 760700 *t 20041019 
+100 00 *0 *a Kampmann *h Christian 
+245 00 *a Visse hensyn *a Faste forhold *c roman *e Christian Kampmann 
+250 00 *a 2. samlede udgave *x 5. oplag 
+260 00 *a [Kbh.] *b Gyldendal *c 2005 *k tr. i udl. 
+300 00 *a 232, 299 sider 
+504 00 *a En økonomisk velbjærget families historie i 1950'erne og 1960'erne 
+512 00 *i På omslaget *t Familien Gregersen 
+520 00 *a Titlerne tidligere udgivet separat 
+520 00 *a Tidligere: 2. samlede udgave. 2004. - 1. samlede udgave. 2000. (Gyldendal paperback) 
+520 00 *a Originaludgaver: 1973, og: 1974 
+521 00 *a [1. oplag] *c 2004 
+521 00 *a 2. oplag *c 2004 
+521 00 *a 3. oplag *c 2004 
+521 00 *a 4. oplag *c 2005 
+521 00 *b 5. oplag *c 2005 
+526 00 *i Samhørende *t Visse hensyn *t Faste forhold *t Rene linjer *t Andre måder 
+652 00 *n 86 *z 06 
+652 00 *o sk 
+666 00 *0 *s slægtsromaner 
+666 00 *0 *s samfundsforhold 
+666 00 *0 *s samfundsskildringer 
+666 00 *0 *s familien 
+666 00 *0 *q Danmark 
+666 00 *0 *i 1950-1959 
+666 00 *0 *i 1960-1969 
+990 00 *a SFD *c A *o 200509</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

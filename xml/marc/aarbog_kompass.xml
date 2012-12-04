@@ -1,0 +1,25 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 49216092 *b 860840 *f a 
+004 00 *r n *a h 
+008 00 *u d *a 1993 *z 2001 *b dk *c a *h z *i b *l mul *v 0 
+009 00 *a a *g xx 
+010 00 *a D996973019 
+015 00 *a 22603116 
+015 00 *a 20712058 
+018 00 *a 49216084 
+022 00 *a 1397-2286 *c ib. 
+041 00 *a mul 
+082 00 *a 380.102 548 9 
+210 00 *a Kompass, 1, Indeks Dan. ind. næringsliv. Prod./serv. 
+222 00 *a Kompass. Bind 1, Indeks over Danmarks industri og næringsliv, Produkter/service 
+245 00 *a Kompass *n Bind 1 *o Indeks over Danmarks industri og næringsliv, Produkter/service *p Kompass *q Vol. 1, Register of Danish industry and commerce 
+255 00 *a 33. udgave (1993/94)-41. udgave (2001/2002) 
+260 00 *a Holte *b Kompass-Danmark *c [1993-2001] 
+300 00 *c 30 cm 
+500 00 *a Årlig 
+505 00 *a Årspublikation 
+512 00 *i Omslagstitel *t Kompass Danmark 
+526 00 *i Delvis fortsættelse af *t Kompass (Holte : 1961) 
+526 00 *i Sammenlagt med *t Kompass. Bind 2, Indeks over Danmarks industri og næringsliv, Firmaer *b , til: *t Kompass (Holte : 2002) 
+652 00 *m 65.016</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

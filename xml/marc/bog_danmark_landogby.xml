@@ -1,0 +1,27 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 01112775 *b 870970 *c 20010128224732 *d 19760502 *f a *o c *t FAUST 
+004 00 *r n *a e 
+008 00 *t m *u r *a 1974 *z 1988 *b dk *d z *l mul *v 0 
+009 00 *a a *g xx 
+021 00 *a 87-14-28697-1 *c hf. *d kr. 88,00 
+021 00 *a 87-14-28462-6 *b 4. oplag 
+021 00 *a 87-14-28184-8 *b 3. oplag 
+021 00 *a 87-14-27784-0 *b 2. oplag 
+021 00 *a 87-14-27451-5 *b 1. oplag 
+032 00 *a DBF198818 *x SFD198818 
+038 00 *a st 
+041 00 *p dan *p eng *p ger *p fre *p spa 
+100 00 *0 *a Aistrup *h Inga 
+245 00 *a Danmark *c \land og by\ *s town and country *s la ville et la campagne *s el campo y la ciudad *s Stadt und Land *e [redaktion og tekst]: Inga Aistrup *f [tekstoversættelser af: Paula Hostrup-Jessen (engelsk) ... [et al.]] *ø Land og by 
+250 00 *x 6. oplag *b ÷ 
+260 00 *a Kbh. *b Høst *k Rosendahls Bogtrykkeri, Esbjerg *c 1988 
+300 00 *a VII, 72 sider *b alle ill. i farver *c 30 cm 
+505 00 *a Fotografisk billedværk 
+508 00 *a Dansk, engelsk, tysk, fransk og spansk tekst 
+520 00 *a Tidligere: 1. udgave. 1974 
+652 00 *m 46 
+666 00 *e Danmark 
+666 00 *o fotografier 
+666 00 *o billedværker 
+s10 00 *a DBC</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

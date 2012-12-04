@@ -1,0 +1,44 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 29213836 *b 870970 *c 20120210145818 *d 20120210 *f a *t FAUST 
+004 00 *r n *a e 
+006 00 *a 20120123 *c 20120523 *2 a 
+008 00 *t s *u f *a 2012 *b dk *l eng *v 0 
+009 00 *a s *g xc *b a *h xx 
+023 00 *a 5099995586526 
+032 00 *a DMO201207 
+039 00 *a bef 
+100 00 *0 *a Sonne *h Laust 
+245 00 *a Laust Sonne *j Laust Sonne with Kristoffer Sonne ... [et al.] *i vocals by Laust Sonne *j produced by Kristoffer Sonne, Laust Sonne, Nikolaj Torp, Dyre Gormsen ... [et al.] 
+250 00 *a [2012 version] 
+260 00 *b EMI Music Denmark *c p 2012 
+300 00 *n 1 cd *d 1 bilag 
+529 00 *a MySpace *u http://www.myspace.com/laustsonne 
+531 00 *a Indhold: 
+538 00 *f We:Made *f EMI *g EMI 9558652 
+652 00 *m 78.794 *v 5 
+666 00 *m rock *m pop *m electronica *n vokal *p 2010-2019 *l Danmark 
+700 00 *0 *a Brꜳger *h Rune 
+700 00 *0 *a Juel *h Nikolaj 
+700 00 *0 *a Molbech *h Nicolai 
+700 00 *0 *a Sonne *h Kristoffer 
+700 00 *0 *å 1 *a Torp Larsen *h Nikolaj 
+700 00 *0 *å 6 *a Winther-John *h Marcus 
+795 00 *å 11 *0 *a Lost my heart *i written and composed by Kristoffer Sonne &amp; Laust Sonne *i keyboards by Nikolaj Torp &amp; Laust Sonne *i voice by N. Molbech *i add. whoas by K. Sonne *i claps by N. Molbech &amp; Laust *i drum programming by Kristoffer Sonne 
+795 00 *å 12 *0 *a Disco heart *i written and composed by Laust Sonne *i instruments played by Laust 
+795 00 *å 13 *0 *a Vertigo *i written and composed by Kristoffer Sonne &amp; Laust Sonne *i keyboards by Nikolaj Torp *i add. whoas by Kristoffer Sonne *i drum programming by Kristoffer Sonne &amp; Laust Sonne 
+795 00 *å 14 *0 *a Taking it back *i written and composed by Laust Sonne *i instruments played by Laust 
+795 00 *å 15 *0 *a Can you keep a secret *i written and composed by Laust Sonne, Rune Brꜳger &amp; Marcus Winther-John 
+795 00 *å 16 *0 *a Spell on you *i written and composed by Laust Sonne *i instruments played by Laust 
+795 00 *å 17 *0 *a What about us *i written and composed by Kristoffer Sonne, Nikolaj Juel &amp; Laust Sonne *i keyboards by Nikolaj Torp &amp; Laust Sonne *i drum programming by Kristoffer Sonne &amp; Laust Sonne *i acoustic guitar by Nikolaj Juel 
+795 00 *å 18 *0 *a Call me up *i written and composed by Laust Sonne *i instruments played by Laust *i breath by N. Molbech 
+795 00 *å 19 *0 *a Walk out the door *i written and composed by Laust Sonne *i instruments played by Laust 
+795 00 *å 20 *0 *a How can I *i written and composed by Laust Sonne *i instruments played by Laust 
+795 00 *å 21 *0 *a Chills *i written and composed by Laust Sonne *i instruments played by Laust 
+795 00 *å 22 *0 *a Like a chemical *i written and composed by Kristoffer Sonne &amp; Laust Sonne *i keyboards by Nikolaj Torp &amp; Laust Sonne *i drum programming by Kristoffer Sonne &amp; Laust Sonne 
+795 00 *å 23 *0 *a Body talk *i written and composed by Laust Sonne &amp; Galgani *i programmed by Galgani *i instruments played by Galgani &amp; Laust *i add. vocals by Galgani 
+900 00 *0 *a Larsen *h Nikolaj Torp *x se *w Torp Larsen, Nikolaj *z 700/1 
+900 00 *0 *a Torp *h Nikolaj *x se *w Torp Larsen, Nikolaj *z 700/1 
+900 00 *0 *a Jørgensen *h Marcus Winther- *x se *w Winther-John, Marcus *z 700/6 
+900 00 *0 *a John *h Marcus Winther- *x se *w Winther-John, Marcus *z 700/6 
+s10 00 *a DBC</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

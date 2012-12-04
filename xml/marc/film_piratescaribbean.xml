@@ -1,0 +1,39 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 28480261 *b 870970 *c 20101108181028 *d 20101019 *f a *t FAUST 
+004 00 *r n *a e 
+006 00 *d 11 *2 b 
+006 00 *e 11 *2 d 
+008 00 *t m *u f *a 2010 *b dk *l mul *v 0 
+009 00 *a m *g th 
+021 00 *b Brugsretskategori: C+ 
+023 00 *a 8717418110222 
+032 00 *a DBI201045 *x BKM201045 
+041 00 *p eng *p por *u eng *u por *u dut *u nor *u dan *u swe *u fin *u ice *u est 
+245 00 *a Pirates of the Caribbean - den sorte forbandelse *p Pirates of the Caribbean - the curse of the Black Pearl *e directed by Gore Verbinski *e screenplay by Ted Elliott &amp; Terry Rossio *e screen story by Ted Elliott ... [et al.] *e based on Walt Disney's Pirates of the Caribbean *f produced by Jerry Bruckheimer *e director of photography Dariusz Wolski 
+260 00 *a [Kbh.] *b Buena Vista Home Entertainment *c [2010] 
+300 00 *n 1 dvd-video *l ca. 2 t., 17 min. 
+440 00 *0 *a Disney dvd 
+508 00 *a Engelsk tale, samt synkronisering på portugisisk 
+508 00 *a Undertekster på engelsk, portugisisk, hollandsk, norsk, dansk, svensk, finsk, islandsk og estisk 
+508 00 *a Tekstet for hørehæmmede på engelsk 
+512 00 *i Medvirkende *e Johnny Depp, Geoffrey Rush, Orlando Bloom, Keira Knightley, Jack Davensport ... et al. 
+512 00 *a Originalfilmen: USA : Walt Disney Enterprises, 2003 
+517 00 *a Mærkning: Tilladt for børn over 11 år 
+517 00 *a Fra 11 år 
+534 00 *a Af indholdet: Bonus materiale 
+538 00 *a BMA 3023315 
+652 00 *m 77.7 
+666 00 *s adventurefilm 
+666 00 *s sørøvere 
+666 00 *q Jamaica 
+666 00 *i 1700-1799 
+700 00 *0 *å 1 *a Disney *h Walt 
+700 00 *0 *a Verbinski *h Gore 
+700 00 *0 *a Elliott *h Ted 
+700 00 *0 *a Rossio *h Terry 
+700 00 *0 *a Wolski *h Dariusz 
+710 00 *0 *a Walt Disney *e firma 
+910 00 *0 *a Disney *h Walt *e firma *x se *w Walt Disney (firma) *z 710 
+s10 00 *a DBC 
+990 00 *o 201045 *b v *u nt</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

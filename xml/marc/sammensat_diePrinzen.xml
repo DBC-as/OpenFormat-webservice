@@ -1,0 +1,27 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 24617572 *b 870970 *c 20080418211707 *d 20030423 *f a *t FAUST 
+004 00 *r n *a e 
+008 00 *t m *u f *a 2003 *b dk *l ger *v 0 
+009 00 *a m *b s *g th *a s *g xc *a a *g xx *a v 
+021 00 *a 87-7930-032-4 *d kr. 1015,00 *b videobenyttelse: 3,4,5 
+032 00 *x SFA200320 *x DAT990818 
+041 00 *a ger *e dan 
+100 00 *0 *a Jess *h Hjalmar 
+245 00 *a Die ¤Prinzen *c 10 Jahre Popmusik *e Hjalmar Jess 
+260 00 *a Måløv *b Sprogforlaget *c 2003 
+300 00 *n 1 dvd-video/cd *l ca. 90, 60 min. *b dobbeltsidet *n 1 ringordner *a 45 løsblade *b ill. 
+512 00 *a Dvd-video: På omslaget: Dvd plus. På omslaget: 1991-2001. Indeholder 19 musikvideoer samt optagelser af Die Prinzen i koncert, på rejse. Samt diskografi 
+512 00 *a Cd: Indeholder 19 musiknumre 
+512 00 *a Ringordner: Med undertitel: sangtekster og opgaver 
+610 00 *0 *a Die ¤Prinzen *2 DBC 
+652 00 *0 *m 78.9061 *a Die ¤Prinzen 
+652 00 *p 78.9064 *v 5 
+652 00 *p 78.794 *v 5 
+666 00 *f tysk rockmusik 
+666 00 *f rock 
+666 00 *o undervisningsmaterialer 
+666 00 *o sange 
+s10 00 *a DBC 
+990 00 *a SFA *o 200320 *b F *b S 
+991 00 *o Ringordner med bilag (dvd-video/cd + videokassette) optaget i BS-fortegnelse 200320 (2 455 735 9)</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,0 +1,20 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a DBB0812331 *b 874310 *c 20100315123752 *d 20090505 *f a 
+004 00 *r n *a e 
+008 00 *t m *u f *a 2009 *b se *v 4 
+009 00 *a p *b c *g xe 
+021 00 *b Vær opmærksom på Notas vilkår for brug *d Gratis 
+100 00 *a Field *h John 
+239 00 *t Nocturner for klaver 
+245 00 *a 2 nocturnen *e John Field 
+260 00 *a Kbh. *b Danmarks Blindebibliotek *c 2009 
+300 00 *a 13 sider 
+509 00 *a For klaver 
+512 00 *a Overført i ? 
+512 00 *a Digital punktnode 
+512 00 *a 1 bind, 27 sider 
+520 00 *a Overført efter udgaven: Stockholm : De Blinde Fen. s Bibliotek 
+538 00 *i Masternr. *a 812331 
+652 00 *m 78.53 
+856 00 *u http://www.e17.dk/bog/812331 *z Adgangsmåde: Internet</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

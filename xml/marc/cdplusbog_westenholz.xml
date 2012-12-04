@@ -1,0 +1,30 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 26505194 *b 870970 *c 20081124180138 *d 20061030 *f a *t FAUST 
+004 00 *r n *a e 
+008 00 *t m *u f *a 2006 *b dk *j f *l dan *v 0 
+009 00 *a r *g xc *a a *g xx 
+021 00 *d Kr. 580,00 
+021 00 *a 87-89793-09-9 *b bog 
+032 00 *a DLF200647 *x SFA200647 *x BKR200848 
+100 00 *0 *a Westenholz *h Anders *c f. 1936 
+245 00 *a Mona Lisa på afveje *e Anders Westenholz 
+260 00 *a [Kbh.] *b KKB-Lyd *c [2006] 
+300 00 *n 1 cd *e mp3 *l 2 t., 15 min. *n 1 bog *a 115 sider 
+440 00 *0 *a Læselyst *v 13 
+504 00 *a Kunsteksperten Viggo har alletiders plan : at stjæle Mona Lisa. Det lykkes faktisk, og han sælger maleriet til en brasiliansk milliardær. Men dermed er lykken alligevel ikke gjort 
+512 00 *i Cd *e Indlæst af Janek Lesniak 
+512 00 *a Bog: Hedehusene : Nyt Dansk Litteraturselskab, 2005 
+520 00 *a Cd'en er en gengivelse af bogen 
+520 00 *a Bogens originaludgave: 2005 
+526 00 *i Samhørende *t Mona Lisa på afveje *t Fup, fiduser og falske malerier 
+652 00 *n 86 *z 06 
+652 00 *o sk 
+666 00 *u for læsesvage voksne 
+666 00 *s humor 
+666 00 *s kunst 
+666 00 *s kriminalitet 
+s10 00 *a DBC 
+990 00 *r 200848 *m Samhørendenote tilføjet *m Rettelse *u nt 
+990 00 *a SFA *b F *o 200647 
+991 00 *o Bogen optaget i A-fortegnelse 200606 (2 606 059 1)</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

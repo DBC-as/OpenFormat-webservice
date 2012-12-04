@@ -1,0 +1,30 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 44445387 *b 870970 *c 20080916172159 *d 20080904 *f a *t FAUST 
+002 00 *b 765700 *c 9 250 315 1 *x 76570092503151 
+004 00 *r n *a e 
+008 00 *t s *u f *a 2007 *b dk *l dan *v 0 
+009 00 *a s *g xc *a c *g xx 
+021 00 *b cd *d Kr. 119,00 
+021 00 *e 9788759815281 *b partitur *b WH 30760 *c hf *d kr. 159,00 
+039 00 *a mub 
+100 00 *0 *a Bak *h Frans 
+245 00 *a Mer end nok! *c 12 fantastiske dyrefabler *e musik: Frans Bak *e tekst: Gerz Feigenberg 
+260 00 *a Kbh. *b Wilhelm Hansen *c 2007 
+300 00 *n 1 cd *n 1 \partitur\ *a 39 sider *b ill. i farver *c 30 cm 
+509 00 *a Partitur: For 2-4-stemmigt børnekor (lige stemmer) og klaver med becifring, delvis med instrumentalstemmer 
+512 00 *a På partiturets titelblad: For lige stemmer og klaver (rytmegruppe ad lib.) 
+512 00 *i Partitur *e illustrationer af Simon Cato Spang-Hanssen 
+512 00 *a Cd: Tekster på omslaget 
+531 00 *a Indhold: 
+538 00 *f Wilhelm Hansen *g CD 30760 WH 
+652 00 *m 78.69 
+652 00 *p 78.793 *v 8 
+652 00 *p 78.793 *v 5 
+652 00 *p 78.653 
+666 00 *m børnemusik *m børnesange *m jazz *n vokal *n kor *n børnekor *p 2000-2009 *l Danmark 
+700 00 *0 *a Feigenberg *h Gerz 
+700 00 *0 *å 1 *a Spang-Hanssen *h Simon 
+795 00 *å 11 *0 *a Støjegøjen *a Bangeslangen *a Drømmefrøen *a Styremyren *a Flabenaben *a Alenehvalen *a Ensommerfugl *a Fjernfuglen *a Vranten-elefanten *a Vælgefluen *a Krævekragen *a Skuleuglen 
+900 00 *0 *a Hanssen *h Simon Spang- *x se *w Spang-Hanssen, Simon *z 700/1 
+s10 00 *a 765700</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

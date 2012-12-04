@@ -1,0 +1,23 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 28057725 *b 870970 *c 20100104181527 *d 20091215 *f a *t FAUST 
+004 00 *r n *a e 
+008 00 *t m *u f *a 2009 *b dk *d x *j f *l dan *n b *v 0 
+009 00 *a a *g xe 
+021 00 *e 9788702087314 *d kr. 99,00 
+032 00 *a IDO201001 *x EBO201001 *x NET201001 
+100 00 *0 *a Bang *h Herman *4 aut 
+245 00 *a Ludvigsbakke 
+250 00 *a 1. e-bogsudgave 
+260 00 *b Gyldendal *c 2009 
+440 00 *0 *a Gyldendals e-bøger 
+504 00 *a En ung sygeplejerske, datter af godsforvalteren på Ludvigsbakke, møder barndomsvennen, arvingen til herregården og ofrer alt for sin forelskelse i ham 
+512 00 *a Downloades i PDF-format (2 MB) 
+520 00 *a Originaludgave: 1896 
+652 00 *n 86 *z 05 
+652 00 *o sk 
+666 00 *s kærlighed 
+666 00 *s forelskelse 
+856 00 *z Adgangsmåde: Internet *u http://ebog.dk/apc/direct.php?ISBN="9788702087314" *z Adgang til køb ved udgivelsen 
+s10 00 *a DBC 
+990 00 *o 201001 *u nt</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

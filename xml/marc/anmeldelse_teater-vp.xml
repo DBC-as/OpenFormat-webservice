@@ -1,0 +1,15 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 28848994 *b 870970 *c 20110627100921 *d 20110627 *f a *t FAUST 
+004 00 *r n *a e 
+008 00 *t m *u f *a 2011 *b dk *l dan *v 4 
+009 00 *a v *g wt 
+245 00 *a Henrik og Pernille *e tekst: Ludvig Holberg *e iscenesættelse: Solbjørg Højfeldt *e Grønnegårds Teatret 
+260 00 *a København *b Grønnegårds Teatret, Kunstindustrimuseets Have *c 2011 
+504 00 *a Friluftsteater 
+652 00 *m Uden klassemærke 
+700 00 *0 *a Holberg *h Ludvig 
+700 00 *0 *a Højfeldt *h Solbjørg 
+710 00 *0 *a Grønnegårds Teatret, Kunstindustrimuseets Have 
+910 00 *0 *a Kunstindustrimuseets Have, Grønnegards Teatret *x se *w Grønnegårds Teatret, Kunstindustrimuseets Have *z 710 
+s10 00 *a RET</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

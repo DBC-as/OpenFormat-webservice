@@ -1,0 +1,21 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 05412803 *b 870970 *c 20010128224732 *d 19790802 *f a *o c *t FAUST 
+004 00 *r n *a e 
+008 00 *t m *u f *a 1979 *b is *f 1 *l mul *v 0 
+009 00 *a a *g xx 
+021 00 *c Hf. *d kr. 90.20 
+032 00 *a DBF197934 *x SFD199137 *x OPR197934 *x DAT990036 
+041 00 *a dan *a swe *a nor 
+110 00 *0 *a Nordisk Videnskabeligt Bibliotekarforbund *c Medlemsmøde *i 5 *k 1978 *j Reykjavík 
+245 00 *a Fra norrøne skrifter til nordiske forskningsbiblioteker *e Nordisk videnskabeligt Bibliotekarforbunds 5. medlemsmøde, Islands Universitet 18.-23. juni 1978 *e redigeret af Einar Sigurðsson og Helgi Magnússon 
+260 00 *a Reykjavík *b Nordisk videnskabeligt Bibliotekarforbund *f Kbh. *g i kommission hos Bibliotekscentralen *k tr. i Island *c 1979 
+300 00 *a 218 sider *b ill. *c 24 cm 
+508 00 *a Bidrag på dansk, norsk og svensk 
+534 00 *a Af indholdet: Christian Hermann Jensen: Bibliotek og samfund - udviklingstendenser og konsekvenser for uddannelsen af personale til forskningsbibliotekerne. Biblioteksutdanning i Norden - sammenligning, vurdering og muligheter for samarbeid. EDB som hjälpmedel i de nordiska forskningsbibliotekens dagliga verksamhet. Forskningsbibliotekernes organisations-, styrings- og samarbejdsformer. Hans Westermann: Det grønlandske biblioteksvæsen. 
+652 00 *m 02 
+700 00 *0 *a Sigurðsson *h Einar 
+700 00 *0 *å 2 *a Helgi Magnússon 
+900 00 *0 *a Magnússon *h Helgi *x se *w Helgi Magnússon *z 700/2 
+910 00 *0 *a NVBF *x se *w Nordisk Videnskabeligt Bibliotekarforbund *z 110(a) 
+s10 00 *a DBC</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

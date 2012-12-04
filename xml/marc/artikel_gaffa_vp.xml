@@ -1,0 +1,22 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 34840393 *b 870971 *c 20111025142959 *d 20111025 *f a 
+004 00 *r n *a i 
+008 00 *t a *u f *a 2011 *b dk *d y *l dan *v *r ap 
+009 00 *a a *g xx 
+016 00 *a 05997283 
+032 00 *a ABU201144 *a DAR201144 
+086 00 *a Biografier af enkelte personer 
+245 00 *a Hvad fatter gør... *e Mikkel Elbech, interview med Adam Cohen 
+300 00 *a S. 34-35 *b ill. 
+504 00 *a Med sit nye album læggger Adam Cohen ikke længere afstand til sin far. Tværtimod er albummet en hyldest til faderen 
+507 00 *a I anledning af albummet "Like a man" 
+557 00 *a Gaffa *j 2011 *z 0109-0097 *V 2011, nr. 0010 *v 2011, nr. 10 
+600 00 *a Cohen *h Adam 
+652 00 *m 99.4 *a Cohen *h Adam 
+666 00 *0 *e Canada 
+666 00 *0 *f folk 
+666 00 *0 *f singer/songwriter 
+700 00 *a Elbech *h Mikkel 
+700 00 *a Cohen *h Adam 
+996 00 *a IDX</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

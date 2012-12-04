@@ -1,0 +1,31 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 08242682 *b 870970 *c 20050608040158 *d 19881010 *f a *t FAUST 
+004 00 *r n *a e 
+005 00 *r a *z q 
+008 00 *t m *u u *a 1988 *b dk *j f *l dan *v 0 
+009 00 *a r *g xh 
+021 00 *n 7217 *d Gratis *b vær opmærksom på DBB's vilkår for brug 
+032 00 *a DLF198842 *x STB198842 
+041 00 *a dan *c eng 
+100 00 *0 *a Christopher *h John 
+241 00 *a The ¤white mountains 
+245 00 *a De ¤hvide bjerge *e af John Christopher 
+250 00 *b SBTB 
+260 00 *a Kbh. *b Statens Bibliotek og Trykkeri for Blinde *c 1988 
+300 00 *n 3 kassetter *l 220 min. *b mono *a i 1 boks 
+504 00 *a Jorden om ca. 100 år: Nogle metallignende væsener, Tripederne, behersker jorden og styrer menneskene. Tre drenge drager ud for at slutte sig til den eneste lille flok frie mennesker, der endnu eksisterer 
+512 00 *a Oversat af Johan Jørgensen 
+512 00 *i Indlæser *e  Bjørn Haizelden 
+512 00 *a Indlæst i 1978 
+512 00 *a På boksen: Forfatter, titel og bestillingsnr. i braille 
+520 00 *a Gengivelse af bogen 
+520 00 *a Originaludgave: 1967 
+520 00 *a Kopieret efter: Ballerup : Bibliotekscentralen, 1978 
+520 00 *a Indlæst efter udgaven: Kbh. : Munksgꜳrd, 1975 
+526 00 *a Samhørende: De hvide bjerge ; Dødens by ; Ildhavet 
+538 00 *a 7217 
+652 00 *n 83 *z 296 
+652 00 *o sk 
+700 00 *0 *a Haizelden *h Bjørn 
+s10 00 *a DBC</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

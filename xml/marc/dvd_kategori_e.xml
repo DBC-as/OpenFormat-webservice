@@ -1,0 +1,29 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 23954915 *b 870970 *c 20060620202338 *d 20020222 *f a *t FAUST 
+004 00 *r n *a e 
+008 00 *t m *u f *a 2002 *b xx *l eng *v 0 
+009 00 *a s *b m *g th 
+021 00 *n 23954915 *d kr. 912,50 *b brugsretskategori: E 
+032 00 *x DAT200220 *x DAT990626 
+039 00 *a bef 
+041 00 *a eng *u eng *u spa 
+110 00 *0 *a Rage Against the Machine 
+245 00 *a The ¤battle of Mexico City 
+260 00 *a [S.l.] *b SMV Enterprisis *f [Ballerup] *g distribution: DBC medier *c [2002] 
+300 00 *n 1 dvd-video *l 68 min. *b surround 
+508 00 *a Engelsk sang og tale 
+508 00 *a Undertekster på engelsk og spansk 
+512 00 *i Medvirkende *e Rage Against the Machine (Zack de la Rocha, Tom Morello, Y.Tim.K., Brad Wilk) ... et al. 
+512 00 *a Live-optagelse 
+531 00 *a Indhold: 
+534 00 *a Af indholdet: Bonus features (Photo gallery ; Interview with Noam Chomsky ; Interview with Marcos ; Pre-show segment ; Tom Morello's tour of Mexico City ; Dvd-rom "Rage context") 
+652 00 *m 78.794 *v 5 
+700 00 *0 *å 1 *A delarocha *a De la Rocha *h Zack 
+700 00 *0 *å 2 *a Bob *h Tim 
+700 00 *0 *a Wilk *h Brad 
+700 00 *0 *a Morello *h Tom 
+795 00 *å 11 *0 *a Testify *a Guerrilla radio *a People of the sun *a Calm like a bomb *a Sleep now in the fire *a Born of a broken man *a Bombtrack *a Know your enemy *a No shelter *a War within a breath *a Bulls on parade *a Killing in the name *a Zapata's blood *a Freedom 
+900 00 *0 *a Rocha *h Zack de la *x se *w De la Rocha, Zack *z 700/1 
+900 00 *0 *a Y.tim.K. *x se *w Bob, Tim *z 700/2 
+s10 00 *a DBC</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

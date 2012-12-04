@@ -1,0 +1,51 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 28527470 *b 870970 *c 20101129181329 *d 20101117 *f a *t FAUST 
+004 00 *r n *a e 
+006 00 *a 20100908 *c 20110108 *2 a 
+008 00 *t s *u f *a 2010 *b fo *v 0 
+009 00 *a s *g xc 
+021 00 *d Kr. 136,00 
+023 00 *a 0663993226323 
+032 00 *a DMO201048 *x BKM201048 
+039 00 *a kaa 
+100 00 *0 *a Claro *h Sofia Asunción 
+245 00 *a Music for harp and flute 
+260 00 *b Tutl *c p 2010 
+300 00 *n 1 cd 
+531 00 *a Indhold: 
+538 00 *f Tutl *g FKT 063 
+652 00 *m 78.437 
+652 00 *å 11 *i 78.437 
+652 00 *å 12 *i 78.437 
+652 00 *å 13 *i 78.455 
+652 00 *å 14 *i 78.437 
+652 00 *å 15 *i 78.437 
+652 00 *å 16 *i 78.437 
+652 00 *å 17 *i 78.462 
+652 00 *å 18 *i 78.437 
+652 00 *å 19 *i 78.81 *v 7 
+666 00 *m kammermusik *m harpesonate *n instrumental *n fløjte *n tværfløjte *n harpe *p 1890-1899 *p 1900-1909 *p 1920-1929 *p 1930-1939 *p 1950-1959 *p 1970-1979 *p 2000-2009 *l Frankrig *l Italien *l Danmark *l Tyskland 
+700 00 *0 *a Graug@ård *h Lars 
+770 00 *å 11 *0 *a Françaix *h Jean 
+770 00 *å 12 *0 *a Graug@ård *h Lars 
+770 00 *å 13 *0 *a Hindemith *h Paul 
+770 00 *å 14 *0 *a Persichetti *h Vincent 
+770 00 *å 15 *0 *a Ravel *h Maurice 
+770 00 *å 16 *0 *a Fauré *h Gabriel 
+770 00 *å 17 *0 *a Ibert *h Jacques 
+770 00 *å 18 *0 *a Ibert *h Jacques 
+770 00 *å 19 *0 *a Nielsen *h Carl *c f. 1865 
+795 00 *å 11 *0 *a Cinque piccoli duetti *e Sofia Asunción Claro, harpe *e Lars Graug@ård, fløjte 
+795 00 *å 12 *0 *a Fantasi for fløjte og harpe *e Lars Graug@ård, fløjte *e Sofia Asunción Claro, harpe 
+795 00 *å 13 *0 *a Sonate for harpe *e Sofia Asunción Claro, harpe 
+795 00 *å 14 *0 *a Serenade nr. 10, opus 79 *c for fløjte og harpe *e Lars Graug@ård, fløjte *e Sofia Asunción Claro, harpe 
+795 00 *å 15 *0 *a Pavane pour une infante défunte *e Lars Graug@ård, fløjte *e Sofia Asunción Claro, harpe 
+795 00 *å 16 *0 *a Sicilienne for violoncel og klaver, opus 78 *c for fløjte og harpe *e Lars Graug@ård, fløjte *e Sofia Asunción Claro, harpe 
+795 00 *å 17 *0 *a Pièce *e Lars Graug@ård, fløjte 
+795 00 *å 18 *0 *a Entr'acte *e Lars Graug@ård, fløjte *e Sofia Asunción Claro, harpe 
+795 00 *å 19 *0 *a Moderen *7  ( *v Tågen letter *7 ) /  *e Lars Graug@ård, fløjte *e Sofia Asunción Claro, harpe 
+795 00 *å 99 *0 *y 0 *a 5 piccoli duetti 
+900 00 *0 *a Asunción Claro *h Sofia *x se *w Claro, Sofia Asunción *z 100 
+s10 00 *a DBC 
+990 00 *o 201048 *b v *u nt</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

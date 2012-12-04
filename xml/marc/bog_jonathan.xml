@@ -1,0 +1,35 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 05946719 *b 870970 *c 20101122180133 *d 19830729 *f a *t FAUST 
+004 00 *r n *a e 
+008 00 *t m *u r *a 1983 *z 2010 *b dk *d x *j f *l dan *v 0 
+009 00 *a a *g xx 
+021 00 *e 9788775605873 *c hf. *d kr. 99,95 
+021 00 *a 87-7560-587-2 
+032 00 *a DBF201047 *x BKM201047 
+041 00 *a dan *c eng 
+100 00 *0 *a Bach *h Richard 
+241 00 *a Jonathan Livingston Seagull 
+245 00 *a Jonathan Livingston Havmåge *e af Richard Bach *f fotografier af Russell Munson *f på dansk ved Henrik Nordbrandt 
+250 00 *a 1. [i.e.2.] udgave 
+260 00 *a [Kbh.] *b Lindhardt og Ringhof *c 1983 
+300 00 *a 93 sider *b ill. 
+504 00 *a Allegorisk fortælling om en måge, der bliver udstødt af flokken, fordi den prøver at ændre de vaner og vilkår, mågerne lever under 
+520 00 *a Originaludgave: 1970 
+520 00 *a Tidligere: 1. udgave. 1973 
+521 00 *a 6. oplag *c 1991 
+521 00 *a 9. oplag *c 1999 
+521 00 *a 10. oplag *c 2000 
+521 00 *a 11. oplag *c 2002 
+521 00 *a 12. oplag *c 2003 
+521 00 *a 13. oplag *c 2005 
+521 00 *a 14. oplag *c 2006 
+521 00 *a 15. oplag *c 2009 
+521 00 *b 16. oplag *c 2010 
+652 00 *n 83.8 *z 26 
+652 00 *o sk 
+666 00 *s allegorier 
+666 00 *s dyrefortællinger 
+666 00 *s eventyrlige fortællinger 
+s10 00 *a DBC 
+990 00 *o 201047 *b v *u op</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

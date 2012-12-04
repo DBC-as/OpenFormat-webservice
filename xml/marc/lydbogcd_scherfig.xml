@@ -1,0 +1,28 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 28318855 *b 870970 *c 20100628182045 *d 20100617 *f a *t FAUST 
+004 00 *r n *a e 
+005 00 *z p 
+008 00 *t m *u f *a 2010 *b dk *d x *j f *l dan *v 0 
+009 00 *a r *g xc 
+021 00 *e 9788764451399 *d kr. 300,00 
+032 00 *a DLF201026 *x BKM201026 
+100 00 *0 *a Scherfig *h Hans *4 aut 
+245 00 *a Den ¤forsvundne fuldmægtig *ø mp3 
+260 00 *a Ballerup *b Biblioteksmedier *c 2010 
+300 00 *n 1 cd i 1 mappe *l 5 t., 32 min. 
+440 00 *0 *a Gyldendals tranebøger 
+504 00 *a Satire over vanemenneskets afhængighed af den borgerlige tilværelses konvention og disciplin med embedsmandens kontortilværelse som eksempel 
+520 00 *a Gengivelse af bogen 
+520 00 *a Indlæst efter 8. tranebogsudgave. 1996 *n 2 157 732 4 *r 9788700288225 *r 87-00-28822-5 
+520 00 *a Bogens originaludgave: 1938 
+652 00 *n 86 *z 06 
+652 00 *o sk 
+666 00 *s humor 
+666 00 *s samfundskritik 
+666 00 *s samfundssatire 
+666 00 *q Danmark 
+700 00 *0 *a Teytaud *h Jørgen *4 dkind 
+s10 00 *a DBC 
+990 00 *o 201026 *b v *b s *u nt 
+991 00 *o Også udgivet som cd'er (optaget i BKM 201024 (2 829 245 7))</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

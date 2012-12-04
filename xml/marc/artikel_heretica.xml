@@ -1,0 +1,17 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 63047961 *b 870971 *c 20020404201142 *d 20020125 *f a *t FAUST 
+004 00 *r n *a i 
+008 00 *t a *u f *a 1953 *b dk *l dan *r ap *v 9 
+009 00 *a a *g xx 
+016 00 *a 03196925 
+032 00 *a DAR195300 *x DTI195300 
+245 00 *a Et ¤essay om Karen Blixen 
+300 00 *a S. 200-223, 300-320 
+504 00 *a Forfatterinde, f. 17/4 1885 
+557 00 *a Heretica *j 1953 *V Årg. 0006 (1953) *v Årg. 6 (1953) 
+600 00 *a Blixen *h Karen 
+631 00 *a Enkelte personer og familier 
+654 00 *m 99.4 *a Blixen *h Karen 
+700 00 *a Brandt *h Jørgen Gustava 
+s10 00 *a IDX</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

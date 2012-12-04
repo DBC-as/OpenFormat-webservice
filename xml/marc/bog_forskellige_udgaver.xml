@@ -1,0 +1,26 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 06829511 *b 870970 *c 20010128224732 *d 19890202 *f a *o c *t FAUST 
+004 00 *r n *a e 
+008 00 *t m *u f *a 1988 *b dk *l dan *v 0 
+009 00 *a a *g xx 
+021 00 *a 87-982029-6-0 *c hf. *d kr. 30,00 net. *x 88 87-98 20 29-6-0 
+032 00 *a DBF198908 *x SFD198908 
+100 00 *0 *a Elikofer *h Jørgen 
+245 00 *a Sikkerhedsorganisation fra A til Æ *c en håndbog for sikkerhedsrepræsentanter, tillidsmænd m.v. *w 1. udgave *x Bemærkninger til bekendtgørelse om virksomhedernes sikkerheds- og sundhedsarbejde *f [med forord af Erik Andersen] *e [redaktion: Mogens Kjems Falk] *w 1. udgave, 2. oplag (Fotografisk genoptryk) 
+260 00 *a [Kbh.] *b Dansk Metalarbejderforbund *k Hafnia tr., Rødovre *c 1988 
+300 00 *a 119, 61, [20] sider *c 21 cm 
+512 00 *a Af Jørgen Elikofer 
+520 00 *a "Bemærkninger til bekendtgørelse om virksomhedernes sikkerheds- og sundhedsarbejde. 1. udgave, 2. oplag" tidligere udgivet separat: Kbh. : Arbejdsmiljøfondet, 1980 
+526 00 *a Bygger på hans: Fagbevægelsen og sikkerhedsrepræsentanten. Kbh. : LO : i samarbejde med Fremad, 1978 
+532 00 *a Litteraturhenvisninger 
+652 00 *m 61.44 
+666 00 *f sikkerhedsorganisation 
+666 00 *f sikkerhedsarbejde 
+666 00 *o håndbøger 
+700 00 *0 *a Falk *h Mogens 
+710 00 *0 *a Dansk Metalarbejderforbund 
+745 00 *a Bemærkninger til bekendtgørelse om virksomhedernes sikkerheds- og sundhedsarbejde 
+900 00 *0 *a Kjems Falk *h Mogens *x se *w Falk, Mogens *z 700 
+910 00 *0 *a Metal *x se *w Dansk Metalarbejderforbund *z 710 
+s10 00 *a DBC</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

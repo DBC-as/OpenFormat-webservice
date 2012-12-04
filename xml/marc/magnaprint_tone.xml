@@ -1,0 +1,19 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 06196470 *b 870970 *c 20010128224732 *d 19850315 *f a *o c *t FAUST 
+004 00 *r n *a e 
+008 00 *t s *u f *a 1985 *b dk *j p *l dan *m 1 *v 0 
+009 00 *a a *g xx 
+021 00 *a 87-418-7023-9 *c hf. *d kr. 98.00 
+032 00 *a DBF198514 *x SFD198514 
+100 00 *0 *a Brøgger *h Suzanne 
+245 00 *a Tone *c epos *e [af] Suzanne Brøgger *ø MagnaPrintserien 
+250 00 *a MagnaPrintudgave *b ÷ 
+260 00 *a [Valby] *b Borgen *a [Ballerup] *b i samarbejde med Nyt Dansk Litteraturselskab *k Reproset *c 1985 
+300 00 *a 146 sider *c 23 cm 
+440 00 *0 *a \MagnaPrintserien\ *V 226 *v nr. 226 
+504 00 *a Prosadigt om hattesyersken og kostumieren fru Tone 
+520 00 *a Originaludgave 1981 
+652 00 *n 86 *z 06 
+652 00 *o sk 
+s10 00 *a DBC</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

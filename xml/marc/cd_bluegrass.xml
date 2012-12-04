@@ -1,0 +1,63 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 24143627 *b 870970 *c 20050824034812 *d 20020625 *f a *t FAUST 
+004 00 *r n *a e 
+005 00 *h e 
+008 00 *t s *u f *a 2002 *b xx *l eng *v 0 
+009 00 *a s *g xc 
+021 00 *d kr. 159,00 
+023 00 *a 0605633110425 
+032 00 *x SFG200229 *x DAT990535 
+039 00 *a fol *b us 
+245 00 *a The ¤rough guide to the music of the Appalachians *c mountain music - bluegrass, old-time, folk &amp; gospel *e compiled by Dan Rosenberg 
+260 00 *a London *b World Music Network *c p 2002 
+300 00 *n 1 cd 
+512 00 *i På cd'en *t Appalachians 
+531 00 *a Indhold: 
+538 00 *f World Music Network *g RGNET 1104 CD 
+652 00 *m 78.7863 
+666 00 *m bluegrass *m country *m old time *m folkemusik *m folk *n vokal *n instrumental *p 1990-1999 *p 2000-2009 *l USA *l Appalacherne 
+700 00 *0 *a Rosenberg *h Dan 
+700 00 *0 *a Blake *h Nancy 
+710 00 *0 *a The ¤Clinch Mountain Boys 
+770 00 *å 11 *0 *a Lynch *h Claire 
+770 00 *å 13 *0 *a Vincent *h Rhonda 
+770 00 *å 14 *0 *a Adams *h Tom 
+770 00 *å 15 *0 *a Rowan *h Peter 
+770 00 *å 16 *0 *A maccoury *a McCoury *h Del 
+770 00 *å 18 *0 *a Rice *h Tony *e Tony Rice Unit 
+770 00 *å 20 *0 *a Sparks *h Larry 
+770 00 *å 21 *0 *a Hawker *h Ginny 
+770 00 *å 22 *0 *a Stanley *h Ralph 
+770 00 *å 23 *0 *a Stefanini *h Rafe 
+770 00 *å 25 *0 *a Stephens *h Jeremy 
+770 00 *å 26 *0 *a Thompson *h Joe 
+770 00 *å 27 *0 *a Blake *h Norman 
+770 00 *å 28 *0 *a Boggs *h Dock 
+770 00 *å 29 *0 *a Shiflett *h Karl 
+780 00 *å 12 *0 *a Laurel Canyon Ramblers 
+780 00 *å 17 *0 *a The ¤Cox Family 
+780 00 *å 19 *0 *a Blue Highway 
+780 00 *å 24 *0 *a Bluegrass Album Band 
+795 00 *å 11 *0 *a God spoke his name 
+795 00 *å 12 *0 *a Happy I'll be 
+795 00 *å 13 *0 *a My sweet love ain't around 
+795 00 *å 14 *0 *a Box elder beetles 
+795 00 *å 15 *0 *a Wild geese cry again 
+795 00 *å 16 *0 *a How long blues 
+795 00 *å 17 *0 *a Another lonesome morning 
+795 00 *å 18 *0 *a Jerusalem Ridge 
+795 00 *å 19 *0 *a Still climbing mountains 
+795 00 *å 20 *0 *a The ¤old church yard 
+795 00 *å 21 *0 *a My warfare will soon be over 
+795 00 *å 22 *0 *a Two coats *e Ralph Stanley &amp; the Clinch Mountain Boys 
+795 00 *å 23 *0 *a I've got no honey baby now 
+795 00 *å 24 *0 *a River of death 
+795 00 *å 25 *0 *a Hard times 
+795 00 *å 26 *0 *a Old corn liquor 
+795 00 *å 27 *0 *a Hello stranger *e Norman &amp; Nancy Blake 
+795 00 *å 28 *0 *a Wise county jail 
+795 00 *å 29 *0 *a The ¤trail of the ancients *e Karl Shiflett &amp; Big Country Show 
+795 00 *å 99 *0 *y 0 *a 2 coats 
+s10 00 *a DBC 
+990 00 *a SFG *o 200229 *c C</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

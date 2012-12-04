@@ -1,0 +1,34 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 42159530 *b 870970 *c 20010128224732 *d 20000212 *f a *t FAUST 
+002 00 *b 714700 *c 9 056 860 4 *x 71470090568604 
+004 00 *r n *a e 
+008 00 *t s *u f *a 1999 *b fr *v 0 
+009 00 *a s *g xc 
+021 00 *d kr. 145,00 
+023 00 *a 0639842612920 
+032 00 *x SFG200035 
+039 00 *a ork 
+100 00 *0 *a Rameau *h Jean-Philippe 
+239 00 *0 *t Les ¤fêtes d'Hébé *7  ( *v Ouverture *v Balletmusik *7 ) *ø Christie 
+245 00 *a Musique de ballet 1979-1999 *u 20ème anniversaire Les Arts Florissants *e Les Arts Florissants *e dirigent: William Christie 
+260 00 *a Paris *b Erato *c p 1999 
+300 00 *n 1 cd *b digitaloptagelse 
+512 00 *a Indspillet i Paris 1994-1997 
+531 00 *a Indhold: 
+538 00 *f Erato *g 3984-26129-2 
+652 00 *m 78.411 
+652 00 *p 78.89 
+652 00 *å 11 *i 78.411 *i 78.411 
+652 00 *å 12 *i 78.411 *i 78.411 *i 78.411 
+666 00 *å 11 *0 *m barok *m balletmusik *m operaballet *m ouverture *m operaouverture *n instrumental *n orkester *p 1730-1739 *l Frankrig 
+666 00 *å 12 *0 *m barok *m balletmusik *m ouverture *m operaouverture *n instrumental *n orkester *p 1680-1689 *p 1690-1699 *l Frankrig 
+700 00 *0 *a Christie *h William 
+710 00 *0 *a Les ¤Arts Florissants 
+745 00 *a Vingtième anniversaire Les Arts Florissants 
+770 00 *å 11 *0 *a Rameau *h Jean-Philippe 
+770 00 *å 12 *0 *a Charpentier *h Marc-Antoine 
+795 00 *å 11 *0 *a Les ¤fêtes d'Hébé *7  ( *v Ouverture *v Balletmusik *7 ) ;  *a Hippolyte og Aricie *7  ( *v Ouverture *v Balletmusik *7 ) 
+795 00 *å 12 *0 *a La ¤descente d'Orphée aux enfers *7  ( *v Ouverture *v Entrée des nymphes *v Les ¤fantômes *7 ) ;  *a Les ¤plaisirs de Versailles *7  ( *v Ouverture *7 ) ;  *a Médée *7  ( *v Ouverture *v Balletmusik *7 ) 
+s10 00 *a DBC 
+990 00 *a SFG *o 200035 *c C *t 00 *t 29.09.20</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

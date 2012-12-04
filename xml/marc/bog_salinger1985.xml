@@ -1,0 +1,25 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 01550101 *b 870970 *c 20040901001845 *d 19770418 *f a *t FAUST 
+004 00 *r n *a e 
+008 00 *t m *u r *a 1960 *z 1985 *b dk *j f *l dan *v 0 
+009 00 *a a *g xx 
+021 00 *a 87-00-38712-6 *c hf. *d kr. 32.00 
+032 00 *a DBF198533 *x SFD198533 *x DAT200436 
+041 00 *a dan *c eng 
+100 00 *0 *a Salinger *h J. D. 
+241 00 *a The ¤catcher in the rye 
+245 00 *a Forbandede ungdom *e [af] J.D. Salinger *f på dansk ved Vibeke Cerri 
+250 00 *a 2. udgave *x 12. tranebogsoplag *b 2. udgave (Tranebog) 
+260 00 *a [Kbh.] *b [Gyldendal] *k Nørhaven, Viborg *c 1985 
+300 00 *a 222 sider *c 19 cm 
+440 00 *a Gyldendals tranebøger 
+504 00 *a En 17-årig amerikansk ung mands konflikt med sig selv og de voksnes verden 
+517 00 *a Fra 14 år 
+520 00 *a Tidligere: 2. udgave. 1960 
+520 00 *i Også med titel *t Griberen i rugen 
+520 00 *a Originaludgave 1951 
+652 00 *n 83.8 *z 26 
+652 00 *o sk 
+668 00 *a Børn og unge *b USA 
+s10 00 *a DBC</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

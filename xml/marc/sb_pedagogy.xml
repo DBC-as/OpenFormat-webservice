@@ -1,0 +1,13 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 1789380 *b 820010 *d 20010817 *f a 
+004 00 *r c *a e 
+008 00 *t m *a 1971 *l eng *v 4 
+009 00 *a a *g xx 
+096 00 *z 125050 *a T VIII 3 F 1 FRE 
+245 00 *a Pedagogy of the oppressed *e Transl. by Myra Bergman Ramos 
+260 00 *a (New York) *b Herder and Herder *c (1971) 
+300 00 *a 186 s. 
+570 00 *a Freire, Paulo 
+700 00 *a Freire *h Paulo 
+700 00 *a Ramos *h Myra Bergman</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

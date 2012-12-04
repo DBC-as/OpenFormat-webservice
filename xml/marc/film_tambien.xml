@@ -1,0 +1,38 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 29320071 *b 870970 *c 20120507181129 *d 20120410 *f a *t FAUST 
+004 00 *r n *a e 
+006 00 *c 20120510 *2 e 
+006 00 *d 15 *2 b 
+008 00 *t m *u f *a 2012 *b se *l spa *v 0 
+009 00 *a m *g th 
+021 00 *b Brugsretskategori: C+ 
+023 00 *a 7391970040664 
+032 00 *a DBI201219 *x BKM201219 
+041 00 *a spa *u swe *u nor *u dan *u fin 
+245 00 *a También la lluvia *e director de fotografía Alex Catalán *f producida por Juan Gordon *e escrita por Paul Laverty *e dirigida por Iciar Bollain 
+260 00 *a [Stockholm] *b Pan Vision *c 2012 
+300 00 *n 1 dvd-video *l ca. 103 min. 
+504 00 *a Bolivia år 2000. Indianeren Daniel får en rolle i en film om Columbus, men er samtidig involveret i en protestbevægelse, så han fængsles og prygles af regeringssoldater. Filmholdet får købt ham fri, men må opgive projektet, og har nu et ansvar for Daniel og hans familie 
+508 00 *a Spansk tale 
+508 00 *a Undertekster på svensk, norsk, dansk og finsk 
+512 00 *i Titel på dvd-etiket og omslag *t Even the rain 
+512 00 *i Medvirkende *e Luis Tosar, Gael García Bernal, Juan Carlos Aduviri, Karra Elcjalde, Raúl Arévalo, Carlos Santos, Cassandra Ciaguerotti ... et al. 
+512 00 *a Originalfilmen: Spanien : Morena Films : en coproducción con Vaca Films ; Frankrig : Mandarin Cinema ; Mexico : Alebrije Cine y Video ... et al., 2010 
+517 00 *a Mærkning: Tilladt for børn over 15 år 
+534 00 *a Af indholdet: Extras 
+538 00 *a D 5900073 
+652 00 *m 77.7 
+666 00 *s drama 
+666 00 *s indianere 
+666 00 *s korruption 
+666 00 *s magtmisbrug 
+666 00 *s drikkevand 
+666 00 *q Bolivia 
+666 00 *i 2000-2009 
+700 00 *0 *a Catalán *h Alex 
+700 00 *0 *a Bollaín *h Iciar 
+700 00 *0 *a Laverty *h Paul 
+s10 00 *a DBC 
+990 00 *o 201219 *b n *b v *u nt 
+991 00 *o Agenturholder: Scanbox</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

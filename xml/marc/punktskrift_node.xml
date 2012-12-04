@@ -1,0 +1,16 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 21344389 *b 870970 *c 20010128224732 *d 19960619 *f a *t FAUST 
+004 00 *r n *a e 
+008 00 *t m *b se *v 4 
+009 00 *a p *b c *g xx 
+032 00 *x STB002000 
+100 00 *0 *a Field *h John 
+239 00 *0 *t Nocturner for klaver 
+245 00 *a 2 nocturnen *e John Field 
+260 00 *a Stockholm *b De Blinde Fen. s Bibliotek 
+300 00 *a 13 sider 
+509 00 *a For klaver 
+538 00 *i Best.nr. *a 382331 
+652 00 *m 78.53 
+s10 00 *a DBC</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

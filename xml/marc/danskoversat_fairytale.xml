@@ -1,0 +1,28 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 27701523 *b 870970 *c 20091110101410 *d 20090408 *f a *t FAUST 
+004 00 *r n *a e 
+008 00 *t s *u u *a 2009 *b dk *d x *j j *l eng *o b *v 0 
+009 00 *a a *g xx 
+017 00 *a 0 623 981 1 
+021 00 *e 9788711433867 *c ib. *d kr. 299,95 
+032 00 *a DBF200921 *x BKM200921 
+041 00 *a eng *c dan 
+100 00 *0 *a Andersen *h H. C. *c f. 1805 
+241 00 *a Børnenes H.C. Andersen 
+245 00 *a Fairytales *e Hans Christian Andersen *e illustrated by Svend Otto S. *f translated by Patricia Crampton 
+250 00 *a 1. [i.e. new] edition *x 1. printrun 
+260 00 *a [Kbh.] *b Carlsen *k Narayana Press, Gylling *c 2009 
+300 00 *a 138 sider *b ill. i farver *c 30 cm 
+512 00 *i Kolofontitel *t Fairytales - in a box 
+517 00 *a Fra 6 år 
+517 00 *a Egnet til højtlæsning 
+520 00 *a Tidligere: 1. udgave. 1985 
+521 00 *b 1. printrun *c 2009 
+530 00 *i Indhold *t The ¤Snow Queen *t The ¤goblin and the grocer *t Little Claus and Big Claus *t Thumbelina *t The ¤tinderbox *t The ¤princess and the pea *t The ¤snowman *t The ¤ugly duckling *t Booby Jack *t The ¤emperor's new clothes *t The ¤wild swans *t Father's always right *t The ¤swineherd *t The ¤fir tree *t The ¤steadfast tin soldier *t The ¤shepherdess and the chimney-sweep 
+652 00 *n 86.9 *z 196 
+652 00 *o 83 
+700 00 *0 *a Otto *h Svend 
+900 00 *0 *a Svend Otto *x se *w Otto, Svend *z 700 
+s10 00 *a DBC 
+990 00 *o 200921 *u nu</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,0 +1,130 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 27833888 *b 870970 *c 20090727181153 *d 20090720 *f a *t FAUST 
+004 00 *r n *a e 
+005 00 *h c *h j *i a *k a 
+008 00 *t s *u f *a 2009 *b dk *l dan *v 0 
+009 00 *a c *g xx 
+021 00 *e 9788759818244 
+028 00 *a M-66134-212-0 *n CN 00052 *c ib. *d kr. 1168,00 
+032 00 *x BKM200931 
+041 00 *a dan *e dan *e eng 
+100 00 *0 *a Nielsen *h Carl *c f. 1865 
+245 00 *a Juvenilia et addenda *e Carl Nielsen *e udgivet af Lisbeth Ahlgren Jensen, Lisbeth Larsen *ø Carl Nielsen Udgaven 
+260 00 *a Copenhagen *b \Carl Nielsen Udgaven\, Det Kongelige Bibliotek *b Wilhelm Hansen *g distribution Wilhelm Hansen *c 2009 
+300 00 *n 1 \partitur\ *a lvi, 330 sider *c 33 cm 
+440 00 *0 *a Værker *æ Carl Nielsen *N serie 4 *n Serie IV *o Juvenilia et addenda *V 1 *v bind 1 
+508 00 *a Med forord på dansk og engelsk og revisionsberetning på engelsk 
+531 00 *a Indhold: 
+532 00 *a Litteraturhenvisninger ; Kildehenvisninger 
+538 00 *d CN 00052 
+652 00 *m 78.42 
+652 00 *p 78.53 
+652 00 *p 78.652 
+652 00 *p 78.31 
+666 00 *m senromantik *m neoklassik *m kammermusik *n instrumental *n klaver *n orgel *n strygekvartet *p 1880-1889 *p 1890-1899 *p 1900-1909 *p 1910-1919 *p 1920-1929 *p 1930-1939 *l Danmark 
+700 00 *0 *å 1 *a Ahlgren Jensen *h Lisbeth 
+700 00 *0 *a Larsen *h Lisbeth *c f. 1977-04-24 
+710 00 *0 *a Carl Nielsen Udgaven 
+770 00 *å 11 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 12 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 13 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 14 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 15 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 16 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 17 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 18 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 19 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 20 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 21 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 22 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 23 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 24 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 25 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 26 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 27 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 28 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 29 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 30 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 31 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 32 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 33 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 34 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 35 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 36 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 37 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 38 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 39 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 40 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 41 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 42 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 43 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 44 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 45 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 46 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 47 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 48 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 49 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 50 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 51 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 52 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 53 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 54 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 55 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 56 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 57 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 58 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 59 *0 *a Nielsen *h Carl *c f. 1865 
+795 00 *å 11 *0 *a Polka for violin, A-dur, FS 1 (CNU add. 1) 
+795 00 *å 12 *0 *a Duet for 2 violiner, A-dur, FS 3e (CNU add. 2) 
+795 00 *å 13 *0 *a Romance for violin og klaver, G-dur, CNU add. 3 
+795 00 *å 14 *0 *a Romance for violin og klaver, D-dur, 1883 (CNU add. 4) 
+795 00 *å 15 *0 *a Sonate for violin og klaver, G-dur, FS 3b (CNU add. 5) 
+795 00 *å 16 *0 *a Fantasistykke for klarinet og klaver, 1881 (CNU add. 6) 
+795 00 *å 17 *0 *a Trio for violin, violoncel og klaver, G-dur, FS 3i (CNU add. 7) 
+795 00 *å 18 *0 *a Kvartet for 2 violiner, viola og violoncel, d-mol, FS 3d (CNU add. 8) 
+795 00 *å 19 *0 *a Kvartetsatser for 2 violiner, viola og violoncel, FS 3c *7  ( *v Allegro, F-dur, CNU add. 9 *7 ) 
+795 00 *å 20 *0 *a Kvartetsatser for 2 violiner, viola og violoncel, FS 3c *7  ( *v Allegro molto, F-dur, CNU add. 10 *7 ) 
+795 00 *å 21 *0 *a Kvartetsatser for 2 violiner, viola og violoncel, FS 3c *7  ( *v Allegro moderato, F-dur, CNU add. 11 *7 ) 
+795 00 *å 22 *0 *a Kvartetsatser for 2 violiner, viola og violoncel, FS 3c *7  ( *v Allegro, g-mol, CNU add. 12 *7 ) 
+795 00 *å 23 *0 *a Kvartetsatser for 2 violiner, viola og violoncel, FS 3c *7  ( *v Andante, fis-mol, CNU add. 13 *7 ) 
+795 00 *å 24 *0 *a Kvartetsatser for 2 violiner, viola og violoncel, FS 3c *7  ( *v Menuet, B-dur, CNU add. 14 *7 ) 
+795 00 *å 25 *0 *a Trauermarsch for 2 violiner, viola og violoncel, CNU add. 15 
+795 00 *å 26 *0 *a To karakterstykker for klaver, FS 3f (CNU add. 16) 
+795 00 *å 27 *0 *a Norsk folkedans for klaver, CNU add. 17 
+795 00 *å 28 *0 *a Andante for klaver, F-dur, CNU add. 18 
+795 00 *å 29 *0 *a Klaverstykke, Es-dur, CNU add. 19 
+795 00 *å 30 *0 *a Bondedans for klaver, F-dur, CNU add. 20 
+795 00 *å 31 *0 *a Allegretto for klaver, g-mol, CNU add. 21 
+795 00 *å 32 *0 *a Klaverstykke, B-dur, CNU add. 22 
+795 00 *å 33 *0 *a Menuet for klaver, A-dur, CNU add. 23 
+795 00 *å 34 *0 *a Klaverstykke, A-dur, CNU add. 24 
+795 00 *å 35 *0 *a Andantino for klaver, F-dur, CNU add. 25 
+795 00 *å 36 *0 *a Klaverstykke, C-dur, CNU add. 26 
+795 00 *å 37 *0 *a Et ¤lille klaverstykke, C-dur, CNU add. 27 
+795 00 *å 38 *0 *a Kantate til mindefesten for P.S. Krøyer, CNU add. 28 *c for recitation, sopran, baryton, mandskor og klaver 
+795 00 *å 39 *0 *a Snefrid (Forspil) *c for klaver (CNU add. 29) 
+795 00 *å 40 *0 *a Snefrid *c for recitation og klaverkvintet (CNU add. 30) 
+795 00 *å 41 *0 *a Hr. Oluf han rider *7  ( *v Elverdans *7 ) :  *c for klaver (CNU add. 31) 
+795 00 *å 42 *0 *a Hagbarth og Signe *7  ( *v Ternernes dans *7 ) :  *c for klaver (CNU add. 32) 
+795 00 *å 43 *0 *a Canto serioso *c for violoncel og klaver, CNU add. 33 
+795 00 *å 44 *0 *a Aladdin (uddrag) *7  ( *a Kinesisk dans *a Fangernes dans *a Hindu-dabs *a Negerdans *a Dans og kor *a Morgentågernes dans *7 ) :  *c for klaver (CNU add. 34) 
+795 00 *å 45 *0 *a Moderen (uddrag) *7  ( *a Tågen letter *a Fjerde billede (Forspil) *a Menuet *a Syvende billede (Forspil) *a March *7 ) :  *c for klaver (CNU add. 35) 
+795 00 *å 46 *0 *a Der er et yndigt land *c for 2 trompeter, 2 basuner og tuba, CNU add. 36 
+795 00 *å 47 *0 *a Kantate ved Polyteknisk Læreanstalts 100 års jubilæum *c for recitation, mandskor, strygere og klaver (CNU add. 37) 
+795 00 *å 48 *0 *a Fuga for 2 stemmer, CNU add. 38 
+795 00 *å 49 *0 *a Fuga for 2 stemmer, CNU add. 39 
+795 00 *å 50 *0 *a Fuga for 3 stemmer, CNU add. 40 
+795 00 *å 51 *0 *a Fuga for 3 stemmer, CNU add. 41 
+795 00 *å 52 *0 *a Fuga for 3 stemmer, CNU add. 42 
+795 00 *å 53 *0 *a Fuga for 3 stemmer, CNU add. 43 
+795 00 *å 54 *0 *a Fuga for 3 stemmer, CNU add. 44 
+795 00 *å 55 *0 *a Grüss, CNU add. 45 *c for violin 
+795 00 *å 56 *0 *a Gade, CNU add. 46 *c for klaver 
+795 00 *å 57 *0 *a Danmark!, CNU add. 47 
+795 00 *å 58 *0 *a Velkommen i Della Grazia 20, lille Marie!, CNU add. 48 *c for klaver 
+795 00 *å 59 *0 *a Hyrdedrengens melodi, CNU add. 49 *c for obo 
+795 00 *å 99 *0 *y 0 *a 2 karakterstykker for klaver, FS 3f 
+900 00 *0 *a Jensen *h Lisbeth Ahlgren *x se *w Ahlgren Jensen, Lisbeth *z 700/1 
+s10 00 *a DBC 
+990 00 *o 200931 *b v *n 02 *u nt</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

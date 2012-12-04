@@ -1,0 +1,24 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 26748801 *b 870970 *c 20070619235120 *d 20070507 *f a *t FAUST 
+004 00 *r n *a e 
+008 00 *t m *u f *a 2007 *b dk *d å *l dan *o b *v 0 
+009 00 *a a *g xx 
+021 00 *e 9788770620185 *c ib. *d kun for medlemmer 
+032 00 *a DBF200725 
+041 00 *a dan *c eng 
+100 00 *0 *a Marenco *h Susan 
+241 00 *a Snow White and the golden bear 
+245 00 *a Snehvide og bjørneungen *e manuskript: Susan Marenco *f oversat af Litten Hansen 
+260 00 *a [Kbh.] *b Disneyklubberne *k Nørhaven Book, Viborg *c 2007 
+300 00 *a [28] sider *b ill. i farver 
+440 00 *a Disney prinsesse bogklub 
+512 00 *a På omslaget: Egmont Kids 
+521 00 *b [1. oplag] *c 2007 
+652 00 *n 83.8 *z 296 
+652 00 *o sk 
+710 00 *0 *a Walt Disney *e firma 
+840 00 *0 *a Disney princess bogklub 
+910 00 *0 *a Disney *h Walt *e firma *x se *w Walt Disney (firma) *z 710 
+945 00 *a Disney prinsessebogklub *x se *w Disney prinsesse bogklub *z 440 
+s10 00 *a DBC</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

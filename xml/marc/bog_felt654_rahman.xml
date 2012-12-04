@@ -1,0 +1,20 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 05174430 *b 870970 *c 20010128224732 *d 19770826 *f a *o c *t FAUST 
+004 00 *r n *a e 
+008 00 *t m *u f *a 1977 *b dk *j p *l mul *v 0 
+009 00 *a a *g xx 
+021 00 *a 87-7468-064-1 *c ib. *d kr. 96.00 
+032 00 *a DBF197737 
+041 00 *p pus *p eng 
+100 00 *0 *a Rahman Baba 
+245 00 *a Selections from Rahman Baba *e [edited by] Jens Enevoldsen 
+260 00 *a Herning *b Poul Kristensen *k Poul Kristensen, Herning *c 1977 
+300 00 *a 190 sider *c 26 cm 
+512 00 *a Oversat fra pashto 
+654 00 *0 *n 88.42 *z 01 
+654 00 *0 *o 88.42 
+654 00 *0 *q 88.42 *z 11 
+700 00 *0 *a Enevoldsen *h Jens *c f. 1922 
+900 00 *0 *a Baba *h Bahman *x se *w Rahman Baba *z 100 
+s10 00 *a DBC</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

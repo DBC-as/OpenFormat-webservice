@@ -1,0 +1,13 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 003091934 *b 810015 *f a 
+002 00 *d x231446720 
+004 00 *r n *a e 
+008 00 *t m *a 1765 *b ru *l rus *j d *v 9 
+009 00 *a a *g xx 
+100 00 *a Holberg *h Ludvig 
+245 00 *a Henrik og Pernille *e Oversat paa Russisk af A. N. (i.e.: Andreas Nartov) 
+260 00 *a St. Petersborg *c 1765 
+300 00 *a 102 s. 
+529 00 *b Bibliotheca Danica *u http://images.kb.dk/bibliothecad̲anica/bind%2040167.jpg 
+631 00 *a Literatur *a Den Dramatiske Literatur</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

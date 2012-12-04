@@ -1,0 +1,40 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 27882676 *b 870970 *c 20090831180941 *d 20090821 *f a *t FAUST 
+004 00 *r n *a e 
+006 00 *a 20090701 *c 20091101 *2 a 
+008 00 *t s *u f *a 2009 *b gb *l eng *v 0 
+009 00 *a s *g xc 
+021 00 *d Kr. 136,00 
+023 00 *a 0602527058856 
+032 00 *x BKM200936 
+039 00 *a bef 
+110 00 *0 *a The ¤Low Anthem 
+245 00 *a Oh my God, Charlie Darwin *e The Low Anthem (Ben Knox Miller, Jeffrey Prystowsky, Joice Adams) with Anne Williams ... [et al.] 
+260 00 *a [S.l.] *b Bella Union *c p 2009 
+300 00 *n 1 cd 
+529 00 *a MySpace *u http://www.myspace.com/lowanthem 
+531 00 *a Indhold: 
+538 00 *f Bella Union *g BELLACD 202 
+652 00 *m 78.794 *v 5 
+666 00 *m folk *m americana *n vokal *p 2000-2009 *l USA 
+700 00 *0 *a Adams *h Joice 
+700 00 *0 *å 1 *a Miller *h Ben 
+700 00 *0 *a Prystowsky *h Jeffrey 
+700 00 *0 *a Williams *h Anne 
+795 00 *å 11 *0 *a Charlie Darwin 
+795 00 *å 12 *0 *a To Ohio 
+795 00 *å 13 *0 *a Ticket taker 
+795 00 *å 14 *0 *a The ¤horizon is a beltway 
+795 00 *å 15 *0 *a Home I'll never be 
+795 00 *å 16 *0 *a Cage the songbird 
+795 00 *å 17 *0 *a (Don't) tremble 
+795 00 *å 18 *0 *a Music box 
+795 00 *å 19 *0 *a Champion angel 
+795 00 *å 20 *0 *a To the ghosts who write history books 
+795 00 *å 21 *0 *a OMGCD 
+795 00 *å 22 *0 *a To Ohio (reprise) 
+795 00 *å 99 *0 *y 0 *a Tremble 
+900 00 *0 *a Knox Miller *h Ben *x se *w Miller, Ben *z 700/1 
+s10 00 *a DBC 
+990 00 *o 200936 *b v *u nt</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

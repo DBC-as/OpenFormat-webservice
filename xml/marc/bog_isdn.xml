@@ -1,0 +1,25 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 07197195 *b 870970 *c 20070101161045 *d 19910423 *f a *o c *t FAUST 
+004 00 *r n *a e 
+008 00 *t m *u f *a 1991 *b dk *l dan *v 0 
+009 00 *a a *g xx 
+021 00 *a 87-418-5933-2 *c hf. *d kr. 148,00 
+032 00 *a DBF199121 *x SFD199121 *x DAT990703 
+044 00 *a E *a F *a G *a V *b 10a *b 10b *b 10s 
+100 00 *0 *a Rude *h Jeppe 
+245 00 *a ISDN-bogen *e Jeppe Rude 
+250 00 *a 1. udgave *x 1. oplag *b ÷ 
+260 00 *a Valby *b Borgen *k Narayana, Gylling *c 1991 
+300 00 *a 112 sider *b ill. 
+440 00 *0 *a Borgen/data 
+512 00 *a ISDN: Integrated Services Digital Network 
+530 00 *a Indhold: Lidt telefonhistorie ; Hvorfor ISDN? ; IDN, Integrated Digital Network ; Beskrivelse af ISDN ; Standardtilslutninger ; SS#7, Signal System nr. 7 ; Datatransmission i ISDN, nuværende net ; ISDN, praktisk anvendelse ; Bredbånds-ISDN ; Internationalt perspektiv ; Industriens muligheder ; Oversigt over standarder herunder CCITT-rekommandationerne 
+532 00 *a Litteraturfortegnelse: side 102-105 
+652 00 *m 65.87 
+666 00 *f telekommunikation 
+666 00 *f ISDN 
+666 00 *f datakommunikation 
+666 00 *f datanet 
+666 00 *f telenet 
+s10 00 *a DBC</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,0 +1,24 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 50350215 *b 870970 *c 19890602 *d 19811023 *f a *o c 
+004 00 *r n *a h 
+008 00 *b dk *v 0 
+009 00 *a a *g xx 
+021 00 *a 87-00-04222-6 *b kplt 8 bind *c ib. *d i subskription pr bind kr 278.00 
+100 00 *a Ꜳlbæk Jensen *h Erik 
+245 00 *a Livet på øerne *e [af] Erik Ꜳlbæk Jensen 
+260 00 *&amp; 1 *a [Kbh.] *b Gyldendal *c 1981-1987 
+300 00 *a 8 bind *b ill., delvis i farver *c 26 cm 
+652 00 *m 46 
+900 00 *a Jensen *h Erik Ꜳlbæk *z 100 
+
+001 00 *a 06646840 *b 870970 *c 19890602 *d 19880114 *f a *o c 
+004 00 *r n *a b 
+008 00 *t m *u f *a 1987 *l dan *v 0 
+014 00 *a 50350215 
+021 00 *a 87-00-73081-5 *d kr. 348,00 
+032 00 *a DBF198805 *x SFD198805 *x NDF190305 
+245 00 *&amp; b *a Langs Jyllands vestkyst *f [korttegninger: Alice Rosenstand *f sort-hvide fotografier: Erik Ꜳlbæk Jensen *f farvefotografier: Austin Grandjean *f fotografier side ...: Palle Uhd Jepsen ... Thorkild Balslev] 
+260 00 *&amp; 1 *c 1987 *k Nørhaven,Viborg 
+300 00 *a 343 sider 
+530 00 *&amp; 1 *a Indhold: Havboer ; Hindø ; Tipperne ; Langli ; Fanø ; Mandø ; Rømø ; Jordsand</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

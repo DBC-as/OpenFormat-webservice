@@ -1,0 +1,20 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 06800262 *b 870970 *c 20010128224732 *d 19881123 *f a *t FAUST 
+004 00 *r n *a e 
+008 00 *t p *u d *a 1986 *z 1987 *b ic *c a *d b *e 1 *h z *l dan *v 0 
+009 00 *a a *g xx 
+032 00 *a DPF198690 
+110 00 *0 *a De ¤Europæiske Fællesskaber *c Kommissionen 
+245 00 *a Katalog *n Del A *o Publikationer 
+255 00 *a 1985-1986 
+260 00 *a Luxembourg *b Kontoret for De europæiske Fællesskabers officielle Publikationer *f Kbh. *g abonnement ... Schultz *c 1986-1987 
+500 00 *a Årlig 
+505 00 *a Årspublikation 
+512 00 *a Også i udgaver på organisationens andre officielle sprog 
+526 00 *a Fortsættelse af dens: De europæiske Fællesskabers publikationer. Katalog 
+526 00 *a Fortsættes som: Kontoret for De Europæiske Fællesskabers Publikationer: De europæiske Fællesskabers publikationer 
+652 00 *m 01.63326 *v 6 
+652 00 *p 01.315 
+652 00 *p 33.26 *v 6 
+s10 00 *a 810010</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

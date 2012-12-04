@@ -1,0 +1,34 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 50074773 *b 870970 *c 20110124153343 *d 19770217 *f a 
+004 00 *r n *a h 
+008 00 *b dk *d y *x 06 *x 04 *v 0 
+009 00 *a a *g xx 
+245 00 *a Danmarks kirker 
+260 00 *&amp; 1 *a [Kbh.] *b Nationalmuseet *c 1933- 
+532 00 *&amp; 1 *a Litteraturhenvisninger 
+652 00 *m 71.86 
+710 00 *a Nationalmuseet 
+
+001 00 *a 25766024 *b 870970 *c 20091203150445 *d 20050530 *f a 
+004 00 *r n *a s 
+008 00 *v 0 
+014 00 *a 50074773 
+245 00 *n [Bind] 17 *a Vejle Amt *f with summaries in English 
+300 00 *a bind *b ill. (nogle i farver) *c 28 cm 
+512 00 *a 1. bind / ved Ebbe Nyborg og Niels Jørgen Poulsen ; under medvirken af Birgitte Bøggild ... et al., 2. bind / ved Ebbe Nyborg og Niels Jørgen Poulsen ; under medvirken af Hugo Johannsen 
+
+001 00 *a 28608314 *b 870970 *c 20110207180016 *d 20110118 *f a 
+004 00 *r n *a b 
+008 00 *t m *u f *a 2010 *l dan *v 0 
+014 00 *a 25766024 
+021 00 *e 9788776021481 *c hf. 
+032 00 *x ACC201103 *a DBF201106 *x BKM201106 
+041 00 *d eng 
+245 00 *g 3. bind, 13. hefte *a Urlev, Ørum, Stouby, Hornum 
+260 00 *c 2010 
+300 00 *a Side 1157-1264 
+508 00 *a Med resuméer på engelsk, samt parallelle billedtekster på dansk og engelsk 
+700 00 *a Nyborg *h Ebbe *4 aut 
+700 00 *a Poulsen *h Niels Jørgen *c f. 1947 *4 aut 
+990 00 *o 201106 *b v *u nt</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

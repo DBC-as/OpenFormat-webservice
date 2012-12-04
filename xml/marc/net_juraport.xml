@@ -1,0 +1,19 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 20110324092820 *b 150000 *c 20110328 *d 20110324 *f a 
+004 00 *r n *a e 
+008 00 *t m *a 2011 *l dan *n a *v 0 
+009 00 *a a *g xe 
+032 00 *x NET201114 
+245 00 *a Narkotika 
+260 00 *b Bibliotekernes Juraport *c 2011 
+504 00 *a Linksamling, der indgår i den juridiske nettjeneste Bibliotekernes Juraport. Med links til forklarende tekster om juridiske forhold, love og regler, selvbetjening på nettet, netværk samt henvisninger til bøger inden for emnet narkotika 
+512 00 *i DC.Issued *b 2011 
+512 00 *a Registreret 24.3.2011 
+526 00 *i Er del af: *u http://www.juraport.dk/ 
+652 00 *m 66.88 
+666 00 *f narkotika 
+666 00 *f lovgivning 
+666 00 *f linksamlinger 
+710 00 *a Bibliotekernes Juraport *b DC.Publisher 
+856 00 *u http://www.juraport.dk/narkotika.asp</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

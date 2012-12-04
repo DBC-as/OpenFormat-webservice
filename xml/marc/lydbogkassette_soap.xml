@@ -1,0 +1,31 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 23317605 *b 870970 *c 20050707001935 *d 20010112 *f a *t FAUST 
+004 00 *r n *a e 
+008 00 *t m *u r *a 2001 *z 2004 *b dk *j f *l dan *v 0 
+009 00 *a r *g xh *a a *g xx *a v 
+021 00 *n 7431 *d kr. 645,00 
+032 00 *a DLF200439 *x SFA200439 *x DAT200527 
+100 00 *0 *a Svendsen *h Hanne Marie *c f. 1933 
+245 00 *a Soap *e Hanne Marie Svendsen 
+250 00 *x [Nyt oplag] 
+260 00 *a Århus *b Modtryk *c 2004 
+300 00 *n 2 kassettebånd *l 2 t., 56 min. *n 1 bog *a 101 sider 
+440 00 *0 *a Letlæst for voksne *ø Århus 
+504 00 *a Molly får tilbudt en stor rolle i en soap-tvserie, men hun lader sig ikke imponere af det groteske og forlorne filmmiljø og træffer sit eget personlige valg 
+512 00 *i Kassettebånd *e Indlæst af: Dianna Vangsꜳ *b . Læsehastighed: Tilpasset 
+512 00 *a Bog: 2000 
+520 00 *a Kassettebåndene er en gengivelse af bogen 
+520 00 *a Tidligere: 1. udgave. 2001. (1. oplag: Århus : Modtryk AV Bog+bånd) 
+520 00 *a Bogens originaludgave: 2000 
+521 00 *a [1. oplag] *c 2001 
+521 00 *b [Nyt oplag] *c 2004 
+652 00 *n 86 *z 06 
+652 00 *o sk 
+666 00 *u for læsesvage voksne 
+666 00 *s film 
+945 00 *a Letlæst for voksne *ø Modtryk *x se *w Letlæst for voksne (Århus) *z 440 
+s10 00 *a DBC 
+990 00 *a SFA *o 200439 *b F 
+991 00 *o Tidligere optaget i Av-fortegnelse 200106 
+991 00 *o Bogen optaget i A-fortegnelse 200043 (2 314 290 2)</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

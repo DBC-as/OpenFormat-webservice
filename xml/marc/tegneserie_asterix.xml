@@ -1,0 +1,31 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 27982603 *b 870970 *c 20091123180707 *d 20091027 *f a *t FAUST 
+004 00 *r n *a e 
+008 00 *t m *u f *a 2009 *b dk *d x *l dan *o b *v 0 
+009 00 *a a *g xx 
+021 00 *e 9788776795214 *c hf. *d kr. 99,95 
+032 00 *a DBF200948 *x BKM200948 
+038 00 *a te 
+041 00 *a dan *c fre 
+100 00 *0 *a Goscinny *h René *4 aut 
+241 00 *a L'¤anniversaire d'Astérix et Obélix 
+245 00 *a Asterix' og Obelix' fødselsdag *c den gyldne gæstebog 
+260 00 *a [Kbh.] *b Egmont Serieforlaget *k tr. i udl. *c 2009 
+300 00 *a 53 sider *b alle ill. i farver *c 29 cm 
+440 00 *0 *a Asterix *V 34 *v nr. 34 
+504 00 *a Tegneserie. I den lille galliske landsby ved Atlanterhavets kyst gør indbyggerne klar til at fejre Asterix ́og Obelix ́runde fødselsdage. Det giver anledning til en række tilbageblik på seriens 50-årige historie 
+507 00 *a Udgivet i forbindelse med tegneseriefigurernes 50-års jubilæum 
+512 00 *a I materialet: Goscinny og Uderzo præsenterer ... 
+512 00 *i Omslagstitel *t Asterix' &amp; Obelix' fødselsdag 
+521 00 *b [1. oplag] *c 2009 
+652 00 *n 82 *z 298 
+652 00 *o sk 
+666 00 *s humor 
+666 00 *q Romerriget 
+666 00 *q Gallien 
+700 00 *0 *a Uderzo *h Albert *4 aut *4 drm 
+720 00 *o François-Eric Grodin *4 trl 
+720 00 *o Michael G. Nielsen *4 edt 
+s10 00 *a DBC 
+990 00 *o 200948 *b l *b v *b b *b s *c a *u nt</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,0 +1,32 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 27208010 *b 870970 *c 20080603131435 *d 20080407 *f a *t FAUST 
+004 00 *r n *a e 
+008 00 *t m *u f *a 2008 *b dk *d å *l dan *o b *v 0 
+009 00 *a a *g xx 
+021 00 *e 9788762710498 *c ib. *d kr. 248,00 
+032 00 *a DBF200819 *x BKM200819 *x DAT200822 
+100 00 *0 *a Wagner *h Hans *c f. 1972-12-03 
+245 00 *A frederik 4 *a Frederik IV *c konge i enevældens Danmark *e Hans Wagner 
+260 00 *a Holte *b Flachs *k tr.i.udl. *c 2008 
+300 00 *a 48 sider *b ill. i farver *c 28 cm 
+440 00 *0 *a Tilbageblik 
+504 00 *a Om Frederik IV (1671-1730) og hans liv med rejser i Europa, slotsbyggeri, elskerinder og to koner på en gang, men også om livet for de fattige, bønder, borgere og adelige 
+517 00 *a Fra 13 år 
+521 00 *b [1. oplag] *c 2008 
+532 00 *a Med litteraturhenvisninger og internetadresser 
+600 00 *0 *a Frederik *E 4 *e IV *f konge af Danmark *2 DBC 
+652 00 *0 *m 99.4 *a Frederik *E 4 *e IV *f konge af Danmark 
+652 00 *p 96.3 
+666 00 *f konger 
+666 00 *f historie 
+666 00 *i 1680-1689 
+666 00 *i 1690-1699 
+666 00 *i 1700-1709 
+666 00 *i 1710-1719 
+666 00 *i 1720-1729 
+666 00 *e Danmark 
+666 00 *f danske konger 
+666 00 *i 1670-1679 
+s10 00 *a DBC 
+990 00 *o 200819 *b l *b b *b s *c a *u nt</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

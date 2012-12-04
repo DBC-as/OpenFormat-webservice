@@ -1,0 +1,22 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 44037750 *b 870970 *c 20070308162006 *d 20070308 *f a *t FAUST 
+002 00 *b 710100 *c 9 223 615 3 *x 71010092236153 
+004 00 *r n *a e 
+008 00 *t s *u u *a 2004 *b gb *l eng *v 0 
+009 00 *a a *g xx 
+021 00 *a 0-7509-3551-0 *d £8,99 
+245 00 *a Eating with the Victorians *e edited by C. Anne Wilson *f foreword by Tom Jaine 
+250 00 *b Sutton 
+260 00 *a Stroud, Gloucestershire *b Sutton *c 2004 
+300 00 *a xviii, 174 sider, tavler 
+520 00 *i Tidligere udgave med titel *t Luncheon, Nuncheon and other meals *b 1994 
+530 00 *a Indhold: C. Anne Wilson: Introduction : meal patterns and food supply in Victorian Britain ; Luncheon, Nuncheon and related meals ; Supper: the ultimate meal. Eileen White: First thing first : the great British breakfast. Lynette Hunter: Proliferating publications : the progress of Victorian cookery literature. Laura Mason: Everything stops for tea. Peter Brears: À la française : the waning of a long dining tradition. Valerie Mars: À la russe : the new way of dining 
+532 00 *a Further reading: side 161 
+631 00 *f victoriatiden 
+652 00 *m 64.101 
+666 00 *f madkultur 
+666 00 *e England 
+666 00 *f historie 
+700 00 *0 *a Wilson *h C. Anne 
+s10 00 *a 710100</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,0 +1,33 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 21891592 *b 870970 *c 20120525123439 *d 19971028 *f a 
+004 00 *r n *a h 
+008 00 *b dk *d y *x 06 *v 0 
+009 00 *a a *g xx 
+100 00 *a Kierkegꜳrd *h Søren 
+245 00 *a Søren Kierkegꜳrds skrifter *f redaktion: Niels Jørgen Cappelørn ... [et al.] *y Kommentarbind 
+260 00 *&amp; 1 *a Kbh. *b Søren Kierkegꜳrd Forskningscenteret *b Gad *g [eksp. NBC] *c 1997— 
+300 00 *a bind *b ill. 
+532 00 *&amp; 1 *a Litteraturhenvisninger 
+652 00 *m 04.6 
+666 00 *0 *i 1800-1899 
+666 00 *0 *e Danmark 
+666 00 *0 *o filosofiske skrifter 
+700 00 *a Cappelørn *h N. J. 
+710 00 *a Søren Kierkegꜳrd Forskningscenteret 
+900 00 *a Cappelørn *h Niels Jørgen *z 700 
+
+001 00 *a 29038317 *b 870970 *c 20120419085703 *d 20111027 *f a 
+004 00 *r n *a b 
+008 00 *t s *u f *a 2011 *l dan *v 0 
+014 00 *a 21891592 
+021 00 *e 9788712046240 *c ib. *d kr. 525,00 *b Bind 27 og Kommentarbind, K27 
+021 00 *e 9788712046264 *c ib. shirt. 
+021 00 *e 9788712046288 *c særib. 
+032 00 *x ACC201143 *a DBF201148 *x BKM201148 
+245 00 *g [Bind] K27 *a Kommentarer til Løse papirer 
+260 00 *c 2011 
+300 00 *a 1166 sider 
+512 00 *a Katalogiseret efter omslaget 
+521 00 *&amp; REX *b 1. oplag *c 2011 *k Special-trykkeriet Viborg 
+990 00 *o 201148 *b v *u nt</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

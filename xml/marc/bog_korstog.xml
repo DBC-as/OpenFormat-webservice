@@ -1,0 +1,32 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 28743092 *b 870970 *c 20110606134804 *d 20110413 *f a *t FAUST 
+004 00 *r n *a e 
+008 00 *t m *u f *a 2011 *b dk *d x *j f *l dan *v 0 
+009 00 *a a *g xx 
+021 00 *e 9788771082326 *c ib. 
+032 00 *a DBF201121 *x BKM201121 
+041 00 *a dan *c eng 
+100 00 *0 *a Young *h Robyn *4 aut 
+241 00 *a Crusade 
+245 00 *a Korstog 
+250 00 *a 1. udgave *b ÷ 
+260 00 *a Kbh. *b People's Press *c 2011 
+300 00 *a 595 sider 
+504 00 *a Tempelridderen Will Campbell opholder sig i 1274 i Akko, det hellige Land. Korstogene er midlertidigt indstillede, der er sluttet fred mellem muslimer og kristne, men freden er skrøbelig. Will sendes på en mission for at nye blodige kampe kan indgås 
+521 00 *b 1. oplag *c 2011 *k tr. i udl. 
+526 00 *i 2. del af *t Broderskabet *b . Seriens indhold se denne 
+532 00 *a Med litteraturhenvisninger 
+652 00 *n 83 *z 26 
+652 00 *o sk 
+666 00 *s middelalderen 
+666 00 *s tempelriddere 
+666 00 *s korstogene 
+666 00 *s historie 
+666 00 *i 1270-1279 
+666 00 *i 1280-1289 
+666 00 *q Akko 
+666 00 *q Palæstina 
+720 00 *o Svend Ranild *4 trl 
+s10 00 *a DBC 
+990 00 *o 201121 *b l *b v *u nt</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

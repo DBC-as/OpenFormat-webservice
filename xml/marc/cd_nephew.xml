@@ -1,0 +1,37 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 25294424 *b 870970 *c 20110329135312 *d 20040628 *f a *t FAUST 
+004 00 *r n *a e 
+008 00 *t s *u f *a 2004 *b dk *l dan *v 0 
+009 00 *a s *g xc 
+020 00 *a dk 
+021 00 *d kr. 159,00 
+023 00 *a 5700771100040 
+032 00 *a DMO200428 *x SFG200428 *x DAT201114 
+039 00 *a bef 
+110 00 *0 *a Nephew 
+245 00 *a USADSB *i musik: Nephew *i ord: Simon Kvamm *j Nephew (Simon Kvamm, Kristian Riis, Kasper Toustrup, Søren Arnholt) ... [et al.] *i Nephew (Simon Kvamm, vokal, tangenter ; Kristian Riis, guitar, kor ; Kasper Toustrup, bas, kor ; Søren Arnholt, trommer, kor) *i produktion, mix: Carsten Heller *i teknik: Carsten Nielsen 
+260 00 *a [S.l.] *b Copenhagen *c p 2004 
+300 00 *n 1 cd 
+512 00 *a Indspillet i Århus 
+531 00 *a Indhold: 
+538 00 *f Copenhagen *g CPHREC 0004 
+652 00 *m 78.794 *v 5 
+666 00 *m rock *n vokal *p 2000-2009 *l Danmark 
+700 00 *0 *a Arnholt *h Søren 
+700 00 *0 *å 22 *a Dencker *h Tore 
+700 00 *0 *å 4 *a Erbs *h Hans Christian Ilskov 
+700 00 *0 *a Kvamm *h Simon 
+700 00 *0 *a Riis *h Kristian 
+700 00 *0 *a Sennenvaldt *h Henriette 
+700 00 *0 *å 1 *a Thalund *h René Munk 
+700 00 *0 *a Toustrup *h Kasper 
+795 00 *å 11 *0 *a Movie klip *a Superliga *a Blå &amp; black *i Henriette Sennenvaldt, supplerende vokal *a Milk &amp; wine *a Dårlig træning *i Stefan Kvamm, violin *a En ¤wannabe Darth Vader *a Worst/best case scenario *i René Munk Thalund, supplerende tangenter *a Ordenspoliti *i Tore Hougꜳrd Dencker, basun *i Hans Christian Erbs, trompet *a USA DSB *a Bazooka 
+900 00 *0 *a Hougꜳrd Dencker *h Tore *x se *w Dencker, Tore *z 700/22 
+900 00 *0 *a Dencker *h Tore Hougꜳrd *x se *w Dencker, Tore *z 700/22 
+900 00 *0 *a Munk Thalund *h René *x se *w Thalund, René Munk *z 700/1 
+900 00 *0 *a Erbs *h Hans Christian *x se *w Erbs, Hans Christian Ilskov *z 700/4 
+900 00 *0 *a Ilskov Erbs *h Hans Christian *x se *w Erbs, Hans Christian Ilskov *z 700/4 
+s10 00 *a DBC 
+990 00 *a SFG *o 200428 *b B *c C *t 30.07.04 
+991 00 *o \(Diskodiagnoser 200428)\</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

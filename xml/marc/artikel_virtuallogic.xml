@@ -1,0 +1,22 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 34903727 *b 870971 *c 20111125183243 *d 20111125 *f a 
+004 00 *r n *a i 
+008 00 *t a *u f *a 2011 *b dk *d y *l dan *r ap *v 0 
+009 00 *a a *g xx 
+016 00 *a 20047704 
+032 00 *a ABU201148 *a DAR201148 
+086 00 *a Logik 
+245 00 *a Virtual logic *c number and imagination 
+300 00 *a S. 187-196 *b ill. 
+440 00 *a Rediscovering/reinventing Heinz von Foerster 
+532 00 *a Med litteraturhenvisninger 
+557 00 *a Cybernetics &amp; human knowing *j 2011 *z 0907-0877 *V Vol. 0018, nr. 0003/4 (2011) *v Vol. 18, nr. 3/4 (2011) 
+600 00 *A vonfoerster *a Von Foerster *h Heinz *1 
+652 00 *m 11 
+666 00 *0 *f matematisk analyse 
+666 00 *0 *f tal 
+666 00 *0 *f logik 
+666 00 *0 *f virtuel logik 
+700 00 *a Kauffmann *h Louis H. 
+996 00 *a IDX</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

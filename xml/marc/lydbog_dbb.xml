@@ -1,0 +1,32 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a DBB0037974 *b 874310 *c 20120201155136 *d 20120201 *f a 
+004 00 *r n *a e 
+005 00 *z q 
+008 00 *t m *u r *a 2012 *b dk *d x *j f *l dan *o b *v 0 
+009 00 *a r *g xe 
+021 00 *b Vær opmærksom på Notas vilkår for brug *d Gratis 
+041 00 *a dan *c eng 
+042 00 *a 30 *b Ml 13,7 + Lo 16,2 
+100 00 *a Christopher *h John 
+241 00 *a Beyond the burning lands 
+245 00 *a De ¤Brændende Bjerge *e John Christopher *f oversættelse: Bjarne Skovlund 
+260 00 *a Kbh. *b Nota *c 2012 
+440 00 *a Sværdet *v 2 
+504 00 *a Science fiction. Forstødt fra tronen af broderen Peter foretrækker Luke at udforske landet bag de brændende bjerge. Her hersker andre normer, som åbner Lukes øjne for troldmændenes rænkespil, der koster dyrt i menneskeliv 
+512 00 *a Spilletid: 05 t., 41 min. 
+512 00 *i Indlæser *e Henning Palner 
+512 00 *a Digital lydbog uden tekst 
+512 00 *a Niveauer: 1 
+512 00 *a Antal navigationspunkter: 12 
+512 00 *a Indlæst i 2010 
+517 00 *a Fra 13 år 
+520 00 *a Originaludgave 1971 
+520 00 *a Indlæst efter udgaven: Kbh. : Tellerup, 1984 
+520 00 *a Kopieret efter udgaven: Kbh. : Tellerup, 2010 
+538 00 *i Masternr. *a 37974 
+652 00 *n 83 *z 296 
+652 00 *o sk 
+666 00 *s science fiction 
+700 00 *a Palner *h Henning 
+856 00 *u http://www.e17.dk/bog/37974 *z Adgangsmåde: Internet</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,0 +1,25 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 34786798 *b 870971 *c 20110918000243 *d 20110918 *f a 
+004 00 *r n *a i 
+008 00 *t a *u f *a 2011 *b dk *d y *l dan *r an *v 0 
+009 00 *a a *g xx 
+016 00 *a 03243095 
+032 00 *a ABU201138 *a DAR201138 
+086 00 *a Dansk litteraturhistorie 
+245 00 *a Kvinder er vel også hele mennesker 
+300 00 *a Sektion 2, s. 4 *b ill. 
+504 00 *a Er det tankevækkende, at romaner af kvinder skildrer kvinder, der ikke kan finde ud af livet? 
+507 00 *a I anledning af Nils Gunder Hansens anmeldelse af Kirsten Hammanns nye roman 'Se på mig' 
+538 00 *i Infomedia *a e2df6971 
+557 00 *a Information *j 2011 *z 1602-2572 *V 2011-09-16 *v 2011-09-16 
+600 00 *a Hamman *h Kirsten *1 
+652 00 *m 81.6 
+666 00 *0 *f dansk litteratur 
+666 00 *0 *f romaner 
+666 00 *0 *f kvindelige forfattere 
+666 00 *0 *f litterære motiver 
+666 00 *0 *f kvinder 
+666 00 *0 *o kronikker 
+700 00 *a Syberg *h Karen 
+996 00 *a IDX</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,0 +1,32 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 28655746 *b 870970 *c 20110228181554 *d 20110216 *f a *t FAUST 
+004 00 *r n *a e 
+006 00 *d 7 *2 b 
+006 00 *e 7 *2 d 
+008 00 *t m *u f *a 2010 *b dk *l dan *n b *v 0 
+009 00 *a m *g xe 
+021 00 *d Adgang til streaming for biblioteksbrugere i kommuner med abonnement på Filmstriben 
+032 00 *a DBI201109 *x NET201109 *x FSF201109 
+245 00 *a Asterix og vikingerne *e based on the work of René Goscinny and Albert Uderzo *e script and dialogue Jean-Luc Goossens *e with the collaboration of Stefan Fjeldmark *f produced by Natalie Altmann, Thomas Valentin *e directed by Stefan Fjeldmark and Jesper Møller *f lead animation Rune Bennicke ... [et al.] *f [dansk] instruktør Sonny Lahey *f oversætter Trine Dansgꜳrd *f [dansk] producer Svend Christensen 
+260 00 *b SF Film *c [2011] 
+504 00 *a Vikingerne mod nord, der ikke kender til frygt, planlægger et togt til Gallien for at kidnappe en galler, der kan vise dem hvad frygt er. De gæve gallere må drage mod nord for at befri ham 
+505 00 *a Tegnefilm 
+512 00 *a Titlen hentet fra Filmstribens indgangsside 
+512 00 *a Spilletid: 75 min. 
+512 00 *a Filmtitel *t Asterix ja viikingit 
+512 00 *i Alternativ titel *t Asterix and the vikings 
+512 00 *i Stemmer *e Jesper Asholt, Dejan Cukic, David Owe, Helle Fagralid, Peter Aude, Martin Brygmann, Søs Egelind, Mads M. Nielsen, Søren Spanning ... et al. 
+512 00 *a Originalfilmen: Frankrig : M6 Studio : Mandarin SAS : 2d3D Animation ; Kbh. : in association with A.Film ... et al., 2006 
+517 00 *a Mærkning: Tilladt for alle men frarådes børn under 7 år 
+517 00 *a Fra 7 år 
+652 00 *m 77.74 
+666 00 *s vikinger 
+700 00 *0 *a Goscinny *h René 
+700 00 *0 *a Uderzo *h Albert 
+700 00 *0 *a Fjeldmark *h Stefan 
+700 00 *0 *a Møller *h Jesper *f filminstruktør 
+700 00 *0 *a Goossens *h Jean-Luc 
+856 00 *z Adgangsmåde: Internet *u http://www.filmstriben.dk/?showfilm=2668960000 *z Adgang til streaming 
+s10 00 *a DBC 
+990 00 *o 201109 *b v *u nt</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

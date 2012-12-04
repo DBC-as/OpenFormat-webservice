@@ -1,0 +1,62 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 28209061 *b 870970 *c 20100426181020 *d 20100329 *f a *t FAUST 
+004 00 *r n *a e 
+005 00 *h a *h y *h p *i a *i e *j a *k a 
+008 00 *t s *u f *a 2009 *b us *v 0 
+009 00 *a c *g xx *b s *b t *h xc *b a *h xx 
+021 00 *e 9781423406501 *n HL 50486136 *c hf. *d kr. 155,00 
+032 00 *x BKM201017 
+041 00 *e eng 
+245 00 *a The ¤horn collection *c 14 pieces by 11 composers *c \easy to intermediate\ level *e transcribed by Mason Jones ... [et al.] *ø Easy to intermediate 
+260 00 *a New York, N.Y. *b Schirmer *f Milwaukee, Wis. *g distributed by Hal Leonard *c 2009 
+300 00 *n 1 \partitur og klaverpartitur\ *a 32 sider *n 1 \stemme\ *c 31 cm *d 1 cd *d 1 installationsvejledning 
+440 00 *0 *a The ¤G. Schirmer instrumental library 
+509 00 *a For horn og klaver 
+509 00 *a For horn i F 
+512 00 *a Cd: The horn collection / Bernhard Scully, horn, med Vincent Fuh. [New York, N.Y.] : Schirmer ; [Milwaukee, Wis.] : distributed by Hal Leonard, p 2009. 1 cd : stereo. Gennemspilning af stykkerne i nodehæftet med og uden horn. Indspillet efter music-minus-one-princippet. Cd-rom-indhold: Amazing slow downer software, som kan regulere musikkens afspilningshastighed uden at ændre tonehøjden. Bestillingsnr.: 63009893 
+531 00 *a Indhold: 
+534 00 *a Med noter til de enkelte stykker 
+534 00 *a Med spillevejledning 
+538 00 *b HL 50486136 
+538 00 *f Hal Leonard *g 63009893 
+652 00 *m 78.435 *v 6 
+666 00 *m barok *m klassik *m wienerklassik *m romantik *m senromantik *n instrumental *n horn *p 1700-1799 *p 1800-1899 *l Tyskland *l Østrig *l England *l Italien 
+666 00 *o music minus one 
+666 00 *u for let øvede 
+700 00 *0 *a Jones *h Mason 
+770 00 *å 11 *0 *a Beethoven *h Ludwig van 
+770 00 *å 12 *0 *a Bellini *h Vincenzo 
+770 00 *å 13 *0 *a Beethoven *h Ludwig van 
+770 00 *å 14 *0 *a Corelli *h Arcangelo 
+770 00 *å 15 *0 *a Corelli *h Arcangelo 
+770 00 *å 16 *0 *a Mendelssohn-Bartholdy *h Felix 
+770 00 *å 17 *0 *a Mendelssohn-Bartholdy *h Felix 
+770 00 *å 18 *0 *a Mozart *h Wolfgang Amadeus 
+770 00 *å 19 *0 *a Purcell *h Henry 
+770 00 *å 20 *0 *a Schubert *h Franz 
+770 00 *å 21 *0 *a Puccini *h Giacomo 
+770 00 *å 22 *0 *a Reichardt *h Johann Friedrich 
+770 00 *å 23 *0 *a Schumann *h Robert 
+770 00 *å 24 *0 *a Strauss *h Richard 
+770 00 *å 25 *0 *a Anonym 
+795 00 *å 11 *0 *a Sange, opus 52 *7  ( *v Marmotte *7 ) 
+795 00 *å 12 *0 *a Vaga luna che inargenti 
+795 00 *å 13 *0 *a Abschiedsgesang an Wiens Bürger 
+795 00 *å 14 *0 *a Sonate for violin og continuo, d-mol, opus 5:7 (Sarabande) 
+795 00 *å 15 *0 *a Sonate for violin og continuo, F-dur, opus 5:10 (Gavotte) 
+795 00 *å 16 *0 *a Sange, opus 99 *7  ( *v Lieblingsplätzchen *7 ) 
+795 00 *å 17 *0 *a Sange, opus 34 *7  ( *v Minnelied *7 ) 
+795 00 *å 18 *0 *a Idomeneo *7  ( *v Non temer, amato bene *7 ) 
+795 00 *å 19 *0 *a The ¤libertine *7  ( *v Nymphs and shepherds *7 ) 
+795 00 *å 20 *0 *a Rosamunde *7  ( *v Mellemaktsmusik nr. 3, B-dur, Deutsch 797:5 *7 ) 
+795 00 *å 21 *0 *a Pigen fra vesten *7  ( *v Ch'ella mi creda *7 ) 
+795 00 *å 22 *0 *a Das ¤Bild der Rose 
+795 00 *å 23 *0 *a Kinderszenen, opus 15 *7  ( *v Von fremden Ländern und Menschen *7 ) 
+795 00 *å 24 *0 *a Sange, opus 10 *7  ( *v Allerseelen *7 ) 
+795 00 *å 25 *0 *a The ¤ash grove 
+900 00 *0 *a Bartholdy *h Felix Mendelssohn *x se *w Mendelssohn-Bartholdy, Felix *z 770/16 
+900 00 *0 *a Bartholdy *h Felix Mendelssohn *x se *w Mendelssohn-Bartholdy, Felix *z 770/17 
+s10 00 *a DBC 
+990 00 *o 201017 *b v *n D4 *u nt 
+991 00 *o Installationsvejledning ligger i lomme sammen med cd'en</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

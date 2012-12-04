@@ -1,0 +1,12 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 01112775 *b 125420 *d 19890913 *f a *t ALBA 
+004 00 *r n *a e 
+008 00 *t p *u d *a 1980 *z 1983 *c k *b nz *l eng *v 7 
+009 00 *a a *g xx 
+022 00 *a 0111-2775 
+082 00 *a 622.159 
+210 00 *a Geotherm. news 
+222 00 *a Geothermal news 
+245 00 *a Geothermal news 
+260 00 *a Wellington *b Geothermal Co-ordinator, DSIR</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

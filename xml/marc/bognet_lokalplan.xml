@@ -1,0 +1,19 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 90295292 *b 159013 *f a 
+004 00 *r n *a e 
+008 00 *t m *u f *a 2012 *b dk *l dan *v 0 
+009 00 *a a *g xx *g xe 
+033 00 *a 791 *b Viborg Kommune 
+245 00 *a Område til almene formål og boliger ved Gl. Banevej i Karup, lokalplan 
+260 00 *a Viborg *b Viborg Kommune *c 2012 
+300 00 *a 32 sider *b ill. 
+440 00 *a Lokalplan *v nr. 393 
+512 00 *a Vedtaget af Viborg byråd den 25. januar 2012 
+652 00 *m 71.9564 *b Karup 
+666 00 *e Karup 
+666 00 *e Gl. Banevej, Karup 
+710 00 *s Viborg Kommune *4 dkani 
+840 00 *a Lokalplan *ø Viborg kommune *V  393 *v nr. 393 
+856 00 *z Findes også på internet *u http://viborg.dk/db/Plan.nsf/pdf/393v̲edtaget/$File/393v̲edtaget.pdf 
+910 00 *s Viborg Kommune *c Byrådet *z 840(a,ø)</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
