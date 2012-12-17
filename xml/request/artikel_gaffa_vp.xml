@@ -130,6 +130,8 @@
               </marcx:collection>
               <os:identifier>870971-tsart:34840393</os:identifier>
               <os:creationDate>2011-10-25</os:creationDate>
+              <os:holdingsCount>0</os:holdingsCount>
+              <os:lendingLibraries>0</os:lendingLibraries>
               <os:relations>
                 <os:relation>
                   <os:relationType/>
