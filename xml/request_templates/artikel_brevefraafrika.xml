@@ -111,8 +111,8 @@
             <oss:openurl>_BASEURL_url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:journal&amp;rft.atitle=Breve+fra+Afrika&amp;rft.aulast=Harryson&amp;rft.aufirst=Kajsa&amp;rft.auinit=K&amp;rft.jtitle=Politiken&amp;rft.date=1986&amp;rft.pages=&amp;rft.spage=&amp;rft.epage=&amp;rft.issn=0907-1814&amp;rft.genre=article</oss:openurl>
 <os:identifier>870971-basis:71942031</os:identifier>
 <os:creationDate>1980-03-07</os:creationDate>
-<os:holdingsCount>12</os:holdingsCount>
-<os:lendingLibraries>12</os:lendingLibraries>
+<os:holdingsCount>0</os:holdingsCount>
+<os:lendingLibraries>0</os:lendingLibraries>
             <os:formatsAvailable>
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
@@ -120,7 +120,6 @@
         </os:collection>
       </ns1:originalData>
       <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
-      <ns1:trackingId>artikel_brevefraafrika.xml.PLACEHOLDER</ns1:trackingId>
     </ns1:formatRequest>
   </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
