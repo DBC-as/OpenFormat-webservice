@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>25832159|870970</ac:identifier>
+              <ac:source>Bibliotekskatalog</ac:source>
+              <dc:title>Natten før brylluppet</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Natten før brylluppet</dc:title>
+              <dcterms:alternative>The Philadelphia story</dcterms:alternative>
+              <dc:creator xsi:type="dkdcplus:drt">George Cukor</dc:creator>
+              <dc:creator xsi:type="oss:sort">Cukor, George</dc:creator>
+              <dc:subject xsi:type="dkdcplus:DK5">77.7</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Spillefilm</dc:subject>
+              <dc:subject xsi:type="dkdcplus:genre">fiktion</dc:subject>
+              <dc:description>Originalfilmen: USA : Metro-Goldwyn-Mayer : Loewś, 1940</dc:description>
+              <dcterms:audience xsi:type="dkdcplus:medieraad">Mærkning: Tilladt for børn over 11 år</dcterms:audience>
+              <dcterms:audience>børnematerialer</dcterms:audience>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dkdcplus:version>2-disc special edition</dkdcplus:version>
+              <dc:publisher>Sandrew Metronome Video Danmark</dc:publisher>
+              <dc:contributor>Donald Ogden Stewart</dc:contributor>
+              <dc:contributor>Philip Barry</dc:contributor>
+              <dc:contributor>Joseph Ruttenberg</dc:contributor>
+              <dc:contributor>George Cukor</dc:contributor>
+              <dc:contributor xsi:type="dkdcplus:act">Gary Grant</dc:contributor>
+              <dc:contributor xsi:type="dkdcplus:act">Katharine Hepburn</dc:contributor>
+              <dc:contributor xsi:type="dkdcplus:act">James Stewart</dc:contributor>
+              <dc:date>2005</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Dvd</dc:type>
+              <dc:format>2 dvd-videoer, mono, sort-hvid</dc:format>
+              <dcterms:extent>ca. 108 min.</dcterms:extent>
+              <dc:language xsi:type="dcterms:ISO639-2">mul</dc:language>
+              <dc:language>Flere sprog</dc:language>
+              <dc:language xsi:type="dkdcplus:spoken">eng</dc:language>
+              <dc:language xsi:type="dkdcplus:spoken">ger</dc:language>
+              <dc:language xsi:type="dkdcplus:spoken">spa</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">eng</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">ger</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">spa</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">por</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">dan</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">fin</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">swe</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">heb</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">pol</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">cze</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">scr</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">slv</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">gre</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">hun</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">tur</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">ice</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">bul</dc:language>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>000000000000000000000000</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">25832159</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20060902140350</marcx:subfield>
+                  <marcx:subfield code="d">20050715</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                  <marcx:subfield code="t">FAUST</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="006">
+                  <marcx:subfield code="d">11</marcx:subfield>
+                  <marcx:subfield code="2">b</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">2005</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="l">mul</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">m</marcx:subfield>
+                  <marcx:subfield code="g">th</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="032">
+                  <marcx:subfield code="a">DBI200533</marcx:subfield>
+                  <marcx:subfield code="x">DAT990636</marcx:subfield>
+                  <marcx:subfield code="a">DBI</marcx:subfield>
+                  <marcx:subfield code="x">DAT</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="041">
+                  <marcx:subfield code="p">eng</marcx:subfield>
+                  <marcx:subfield code="p">ger</marcx:subfield>
+                  <marcx:subfield code="p">spa</marcx:subfield>
+                  <marcx:subfield code="u">eng</marcx:subfield>
+                  <marcx:subfield code="u">ger</marcx:subfield>
+                  <marcx:subfield code="u">spa</marcx:subfield>
+                  <marcx:subfield code="u">por</marcx:subfield>
+                  <marcx:subfield code="u">dan</marcx:subfield>
+                  <marcx:subfield code="u">fin</marcx:subfield>
+                  <marcx:subfield code="u">swe</marcx:subfield>
+                  <marcx:subfield code="u">heb</marcx:subfield>
+                  <marcx:subfield code="u">pol</marcx:subfield>
+                  <marcx:subfield code="u">cze</marcx:subfield>
+                  <marcx:subfield code="u">scr</marcx:subfield>
+                  <marcx:subfield code="u">slv</marcx:subfield>
+                  <marcx:subfield code="u">gre</marcx:subfield>
+                  <marcx:subfield code="u">hun</marcx:subfield>
+                  <marcx:subfield code="u">tur</marcx:subfield>
+                  <marcx:subfield code="u">ice</marcx:subfield>
+                  <marcx:subfield code="u">bul</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Natten før brylluppet</marcx:subfield>
+                  <marcx:subfield code="p">The ¤Philadelphia story</marcx:subfield>
+                  <marcx:subfield code="e">screen play by Donald Ogden Stewart</marcx:subfield>
+                  <marcx:subfield code="e">based on the play by Philip Barry</marcx:subfield>
+                  <marcx:subfield code="e">director of photography Joseph Ruttenberg</marcx:subfield>
+                  <marcx:subfield code="f">produced by Joseph L. Mankiewicz</marcx:subfield>
+                  <marcx:subfield code="e">directed by George Cukor</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="250">
+                  <marcx:subfield code="a">2-disc special edition</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="a">[Valby]</marcx:subfield>
+                  <marcx:subfield code="b">Sandrew Metronome Video Danmark</marcx:subfield>
+                  <marcx:subfield code="c">[2005]</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="n">2 dvd-videoer</marcx:subfield>
+                  <marcx:subfield code="l">ca. 108 min.</marcx:subfield>
+                  <marcx:subfield code="b">mono, sort-hvid</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="508">
+                  <marcx:subfield code="a">Engelsk tale, samt synkronisering på tysk og spansk</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="508">
+                  <marcx:subfield code="a">Undertekster på engelsk, tysk, spansk, portugisisk, dansk, finsk, svensk, hebraisk, polsk, tjekkisk, kroatisk, slovensk, græsk, ungarsk, tyrkisk, islandsk og bulgarsk</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="508">
+                  <marcx:subfield code="a">Tekstet for hørehæmmede på engelsk og tysk</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="512">
+                  <marcx:subfield code="i">Medvirkende</marcx:subfield>
+                  <marcx:subfield code="e">Gary Grant, Katharine Hepburn, James Stewart ... et al.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="512">
+                  <marcx:subfield code="a">Originalfilmen: USA : Metro-Goldwyn-Mayer : Loewś, 1940</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="517">
+                  <marcx:subfield code="a">Mærkning: Tilladt for børn over 11 år</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="538">
+                  <marcx:subfield code="a">Z13 66990</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="m">77.7</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="å">1</marcx:subfield>
+                  <marcx:subfield code="a">Stewart</marcx:subfield>
+                  <marcx:subfield code="h">Donald Ogden</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Barry</marcx:subfield>
+                  <marcx:subfield code="h">Philip</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Ruttenberg</marcx:subfield>
+                  <marcx:subfield code="h">Joseph</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Cukor</marcx:subfield>
+                  <marcx:subfield code="h">George</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="900">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Ogden Stewart</marcx:subfield>
+                  <marcx:subfield code="h">Donald</marcx:subfield>
+                  <marcx:subfield code="x">se</marcx:subfield>
+                  <marcx:subfield code="w">Stewart, Donald Ogden</marcx:subfield>
+                  <marcx:subfield code="z">700/1</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="996">
+                  <marcx:subfield code="a">DBC</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>870970-basis:25832159</os:identifier>
+            <os:creationDate>2005-07-15</os:creationDate>
+            <os:holdingsCount>0</os:holdingsCount>
+            <os:lendingLibraries>0</os:lendingLibraries>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
