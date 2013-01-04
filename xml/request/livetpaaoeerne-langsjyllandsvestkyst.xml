@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+              <dkabm:record>
+                <ac:identifier>06646840|870970</ac:identifier>
+                <dc:identifier xsi:type="dkdcplus:ISBN">87-00-73081-5</dc:identifier>
+                <ac:source>Bibliotekskatalog</ac:source>
+                <dc:title>Livet på øerne</dc:title>
+                <dc:title xsi:type="dkdcplus:full">Livet på øerne : Langs Jyllands vestkyst</dc:title>
+                <dc:creator xsi:type="dkdcplus:aut">Erik Aalbæk Jensen</dc:creator>
+                <dc:creator xsi:type="oss:sort">Aalbæk Jensen, Erik</dc:creator>
+                <dc:subject xsi:type="dkdcplus:DK5">46</dc:subject>
+                <dc:subject xsi:type="dkdcplus:DK5-Text">Danmark</dc:subject>
+                <dc:subject xsi:type="dkdcplus:genre">nonfiktion</dc:subject>
+                <dc:description>Indhold: Havboer ; Hindø ; Tipperne ; Langli ; Fanø ; Mandø ; Rømø ; Jordsand</dc:description>
+                <dcterms:audience>voksenmaterialer</dcterms:audience>
+                <dc:publisher>Gyldendal</dc:publisher>
+                <dc:date>1987</dc:date>
+                <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+                <dc:format>illustreret, delvis i farver</dc:format>
+                <dcterms:extent>343 sider</dcterms:extent>
+                <dcterms:extent>8 bind</dcterms:extent>
+                <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                <dc:language>Dansk</dc:language>
+              </dkabm:record>
+              <marcx:collection>
+                <marcx:record format="danMARC2" type="Bibliographic">
+                  <marcx:leader>000000000000000000000000</marcx:leader>
+                  <marcx:datafield ind1="0" ind2="0" tag="001">
+                    <marcx:subfield code="a">06646840</marcx:subfield>
+                    <marcx:subfield code="b">870970</marcx:subfield>
+                    <marcx:subfield code="c">19890602</marcx:subfield>
+                    <marcx:subfield code="d">19880114</marcx:subfield>
+                    <marcx:subfield code="f">a</marcx:subfield>
+                    <marcx:subfield code="o">c</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="004">
+                    <marcx:subfield code="r">n</marcx:subfield>
+                    <marcx:subfield code="a">e</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="008">
+                    <marcx:subfield code="t">m</marcx:subfield>
+                    <marcx:subfield code="u">f</marcx:subfield>
+                    <marcx:subfield code="a">1987</marcx:subfield>
+                    <marcx:subfield code="l">dan</marcx:subfield>
+                    <marcx:subfield code="b">dk</marcx:subfield>
+                    <marcx:subfield code="v">0</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="009">
+                    <marcx:subfield code="a">a</marcx:subfield>
+                    <marcx:subfield code="g">xx</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="018">
+                    <marcx:subfield code="a">50350215</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="021">
+                    <marcx:subfield code="a">87-00-73081-5</marcx:subfield>
+                    <marcx:subfield code="d">kr. 348,00</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="032">
+                    <marcx:subfield code="a">DBF198805</marcx:subfield>
+                    <marcx:subfield code="x">SFD198805</marcx:subfield>
+                    <marcx:subfield code="x">NDF190305</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="100">
+                    <marcx:subfield code="a">Ꜳlbæk Jensen</marcx:subfield>
+                    <marcx:subfield code="h">Erik</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="245">
+                    <marcx:subfield code="a">Livet på øerne</marcx:subfield>
+                    <marcx:subfield code="e">[af] Erik Ꜳlbæk Jensen</marcx:subfield>
+                    <marcx:subfield code="c">Langs Jyllands vestkyst</marcx:subfield>
+                    <marcx:subfield code="f">[korttegninger: Alice Rosenstand</marcx:subfield>
+                    <marcx:subfield code="f">sort-hvide fotografier: Erik Ꜳlbæk Jensen</marcx:subfield>
+                    <marcx:subfield code="f">farvefotografier: Austin Grandjean</marcx:subfield>
+                    <marcx:subfield code="f">fotografier side ...: Palle Uhd Jepsen ... Thorkild Balslev]</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="260">
+                    <marcx:subfield code="&amp;">1</marcx:subfield>
+                    <marcx:subfield code="c">1987</marcx:subfield>
+                    <marcx:subfield code="k">Nørhaven,Viborg</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="260">
+                    <marcx:subfield code="&amp;">1</marcx:subfield>
+                    <marcx:subfield code="a">[Kbh.]</marcx:subfield>
+                    <marcx:subfield code="b">Gyldendal</marcx:subfield>
+                    <marcx:subfield code="c">1981-1987</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="300">
+                    <marcx:subfield code="a">343 sider</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="300">
+                    <marcx:subfield code="a">8 bind</marcx:subfield>
+                    <marcx:subfield code="b">ill., delvis i farver</marcx:subfield>
+                    <marcx:subfield code="c">26 cm</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="530">
+                    <marcx:subfield code="&amp;">1</marcx:subfield>
+                    <marcx:subfield code="a">Indhold: Havboer ; Hindø ; Tipperne ; Langli ; Fanø ; Mandø ; Rømø ; Jordsand</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="652">
+                    <marcx:subfield code="m">46</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="900">
+                    <marcx:subfield code="a">Jensen</marcx:subfield>
+                    <marcx:subfield code="h">Erik Ꜳlbæk</marcx:subfield>
+                    <marcx:subfield code="z">100</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="996">
+                    <marcx:subfield code="a">DBC</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="996">
+                    <marcx:subfield code="a">DBC</marcx:subfield>
+                  </marcx:datafield>
+                </marcx:record>
+                <marcx:record format="danMARC2" type="BibliographicMain">
+                  <marcx:leader>000000000000000000000000</marcx:leader>
+                  <marcx:datafield ind1="0" ind2="0" tag="001">
+                    <marcx:subfield code="a">50350215</marcx:subfield>
+                    <marcx:subfield code="b">870970</marcx:subfield>
+                    <marcx:subfield code="c">19890602</marcx:subfield>
+                    <marcx:subfield code="d">19811023</marcx:subfield>
+                    <marcx:subfield code="f">a</marcx:subfield>
+                    <marcx:subfield code="o">c</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="004">
+                    <marcx:subfield code="r">n</marcx:subfield>
+                    <marcx:subfield code="a">h</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="008">
+                    <marcx:subfield code="b">dk</marcx:subfield>
+                    <marcx:subfield code="v">0</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="009">
+                    <marcx:subfield code="a">a</marcx:subfield>
+                    <marcx:subfield code="g">xx</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="021">
+                    <marcx:subfield code="a">87-00-04222-6</marcx:subfield>
+                    <marcx:subfield code="b">kplt 8 bind</marcx:subfield>
+                    <marcx:subfield code="c">ib.</marcx:subfield>
+                    <marcx:subfield code="d">i subskription pr bind kr 278.00</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="100">
+                    <marcx:subfield code="a">Ꜳlbæk Jensen</marcx:subfield>
+                    <marcx:subfield code="h">Erik</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="245">
+                    <marcx:subfield code="a">Livet på øerne</marcx:subfield>
+                    <marcx:subfield code="e">[af] Erik Ꜳlbæk Jensen</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="260">
+                    <marcx:subfield code="&amp;">1</marcx:subfield>
+                    <marcx:subfield code="a">[Kbh.]</marcx:subfield>
+                    <marcx:subfield code="b">Gyldendal</marcx:subfield>
+                    <marcx:subfield code="c">1981-1987</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="300">
+                    <marcx:subfield code="a">8 bind</marcx:subfield>
+                    <marcx:subfield code="b">ill., delvis i farver</marcx:subfield>
+                    <marcx:subfield code="c">26 cm</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="652">
+                    <marcx:subfield code="m">46</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="900">
+                    <marcx:subfield code="a">Jensen</marcx:subfield>
+                    <marcx:subfield code="h">Erik Ꜳlbæk</marcx:subfield>
+                    <marcx:subfield code="z">100</marcx:subfield>
+                  </marcx:datafield>
+                </marcx:record>
+                <marcx:record format="danMARC2" type="BibliographicVolume">
+                  <marcx:leader>000000000000000000000000</marcx:leader>
+                  <marcx:datafield ind1="0" ind2="0" tag="001">
+                    <marcx:subfield code="a">06646840</marcx:subfield>
+                    <marcx:subfield code="b">870970</marcx:subfield>
+                    <marcx:subfield code="c">19890602</marcx:subfield>
+                    <marcx:subfield code="d">19880114</marcx:subfield>
+                    <marcx:subfield code="f">a</marcx:subfield>
+                    <marcx:subfield code="o">c</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="004">
+                    <marcx:subfield code="r">n</marcx:subfield>
+                    <marcx:subfield code="a">b</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="008">
+                    <marcx:subfield code="t">m</marcx:subfield>
+                    <marcx:subfield code="u">f</marcx:subfield>
+                    <marcx:subfield code="a">1987</marcx:subfield>
+                    <marcx:subfield code="l">dan</marcx:subfield>
+                    <marcx:subfield code="v">0</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="014">
+                    <marcx:subfield code="a">50350215</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="021">
+                    <marcx:subfield code="a">87-00-73081-5</marcx:subfield>
+                    <marcx:subfield code="d">kr. 348,00</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="032">
+                    <marcx:subfield code="a">DBF198805</marcx:subfield>
+                    <marcx:subfield code="x">SFD198805</marcx:subfield>
+                    <marcx:subfield code="x">NDF190305</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="245">
+                    <marcx:subfield code="&amp;">b</marcx:subfield>
+                    <marcx:subfield code="a">Langs Jyllands vestkyst</marcx:subfield>
+                    <marcx:subfield code="f">[korttegninger: Alice Rosenstand</marcx:subfield>
+                    <marcx:subfield code="f">sort-hvide fotografier: Erik Ꜳlbæk Jensen</marcx:subfield>
+                    <marcx:subfield code="f">farvefotografier: Austin Grandjean</marcx:subfield>
+                    <marcx:subfield code="f">fotografier side ...: Palle Uhd Jepsen ... Thorkild Balslev]</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="260">
+                    <marcx:subfield code="&amp;">1</marcx:subfield>
+                    <marcx:subfield code="c">1987</marcx:subfield>
+                    <marcx:subfield code="k">Nørhaven,Viborg</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="300">
+                    <marcx:subfield code="a">343 sider</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="530">
+                    <marcx:subfield code="&amp;">1</marcx:subfield>
+                    <marcx:subfield code="a">Indhold: Havboer ; Hindø ; Tipperne ; Langli ; Fanø ; Mandø ; Rømø ; Jordsand</marcx:subfield>
+                  </marcx:datafield>
+                </marcx:record>
+              </marcx:collection>
+              <os:identifier>870970-basis:06646840</os:identifier>
+              <os:creationDate>2005-03-01</os:creationDate>
+<os:holdingsCount>12</os:holdingsCount>
+<os:lendingLibraries>12</os:lendingLibraries>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>fullDisplay</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
