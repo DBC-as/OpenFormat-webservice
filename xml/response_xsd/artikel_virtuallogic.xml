@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibdk:workDisplay xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat">
+      <bibdk:manifestation>
+        <bibdk:work>
+          <bibdk:title>
+            <bibdk:titleFull>Virtual logic : number and imagination</bibdk:titleFull>
+            <bibdk:titleSpecific>Virtual logic : number and imagination</bibdk:titleSpecific>
+          </bibdk:title>
+          <bibdk:creators>
+            <bibdk:creator className="link">
+              <bibdk:searchCode phrase="phrase.creator">"Louis H. Kauffmann"</bibdk:searchCode>
+              <bibdk:display>Louis H. Kauffmann</bibdk:display>
+            </bibdk:creator>
+          </bibdk:creators>
+          <bibdk:description>
+            <bibdk:hostPublication punctuation=", ">I: Cybernetics &amp; human knowing, Vol. 18, nr. 3/4 (2011)</bibdk:hostPublication>
+            <bibdk:subjects>
+              <bibdk:subject className="link" punctuation=" ; ">
+                <bibdk:searchCode phrase="dkcclphrase.lem">"Heinz Von Foerster"</bibdk:searchCode>
+                <bibdk:display>Heinz Von Foerster</bibdk:display>
+              </bibdk:subject>
+              <bibdk:subject className="link" punctuation=" ; ">
+                <bibdk:searchCode phrase="dkcclphrase.lem">"logik"</bibdk:searchCode>
+                <bibdk:display>logik</bibdk:display>
+              </bibdk:subject>
+              <bibdk:subject className="link" punctuation=" ; ">
+                <bibdk:searchCode phrase="dkcclphrase.lem">"matematisk analyse"</bibdk:searchCode>
+                <bibdk:display>matematisk analyse</bibdk:display>
+              </bibdk:subject>
+              <bibdk:subject className="link" punctuation=" ; ">
+                <bibdk:searchCode phrase="dkcclphrase.lem">"tal"</bibdk:searchCode>
+                <bibdk:display>tal</bibdk:display>
+              </bibdk:subject>
+              <bibdk:subject className="link" punctuation=" ; ">
+                <bibdk:searchCode phrase="dkcclphrase.lem">"virtuel logik"</bibdk:searchCode>
+                <bibdk:display>virtuel logik</bibdk:display>
+              </bibdk:subject>
+            </bibdk:subjects>
+          </bibdk:description>
+        </bibdk:work>
+        <bibdk:adminData>
+          <bibdk:pid>870971-basis:34903727</bibdk:pid>
+          <bibdk:hostPublicationID>20047704</bibdk:hostPublicationID>
+          <bibdk:typeGroup>article</bibdk:typeGroup>
+          <bibdk:orsOrderMaterialType>journal</bibdk:orsOrderMaterialType>
+        </bibdk:adminData>
+        <bibdk:main>
+          <bibdk:details>
+            <bibdk:seriesTitle>
+              <bibdk:series className="link" punctuation=" ; ">
+                <bibdk:searchCode phrase="phrase.titleSeries">"Rediscovering/reinventing Heinz von Foerster"</bibdk:searchCode>
+                <bibdk:display>Rediscovering/reinventing Heinz von Foerster</bibdk:display>
+              </bibdk:series>
+            </bibdk:seriesTitle>
+            <bibdk:references>Med litteraturhenvisninger</bibdk:references>
+          </bibdk:details>
+          <bibdk:publicationDetails>
+            <bibdk:hostPublication punctuation=", ">Cybernetics &amp; human knowing, Vol. 18, nr. 3/4 (2011)</bibdk:hostPublication>
+            <bibdk:format>S. 187-196, illustreret</bibdk:format>
+          </bibdk:publicationDetails>
+          <bibdk:type punctuation=" + ">Tidsskriftsartikel</bibdk:type>
+        </bibdk:main>
+      </bibdk:manifestation>
+</bibdk:workDisplay>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibdk:workDisplay xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat">
+      <bibdk:manifestation>
+        <bibdk:work>
+          <bibdk:title>
+            <bibdk:titleFull>Matematik i Måneby</bibdk:titleFull>
+            <bibdk:titleSpecific>Matematik i Måneby</bibdk:titleSpecific>
+          </bibdk:title>
+          <bibdk:creators>
+            <bibdk:creator className="link">
+              <bibdk:searchCode phrase="phrase.creator">"Bitfrost Interactive"</bibdk:searchCode>
+              <bibdk:display>Bitfrost Interactive</bibdk:display>
+            </bibdk:creator>
+          </bibdk:creators>
+          <bibdk:description>
+            <bibdk:subjects>
+              <bibdk:subject className="link" punctuation=" ; ">
+                <bibdk:searchCode phrase="dkcclphrase.lem">"matematik"</bibdk:searchCode>
+                <bibdk:display>matematik</bibdk:display>
+              </bibdk:subject>
+            </bibdk:subjects>
+            <bibdk:abstract>
+              <bibdk:abstractElement>Undervisning. Matematikprogram i adventurespilgenren. Med spilleren som konstruktør (beregner) skal der bygges en by i et goldt månelandskab. Opgaverne går fra at bygge store villaer til at beregne mængden af mad til håndværkerne</bibdk:abstractElement>
+            </bibdk:abstract>
+          </bibdk:description>
+        </bibdk:work>
+        <bibdk:adminData>
+          <bibdk:pid>870970-basis:28735596</bibdk:pid>
+          <bibdk:requestMethod>link</bibdk:requestMethod>
+          <bibdk:restrictedUse>restrictedAccess</bibdk:restrictedUse>
+          <bibdk:typeGroup>game</bibdk:typeGroup>
+          <bibdk:typeGroup>online</bibdk:typeGroup>
+        </bibdk:adminData>
+        <bibdk:main>
+          <bibdk:details>
+            <bibdk:abstract>
+              <bibdk:abstractElement>Undervisning. Matematikprogram i adventurespilgenren. Med spilleren som konstruktør (beregner) skal der bygges en by i et goldt månelandskab. Opgaverne går fra at bygge store villaer til at beregne mængden af mad til håndværkerne</bibdk:abstractElement>
+            </bibdk:abstract>
+            <bibdk:contributors>udarbejdet af Bitfrost Interactive I/S</bibdk:contributors>
+            <bibdk:forms>
+              <bibdk:formSubject className="link">
+                <bibdk:searchCode phrase="dkcclphrase.lem">"computerspil"</bibdk:searchCode>
+                <bibdk:display>computerspil</bibdk:display>
+              </bibdk:formSubject>
+              <bibdk:formSubject className="link">
+                <bibdk:searchCode phrase="dkcclphrase.lem">"undervisningsmaterialer"</bibdk:searchCode>
+                <bibdk:display>undervisningsmaterialer</bibdk:display>
+              </bibdk:formSubject>
+            </bibdk:forms>
+            <bibdk:audienceSubjects>
+              <bibdk:audienceSubject className="link" punctuation=" ; ">
+                <bibdk:searchCode phrase="dkcclphrase.lnb">"for 3. klasse"</bibdk:searchCode>
+                <bibdk:display>for 3. klasse</bibdk:display>
+              </bibdk:audienceSubject>
+              <bibdk:audienceSubject className="link" punctuation=" ; ">
+                <bibdk:searchCode phrase="dkcclphrase.lnb">"for 4. klasse"</bibdk:searchCode>
+                <bibdk:display>for 4. klasse</bibdk:display>
+              </bibdk:audienceSubject>
+              <bibdk:audienceSubject className="link" punctuation=" ; ">
+                <bibdk:searchCode phrase="dkcclphrase.lnb">"for 5. klasse"</bibdk:searchCode>
+                <bibdk:display>for 5. klasse</bibdk:display>
+              </bibdk:audienceSubject>
+              <bibdk:audienceSubject className="link" punctuation=" ; ">
+                <bibdk:searchCode phrase="dkcclphrase.lnb">"for 6. klasse"</bibdk:searchCode>
+                <bibdk:display>for 6. klasse</bibdk:display>
+              </bibdk:audienceSubject>
+            </bibdk:audienceSubjects>
+            <bibdk:audienceAge>
+              <bibdk:audienceAgeElement>Fra 9 år</bibdk:audienceAgeElement>
+            </bibdk:audienceAge>
+            <bibdk:usedLanguage>På dansk, norsk og svensk</bibdk:usedLanguage>
+            <bibdk:descriptionNote>Beskrivelsen baseret på det fysiske forlæg</bibdk:descriptionNote>
+            <bibdk:accessInformation>
+              <bibdk:accessUrl>http://downlaan.spilogmedier.dk/product/lp26063/</bibdk:accessUrl>
+            </bibdk:accessInformation>
+          </bibdk:details>
+          <bibdk:publicationDetails>
+            <bibdk:edition punctuation=", ">Ver. 1.03</bibdk:edition>
+            <bibdk:publisher punctuation=", ">Bitfrost</bibdk:publisher>
+            <bibdk:publicationYear>2011</bibdk:publicationYear>
+          </bibdk:publicationDetails>
+          <bibdk:type punctuation=" + ">Pc-spil (net)</bibdk:type>
+        </bibdk:main>
+      </bibdk:manifestation>
+</bibdk:workDisplay>

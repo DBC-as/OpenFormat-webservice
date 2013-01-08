@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibdk:workDisplay xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat">
+      <bibdk:manifestation>
+        <bibdk:work>
+          <bibdk:title>
+            <bibdk:titleFull>Klassikeren: St. St. Blicher</bibdk:titleFull>
+            <bibdk:titleSpecific>Klassikeren: St. St. Blicher</bibdk:titleSpecific>
+          </bibdk:title>
+        </bibdk:work>
+        <bibdk:adminData>
+          <bibdk:pid>150005-artikel:59170</bibdk:pid>
+          <bibdk:requestMethod>link</bibdk:requestMethod>
+          <bibdk:typeGroup>article</bibdk:typeGroup>
+        </bibdk:adminData>
+        <bibdk:main>
+          <bibdk:details>
+            <bibdk:genre>nonfiktion</bibdk:genre>
+            <bibdk:accessInformation>
+              <bibdk:accessUrl>http://www.litteratursiden.dk/?q=node/59170</bibdk:accessUrl>
+            </bibdk:accessInformation>
+          </bibdk:details>
+          <bibdk:publicationDetails>
+            <bibdk:publisher punctuation=", ">Litteratursiden</bibdk:publisher>
+            <bibdk:publicationYear>2001</bibdk:publicationYear>
+          </bibdk:publicationDetails>
+          <bibdk:type punctuation=" + ">Artikel</bibdk:type>
+        </bibdk:main>
+      </bibdk:manifestation>
+</bibdk:workDisplay>

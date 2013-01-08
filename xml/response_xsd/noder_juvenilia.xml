@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibdk:workDisplay xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat">
+      <bibdk:manifestation>
+        <bibdk:work>
+          <bibdk:title>
+            <bibdk:titleFull>Juvenilia et addenda</bibdk:titleFull>
+            <bibdk:titleSpecific>Juvenilia et addenda (Carl Nielsen Udgaven)</bibdk:titleSpecific>
+          </bibdk:title>
+          <bibdk:creators>
+            <bibdk:creator className="link">
+              <bibdk:searchCode phrase="phrase.creator">"Carl Nielsen (f. 1865)"</bibdk:searchCode>
+              <bibdk:display>Carl Nielsen (f. 1865)</bibdk:display>
+            </bibdk:creator>
+          </bibdk:creators>
+          <bibdk:description>
+            <bibdk:subjects>
+              <bibdk:subject className="link" punctuation=" ; ">
+                <bibdk:searchCode phrase="dkcclphrase.lem">"Danmark"</bibdk:searchCode>
+                <bibdk:display>Danmark</bibdk:display>
+              </bibdk:subject>
+              <bibdk:subject className="link" punctuation=" ; ">
+                <bibdk:searchCode phrase="dkcclphrase.lem">"instrumental"</bibdk:searchCode>
+                <bibdk:display>instrumental</bibdk:display>
+              </bibdk:subject>
+              <bibdk:subject className="link" punctuation=" ; ">
+                <bibdk:searchCode phrase="dkcclphrase.lem">"kammermusik"</bibdk:searchCode>
+                <bibdk:display>kammermusik</bibdk:display>
+              </bibdk:subject>
+              <bibdk:subject className="link" punctuation=" ; ">
+                <bibdk:searchCode phrase="dkcclphrase.lem">"klaver"</bibdk:searchCode>
+                <bibdk:display>klaver</bibdk:display>
+              </bibdk:subject>
+              <bibdk:subject className="link" punctuation=" ; ">
+                <bibdk:searchCode phrase="dkcclphrase.lem">"neoklassik"</bibdk:searchCode>
+                <bibdk:display>neoklassik</bibdk:display>
+              </bibdk:subject>
+              <bibdk:subject className="link" punctuation=" ; ">
+                <bibdk:searchCode phrase="dkcclphrase.lem">"orgel"</bibdk:searchCode>
+                <bibdk:display>orgel</bibdk:display>
+              </bibdk:subject>
+              <bibdk:subject className="link" punctuation=" ; ">
+                <bibdk:searchCode phrase="dkcclphrase.lem">"senromantik"</bibdk:searchCode>
+                <bibdk:display>senromantik</bibdk:display>
+              </bibdk:subject>
+              <bibdk:subject className="link" punctuation=" ; ">
+                <bibdk:searchCode phrase="dkcclphrase.lem">"strygekvartet"</bibdk:searchCode>
+                <bibdk:display>strygekvartet</bibdk:display>
+              </bibdk:subject>
+              <bibdk:subject className="link" punctuation=" ; ">
+                <bibdk:searchCode phrase="dkcclphrase.lem">"1880-1889"</bibdk:searchCode>
+                <bibdk:display>1880-1889</bibdk:display>
+              </bibdk:subject>
+              <bibdk:subject className="link" punctuation=" ; ">
+                <bibdk:searchCode phrase="dkcclphrase.lem">"1890-1899"</bibdk:searchCode>
+                <bibdk:display>1890-1899</bibdk:display>
+              </bibdk:subject>
+              <bibdk:subject className="link" punctuation=" ; ">
+                <bibdk:searchCode phrase="dkcclphrase.lem">"1900-1909"</bibdk:searchCode>
+                <bibdk:display>1900-1909</bibdk:display>
+              </bibdk:subject>
+              <bibdk:subject className="link" punctuation=" ; ">
+                <bibdk:searchCode phrase="dkcclphrase.lem">"1910-1919"</bibdk:searchCode>
+                <bibdk:display>1910-1919</bibdk:display>
+              </bibdk:subject>
+              <bibdk:subject className="link" punctuation=" ; ">
+                <bibdk:searchCode phrase="dkcclphrase.lem">"1920-1929"</bibdk:searchCode>
+                <bibdk:display>1920-1929</bibdk:display>
+              </bibdk:subject>
+              <bibdk:subject className="link" punctuation=" ; ">
+                <bibdk:searchCode phrase="dkcclphrase.lem">"1930-1939"</bibdk:searchCode>
+                <bibdk:display>1930-1939</bibdk:display>
+              </bibdk:subject>
+            </bibdk:subjects>
+          </bibdk:description>
+        </bibdk:work>
+        <bibdk:adminData>
+          <bibdk:pid>870970-basis:27833888</bibdk:pid>
+          <bibdk:typeGroup>sheetmusic</bibdk:typeGroup>
+          <bibdk:orsOrderMaterialType>monograph</bibdk:orsOrderMaterialType>
+        </bibdk:adminData>
+        <bibdk:main>
+          <bibdk:content>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Polka for violin, A-dur, FS 1 (CNU add. 1)</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Duet for 2 violiner, A-dur, FS 3e (CNU add. 2)</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Romance for violin og klaver, G-dur, CNU add. 3</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Romance for violin og klaver, D-dur, 1883 (CNU add. 4)</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Sonate for violin og klaver, G-dur, FS 3b (CNU add. 5)</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Fantasistykke for klarinet og klaver, 1881 (CNU add. 6)</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Trio for violin, violoncel og klaver, G-dur, FS 3i (CNU add. 7)</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Kvartet for 2 violiner, viola og violoncel, d-mol, FS 3d (CNU add. 8)</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Kvartetsatser for 2 violiner, viola og violoncel, FS 3c (Allegro, F-dur, CNU add. 9)</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Kvartetsatser for 2 violiner, viola og violoncel, FS 3c (Allegro molto, F-dur, CNU add. 10)</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Kvartetsatser for 2 violiner, viola og violoncel, FS 3c (Allegro moderato, F-dur, CNU add. 11)</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Kvartetsatser for 2 violiner, viola og violoncel, FS 3c (Allegro, g-mol, CNU add. 12)</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Kvartetsatser for 2 violiner, viola og violoncel, FS 3c (Andante, fis-mol, CNU add. 13)</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Kvartetsatser for 2 violiner, viola og violoncel, FS 3c (Menuet, B-dur, CNU add. 14)</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Trauermarsch for 2 violiner, viola og violoncel, CNU add. 15</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>To karakterstykker for klaver, FS 3f (CNU add. 16)</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Norsk folkedans for klaver, CNU add. 17</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Andante for klaver, F-dur, CNU add. 18</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Klaverstykke, Es-dur, CNU add. 19</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Bondedans for klaver, F-dur, CNU add. 20</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Allegretto for klaver, g-mol, CNU add. 21</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Klaverstykke, B-dur, CNU add. 22</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Menuet for klaver, A-dur, CNU add. 23</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Klaverstykke, A-dur, CNU add. 24</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Andantino for klaver, F-dur, CNU add. 25</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Klaverstykke, C-dur, CNU add. 26</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Et lille klaverstykke, C-dur, CNU add. 27</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Kantate til mindefesten for P.S. Krøyer, CNU add. 28</bibdk:analyticTitleMain>
+                <bibdk:analyticRestOfTitle> : for recitation, sopran, baryton, mandskor og klaver</bibdk:analyticRestOfTitle>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Snefrid (Forspil)</bibdk:analyticTitleMain>
+                <bibdk:analyticRestOfTitle> : for klaver (CNU add. 29)</bibdk:analyticRestOfTitle>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Snefrid</bibdk:analyticTitleMain>
+                <bibdk:analyticRestOfTitle> : for recitation og klaverkvintet (CNU add. 30)</bibdk:analyticRestOfTitle>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Hr. Oluf han rider (Elverdans) :</bibdk:analyticTitleMain>
+                <bibdk:analyticRestOfTitle>for klaver (CNU add. 31)</bibdk:analyticRestOfTitle>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Hagbarth og Signe (Ternernes dans) :</bibdk:analyticTitleMain>
+                <bibdk:analyticRestOfTitle>for klaver (CNU add. 32)</bibdk:analyticRestOfTitle>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Canto serioso</bibdk:analyticTitleMain>
+                <bibdk:analyticRestOfTitle> : for violoncel og klaver, CNU add. 33</bibdk:analyticRestOfTitle>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Aladdin (uddrag) (</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Kinesisk dans</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Fangernes dans</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Hindu-dabs</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Negerdans</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Dans og kor</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Morgentågernes dans) :</bibdk:analyticTitleMain>
+                <bibdk:analyticRestOfTitle>for klaver (CNU add. 34)</bibdk:analyticRestOfTitle>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Moderen (uddrag) (</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Tågen letter</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Fjerde billede (Forspil)</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Menuet</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Syvende billede (Forspil)</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>March) :</bibdk:analyticTitleMain>
+                <bibdk:analyticRestOfTitle>for klaver (CNU add. 35)</bibdk:analyticRestOfTitle>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Der er et yndigt land</bibdk:analyticTitleMain>
+                <bibdk:analyticRestOfTitle> : for 2 trompeter, 2 basuner og tuba, CNU add. 36</bibdk:analyticRestOfTitle>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Kantate ved Polyteknisk Læreanstalts 100 års jubilæum</bibdk:analyticTitleMain>
+                <bibdk:analyticRestOfTitle> : for recitation, mandskor, strygere og klaver (CNU add. 37)</bibdk:analyticRestOfTitle>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Fuga for 2 stemmer, CNU add. 38</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Fuga for 2 stemmer, CNU add. 39</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Fuga for 3 stemmer, CNU add. 40</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Fuga for 3 stemmer, CNU add. 41</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Fuga for 3 stemmer, CNU add. 42</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Fuga for 3 stemmer, CNU add. 43</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Fuga for 3 stemmer, CNU add. 44</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Grüss, CNU add. 45</bibdk:analyticTitleMain>
+                <bibdk:analyticRestOfTitle> : for violin</bibdk:analyticRestOfTitle>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Gade, CNU add. 46</bibdk:analyticTitleMain>
+                <bibdk:analyticRestOfTitle> : for klaver</bibdk:analyticRestOfTitle>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Danmark!, CNU add. 47</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Velkommen i Della Grazia 20, lille Marie!, CNU add. 48</bibdk:analyticTitleMain>
+                <bibdk:analyticRestOfTitle> : for klaver</bibdk:analyticRestOfTitle>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticContributor>Carl Nielsen (f. 1865)</bibdk:analyticContributor>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Hyrdedrengens melodi, CNU add. 49</bibdk:analyticTitleMain>
+                <bibdk:analyticRestOfTitle> : for obo</bibdk:analyticRestOfTitle>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+          </bibdk:content>
+          <bibdk:details>
+            <bibdk:contributors>udgivet af Lisbeth Ahlgren Jensen, Lisbeth Larsen</bibdk:contributors>
+            <bibdk:format>1 \partitur\, lvi, 330 sider</bibdk:format>
+            <bibdk:seriesTitle>
+              <bibdk:series className="link" punctuation=" ; ">
+                <bibdk:searchCode phrase="phrase.titleSeries">"Værker / Carl Nielsen. Serie IV, Juvenilia et addenda"</bibdk:searchCode>
+                <bibdk:display>Værker / Carl Nielsen. Serie IV, Juvenilia et addenda</bibdk:display>
+              </bibdk:series>
+              <bibdk:seriesNumber>bind 1</bibdk:seriesNumber>
+            </bibdk:seriesTitle>
+            <bibdk:shelf>
+              <bibdk:shelfClassification className="link">
+                <bibdk:searchCode word="dkcclterm.dk">78.42</bibdk:searchCode>
+                <bibdk:display>78.42</bibdk:display>
+              </bibdk:shelfClassification>
+            </bibdk:shelf>
+            <bibdk:usedLanguage>Med forord på dansk og engelsk og revisionsberetning på engelsk</bibdk:usedLanguage>
+            <bibdk:references>Litteraturhenvisninger ; Kildehenvisninger</bibdk:references>
+            <bibdk:identifiersISBN>
+              <bibdk:identifier>978-87-598-1824-4</bibdk:identifier>
+            </bibdk:identifiersISBN>
+            <bibdk:identifiersISMN>
+              <bibdk:identifier>M-66134-212-0</bibdk:identifier>
+            </bibdk:identifiersISMN>
+            <bibdk:identifiers>
+              <bibdk:identifier>CN 00052</bibdk:identifier>
+            </bibdk:identifiers>
+          </bibdk:details>
+          <bibdk:publicationDetails>
+            <bibdk:publisher punctuation=", ">Carl Nielsen Udgaven, Det Kongelige Bibliotek</bibdk:publisher>
+            <bibdk:publisher punctuation=", ">Wilhelm Hansen</bibdk:publisher>
+            <bibdk:publicationYear>2009</bibdk:publicationYear>
+          </bibdk:publicationDetails>
+          <bibdk:type punctuation=" + ">Node</bibdk:type>
+          <bibdk:distinction>Carl Nielsen Udgaven</bibdk:distinction>
+        </bibdk:main>
+      </bibdk:manifestation>
+</bibdk:workDisplay>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibdk:workDisplay xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat">
+      <bibdk:manifestation>
+        <bibdk:work>
+          <bibdk:title>
+            <bibdk:titleFull>Laust Sonne</bibdk:titleFull>
+            <bibdk:titleSpecific>Laust Sonne</bibdk:titleSpecific>
+          </bibdk:title>
+          <bibdk:creators>
+            <bibdk:creator className="link">
+              <bibdk:searchCode phrase="phrase.creator">"Laust Sonne"</bibdk:searchCode>
+              <bibdk:display>Laust Sonne</bibdk:display>
+            </bibdk:creator>
+          </bibdk:creators>
+          <bibdk:description>
+            <bibdk:subjects>
+              <bibdk:subject className="link" punctuation=" ; ">
+                <bibdk:searchCode phrase="dkcclphrase.lem">"Danmark"</bibdk:searchCode>
+                <bibdk:display>Danmark</bibdk:display>
+              </bibdk:subject>
+              <bibdk:subject className="link" punctuation=" ; ">
+                <bibdk:searchCode phrase="dkcclphrase.lem">"electronica"</bibdk:searchCode>
+                <bibdk:display>electronica</bibdk:display>
+              </bibdk:subject>
+              <bibdk:subject className="link" punctuation=" ; ">
+                <bibdk:searchCode phrase="dkcclphrase.lem">"pop"</bibdk:searchCode>
+                <bibdk:display>pop</bibdk:display>
+              </bibdk:subject>
+              <bibdk:subject className="link" punctuation=" ; ">
+                <bibdk:searchCode phrase="dkcclphrase.lem">"rock"</bibdk:searchCode>
+                <bibdk:display>rock</bibdk:display>
+              </bibdk:subject>
+              <bibdk:subject className="link" punctuation=" ; ">
+                <bibdk:searchCode phrase="dkcclphrase.lem">"vokal"</bibdk:searchCode>
+                <bibdk:display>vokal</bibdk:display>
+              </bibdk:subject>
+              <bibdk:subject className="link" punctuation=" ; ">
+                <bibdk:searchCode phrase="dkcclphrase.lem">"2010-2019"</bibdk:searchCode>
+                <bibdk:display>2010-2019</bibdk:display>
+              </bibdk:subject>
+            </bibdk:subjects>
+          </bibdk:description>
+        </bibdk:work>
+        <bibdk:adminData>
+          <bibdk:pid>870970-basis:29213836</bibdk:pid>
+          <bibdk:holdbackEndDate>2012-05-23</bibdk:holdbackEndDate>
+          <bibdk:typeGroup>music</bibdk:typeGroup>
+          <bibdk:orsOrderMaterialType>music</bibdk:orsOrderMaterialType>
+        </bibdk:adminData>
+        <bibdk:main>
+          <bibdk:content>
+            <bibdk:analyticContent>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Lost my heart</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Disco heart</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Vertigo</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Taking it back</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Can you keep a secret</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Spell on you</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>What about us</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Call me up</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Walk out the door</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>How can I</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Chills</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticTitle>
+                <bibdk:analyticTitleMain>Like a chemical</bibdk:analyticTitleMain>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+            <bibdk:analyticContent>
+              <bibdk:analyticTitle>
+              </bibdk:analyticTitle>
+            </bibdk:analyticContent>
+          </bibdk:content>
+          <bibdk:details>
+            <bibdk:contributors>Laust Sonne with Kristoffer Sonne m. fl. ; produced by Kristoffer Sonne, Laust Sonne, Nikolaj Torp, Dyre Gormsen m. fl.</bibdk:contributors>
+            <bibdk:format>1 cd + 1 bilag</bibdk:format>
+            <bibdk:shelf>
+              <bibdk:shelfMusic>Rock</bibdk:shelfMusic>
+            </bibdk:shelf>
+            <bibdk:identifiers>
+              <bibdk:identifier>We:Made EMI EMI 9558652</bibdk:identifier>
+            </bibdk:identifiers>
+          </bibdk:details>
+          <bibdk:publicationDetails>
+            <bibdk:edition punctuation=", ">2012 version</bibdk:edition>
+            <bibdk:publisher punctuation=", ">EMI Music Denmark</bibdk:publisher>
+            <bibdk:publicationYear>2012</bibdk:publicationYear>
+          </bibdk:publicationDetails>
+          <bibdk:type punctuation=" + ">Cd (musik)</bibdk:type>
+        </bibdk:main>
+      </bibdk:manifestation>
+</bibdk:workDisplay>

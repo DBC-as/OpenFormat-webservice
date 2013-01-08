@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibdk:workDisplay xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat">
+      <bibdk:manifestation>
+        <bibdk:work>
+          <bibdk:title>
+            <bibdk:titleFull>Østersøen (Havret)</bibdk:titleFull>
+            <bibdk:titleSpecific>Østersøen (Havret)</bibdk:titleSpecific>
+          </bibdk:title>
+          <bibdk:description>
+            <bibdk:subjects>
+              <bibdk:subject className="link" punctuation=" ; ">
+                <bibdk:searchCode phrase="dkcclphrase.lem">"Europa"</bibdk:searchCode>
+                <bibdk:display>Europa</bibdk:display>
+              </bibdk:subject>
+              <bibdk:subject className="link" punctuation=" ; ">
+                <bibdk:searchCode phrase="dkcclphrase.lem">"Geografi og historie"</bibdk:searchCode>
+                <bibdk:display>Geografi og historie</bibdk:display>
+              </bibdk:subject>
+              <bibdk:subject className="link" punctuation=" ; ">
+                <bibdk:searchCode phrase="dkcclphrase.lem">"Østersøen"</bibdk:searchCode>
+                <bibdk:display>Østersøen</bibdk:display>
+              </bibdk:subject>
+              <bibdk:subject className="link" punctuation=" ; ">
+                <bibdk:searchCode phrase="dkcclphrase.lem">"Østersøen Havret"</bibdk:searchCode>
+                <bibdk:display>Østersøen (Havret)</bibdk:display>
+              </bibdk:subject>
+            </bibdk:subjects>
+            <bibdk:abstract>
+              <bibdk:abstractElement>Territorialfarvande og grænsedragninger er reguleret af aftaler mellem kystlandene. Mellem Sverige og Danmark (herunder Bornholm) er der aftalt 3 sømil åbent hav i midten; det betyder, at reglerne om ...</bibdk:abstractElement>
+            </bibdk:abstract>
+          </bibdk:description>
+        </bibdk:work>
+        <bibdk:adminData>
+          <bibdk:pid>150012-leksikon:185156</bibdk:pid>
+          <bibdk:requestMethod>link</bibdk:requestMethod>
+          <bibdk:typeGroup>article</bibdk:typeGroup>
+        </bibdk:adminData>
+        <bibdk:main>
+          <bibdk:details>
+            <bibdk:abstract>
+              <bibdk:abstractElement>Territorialfarvande og grænsedragninger er reguleret af aftaler mellem kystlandene. Mellem Sverige og Danmark (herunder Bornholm) er der aftalt 3 sømil åbent hav i midten; det betyder, at reglerne om ...</bibdk:abstractElement>
+            </bibdk:abstract>
+            <bibdk:alternativeTitle>
+              <bibdk:alternativeTitleElement>Den Store Danske - Gyldendals åbne encyklopædi</bibdk:alternativeTitleElement>
+            </bibdk:alternativeTitle>
+            <bibdk:genre>leksikonartikel</bibdk:genre>
+            <bibdk:descriptionNote>Siden opdateret: 2011-03-04</bibdk:descriptionNote>
+            <bibdk:accessInformation>
+              <bibdk:accessUrl>http://www.denstoredanske.dk/Geografi_og_historie/Europa/Østersøen/Østersøen_(Havret)</bibdk:accessUrl>
+            </bibdk:accessInformation>
+          </bibdk:details>
+          <bibdk:publicationDetails>
+            <bibdk:publisher punctuation=", ">Gyldendal</bibdk:publisher>
+            <bibdk:publicationYear>2011</bibdk:publicationYear>
+          </bibdk:publicationDetails>
+          <bibdk:type punctuation=" + ">Artikel</bibdk:type>
+        </bibdk:main>
+      </bibdk:manifestation>
+</bibdk:workDisplay>
