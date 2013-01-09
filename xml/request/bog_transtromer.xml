@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+              <dkabm:record>
+                <ac:identifier>28739877|870970</ac:identifier>
+                <dc:identifier xsi:type="dkdcplus:ISBN">9788763816915</dc:identifier>
+                <ac:source>Bibliotekskatalog</ac:source>
+                <dc:title>Samlede Tranströmer</dc:title>
+                <dc:title xsi:type="dkdcplus:full">Samlede Tranströmer</dc:title>
+                <dc:creator xsi:type="dkdcplus:aut">Tomas Tranströmer</dc:creator>
+                <dc:creator xsi:type="oss:sort">Tranströmer, Tomas</dc:creator>
+                <dc:subject xsi:type="dkdcplus:DK5-Text">Skønlitteratur</dc:subject>
+                <dc:subject xsi:type="dkdcplus:DBCS">eksistens</dc:subject>
+                <dc:subject xsi:type="dkdcplus:DBCS">erindring</dc:subject>
+                <dc:subject xsi:type="dkdcplus:genre">fiktion</dc:subject>
+                <dc:subject xsi:type="dkdcplus:DBCS">identitet</dc:subject>
+                <dc:subject xsi:type="dkdcplus:DBCS">naturen</dc:subject>
+                <dc:subject xsi:type="dkdcplus:DK5">sk</dc:subject>
+                <dc:description>Indhold 17 digte (1954) Præludium Efterårsskærgård Storm Aften - morgen Ostinato Fem strofer til Thoreau Gogol Skipperhistorie Strofe og modstrofe Oprørt meditation Stenene Sammenhæng Morgen og indsejling I den brusende stævn er der hvile Døgnkæntring Sang Elegi Epilog Hemmeligheder på vejen (1958) Svenske huse, ensomt beliggende Ham der vågnede ved sang over tagene Vejrbillede De fire temperamenter Caprichos Siesta Izmir klokken tre Hemmeligheder på vejen Spor Kyrie En mand fra Benin Balakirevs drøm (1905) Efter anfald Rejsens formler Den halvfærdige himmel (1962) Parret Træet og himlen Ansigt mod ansigt Klangen Gennem skoven November med nuancer af ædelt pelsværk Rejsen C-dur Dagtø Da vi genså øerne Fra bjerget Espresso Paladset Syros I Nildeltaet En svømmende mørk skikkelse Lamento Allegro Den halvfærdige himmel Nocturne En vinternat Klange og spor (1966) Portræt med kommentar Lissabon Af en afrikansk dagbog (1963) Toppe Hommages Vinterens formler Morgenfugle Om historien Ensomhed I arbejdets udkanter Efter nogens død Oklahoma Sommerslette Skybrud over indlandet Under tryk Åbne og lukkede rum En kunstner i nord I det fri Langsom musik Mørkesyn (1970) Navnet Nogle minutter Pusterum juli Med elven Udkantsområde Trafik Nattevagt Det åbne vindue Præludier I-III Oprejst Bogskabet Stier (1973) Til venner bag en grænse Fra snesmeltningen -66 Skitse i oktober Længere ind Posteringen Langs radien Jordgennemskuen Decemberaften '72 Den spredte menighed Sene maj Elegi Østersøer (1974) Sandhedsbarrieren (1978) Citoyens Fodgængerovergangen Lysningen Begyndelsen på den sene efterårsnats roman Til Mats og Laila Fra vinteren 1947 Schubertiana Galleriet Minusgrader Båden - landsbyen De sorte bjerge Hjemad Efter en lang tørke Skovparti Funchal Det vilde torv (1983) Kort pause i orgelkoncerten Fra marts '79 Erindringerne ser mig Vinterens blik Stationen Svar på brev Islandsk orkan De blå anemoner Det blå hus Satellitøjne Nittenhundredeogfirs Sorte postkort Ildskrift Mange skridt Postludium Drømmelaboratorium Kodeks Carillon Molokai For levende og døde (1989) Den glemte kaptajn Seks vintre Nattergalen i Badelunda Alkæisk Berceuse Gader i Shanghai Dybt i Europa Flyveblad Husets indre er uendeligt Vermeer Romanske buer Epigram Kvindeportræt - 1800-tallet Middelaldermotiv Air mail Madrigal Guldhveps Sørgegondolen (1996) April og stilhed Usikkerhedens rige Natbogsblad Sørgegondol nr. 2 Landskab med sole November i det forhenværende DDR Fra juli 90 Gøgen Tre strofer Som at være barn To byer Lyset strømmer ind Natlig rejse Haikudigte Fra øen 1860 Tavshed Midvinter En skitse fra 1844 Den store gåde (2004) Ørneklippen Facader November Sne falder Underskrifter Haikudigte I-XI Fængsel (1959) Erindringerne ser mig (1993) Erindringerne Museer Folkeskole Krigen Bibliotek Realskole Eksorcisme Latin</dc:description>
+                <dcterms:audience>børnematerialer</dcterms:audience>
+                <dcterms:audience>voksenmaterialer</dcterms:audience>
+                <dc:publisher>Rosinante</dc:publisher>
+                <dc:contributor xsi:type="dkdcplus:trl">Peter Nielsen (f. 1948)</dc:contributor>
+                <dc:contributor xsi:type="dkdcplus:oth">Karsten Sand Iversen</dc:contributor>
+                <dc:date>2011</dc:date>
+                <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+                <dcterms:extent>330 sider</dcterms:extent>
+                <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                <dc:language>Dansk</dc:language>
+              </dkabm:record>
+              <marcx:collection>
+                <marcx:record format="danMARC2" type="Bibliographic">
+                  <marcx:leader>000000000000000000000000</marcx:leader>
+                  <marcx:datafield ind1="0" ind2="0" tag="001">
+                    <marcx:subfield code="a">28739877</marcx:subfield>
+                    <marcx:subfield code="b">870970</marcx:subfield>
+                    <marcx:subfield code="c">20111124103614</marcx:subfield>
+                    <marcx:subfield code="d">20110412</marcx:subfield>
+                    <marcx:subfield code="f">a</marcx:subfield>
+                    <marcx:subfield code="t">FAUST</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="004">
+                    <marcx:subfield code="r">n</marcx:subfield>
+                    <marcx:subfield code="a">e</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="008">
+                    <marcx:subfield code="t">s</marcx:subfield>
+                    <marcx:subfield code="u">r</marcx:subfield>
+                    <marcx:subfield code="a">2011</marcx:subfield>
+                    <marcx:subfield code="z">2011</marcx:subfield>
+                    <marcx:subfield code="b">dk</marcx:subfield>
+                    <marcx:subfield code="d">x</marcx:subfield>
+                    <marcx:subfield code="j">p</marcx:subfield>
+                    <marcx:subfield code="l">dan</marcx:subfield>
+                    <marcx:subfield code="v">0</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="009">
+                    <marcx:subfield code="a">a</marcx:subfield>
+                    <marcx:subfield code="g">xx</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="021">
+                    <marcx:subfield code="e">9788763816915</marcx:subfield>
+                    <marcx:subfield code="c">hf.</marcx:subfield>
+                    <marcx:subfield code="d">kr. 199,95</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="032">
+                    <marcx:subfield code="a">DBF201120</marcx:subfield>
+                    <marcx:subfield code="x">BKM201120</marcx:subfield>
+                    <marcx:subfield code="x">DAT201149</marcx:subfield>
+                    <marcx:subfield code="a">DBF</marcx:subfield>
+                    <marcx:subfield code="x">BKM</marcx:subfield>
+                    <marcx:subfield code="x">DAT</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="100">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="a">Tranströmer</marcx:subfield>
+                    <marcx:subfield code="h">Tomas</marcx:subfield>
+                    <marcx:subfield code="4">aut</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="245">
+                    <marcx:subfield code="a">Samlede Tranströmer</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="260">
+                    <marcx:subfield code="a">Kbh.</marcx:subfield>
+                    <marcx:subfield code="b">Rosinante</marcx:subfield>
+                    <marcx:subfield code="c">2011</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="300">
+                    <marcx:subfield code="a">330 sider</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="521">
+                    <marcx:subfield code="a">1. oplag</marcx:subfield>
+                    <marcx:subfield code="c">2011</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="521">
+                    <marcx:subfield code="a">2. oplag</marcx:subfield>
+                    <marcx:subfield code="c">2011</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="521">
+                    <marcx:subfield code="b">3. oplag</marcx:subfield>
+                    <marcx:subfield code="c">2011</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="530">
+                    <marcx:subfield code="i">Indhold</marcx:subfield>
+                    <marcx:subfield code="x">17 digte (1954)</marcx:subfield>
+                    <marcx:subfield code="t">Præludium</marcx:subfield>
+                    <marcx:subfield code="x">Efterårsskærgård</marcx:subfield>
+                    <marcx:subfield code="t">Storm</marcx:subfield>
+                    <marcx:subfield code="t">Aften - morgen</marcx:subfield>
+                    <marcx:subfield code="t">Ostinato</marcx:subfield>
+                    <marcx:subfield code="t">Fem strofer til Thoreau</marcx:subfield>
+                    <marcx:subfield code="t">Gogol</marcx:subfield>
+                    <marcx:subfield code="t">Skipperhistorie</marcx:subfield>
+                    <marcx:subfield code="t">Strofe og modstrofe</marcx:subfield>
+                    <marcx:subfield code="t">Oprørt meditation</marcx:subfield>
+                    <marcx:subfield code="t">Stenene</marcx:subfield>
+                    <marcx:subfield code="t">Sammenhæng</marcx:subfield>
+                    <marcx:subfield code="t">Morgen og indsejling</marcx:subfield>
+                    <marcx:subfield code="t">I den brusende stævn er der hvile</marcx:subfield>
+                    <marcx:subfield code="t">Døgnkæntring</marcx:subfield>
+                    <marcx:subfield code="t">Sang</marcx:subfield>
+                    <marcx:subfield code="t">Elegi</marcx:subfield>
+                    <marcx:subfield code="t">Epilog</marcx:subfield>
+                    <marcx:subfield code="x">Hemmeligheder på vejen (1958)</marcx:subfield>
+                    <marcx:subfield code="t">Svenske huse, ensomt beliggende</marcx:subfield>
+                    <marcx:subfield code="t">Ham der vågnede ved sang over tagene</marcx:subfield>
+                    <marcx:subfield code="t">Vejrbillede</marcx:subfield>
+                    <marcx:subfield code="t">De ¤fire temperamenter</marcx:subfield>
+                    <marcx:subfield code="t">Caprichos</marcx:subfield>
+                    <marcx:subfield code="t">Siesta</marcx:subfield>
+                    <marcx:subfield code="t">Izmir klokken tre</marcx:subfield>
+                    <marcx:subfield code="t">Hemmeligheder på vejen</marcx:subfield>
+                    <marcx:subfield code="t">Spor</marcx:subfield>
+                    <marcx:subfield code="t">Kyrie</marcx:subfield>
+                    <marcx:subfield code="t">En ¤mand fra Benin</marcx:subfield>
+                    <marcx:subfield code="t">Balakirevs drøm (1905)</marcx:subfield>
+                    <marcx:subfield code="t">Efter anfald</marcx:subfield>
+                    <marcx:subfield code="t">Rejsens formler</marcx:subfield>
+                    <marcx:subfield code="x">Den ¤halvfærdige himmel (1962)</marcx:subfield>
+                    <marcx:subfield code="t">Parret</marcx:subfield>
+                    <marcx:subfield code="t">Træet og himlen</marcx:subfield>
+                    <marcx:subfield code="t">Ansigt mod ansigt</marcx:subfield>
+                    <marcx:subfield code="t">Klangen</marcx:subfield>
+                    <marcx:subfield code="t">Gennem skoven</marcx:subfield>
+                    <marcx:subfield code="t">November med nuancer af ædelt pelsværk</marcx:subfield>
+                    <marcx:subfield code="t">Rejsen</marcx:subfield>
+                    <marcx:subfield code="t">C-dur</marcx:subfield>
+                    <marcx:subfield code="t">Dagtø</marcx:subfield>
+                    <marcx:subfield code="t">Da vi genså øerne</marcx:subfield>
+                    <marcx:subfield code="t">Fra bjerget</marcx:subfield>
+                    <marcx:subfield code="t">Espresso</marcx:subfield>
+                    <marcx:subfield code="t">Paladset</marcx:subfield>
+                    <marcx:subfield code="t">Syros</marcx:subfield>
+                    <marcx:subfield code="t">I Nildeltaet</marcx:subfield>
+                    <marcx:subfield code="t">En ¤svømmende mørk skikkelse</marcx:subfield>
+                    <marcx:subfield code="t">Lamento</marcx:subfield>
+                    <marcx:subfield code="t">Allegro</marcx:subfield>
+                    <marcx:subfield code="t">Den ¤halvfærdige himmel</marcx:subfield>
+                    <marcx:subfield code="t">Nocturne</marcx:subfield>
+                    <marcx:subfield code="t">En ¤vinternat</marcx:subfield>
+                    <marcx:subfield code="x">Klange og spor (1966)</marcx:subfield>
+                    <marcx:subfield code="t">Portræt med kommentar</marcx:subfield>
+                    <marcx:subfield code="t">Lissabon</marcx:subfield>
+                    <marcx:subfield code="t">Af en afrikansk dagbog (1963)</marcx:subfield>
+                    <marcx:subfield code="t">Toppe</marcx:subfield>
+                    <marcx:subfield code="t">Hommages</marcx:subfield>
+                    <marcx:subfield code="t">Vinterens formler</marcx:subfield>
+                    <marcx:subfield code="t">Morgenfugle</marcx:subfield>
+                    <marcx:subfield code="t">Om historien</marcx:subfield>
+                    <marcx:subfield code="t">Ensomhed</marcx:subfield>
+                    <marcx:subfield code="t">I arbejdets udkanter</marcx:subfield>
+                    <marcx:subfield code="t">Efter nogens død</marcx:subfield>
+                    <marcx:subfield code="t">Oklahoma</marcx:subfield>
+                    <marcx:subfield code="t">Sommerslette</marcx:subfield>
+                    <marcx:subfield code="t">Skybrud over indlandet</marcx:subfield>
+                    <marcx:subfield code="t">Under tryk</marcx:subfield>
+                    <marcx:subfield code="t">Åbne og lukkede rum</marcx:subfield>
+                    <marcx:subfield code="t">En ¤kunstner i nord</marcx:subfield>
+                    <marcx:subfield code="t">I det fri</marcx:subfield>
+                    <marcx:subfield code="t">Langsom musik</marcx:subfield>
+                    <marcx:subfield code="x">Mørkesyn (1970)</marcx:subfield>
+                    <marcx:subfield code="t">Navnet</marcx:subfield>
+                    <marcx:subfield code="t">Nogle minutter</marcx:subfield>
+                    <marcx:subfield code="t">Pusterum juli</marcx:subfield>
+                    <marcx:subfield code="t">Med elven</marcx:subfield>
+                    <marcx:subfield code="t">Udkantsområde</marcx:subfield>
+                    <marcx:subfield code="t">Trafik</marcx:subfield>
+                    <marcx:subfield code="t">Nattevagt</marcx:subfield>
+                    <marcx:subfield code="t">Det ¤åbne vindue</marcx:subfield>
+                    <marcx:subfield code="T">Præludier 1-3</marcx:subfield>
+                    <marcx:subfield code="t">Præludier I-III</marcx:subfield>
+                    <marcx:subfield code="t">Oprejst</marcx:subfield>
+                    <marcx:subfield code="t">Bogskabet</marcx:subfield>
+                    <marcx:subfield code="x">Stier (1973)</marcx:subfield>
+                    <marcx:subfield code="t">Til venner bag en grænse</marcx:subfield>
+                    <marcx:subfield code="t">Fra snesmeltningen -66</marcx:subfield>
+                    <marcx:subfield code="t">Skitse i oktober</marcx:subfield>
+                    <marcx:subfield code="t">Længere ind</marcx:subfield>
+                    <marcx:subfield code="t">Posteringen</marcx:subfield>
+                    <marcx:subfield code="t">Langs radien</marcx:subfield>
+                    <marcx:subfield code="t">Jordgennemskuen</marcx:subfield>
+                    <marcx:subfield code="t">Decemberaften '72</marcx:subfield>
+                    <marcx:subfield code="t">Den ¤spredte menighed</marcx:subfield>
+                    <marcx:subfield code="t">Sene maj</marcx:subfield>
+                    <marcx:subfield code="t">Elegi</marcx:subfield>
+                    <marcx:subfield code="x">Østersøer (1974)</marcx:subfield>
+                    <marcx:subfield code="x">Sandhedsbarrieren (1978)</marcx:subfield>
+                    <marcx:subfield code="t">Citoyens</marcx:subfield>
+                    <marcx:subfield code="t">Fodgængerovergangen</marcx:subfield>
+                    <marcx:subfield code="t">Lysningen</marcx:subfield>
+                    <marcx:subfield code="t">Begyndelsen på den sene efterårsnats roman</marcx:subfield>
+                    <marcx:subfield code="t">Til Mats og Laila</marcx:subfield>
+                    <marcx:subfield code="t">Fra vinteren 1947</marcx:subfield>
+                    <marcx:subfield code="t">Schubertiana</marcx:subfield>
+                    <marcx:subfield code="t">Galleriet</marcx:subfield>
+                    <marcx:subfield code="t">Minusgrader</marcx:subfield>
+                    <marcx:subfield code="t">Båden - landsbyen</marcx:subfield>
+                    <marcx:subfield code="t">De ¤sorte bjerge</marcx:subfield>
+                    <marcx:subfield code="t">Hjemad</marcx:subfield>
+                    <marcx:subfield code="t">Efter en lang tørke</marcx:subfield>
+                    <marcx:subfield code="t">Skovparti</marcx:subfield>
+                    <marcx:subfield code="t">Funchal</marcx:subfield>
+                    <marcx:subfield code="x">Det ¤vilde torv (1983)</marcx:subfield>
+                    <marcx:subfield code="t">Kort pause i orgelkoncerten</marcx:subfield>
+                    <marcx:subfield code="t">Fra marts '79</marcx:subfield>
+                    <marcx:subfield code="t">Erindringerne ser mig</marcx:subfield>
+                    <marcx:subfield code="t">Vinterens blik</marcx:subfield>
+                    <marcx:subfield code="t">Stationen</marcx:subfield>
+                    <marcx:subfield code="t">Svar på brev</marcx:subfield>
+                    <marcx:subfield code="t">Islandsk orkan</marcx:subfield>
+                    <marcx:subfield code="t">De ¤blå anemoner</marcx:subfield>
+                    <marcx:subfield code="t">Det ¤blå hus</marcx:subfield>
+                    <marcx:subfield code="t">Satellitøjne</marcx:subfield>
+                    <marcx:subfield code="t">Nittenhundredeogfirs</marcx:subfield>
+                    <marcx:subfield code="t">Sorte postkort</marcx:subfield>
+                    <marcx:subfield code="t">Ildskrift</marcx:subfield>
+                    <marcx:subfield code="t">Mange skridt</marcx:subfield>
+                    <marcx:subfield code="t">Postludium</marcx:subfield>
+                    <marcx:subfield code="t">Drømmelaboratorium</marcx:subfield>
+                    <marcx:subfield code="t">Kodeks</marcx:subfield>
+                    <marcx:subfield code="t">Carillon</marcx:subfield>
+                    <marcx:subfield code="t">Molokai</marcx:subfield>
+                    <marcx:subfield code="x">For levende og døde (1989)</marcx:subfield>
+                    <marcx:subfield code="t">Den ¤glemte kaptajn</marcx:subfield>
+                    <marcx:subfield code="t">Seks vintre</marcx:subfield>
+                    <marcx:subfield code="t">Nattergalen i Badelunda</marcx:subfield>
+                    <marcx:subfield code="t">Alkæisk</marcx:subfield>
+                    <marcx:subfield code="t">Berceuse</marcx:subfield>
+                    <marcx:subfield code="t">Gader i Shanghai</marcx:subfield>
+                    <marcx:subfield code="t">Dybt i Europa</marcx:subfield>
+                    <marcx:subfield code="t">Flyveblad</marcx:subfield>
+                    <marcx:subfield code="t">Husets indre er uendeligt</marcx:subfield>
+                    <marcx:subfield code="t">Vermeer</marcx:subfield>
+                    <marcx:subfield code="t">Romanske buer</marcx:subfield>
+                    <marcx:subfield code="t">Epigram</marcx:subfield>
+                    <marcx:subfield code="t">Kvindeportræt - 1800-tallet</marcx:subfield>
+                    <marcx:subfield code="t">Middelaldermotiv</marcx:subfield>
+                    <marcx:subfield code="t">Air mail</marcx:subfield>
+                    <marcx:subfield code="t">Madrigal</marcx:subfield>
+                    <marcx:subfield code="t">Guldhveps</marcx:subfield>
+                    <marcx:subfield code="x">Sørgegondolen (1996)</marcx:subfield>
+                    <marcx:subfield code="t">April og stilhed</marcx:subfield>
+                    <marcx:subfield code="t">Usikkerhedens rige</marcx:subfield>
+                    <marcx:subfield code="t">Natbogsblad</marcx:subfield>
+                    <marcx:subfield code="t">Sørgegondol nr. 2</marcx:subfield>
+                    <marcx:subfield code="t">Landskab med sole</marcx:subfield>
+                    <marcx:subfield code="t">November i det forhenværende DDR</marcx:subfield>
+                    <marcx:subfield code="t">Fra juli 90</marcx:subfield>
+                    <marcx:subfield code="t">Gøgen</marcx:subfield>
+                    <marcx:subfield code="t">Tre strofer</marcx:subfield>
+                    <marcx:subfield code="t">Som at være barn</marcx:subfield>
+                    <marcx:subfield code="t">To byer</marcx:subfield>
+                    <marcx:subfield code="t">Lyset strømmer ind</marcx:subfield>
+                    <marcx:subfield code="t">Natlig rejse</marcx:subfield>
+                    <marcx:subfield code="t">Haikudigte</marcx:subfield>
+                    <marcx:subfield code="t">Fra øen 1860</marcx:subfield>
+                    <marcx:subfield code="t">Tavshed</marcx:subfield>
+                    <marcx:subfield code="t">Midvinter</marcx:subfield>
+                    <marcx:subfield code="t">En ¤skitse fra 1844</marcx:subfield>
+                    <marcx:subfield code="x">Den ¤store gåde (2004)</marcx:subfield>
+                    <marcx:subfield code="t">Ørneklippen</marcx:subfield>
+                    <marcx:subfield code="t">Facader</marcx:subfield>
+                    <marcx:subfield code="t">November</marcx:subfield>
+                    <marcx:subfield code="t">Sne falder</marcx:subfield>
+                    <marcx:subfield code="t">Underskrifter</marcx:subfield>
+                    <marcx:subfield code="T">Haikudigte 1-11</marcx:subfield>
+                    <marcx:subfield code="t">Haikudigte I-XI</marcx:subfield>
+                    <marcx:subfield code="t">Fængsel (1959)</marcx:subfield>
+                    <marcx:subfield code="x">Erindringerne ser mig (1993)</marcx:subfield>
+                    <marcx:subfield code="t">Erindringerne</marcx:subfield>
+                    <marcx:subfield code="t">Museer</marcx:subfield>
+                    <marcx:subfield code="t">Folkeskole</marcx:subfield>
+                    <marcx:subfield code="t">Krigen</marcx:subfield>
+                    <marcx:subfield code="t">Bibliotek</marcx:subfield>
+                    <marcx:subfield code="t">Realskole</marcx:subfield>
+                    <marcx:subfield code="t">Eksorcisme</marcx:subfield>
+                    <marcx:subfield code="t">Latin</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="652">
+                    <marcx:subfield code="n">87</marcx:subfield>
+                    <marcx:subfield code="z">21</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="652">
+                    <marcx:subfield code="o">sk</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="s">erindring</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="s">naturen</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="s">identitet</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="s">eksistens</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="700">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="a">Nielsen</marcx:subfield>
+                    <marcx:subfield code="h">Peter</marcx:subfield>
+                    <marcx:subfield code="c">f. 1948</marcx:subfield>
+                    <marcx:subfield code="4">trl</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="720">
+                    <marcx:subfield code="o">Karsten Sand Iversen</marcx:subfield>
+                    <marcx:subfield code="4">oth</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="990">
+                    <marcx:subfield code="o">201120</marcx:subfield>
+                    <marcx:subfield code="b">l</marcx:subfield>
+                    <marcx:subfield code="b">v</marcx:subfield>
+                    <marcx:subfield code="u">nt</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="996">
+                    <marcx:subfield code="a">DBC</marcx:subfield>
+                  </marcx:datafield>
+                </marcx:record>
+              </marcx:collection>
+              <os:identifier>870970-basis:28739877</os:identifier>
+              <os:creationDate>2011-04-12</os:creationDate>
+              <os:holdingsCount>58</os:holdingsCount>
+              <os:lendingLibraries>58</os:lendingLibraries>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>fullDisplay</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
