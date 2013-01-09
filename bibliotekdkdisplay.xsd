@@ -118,7 +118,7 @@
 				<xs:element ref="bibdk:infomediaLink" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:requestMethod" minOccurs="0"/>
 				<xs:element ref="bibdk:restrictedUse" minOccurs="0"/>
-				<xs:element ref="bibdk:sortKey"/>
+
 				<xs:element ref="bibdk:holdbackEndDate" minOccurs="0"/>
 				<xs:element ref="bibdk:typeGroup" minOccurs="1" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:orsOrderMaterialType" minOccurs="0"/>
@@ -179,7 +179,7 @@
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="audienceAgeElement" type="xs:string"/>
-	<xs:element name="audienceMarked" type="xs:string"/>	
+	<xs:element name="audienceMarked" type="xs:string"/>
 	<xs:element name="audiencePegi">
 		<xs:complexType>
 			<xs:sequence>
@@ -187,7 +187,7 @@
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
-	<xs:element name="audiencePegiElement" type="xs:string"/>	
+	<xs:element name="audiencePegiElement" type="xs:string"/>
 	<xs:element name="audienceSubject">
 		<xs:complexType>
 			<xs:sequence>
@@ -208,11 +208,66 @@
 	<xs:element name="content">
 		<xs:complexType>
 			<xs:sequence>
+				<xs:element ref="bibdk:contentNote" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:contentPartialNote" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:analyticContent" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:contentTitle" minOccurs="0" maxOccurs="unbounded"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
+	<xs:element name="contentNote">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:contentNoteDescription" minOccurs="0" maxOccurs="1"/>
+				<xs:element ref="bibdk:contentNoteElement" minOccurs="1" maxOccurs="1"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>	
+	<xs:element name="contentNoteDescription">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="punctuation" type="xs:string" use="optional"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>	
+	<xs:element name="contentNoteElement">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="punctuation" type="xs:string" use="optional"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>	
+	
+	<xs:element name="contentPartialNote">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:contentPartialNoteDescription" minOccurs="0" maxOccurs="1"/>
+				<xs:element ref="bibdk:contentPartialNoteElement" minOccurs="1" maxOccurs="1"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>	
+	<xs:element name="contentPartialNoteDescription">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="punctuation" type="xs:string" use="optional"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="contentPartialNoteElement">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="punctuation" type="xs:string" use="optional"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>	
 	<xs:element name="contentTitle" type="xs:string"/>
 	<xs:element name="context">
 		<xs:complexType>
@@ -253,7 +308,7 @@
 	<xs:element name="details">
 		<xs:complexType>
 			<xs:sequence>
-			<xs:element ref="bibdk:abstract" minOccurs="0"/>
+				<xs:element ref="bibdk:abstract" minOccurs="0"/>
 				<xs:element ref="bibdk:originalTitle" minOccurs="0"/>
 				<xs:element ref="bibdk:alternativeTitle" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:contributors" minOccurs="0"/>
@@ -359,7 +414,7 @@
 				<xs:element ref="bibdk:identifier" minOccurs="0" maxOccurs="unbounded"/>
 			</xs:sequence>
 		</xs:complexType>
-	</xs:element>	
+	</xs:element>
 	<xs:element name="infomediaLink" type="xs:string"/>
 	<xs:element name="ISSN" type="xs:string"/>
 	<xs:element name="language">
@@ -533,7 +588,6 @@
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="shelfMusic" type="xs:string"/>
-	<xs:element name="sortKey" type="xs:string"/>
 	<xs:element name="subject">
 		<xs:complexType>
 			<xs:sequence>
