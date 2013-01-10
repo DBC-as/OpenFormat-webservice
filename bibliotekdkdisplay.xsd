@@ -124,7 +124,7 @@
 				<xs:element ref="bibdk:hostPublicationID" minOccurs="0"/>
 				<xs:element ref="bibdk:infomediaLink" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:requestMethod" minOccurs="0"/>
-				<xs:element ref="bibdk:restrictedUse" minOccurs="0"/>
+				<xs:element ref="bibdk:restrictedUse" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:holdbackEndDate" minOccurs="0"/>
 				<xs:element ref="bibdk:typeGroup" minOccurs="1" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:orsOrderMaterialType" minOccurs="0"/>
