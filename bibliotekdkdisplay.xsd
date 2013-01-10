@@ -109,7 +109,14 @@
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="acquisitionTerms" type="xs:string"/>
-	<xs:element name="actorNote" type="xs:string"/>
+	<xs:element name="actorNote">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:actorElement" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>	
+	</xs:element>
+	<xs:element name="actorElement" type="xs:string"/>
 	<xs:element name="adminData">
 		<xs:complexType>
 			<xs:sequence>
@@ -118,7 +125,6 @@
 				<xs:element ref="bibdk:infomediaLink" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:requestMethod" minOccurs="0"/>
 				<xs:element ref="bibdk:restrictedUse" minOccurs="0"/>
-
 				<xs:element ref="bibdk:holdbackEndDate" minOccurs="0"/>
 				<xs:element ref="bibdk:typeGroup" minOccurs="1" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:orsOrderMaterialType" minOccurs="0"/>
@@ -222,7 +228,7 @@
 				<xs:element ref="bibdk:contentNoteElement" minOccurs="1" maxOccurs="1"/>
 			</xs:sequence>
 		</xs:complexType>
-	</xs:element>	
+	</xs:element>
 	<xs:element name="contentNoteDescription">
 		<xs:complexType>
 			<xs:simpleContent>
@@ -231,7 +237,7 @@
 				</xs:extension>
 			</xs:simpleContent>
 		</xs:complexType>
-	</xs:element>	
+	</xs:element>
 	<xs:element name="contentNoteElement">
 		<xs:complexType>
 			<xs:simpleContent>
@@ -240,8 +246,7 @@
 				</xs:extension>
 			</xs:simpleContent>
 		</xs:complexType>
-	</xs:element>	
-	
+	</xs:element>
 	<xs:element name="contentPartialNote">
 		<xs:complexType>
 			<xs:sequence>
@@ -249,7 +254,7 @@
 				<xs:element ref="bibdk:contentPartialNoteElement" minOccurs="1" maxOccurs="1"/>
 			</xs:sequence>
 		</xs:complexType>
-	</xs:element>	
+	</xs:element>
 	<xs:element name="contentPartialNoteDescription">
 		<xs:complexType>
 			<xs:simpleContent>
@@ -267,7 +272,7 @@
 				</xs:extension>
 			</xs:simpleContent>
 		</xs:complexType>
-	</xs:element>	
+	</xs:element>
 	<xs:element name="contentTitle" type="xs:string"/>
 	<xs:element name="context">
 		<xs:complexType>
