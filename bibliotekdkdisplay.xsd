@@ -134,7 +134,7 @@
 	<xs:element name="alternativeTitle">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="bibdk:alternativeTitleDescriptor"/>
+				<xs:element ref="bibdk:alternativeTitleDescriptor" minOccurs="0"/>
 				<xs:element ref="bibdk:alternativeTitleElement"/>
 			</xs:sequence>
 		</xs:complexType>
