@@ -413,8 +413,8 @@
                 <dcterms:temporal xsi:type="dkdcplus:DBCM">1900-1999</dcterms:temporal>
                 <dcterms:temporal xsi:type="dkdcplus:DBCM">2000-2009</dcterms:temporal>
               </dkabm:record>
-              <identifier>870970-basis:25699874</identifier>
-              <creationDate>2005-04-17</creationDate>
+              <os:identifier>870970-basis:25699874</os:identifier>
+              <os:creationDate>2005-04-17</os:creationDate>
 <os:holdingsCount>12</os:holdingsCount>
 <os:lendingLibraries>12</os:lendingLibraries>
             <os:formatsAvailable>
