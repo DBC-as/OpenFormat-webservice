@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+              <dkabm:record>
+                <ac:identifier>D29455556X|852470</ac:identifier>
+                <ac:source>Bibliotekskatalog</ac:source>
+                <dc:title>Pereat tristitia, 2</dc:title>
+                <dc:title xsi:type="dkdcplus:full">Pereat tristitia, 2</dc:title>
+                <dc:description>For blandet kor SATB a cappella</dc:description>
+                <dc:description>For blandet kor SATB a cappella</dc:description>
+                <dcterms:audience>voksenmaterialer</dcterms:audience>
+                <dc:publisher>Musikhøjskolens Forlag</dc:publisher>
+                <dc:contributor>Svend G. Asmussen</dc:contributor>
+                <dc:contributor>Thomas Morley</dc:contributor>
+                <dc:contributor>John Dowland</dc:contributor>
+                <dc:contributor>Francis Pilkington</dc:contributor>
+                <dc:contributor>Jacob Arcadelt</dc:contributor>
+                <dc:contributor>Sigurd Haugland</dc:contributor>
+                <dc:contributor>Hubertus Waelrant</dc:contributor>
+                <dc:contributor>Gottfried Wolters</dc:contributor>
+                <dc:contributor>Lajos Bárdos</dc:contributor>
+                <dc:contributor>Ida Høeg Jacobsen</dc:contributor>
+                <dc:contributor>B. Rasmus Fenger</dc:contributor>
+                <dc:contributor>Hugo Alfvén</dc:contributor>
+                <dc:contributor>Gustaf Wennerberg</dc:contributor>
+                <dc:contributor>Otto Mortensen</dc:contributor>
+                <dc:contributor>C. C. Møller</dc:contributor>
+                <dc:contributor>Claus Bang</dc:contributor>
+                <dc:date>op. 1968</dc:date>
+                <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+                <dcterms:extent>partitur, 31 sider</dcterms:extent>
+                <dc:language xsi:type="dcterms:ISO639-2">mul</dc:language>
+                <dc:language>Flere sprog</dc:language>
+                <dcterms:hasPart>Als ick U vinde</dcterms:hasPart>
+                <dcterms:hasPart>Come again</dcterms:hasPart>
+                <dcterms:hasPart>Det var en lørdag aften</dcterms:hasPart>
+                <dcterms:hasPart>Dindirin</dcterms:hasPart>
+                <dcterms:hasPart>Down among the dead men</dcterms:hasPart>
+                <dcterms:hasPart>Hej, lad os danse</dcterms:hasPart>
+                <dcterms:hasPart>Här är gudagott att vara</dcterms:hasPart>
+                <dcterms:hasPart>It was a lover and his lass</dcterms:hasPart>
+                <dcterms:hasPart>Jeg kan se på dine øjne</dcterms:hasPart>
+                <dcterms:hasPart>Margot, labourez les vignes</dcterms:hasPart>
+                <dcterms:hasPart>Margot, nu skal vinen høstes</dcterms:hasPart>
+                <dcterms:hasPart>Nu ligger kirkenoderne</dcterms:hasPart>
+                <dcterms:hasPart>Når jeg dig finder</dcterms:hasPart>
+                <dcterms:hasPart>Over fjorden</dcterms:hasPart>
+                <dcterms:hasPart>Pase el agoa</dcterms:hasPart>
+                <dcterms:hasPart>Rest, sweet Nymphs</dcterms:hasPart>
+                <dcterms:hasPart>Rossinyol</dcterms:hasPart>
+                <dcterms:hasPart>Uti vår hage</dcterms:hasPart>
+                <dcterms:hasPart>Århus Tappenstreg</dcterms:hasPart>
+              </dkabm:record>
+              <marcx:collection>
+                <marcx:record format="danMARC2" type="Bibliographic">
+                  <marcx:leader>000000000000000000000000</marcx:leader>
+                  <marcx:datafield ind1="0" ind2="0" tag="001">
+                    <marcx:subfield code="a">D29455556X</marcx:subfield>
+                    <marcx:subfield code="b">852470</marcx:subfield>
+                    <marcx:subfield code="f">a</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="004">
+                    <marcx:subfield code="r">n</marcx:subfield>
+                    <marcx:subfield code="a">e</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="008">
+                    <marcx:subfield code="t">m</marcx:subfield>
+                    <marcx:subfield code="b">dk</marcx:subfield>
+                    <marcx:subfield code="l">mul</marcx:subfield>
+                    <marcx:subfield code="v">4</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="009">
+                    <marcx:subfield code="a">a</marcx:subfield>
+                    <marcx:subfield code="g">xx</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="245">
+                    <marcx:subfield code="a">Pereat tristitia, 2</marcx:subfield>
+                    <marcx:subfield code="e">Udgivet af Svend-G. Asmussen for blandet kor a capella</marcx:subfield>
+                    <marcx:subfield code="m">musikalier</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="260">
+                    <marcx:subfield code="a">Egtved</marcx:subfield>
+                    <marcx:subfield code="c">cop. 1968</marcx:subfield>
+                    <marcx:subfield code="b">Musikhøjskolens Forlag</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="300">
+                    <marcx:subfield code="a">\partitur\</marcx:subfield>
+                    <marcx:subfield code="a">31 sider</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="509">
+                    <marcx:subfield code="a">For blandet kor SATB a cappella</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="512">
+                    <marcx:subfield code="a">For blandet kor SATB a cappella</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="700">
+                    <marcx:subfield code="a">Asmussen</marcx:subfield>
+                    <marcx:subfield code="h">Svend G.</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="700">
+                    <marcx:subfield code="a">Morley</marcx:subfield>
+                    <marcx:subfield code="h">Thomas</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="700">
+                    <marcx:subfield code="a">Dowland</marcx:subfield>
+                    <marcx:subfield code="h">John</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="700">
+                    <marcx:subfield code="a">Pilkington</marcx:subfield>
+                    <marcx:subfield code="h">Francis</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="700">
+                    <marcx:subfield code="a">Arcadelt</marcx:subfield>
+                    <marcx:subfield code="h">Jacob</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="700">
+                    <marcx:subfield code="a">Haugland</marcx:subfield>
+                    <marcx:subfield code="h">Sigurd</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="700">
+                    <marcx:subfield code="a">Waelrant</marcx:subfield>
+                    <marcx:subfield code="h">Hubertus</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="700">
+                    <marcx:subfield code="a">Wolters</marcx:subfield>
+                    <marcx:subfield code="h">Gottfried</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="700">
+                    <marcx:subfield code="a">Bárdos</marcx:subfield>
+                    <marcx:subfield code="h">Lajos</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="700">
+                    <marcx:subfield code="a">Jacobsen</marcx:subfield>
+                    <marcx:subfield code="h">Ida Høeg</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="700">
+                    <marcx:subfield code="a">Fenger</marcx:subfield>
+                    <marcx:subfield code="h">B. Rasmus</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="700">
+                    <marcx:subfield code="a">Alfvén</marcx:subfield>
+                    <marcx:subfield code="h">Hugo</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="700">
+                    <marcx:subfield code="a">Wennerberg</marcx:subfield>
+                    <marcx:subfield code="h">Gustaf</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="700">
+                    <marcx:subfield code="a">Mortensen</marcx:subfield>
+                    <marcx:subfield code="h">Otto</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="700">
+                    <marcx:subfield code="a">Møller</marcx:subfield>
+                    <marcx:subfield code="h">C. C.</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="700">
+                    <marcx:subfield code="a">Bang</marcx:subfield>
+                    <marcx:subfield code="h">Claus</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="795">
+                    <marcx:subfield code="å">11</marcx:subfield>
+                    <marcx:subfield code="a">Als ick U vinde</marcx:subfield>
+                    <marcx:subfield code="e">Hubertus Waelrant</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="795">
+                    <marcx:subfield code="å">12</marcx:subfield>
+                    <marcx:subfield code="a">Come again</marcx:subfield>
+                    <marcx:subfield code="e">John Dowland</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="795">
+                    <marcx:subfield code="å">13</marcx:subfield>
+                    <marcx:subfield code="a">Det var en lørdag aften</marcx:subfield>
+                    <marcx:subfield code="e">sats: Otto Mortensen</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="795">
+                    <marcx:subfield code="å">14</marcx:subfield>
+                    <marcx:subfield code="a">Dindirin</marcx:subfield>
+                    <marcx:subfield code="e">Anon.</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="795">
+                    <marcx:subfield code="å">15</marcx:subfield>
+                    <marcx:subfield code="a">Down among the dead men</marcx:subfield>
+                    <marcx:subfield code="e">sats: B. Rasmus Fenger</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="795">
+                    <marcx:subfield code="å">16</marcx:subfield>
+                    <marcx:subfield code="a">Hej, lad os danse</marcx:subfield>
+                    <marcx:subfield code="e">sats: Lajos Bárdos</marcx:subfield>
+                    <marcx:subfield code="f">tekst: Ida Høeg Jacobsen</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="795">
+                    <marcx:subfield code="å">17</marcx:subfield>
+                    <marcx:subfield code="a">Här är gudagott att vara</marcx:subfield>
+                    <marcx:subfield code="e">G. Wennerberg</marcx:subfield>
+                    <marcx:subfield code="e">sats: B. Rasmus Fenger</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="795">
+                    <marcx:subfield code="å">18</marcx:subfield>
+                    <marcx:subfield code="a">It was a lover and his lass</marcx:subfield>
+                    <marcx:subfield code="e">Thomas Morley</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="795">
+                    <marcx:subfield code="å">19</marcx:subfield>
+                    <marcx:subfield code="a">Jeg kan se på dine øjne</marcx:subfield>
+                    <marcx:subfield code="e">sats: Otto Mortensen</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="795">
+                    <marcx:subfield code="å">20</marcx:subfield>
+                    <marcx:subfield code="a">Margot, labourez les vignes</marcx:subfield>
+                    <marcx:subfield code="e">Jacob Arcadelt</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="795">
+                    <marcx:subfield code="å">21</marcx:subfield>
+                    <marcx:subfield code="a">Margot, nu skal vinen høstes</marcx:subfield>
+                    <marcx:subfield code="e">Jacob Arcadelt</marcx:subfield>
+                    <marcx:subfield code="f">tekst: Sigurd Haugland</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="795">
+                    <marcx:subfield code="å">22</marcx:subfield>
+                    <marcx:subfield code="a">Nu ligger kirkenoderne</marcx:subfield>
+                    <marcx:subfield code="e">C.C. Møller</marcx:subfield>
+                    <marcx:subfield code="e">tekst: Claus Bang</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="795">
+                    <marcx:subfield code="å">23</marcx:subfield>
+                    <marcx:subfield code="a">Når jeg dig finder</marcx:subfield>
+                    <marcx:subfield code="e">Hubertus Waelrant</marcx:subfield>
+                    <marcx:subfield code="f">tekst: Sigurd Haugland</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="795">
+                    <marcx:subfield code="å">24</marcx:subfield>
+                    <marcx:subfield code="a">Over fjorden</marcx:subfield>
+                    <marcx:subfield code="e">Anon.</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="795">
+                    <marcx:subfield code="å">25</marcx:subfield>
+                    <marcx:subfield code="a">Pase el agoa</marcx:subfield>
+                    <marcx:subfield code="e">Anon.</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="795">
+                    <marcx:subfield code="å">26</marcx:subfield>
+                    <marcx:subfield code="a">Rest, sweet Nymphs</marcx:subfield>
+                    <marcx:subfield code="e">Francis Pilkington</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="795">
+                    <marcx:subfield code="å">27</marcx:subfield>
+                    <marcx:subfield code="a">Rossinyol</marcx:subfield>
+                    <marcx:subfield code="e">sats: Gottfried Wolters</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="795">
+                    <marcx:subfield code="å">28</marcx:subfield>
+                    <marcx:subfield code="a">Uti vår hage</marcx:subfield>
+                    <marcx:subfield code="e">sats: Hugo Alfvén</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="795">
+                    <marcx:subfield code="å">29</marcx:subfield>
+                    <marcx:subfield code="a">Århus Tappenstreg</marcx:subfield>
+                    <marcx:subfield code="e">C.C. Møller</marcx:subfield>
+                    <marcx:subfield code="f">tekst: Claus Bang</marcx:subfield>
+                  </marcx:datafield>
+                </marcx:record>
+              </marcx:collection>
+              <os:identifier>852470-katalog:D29455556X</os:identifier>
+              <os:creationDate>2008-05-29</os:creationDate>
+              <os:holdingsCount>1</os:holdingsCount>
+              <os:lendingLibraries>1</os:lendingLibraries>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>fullDisplay</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
