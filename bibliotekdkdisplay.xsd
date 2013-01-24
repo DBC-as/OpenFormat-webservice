@@ -114,7 +114,7 @@
 			<xs:sequence>
 				<xs:element ref="bibdk:actorElement" maxOccurs="unbounded"/>
 			</xs:sequence>
-		</xs:complexType>	
+		</xs:complexType>
 	</xs:element>
 	<xs:element name="actorElement" type="xs:string"/>
 	<xs:element name="adminData">
@@ -480,9 +480,10 @@
 			<xs:sequence>
 				<xs:element ref="bibdk:hostPublication" minOccurs="0"/>
 				<xs:element ref="bibdk:format" minOccurs="0" maxOccurs="unbounded"/>
-				<xs:element ref="bibdk:place" minOccurs="0" maxOccurs="unbounded"/>
+
 				<xs:element ref="bibdk:edition" minOccurs="0"/>
 				<xs:element ref="bibdk:publisher" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:place" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:publicationYear" minOccurs="0"/>
 				<xs:element ref="bibdk:latestReprint" minOccurs="0"/>
 			</xs:sequence>
