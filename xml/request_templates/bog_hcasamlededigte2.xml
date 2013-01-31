@@ -4454,7 +4454,7 @@
           </os:object>
         </os:collection>
       </ns1:originalData>
-      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:outputFormat>bibliotekdkWorkDisplay</ns1:outputFormat>
     </ns1:formatRequest>
   </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
