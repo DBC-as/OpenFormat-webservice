@@ -36,8 +36,9 @@
               </os:formatsAvailable>
             </os:object>
           </os:collection>
-    </ns1:originalData>
- <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
-</ns1:formatRequest>
+        </ns1:originalData>
+        <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+        <ns1:trackingId>net_dsd.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
   </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
