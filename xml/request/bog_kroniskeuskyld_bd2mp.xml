@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+              <dkabm:record>
+                <ac:identifier>00176443|870970</ac:identifier>
+                <ac:source>Bibliotekskatalog</ac:source>
+                <dc:title>Den kroniske uskyld</dc:title>
+                <dc:title xsi:type="dkdcplus:full">Den kroniske uskyld</dc:title>
+                <dc:creator xsi:type="dkdcplus:aut">Klaus Rifbjerg</dc:creator>
+                <dc:creator xsi:type="oss:sort">Rifbjerg, Klaus</dc:creator>
+                <dc:subject xsi:type="dkdcplus:DK5-Text">Skønlitteratur</dc:subject>
+                <dc:subject xsi:type="dkdcplus:genre">fiktion</dc:subject>
+                <dc:subject xsi:type="dkdcplus:DK5">sk</dc:subject>
+                <dcterms:abstract>Roman om københavnske gymnasiaster i 1940'erne og 1950'erne</dcterms:abstract>
+                <dcterms:audience>voksenmaterialer</dcterms:audience>
+                <dc:publisher>Borgen</dc:publisher>
+                <dc:publisher>Nyt dansk Litteraturselskab</dc:publisher>
+                <dc:date>1974</dc:date>
+                <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+                <dcterms:extent>206 sider</dcterms:extent>
+                <dcterms:extent>2 bind</dcterms:extent>
+                <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                <dc:language>Dansk</dc:language>
+              </dkabm:record>
+              <marcx:collection>
+                <marcx:record format="danMARC2" type="Bibliographic">
+                  <marcx:leader>000000000000000000000000</marcx:leader>
+                  <marcx:datafield ind1="0" ind2="0" tag="001">
+                    <marcx:subfield code="a">00176443</marcx:subfield>
+                    <marcx:subfield code="b">870970</marcx:subfield>
+                    <marcx:subfield code="c">19890215</marcx:subfield>
+                    <marcx:subfield code="d">19750528</marcx:subfield>
+                    <marcx:subfield code="f">a</marcx:subfield>
+                    <marcx:subfield code="o">c</marcx:subfield>
+                    <marcx:subfield code="t">FAUST</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="004">
+                    <marcx:subfield code="r">n</marcx:subfield>
+                    <marcx:subfield code="a">e</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="008">
+                    <marcx:subfield code="t">m</marcx:subfield>
+                    <marcx:subfield code="u">u</marcx:subfield>
+                    <marcx:subfield code="a">1974</marcx:subfield>
+                    <marcx:subfield code="j">f</marcx:subfield>
+                    <marcx:subfield code="l">dan</marcx:subfield>
+                    <marcx:subfield code="b">dk</marcx:subfield>
+                    <marcx:subfield code="v">1</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="009">
+                    <marcx:subfield code="a">a</marcx:subfield>
+                    <marcx:subfield code="g">xx</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="018">
+                    <marcx:subfield code="a">50126137</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="032">
+                    <marcx:subfield code="a">DBR197075</marcx:subfield>
+                    <marcx:subfield code="x">SFD197075</marcx:subfield>
+                    <marcx:subfield code="a">DBR</marcx:subfield>
+                    <marcx:subfield code="x">SFD</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="100">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="a">Rifbjerg</marcx:subfield>
+                    <marcx:subfield code="h">Klaus</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="245">
+                    <marcx:subfield code="a">Den ¤kroniske uskyld</marcx:subfield>
+                    <marcx:subfield code="g">Bind 2</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="260">
+                    <marcx:subfield code="b">Borgen</marcx:subfield>
+                    <marcx:subfield code="b">i samarbejde med Nyt dansk Litteraturselskab</marcx:subfield>
+                    <marcx:subfield code="c">1974</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="300">
+                    <marcx:subfield code="a">206 sider</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="300">
+                    <marcx:subfield code="a">2 bind</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="504">
+                    <marcx:subfield code="a">Roman om københavnske gymnasiaster i 1940'erne og 1950'erne</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="520">
+                    <marcx:subfield code="a">Originaludgave 1958</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="652">
+                    <marcx:subfield code="n">86</marcx:subfield>
+                    <marcx:subfield code="z">06</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="652">
+                    <marcx:subfield code="o">sk</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="996">
+                    <marcx:subfield code="a">DBC</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="996">
+                    <marcx:subfield code="a">DBC</marcx:subfield>
+                  </marcx:datafield>
+                </marcx:record>
+                <marcx:record format="danMARC2" type="BibliographicMain">
+                  <marcx:leader>000000000000000000000000</marcx:leader>
+                  <marcx:datafield ind1="0" ind2="0" tag="001">
+                    <marcx:subfield code="a">50126137</marcx:subfield>
+                    <marcx:subfield code="b">870970</marcx:subfield>
+                    <marcx:subfield code="c">19890215</marcx:subfield>
+                    <marcx:subfield code="d">19750528</marcx:subfield>
+                    <marcx:subfield code="f">a</marcx:subfield>
+                    <marcx:subfield code="t">FAUST</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="004">
+                    <marcx:subfield code="r">n</marcx:subfield>
+                    <marcx:subfield code="a">h</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="008">
+                    <marcx:subfield code="b">dk</marcx:subfield>
+                    <marcx:subfield code="m">1</marcx:subfield>
+                    <marcx:subfield code="v">1</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="009">
+                    <marcx:subfield code="a">a</marcx:subfield>
+                    <marcx:subfield code="g">xx</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="021">
+                    <marcx:subfield code="a">87-418-4249-9</marcx:subfield>
+                    <marcx:subfield code="d">kr. 96.50</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="100">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="a">Rifbjerg</marcx:subfield>
+                    <marcx:subfield code="h">Klaus</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="245">
+                    <marcx:subfield code="a">Den ¤kroniske uskyld</marcx:subfield>
+                    <marcx:subfield code="ø">MagnaPrintserien</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="260">
+                    <marcx:subfield code="b">Borgen</marcx:subfield>
+                    <marcx:subfield code="b">i samarbejde med Nyt dansk Litteraturselskab</marcx:subfield>
+                    <marcx:subfield code="c">1974</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="300">
+                    <marcx:subfield code="a">2 bind</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="440">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="a">\MagnaPrintserien\</marcx:subfield>
+                    <marcx:subfield code="v">45</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="504">
+                    <marcx:subfield code="a">Roman om københavnske gymnasiaster i 1940'erne og 1950'erne</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="520">
+                    <marcx:subfield code="a">Originaludgave 1958</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="652">
+                    <marcx:subfield code="n">86</marcx:subfield>
+                    <marcx:subfield code="z">06</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="652">
+                    <marcx:subfield code="o">sk</marcx:subfield>
+                  </marcx:datafield>
+                </marcx:record>
+                <marcx:record format="danMARC2" type="BibliographicVolume">
+                  <marcx:leader>000000000000000000000000</marcx:leader>
+                  <marcx:datafield ind1="0" ind2="0" tag="001">
+                    <marcx:subfield code="a">00176443</marcx:subfield>
+                    <marcx:subfield code="b">870970</marcx:subfield>
+                    <marcx:subfield code="c">19890215</marcx:subfield>
+                    <marcx:subfield code="d">19750528</marcx:subfield>
+                    <marcx:subfield code="f">a</marcx:subfield>
+                    <marcx:subfield code="o">c</marcx:subfield>
+                    <marcx:subfield code="t">FAUST</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="004">
+                    <marcx:subfield code="r">n</marcx:subfield>
+                    <marcx:subfield code="a">b</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="008">
+                    <marcx:subfield code="t">m</marcx:subfield>
+                    <marcx:subfield code="u">u</marcx:subfield>
+                    <marcx:subfield code="a">1974</marcx:subfield>
+                    <marcx:subfield code="j">f</marcx:subfield>
+                    <marcx:subfield code="l">dan</marcx:subfield>
+                    <marcx:subfield code="v">1</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="014">
+                    <marcx:subfield code="a">50126137</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="032">
+                    <marcx:subfield code="a">DBR197075</marcx:subfield>
+                    <marcx:subfield code="x">SFD197075</marcx:subfield>
+                    <marcx:subfield code="a">DBR</marcx:subfield>
+                    <marcx:subfield code="x">SFD</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="245">
+                    <marcx:subfield code="g">Bind 2</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="300">
+                    <marcx:subfield code="a">206 sider</marcx:subfield>
+                  </marcx:datafield>
+                </marcx:record>
+              </marcx:collection>
+              <os:identifier>870970-basis:00176443</os:identifier>
+              <os:creationDate>2002-12-14</os:creationDate>
+              <os:holdingsCount>88</os:holdingsCount>
+              <os:lendingLibraries>88</os:lendingLibraries>
+            </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>fullDisplay</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
