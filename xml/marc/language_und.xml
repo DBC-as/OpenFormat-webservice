@@ -1,0 +1,14 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 000001544 *b 850330 *f a 
+002 00 *d D152771556 
+004 00 *r n *a e 
+008 00 *t m *a ???? *z ???? *l und *v 4 
+009 00 *a a *g xx 
+097 00 *a MF 46.4 Ålborg Oles *u Begrænset udlån 
+100 00 *a Olesen *h Svend B. *c f. 1908 
+245 00 *a Fra Povl Pop til Poul Pagh *c mænd og huse i det gamle Aalborg 
+260 00 *a Aalborg *b Selskabet for Aalborgs Historie *c 1972-1973 
+300 00 *a 2 bind *b ill. 
+440 00 *a Aalborg-bogen *v 1973 
+652 00 *m 46.4 *b Ålborg</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

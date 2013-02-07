@@ -1,0 +1,24 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 50126137 *b 870970 *c 19890215 *d 19750528 *f a *t FAUST 
+004 00 *r n *a h 
+008 00 *b dk *m 1 *v 1 
+009 00 *a a *g xx 
+021 00 *a 87-418-4249-9 *d kr. 96.50 
+100 00 *0 *a Rifbjerg *h Klaus 
+245 00 *a Den ¤kroniske uskyld *ø MagnaPrintserien 
+260 00 *b Borgen *b i samarbejde med Nyt dansk Litteraturselskab *c 1974 
+300 00 *a 2 bind 
+440 00 *0 *a \MagnaPrintserien\ *v 45 
+504 00 *a Roman om københavnske gymnasiaster i 1940'erne og 1950'erne 
+520 00 *a Originaludgave 1958 
+652 00 *n 86 *z 06 
+652 00 *o sk 
+
+001 00 *a 00176443 *b 870970 *c 19890215 *d 19750528 *f a *o c *t FAUST 
+004 00 *r n *a b 
+008 00 *t m *u u *a 1974 *j f *l dan *v 1 
+014 00 *a 50126137 
+032 00 *a DBR197075 *x SFD197075 *a DBR *x SFD 
+245 00 *g Bind 2 
+300 00 *a 206 sider</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

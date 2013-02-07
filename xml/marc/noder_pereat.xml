@@ -1,0 +1,46 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a D29455556X *b 852470 *f a 
+004 00 *r n *a e 
+008 00 *t m *b dk *l mul *v 4 
+009 00 *a a *g xx 
+245 00 *a Pereat tristitia, 2 *e Udgivet af Svend-G. Asmussen for blandet kor a capella *m musikalier 
+260 00 *a Egtved *c cop. 1968 *b Musikhøjskolens Forlag 
+300 00 *a \partitur\ *a 31 sider 
+509 00 *a For blandet kor SATB a cappella 
+512 00 *a For blandet kor SATB a cappella 
+700 00 *a Asmussen *h Svend G. 
+700 00 *a Morley *h Thomas 
+700 00 *a Dowland *h John 
+700 00 *a Pilkington *h Francis 
+700 00 *a Arcadelt *h Jacob 
+700 00 *a Haugland *h Sigurd 
+700 00 *a Waelrant *h Hubertus 
+700 00 *a Wolters *h Gottfried 
+700 00 *a Bárdos *h Lajos 
+700 00 *a Jacobsen *h Ida Høeg 
+700 00 *a Fenger *h B. Rasmus 
+700 00 *a Alfvén *h Hugo 
+700 00 *a Wennerberg *h Gustaf 
+700 00 *a Mortensen *h Otto 
+700 00 *a Møller *h C. C. 
+700 00 *a Bang *h Claus 
+795 00 *å 11 *a Als ick U vinde *e Hubertus Waelrant 
+795 00 *å 12 *a Come again *e John Dowland 
+795 00 *å 13 *a Det var en lørdag aften *e sats: Otto Mortensen 
+795 00 *å 14 *a Dindirin *e Anon. 
+795 00 *å 15 *a Down among the dead men *e sats: B. Rasmus Fenger 
+795 00 *å 16 *a Hej, lad os danse *e sats: Lajos Bárdos *f tekst: Ida Høeg Jacobsen 
+795 00 *å 17 *a Här är gudagott att vara *e G. Wennerberg *e sats: B. Rasmus Fenger 
+795 00 *å 18 *a It was a lover and his lass *e Thomas Morley 
+795 00 *å 19 *a Jeg kan se på dine øjne *e sats: Otto Mortensen 
+795 00 *å 20 *a Margot, labourez les vignes *e Jacob Arcadelt 
+795 00 *å 21 *a Margot, nu skal vinen høstes *e Jacob Arcadelt *f tekst: Sigurd Haugland 
+795 00 *å 22 *a Nu ligger kirkenoderne *e C.C. Møller *e tekst: Claus Bang 
+795 00 *å 23 *a Når jeg dig finder *e Hubertus Waelrant *f tekst: Sigurd Haugland 
+795 00 *å 24 *a Over fjorden *e Anon. 
+795 00 *å 25 *a Pase el agoa *e Anon. 
+795 00 *å 26 *a Rest, sweet Nymphs *e Francis Pilkington 
+795 00 *å 27 *a Rossinyol *e sats: Gottfried Wolters 
+795 00 *å 28 *a Uti vår hage *e sats: Hugo Alfvén 
+795 00 *å 29 *a Århus Tappenstreg *e C.C. Møller *f tekst: Claus Bang</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

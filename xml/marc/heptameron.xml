@@ -1,0 +1,11 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 590013 *b 820030 *f a 
+004 00 *r n *a e 
+008 00 *t m *a ???? *l 9 *v 4 
+009 00 *a a *g xx 
+041 00 *a 9 
+100 00 *a d'Angoulême *h Marguérite 
+245 00 *a L' ¤heptaméron *c Contes de la reine de Navarre 
+250 00 *a Nouvelle édition avec soin et accompagnée de notes explicatives 
+260 00 *a Paris, u.å.</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
