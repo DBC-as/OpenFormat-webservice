@@ -119,7 +119,7 @@
 	<xs:element name="actorElement" type="xs:string"/>
 	<xs:element name="adminData">
 		<xs:complexType>
-			<xs:sequence>
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
 				<xs:element ref="bibdk:pid"/>
 				<xs:element ref="bibdk:hostPublicationID" minOccurs="0"/>
 				<xs:element ref="bibdk:infomediaLink" minOccurs="0" maxOccurs="unbounded"/>
@@ -128,7 +128,7 @@
 				<xs:element ref="bibdk:holdbackEndDate" minOccurs="0"/>
 				<xs:element ref="bibdk:typeGroup" minOccurs="1" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:orsOrderMaterialType" minOccurs="0"/>
-			</xs:sequence>
+			</xs:choice>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="alternativeTitle">
@@ -480,7 +480,6 @@
 			<xs:sequence>
 				<xs:element ref="bibdk:hostPublication" minOccurs="0"/>
 				<xs:element ref="bibdk:format" minOccurs="0" maxOccurs="unbounded"/>
-
 				<xs:element ref="bibdk:edition" minOccurs="0"/>
 				<xs:element ref="bibdk:publisher" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:place" minOccurs="0" maxOccurs="unbounded"/>
