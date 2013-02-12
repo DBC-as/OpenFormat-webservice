@@ -68,9 +68,9 @@
 			<xs:sequence>
 				<xs:element ref="bibdk:title"/>
 				<xs:element ref="bibdk:creators" minOccurs="0"/>
+				<xs:element ref="bibdk:content" minOccurs="0"/>
 				<xs:element ref="bibdk:details" minOccurs="0"/>
 				<xs:element ref="bibdk:publicationDetails" minOccurs="0"/>
-				<xs:element ref="bibdk:content" minOccurs="0"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
@@ -79,9 +79,9 @@
 			<xs:sequence>
 				<xs:element ref="bibdk:title"/>
 				<xs:element ref="bibdk:creators" minOccurs="0"/>
+				<xs:element ref="bibdk:content" minOccurs="0"/>
 				<xs:element ref="bibdk:details" minOccurs="0"/>
 				<xs:element ref="bibdk:publicationDetails" minOccurs="0"/>
-				<xs:element ref="bibdk:content" minOccurs="0"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
