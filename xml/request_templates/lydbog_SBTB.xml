@@ -113,7 +113,7 @@
       </marcx:datafield>
       <marcx:datafield tag="512" ind1="0" ind2="0">
         <marcx:subfield code="i">Indlæser</marcx:subfield>
-        <marcx:subfield code="e"> Bjørn Haizelden</marcx:subfield>
+        <marcx:subfield code="e">Bjørn Haizelden</marcx:subfield>
       </marcx:datafield>
       <marcx:datafield tag="512" ind1="0" ind2="0">
         <marcx:subfield code="a">Indlæst i 1978</marcx:subfield>
