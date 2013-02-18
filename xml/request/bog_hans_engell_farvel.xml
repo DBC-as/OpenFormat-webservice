@@ -9,7 +9,8 @@
           <os:object>
   <dkabm:record>
     <ac:identifier>27502148|870970</ac:identifier>
-    <ac:source>NJE</ac:source>
+    <dc:identifier xsi:type="dkdcplus:ISBN">9788702071177</dc:identifier>
+    <ac:source>Bibliotekskatalog</ac:source >
     <dc:title>Farvel til Slotsholmen</dc:title>
     <dc:title xsi:type="dkdcplus:full">Farvel til Slotsholmen</dc:title>
     <dc:creator xsi:type="dkdcplus:aut">Hans Engell </dc:creator>
@@ -17,7 +18,7 @@
     <dc:subject xsi:type="dkdcplus:DK5">99.4 Engell, Hans</dc:subject>
     <dc:subject xsi:type="dkdcplus:DK5-Text">Biografier af enkelte personer</dc:subject>
     <dc:subject xsi:type="dkdcplus:DBCF">Det Konservative Folkeparti</dc:subject>
-    <dc:subject xsi:type="dkdcplus:DBCF">Hans Engell </dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCF">Hans Engell</dc:subject>
     <dc:subject xsi:type="oss:sort">Engell, Hans</dc:subject>
     <dc:subject xsi:type="dkdcplus:DBCO">erindringer</dc:subject>
     <dc:subject xsi:type="dkdcplus:DBCF">historie</dc:subject>
@@ -28,6 +29,7 @@
     <dc:subject xsi:type="dkdcplus:DBCF">politiske partier</dc:subject>
     <dcterms:abstract>Forfatteren (f. 1948) giver en personlig og dramatisk skildring af dansk politik i perioden 1993-2001, primært præget af Tamil-sagen, magtkampe i Det konservative Folkeparti og ikke mindst mødet med betonklodsen på Helsingørmotorvejen i 1996 og uheldets fatale følger</dcterms:abstract>
     <dc:description xsi:type="dkdcplus:series">2. del af: På Slotsholmen</dc:description>
+    <dcterms:audience>børnematerialer</dcterms:audience>
     <dcterms:audience>voksenmaterialer</dcterms:audience>
     <dkdcplus:version>1. udgave, 2. oplag</dkdcplus:version>
     <dc:publisher>Gyldendal</dc:publisher>
@@ -187,11 +189,10 @@
       </marcx:datafield>
     </marcx:record>
   </marcx:collection>
-  <oss:openurl>_BASEURL_url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:book&amp;rft.btitle=Farvel+til+Slotsholmen&amp;rft.aulast=Engell&amp;rft.aufirst=Hans&amp;rft.auinit=H&amp;rft.date=2008&amp;rft.isbn=9788702071177&amp;rft.pub=Gyldendal&amp;rft.edition=1.+udgave,+2.+oplag&amp;rft.genre=book</oss:openurl>
-            <os:identifier>870970-basis:27502148</os:identifier>
-<os:creationDate>1980-03-07</os:creationDate>
-<os:holdingsCount>12</os:holdingsCount>
-<os:lendingLibraries>12</os:lendingLibraries>
+  <os:identifier>870970-basis:27502148</os:identifier>
+  <os:creationDate>2008-11-11</os:creationDate>
+  <os:holdingsCount>96</os:holdingsCount>
+  <os:lendingLibraries>96</os:lendingLibraries>
             <os:formatsAvailable>
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
