@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+                     <dkabm:record>
+                        <ac:identifier>27295150|870970</ac:identifier>
+                        <dc:identifier xsi:type="dkdcplus:ISBN">9788702056563</dc:identifier>
+                        <ac:source>Bibliotekskatalog</ac:source>
+                        <dc:title>First choice for sjette</dc:title>
+                        <dc:title xsi:type="dkdcplus:full">First choice for sjette : pupil's book. Teacher's book</dc:title>
+                        <dcterms:alternative>1. choice for sjette</dcterms:alternative>
+                        <dcterms:alternative>First choice for 6.</dcterms:alternative>
+                        <dcterms:alternative>1. choice for 6.</dcterms:alternative>
+                        <dc:subject xsi:type="dkdcplus:DK5">89.3</dc:subject>
+                        <dc:subject xsi:type="dkdcplus:DK5-Text">Engelsk</dc:subject>
+                        <dc:subject xsi:type="dkdcplus:genre">nonfiktion</dc:subject>
+                        <dcterms:audience>voksenmaterialer</dcterms:audience>
+                        <dkdcplus:version>1. udgave, 1. oplag</dkdcplus:version>
+                        <dc:publisher>Gyldendal</dc:publisher>
+                        <dc:contributor>Gitte Frandsen</dc:contributor>
+                        <dc:contributor>Tania Kristiansen</dc:contributor>
+                        <dc:date>2008</dc:date>
+                        <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+                        <dc:format>illustreret</dc:format>
+                        <dcterms:extent>86, 67 sider</dcterms:extent>
+                        <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+                        <dc:language>Engelsk</dc:language>
+                     </dkabm:record>
+                     <marcx:collection>
+                        <marcx:record format="danMARC2" type="Bibliographic">
+                           <marcx:leader>000000000000000000000000</marcx:leader>
+                           <marcx:datafield ind1="0" ind2="0" tag="001">
+                              <marcx:subfield code="a">27295150</marcx:subfield>
+                              <marcx:subfield code="b">870970</marcx:subfield>
+                              <marcx:subfield code="c">20080721181051</marcx:subfield>
+                              <marcx:subfield code="d">20080616</marcx:subfield>
+                              <marcx:subfield code="f">a</marcx:subfield>
+                              <marcx:subfield code="t">FAUST</marcx:subfield>
+                           </marcx:datafield>
+                           <marcx:datafield ind1="0" ind2="0" tag="004">
+                              <marcx:subfield code="r">n</marcx:subfield>
+                              <marcx:subfield code="a">e</marcx:subfield>
+                           </marcx:datafield>
+                           <marcx:datafield ind1="0" ind2="0" tag="008">
+                              <marcx:subfield code="t">m</marcx:subfield>
+                              <marcx:subfield code="u">f</marcx:subfield>
+                              <marcx:subfield code="a">2008</marcx:subfield>
+                              <marcx:subfield code="b">dk</marcx:subfield>
+                              <marcx:subfield code="l">eng</marcx:subfield>
+                              <marcx:subfield code="v">0</marcx:subfield>
+                           </marcx:datafield>
+                           <marcx:datafield ind1="0" ind2="0" tag="009">
+                              <marcx:subfield code="a">a</marcx:subfield>
+                              <marcx:subfield code="g">xx</marcx:subfield>
+                           </marcx:datafield>
+                           <marcx:datafield ind1="0" ind2="0" tag="011">
+                              <marcx:subfield code="a">2 711 457 1</marcx:subfield>
+                           </marcx:datafield>
+                           <marcx:datafield ind1="0" ind2="0" tag="021">
+                              <marcx:subfield code="e">9788702056563</marcx:subfield>
+                              <marcx:subfield code="c">spiralryg</marcx:subfield>
+                              <marcx:subfield code="d">kr. 743,75</marcx:subfield>
+                           </marcx:datafield>
+                           <marcx:datafield ind1="0" ind2="0" tag="032">
+                              <marcx:subfield code="a">DBF200830</marcx:subfield>
+                              <marcx:subfield code="a">DBF</marcx:subfield>
+                           </marcx:datafield>
+                           <marcx:datafield ind1="0" ind2="0" tag="245">
+                              <marcx:subfield code="a">First choice for sjette</marcx:subfield>
+                              <marcx:subfield code="c">pupil's book</marcx:subfield>
+                              <marcx:subfield code="e">Gitte Frandsen, Tania Kristiansen</marcx:subfield>
+                              <marcx:subfield code="f">illustrationer Lotte Nybo ... Claus Rye Schierbeck ... Lars Horneman</marcx:subfield>
+                              <marcx:subfield code="y">Teacher's book</marcx:subfield>
+                              <marcx:subfield code="f">illustrationer: Lotte Nybo ... [et al.]</marcx:subfield>
+                           </marcx:datafield>
+                           <marcx:datafield ind1="0" ind2="0" tag="250">
+                              <marcx:subfield code="a">1. udgave</marcx:subfield>
+                              <marcx:subfield code="b">÷</marcx:subfield>
+                              <marcx:subfield code="x">1. oplag</marcx:subfield>
+                           </marcx:datafield>
+                           <marcx:datafield ind1="0" ind2="0" tag="260">
+                              <marcx:subfield code="a">Kbh.</marcx:subfield>
+                              <marcx:subfield code="b">Gyldendal</marcx:subfield>
+                              <marcx:subfield code="c">2008</marcx:subfield>
+                              <marcx:subfield code="k">Narayana Press, Gylling</marcx:subfield>
+                           </marcx:datafield>
+                           <marcx:datafield ind1="0" ind2="0" tag="300">
+                              <marcx:subfield code="a">86, 67 sider</marcx:subfield>
+                              <marcx:subfield code="b">ill.</marcx:subfield>
+                              <marcx:subfield code="c">30 cm</marcx:subfield>
+                           </marcx:datafield>
+                           <marcx:datafield ind1="0" ind2="0" tag="521">
+                              <marcx:subfield code="b">1. oplag</marcx:subfield>
+                              <marcx:subfield code="c">2008</marcx:subfield>
+                           </marcx:datafield>
+                           <marcx:datafield ind1="0" ind2="0" tag="652">
+                              <marcx:subfield code="m">89.3</marcx:subfield>
+                           </marcx:datafield>
+                           <marcx:datafield ind1="0" ind2="0" tag="700">
+                              <marcx:subfield code="0"/>
+                              <marcx:subfield code="a">Frandsen</marcx:subfield>
+                              <marcx:subfield code="h">Gitte</marcx:subfield>
+                           </marcx:datafield>
+                           <marcx:datafield ind1="0" ind2="0" tag="700">
+                              <marcx:subfield code="0"/>
+                              <marcx:subfield code="a">Kristiansen</marcx:subfield>
+                              <marcx:subfield code="h">Tania</marcx:subfield>
+                           </marcx:datafield>
+                           <marcx:datafield ind1="0" ind2="0" tag="745">
+                              <marcx:subfield code="a">1. choice for sjette</marcx:subfield>
+                           </marcx:datafield>
+                           <marcx:datafield ind1="0" ind2="0" tag="745">
+                              <marcx:subfield code="a">First choice for 6.</marcx:subfield>
+                           </marcx:datafield>
+                           <marcx:datafield ind1="0" ind2="0" tag="745">
+                              <marcx:subfield code="a">1. choice for 6.</marcx:subfield>
+                           </marcx:datafield>
+                           <marcx:datafield ind1="0" ind2="0" tag="990">
+                              <marcx:subfield code="o">200830</marcx:subfield>
+                              <marcx:subfield code="b">s</marcx:subfield>
+                              <marcx:subfield code="u">nt</marcx:subfield>
+                           </marcx:datafield>
+                           <marcx:datafield ind1="0" ind2="0" tag="996">
+                              <marcx:subfield code="a">DBC</marcx:subfield>
+                           </marcx:datafield>
+                        </marcx:record>
+                     </marcx:collection>
+                     <os:identifier>870970-basis:27295150</os:identifier>
+                     <os:creationDate>2008-06-16</os:creationDate>
+                     <os:holdingsCount>2</os:holdingsCount>
+                     <os:lendingLibraries>2</os:lendingLibraries>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>fullDisplay</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
