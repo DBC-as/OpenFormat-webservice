@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - BOOK
+A1  - Nationalmuseet
+T1  - Danmarks kirker. Bind 17. Vejle Amt. 3. bind, 13. hefte. Urlev, Ørum, Stouby, Hornum
+SP  - Side 1157-1264
+PB  - Nationalmuseet
+CY  - Kbh.
+Y1  - 2010
+SN  - 9788776021481
+ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
