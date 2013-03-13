@@ -2,7 +2,7 @@
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Book, Whole
 SR Print(0)
 A1 Knausgård,Karl Ove
-T1 Min kamp. 1. bog : roman
+T1 Min kamp : roman. 1. bog
 PB Lindhardt og Ringhof
 PP Kbh.
 YR 2010
