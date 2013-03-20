@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+              <dkabm:record>
+                <ac:identifier>008423815|810010</ac:identifier>
+                <dc:identifier xsi:type="dkdcplus:ISBN">9780415633765</dc:identifier>
+                <dc:identifier xsi:type="dkdcplus:ISBN">9780415633772</dc:identifier>
+                <dc:identifier xsi:type="dkdcplus:ISBN">9780203094839</dc:identifier>
+                <ac:source>Bibliotekskatalog</ac:source>
+                <dc:title>Religion, race, and Barack Obama's new democratic pluralism</dc:title>
+                <dc:title xsi:type="dkdcplus:full">Religion, race, and Barack Obama's new democratic pluralism</dc:title>
+                <dc:title xsi:type="dkdcplus:series">Routledge research in American politics and governance ; 2</dc:title>
+                <dc:subject xsi:type="dkdcplus:DBCF">Barack Obama</dc:subject>
+                <dc:subject xsi:type="oss:sort">Obama, Barack</dc:subject>
+                <dc:subject xsi:type="dcterms:LCSH">Cultural pluralism -- History -- 21st century</dc:subject>
+                <dc:subject xsi:type="dcterms:LCSH">Presidents -- Election -- 2008</dc:subject>
+                <dc:subject xsi:type="dcterms:LCSH">Religion and politics -- History -- 21st century</dc:subject>
+                <dc:subject xsi:type="dcterms:LCSH">United States -- Race relations -- Political aspects -- History -- 21st century</dc:subject>
+                <dc:subject xsi:type="dkdcplus:genre">nonfiktion</dc:subject>
+                <dc:description>Preface -- Religion, politics, and American society / Gastón Espinosa -- Mainline Protestants and the 2008 election / Laura R. Olson, Adam L. Warber, Kevin R. den Dulk -- Evangelicals and the 2008 election / Corwin Smidt -- Catholics and the 2008 election / David C. Leege and Stephen T. Mockabee -- Jews and the 2008 election / Kenneth Wald -- Muslims and the 2008 election / Brian Calfano, Paul A. Djupe, John C. Green -- Seculars and the 2008 election / Lyman Kellstedt and James L. Guth -- Women, religion, and the 2008 election / Katherine Knutson -- African Americans, religion, and the 2008 election / Valerie Cooper and Corwin Smidt -- Latinos, religion, and the 2008 election / Gastón Espinosa -- Asian Americans, religion, and the 2008 election / So Young Kim and Russell Jeung -- Conclusion</dc:description>
+                <dcterms:audience>voksenmaterialer</dcterms:audience>
+                <dc:publisher>Routledge</dc:publisher>
+                <dc:contributor>Gastón Espinosa</dc:contributor>
+                <dc:date>2012</dc:date>
+                <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+                <dcterms:extent>p. cm.</dcterms:extent>
+                <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+                <dc:language>Engelsk</dc:language>
+              </dkabm:record>
+              <marcx:collection>
+                <marcx:record format="danMARC2" type="Bibliographic">
+                  <marcx:leader>000000000000000000000000</marcx:leader>
+                  <marcx:datafield ind1="0" ind2="0" tag="001">
+                    <marcx:subfield code="a">008423815</marcx:subfield>
+                    <marcx:subfield code="b">810010</marcx:subfield>
+                    <marcx:subfield code="f">a</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="002">
+                    <marcx:subfield code="d">x92012012373</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="004">
+                    <marcx:subfield code="r">n</marcx:subfield>
+                    <marcx:subfield code="a">e</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="008">
+                    <marcx:subfield code="t">m</marcx:subfield>
+                    <marcx:subfield code="a">2012</marcx:subfield>
+                    <marcx:subfield code="b">us</marcx:subfield>
+                    <marcx:subfield code="d">y</marcx:subfield>
+                    <marcx:subfield code="l">eng</marcx:subfield>
+                    <marcx:subfield code="v">8</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="009">
+                    <marcx:subfield code="a">a</marcx:subfield>
+                    <marcx:subfield code="g">xx</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="021">
+                    <marcx:subfield code="e">9780415633765</marcx:subfield>
+                    <marcx:subfield code="b">hbk.</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="021">
+                    <marcx:subfield code="e">9780415633772</marcx:subfield>
+                    <marcx:subfield code="b">pbk.</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="021">
+                    <marcx:subfield code="e">9780203094839</marcx:subfield>
+                    <marcx:subfield code="b">ebk.</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="036">
+                    <marcx:subfield code="a">2012012373</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="043">
+                    <marcx:subfield code="a">n-us---</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="050">
+                    <marcx:subfield code="a">JK526 2008</marcx:subfield>
+                    <marcx:subfield code="b">.R45 2012</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="082">
+                    <marcx:subfield code="a">324.973</marcx:subfield>
+                    <marcx:subfield code="b">0931</marcx:subfield>
+                    <marcx:subfield code="c">23</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="245">
+                    <marcx:subfield code="a">Religion, race, and Barack Obama's new democratic pluralism</marcx:subfield>
+                    <marcx:subfield code="e">Gastón Espinosa, editor</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="260">
+                    <marcx:subfield code="a">New York</marcx:subfield>
+                    <marcx:subfield code="b">Routledge</marcx:subfield>
+                    <marcx:subfield code="c">2012</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="300">
+                    <marcx:subfield code="a">p. cm.</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="440">
+                    <marcx:subfield code="a">Routledge research in American politics and governance</marcx:subfield>
+                    <marcx:subfield code="v">2</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="530">
+                    <marcx:subfield code="a">Preface -- Religion, politics, and American society / Gastón Espinosa -- Mainline Protestants and the 2008 election / Laura R. Olson, Adam L. Warber, Kevin R. den Dulk -- Evangelicals and the 2008 election / Corwin Smidt -- Catholics and the 2008 election / David C. Leege and Stephen T. Mockabee -- Jews and the 2008 election / Kenneth Wald -- Muslims and the 2008 election / Brian Calfano, Paul A. Djupe, John C. Green -- Seculars and the 2008 election / Lyman Kellstedt and James L. Guth -- Women, religion, and the 2008 election / Katherine Knutson -- African Americans, religion, and the 2008 election / Valerie Cooper and Corwin Smidt -- Latinos, religion, and the 2008 election / Gastón Espinosa -- Asian Americans, religion, and the 2008 election / So Young Kim and Russell Jeung -- Conclusion</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="600">
+                    <marcx:subfield code="a">Obama</marcx:subfield>
+                    <marcx:subfield code="h">Barack</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="650">
+                    <marcx:subfield code="a">Presidents</marcx:subfield>
+                    <marcx:subfield code="z">United States</marcx:subfield>
+                    <marcx:subfield code="x">Election</marcx:subfield>
+                    <marcx:subfield code="y">2008</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="650">
+                    <marcx:subfield code="a">Religion and politics</marcx:subfield>
+                    <marcx:subfield code="z">United States</marcx:subfield>
+                    <marcx:subfield code="x">History</marcx:subfield>
+                    <marcx:subfield code="y">21st century</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="650">
+                    <marcx:subfield code="a">Cultural pluralism</marcx:subfield>
+                    <marcx:subfield code="z">United States</marcx:subfield>
+                    <marcx:subfield code="x">History</marcx:subfield>
+                    <marcx:subfield code="y">21st century</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="651">
+                    <marcx:subfield code="a">United States</marcx:subfield>
+                    <marcx:subfield code="x">Race relations</marcx:subfield>
+                    <marcx:subfield code="x">Political aspects</marcx:subfield>
+                    <marcx:subfield code="x">History</marcx:subfield>
+                    <marcx:subfield code="y">21st century</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="700">
+                    <marcx:subfield code="a">Espinosa</marcx:subfield>
+                    <marcx:subfield code="h">Gastón</marcx:subfield>
+                  </marcx:datafield>
+                </marcx:record>
+              </marcx:collection>
+              <os:identifier>810010-katalog:008423815</os:identifier>
+              <os:creationDate>2012-06-12</os:creationDate>
+              <os:holdingsCount>1</os:holdingsCount>
+              <os:lendingLibraries>1</os:lendingLibraries>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>fullDisplay</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
