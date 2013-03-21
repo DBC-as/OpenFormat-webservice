@@ -336,7 +336,6 @@ You should have received a copy of the GNU Affero General Public License along w
 					<xs:element ref="oso:object"/>
 				</xs:choice-->
 				<xs:any processContents="skip"/>
-                <xs:element ref="marcx:collection" minOccurs="0"/>
 				<xs:element ref="os:identifier"/>
 				<xs:element ref="os:holdingsCount" minOccurs="0"/>
 				<xs:element ref="os:relations" minOccurs="0"/>

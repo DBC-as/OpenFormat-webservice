@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- edited with XMLSpy v2012 (http://www.altova.com) by DBC A/S (DBC A/S) -->
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput" xmlns:os="http://oss.dbc.dk/ns/opensearch" targetNamespace="http://oss.dbc.dk/ns/openformat" elementFormDefault="qualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" targetNamespace="http://oss.dbc.dk/ns/openformat" elementFormDefault="qualified">
 	<xs:annotation>
 		<xs:documentation xml:lang="en">Open Format Service</xs:documentation>
 		<xs:documentation xml:lang="en">This XML Schema describes the data and structure of data of the Open Format service.</xs:documentation>
@@ -13,7 +13,6 @@ Open Library System is distributed in the hope that it will be useful, but WITHO
 
 You should have received a copy of the GNU Affero General Public License along with Open Library System.  If not, see http://www.gnu.org/licenses/</xs:documentation>
 	</xs:annotation>
-	<xs:import namespace="http://oss.dbc.dk/ns/openformatoutput" schemaLocation="openformatoutput.xsd"/>
 	<xs:import namespace="http://oss.dbc.dk/ns/opensearch" schemaLocation="opensearch_jaxb.xsd"/>
 	<xs:element name="formatRequest">
 		<xs:annotation>
@@ -24,6 +23,7 @@ You should have received a copy of the GNU Affero General Public License along w
 				<xs:element ref="of:agency" minOccurs="0"/>
 				<xs:element ref="of:authentication" minOccurs="0"/>
 				<xs:element ref="of:callback" minOccurs="0"/>
+				<xs:element ref="of:holdBackEndDate" minOccurs="0"/>
 				<xs:element ref="of:language" minOccurs="0"/>
 				<xs:element ref="of:originalData" maxOccurs="unbounded"/>
 				<xs:element ref="of:outputFormat"/>
@@ -38,9 +38,7 @@ You should have received a copy of the GNU Affero General Public License along w
 		</xs:annotation>
 		<xs:complexType>
 			<xs:choice>
-				<xs:element ref="ofo:bibliotekdkBriefDisplay"/>
-				<xs:element ref="ofo:bibliotekdkFullDisplay"/>
-				<xs:element ref="ofo:bibliotekdkWorkDisplay"/>
+				<xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="of:error"/>
 			</xs:choice>
 		</xs:complexType>
@@ -75,6 +73,11 @@ You should have received a copy of the GNU Affero General Public License along w
 	<xs:element name="groupIdAut">
 		<xs:annotation>
 			<xs:documentation xml:lang="en">Identifier of the group (most often a library number) the user belongs to (for authentication purposes)</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="holdBackEndDate" type="xs:date">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">date to compare a holdBackEndDate to, typically today</xs:documentation>
 		</xs:annotation>
 	</xs:element>
 	<xs:element name="language" type="of:languageType">
@@ -128,18 +131,22 @@ You should have received a copy of the GNU Affero General Public License along w
 	</xs:simpleType>
 	<xs:simpleType name="outputFormatType">
 		<xs:annotation>
-			<xs:documentation xml:lang="en">The types of output that can be returned by the service.</xs:documentation>
+			<xs:documentation xml:lang="en">The output formats that can be returned by the service.</xs:documentation>
 		</xs:annotation>
 		<xs:restriction base="xs:string">
-			<xs:enumeration value="bibliotekdkBriefDisplay"/>
-			<xs:enumeration value="bibliotekdkFullDisplay"/>
-			<xs:enumeration value="bibliotekdkWorkDisplay"/>
+			<xs:enumeration value="briefDisplayHtml"/>
+			<xs:enumeration value="fullDisplayHtml"/>
+			<xs:enumeration value="workDisplayHtml"/>
 			<xs:enumeration value="briefDisplay"/>
+			<xs:enumeration value="fullDisplay"/>
+			<xs:enumeration value="refWorks"/>
+			<xs:enumeration value="ris"/>
+			<xs:enumeration value="dm2ToWmsMarc21"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<xs:simpleType name="outputTypeType">
 		<xs:annotation>
-			<xs:documentation xml:lang="en">The types of output that can be returned by the service.</xs:documentation>
+			<xs:documentation xml:lang="en">The types of output that can be returned by the service. Default is xml</xs:documentation>
 		</xs:annotation>
 		<xs:restriction base="xs:string">
 			<xs:enumeration value="xml"/>
