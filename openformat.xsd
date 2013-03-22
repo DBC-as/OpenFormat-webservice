@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- edited with XMLSpy v2012 (http://www.altova.com) by DBC A/S (DBC A/S) -->
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" targetNamespace="http://oss.dbc.dk/ns/openformat" elementFormDefault="qualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:of="http://oss.dbc.dk/ns/openformat" targetNamespace="http://oss.dbc.dk/ns/openformat" elementFormDefault="qualified">
 	<xs:annotation>
 		<xs:documentation xml:lang="en">Open Format Service</xs:documentation>
 		<xs:documentation xml:lang="en">This XML Schema describes the data and structure of data of the Open Format service.</xs:documentation>
@@ -13,9 +13,6 @@ Open Library System is distributed in the hope that it will be useful, but WITHO
 
 You should have received a copy of the GNU Affero General Public License along with Open Library System.  If not, see http://www.gnu.org/licenses/</xs:documentation>
 	</xs:annotation>
-	<xs:import namespace="http://oss.dbc.dk/ns/openformatoutput" schemaLocation="openformatoutput.xsd"/>
-	<xs:import namespace="http://oss.dbc.dk/ns/opensearch" schemaLocation="opensearch.xsd"/>
-	<xs:import namespace="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" schemaLocation="bibliotekdkdisplay.xsd"/>
 	<xs:element name="formatRequest">
 		<xs:annotation>
 			<xs:documentation xml:lang="en">Request for formatting a single manifestation.</xs:documentation>
@@ -36,17 +33,11 @@ You should have received a copy of the GNU Affero General Public License along w
 	</xs:element>
 	<xs:element name="formatResponse">
 		<xs:annotation>
-			<xs:documentation xml:lang="en">The service response.</xs:documentation>
+			<xs:documentation xml:lang="en">The service response. For specs of responses look in openformatoutput.xsd and bibliotekdkdisplay.xsd</xs:documentation>
 		</xs:annotation>
 		<xs:complexType>
 			<xs:choice>
-				<xs:element ref="ofo:briefDisplayHtml"/>
-				<xs:element ref="ofo:fullDisplayHtml"/>
-				<xs:element ref="ofo:workDisplayHtml"/>
-				<xs:element ref="bibdk:briefDisplay"/>
-				<xs:element ref="bibdk:fullDisplay"/>
-				<xs:element ref="ofo:refWorks"/>
-				<xs:element ref="ofo:ris"/>
+                <xs:any processContents="skip" />
 				<xs:element ref="of:error"/>
 			</xs:choice>
 		</xs:complexType>
@@ -97,11 +88,7 @@ You should have received a copy of the GNU Affero General Public License along w
 		<xs:annotation>
 			<xs:documentation xml:lang="en">Input to be formated.</xs:documentation>
 		</xs:annotation>
-		<xs:complexType>
-			<xs:choice>
-				<xs:element ref="os:collection" maxOccurs="unbounded"/>
-			</xs:choice>
-		</xs:complexType>
+        <xs:any processContents="skip" />
 	</xs:element>
 	<xs:element name="outputFormat" type="of:outputFormatType">
 		<xs:annotation>
