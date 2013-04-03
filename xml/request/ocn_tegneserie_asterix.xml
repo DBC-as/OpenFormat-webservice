@@ -185,8 +185,8 @@
             <os:formatsAvailable>
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
+            <os:ocn>fake ocn number</os:ocn>
           </os:object>
-          <os:ocn>fake ocn number</os:ocn>
         </os:collection>
       </ns1:originalData>
       <ns1:outputFormat>fullDisplay</ns1:outputFormat>
