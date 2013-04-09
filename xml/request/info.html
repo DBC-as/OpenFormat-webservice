@@ -1,2 +1,43 @@
-<a href="openformat.wsdl">The WSDL is here</a>
+<html><head>
+__HEADER_WARNING__
+<script language="javascript">
+  var reqs = Array("__REQS__");
+  function change_format(form) {
+    if (n = form.outputFormat.selectedIndex) {
+      of = form.outputFormat[n].value;
+      form.xml.value = form.xml.value.replace(/outputFormat>[^<]*</, "outputFormat>"+of+"<");
+    }
+  }
+</script>
+</head><body>
+  <form target="_blank" name="f" method="POST" accept-charset="utf-8" onSubmit="change_format(this)">
+    <textarea name="xml" rows=20 cols=90>
+__XML__
+    </textarea>
+    <br /> <br />
+    <select name="no" onChange="if (this.selectedIndex) document.f.xml.value = reqs[this.options[this.selectedIndex].value];">
+      <option>Pick a test-request</option>
+      __OPTIONS__
+    </select>
+    &nbsp;
+    <select name="outputFormat">
+      <option selected>Pick a format</option>
+      <option>bibliotekdkFullDisplay</option>
+      <option>briefDisplayHtml</option>
+      <option>fullDisplayHtml</option>
+      <option>workDisplayHtml</option>
+      <option>briefDisplay</option>
+      <option>fullDisplay</option>
+      <option>refWorks</option>
+      <option>ris</option>
+    </select>
+    &nbsp;
+    <input type="submit" name="subm" value="Try me">
+    __DEBUG__
+  </form>
+  __ERROR__
 
+  <a href="openformat.wsdl">The WSDL is here</a>
+  <p style="font-size:0.6em">Version: __VERSION__</p>
+
+</body></html>
