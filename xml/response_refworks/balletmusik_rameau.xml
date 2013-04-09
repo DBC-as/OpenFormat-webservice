@@ -7,14 +7,15 @@ PB Erato
 PP Paris
 YR 1999
 SN Erato 3984261292
-K1 barok
-K1 balletmusik
-K1 operaballet
-K1 ouverture
-K1 operaouverture
-K1 instrumental
-K1 orkester
-K1 1730-1739
 K1 Frankrig
+K1 Frankrig
+K1 balletmusik
+K1 barok
+K1 instrumental
+K1 operaballet
+K1 operaouverture
+K1 orkester
+K1 ouverture
 K1 1680-1689
-K1 1690-1699</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+K1 1690-1699
+K1 1730-1739</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

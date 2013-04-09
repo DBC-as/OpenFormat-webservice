@@ -9,13 +9,13 @@ SP 18, 20
 OP 21
 YR 2011
 JF Plast panorama Scandinavia
-K1 design
-K1 kontorhuse
+K1 arkitektur
 K1 boliger
 K1 byggeri
-K1 arkitektur
-K1 ingeniørarbejde
+K1 design
 K1 energiforbrug
 K1 indeklima
+K1 ingeniørarbejde
+K1 kontorhuse
 K1 simuleringsteknik
 LK http://techmedia.swiflet.com/tm/pla/56/1/</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
