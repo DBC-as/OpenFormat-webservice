@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - SOUND
 A1  - Claro,Sofia Asunción
-A1  - Graug@ård,Lars
+A1  - Graugaard,Lars
 T1  - Music for harp and flute
 SP  - 1 cd
 PB  - Tutl
 Y1  - 2010
 SN  - Tutl FKT 063
-KW  - Danmark
-KW  - Frankrig
-KW  - Italien
-KW  - Tyskland
-KW  - fløjte
-KW  - harpe
+KW  - kammermusik
 KW  - harpesonate
 KW  - instrumental
-KW  - kammermusik
+KW  - fløjte
 KW  - tværfløjte
+KW  - harpe
 KW  - 1890-1899
 KW  - 1900-1909
 KW  - 1920-1929
@@ -24,4 +20,8 @@ KW  - 1930-1939
 KW  - 1950-1959
 KW  - 1970-1979
 KW  - 2000-2009
+KW  - Frankrig
+KW  - Italien
+KW  - Danmark
+KW  - Tyskland
 ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

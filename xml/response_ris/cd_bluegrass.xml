@@ -2,22 +2,22 @@
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - SOUND
 A1  - Rosenberg,Dan
 A1  - Blake,Nancy
-A1  - The ¤Clinch Mountain Boys
+A1  - The Clinch Mountain Boys
 T1  - The rough guide to the music of the Appalachians : mountain music - bluegrass, old-time, folk &amp; gospel
 SP  - 1 cd
 PB  - World Music Network
 CY  - London
 Y1  - 2002
 SN  - World Music Network RGNET 1104 CD
-KW  - Appalacherne
-KW  - USA
 KW  - bluegrass
 KW  - country
-KW  - folk
-KW  - folkemusik
-KW  - instrumental
 KW  - old time
+KW  - folkemusik
+KW  - folk
 KW  - vokal
+KW  - instrumental
 KW  - 1990-1999
 KW  - 2000-2009
+KW  - USA
+KW  - Appalacherne
 ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
