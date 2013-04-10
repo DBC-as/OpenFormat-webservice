@@ -2,26 +2,26 @@
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Sound Recording
 SR Print(0)
 A1 Claro,Sofia Asunción
-A1 Graug@ård,Lars
+A1 Graugaard,Lars
 T1 Music for harp and flute
 SP 1 cd
 PB Tutl
 YR 2010
 SN Tutl FKT 063
-K1 Danmark
-K1 Frankrig
-K1 Italien
-K1 Tyskland
-K1 fløjte
-K1 harpe
+K1 kammermusik
 K1 harpesonate
 K1 instrumental
-K1 kammermusik
+K1 fløjte
 K1 tværfløjte
+K1 harpe
 K1 1890-1899
 K1 1900-1909
 K1 1920-1929
 K1 1930-1939
 K1 1950-1959
 K1 1970-1979
-K1 2000-2009</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+K1 2000-2009
+K1 Frankrig
+K1 Italien
+K1 Danmark
+K1 Tyskland</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

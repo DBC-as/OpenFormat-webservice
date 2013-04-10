@@ -3,21 +3,21 @@
 SR Print(0)
 A1 Rosenberg,Dan
 A1 Blake,Nancy
-A1 The ¤Clinch Mountain Boys
+A1 The Clinch Mountain Boys
 T1 The rough guide to the music of the Appalachians : mountain music - bluegrass, old-time, folk &amp; gospel
 SP 1 cd
 PB World Music Network
 PP London
 YR 2002
 SN World Music Network RGNET 1104 CD
-K1 Appalacherne
-K1 USA
 K1 bluegrass
 K1 country
-K1 folk
-K1 folkemusik
-K1 instrumental
 K1 old time
+K1 folkemusik
+K1 folk
 K1 vokal
+K1 instrumental
 K1 1990-1999
-K1 2000-2009</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+K1 2000-2009
+K1 USA
+K1 Appalacherne</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

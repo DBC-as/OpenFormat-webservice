@@ -8,8 +8,9 @@ PB Borgen
 PP Valby
 YR 1991
 SN 8741859332
+T3 Borgen/data
+K1 telekommunikation
+K1 ISDN
 K1 datakommunikation
 K1 datanet
-K1 ISDN
-K1 telekommunikation
 K1 telenet</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
