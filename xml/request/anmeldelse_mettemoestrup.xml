@@ -92,10 +92,11 @@
                   </marcx:datafield>
                 </marcx:record>
               </marcx:collection>
-            <os:identifier>870971-basis:34036063</os:identifier>
+            <os:identifier>870971-anmeld:34036063</os:identifier>
 <os:creationDate>1980-03-07</os:creationDate>
-<os:holdingsCount>12</os:holdingsCount>
-<os:lendingLibraries>12</os:lendingLibraries>
+<os:holdingsCount>0</os:holdingsCount>
+<os:lendingLibraries>0</os:lendingLibraries>
+<os:relations><os:relation><os:relationType>dbcaddi:hasOnlineAccess</os:relationType><os:relationUri>[useraccessinfomedia]?action=getArticle&amp;faust=35108025&amp;libraryCode=[libraryCode]&amp;userId=[userId]&amp;userPinCode=[userPinCode]</os:relationUri><os:linkObject><os:accessType>rest</os:accessType><os:access>remote</os:access><os:linkTo/></os:linkObject></os:relation><os:relation><os:relationType>dbcbib:isPartOfManifestation</os:relationType><os:relationUri>870970-basis:03243796</os:relationUri></os:relation><os:relation><os:relationType>dbcaddi:isReviewOf</os:relationType><os:relationUri>870970-basis:29276307</os:relationUri></os:relation></os:relations>
             <os:formatsAvailable>
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
