@@ -128,6 +128,7 @@
 				<xs:element ref="bibdk:holdbackEndDate" minOccurs="0"/>
 				<xs:element ref="bibdk:typeGroup" minOccurs="1" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:orsOrderMaterialType" minOccurs="0"/>
+        <xs:element ref="bibdk:webArchive" minOccurs="0"/>
 			</xs:choice>
 		</xs:complexType>
 	</xs:element>
@@ -656,4 +657,5 @@
 	</xs:element>
 	<xs:element name="typeGroup" type="xs:string"/>
 	<xs:element name="usedLanguage" type="xs:string"/>
+  <xs:element name="webArchive" type="xs:string"/>
 </xs:schema>
