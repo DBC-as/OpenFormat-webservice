@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - BOOK
-T1  - Kompass. Bind 1. Indeks over Danmarks industri og næringsliv, Produkter/service = Kompass. Vol. 1, Register of Danish industry and commerce
-PB  - Kompass-Danmark
-CY  - Holte
-Y1  - 1993
-SN  - 13972286
-ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

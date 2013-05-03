@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:marc21><ofo:error>TypeError: Cannot read property "Uden klassemærke" from undefined, fileName: Dk5ToDewey.use.js, line: 3578</ofo:error></ofo:marc21></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
